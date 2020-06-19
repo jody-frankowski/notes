@@ -1,0 +1,3412 @@
+* Structure and Interpretation of Computer Programs
+:PROPERTIES:
+:SOURCE: https://melpa.org/#/sicp https://github.com/sarabander/sicp-pdf https://github.com/sarabander/sicp
+:END:
+
+[[./sicp-cover.jpg]]
+
+** 1 Building Abstractions with Procedures
+*** 1.1 The Elements of Programming
+:LOGBOOK:
+CLOCK: [2019-09-22 Sun 18:30]--[2019-09-22 Sun 19:46] =>  1:16
+CLOCK: [2019-09-16 Mon 18:14]--[2019-09-16 Mon 20:21] =>  2:07
+CLOCK: [2019-09-13 Fri 15:03]--[2019-09-13 Fri 16:06] =>  1:03
+CLOCK: [2019-09-12 Thu 16:20]--[2019-09-12 Thu 18:49] =>  2:29
+CLOCK: [2019-09-10 Tue 14:50]--[2019-09-10 Tue 16:20] =>  1:30
+:END:
+
+**** 1.1.1 Expressions
+**** 1.1.2 Naming and the Environment
+***** Read-Eval-Print Loop                                        :drill:
+SCHEDULED: <2022-03-04 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       2D416CA8-BE20-44A9-864E-EB8FFA238594
+:DRILL_LAST_INTERVAL: 636.4045
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-06 Sat 12:58]
+:END:
+
+cs: How is called a python/lisp *interpreter input cycle*?
+
+****** Answer
+
+A Read-Eval-Print Loop
+
+***** Define a Variable in Elisp                                  :drill:
+SCHEDULED: <2020-10-12 Mon>
+:PROPERTIES:
+:ID:       88902983-949C-4B13-BA73-18FE15B5FBFE
+:DRILL_LAST_INTERVAL: 290.8213
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.222
+:DRILL_EASE: 2.86
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-26 Thu 14:16]
+:END:
+
+elisp: *Define a variable* with <[defconst]>, <[defvar]> or <[setq]>
+
+***** Define a Variable in Scheme                                 :drill:
+SCHEDULED: <2021-11-28 Sun>
+:PROPERTIES:
+:ID:       A7ADBEAE-CF04-4C46-A9BD-B56A99E44168
+:DRILL_LAST_INTERVAL: 533.514
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:23]
+:END:
+
+scheme: *Define a variable* with <[(define NAME VALUE)]>
+
+**** 1.1.3 Evaluating Combinations
+***** Special Forms                                               :drill:
+SCHEDULED: <2020-07-06 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:SOURCE: https://www.gnu.org/software/emacs/manual/html_node/elisp/Special-Forms.html
+:ID:       2F79DFE4-7B97-4A45-A01C-815C4E5E3EE6
+:DRILL_LAST_INTERVAL: 24.7653
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.666
+:DRILL_EASE: 2.34
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-11 Thu 08:47]
+:END:
+
+lisp: <[*Special Forms*]> are <[functions that don't *evaluate* all of their
+arguments]>
+
+**** 1.1.4 Compound Procedures
+***** Function vs Procedure                                       :drill:
+SCHEDULED: <2020-09-24 Thu>
+:PROPERTIES:
+:SOURCE: https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87 https://en.wikipedia.org/wiki/Subroutine#Language_support_2
+:ID:       7ED81C54-AD66-4083-ACAE-37A82F6C4A23
+:DRILL_LAST_INTERVAL: 225.7627
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.1
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-11 Tue 11:14]
+:END:
+
+cs: A *subroutine* that returns a value is usually called a <[Function]>
+cs: A *subroutine* that doesn't return a value is usually called a <[Procedure]>
+
+***** Anonymous Function aka Lambda                               :drill:
+SCHEDULED: <2022-02-25 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       CEDD1A92-C15E-4BC0-9C75-8F4B71DC3ACE
+:DRILL_LAST_INTERVAL: 631.1881
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-04 Thu 11:49]
+:END:
+
+cs: <[Anonymous Function]> aka <[Lambda]>
+
+***** Scheme Named Function Definition                            :drill:
+SCHEDULED: <2020-06-28 Sun>
+:PROPERTIES:
+:SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
+:ID:       732F37AC-1DF9-4165-8055-3A2A67674B99
+:DRILL_LAST_INTERVAL: 24.7645
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 23
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.653
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-03 Wed 15:04]
+:END:
+
+scheme: prototype: Define a named function:
+<[(define NAME (lambda (ARGS...) ...))]>
+OR shorter version:
+<[(define (NAME ARGS...) ...)]>
+
+***** Lambda Definition                                           :drill:
+SCHEDULED: <2021-07-04 Sun>
+:PROPERTIES:
+:SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
+:ID:       65190513-558A-4D8B-ACB3-160894F6730B
+:DRILL_LAST_INTERVAL: 456.2115
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-04 Sat 12:44]
+:END:
+
+lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
+
+****** Note
+
+This is common to most lisp based languages
+
+***** Elisp Named Function Definition                             :drill:
+SCHEDULED: <2020-06-23 Tue>
+:PROPERTIES:
+:ID:       8F8D9A03-5564-4F52-A1C1-E383CFCC965E
+:DRILL_LAST_INTERVAL: 45.0044
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 26
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.538
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-05-09 Sat 09:26]
+:END:
+
+elisp: prototype: Define a named function:
+<[(defun NAME (args...) [docstring] [declare] [interactive] ...)]>
+
+***** Elisp Named Function Definition Declare                     :drill:
+SCHEDULED: <2020-07-21 Tue>
+:PROPERTIES:
+:ID:       FA1F46C0-91E9-466D-B831-2F1418A1A93B
+:DRILL_LAST_INTERVAL: 61.707
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.7
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-20 Wed 12:07]
+:END:
+
+elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~ *declare*
+can be used to add <[properties]> to the function
+
+****** Example
+
+(interactive-only value)
+(obsolete current-name when)
+
+***** Elisp Named Function Definition Interactive                 :drill:
+SCHEDULED: <2020-07-18 Sat>
+:PROPERTIES:
+:ID:       ACC72965-D448-41E9-AF6F-8FAE46D76D68
+:DRILL_LAST_INTERVAL: 62.4731
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-17 Sun 14:49]
+:END:
+
+elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~
+*interactive* specifies <[how the function should be called interactively]>
+
+****** Example
+
+(interactive "bBuffer to rename: \nsRename buffer %s to: ")
+
+**** 1.1.5 The Substitution Model for Procedure Application
+***** Applicative Order                                           :drill:
+SCHEDULED: <2021-05-15 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       2efd00dd-9bb5-415b-a4ef-3735c38565d0
+:DRILL_LAST_INTERVAL: 357.0975
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-23 Sat 12:14]
+:END:
+
+cs: <[Applicative Order]> is an *Evaluation Strategy* that <[evaluates the
+arguments before applying the function]>
+
+****** Tip
+
+*A* plicative order *A* pplies the *A* rguments first, and expands the function
+second.
+
+***** Normal Order                                                :drill:
+SCHEDULED: <2020-09-27 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       4143103f-0c1b-4132-8d2f-f855a53929bb
+:DRILL_LAST_INTERVAL: 191.0045
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-20 Fri 08:45]
+:END:
+
+cs: <[Normal Order]> is an *Evaluation Strategy* that <[fully expands the
+expression before applying the functions]>
+
+***** Lisp Uses Applicative Order                                 :drill:
+SCHEDULED: <2021-10-13 Wed>
+:PROPERTIES:
+:ID:       D22C1F10-E13E-4F6F-BB73-5E8ABD340120
+:DRILL_LAST_INTERVAL: 526.5456
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-04 Mon 15:01]
+:END:
+
+lisp: Lisp uses the <[Applicative Order]> Evalution Strategy
+
+***** Why Lisp Uses Applicative Order                             :drill:
+SCHEDULED: <2020-09-30 Wed>
+:PROPERTIES:
+:ID:       F9200285-F9BE-4E14-9D8D-6047899533F7
+:DRILL_LAST_INTERVAL: 263.1564
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:29]
+:END:
+
+lisp: Why does *Lisp* use the *Applicative Order* Evalution Strategy?
+
+****** Answer
+
+Because it avoids evaluating the same expressions multiple times
+
+**** 1.1.6 Conditional Expressions and Predicates
+***** Predicate                                                   :drill:
+SCHEDULED: <2020-08-02 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       4d4220fa-7ffa-4a72-a5ed-102c2d3a56d3
+:DRILL_LAST_INTERVAL: 203.6022
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:28]
+:END:
+
+cs: A <[*Predicate*]> is an expression that returns <[a boolean]>
+
+***** =if=                                                        :drill:
+SCHEDULED: <2021-05-22 Sat>
+:PROPERTIES:
+:ID:       dcb0067d-62cf-4dcb-a440-83a65bf21a97
+:DRILL_LAST_INTERVAL: 353.6424
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.668
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-02 Tue 14:53]
+:END:
+
+lisp: prototype: if: <[(if CONDITION THEN ELSE...)]>
+
+***** =when=                                                      :drill:
+SCHEDULED: <2020-12-17 Thu>
+:PROPERTIES:
+:ID:       506c5726-6435-4513-89af-570aaddd6092
+:DRILL_LAST_INTERVAL: 268.4266
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-24 Tue 12:31]
+:END:
+
+lisp: prototype: when: <[(when CONDITION THEN...)]>
+
+***** =unless=                                                    :drill:
+SCHEDULED: <2021-07-04 Sun>
+:PROPERTIES:
+:ID:       af344d0a-3557-4410-961c-a3007b6356b9
+:DRILL_LAST_INTERVAL: 400.5301
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-29 Fri 13:21]
+:END:
+
+lisp: prototype: unless: <[(unless CONDITION THEN...)]>
+
+***** =cond= in elisp and scheme                                  :drill:
+SCHEDULED: <2020-07-22 Wed>
+:PROPERTIES:
+:ID:       0a47d723-3330-462d-bc81-0b0ee63b1508
+:DRILL_LAST_INTERVAL: 94.4784
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.334
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-19 Sun 09:46]
+:END:
+
+elisp: prototype: cond:
+<[(cond (CONDITION THEN...)...
+        (t THEN))]>
+
+scheme: prototype: cond:
+<[(cond (CONDITION THEN...)...
+        (else THEN))]>
+
+***** Exercise 1.1
+
+*Exercise 1.1:* Below is a sequence of expressions.  What is the
+result printed by the interpreter in response to each expression?
+Assume that the sequence is to be evaluated in the order in which
+it is presented.
+
+#+BEGIN_SRC
+10
+
+(+ 5 3 4)
+
+(- 9 1)
+
+(/ 6 2)
+
+(+ (* 2 4) (- 4 6))
+
+(define a 3)
+
+(define b (+ a 1))
+
+(+ a b (* a b))
+
+(= a b)
+
+(if (and (> b a) (< b (* a b)))
+    b
+    a)
+
+(cond ((= a 4) 6)
+    ((= b 4) (+ 6 7 a))
+    (else 25))
+
+(+ 2 (if (> b a) b a))
+
+(* (cond ((> a b) a)
+        ((< a b) b)
+        (else -1))
+    (+ a 1))
+#+END_SRC
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define a 3)
+(define b (+ a 1))
+(and (equal? (+ 5 3 4) 12)
+     (equal? (- 9 1) 8)
+     (equal? (/ 6 2) 3)
+     (equal? (+ (* 2 4) (- 4 6)) 6)
+     (equal? (+ a b (* a b)) 19)
+     (equal? (= a b) #f)
+     (equal? (if (and (> b a) (< b (* a b)))
+            b
+            a)
+        4)
+     (equal? (cond ((= a 4) 6)
+              ((= b 4) (+ 6 7 a))
+              (else 25))
+        16)
+     (equal? (+ 2 (if (> b a) b a)) 6)
+     (equal? (* (cond ((> a b) a)
+                 ((< a b) b)
+                 (else -1))
+           (+ a 1))
+        16))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.2
+
+*Exercise 1.2:* Translate the following expression into prefix
+form.
+
+#+BEGIN_SRC
+5 + 4 + (2 - (3 - (6 + 4/5)))
+-----------------------------
+       3(6 - 2)(2 - 7)
+#+END_SRC
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(= (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5)))))
+      (* 3 (- 6 2) (- 2 7)))
+   -37/150)
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.3
+
+*Exercise 1.3:* Define a procedure that takes three numbers as
+arguments and returns the sum of the squares of the two larger
+numbers.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (solution a b c)
+  (cond ((and (>= a c) (>= b c)) (+ (* a a) (* b b)))
+        ((and (>= b a) (>= c a)) (+ (* b b) (* c c)))
+        ((and (>= a b) (>= c c)) (+ (* a a) (* c c)))))
+
+(define (test)
+  (= (solution 2 3 4) 25)
+  (= (solution 3 4 2) 25)
+  (= (solution 3 2 4) 25)
+  (= (solution 2 2 2) 8))
+
+(test)
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.4
+
+*Exercise 1.4:* Observe that our model of evaluation allows for
+combinations whose operators are compound expressions.  Use this
+observation to describe the behavior of the following procedure:
+
+#+BEGIN_SRC scheme
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b))
+#+END_SRC
+
+****** Solution
+
+The function =a-plus-abs-b= will return =a + b= if the b is strictly over 0,
+otherwise it will return =a - b=.
+
+***** Exercise 1.5
+
+*Exercise 1.5:* Ben Bitdiddle has invented a test to determine
+whether the interpreter he is faced with is using
+applicative-order evaluation or normal-order evaluation.  He
+defines the following two procedures:
+
+#+BEGIN_SRC scheme
+(define (p) (p))
+
+(define (test x y)
+  (if (= x 0)
+      0
+      y))
+#+END_SRC
+
+Then he evaluates the expression
+
+#+BEGIN_SRC scheme
+(test 0 (p))
+#+END_SRC
+
+
+****** Solution
+
+With an applicative order evaluation strategy it would unfold as follows:
+
+#+BEGIN_SRC
+(test 0 (p))
+
+(p) is evaluated and since it's an infinite recursion the interpreter would hang
+indefinitely.
+#+END_SRC
+
+With an normal order evaluation strategy it would unfold as follows:
+
+#+BEGIN_SRC
+(test 0 (p))
+
+is expanded to:
+
+(if (= 0 0)
+    0
+    (p))
+
+which would return 0.
+#+END_SRC
+
+**** 1.1.7 Example: Square Roots by Newton's Method
+***** Exercise 1.6
+
+*Exercise 1.6:* Alyssa P. Hacker doesn't see why `if' needs to be
+provided as a special form.  "Why can't I just define it as an
+ordinary procedure in terms of `cond'?" she asks.  Alyssa's friend
+Eva Lu Ator claims this can indeed be done, and she defines a new
+version of `if':
+
+#+BEGIN_SRC scheme
+(define (new-if predicate then-clause else-clause)
+  (cond (predicate then-clause)
+        (else else-clause)))
+#+END_SRC
+
+Eva demonstrates the program for Alyssa:
+
+#+BEGIN_SRC
+(new-if (= 2 3) 0 5)
+5
+
+(new-if (= 1 1) 0 5)
+0
+#+END_SRC
+
+Delighted, Alyssa uses `new-if' to rewrite the square-root program:
+
+#+BEGIN_SRC scheme
+(define (sqrt-iter guess x)
+  (new-if (good-enough? guess x)
+          guess
+          (sqrt-iter (improve guess x)
+                     x)))
+#+END_SRC
+
+What happens when Alyssa attempts to use this to compute square
+roots?  Explain.
+
+****** Solution
+
+Since =new-if= isn't a special form, all of its operand would be evaluated
+before executing its code (according to the applicative order evaluation
+strategy) which means that this would introduce an infinite recursion at the
+time of evaluation.
+
+***** Exercise 1.7
+
+*Exercise 1.7:* The `good-enough?' test used in computing square
+roots will not be very effective for finding the square roots of
+very small numbers.  Also, in real computers, arithmetic operations
+are almost always performed with limited precision.  This makes
+our test inadequate for very large numbers.  Explain these
+statements, with examples showing how the test fails for small and
+large numbers.  An alternative strategy for implementing
+`good-enough?' is to watch how `guess' changes from one iteration
+to the next and to stop when the change is a very small fraction
+of the guess.  Design a square-root procedure that uses this kind
+of end test.  Does this work better for small and large numbers?
+
+****** Solution
+
+Testing that the difference between the square of the guess and the radicand is
+less than 0.001 shows that the intended result be good "up to" 2 decimal places
+for radicands above 1.
+
+However for the radicands that are close to 0.001 or less wouldn't benefit from
+a similar precision. If the radicand was 1 with the original tolerance, a
+similar tolerance number would be 0.000001 with 0.001 as a radicand.
+
+Similarly, for very large numbers the tolerance would be too small and the guess
+would never be good enough because of the lack of the necessary precision in the
+machine operations. This would result in an infinite execution.
+
+Example with a small number:
+
+#+BEGIN_SRC scheme :results output :session "1.7"
+(define (average x y)
+  (/ (+ x y) 2))
+
+(define (improve guess x)
+  (average guess (/ x guess)))
+
+(define (good-enough? guess x)
+  (< (abs (- (square guess) x)) 0.001))
+
+(define (sqrt-iter guess x)
+  (if (good-enough? guess x)
+      guess
+      (sqrt-iter (improve guess x)
+                 x)))
+
+(define (bad-sqrt x)
+  (sqrt-iter 1.0 x))
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC scheme :results output :session "1.7"
+(define radicand 0.0009)
+(display (bad-sqrt radicand))
+(newline)
+(display (sqrt radicand))
+#+END_SRC
+
+#+RESULTS:
+: .04030062264654547
+: .03
+
+Here is a version of the algorithm which checks the differences between the
+guesses. This is done by checking that the difference between two guesses is
+smaller than one thousandth of guess:
+
+#+BEGIN_SRC scheme :results value :session
+(define (average x y)
+  (/ (+ x y) 2))
+
+(define (improve guess x)
+  (average guess (/ x guess)))
+
+(define (good-enough? guess x)
+  (< (abs (- guess (improve guess x)))
+  (* guess .001)))
+
+(define (sqrt-iter guess x)
+  (if (good-enough? guess x)
+      guess
+      (sqrt-iter (improve guess x)
+                 x)))
+
+(define (better-sqrt x)
+  (sqrt-iter 1.0 x))
+
+(better-sqrt 0.0009)
+#+END_SRC
+
+#+RESULTS:
+: 0.03002766742182557
+
+***** Exercise 1.8
+
+*Exercise 1.8:* Newton's method for cube roots is based on the
+fact that if y is an approximation to the cube root of x, then a
+better approximation is given by the value
+
+#+BEGIN_SRC
+x/y^2 + 2y
+----------
+    3
+#+END_SRC
+
+Use this formula to implement a cube-root procedure analogous to
+the square-root procedure.  (In section *Note 1-3-4:: we will see
+how to implement Newton's method in general as an abstraction of
+these square-root and cube-root procedures.)
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (improve guess x)
+  (/ (+ (/ x (square guess)) (* 2 guess))
+     3))
+
+(define (good-enough? guess x)
+  (< (abs (- guess (improve guess x)))
+  (* guess .001)))
+
+(define (cube-root-iter guess x)
+  (if (good-enough? guess x)
+      guess
+      (cube-root-iter (improve guess x)
+                 x)))
+
+(define (cube-root x)
+  (cube-root-iter 1.0 x))
+
+(cube-root 27)
+#+END_SRC
+
+#+RESULTS:
+: 3.001274406506175
+
+**** 1.1.8 Procedures as Black-Box Abstractions
+
+*** 1.2 Procedures and the Processes They Generate
+:LOGBOOK:
+CLOCK: [2019-10-06 Sun 15:10]--[2019-10-06 Sun 16:31] => 1:21
+CLOCK: [2019-10-01 Tue 17:57]--[2019-10-01 Tue 20:51] => 2:54
+CLOCK: [2019-09-22 Sun 19:50]--[2019-09-22 Mon 21:10] => 1:20
+:END:
+
+**** 1.2.1 Linear Recursion and Iteration
+***** Procedure != Process                                        :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       ff195e38-d812-4dcb-abcf-78c7a1f6eeb1
+:DRILL_LAST_INTERVAL: 191.2016
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-01-18 Sat 12:40]
+:END:
+
+cs: A recursive <[procedure]> can have an iterative <[process]>
+
+***** Exercise 1.9
+
+*Exercise 1.9:* Each of the following two procedures defines a
+method for adding two positive integers in terms of the procedures
+`inc', which increments its argument by 1, and `dec', which
+decrements its argument by 1.
+
+#+BEGIN_SRC scheme
+(define (+ a b)
+  (if (= a 0)
+      b
+      (inc (+ (dec a) b))))
+
+(define (+ a b)
+  (if (= a 0)
+      b
+      (+ (dec a) (inc b))))
+#+END_SRC
+
+Using the substitution model, illustrate the process generated by
+each procedure in evaluating `(+ 4 5)'.  Are these processes
+iterative or recursive?
+
+****** Solution
+
+First procedure:
+
+#+BEGIN_SRC
+(+ 4 5)
+(inc (+ (dec 4) 5))
+(inc (+ 3 5))
+(inc (inc (+ (dec 3) 5)))
+(inc (inc (+ 2 5)))
+(inc (inc (inc (+ (dec 2) 5))))
+(inc (inc (inc (+ 1 5))))
+(inc (inc (inc (inc (+ (dec 1) 5)))))
+(inc (inc (inc (inc (+ 0 5)))))
+(inc (inc (inc (inc 5))))
+(inc (inc (inc 6)))
+(inc (inc 7))
+(inc 8)
+9
+#+END_SRC
+
+Second procedure:
+
+#+BEGIN_SRC
+(+ 4 5)
+(+ (dec 4) (inc 5))
+(+ 3 6)
+(+ (dec 3) (inc 6))
+(+ 2 7)
+(+ (dec 2) (inc 7))
+(+ 1 8)
+(+ (dec 1) (inc 8))
+(+ 0 9)
+9
+#+END_SRC
+
+The first one is recursive. The second one is iterative.
+
+***** Exercise 1.10
+
+*Exercise 1.10:* The following procedure computes a mathematical
+function called Ackermann's function.
+
+#+BEGIN_SRC scheme
+(define (A x y)
+  (cond ((= y 0) 0)
+        ((= x 0) (* 2 y))
+        ((= y 1) 2)
+        (else (A (- x 1)
+                 (A x (- y 1))))))
+#+END_SRC
+
+What are the values of the following expressions?
+
+#+BEGIN_SRC scheme
+(A 1 10)
+
+(A 2 4)
+
+(A 3 3)
+#+END_SRC
+
+Consider the following procedures, where `A' is the procedure
+defined above:
+
+#+BEGIN_SRC scheme
+(define (f n) (A 0 n))
+
+(define (g n) (A 1 n))
+
+(define (h n) (A 2 n))
+
+(define (k n) (* 5 n n))
+#+END_SRC
+
+Give concise mathematical definitions for the functions computed
+by the procedures `f', `g', and `h' for positive integer values of
+n.  For example, `(k n)' computes 5n^2.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results output
+(define (A x y)
+  (cond ((= y 0) 0)
+        ((= x 0) (* 2 y))
+        ((= y 1) 2)
+        (else (A (- x 1)
+                 (A x (- y 1))))))
+
+(display (A 1 10))
+(newline)
+(display (A 2 4))
+(newline)
+(display (A 3 3))
+(newline)
+#+END_SRC
+
+#+RESULTS:
+: 1024
+: 65536
+: 65536
+
+=f(n)= computes =2*n=:
+#+BEGIN_SRC
+(A 0 n)
+(* 2 n)
+#+END_SRC
+
+=g(n)= computes =2^n=:
+#+BEGIN_SRC
+(g 1)
+(A 1 1)
+2
+
+(g n)
+(A 1 n)
+(A (- 1 1) (A 1 (- n 1))))
+(A 0 (A 1 (- n 1))))
+(* 2 (A 1 (- n 1))) ;; This is (* 2 (g (- n 1)))
+#+END_SRC
+
+h(n) computes =2^2^2...(n-1 exponentations, eg. h(2) -> 2^2)=:
+#+BEGIN_SRC
+(h 1)
+(A 2 1)
+2
+
+(h n)
+(A 2 n)
+(A 1 (A 2 (- n 1))) ;; This is (g (h (- n 1))) -> 2^h(n-1) -> 2^2^h(n-2)
+#+END_SRC
+
+**** 1.2.2 Tree Recursion
+***** Linear Recursion != Tree Recursion                          :drill:
+SCHEDULED: <2021-03-16 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       68c19c55-93ca-4e7f-b07b-f73f321eb3c6
+:DRILL_LAST_INTERVAL: 293.8681
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-26 Tue 15:21]
+:END:
+
+cs: <[Linear]> Recursion is different than <[Tree]> Recursion
+
+***** Exercise 1.11
+
+*Exercise 1.11:* A function f is defined by the rule that f(n) = n
+if n<3 and f(n) = f(n - 1) + 2f(n - 2) + 3f(n - 3) if n>= 3.
+Write a procedure that computes f by means of a recursive process.
+Write a procedure that computes f by means of an iterative
+process.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (f-recursive n)
+  (cond ((< n 3) n)
+        ((>= n 3) (+ (f-recursive (- n 1))
+                     (* 2 (f-recursive (- n 2)))
+                     (* 3 (f-recursive (- n 3)))))))
+
+(define (f-iterative n)
+  (cond ((< n 3) n)
+        ((>= n 3) (f n 3 2 1 0))))
+
+(define (f n current-n n-1 n-2 n-3)
+  (if (= n current-n)
+      (+ n-1
+         (* 2 n-2)
+         (* 3 n-3))
+      (f n
+         (+ current-n 1)
+         (+ n-1
+            (* 2 n-2)
+            (* 3 n-3))
+         n-1
+         n-2)))
+
+(and (= (f-recursive 6) (f-iterative 6))
+     (= (f-recursive 6) 59))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.12
+
+*Exercise 1.12:* The following pattern of numbers is called "Pascal's
+triangle".
+
+#+BEGIN_SRC
+        1
+      1   1
+    1   2   1
+  1   3   3   1
+1   4   6   4   1
+#+END_SRC
+
+The numbers at the edge of the triangle are all 1, and each number
+inside the triangle is the sum of the two numbers above it.(4)
+Write a procedure that computes elements of Pascal's triangle by
+means of a recursive process.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (pascal-triangle line column)
+  (if (or (= column 1) (= column line) (= line 1))
+      1
+      (+ (pascal-triangle (- line 1) (- column 1))
+         (pascal-triangle (- line 1) column))))
+
+(and (= (pascal-triangle 1 1) 1)
+     (= (pascal-triangle 2 1) 1)
+     (= (pascal-triangle 2 2) 1)
+     (= (pascal-triangle 3 1) 1)
+     (= (pascal-triangle 3 2) 2)
+     (= (pascal-triangle 3 3) 1)
+     (= (pascal-triangle 5 3) 6))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.13
+
+*Exercise 1.13:* Prove that _Fib_(n) is the closest integer to
+[phi]^n/[sqrt](5), where [phi] = (1 + [sqrt](5))/2.  Hint: Let
+[illegiblesymbol] = (1 - [sqrt](5))/2.  Use induction and the
+definition of the Fibonacci numbers (see section *Note 1-2-2::) to
+prove that _Fib_(n) = ([phi]^n - [illegiblesymbol]^n)/[sqrt](5).
+
+****** TODO Solution
+**** 1.2.3 Orders of Growth
+
+TODO Theta formulation
+
+***** Exercise 1.14
+
+*Exercise 1.14:* Draw the tree illustrating the process generated
+by the `count-change' procedure of section *Note 1-2-2:: in making
+change for 11 cents.  What are the orders of growth of the space
+and number of steps used by this process as the amount to be
+changed increases?
+
+****** Solution
+
+#+BEGIN_SRC
+
+#+END_SRC
+
+* Practical Vim, Second Edition, Edit Text at the Speed of Thought
+:PROPERTIES:
+:SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
+:END:
+
+** Tip 1: Meet the Dot Command
+*** .                                                               :drill:
+SCHEDULED: <2021-09-12 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       c4939665-f081-4940-a37c-f7e66e994b8b
+:DRILL_LAST_INTERVAL: 468.4349
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-01 Mon 09:56]
+:END:
+
+vim: <[Repeat the last change]> with <[.]>
+
+** Tip 2: Don’t Repeat Yourself
+*** S                                                               :drill:
+SCHEDULED: <2020-11-05 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       faf68228-ea4f-4e5d-a866-4882306e5f40
+:DRILL_LAST_INTERVAL: 239.0161
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-11 Wed 09:48]
+:END:
+
+vim: <[Clear the whole line and enter Insert mode]> with <[S]>
+
+*** s                                                               :drill:
+SCHEDULED: <2020-06-25 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       bbc6f710-861b-4bb2-9ba2-ffed88b9e0af
+:DRILL_LAST_INTERVAL: 4.7333
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 25
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.201
+:DRILL_EASE: 1.3
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-20 Sat 14:02]
+:END:
+
+vim: <[Clear a character and enter Insert mode]> with <[s]>
+
+** Tip 3: Take One Step Back, Then Three Forward
+*** ;                                                               :drill:
+SCHEDULED: <2021-06-30 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       68a12ba1-2022-4fe6-9a82-32c7e5ea232a
+:DRILL_LAST_INTERVAL: 419.0875
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-07 Thu 10:50]
+:END:
+
+vim: <[Repeat the last find]> with <[;]>
+
+** Tip 4: Act, Repeat, Reverse
+*** ,                                                               :drill:
+SCHEDULED: <2020-06-27 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       a68a0891-f245-487d-a63a-0a8391c8feed
+:DRILL_LAST_INTERVAL: 168.1691
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.89
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:28]
+:END:
+
+vim: <[Repeat the last *Find* in the opposite direction]> with <[,]>
+
+*** &                                                               :drill:
+SCHEDULED: <2020-08-08 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       204c0f1b-0031-4874-90a8-656e4b662088
+:DRILL_LAST_INTERVAL: 169.6953
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.1
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 09:52]
+:END:
+
+vim: <[Repeat the last substitute]> with <[&]>
+
+** Tip 5: Find and Replace by Hand
+
+Find and replace manually with =n= and =.=
+
+** Tip 6: Meet the Dot Formula
+*** The Dot Formula                                                 :drill:
+SCHEDULED: <2021-08-08 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       686ad2c7-f6e1-474b-bda7-0008b27efc6e
+:DRILL_LAST_INTERVAL: 435.4435
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-30 Sat 13:13]
+:END:
+
+vim: <[The *Dot Formula*]> consists in using <[one key to move and one key to
+execute]>
+
+** Tip 7: Pause with Your Brush Off the Page
+
+Normal mode is the natural resting state just like a painter rarely applies his
+brush on the canvas.
+
+** Tip 8: Chunk Your Undos
+
+Switching to Normal mode more or less often allows you to have a more or less
+granular control of the undos.
+
+** Tip 9: Compose Repeatable Changes
+
+Try to make all your changes repeatable so that you can use the dot command when
+needed.
+
+*** a vs i                                                          :drill:
+SCHEDULED: <2021-06-14 Mon>
+:PROPERTIES:
+:ID:       bca43c41-e0c9-41ab-9b3a-33faf360228c
+:DRILL_LAST_INTERVAL: 400.254
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-10 Sun 11:59]
+:END:
+
+vim: The difference between the text object selection *a* and *i* is that *a*
+<[selects the surrounding characters]>
+
+** Tip 10: Use Counts to Do Simple Arithmetic
+*** Decrementing Numbers                                            :drill:
+SCHEDULED: <2020-08-02 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       7621832B-2947-4CA8-A3EB-6D716AC7CC71
+:DRILL_LAST_INTERVAL: 62.4731
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.666
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-01 Mon 09:56]
+:END:
+
+vim: <[Decrement the next number on the line]> with <[<C-x>]>
+
+*** Incrementing Numbers                                            :drill:
+SCHEDULED: <2022-05-05 Thu>
+:PROPERTIES:
+:ID:       DA568555-6484-4A00-8E61-D0335AA9C45B
+:DRILL_LAST_INTERVAL: 685.8778
+:DRILL_CARD_TYPE: show1cloze
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-18 Thu 11:25]
+:END:
+
+vim: <[Increment the next number on the line]> with <[<C-a>]>
+
+*** Prefix C-x or C-a                                               :drill:
+SCHEDULED: <2021-04-16 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       6cc13d2a-fce7-4153-b485-6fc8d3d04c56
+:DRILL_LAST_INTERVAL: 345.9004
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-05 Tue 08:16]
+:END:
+
+vim: <[*Prefix* <C-x> or <C-a> with a *number*]> to <[decrement or increment the
+next number on the line by that number]>
+
+** Tip 11: Don’t Count If You Can Repeat
+
+Prefer the dot command over using counted modifications because it is easier and
+more flexible.
+
+** Tip 12: Combine and Conquer
+
+Use operator + motion when possible.
+
+*** Operator-Pending Mode                                           :drill:
+SCHEDULED: <2020-09-09 Wed>
+:PROPERTIES:
+:ID:       2de6267a-6faa-486e-a114-e025306ecddf
+:DRILL_LAST_INTERVAL: 204.9827
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-17 Mon 12:16]
+:END:
+
+vim: The mode in which you are after typing an operator (eg. =d=) is called
+<[Operator-Pending Mode]>
+
+** Tip 13: Make Corrections Instantly from Insert Mode
+*** <C-h>                                                              :drill:
+SCHEDULED: <2020-07-18 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
+:DRILL_LAST_INTERVAL: 73.7884
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-05 Tue 08:15]
+:END:
+
+vim: <[Delete back one character]> with <[<C-h>]>
+
+** Tip 14: Get Back to Normal Mode
+
+Enter *Insert Normal Mode* with =<C-o>= which is a mode that accepts a Normal
+Mode command and immediately returns to Insert Mode.
+
+*** zz                                                              :drill:
+SCHEDULED: <2020-08-01 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       52dcc269-bec8-467a-9ce1-c78af7dbb176
+:DRILL_LAST_INTERVAL: 128.1897
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-26 Thu 07:59]
+:END:
+
+vim: <[*Center* the current line]> with <[zz]>
+
+** Tip 15: Paste from a Register Without Leaving Insert Mode
+
+Paste from Insert Mode with =<C-r>{Register}=.
+Paste from Insert Mode and fix the indent with =<C-r><C-p>{Register}=.
+
+** Tip 16: Do Back-of-the-Envelope Calculations in Place
+
+Use ~<C-r>=~ to insert the result of an expression.
+
+** Tip 17: Insert Unusual Characters by Character Code
+
+Insert an unusual character with =<C-v>{123}= or =<C-v>u{1234}= where 1234 is an
+unicode point.
+Get the decimal and hexadecimal value of the character under the
+cursor with =ga=.
+
+*** C-v{nondigit}                                                   :drill:
+SCHEDULED: <2020-07-28 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       241b2c74-4d8a-4539-ba3c-a749d3d115fd
+:DRILL_LAST_INTERVAL: 197.4016
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-13 Mon 08:32]
+:END:
+
+vim: <[Insert a character literally]> with <[<C-v>{char}]>
+
+** Tip 18: Insert Unusual Characters by Digraph
+
+Insert Unusual Characters by Digraph with =<C-k>{char1}{char2}=
+
+** Tip 19: Overwrite Existing Text with Replace Mode
+
+Replace characters with =R=.
+
+Replace "virtual" characters with =gR=. This would replace a tab character as if
+it consisted of spaces.
+
+** Tip 20: Grok Visual Mode
+
+You can use all the same motions and operators in Visual than in Normal mode.
+
+Switch between Visual and Select mode with =<C-g>=.
+
+** Tip 21: Define a Visual Selection
+
+Do a character-wise selection with =v=.
+Do a line-wise selection with =V=.
+Do a block-wise selection with =<C-v>=.
+Reselect the last visual selection with =gv=.
+
+*** =o= while selecting                                             :drill:
+SCHEDULED: <2020-06-28 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       32c9c9d4-80c9-4849-af8e-059f39b12cf6
+:DRILL_LAST_INTERVAL: 9.5782
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.273
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-18 Thu 11:25]
+:END:
+
+vim: selection: <[Go to the other end of the selection]> with <[o]>
+
+** Tip 22: Repeat Line-Wise Visual Commands
+
+Use the dot command to repeat an action made on a line-wise selection.
+
+** Tip 23: Prefer Operators to Visual Commands Where Possible
+
+Because when a Visual mode command is repeated, it affects the same range of
+text, you should prefer the operators.
+
+** Tip 24: Edit Tabular Data with Visual-Block Mode
+** Tip 25: Change Columns of Text
+
+Use Visual Block Mode to change text over several lines when the modification
+needed is aligned.
+
+** Tip 26: Append After a Ragged Visual Block
+
+Use =I= or =A= to insert or append at the beginning or end of lines that are
+block selected. (Actually this works with line-wise selection too. And line-wise
+selection is simpler/clearer in this context.)
+
+** Tip 27: Meet Vim’s Command Line
+
+Enter Command-Line Mode with =:=.
+Execute an Ex Command on all lines that match a pattern with
+=:[range]g[lobal]/{pattern}/[cmd]=.
+
+*** =:normal=                                                       :drill:
+SCHEDULED: <2020-08-21 Fri>
+:PROPERTIES:
+:ID:       0f1be27d-6211-45f7-ab34-93ca8d36ec6a
+:DRILL_LAST_INTERVAL: 147.6968
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-26 Thu 08:00]
+:END:
+
+vim: ex command: Execute a Normal command on a range with
+<[=:[range]norm[al] {commands}]>
+
+*** C-r{register}                                                   :drill:
+SCHEDULED: <2020-07-05 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       2301cb16-42c4-47af-87d1-a2a986c2c6a1
+:DRILL_LAST_INTERVAL: 70.0836
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.199
+:DRILL_EASE: 1.62
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 11:58]
+:END:
+
+vim: <[Insert the content of a Register at the Command Line or in Insert Mode]>
+with <[=<C-r>{register}=]>
+
+
+** Tip 28: Execute a Command on One or More Consecutive Lines
+
+Execute an Ex Command on a specific line with =:{number}{command}=.
+Execute an Ex Command on a range of lines with =:{start},{end}{command}=.
+Execute an Ex Command on a range of lines by patterns with
+=:/{start}/,/{end}/{command}=.
+Offset the addresses with ={address}(-|+){number}=.
+
+In Ex Commands addresses:
+- =.= represents the current line
+- =$= represents the end of file
+- =%= represents the whole file
+- ='{mark}= represents the line containing the mark
+
+** Tip 29: Duplicate or Move Lines Using ‘:t’ and ‘:m’ Commands
+** Tip 30: Run Normal Mode Commands Across a Range
+
+Run Normal Mode Commands Across a Range with =:[range]normal COMMAND=.
+=%= as a range represents the whole file.
+
+** Tip 31: Repeat the Last Ex Command
+
+Repeat the last Ex command with =@:= and =@@= after that.
+
+** Tip 32: Tab-Complete Your Ex Commands
+
+Complete Ex commands with =TAB= or =<C-d>=.
+
+** Tip 33: Insert the Current Word at the Command Prompt
+*** Insert the Current Word at the Command Prompt with =<C-r><C-w>=    :drill:
+SCHEDULED: <2020-07-17 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       0e56efe4-aca9-4732-9aaa-ade5f96a2e66
+:DRILL_LAST_INTERVAL: 38.9546
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.438
+:DRILL_EASE: 2.0
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-08 Mon 08:33]
+:END:
+
+vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
+
+*** Insert the Current Whole WORD at the Command Prompt with =<C-r><C-a>= :drill:
+SCHEDULED: <2021-01-21 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       ae4476b5-de5c-4105-bd4b-f49c34a3f2e8
+:DRILL_LAST_INTERVAL: 225.2704
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 19
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.369
+:DRILL_EASE: 2.1
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-10 Wed 14:48]
+:END:
+
+vim: <[Insert the Current Whole WORD at the Command Prompt]> with <[<C-r><C-a>]>
+
+**** Tip
+
+<C-a> like <C-All>
+
+** Tip 34: Recall Commands from History
+
+Open the Ex commands Command-Line window with =q:=.
+Open the search history Command-Line window with =q/=.
+Switch from the Command-Line mode to the Command-Line window with =<C-f>=.
+
+** Tip 35: Run Commands in the Shell
+
+Execute shell commands with =:!{cmd}=.
+Use =%= in a shell command to insert the filename.
+Execute a shell with =:shell=.
+Get back to the original shell while letting vim run with =<C-z>=. Get back to vim
+with =fg=.
+Write the output of a command to the current file with =:read !{cmd}=.
+Pipe the content of the file to a command with =:[range]write !{cmd}=.
+Filter a part of the file through a command with =:[range]!{cmd}=
+Drop into Command-Line mode with the range prepopulated with =!{motion}= from
+Normal mode.
+
+** Tip 36: Run Multiple Ex Commands as a Batch
+
+Use =:source {script}= to execute a script containing Ex commands.
+Execute a Ex command on all the vim argument files with =:argdo {cmd}=.
+
+** Tip 37: Track Open Files with the Buffer List
+
+List the buffers with =:ls=.
+In the listing the =%= symbol represents the actual visible buffer.
+In the listing the =#= symbol represents the alternate buffer.
+Switch to the alternate buffer with =<C-^>=.
+Switch to the first buffer with =:bfirst=.
+Switch to the previous buffer with =:bprevious=.
+Switch to the next buffer with =:bnext=.
+Switch to the last buffer with =:blast=.
+Switch to the N buffer with =:b N=.
+Switch to a buffer with its partial name with =:b {buffer_name}=.
+Execute an Ex command on all the buffers with =:bufdo {cmd}=.
+Delete buffers with =:bdelete N1 N2 N3...= or =:N,M bdelete=.
+
+** Tip 38: Group Buffers into a Collection with the Argument List
+
+List vim's arguments with =:args=.
+Set the argument list with =:args {list}= where =list= can be a file name, a
+wildcard expression, or a shell command enclosed in backticks.
+
+** Tip 39: Manage Hidden Files
+
+In the buffer list the =h= symbol represents hidden buffers.
+In the buffer list the =a= symbol represents the active buffer.
+Use =:set hidden= in order not to be bothered about unsaved buffers when using
+=:argdo=, =:bufdo= or =:cfdo=.
+
+** Tip 40: Divide Your Workspace into Split Windows
+
+Split the window horizontally with =<C-w>s= or =:sp[lit] [file]=.
+Split the window vertically with =<C-w>v= or =:vs[plit] [file]=.
+
+Cycle between open windows with =<C-w>w=.
+Focus the window to the left with =<C-w>h=.
+Focus the window below with =<C-w>j=.
+Focus the window above with =<C-w>k=.
+Focus the window to the right with =<C-w>l=.
+For the five keybindings above, the =<C-w>= key can be followed by any number of
+=<C-[whjkl]>= key that will do the associated action.
+
+Close the active window with =<C-w>c= or =:clo[se]=.
+Keep only the active window, closing all others with =<C-w>o= or =:on[ly]=.
+
+Equalize width and height of all windows with =<C-w>==.
+Maximize height of the active window with =<C-w>_=.
+Maximize width of the active window with =<C-w>|=.
+Set active window height to [N] rows with =[N]<C-w>_=.
+Set active window width to [N] columns with =[N]<C-w>|=.
+
+** Tip 41: Organize Your Window Layouts with Tab Pages
+
+Open {filename} in a new tab with =:tabe[dit] {filename}=.
+Move the current window into its own tab with =<C-w>T=.
+Close the current tab page and all of its windows with =:tabc[lose]=.
+Keep the active tab page, closing all others with =:tabo[nly]=.
+Switch to tab page number {N} with =:tabn[ext] {N}= or ={N}gt=.
+Switch to the next tab page with =:tabn[ext]= or =gt=.
+Switch to the previous tab page with =:tabp[revious]= or =gT=.
+Move the current tab page with =:tabmove [N]=.
+
+** Tip 42: Open a File by Its Filepath Using ‘:edit’
+
+Print the Working Directory with =:pwd=.
+Open a file relatively to the current working directory with =:edit {filename}=.
+Open a file relatively to the current buffer file directory with
+=:edit %[<TAB>]{filename}=.
+Open a file relatively to the current buffer file directory without the current
+filename with =:edit %:h[<TAB>]{filename}=.
+
+** Tip 43: Open a File by Its Filename Using ‘:find’
+
+Find file by filenames with =:find {name}=.
+Set the path searched by =:find= with =:set path\={path}=.
+
+** Tip 44: Explore the File System with netrw
+
+Open file explorer for the current working directory with =:e[dit] .=.
+Open file explorer for the directory of the active buffer with =:E[xplore]=.
+
+** Tip 45: Save Files to Nonexistent Directories
+
+Echo the current buffer name and status with =<C-g>=.
+Create the directory of the current file with =:!mkdir %:h=. =%:h= represents
+the current file directory.
+
+** Tip 46: Save a File as the Super User
+
+Write a file as root with =:w !sudo tee % > /dev/null=.
+The =:w !{cmd}= command pipes the buffer to the standard input of the command
+specified.
+=%= represents the current file path.
+
+** Tip 47: Keep Your Fingers on the Home Row
+
+Keep your fingers on the Home Row and use the hjkl keys to move around.
+
+** Tip 48: Distinguish Between Real Lines and Display Lines
+
+Enable the number (line number) setting in order to distinguish real and display
+lines more easily.
+Prefix the following commands with =g= in order to act on display line rather
+than real lines: =j=, =k=, =0=, =^= and =$=.
+
+** Tip 49: Move Word-Wise
+
+Move forward to start of next word with =w=.
+Move forward to start of next WORD with =W=.
+Move backward to start of current/previous word with =b=.
+Move backward to start of current/previous WORD with =B=.
+Move forward to end of current/next word with =e=.
+Move forward to end of current/next WORD with =E=.
+
+A word is defined as a sequence of letters, digits, and underscores, or as a
+sequence of other nonblank characters separated with whitespace. A WORD is
+defined as a sequence of nonblank characters separated with whitespace.
+
+*** =ge=                                                            :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       97935b59-bf44-43d4-85c9-b96bc23357ac
+:DRILL_LAST_INTERVAL: 90.7386
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.273
+:DRILL_EASE: 1.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:57]
+:END:
+
+vim: <[Move to the end of the previous word]> with <[=ge=]>
+
+*** =gE=                                                            :drill:
+SCHEDULED: <2021-01-11 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       1c05c1b9-4866-4d3a-803f-f46973b7b745
+:DRILL_LAST_INTERVAL: 248.4604
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-08 Fri 12:01]
+:END:
+
+vim: <[Move to the end of the previous WHOLE WORD]> with <[=gE=]>
+
+** Tip 50: Find by Character
+
+Move forward to the next occurrence of {char} with =f{char}=.
+Move backward to the previous occurrence of {char} with =F{char}.=.
+Move forward to the character before the next occurrence of {char} with =t{char}=.
+Move backward to the character after the previous occurrence of {char} with =T{char}=.
+Repeat the last character-search command with =;=.
+Reverse the last character-search command with =,=.
+
+Jump in the middle of a word if the character you jump to is less likely to
+occur elsewhere.
+
+** Tip 51: Search to Navigate
+
+Move around with the search command.
+Use the search motion without the visual selection because the search motion
+is exclusive while the visual selection by default is not.
+
+*** Use the Search Command to Move Around                           :drill:
+SCHEDULED: <2020-07-17 Fri>
+:PROPERTIES:
+:ID:       4a83776b-8744-448f-9eb2-146d33d8503f
+:DRILL_LAST_INTERVAL: 45.473
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 20
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 2.9
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-02 Tue 14:52]
+:END:
+
+vim: best practice: Use the Search Command to Move Around
+
+*** Use the Search Command to Modify                                :drill:
+SCHEDULED: <2020-06-28 Sun>
+:PROPERTIES:
+:ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
+:DRILL_LAST_INTERVAL: 19.4056
+:DRILL_REPEATS_SINCE_FAIL: 15
+:DRILL_TOTAL_REPEATS: 47
+:DRILL_FAILURE_COUNT: 10
+:DRILL_AVERAGE_QUALITY: 2.787
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-09 Tue 11:27]
+:END:
+
+vim: best practice: Use the Search Command to Modify (after an operator)
+
+*** Exclusive vs Inclusive                                          :drill:
+SCHEDULED: <2020-07-07 Tue>
+:PROPERTIES:
+:ID:       f471a709-397c-4fc2-bd94-794c17d47bd8
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-02 Sun 13:23]
+:END:
+
+vim: An *Exclusive* Character Motion means that the motion will include
+<[only the start position]>
+vim: An *Inclusive* Character Motion means that the motion will include
+<[the start and end positions]>
+
+*** / is Exclusive                                                  :drill:
+SCHEDULED: <2021-01-06 Wed>
+:PROPERTIES:
+:ID:       9fe75d4a-fc16-47a7-b982-f54f0f834903
+:DRILL_LAST_INTERVAL: 240.6261
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-10 Sun 11:59]
+:END:
+
+vim: The =/= motion is <[Exclusive||Exclusive or Inclusive]> in its selection
+
+** Tip 52: Trace Your Selection with Precision Text Objects
+*** Text Object Motion vs Text Object Selection                     :drill:
+SCHEDULED: <2020-09-02 Wed>
+:PROPERTIES:
+:ID:       9e178e0f-5ebf-49fb-944e-c0e731ba2447
+:DRILL_LAST_INTERVAL: 73.1556
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.705
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-21 Sun 13:55]
+:END:
+
+vim: =(= is called a <[Text Object Motion]> while
+    =a(= is called a <[Text Object Selection]>
+
+*** =(=                                                             :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       dd09704b-0bba-4c2a-a9a4-5ece4ec46416
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:29]
+:END:
+
+vim: <[Move a sentence backward]> with <[(]>
+
+*** =)=                                                             :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       ff055d09-298d-4d9f-a304-7d5bb19ad849
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:29]
+:END:
+
+vim: <[Move a sentence forward]> with <[)]>
+
+*** ={=                                                             :drill:
+SCHEDULED: <2020-07-31 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       12dbf654-358f-4759-b51b-71684ac59c46
+:DRILL_LAST_INTERVAL: 172.9323
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-09 Sun 13:20]
+:END:
+
+vim: <[Move a paragraph backward]> with <[{]>
+
+*** =}=                                                             :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       4c30df8e-c0c6-4b87-8e82-fcfd2ffb825f
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:29]
+:END:
+
+vim: <[Move a paragraph forward]> with <[}]>
+
+*** =as=                                                            :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       6e5c1cd3-83bc-4a12-93d8-9a4c6120ae2b
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:29]
+:END:
+
+vim: <[Select a sentence]> with <[as]>
+
+*** =ap=                                                            :drill:
+SCHEDULED: <2020-06-29 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       043d2dbc-f404-4f3a-8c12-701bd315533d
+:DRILL_LAST_INTERVAL: 148.5046
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-01 Sat 09:34]
+:END:
+
+vim: <[Select a paragraph]> with <[ap]>
+
+*** =a[=                                                            :drill:
+SCHEDULED: <2020-07-31 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       ce142f5e-219f-45d0-a1a9-90179dbf0d8f
+:DRILL_LAST_INTERVAL: 172.9323
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-09 Sun 13:20]
+:END:
+
+vim: <[Select a "[" block]> with <[a[]>
+
+*** =a<=                                                            :drill:
+SCHEDULED: <2020-08-03 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d923e014-b59f-4ac5-8c68-b5a5938a94a8
+:DRILL_LAST_INTERVAL: 166.281
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.875
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-19 Wed 11:30]
+:END:
+
+vim: <[Select a "<" block]> with <[a<]>
+
+*** =a(= or =ab=                                                    :drill:
+SCHEDULED: <2020-07-31 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       f9b54363-47e0-43c6-bf7b-bf4bcb1145f7
+:DRILL_LAST_INTERVAL: 172.9323
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-09 Sun 13:21]
+:END:
+
+vim: <[Select a "(" block]> with <[ab or a(||X OR Y]>
+
+*** =a{= or =aB=                                                    :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       9698e753-b6ee-4292-a672-3c7458a54c27
+:DRILL_LAST_INTERVAL: 156.25
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:29]
+:END:
+
+vim: <[Select a "{" block]> with <[aB or a{||X OR Y]>
+
+*** =at=                                                            :drill:
+SCHEDULED: <2020-07-29 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       4e0a7298-a353-4ce0-a9e7-ff8ca2d5d98c
+:DRILL_LAST_INTERVAL: 161.0586
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-19 Wed 11:30]
+:END:
+
+vim: <[Select an html tag]> with <[at]>
+
+** Tip 53: Delete Around, or Change Inside
+
+Prefer the text-object selections =a{selection}= when deleting for cleaner
+results because the appropriate spaces around the word will be deleted.
+Prefer the text-object selections =i{selection}= when changing for a simpler
+modification because the spaces around the word won't be included.
+
+** Tip 54: Mark Your Place and Snap Back to It
+
+Mark a position with =m{letter}=. A lowercase letter can only local the current
+buffer. An uppercase letter can be used across buffers.
+
+Go to the line of the specified mark with ='{letter}=.
+Go to the line and column of the specified mark with =`{letter}=.
+
+Go to the position before the last jump within current file with =``=.
+Go to the location of last change with =`.=.
+Go to the location of last insertion with =`^=.
+Go to the start of last change or yank with =`[=.
+Go to the end of last change or yank with =`]=.
+Go to the start of last visual selection with =`<=.
+Go to the end of last visual selection with =`>=.
+
+** Tip 55: Jump Between Matching Parentheses
+
+Natively, in order to change surrounding braces to another brace symbol, jump to
+the matching brace first with =%=, then replace it, then jump back with =<C-o>=
+or =``= and replace the first one.
+Otherwise you can install the [[https://github.com/tpope/vim-surround][vim-surround]] plugin and use
+=cs{old_char}{new_char}=.
+
+Enable the /matchit/ plugin so that =%= can jump between more matching keywords
+(eg. HTML tags or Ruby def/end)
+
+*** =%=                                                             :drill:
+SCHEDULED: <2020-09-24 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       aa91ab44-ab79-4c79-b35a-b9449503ee33
+:DRILL_LAST_INTERVAL: 209.996
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-27 Thu 13:54]
+:END:
+
+vim: <[Go to the *Matching* or *Surrounding* Brace||X or Y]> with <[=%=]>
+
+** Tip 56: Traverse the Jump List
+
+Jump backward in the Jump List with =<C-o>=.
+Jump forward in the Jump List with =<C-i>=.
+Jump to line number with =[count]G=.
+Jump to top/middle/bottom of screen with =H=, =M= and =L=.
+Jump to file name under the cursor with =gf=.
+Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
+
+** Tip 57: Traverse the Change List
+
+See the Change List with =:changes=.
+
+*** =g;=                                                            :drill:
+SCHEDULED: <2020-06-29 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
+:DRILL_LAST_INTERVAL: 16.4666
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 29
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 3.138
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-13 Sat 11:08]
+:END:
+
+vim: <[Go to the next older change position]> with <[=g;=]>
+
+*** =g,=                                                            :drill:
+SCHEDULED: <2020-09-07 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       324e28c5-c60c-4647-8097-9bfa811bde44
+:DRILL_LAST_INTERVAL: 155.5297
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-04 Sat 12:43]
+:END:
+
+vim: <[Go to the next newer change position]> with <[=g,=]>
+
+*** =gi=                                                            :drill:
+SCHEDULED: <2021-02-07 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       0bb85849-f6cc-4c2e-9e16-8ebe022c8d8f
+:DRILL_LAST_INTERVAL: 261.2669
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-22 Fri 09:01]
+:END:
+
+vim: <[Get back to insertion mode at the place of last insertion]> with <[=gi=]>
+** Tip 58: Jump to the Filename Under the Cursor
+
+Jump to the filename under the cursor with =gf=.
+Make vim automatically try to append to a filename with
+=:set suffixesadd+={extension}=.
+Extend the directories Vim inspects for opening files with
+=:set path={dir},[,...]=.
+In the path variable =.= will stand for the directory of the current file and
+the empty string will stand for the current working directory.
+You should install plugins that set these up automatically for you (eg. for ruby
+[[https://github.com/tpope/vim-bundler][vim-bundler]] or [[https://github.com/vim-ruby/vim-ruby][vim-ruby]])
+
+** Tip 59: Snap Between Files Using Global Marks
+
+Use global marks (uppercase letter marks) to quickly switch between files.
+
+** Tip 60: Delete, Yank, and Put with Vim’s Unnamed Register
+
+The delete =d=, yank =y= and put =p= commands all act on the Unamed Register by
+default.
+The commands intelligently act character or line-wise.
+
+** Tip 61: Grok Vim’s Registers
+
+Prefix the delete, yank and put commands with ="{char}= to use a different
+register than the unamed one.
+The unnamed register is =""=.
+The expression register is ="==.
+The name of the alternate file is ="#=.
+The last inserted text is =".=.
+The last ex command is =":=.
+The last search is ="/=.
+There is 26 generic registers you can use with ="{letter}= where the letter if
+lowercase will overwrite the content of the register, and uppercase letters will
+append to it.
+
+*** Unamed Register                                                 :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       ea494056-358e-4f5f-b872-f93d9b0f2dc8
+:DRILL_LAST_INTERVAL: 151.3125
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-07 Sat 17:48]
+:END:
+
+vim: The <[Unamed Register]> contains the <[last deleted or yanked text]>
+
+*** =""= Register                                                   :drill:
+SCHEDULED: <2020-06-25 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       19b23e3e-d31c-47ad-8be5-12a884ef5e02
+:DRILL_LAST_INTERVAL: 4.7333
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 21
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.094
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-20 Sat 14:02]
+:END:
+
+vim: Use the <[Unamed]> register with <[=""=]>
+
+*** ="0= Register                                                   :drill:
+SCHEDULED: <2020-07-07 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       6d656590-90ea-4e1a-8cc5-eaa80060810f
+:DRILL_LAST_INTERVAL: 148.3424
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-10 Mon 09:59]
+:END:
+
+vim: Use the <[Yank]> register with <[="0=]>
+
+*** ="_= Register                                                   :drill:
+SCHEDULED: <2021-06-02 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       7e37c043-3820-4866-9dab-3b39b9dbd137
+:DRILL_LAST_INTERVAL: 346.1527
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-21 Sun 13:55]
+:END:
+
+vim: Use the <[Black Hole]> register with <[="_=]>
+
+*** ="+= Register                                                   :drill:
+SCHEDULED: <2020-07-01 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d1fc4317-1087-4170-8a01-87b18bc75528
+:DRILL_LAST_INTERVAL: 82.7778
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-09 Thu 14:31]
+:END:
+
+vim: Use the <[System Clipboard]> register with <[="+=]>
+
+*** ="*= Register                                                   :drill:
+SCHEDULED: <2020-06-24 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       dfbd6876-c438-4323-99c1-8cf35ed695bf
+:DRILL_LAST_INTERVAL: 20.8602
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 22
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.092
+:DRILL_EASE: 1.3
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-03 Wed 15:05]
+:END:
+
+vim: Use the <[System Primary Selection]> register with <[="*=]>
+
+*** ="%= Register                                                   :drill:
+SCHEDULED: <2020-06-26 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       e2b518de-7a8e-403c-9d90-dcd44aa1f1ca
+:DRILL_LAST_INTERVAL: 31.2418
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.267
+:DRILL_EASE: 1.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-26 Tue 15:21]
+:END:
+
+vim: Use the <[Current File Name]> register with <[="%=]>
+
+** Tip 62: Replace a Visual Selection with a Register
+
+Replace X with Y by copying Y, visually selecting X and using the =p= command
+without having to specify a register.
+In this instance the =p= command will replace the content of the unnamed
+register, and the ="0= (yank) register will need to be used next.
+Use a similar technique to swap other stuff. Also use a mark =m{letter}= to jump
+back to the first item place.
+
+** Tip 63: Paste from a Register
+
+Use =<C-r>{register}= from Insert Mode to paste from a register.
+Paste before the cursor and place the cursor just after the pasted text with
+=gP=.
+Paste after the cursor and place the cursor just after the pasted text with
+=gp=.
+
+** Tip 64: Interact with the System Clipboard
+
+Use =:set paste= to tell Vim that you are about to paste something and that it
+should not autoindent.
+Otherwise you can directly use the System Clipboard register ="+= which does not
+suffer from this problem.
+
+** Tip 65: Record and Execute a Macro
+
+Record a new Macro by typing =q{register}=, typing the macro content, and
+finally saving it with =q=.
+Check the content of the Macro with =:reg {register}=.
+Invoke a Macro with =@{register}=.
+
+*** =@@=                                                            :drill:
+SCHEDULED: <2020-10-14 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       aa65070d-00ae-490d-8f55-4d0aedaa826f
+:DRILL_LAST_INTERVAL: 138.1253
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.601
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-29 Fri 13:21]
+:END:
+
+vim: <[Invoke the Last Called Macro]> with <[=@@=]>
+
+** Tip 66: Normalize, Strike, Abort
+
+Be precise in your motion when recording macros. It's better to be more verbose.
+
+Easily repeat the macro by prefixing it with a count, like so ={count}@{macro}=.
+You can overshoot with the count, and in most cases it won't matter because the
+repetition will stop when Vim fails to execute a command from the macro.
+
+** Tip 67: Play Back with a Count
+
+An easy way to repeat the Dot Formula multiple times is to record one in a
+macro, and then executing the macro with a count like so:
+={movement}{action}qq;.q{count}@=.
+A count of 22 is easy to type because it uses the same key as the =@= key on a
+qwerty keyboard.
+
+** Tip 68: Repeat a Change on Contiguous Lines
+
+Execute a macro in series by executing it with a count.
+The whole run can fail if one of the macro instance fails to execute.
+
+Execute a macro in parallel by using the =:normal= Ex Command, like so
+=:{range}normal @{macro}=. The advantage of this technique is that all the
+macros that can execute will.
+
+*** =~=                                                             :drill:
+SCHEDULED: <2020-09-22 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       9fd4938e-85be-4ed1-9d8d-438c13da7262
+:DRILL_LAST_INTERVAL: 190.3108
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-16 Mon 10:29]
+:END:
+
+vim: <[Switch case of the current character]> with <[~]>
+
+** Tip 69: Append Commands to a Macro
+
+*** Append to a Macro                                               :drill:
+SCHEDULED: <2020-08-08 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       9a008e35-d7e1-467f-be2e-71c40a68dfc7
+:DRILL_LAST_INTERVAL: 150.5923
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-10 Tue 10:34]
+:END:
+
+vim: <[Append Commands to a Macro]> with <[=q{Uppercase letter}=]>
+
+** Tip 70: Act Upon a Collection of Files
+
+Execute a macro on multiple files in parallel with =:argdo normal @{macro}=.
+Execute a macro on multiple files in series by adding the =:next= command at the
+end of the macro.
+The advantage of the parallel execution is that if an execution fails, it will
+still execute for all the other buffers.
+The advantage of the series execution is that if an execution fails, the failed
+buffer would be immediately in the current view.
+
+** Tip 71: Evaluate an Iterator to Number Items in a List
+
+To insert an incrementing number, record a macro that inserts a variable with
+the expression register and then increments it.
+
+Example:
+- ~:let i=1~
+- ~qa~
+- ~I<C-r>=i<CR>)~
+- ~<Esc>~
+- ~:let i += 1~
+- ~q~
+
+** Tip 72: Edit the Contents of a Macro
+
+Edit the content of a Macro by pasting it somewhere with ="{register}p=, editing
+it, and finally copying it back into its register with =0"{register}y$=.
+
+** Tip 73: Tune the Case Sensitivity of Search Patterns
+
+Ignore the case when searching with =:set ignorecase=.
+Match the case only when searching with an uppercase letter with =:set smartcase=.
+Disable case sensitivity by inserting =\c= anywhere in the search pattern.
+Force case sensitivity by inserting =\C= anywhere in the search pattern.
+
+Note: For this to work in =evil-mode= you need to set =evil-search-module= to
+=evil-search=.
+
+** Tip 74: Use the \v Pattern Switch for Regex Searches
+
+Use the =\v= Pattern Switch in order to use special characters with their
+special meaning without having to escape them (eg. =(){}|=...).
+
+** Tip 75: Use the \V Literal Switch for Verbatim Searches
+
+Use the =\V= Pattern Switch in order to use special characters without their
+special meaning without having to escape them (eg. =()[]{}|=...).
+
+** Tip 76: Use Parentheses to Capture Submatches
+
+"Capture" a part of a pattern by surrounding it with parentheses. You can then
+use the capture with =\{number}= where =number= is the number of the capture
+group.
+Ignore a capture group by prepending a =%= before the parentheses.
+
+=\_s= matches whitespace and line breaks.
+
+** Tip 77: Stake the Boundaries of a Word
+
+In a pattern, =<= and =>= represent word boundaries. Eg. =\v<the>= or
+=\<the\>= will match = the = but not = their =.
+Note that in all the other major regex engines, word boundaries are represented
+by =\b=.
+
+** Tip 78: Stake the Boundaries of a Match
+
+Use =\zs= and =\ze= to mark the beginning and end of a match. This lets you
+capture a subset of the initial match.
+
+** Tip 79: Escape Problem Characters
+
+Escape special characters with the =escape({string}, {chars})= function.
+Call this function at the Command Line with ~<C-r>=~.
+
+A simple way to not have to escape the =/= character in a search is to initiate
+the search backward with =?=.
+
+** Tip 80: Meet the Search Command
+
+Search forward with =/=.
+Search backward with =/=.
+Go to the next match with =n=.
+Go to the previous match with =N=.
+
+*** gn and gN                                                       :drill:
+SCHEDULED: <2020-08-13 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       818713A5-1F25-424D-B6BB-21C147FCDAE7
+:DRILL_LAST_INTERVAL: 82.5346
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.529
+:DRILL_EASE: 1.86
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-22 Fri 09:01]
+:END:
+
+vim: <[Select the current or move to the next/previous search match]> with
+<[gn/gN]>
+
+*** C-n and C-p                                                     :drill:
+SCHEDULED: <2020-09-03 Thu>
+:PROPERTIES:
+:ID:       766ce35e-5068-4a29-b31d-c10ec7fd4135
+:DRILL_LAST_INTERVAL: 178.8425
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 07:21]
+:END:
+
+vim: Scroll through the Ex commands or search history with
+<[=<C-n>= and =<C-p>=|| X and Y ]>
+
+** Tip 81: Highlight Search Matches
+
+Highlight search matches with =:set hlsearch=.
+Disable highlighting search matches with =:set nohlsearch=.
+Disable highlighting search matches for one time with =:nohlsearch=.
+
+** Tip 82: Preview the First Match Before Execution
+
+Show a search preview with =:set incsearch=.
+
+*** Autocomplete Searches with =<C-r><C-w>=                         :drill:
+SCHEDULED: <2020-08-15 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       86cbb447-4956-4d19-8184-266ce634766f
+:DRILL_LAST_INTERVAL: 64.4998
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 1.34
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:23]
+:END:
+
+vim: <[Autocomplete]> the search field with
+<[<C-r><C-a> or <C-r><C-w>||... or ... ]>
+
+** Tip 83: Offset the Cursor to the End of a Search Match
+
+Place the cursor at the end of a search match with =/{pattern}/e=.
+
+** Tip 84: Operate on a Complete Search Match
+
+Use =gn= (or =gN=) to make a change and repeat it across a document.
+
+*** The Improved Dot Formula                                        :drill:
+SCHEDULED: <2020-09-29 Tue>
+:PROPERTIES:
+:ID:       c11bb962-0b51-4065-8290-890f54ffdcc1
+:DRILL_LAST_INTERVAL: 194.1587
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-19 Thu 11:07]
+:END:
+
+vim: The *Improved Dot Formula* consists in <[using only one key to make a
+change and move]>
+
+# *** Best Practice: Improved Dot Formula                             :drill:
+# SCHEDULED: <2019-12-13 Fri>
+# :PROPERTIES:
+# :ID:       67d8d3e6-9cc2-4b12-9696-498c362ac87d
+# :DRILL_LAST_INTERVAL: 3.874
+# :DRILL_REPEATS_SINCE_FAIL: 2
+# :DRILL_TOTAL_REPEATS: 4
+# :DRILL_FAILURE_COUNT: 1
+# :DRILL_AVERAGE_QUALITY: 2.75
+# :DRILL_EASE: 2.08
+# :DRILL_LAST_QUALITY: 3
+# :DRILL_LAST_REVIEWED: [2019-12-09 Mon 10:27]
+# :END:
+
+# vim: best practice: Use the *Improved Dot Formula*
+
+** Tip 85: Create Complex Patterns by Iterating upon Search History
+
+*** =q:=                                                            :drill:
+SCHEDULED: <2020-08-10 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       912b48bc-f078-4ab1-9aed-e050d14c1ab9
+:DRILL_LAST_INTERVAL: 141.9311
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-21 Sat 15:25]
+:END:
+
+vim: <[Open the Ex Command-Line Window]> with <[=q:=]>
+
+*** =q/=                                                            :drill:
+SCHEDULED: <2020-07-19 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d01f65ee-fd24-4045-ad30-63d94bcec60f
+:DRILL_LAST_INTERVAL: 71.5448
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.375
+:DRILL_EASE: 1.86
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-08 Fri 12:01]
+:END:
+
+vim: <[Open the Search Command-Line Window]> with <[=q/=]>
+
+** Tip 86: Count the Matches for the Current Pattern
+
+Count the matches for the current pattern with =:vimgrep /[pattern]/ {file}=.
+Go to the previous/next match with =N=/=n= or =:cprev= =:cnext=.
+
+** Tip 87: Search for the Current Visual Selection
+
+"Improve" =*='s behavior and introduce a backward counterpart =#=.
+
+#+BEGIN_SRC
+xnoremap * :<C-u>call <SID>VSetSearch('/')<CR>/<C-R>=@/<CR><CR>
+xnoremap # :<C-u>call <SID>VSetSearch('?')<CR>?<C-R>=@/<CR><CR>
+
+function! s:VSetSearch(cmdtype)
+  let temp = @s
+  norm! gv"sy
+  let @/ = '\V' . substitute(escape(@s, a:cmdtype.'\'), '\n', '\\n', 'g')
+  let @s = temp
+endfunction
+#+END_SRC
+
+** Tip 88: Meet the Substitute Command
+
+Substitute with =:[range]s[ubstitute]/{pattern}/{string}/[flags]=.
+In a substitute command insert the entire matched pattern with =\0= or =&=.
+In a substitute command use the previous replacement string with =~=.
+
+** Tip 89: Find and Replace Every Match in a File
+
+Execute the Substitute Command on the whole file with the =%= flag like so
+=:%s/{pattern}/{string/}=.
+Execute the Substitute Command on the whole line withe the =g= flag like so
+=:s/{pattern}/{string/}g=.
+
+** Tip 90: Eyeball Each Substitution
+
+Confirm before doing substitutions with the =c= flag like so
+=:s/{pattern}/{string/}c=.
+
+** Tip 91: Reuse the Last Search Pattern
+
+Insert the last search pattern in the Command Prompt with =<C-r>/=.
+
+*** Reuse the Last Search Pattern in a Substitute Command           :drill:
+SCHEDULED: <2020-10-10 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       e9d29d2b-fef0-46d3-9305-3ea3defa17f0
+:DRILL_LAST_INTERVAL: 195.7643
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 13:42]
+:END:
+
+vim: In a Substitute Command <[reuse the last search pattern]> by
+<[leaving the pattern field blank]>
+
+** Tip 92: Replace with the Contents of a Register
+
+Avoid typing the replacement field, either by pasting it with
+=:s//<C-r>{register}=, or by passing a reference with =:s//\=@{register}=.
+
+** Tip 93: Repeat the Previous Substitute Command
+
+Repeat the previous Substitute Command on the whole file with =g&=.
+
+Repeat the previous Substitute Command with =:&=. Reuse the same flags as the
+last Subsitute Command by using =&= to the Substitute Command like so =:&&= or
+=:s/{pattern}/{replacement}/&=.
+
+** Tip 94: Rearrange CSV Fields Using Submatches
+
+Rearrange CSV fields using submatches with a search and replace, eg.
+=/\v^([^,]*),([^,]*),([^,]*)$= and =:%s//\3,\2,\1=.
+
+** Tip 95: Perform Arithmetic on the Replacement
+
+In a replacement pattern, get a submatch with ~:s//\=submatch({num})/~.
+If the submatch returns a number, you can do arithmetic with it,
+eg. substract 1: ~:s//\=submatch({num})-1/~.
+
+** Tip 96: Swap Two or More Words
+
+Swap two words (eg. =Man= and =Dog=) like so:
+#+BEGIN_SRC
+/\v(<man>|<dog>)
+:%s//\={"dog":"man","man":"dog"}[submatch(1)]/g
+#+END_SRC
+
+
+** Tip 97: Find and Replace Across Multiple Files
+
+Find and replace across multiple files like so:
+#+BEGIN_SRC
+/Pragmatic\ze Vim
+:vimgrep // **/*.txt
+:cfdo %s//Practical/gc
+:cfdo update
+#+END_SRC
+
+** Tip 98: Meet the Global Command
+
+*** =:global=                                                       :drill:
+SCHEDULED: <2020-07-16 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
+:DRILL_LAST_INTERVAL: 77.2356
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.267
+:DRILL_EASE: 1.72
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-30 Thu 11:09]
+:END:
+
+vim: <[Execute an Ex Command on lines that match a pattern]> with
+<[:g/{pattern}/{cmd}]>
+
+*** =:global!= and =:vglobal=                                       :drill:
+SCHEDULED: <2020-08-31 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d64e29ef-8461-4366-80c3-df69483a5e05
+:DRILL_LAST_INTERVAL: 160.6725
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-23 Mon 12:34]
+:END:
+
+vim: <[Execute an Ex Command on lines that don't match a pattern]> with
+<[=:g!/{pattern}/{cmd}= OR =:v/{pattern}/{cmd}=]>
+
+*** Reuse the Last Search Pattern in a Global Command               :drill:
+SCHEDULED: <2020-11-03 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       dcbe8c23-e109-48ed-b65f-98fd6b60ba92
+:DRILL_LAST_INTERVAL: 206.565
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-10 Fri 08:56]
+:END:
+
+vim: In a Global Command <[reuse the last search pattern]> by
+<[leaving the pattern field blank]>
+
+** Tip 99: Delete Lines Containing a Pattern
+
+Delete lines containing a pattern with =:g/{pattern}/d=, or
+delete lines that don't match a pattern with =:v/{pattern}/d=.
+
+** Tip 100: Collect TODO Items in a Register
+
+Collect lines that match a pattern in a register with
+=:g/{pattern}/yank {uppercase letter}=.
+This can be combined with =:argdo= or =:bufdo= to do the same but over multiple
+files.
+
+** Tip 101: Alphabetize the Properties of Each Rule in a CSS File
+
+Sort lines with =:[range]sort=.
+Change lines indentation with =:[range]>= or =:[range]<=.
+
+Apply an Ex Command on blocks delimited by a start and a finish pattern with
+=:g/{start}/ .,/{finish}/ {cmd}=.
+The way it works is the =/{start}/= pattern specifies to the global command
+where to consider executing the Ex Command and =.,/{finish}/= is a range applied
+to the following Ex Command meaning "from the current line (=.=) to the line
+that matches ={finish}=".
+
+** Tip 102: Meet ctags
+
+Generate a tags file with =$ ctags -R .= at the root of a project.
+
+** Tip 103: Configure Vim to Work with ctags
+
+Change the default path of the tags file with ~:set tags={path}~.
+Generate the tags file from Vim with =:!ctags -R=.
+Generate the tags file when pressing =<f5>= with =:nnoremap <f5> :!ctags -R<CR>=.
+Update the tags file each time a file is save with
+=:autocmd BufWritePost * call system("ctags -R")=.
+
+** Tip 104: Navigate Keyword Definitions with Vim’s Tag Navigation Commands
+
+Jump back from a Tag Search with =<C-t>=.
+Open a tag match list with =g<C-]>=.
+
+*** =<C-]>=                                                         :drill:
+SCHEDULED: <2020-08-15 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       0676996b-20d2-48c6-99b5-259a16872d9a
+:DRILL_LAST_INTERVAL: 146.3552
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-22 Sun 13:06]
+:END:
+
+vim: <[Go to the definition of the keyword under the cursor]> with <[C-]]>
+
+** Tip 105: Compile Code Without Leaving Vim
+
+Compile you program and jump to the first error in the quickfix list with
+=:make=.
+Go to the previous/next error in the quickfix list with =:cprev= / =:cnext=.
+
+** Tip 106: Browse the Quickfix List
+
+The Quickfix List has a counterpart that is local to the current window, it's
+the Location List.
+The Quickfix List is global and there can be only one. There can be multiple
+Location List, one per window.
+All the Location List Ex Commands are prefixed with an =l=:
+=:lmake=, =:lnext=, ...
+
+Jump to first item of the Quickfix List with =:cfirst=.
+Jump to last item of the Quickfix List with =:clast=.
+Jump to first item in next file of the Quickfix List with =:cnfile=.
+Jump to last item in previous file of the Quickfix List with =:cpfile=.
+Jump to nth item of the Quickfix List with =:cc N=.
+Open the quickfix window of the Quickfix List with =:copen=.
+Close the quickfix window of the Quickfix List with =:cclose=.
+Execute {cmd} on each line listed in the quickfix list of the Quickfix List with
+=:cdo {cmd}=.
+Execute {cmd} once for each file listed in the quickfix list with =:cfdo {cmd}=.
+
+** Tip 107: Recall Results from a Previous Quickfix List
+
+Use an older or newer Quickfix List with =:colder= / =:cnewer=.
+
+** Tip 108: Customize the External Compiler
+
+Change the command used by =:make= with =:setlocal makeprg={cmd}[\ %]= where =%=
+is the current file name.
+Change the way errors are parsed with =:setlocal efm\={scanf_format_string}=.
+
+** Tip 109: Call grep Without Leaving Vim
+
+Call grep and let it fill the Quickfix List with =:grep [args] [regex]=.
+
+** Tip 110: Customize the grep Program
+
+Change the program used by the grep command with
+~:set grepprg="grep -n $* /dev/null"~.
+Change the way the grep output is parsed with
+~:set grepformat="%f:%l:%m,%f:%l%m,%f %l%m"~.
+
+** Tip 111: Grep with Vim’s Internal Search Engine
+
+Search for a pattern in some files with
+=:vim[grep][!] /{pattern}/[g][j] {file} ...=.
+This will populate the Quickfix List. So =:cnext= and =:cprev= can be used.
+If the pattern field is blank the last search pattern will be used.
+The file list can be =##= which is expanded to the files in the argument list.
+
+** Tip 112: Meet Vim’s Keyword Autocompletion
+
+Complete generic keywords with =<C-n>=.
+Complete current buffer keywords with =<C-x><C-n>=.
+Complete included file keywords with =<C-x><C-i>=.
+Complete tags file keywords with =<C-x><C-]>=.
+Complete dictionary keywords with =<C-x><C-k>=.
+Complete whole lines with =<C-x><C-l>=.
+Complete filenames with =<C-x><C-f>=.
+Omni-complete with =<C-x><C-o>=.
+
+** Tip 113: Work with the Autocomplete Pop-Up Menu
+
+Use the next match from the word list (next match) with =<C-n>=.
+Use the previous match from the word list (previous match) with =<C-p>=.
+Select the next match from the word list with =<Down>=.
+Select the previous match from the word list with =<Up>=.
+Accept the currently selected match (yes) with =<C-y>=.
+Revert to the originally typed text (exit from autocompletion) with =<C-e>=.
+Delete one character from current match with =<C-h> (and <BS>)=.
+Add one character from current match with =<C-l>=.
+Stop completion and insert {char} with ={char}=.
+
+** Tip 114: Understand the Source of Keywords
+
+Complete current buffer keywords with =<C-x><C-n>=.
+Complete included file keywords with =<C-x><C-i>=.
+Complete tags file keywords with =<C-x><C-]>=.
+
+** Tip 115: Autocomplete Words from the Dictionary
+
+Complete dictionary keywords with =<C-x><C-k>=.
+Enable Vim's spell checker with =:set spell=.
+
+** Tip 116: Autocomplete Entire Lines
+
+Complete whole lines with =<C-x><C-l>=.
+
+** Tip 117: Autocomplete Sequences of Words
+
+If you autocomplete something, Vim will remember where it sourced the completion
+and subsequent call to the autocompletion will automatically complete from that
+place. This lets you autocomplete complete sentences quite easily.
+
+** Tip 118: Autocomplete Filenames
+
+Complete filenames with =<C-x><C-f>=.
+
+** Tip 119: Autocomplete with Context Awareness
+
+Complete with context awareness with =<C-x><C-o>=.
+
+** Tip 120: Spell Check Your Work
+
+Suggest corrections for the current word with ~z=~.
+Add the current word to the spell file with =zg=.
+Remove the current word from spell file with =zw=.
+Revert zg or zw command for the current word =zug=.
+
+*** =]s=                                                            :drill:
+SCHEDULED: <2020-10-01 Thu>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       3938d357-ce93-40b6-b587-1e8b5ba9cc18
+:DRILL_LAST_INTERVAL: 111.4304
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:22]
+:END:
+
+vim: <[Go to the next spelling error]> with <[=]s=]>
+
+*** =[s=                                                            :drill:
+SCHEDULED: <2020-07-11 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       a6e1cab5-af1a-4d07-9bde-116f13405557
+:DRILL_LAST_INTERVAL: 50.2368
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.187
+:DRILL_EASE: 1.52
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-22 Fri 09:02]
+:END:
+
+vim: <[Go to the previous spelling error]> with <[=[s=]>
+
+** Tip 121: Use Alternate Spelling Dictionaries
+
+Change the spelling dictionary used with ~:set spelllang={lang}~.
+
+** Tip 122: Add Words to the Spell File
+
+Add the current word to the spell file with =zg=.
+Remove the current word from spell file with =zw=.
+Revert zg or zw command for the current word =zug=.
+
+Add a new spellfile with =setlocal spellfile[+]={file}=.
+Add the current word to the first spell file with =1zg=.
+Add the current word to the second spell file with =2zg=.
+
+** Tip 123: Fix Spelling Errors from Insert Mode
+
+Autocomplete the previous spelling error from Insert Mode with =<C-x><C-s>=.
+* Learn Go with Tests
+:PROPERTIES:
+:SOURCE: https://github.com/quii/learn-go-with-tests https://github.com/quii/learn-go-with-tests/tree/958d89d0810d630b51799fb9bf319e92df80c43e
+:END:
+:LOGBOOK:
+CLOCK: [2019-10-05 Sat 18:34]--[2019-10-05 Sat 19:36] =>  1:02
+CLOCK: [2019-10-05 Sat 16:06]--[2019-10-05 Sat 17:32] =>  1:26
+CLOCK: [2019-09-30 Mon 14:55]--[2019-09-30 Mon 17:54] =>  2:59
+CLOCK: [2019-09-28 Sat 14:31]--[2019-09-28 Sat 15:31] =>  1:00
+CLOCK: [2019-09-23 Mon 19:06]--[2019-09-23 Mon 20:41] =>  1:35
+CLOCK: [2019-09-23 Mon 16:10]--[2019-09-23 Mon 17:30] =>  1:20
+CLOCK: [2019-09-19 Thu 10:28]--[2019-09-19 Thu 11:47] =>  1:19
+:END:
+
+** Hello, World
+*** TDD Cycle                                                       :drill:
+SCHEDULED: <2020-08-19 Wed>
+:PROPERTIES:
+:ID:       ede97d9f-a348-4a68-8070-dda21cad8f9d
+:DRILL_LAST_INTERVAL: 152.6026
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.222
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-19 Thu 11:08]
+:END:
+
+cs: The TDD Cycle steps are:
+- <[Add a test]>
+- <[Run it and see it fail]>
+- <[Make it pass with the minimum amount of code]>
+- <[Ensure all the other tests pass]>
+- <[Refactor based on the current tests]>
+
+*** Test Functions                                                  :drill:
+SCHEDULED: <2021-01-06 Wed>
+:PROPERTIES:
+:ID:       441ea307-1788-416a-a1a9-10a86ef49f4f
+:DRILL_LAST_INTERVAL: 247.7443
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 12:23]
+:END:
+
+go: Test functions need to:
+- <[Be called Test...()]>
+- <[Be in a ..._test.go file]>
+
+*** Tests are Run With                                              :drill:
+SCHEDULED: <2020-10-01 Thu>
+:PROPERTIES:
+:ID:       999173ea-8172-4be7-aaeb-9be00185c11b
+:DRILL_LAST_INTERVAL: 228.688
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-15 Sat 13:27]
+:END:
+
+go: Run *Tests* with the command <[go test]>
+
+*** Public Functions Uppercase Letter                               :drill:
+SCHEDULED: <2020-10-01 Thu>
+:PROPERTIES:
+:ID:       1ae8438d-6c64-4334-87d0-bd934219aa7c
+:DRILL_LAST_INTERVAL: 228.688
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-15 Sat 13:27]
+:END:
+
+go: Public Functions start with <[an Uppercase Letter]>
+
+** Integers
+*** Example Functions                                               :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:ID:       0c4b0d5b-aa72-4edb-989a-54b2c2977456
+:DRILL_LAST_INTERVAL: 163.392
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-01-27 Mon 09:31]
+:END:
+
+go: Example functions need to:
+- <[Be called Example...()]>
+- <[Be in a ..._test.go file]>
+
+** Iteration
+*** Benchmark Functions                                             :drill:
+SCHEDULED: <2020-07-22 Wed>
+:PROPERTIES:
+:ID:       c345379b-8bb5-4032-96e4-95bddb901a19
+:DRILL_LAST_INTERVAL: 31.4154
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 20
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.349
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-21 Sun 13:55]
+:END:
+
+go: Benchmark functions need to:
+- <[Be called Benchmark...()]>
+- <[Be in a ..._test.go file]>
+
+*** Benchmarks are Run With                                         :drill:
+SCHEDULED: <2020-07-24 Fri>
+:PROPERTIES:
+:ID:       3398b200-2043-4802-b08d-5c42b284b92c
+:DRILL_LAST_INTERVAL: 178.3972
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-28 Tue 12:10]
+:END:
+
+go: Run *Benchmarks* with the command <[go test -bench .]>
+
+** Arrays and slices
+*** Array Syntax                                                    :drill:
+SCHEDULED: <2020-10-12 Mon>
+:PROPERTIES:
+:ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
+:DRILL_LAST_INTERVAL: 115.1648
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.62
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-19 Fri 09:19]
+:END:
+
+go: Declare an array with =var array <[[SIZE|...]TYPE]>=
+
+*** Slice Syntax                                                    :drill:
+SCHEDULED: <2020-10-05 Mon>
+:PROPERTIES:
+:ID:       dd79a268-2eee-4eb0-a17c-aeb46c901a68
+:DRILL_LAST_INTERVAL: 183.2522
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.572
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-05 Sun 15:37]
+:END:
+
+go: Declare a slice with =var slice <[[]TYPE]>=
+
+*** len()                                                           :drill:
+SCHEDULED: <2020-09-05 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       54ff64dc-c1a4-42e8-86d3-99708f79eb19
+:DRILL_LAST_INTERVAL: 209.996
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 15:23]
+:END:
+
+go: function: <[len()]> returns <[the length of an array, slice or channel]>
+
+*** append()                                                        :drill:
+SCHEDULED: <2020-07-25 Sat>
+:PROPERTIES:
+:ID:       269c0a37-11ea-42aa-a83c-d409e2c75821
+:DRILL_LAST_INTERVAL: 99.7644
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.533
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-16 Thu 12:49]
+:END:
+
+go: function: <[append(ARRAY, ELEMENT)]> returns a new slice with an element
+appended
+
+*** =range= Clause                                                  :drill:
+SCHEDULED: <2020-10-06 Tue>
+:PROPERTIES:
+:ID:       28b63118-f1c2-41c6-b204-3388d38498d7
+:DRILL_LAST_INTERVAL: 150.5517
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.701
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-08 Fri 12:01]
+:END:
+
+go: Use the =range= clause like so <[for key, value := range ARRAY]>
+
+*** Blank Identifier                                                :drill:
+SCHEDULED: <2020-10-01 Thu>
+:PROPERTIES:
+:ID:       c35586a4-ed28-4c00-9417-eeab1b3ee274
+:DRILL_LAST_INTERVAL: 228.688
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-15 Sat 13:27]
+:END:
+
+go: The Blank Identifier is represented by <[_]>
+
+*** Variadic Function                                               :drill:
+SCHEDULED: <2020-07-15 Wed>
+:PROPERTIES:
+:ID:       b2abe1db-b503-43f2-85e6-1168d305e40b
+:DRILL_LAST_INTERVAL: 100.503
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 13
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.308
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-05 Sun 15:38]
+:END:
+
+go: Declare a variadic function like so <[func NAME(ARG ...TYPE)]>
+
+*** Tests are Run With                                              :drill:
+SCHEDULED: <2020-10-27 Tue>
+:PROPERTIES:
+:ID:       2e9080e6-0553-4360-96d6-a483d69bc3b0
+:DRILL_LAST_INTERVAL: 252.0527
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-18 Tue 08:33]
+:END:
+
+go: Show *Test Coverages* with the command <[go test -cover]>
+
+** Structs, methods & interfaces
+*** Struct Definition Syntax                                        :drill:
+SCHEDULED: <2020-07-20 Mon>
+:PROPERTIES:
+:ID:       ec6bb07b-5cc7-4d89-9fe6-69fa7fd918f8
+:DRILL_LAST_INTERVAL: 85.5202
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.334
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-25 Sat 12:46]
+:END:
+
+go: Define a *Structure* with:
+
+**** Answer
+
+#+BEGIN_SRC go
+type NAME struct {
+    FIELD TYPE
+    ...
+}
+#+END_SRC
+
+*** Struct Declaration Syntax                                       :drill:
+SCHEDULED: <2021-02-05 Fri>
+:PROPERTIES:
+:ID:       35f2284d-3775-4863-b821-8ca3cac007e6
+:DRILL_LAST_INTERVAL: 238.2308
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:23]
+:END:
+
+go: Initialize a variable as a struct with ~var struct := <[STRUCT_NAME{FIELD, ...}]>~
+
+*** Method Definition Syntax                                        :drill:
+SCHEDULED: <2020-07-08 Wed>
+:PROPERTIES:
+:ID:       160c8a08-e6cf-4abb-a2d3-cafdf570a6c9
+:DRILL_LAST_INTERVAL: 83.4734
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.86
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-16 Thu 12:50]
+:END:
+
+go: Define a *Method* with <[func (RECEIVER_NAME RECEIVER_TYPE) METHOD_NAME(ARGS...) RETURN_TYPE]>
+
+*** Interface Definition Syntax                                     :drill:
+SCHEDULED: <2020-11-14 Sat>
+:PROPERTIES:
+:ID:       a53837bf-8c79-41ff-8af3-5f1d648400cd
+:DRILL_LAST_INTERVAL: 249.1254
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-10 Tue 10:34]
+:END:
+
+go: Define an *Interface* with
+
+**** Answer
+
+#+BEGIN_SRC go
+type NAME interface {
+    METHOD
+    ...
+}
+#+END_SRC
+
+*** Interface Resolution                                            :drill:
+SCHEDULED: <2021-06-30 Wed>
+:PROPERTIES:
+:ID:       7c94897b-a2d5-469d-9e8f-3a406cb6fa76
+:DRILL_LAST_INTERVAL: 381.1562
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-14 Sun 13:50]
+:END:
+
+go: Any structure automatically fits an Interface as long as all <[the specified
+methods are implemented]>
+
+*** Table Driven Tests                                              :drill:
+SCHEDULED: <2021-06-25 Fri>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       60862745-bde1-46bb-a38a-61479aa04622
+:DRILL_LAST_INTERVAL: 381.1271
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-09 Tue 11:27]
+:END:
+
+go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
+its inputs and expected results]>
+
+*** Kent Beck Quote                                                 :drill:
+SCHEDULED: <2020-12-01 Tue>
+:PROPERTIES:
+:SOURCE: The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
+:ID:       d2ed43e9-b02b-47dc-b52e-022a8c3fd4fe
+:DRILL_LAST_INTERVAL: 176.7208
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.438
+:DRILL_EASE: 2.0
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-06-07 Sun 13:33]
+:END:
+
+cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not
+<[Sequences of Operations]>
