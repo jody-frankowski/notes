@@ -8879,6 +8879,18 @@ want to drink alcohol.
 :PROPERTIES:
 :Source: https://youtu.be/4UkZAwKoCP8
 :END:
+*** DONE Do the Real Thing
+:PROPERTIES:
+:Source: https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/
+:Source+: https://news.ycombinator.com/item?id=23582631
+:END:
+
+The best way to get better at something seems to be to do the real thing. When
+you watch a video, or read an article on the best way to do X, you avoid doing
+the real thing.
+The real thing is probably better because it's often the right kind of
+difficulty.
+
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
