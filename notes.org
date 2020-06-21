@@ -9100,6 +9100,15 @@ HN comment on astigmatism https://news.ycombinator.com/item?id=23496286.
 :Source: https://rachelbythebay.com/w/2014/08/19/fork/
 :Source+: https://news.ycombinator.com/item?id=22462628
 :END:
+*** DONE Why is there a "V" in SIGSEGV Segmentation Fault?
+:PROPERTIES:
+:Source: https://blog.cloudflare.com/why-is-there-a-v-in-sigsegv-segmentation-fault/
+:Source+: https://news.ycombinator.com/item?id=23562256
+:END:
+
+SIGSEGV is nowadays shown as "Segmentation Fault" but actually is an
+abbreviation of "Segmentation Violation".
+
 ** WebAssembly
 *** DONE https://www.youtube.com/watch?v=CMB6AlE1QuI Rust, WebAssembly, and the future of Serverless by Steve Klabnik
 *** DONE https://www.youtube.com/watch?v=fh9WXPu0hw8 Bringing WebAssembly outside the web with WASI by Lin Clark
