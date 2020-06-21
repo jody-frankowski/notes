@@ -7919,6 +7919,10 @@ minigame in a Zelda game in a Zelda game.
 :PROPERTIES:
 :Source: https://youtu.be/ph8LyNIT9sg
 :END:
+*** DONE Dwarf Fortress Creator Explains its Complexity & Origins | Noclip Interview
+:PROPERTIES:
+:Source: https://youtu.be/VAhHkJQ3KgY
+:END:
 ** Git
 *** DONE A new hash algorithm for Git
 :PROPERTIES:
