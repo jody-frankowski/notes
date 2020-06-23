@@ -8906,6 +8906,15 @@ She only tried to install a few habits per month.
 For the first month she did only very little and she didn't go over the
 objectives she gave herself.
 
+*** DONE Repetition and Learning
+:PROPERTIES:
+:Source: https://theeffortfuleducator.com/2020/06/08/repetition-and-learning/
+:Source+: https://news.ycombinator.com/item?id=23462978
+:END:
+
+Effortful repetition (eg. recalling notes) is much more effective than simple
+repetition (eg. reading notes).
+
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
