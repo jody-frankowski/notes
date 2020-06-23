@@ -8895,6 +8895,17 @@ the real thing.
 The real thing is probably better because it's often the right kind of
 difficulty.
 
+*** DONE How a Lazy Bitch like me learned to be Productive
+:PROPERTIES:
+:Source: https://www.madisontaskett.com/lazy-bastard-productivity/
+:Source+: https://news.ycombinator.com/item?id=23314485
+:END:
+
+The author managed to change her life by installing a lot of new/good habits.
+She only tried to install a few habits per month.
+For the first month she did only very little and she didn't go over the
+objectives she gave herself.
+
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
@@ -9021,6 +9032,26 @@ ID spoofing is still a thing.
 :PROPERTIES:
 :Source: https://fabiensanglard.net/discret11/index.html
 :Source+: https://news.ycombinator.com/item?id=23455033
+:END:
+*** DONE Facebook Helped the FBI Hack a Child Predator
+:PROPERTIES:
+:Source: https://www.vice.com/en_us/article/v7gd9b/facebook-helped-fbi-hack-child-predator-buster-hernandez
+:Source+: https://news.ycombinator.com/item?id=23536416
+:END:
+*** DONE Why is This Website Port Scanning me?
+:PROPERTIES:
+:Source: https://nullsweep.com/why-is-this-website-port-scanning-me/
+:Source+: https://news.ycombinator.com/item?id=23246170
+:END:
+*** DONE Stealing Secrets from Developers using Websockets
+:PROPERTIES:
+:Source: https://medium.com/@stestagg/stealing-secrets-from-developers-using-websockets-254f98d577a0
+:Source+: https://news.ycombinator.com/item?id=23256458
+:END:
+*** DONE Ebay is port scanning visitors to their website - and they aren't the only ones
+:PROPERTIES:
+:Source: https://blog.nem.ec/2020/05/24/ebay-port-scanning/
+:Source+: https://news.ycombinator.com/item?id=23436775
 :END:
 ** Shell
 *** https://web.archive.org/web/20190914105521/https://dwheeler.com/essays/filenames-in-shell.html
