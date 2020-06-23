@@ -8017,6 +8017,10 @@ ROM. AES-only boot bit blown.
 :Source: https://blog.infosectcbr.com.au/2020/02/pointer-compression-in-v8.html
 :Source+: https://news.ycombinator.com/item?id=22220342
 :END:
+*** DONE JavaScript Function - What's your Function?
+:PROPERTIES:
+:Source: https://youtu.be/gigtS_5KOqo
+:END:
 ** Lisp
 *** DONE https://tech.grammarly.com/blog/running-lisp-in-production
 *** DONE https://en.m.wikipedia.org/wiki/Greenspun%27s_tenth_rule Greenspun's tenth rule: Any sufficiently complicated C or Fortran program contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.
