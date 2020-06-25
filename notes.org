@@ -9073,6 +9073,13 @@ ID spoofing is still a thing.
 :Source: https://rachelbythebay.com/w/2020/02/09/horizonta/
 :Source+: https://news.ycombinator.com/item?id=22284463
 :END:
+*** DONE Don’t Fly During Ramadan
+:PROPERTIES:
+:Source: https://varnull.adityamukerjee.net/2013/08/22/dont-fly-during-ramadan/
+:Source+: https://news.ycombinator.com/item?id=6258422
+:Source+:  https://news.ycombinator.com/item?id=23625215
+:END:
+
 ** Software Engineering
 *** Functional
 **** DONE https://www.youtube.com/watch?v=0if71HOyVjY GOTO 2018 • Functional Programming in 40 Minutes • Russ Olsen
