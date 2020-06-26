@@ -2272,18 +2272,18 @@ SCHEDULED: <2020-07-17 Fri>
 vim: Use the <[System Primary Selection]> register with <[="*=]>
 
 *** ="%= Register                                                   :drill:
-SCHEDULED: <2020-06-26 Fri>
+SCHEDULED: <2020-08-14 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e2b518de-7a8e-403c-9d90-dcd44aa1f1ca
-:DRILL_LAST_INTERVAL: 31.2418
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 48.6435
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.267
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-26 Tue 15:21]
+:DRILL_LAST_REVIEWED: [2020-06-26 Fri 11:04]
 :END:
 
 vim: Use the <[Current File Name]> register with <[="%=]>
