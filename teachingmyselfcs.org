@@ -1143,18 +1143,18 @@ vim: <[Repeat the last find]> with <[;]>
 
 ** Tip 4: Act, Repeat, Reverse
 *** ,                                                               :drill:
-SCHEDULED: <2020-06-27 Sat>
+SCHEDULED: <2021-09-10 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a68a0891-f245-487d-a63a-0a8391c8feed
-:DRILL_LAST_INTERVAL: 168.1691
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 439.7622
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.89
+:DRILL_AVERAGE_QUALITY: 3.901
 :DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:28]
+:DRILL_LAST_REVIEWED: [2020-06-27 Sat 13:16]
 :END:
 
 vim: <[Repeat the last *Find* in the opposite direction]> with <[,]>
