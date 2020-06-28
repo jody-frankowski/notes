@@ -127,18 +127,18 @@ SCHEDULED: <2022-02-25 Fri>
 cs: <[Anonymous Function]> aka <[Lambda]>
 
 ***** Scheme Named Function Definition                            :drill:
-SCHEDULED: <2020-06-28 Sun>
+SCHEDULED: <2020-07-02 Thu>
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
 :ID:       732F37AC-1DF9-4165-8055-3A2A67674B99
-:DRILL_LAST_INTERVAL: 24.7645
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.653
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-03 Wed 15:04]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 25
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 3.561
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-06-28 Sun 09:28]
 :END:
 
 scheme: prototype: Define a named function:
@@ -1408,18 +1408,18 @@ Do a block-wise selection with =<C-v>=.
 Reselect the last visual selection with =gv=.
 
 *** =o= while selecting                                             :drill:
-SCHEDULED: <2020-06-28 Sun>
+SCHEDULED: <2020-07-18 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       32c9c9d4-80c9-4849-af8e-059f39b12cf6
-:DRILL_LAST_INTERVAL: 9.5782
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 20.2196
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.273
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-18 Thu 11:25]
+:DRILL_LAST_REVIEWED: [2020-06-28 Sun 09:26]
 :END:
 
 vim: selection: <[Go to the other end of the selection]> with <[o]>
@@ -1764,17 +1764,17 @@ SCHEDULED: <2020-07-17 Fri>
 vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2020-06-28 Sun>
+SCHEDULED: <2020-07-20 Mon>
 :PROPERTIES:
 :ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 19.4056
-:DRILL_REPEATS_SINCE_FAIL: 15
-:DRILL_TOTAL_REPEATS: 47
+:DRILL_LAST_INTERVAL: 21.7925
+:DRILL_REPEATS_SINCE_FAIL: 16
+:DRILL_TOTAL_REPEATS: 48
 :DRILL_FAILURE_COUNT: 10
-:DRILL_AVERAGE_QUALITY: 2.787
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.791
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-09 Tue 11:27]
+:DRILL_LAST_REVIEWED: [2020-06-28 Sun 09:26]
 :END:
 
 vim: best practice: Use the Search Command to Modify (after an operator)
