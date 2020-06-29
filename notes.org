@@ -7686,10 +7686,17 @@ Anti procrastination helpers:
 :END:
 ** Cool Papers
 *** A2: Analog Malicious Hardware https://ieeexplore.ieee.org/document/7546493
+*** AiR-ViBeR: Exfiltrating Data from Air-Gapped Computers via Covert Surface ViBrAtIoNs https://arxiv.org/abs/2004.06195v1
+*** BeatCoin: Leaking Private Keys from Air-Gapped Cryptocurrency Wallets https://arxiv.org/abs/1804.08714
 *** Blue Note: How Intentional Acoustic Interference Damages Availability and Integrity in Hard Disk Drives and Operating Systems https://ieeexplore.ieee.org/document/8418653
+*** BRIGHTNESS: Leaking Sensitive Data from Air-Gapped Workstations via Screen Brightness https://arxiv.org/abs/2002.01078
 *** FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution https://www.usenix.org/conference/usenixsecurity18/presentation/bulck
 *** Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution https://foreshadowattack.eu/
+*** Lamphone: Real-Time Passive Sound Recoveryfrom Light Bulb Vibrations https://eprint.iacr.org/2020/708
+*** MOSQUITO: Covert Ultrasonic Transmissions between Two Air-Gapped Computers using Speaker-to-Speaker Communication https://arxiv.org/abs/1803.03422
 *** One&Done: A Single-Decryption EM-Based Attack on OpenSSL’s Constant-Time Blinded RSA https://www.usenix.org/conference/usenixsecurity18/presentation/alam
+*** POWER-SUPPLaY: Leaking Data from Air-Gapped Systems by Turning the Power-Supplies Into Speakers https://arxiv.org/abs/2005.00395
+*** PowerHammer: Exfiltrating Data from Air-Gapped Computers through Power Lines https://arxiv.org/abs/1804.04014
 *** Producing Wrong Data Without Doing Anything Obviously Wrong! https://users.cs.northwestern.edu/~robby/courses/322-2013-spring/mytkowicz-wrong-data.pdf
 
 Seemingly innocent difference, like code layout, can actually have a big impact on performance, hence on profiling.
