@@ -7267,6 +7267,10 @@ study: best practice: Recreate every Proofs learned
 :Source: https://blog.floydhub.com/emils-story-as-a-self-taught-ai-researcher/
 :Source+: https://news.ycombinator.com/item?id=22101066
 :DONE:
+*** DONE GDC 2018: John McDonald (Valve) - Using Deep Learning to Combat Cheating in CSGO
+:PROPERTIES:
+:Source: https://youtu.be/ObhK8lUfIlc
+:END:
 ** Algo
 *** DONE https://lemire.me/blog/2019/09/14/speeding-up-independent-binary-searches-by-interleaving-them/
 *** DONE http://blog.ezyang.com/2012/03/you-could-have-invented-fractional-cascading/
