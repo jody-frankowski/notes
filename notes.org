@@ -5448,18 +5448,18 @@ SCHEDULED: <2022-07-18 Mon>
 unix: function: <[mkdir()]> == <[make a new directory]>
 
 **** mkstemp                                                       :drill:
-SCHEDULED: <2020-06-29 Mon>
+SCHEDULED: <2020-09-02 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       977219a3-e745-49ee-b626-d3feb2e6930b
-:DRILL_LAST_INTERVAL: 26.6004
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 65.437
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.685
-:DRILL_EASE: 2.54
+:DRILL_AVERAGE_QUALITY: 3.651
+:DRILL_EASE: 2.4
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-02 Tue 14:49]
+:DRILL_LAST_REVIEWED: [2020-06-29 Mon 10:53]
 :END:
 
 unix: function: <[mkstemp()]> == <[make a unique temporary file]>
