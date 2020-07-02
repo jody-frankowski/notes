@@ -127,18 +127,18 @@ SCHEDULED: <2022-02-25 Fri>
 cs: <[Anonymous Function]> aka <[Lambda]>
 
 ***** Scheme Named Function Definition                            :drill:
-SCHEDULED: <2020-07-02 Thu>
+SCHEDULED: <2020-07-11 Sat>
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
 :ID:       732F37AC-1DF9-4165-8055-3A2A67674B99
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 9.2899
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.561
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.539
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-28 Sun 09:28]
+:DRILL_LAST_REVIEWED: [2020-07-02 Thu 09:00]
 :END:
 
 scheme: prototype: Define a named function:
