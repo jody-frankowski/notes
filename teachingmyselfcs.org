@@ -1469,22 +1469,37 @@ vim: ex command: Execute a Normal command on a range with
 <[=:[range]norm[al] {commands}]>
 
 *** C-r{register}                                                   :drill:
-SCHEDULED: <2020-07-05 Sun>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2301cb16-42c4-47af-87d1-a2a986c2c6a1
-:DRILL_LAST_INTERVAL: 70.0836
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 120.9643
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.199
-:DRILL_EASE: 1.62
+:DRILL_AVERAGE_QUALITY: 3.181
+:DRILL_EASE: 1.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 11:58]
+:DRILL_LAST_REVIEWED: [2020-07-05 Sun 13:55]
 :END:
 
-vim: <[Insert the content of a Register at the Command Line or in Insert Mode]>
-with <[=<C-r>{register}=]>
+vim: <[Insert the content of a Register]> with <[=<C-r>{register}=]>
+
+*** C-r{register} at the Command Line or in Insert Mode             :drill:
+SCHEDULED: <2020-07-09 Thu>
+:PROPERTIES:
+:ID:       ce4f14d6-72d9-4443-872c-da0845a52237
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-05 Sun 13:55]
+:END:
+
+vim: =<C-r>{register}= can be used from the <[Command Line]> or in <[Insert Mode]>
 
 
 ** Tip 28: Execute a Command on One or More Consecutive Lines

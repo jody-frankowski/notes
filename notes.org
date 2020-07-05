@@ -5482,21 +5482,21 @@ SCHEDULED: <2021-07-05 Mon>
 unix: function: <[mktemp()]> == <[make a unique temporary filename]>
 
 **** mktemp                                                        :drill:
-SCHEDULED: <2020-07-05 Sun>
+SCHEDULED: <2020-11-22 Sun>
 :PROPERTIES:
 :ID:       c73edc59-0696-4f59-afde-6b7161699c25
-:DRILL_LAST_INTERVAL: 70.7177
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 139.8796
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.357
+:DRILL_AVERAGE_QUALITY: 3.4
 :DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-25 Sat 12:45]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-05 Sun 13:53]
 :END:
 
-unix: function: mktemp() is considered insecure because <[there is a race
-condition between checking that the name exists and opening the file]>
+unix: function: mktemp() is considered insecure because <[there is a potential
+race condition between checking that the name exists and opening the file]>
 
 **** nextafter                                                     :drill:
 SCHEDULED: <2020-08-07 Fri>
