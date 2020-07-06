@@ -1442,17 +1442,17 @@ The Linkage of identifiers defines how they can refer to the same
 object/function in different scopes.
 
 ***** Possible Linkage                                            :drill:
-SCHEDULED: <2020-07-06 Mon>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :ID:       e44a597b-6aee-4c72-bb06-e599bc889fd1
-:DRILL_LAST_INTERVAL: 20.2196
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 44.4225
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.444
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-16 Tue 14:20]
+:DRILL_LAST_REVIEWED: [2020-07-06 Mon 06:42]
 :END:
 
 c: An object or a function can have one of 3 types of linkages:
