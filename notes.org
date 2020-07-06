@@ -7904,6 +7904,30 @@ layers, tweaks after tweaks, the units did something that didn't look stupid.
 :PROPERTIES:
 :Source: https://youtu.be/OMi6xgdSbMA
 :END:
+*** DONE How This War of Mine Plays on Your Emotions | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/FNrCAWVKVQ0
+:END:
+*** TODO How Subnautica Succeeded Without Weapons | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/6S6bgQnlP1w
+:END:
+*** DONE How Dead Cells Cheated to Make the Game More Fun | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/Uv5NwboDDhk
+:END:
+*** DONE How Sid Meier Almost Made Civilization a Real-Time Strategy Game | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/XwUM33VJRbY
+:END:
+*** DONE How Mind Control Saved Oddworld: Abe's Oddysee | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/Y7f0YtzWBG4
+:END:
+*** DONE How Myst Almost Couldn't Run on CD-ROM | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/EWX5B6cD4_4
+:END:
 *** DONE How Crash Bandicoot Hacked The Original Playstation | War Stories | Ars Technica
 :PROPERTIES:
 :Source: https://www.youtube.com/watch?v=izxXGuVL21o
@@ -7913,6 +7937,26 @@ Crash Bandicoot (among others apparently) leveraged parts of the console, by for
 example overwriting parts of the Playstation's standard library.
 It was the first (?) 3d platform game.
 
+*** DONE How Prince of Persia Defeated Apple II's Memory Limitations | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/sw0VfmXKq54
+:END:
+*** DONE How Homeworld Almost Got Lost in 3D Space | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/Q38556KTTR0
+:END:
+*** DONE How Netflix's "Extraction" Engineered a 12-Minute, One-Shot Action Scene | War Stories
+:PROPERTIES:
+:Source: https://youtu.be/TIghNcUSDBw
+:END:
+*** DONE How Alan Wake Was Rebuilt 3 Years Into Development | War Stories | Ars Technica
+:PROPERTIES:
+:Source: https://youtu.be/AoHkGDu0_Hw
+:END:
+*** DONE How "Robert The Bruce" Continued The Story of "Braveheart" Under Brutal Conditions
+:PROPERTIES:
+:Source: https://youtu.be/U-Q0Wwop9Oc
+:END:
 *** DONE How We Solved the Worst Minigame in Zelda's History
 :PROPERTIES:
 :Source: https://youtu.be/1hs451PfFzQ
