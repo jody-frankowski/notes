@@ -915,18 +915,18 @@ c: The <[constructor and deconstructor]> function attributes <[make the
 functions be called respectively before and after main()||What they do]>
 
 ***** =format=                                                    :drill:
-SCHEDULED: <2020-07-08 Wed>
+SCHEDULED: <2020-09-12 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ef5017f0-1ef9-4b65-a013-0bebac8e565f
-:DRILL_LAST_INTERVAL: 26.4067
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 65.7263
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.611
-:DRILL_EASE: 2.48
+:DRILL_AVERAGE_QUALITY: 3.579
+:DRILL_EASE: 2.34
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:18]
+:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:10]
 :END:
 
 c: The <[format]> function attribute specifies that <[the arguments to the
@@ -1624,17 +1624,17 @@ c: An object declared with the *extern* storage-class specifier has <[static]>
 storage duration and <[external]> linkage
 
 **** Static Storage-class Specifier                                :drill:
-SCHEDULED: <2020-07-08 Wed>
+SCHEDULED: <2021-09-30 Thu>
 :PROPERTIES:
 :ID:       e30d2992-f67f-4c1d-8b1f-de6f8aa53d5a
-:DRILL_LAST_INTERVAL: 178.3972
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 449.2041
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-12 Sun 11:44]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:13]
 :END:
 
 c: An object declared with the *static* storage-class specifier has <[static]>
@@ -2270,18 +2270,18 @@ You can disable them like so:
 
 *** Comint
 **** Comint                                                        :drill:
-SCHEDULED: <2020-07-08 Wed>
+SCHEDULED: <2020-09-17 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       184E6BC8-2D30-4ED3-94A9-25B06559EB61
-:DRILL_LAST_INTERVAL: 28.1606
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 70.7676
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-10 Wed 14:47]
+:DRILL_AVERAGE_QUALITY: 3.692
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:10]
 :END:
 
 emacs: <[Comint]> is the <[module that helps manage *REPLs*]>
@@ -2911,18 +2911,18 @@ SCHEDULED: <2020-11-29 Sun>
 golf: c: Use <[a^b or a-b||... OR ...]> to <[compare two integers for equality]>
 
 **** Drill :drill:
-SCHEDULED: <2020-07-08 Wed>
+SCHEDULED: <2022-03-23 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e696ddb4-a22d-4671-8631-c701894903a2
-:DRILL_LAST_INTERVAL: 229.8015
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 622.5323
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.1
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-21 Thu 12:53]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:15]
 :END:
 
 golf: c: Use <[main's argc]> if you need a variable <[initialized to 1]>
@@ -3052,18 +3052,18 @@ SCHEDULED: <2021-02-03 Wed>
 Google: <[( and )]> allows <[grouping terms]>
 
 **** Drill :drill:
-SCHEDULED: <2020-07-08 Wed>
+SCHEDULED: <2021-06-09 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ED0625AB-2D85-4F75-951F-E13B09B81C42
-:DRILL_LAST_INTERVAL: 112.8937
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 336.3103
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.299
+:DRILL_AVERAGE_QUALITY: 4.272
 :DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-17 Tue 13:04]
+:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:12]
 :END:
 
 Google: <[filetype:]> and <[ext:]> will filter <[pages based on their extension]>
