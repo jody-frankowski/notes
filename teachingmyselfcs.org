@@ -1486,17 +1486,17 @@ SCHEDULED: <2020-11-03 Tue>
 vim: <[Insert the content of a Register]> with <[=<C-r>{register}=]>
 
 *** C-r{register} at the Command Line or in Insert Mode             :drill:
-SCHEDULED: <2020-07-09 Thu>
+SCHEDULED: <2020-07-19 Sun>
 :PROPERTIES:
 :ID:       ce4f14d6-72d9-4443-872c-da0845a52237
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.592
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-05 Sun 13:55]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-09 Thu 08:01]
 :END:
 
 vim: =<C-r>{register}= can be used from the <[Command Line]> or in <[Insert Mode]>
