@@ -1,0 +1,99 @@
+#+TITLE: Math
+
+* Elements of Algebra - Leonhard Euler
+:LOGBOOK:
+CLOCK: [2020-07-09 Thu 12:15]--[2020-07-09 Thu 13:16] =>  1:01
+CLOCK: [2020-07-09 Thu 10:57]--[2020-07-09 Thu 11:00] =>  1:03
+CLOCK: [2020-07-09 Thu 09:29]--[2020-07-09 Thu 10:30] =>  1:01
+:END:
+
+** Chapter II – Explanation of the Signs + Plus and – Minus
+*** Natural Numbers                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Natural Numbers]> = <[0, 1, 2, ...]>
+
+*** Natural Numbers Including 0                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[ℕ_0 = ℕ^0 = ℕ ∪ {0}]> = <[{0, 1, 2, …}]>
+
+*** Natural Numbers Excluding 0                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[ℕ^{*} = ℕ^{+} = ℕ_{1} = ℕ_{>0}]> = <[{1, 2, 3, …}]>
+
+** Chapter III – Of the Multiplication of Simple Quantities
+*** Associative Property                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
+
+*** Commutative Property                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
+
+** Chapter VII – Of Fractions in General
+*** Numerator and Denominator                                       :drill:
+:PROPERTIES:
+:END:
+
+math: In a/b, a is the <[Numerator]> and b is the <[Denominator]>
+
+*** Fraction Description                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[7/3]> is <[Seven Thirds]> in plain English
+
+*** Improper Fraction                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: a/b is <[an Improper]> fraction if <[a >= b]>
+
+*** Proper Fraction                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: a/b is <[a Proper]> fraction if <[a < b]>
+
+*** Mixed Number                                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper fraction]>
+
+*** Mixed Number Notation                                           :drill:
+:PROPERTIES:
+:END:
+
+math: A <[Mixed Number]> is noted as <[a b/c]>
+
+** Questions for Practice
+
+#+BEGIN_SRC
+             cx + x^2
+          ---------------
+1. Reduce ca^2 + a^(2)x to its lowest terms.
+#+END_SRC
+
+
+#+BEGIN_SRC
+ca² + a²x = a²(c + x)
+#+END_SRC
