@@ -9,78 +9,180 @@ CLOCK: [2020-07-09 Thu 09:29]--[2020-07-09 Thu 10:30] =>  1:01
 
 ** Chapter II – Explanation of the Signs + Plus and – Minus
 *** Natural Numbers                                                 :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       67805fb8-ab8b-4f52-9731-299f683ac7c5
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:42]
 :END:
 
-math: <[Natural Numbers]> = <[0, 1, 2, ...]>
+math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
 
 *** Natural Numbers Including 0                                     :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       a52d3df6-dab7-472e-a7b0-4c5be2092b10
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:50]
 :END:
 
-math: <[ℕ_0 = ℕ^0 = ℕ ∪ {0}]> = <[{0, 1, 2, …}]>
+math: <[ℕ_0 = ℕ^0 = ℕ ∪ {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:43]
 :END:
 
-math: <[ℕ^{*} = ℕ^{+} = ℕ_{1} = ℕ_{>0}]> = <[{1, 2, 3, …}]>
+math: <[ℕ^{*} = ℕ^{+} = ℕ_{1} = ℕ_{>0} = ℕ \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
 
 ** Chapter III – Of the Multiplication of Simple Quantities
 *** Associative Property                                            :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       e34cc3b6-7090-4234-8f0c-a77066180051
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:45]
 :END:
 
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
 
 *** Commutative Property                                            :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       acecbbbb-cdfa-4798-98e9-98718b039b4e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:44]
 :END:
 
 math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
 
 ** Chapter VII – Of Fractions in General
 *** Numerator and Denominator                                       :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
+:ID:       acf9860e-c10a-4396-b669-4aacdf0d4a3e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:49]
 :END:
 
 math: In a/b, a is the <[Numerator]> and b is the <[Denominator]>
 
 *** Fraction Description                                            :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
+:ID:       f3d6d030-991c-41ee-a98f-984369eda9d1
 :END:
 
-math: <[7/3]> is <[Seven Thirds]> in plain English
+math: 7/3 is read as <[Seven Thirds]>
 
 *** Improper Fraction                                               :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:44]
 :END:
 
 math: a/b is <[an Improper]> fraction if <[a >= b]>
 
 *** Proper Fraction                                                 :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       17fa6164-7977-4ddf-ba66-7b143b42d68c
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:45]
 :END:
 
 math: a/b is <[a Proper]> fraction if <[a < b]>
 
 *** Mixed Number                                                    :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       c07f1718-eb17-480f-b3a9-cd1b6134f66c
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:44]
 :END:
 
-math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper fraction]>
+math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
+fraction]>
 
 *** Mixed Number Notation                                           :drill:
+SCHEDULED: <2020-07-14 Tue>
 :PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       f3580a87-8b20-4355-bea9-bd40efd56212
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:48]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
