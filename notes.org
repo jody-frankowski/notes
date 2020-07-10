@@ -9325,6 +9325,58 @@ HN comment on astigmatism https://news.ycombinator.com/item?id=23496286.
 SIGSEGV is nowadays shown as "Segmentation Fault" but actually is an
 abbreviation of "Segmentation Violation".
 
+** UX
+*** DONE The UX Infinity Gems 6 Ways to Create Great UX
+:PROPERTIES:
+:Source: https://youtu.be/aZZCZpc0AcY
+:END:
+
+Design:
+- Words
+- Declutter-ing-ness
+- Clarity
+
+Validation:
+- Testing Designs
+- Being Humble
+- Delight Our Users
+
+Words:
+Users are not robots. Speak human to them.
+Write with your heart and edit with your brain.
+Consistency is key.
+
+Declutter-ing-ness:
+Show everything can be very appealing but it imposes a very high cognitive load on the user.
+"Perfection is achieved when there is nothing left to take away." - Antoine de Saint-Exupéry
+100 clear screens are always better than 1 cluttered one.
+Whitespace is good.
+
+Clarity:
+Improving clarity should feel like an invisible hand guiding the user.
+"Clarity refers to the focus on one particulare message or goal at a time, rather than attempting to
+accomplish too much at once..." - Michael Hoffman
+Illumination:
+Build trust by using colors and patterns consistently.
+The Golden Rule: Explain things like you would like them explained to you.
+Use colors.
+
+Testing Designs:
+Leave room in your schedules/processes for errors.
+
+Being Humble:
+Ego kills design.
+Ego stops learning.
+Become mindful.
+Be Honest.
+Failure = Opportunity.
+
+Delight Our Users:
+Create a personality.
+"Personality is the mysterious force that attracts us to certain people and repel us from others." -
+Aarron Walter
+Empathy is key.
+
 ** WebAssembly
 *** DONE https://www.youtube.com/watch?v=CMB6AlE1QuI Rust, WebAssembly, and the future of Serverless by Steve Klabnik
 *** DONE https://www.youtube.com/watch?v=fh9WXPu0hw8 Bringing WebAssembly outside the web with WASI by Lin Clark
