@@ -7815,6 +7815,15 @@ non-trivial.
 :Source: https://rachelbythebay.com/w/2020/05/22/boarded/
 :Source+: https://news.ycombinator.com/item?id=23280610
 :END:
+*** DONE Does competitive programming affect pay scales?
+:PROPERTIES:
+:Source: https://www.quora.com/Does-competitive-programming-affect-pay-scales/answer/Duncan-Smith-23
+:Source+:
+:END:
+
+Competitive Programming should mostly affect entry-level pay. Later in one's
+career the raises are more likely to reflect real-world performance.
+
 ** Files
 *** DONE https://danluu.com/deconstruct-files/ Files are fraught with peril
 ** Formats
@@ -8116,6 +8125,35 @@ to avoid data exfiltration.
 - https://leanprover.github.io/about/
 *** DONE https://www.youtube.com/watch?v=6JwEYamjXpA What Happens When Maths Goes Wrong? - with Matt Parker
 *** DONE https://www.youtube.com/watch?v=1wAaI_6b9JE Four Dimensional Maths: Things to See and Hear in the Fourth Dimension - with Matt Parker
+*** DONE Why are Textbook Proofs so Short?
+:PROPERTIES:
+:Source: https://www.redgreencode.com/why-are-textbook-proofs-so-short/
+:END:
+
+Textbooks proofs may be short in order for the reader to work the problem more
+than if there was all the details.
+
+Another obvious explanation is the limited space in textbooks.
+
+*** DONE How to Read a Math Textbook
+:PROPERTIES:
+:Source: https://www.redgreencode.com/how-to-read-a-math-textbook/
+:END:
+
+Writing your own textbook might be the best way to really understand the one
+you're reading.
+Apart from the benefits of reformulation, you will write a textbook that fits
+your ideas and mind.
+
+Also reading line by line after the chapter introduction lets you see a proof
+proposition and try to prove it yourself. That way you will be more prepared
+when you get to the exercices. This idea is very close to my "invent/try
+yourself before reading the answer".
+
+Other people have answered this question by saying that you need to "make the
+idea your own, making it fit in with your own perspective and experiences".
+Writing your own textbook might be a good way to formalize this process.
+
 ** Misc
 *** DONE http://boringtechnology.club/
 *** DONE https://birdeatsbug.com/5-bugs-that-became-features
@@ -8978,6 +9016,54 @@ objectives she gave herself.
 Effortful repetition (eg. recalling notes) is much more effective than simple
 repetition (eg. reading notes).
 
+*** DONE How Long Should You Spend on a Problem?
+:PROPERTIES:
+:Source: https://www.redgreencode.com/how-long-should-you-spend-on-a-problem/
+:END:
+
+Most of the time, the context will dictate how long you can work on a problem.
+Eg. at work or in a class exam.
+
+Working for too long on a problem makes you miss opportunities to learn new
+things (which may actually help you on the original problem).
+
+Principles:
+- Work as long as you’re making progress
+- Work after you get stuck
+- Take breaks
+- Collect data
+
+How to Use Solutions:
+- Read the solution gradually
+- To understand the solution, you first have to understand the problem
+- Calibrate your time-to-look
+- Read the solution even if you solve the problem on your own
+
+Resources:
+- https://www.redgreencode.com/cpfaq-how-long-should-i-work-on-a-programming-problem-before-looking-at-the-answer/
+- https://www.redgreencode.com/how-long-should-you-work-on-a-math-problem-before-looking-at-the-answer/
+
+**** Best Practice: Work on problems for some time after I get stuck :drill:
+SCHEDULED: <2020-07-11 Sat>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       5456e8d3-5fff-4006-94f1-301394b07933
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-07 Tue 10:36]
+:END:
+
+best practice: Work on problems for some time after I get stuck
+
+*** DONE Should You Solve Every Problem In a Math Textbook?
+:PROPERTIES:
+:Source: https://www.redgreencode.com/should-you-solve-every-problem-in-a-math-textbook/
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
