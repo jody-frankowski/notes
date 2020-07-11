@@ -1015,18 +1015,18 @@ c: <[long double||float OR double OR long double]> on x86 usually represents the
 <[x86 80-bit extended precision]> type
 
 ****** long double on 64-bit ARM                                        :drill:
-SCHEDULED: <2020-07-11 Sat>
+SCHEDULED: <2021-05-03 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9517fcb8-48cc-44c5-bf53-5cd7b65866bd
-:DRILL_LAST_INTERVAL: 137.4461
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 295.5091
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-25 Tue 08:59]
+:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:33]
 :END:
 
 c: <[long double||float OR double OR long double]> on 64-bit ARM represents the
@@ -4664,17 +4664,17 @@ SCHEDULED: <2020-07-16 Thu>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2020-07-11 Sat>
+SCHEDULED: <2020-07-15 Wed>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 70.1588
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-02 Sat 12:21]
+:DRILL_LAST_INTERVAL: 3.87
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:34]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not
@@ -6897,17 +6897,17 @@ SCHEDULED: <2020-12-29 Tue>
 srs: best practice: Make *Simple* cards
 
 **** Use Images                                                    :drill:
-SCHEDULED: <2020-07-11 Sat>
+SCHEDULED: <2020-07-20 Mon>
 :PROPERTIES:
 :ID:       48fb8184-a1d6-42c0-a016-2a8e699c1ada
-:DRILL_LAST_INTERVAL: 8.4477
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 52
+:DRILL_LAST_INTERVAL: 9.4868
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 53
 :DRILL_FAILURE_COUNT: 9
-:DRILL_AVERAGE_QUALITY: 2.865
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.868
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-03 Fri 13:11]
+:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:32]
 :END:
 
 srs: best practice: Use *Images*
@@ -9044,18 +9044,18 @@ Resources:
 - https://www.redgreencode.com/how-long-should-you-work-on-a-math-problem-before-looking-at-the-answer/
 
 **** Best Practice: Work on problems for some time after I get stuck :drill:
-SCHEDULED: <2020-07-11 Sat>
+SCHEDULED: <2020-07-20 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5456e8d3-5fff-4006-94f1-301394b07933
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.2899
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-07 Tue 10:36]
+:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:29]
 :END:
 
 best practice: Work on problems for some time after I get stuck

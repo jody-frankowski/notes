@@ -116,8 +116,17 @@ SCHEDULED: <2020-07-14 Tue>
 math: In a/b, a is the <[Numerator]> and b is the <[Denominator]>
 
 *** Fraction Description                                            :drill:
+SCHEDULED: <2020-07-15 Wed>
 :PROPERTIES:
 :ID:       f3d6d030-991c-41ee-a98f-984369eda9d1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:33]
 :END:
 
 math: 7/3 is read as <[Seven Thirds]>
