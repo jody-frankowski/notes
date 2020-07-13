@@ -2,6 +2,8 @@
 
 #+TITLE: Math
 
+#+STARTUP: entitiespretty
+
 * Elements of Algebra - Leonhard Euler
 :LOGBOOK:
 CLOCK: [2020-07-11 Sat 12:47]--[2020-07-11 Sat 13:47] =>  1:00
@@ -49,7 +51,7 @@ SCHEDULED: <2020-07-14 Tue>
 :DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:50]
 :END:
 
-math: <[N_0 = N^0 = N U {0}||3 Notations]> = <[{0, 1, 2, …}]>
+math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
 SCHEDULED: <2020-07-14 Tue>
