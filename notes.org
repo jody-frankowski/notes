@@ -8010,6 +8010,10 @@ minigame in a Zelda game in a Zelda game.
 :PROPERTIES:
 :Source: https://changelog.com/gotime/113
 :END:
+*** DONE Don’t just check errors, handle them gracefully
+:PROPERTIES:
+:Source: https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
+:END:
 ** Hardware
 *** Security
 **** DONE https://media.ccc.de/v/36c3-10690-open_source_is_insufficient_to_solve_trust_problems_in_hardware
