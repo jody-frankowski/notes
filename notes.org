@@ -7824,6 +7824,10 @@ non-trivial.
 Competitive Programming should mostly affect entry-level pay. Later in one's
 career the raises are more likely to reflect real-world performance.
 
+*** DONE Developer Interviews are Broken, and You Can't Fix It
+:PROPERTIES:
+:Source: http://www.gayle.com/blog/2015/6/10/developer-interviews-are-broken-and-you-cant-fix-it
+:END:
 ** Files
 *** DONE https://danluu.com/deconstruct-files/ Files are fraught with peril
 ** Formats
