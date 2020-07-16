@@ -7828,6 +7828,11 @@ career the raises are more likely to reflect real-world performance.
 :PROPERTIES:
 :Source: http://www.gayle.com/blog/2015/6/10/developer-interviews-are-broken-and-you-cant-fix-it
 :END:
+*** DONE Just Too Efficient
+:PROPERTIES:
+:Source: https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient
+:Source+: https://news.ycombinator.com/item?id=23809291
+:END:
 ** Files
 *** DONE https://danluu.com/deconstruct-files/ Files are fraught with peril
 ** Formats
@@ -9072,6 +9077,14 @@ best practice: Work on problems for some time after I get stuck
 :PROPERTIES:
 :Source: https://www.redgreencode.com/should-you-solve-every-problem-in-a-math-textbook/
 :END:
+*** DONE The Polymath Playbook
+:PROPERTIES:
+:Source: https://salman.io/posts/polymath-playbook/
+:Source+: https://news.ycombinator.com/item?id=23796035
+:END:
+
+Interesting article on the benefits and opportunities of being a jack of all trades.
+
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
