@@ -933,18 +933,18 @@ c: The <[format]> function attribute specifies that <[the arguments to the
 function should be type checked like printf]>
 
 ***** =const= and =pure=                                          :drill:
-SCHEDULED: <2020-07-16 Thu>
+SCHEDULED: <2020-08-07 Fri>
 :PROPERTIES:
 :SOURCE: https://stackoverflow.com/questions/29117836/attribute-const-vs-attribute-pure-in-gnu-c
 :ID:       cccb2b03-bc02-48bf-8107-4ed1583c8f3d
-:DRILL_LAST_INTERVAL: 19.9107
-:DRILL_REPEATS_SINCE_FAIL: 12
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 22.3597
+:DRILL_REPEATS_SINCE_FAIL: 13
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.363
+:DRILL_AVERAGE_QUALITY: 3.391
 :DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-26 Fri 11:03]
+:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
 :END:
 
 c: function attribute: const:
@@ -4042,18 +4042,18 @@ SCHEDULED: <2020-09-28 Mon>
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>
 
 **** Underflow                                                     :drill:
-SCHEDULED: <2020-07-16 Thu>
+SCHEDULED: <2021-06-08 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       14995f3a-d4ac-4bd8-9796-4809a4999fc9
-:DRILL_LAST_INTERVAL: 141.5156
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 326.618
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-25 Tue 08:59]
+:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
 :END:
 
 floating point: An <[Underflow]> happens when <[the result of an operation is
@@ -4647,18 +4647,18 @@ zsh: Field splitting is done:
 ]>
 
 *** Reading the Script                                              :drill:
-SCHEDULED: <2020-07-16 Thu>
+SCHEDULED: <2020-12-28 Mon>
 :PROPERTIES:
 :Source: https://unix.stackexchange.com/a/121025
 :ID:       5c38721a-b321-4033-8cf6-a31879f44bd1
-:DRILL_LAST_INTERVAL: 66.05
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 165.125
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-11 Mon 12:19]
+:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
 :END:
 
 sh: Shells <[don't always]> load the whole script in memory before executing it

@@ -2743,18 +2743,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2020-07-16 Thu>
+SCHEDULED: <2020-07-20 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 77.2356
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.267
-:DRILL_EASE: 1.72
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.177
+:DRILL_EASE: 1.58
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-30 Thu 11:09]
+:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
