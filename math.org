@@ -207,6 +207,23 @@ SCHEDULED: <2020-07-24 Fri>
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
 
+** Chapter VIII – Of the Properties of Fractions
+*** Multiplying the Numerator and Denominator                      :drill:
+SCHEDULED: <2020-07-21 Tue>
+:PROPERTIES:
+:ID:       722db1b5-424c-44cd-b290-a1248fc77096
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-17 Fri 07:21]
+:END:
+
+math: ma/mb = <[a/b]> because <[ma/mb = a/b * m/m and m/m = 1 so ma/mb = a/b * 1 = a/b]>
+
 ** Questions for Practice
 
 1. Reduce $\frac{cx + x^2}{ca^2 + ax^2}$ to its lowest terms.
@@ -261,3 +278,11 @@ math: A <[Mixed Number]> is noted as <[a b/c]>
    &= \frac{5a^3(a + x)}{a^2x + ax^2 + x^2} \\
    &= \frac{5a^4 + 5a^3x}{a^2x + ax^2 + x^2}
    \end{align}
+
+** Chapter IX – Of the Addition and Subtraction of Fractions
+*** Adding Fractions With The Same Denominator                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b) * 1/c = (a + b)/c]>
