@@ -207,17 +207,17 @@ can be used to add <[properties]> to the function
 (obsolete current-name when)
 
 ***** Elisp Named Function Definition Interactive                 :drill:
-SCHEDULED: <2020-07-18 Sat>
+SCHEDULED: <2020-12-21 Mon>
 :PROPERTIES:
 :ID:       ACC72965-D448-41E9-AF6F-8FAE46D76D68
-:DRILL_LAST_INTERVAL: 62.4731
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 155.8704
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_AVERAGE_QUALITY: 3.818
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-17 Sun 14:49]
+:DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:09]
 :END:
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~
@@ -1312,18 +1312,18 @@ vim: The mode in which you are after typing an operator (eg. =d=) is called
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
 *** <C-h>                                                              :drill:
-SCHEDULED: <2020-07-18 Sat>
+SCHEDULED: <2020-07-22 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 73.7884
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.857
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-05 Tue 08:15]
+:DRILL_LAST_INTERVAL: 4.114
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 16
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.687
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:23]
 :END:
 
 vim: <[Delete back one character]> with <[<C-h>]>
@@ -1408,18 +1408,18 @@ Do a block-wise selection with =<C-v>=.
 Reselect the last visual selection with =gv=.
 
 *** =o= while selecting                                             :drill:
-SCHEDULED: <2020-07-18 Sat>
+SCHEDULED: <2020-08-29 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       32c9c9d4-80c9-4849-af8e-059f39b12cf6
-:DRILL_LAST_INTERVAL: 20.2196
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 42.0568
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.231
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-28 Sun 09:26]
+:DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:22]
 :END:
 
 vim: selection: <[Go to the other end of the selection]> with <[o]>
