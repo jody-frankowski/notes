@@ -120,7 +120,8 @@ SCHEDULED: <2020-07-25 Sat>
 :DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:04]
 :END:
 
-math: In a/b, a is the <[Numerator]> and b is the <[Denominator]>
+math: In a/b, a is the <[Numerator or Dividend||XXX or XXX]> and b is the
+<[Denominator or Divisor||XXX or XXX]>
 
 *** Fraction Description                                            :drill:
 SCHEDULED: <2020-07-25 Sat>
