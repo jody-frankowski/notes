@@ -287,3 +287,54 @@ math: ma/mb = <[a/b]> because <[ma/mb = a/b * m/m and m/m = 1 so ma/mb = a/b * 1
 :END:
 
 math a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b) * 1/c = (a + b)/c]>
+
+** Questions for Practice
+
+1. Reduce $\frac{2x}{a}$ and $\frac{b}{c}$ to a common denominator.
+
+   \begin{align}
+   \frac{2x}{a} &= \frac{2cx}{ac} \\
+   \frac{b}{c} &= \frac{ab}{ac}
+   \end{align}
+
+2. Reduce $\frac{a}{b}$ and $\frac{a + b}{c}$ to a common denominator.
+
+   \begin{align}
+   \frac{a}{b} &= \frac{ac}{bc} \\
+   \frac{a + b}{c} &= \frac{ab + b^2}{bc}
+   \end{align}
+
+3. Reduce $\frac{3x}{2a}$, $\frac{2b}{3c}$ and $d$ to a common denominator.
+
+   \begin{align}
+   \frac{3x}{2a} &= \frac{9cx}{6ac} \\
+   \frac{2b}{3c} &= \frac{4ab}{6ac} \\
+   d &= \frac{6acd}{6ac}
+   \end{align}
+
+4. Reduce $\frac{3}{4}$, $\frac{2x}{3}$ and $a + \frac{2x}{a}$ to a common
+   denominator.
+
+   \begin{align}
+   \frac{3}{4} &= \frac{9a}{12a} \\
+   \frac{2x}{3a} &= \frac{8ax}{12a} \\
+   a + \frac{2x}{a} &= \frac{12a^2 + 24x}{12a}
+   \end{align}
+
+5. Reduce $\frac{1}{2}$, $\frac{a^2}{3}$ and $\frac{x^2 + a^2}{x + a}$ to a
+   common denominator.
+
+   \begin{align}
+   \frac{1}{2} &= \frac{3(x + a)}{6(x + a)} \\
+   \frac{a^2}{3} &= \frac{2a^2(x + a)}{6(x + a)} \\
+   \frac{6(x^2 + a^2)}{x + a} &= \frac{6(x^2 + a^2)}{6(x + a)}
+   \end{align}
+
+6. Reduce $\frac{b}{2a^2}$, $\frac{c}{2a}$ and $\frac{d}{a}$ to a common
+   denominator.
+
+   \begin{align}
+   \frac{b}{2a^2} &= \frac{b}{2a^2} \\
+   \frac{c}{2a} &= \frac{ac}{2a^2} \\
+   \frac{d}{a} &= \frac{2ad}{2a^2}
+   \end{align}
