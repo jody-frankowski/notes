@@ -209,17 +209,17 @@ math: A <[Mixed Number]> is noted as <[a b/c]>
 
 ** Chapter VIII – Of the Properties of Fractions
 *** Multiplying the Numerator and Denominator                      :drill:
-SCHEDULED: <2020-07-21 Tue>
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
 :ID:       722db1b5-424c-44cd-b290-a1248fc77096
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.2268
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-17 Fri 07:21]
+:DRILL_LAST_REVIEWED: [2020-07-21 Tue 09:13]
 :END:
 
 math: ma/mb = <[a/b]> because <[ma/mb = a/b * m/m and m/m = 1 so ma/mb = a/b * 1 = a/b]>
