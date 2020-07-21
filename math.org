@@ -338,3 +338,8 @@ math a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b)
    \frac{c}{2a} &= \frac{ac}{2a^2} \\
    \frac{d}{a} &= \frac{2ad}{2a^2}
    \end{align}
+
+* OpenStax - Prealgebra 2e
+:LOGBOOK:
+CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
+:END:
