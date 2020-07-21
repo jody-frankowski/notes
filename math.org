@@ -343,3 +343,51 @@ math a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b)
 :LOGBOOK:
 CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 :END:
+
+** 2.5 Prime Factorization and the Least Common Multiple
+*** Least Common Multiple                                           :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: The <[Least Common Multiple (lcm) of a and b]> is <[the smallest number that is divisible by
+both a and b]>
+
+*** Least Common Multiple Example                                   :drill:
+:PROPERTIES:
+:END:
+
+math: lcm(4, 6) = <[12]>
+
+*** Least Common Multiple Use                                       :drill:
+:PROPERTIES:
+:END:
+
+math: Use <[the lcm of the denominators]> to merge the sum of two fractions
+
+*** Greatest Common Divisor                                         :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: The <[Greatest Common Divisor (gcd) of a and b]> is <[the greatest number that divides both
+a and b]>
+
+*** Greatest Common Divisor Example                                 :drill:
+:PROPERTIES:
+:END:
+
+math: gcd(8, 12) = <[4]>
+
+*** Greatest Common Divisor Use                                     :drill:
+:PROPERTIES:
+:END:
+
+math: You can use <[the gcm of the numerator and denominator]> to reduce a fraction
+
+*** Irreducible Fraction                                            :drill:
+:PROPERTIES:
+:END:
+
+math: <[An Irreducible Fraction]> is a fraction whose numerator and denominator have no common
+factors
