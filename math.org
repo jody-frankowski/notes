@@ -468,8 +468,7 @@ SCHEDULED: <2020-07-26 Sun>
 :DRILL_LAST_REVIEWED: [2020-07-22 Wed 12:24]
 :END:
 
-math: <[An Irreducible Fraction]> is <[a fraction whose numerator and denominator have no common
-factors]>
+math: <[a/b is an Irreducible Fraction]> if <[a and b have no common factors]>
 :PROPERTIES:
 :END:
 
