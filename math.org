@@ -453,6 +453,7 @@ SCHEDULED: <2020-07-26 Sun>
 
 math: To reduce a fraction <[divide the numerator and denominator by their greatest common divisor]>
 
+** 4.2 Multiply and Divide Fractions
 *** Irreducible Fraction                                            :drill:
 SCHEDULED: <2020-07-26 Sun>
 :PROPERTIES:
@@ -469,6 +470,137 @@ SCHEDULED: <2020-07-26 Sun>
 :END:
 
 math: <[a/b is an Irreducible Fraction]> if <[a and b have no common factors]>
+
+*** Irreducible Fraction                                            :drill:
+SCHEDULED: <2020-07-27 Mon>
 :PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
 :END:
 
+math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
+
+*** Multiplicative Inverse aka Reciprocal                           :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d08dc316-3d6a-4394-8fb7-88e8e05329fd
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
+:END:
+
+math: <[Multiplicative Inverse]> aka <[Reciprocal]>
+
+*** Multiplicative Inverse Definition                               :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       adc8d162-4674-4aa2-8c51-eee0e81d43af
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
+:END:
+
+math: Y is the <[Muliplicative Inverse]> of X if <[X * Y = 1]>
+
+*** The Muliplicative Inverse of a/b                                :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       d15b9a70-937c-4033-b6df-05db89d81b6d
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
+:END:
+
+math: The multiplicative inverse of <[a/b]> is <[b/a]>
+
+*** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
+:PROPERTIES:
+:ID:       54d54982-7652-4c84-8422-1058f188369b
+:END:
+
+math: proof: The multiplicative inverse of a/b is b/a:
+<[
+a/b * X = 1
+      X = 1/(a/b)
+      X = 1/(a/b) * 1
+      X = 1/(a/b) * (b/a)/(b/a),
+      X = (b/a)/(ab/ab)
+      X = (b/a)/1 (identity property of division)
+      X = b/a
+]>
+
+*** 1/(a/b) = b/a                                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       a6ba716e-1a86-4fc5-8b10-332d9cb9c639
+:END:
+
+math: 1/(a/b) = <[b/a]>
+
+*** Proof of 1/(a/b) = b/a                                          :drill:
+SCHEDULED: <2020-07-27 Mon>
+:PROPERTIES:
+:ID:       b2ac6f11-aefc-4dda-88e5-827921b698c5
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:50]
+:END:
+
+math: proof: 1/(a/b) = b/a:
+<[
+1/(a/b) = 1/(a/b) * 1
+        = 1/(a/b) * (b/a)/(b/a)
+        = (b/a)/(ab/ab)
+        = (b/a)/1
+        = b/a
+]>
+
+*** (a/b)/(c/d) = ad/bc                                             :drill:
+:PROPERTIES:
+:ID:       1d785ebc-a6c4-4caa-b532-1bef0cf3ed87
+:END:
+
+math: (a/b)/(c/d) = <[ad/bc]>
+
+*** Proof of (a/b)/(c/d) = ad/bc                                    :drill:
+:PROPERTIES:
+:ID:       c00ec299-797d-4601-bb43-f217b17a0744
+:END:
+
+math: proof: (a/b)/(c/d) = ad/bc
+<[
+(a/b)/(c/d) = (a/b) * 1/(c/d) (division is multiplication by inverse)
+            = (a/b) * (d/c) (inverse)
+            = ad/bc
+]>

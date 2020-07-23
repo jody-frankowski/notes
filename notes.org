@@ -1571,18 +1571,18 @@ c: <[Automatic]> storage duration means that the object lives as long as <[the
 block in which it was declared runs]>
 
 ***** Static                                                      :drill:
-SCHEDULED: <2020-07-23 Thu>
+SCHEDULED: <2022-01-07 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7c7c8442-b21a-48ab-945b-a9cb40776a34
-:DRILL_LAST_INTERVAL: 191.373
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 532.9738
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 09:35]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
 :END:
 
 c: <[Static]> storage duration means that the object lives as long as <[the
@@ -5605,18 +5605,18 @@ SCHEDULED: <2020-12-01 Tue>
 c: printf: <[Print an unsigned integer in hexadecimal]> with <[x]>
 
 ****** f                                                         :drill:
-SCHEDULED: <2020-07-23 Thu>
+SCHEDULED: <2021-06-26 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ac4c5409-2d04-4870-bc94-50d67eb8a5bf
-:DRILL_LAST_INTERVAL: 146.2344
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 337.509
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-28 Fri 09:19]
+:DRILL_LAST_REVIEWED: [2020-07-23 Thu 12:14]
 :END:
 
 c: printf: <[Print a double]> with <[f]>
