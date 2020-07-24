@@ -1167,18 +1167,18 @@ SCHEDULED: <2020-12-20 Sun>
 c: <[intN_t]> is <[an integer type that is N bits]> long
 
 ****** int_leastN_t                                              :drill:
-SCHEDULED: <2020-07-23 Thu>
+SCHEDULED: <2020-12-27 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       A6FC1263-5C53-450D-9AB1-368A9E94B636
-:DRILL_LAST_INTERVAL: 62.4731
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 155.8704
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_AVERAGE_QUALITY: 3.818
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-22 Fri 08:50]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:22]
 :END:
 
 c: <[int_leastN_t]> is <[the smallest possible]> integer type that is at least N
@@ -1512,18 +1512,18 @@ c: *No linkage* means the identifier can be referred to <[only from the scope it
 is declared in]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-04 Tue>
 :PROPERTIES:
 :ID:       b5c95d53-7783-41dc-80ad-4c97dd0a0126
 :DRILL_CARD_TYPE: show1cloze
-:DRILL_LAST_INTERVAL: 9.1145
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 37
+:DRILL_LAST_INTERVAL: 10.5546
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 38
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.486
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-15 Wed 10:08]
+:DRILL_AVERAGE_QUALITY: 3.526
+:DRILL_EASE: 1.4
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
 :END:
 
 c: <[File]>-scoped identifiers have <[external]> linkage by default
@@ -2790,18 +2790,18 @@ A <[font]> is an expression of a <[typeface]> with a particular <[size, slant
 and weight]>
 
 *** Drill :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2021-01-24 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       89030284-47D2-49C8-B4B5-4FAFF78128E4
-:DRILL_LAST_INTERVAL: 99.8401
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 183.7058
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.462
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 1.76
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-15 Wed 08:47]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:23]
 :END:
 
 The names <[Lowercase and Uppercase]> come from <[the metal type cases which

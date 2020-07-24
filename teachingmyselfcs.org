@@ -1107,18 +1107,18 @@ SCHEDULED: <2020-11-05 Thu>
 vim: <[Clear the whole line and enter Insert mode]> with <[S]>
 
 *** s                                                               :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-03 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bbc6f710-861b-4bb2-9ba2-ffed88b9e0af
-:DRILL_LAST_INTERVAL: 8.7273
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 29
+:DRILL_LAST_INTERVAL: 10.1237
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 30
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.242
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-15 Wed 10:08]
+:DRILL_AVERAGE_QUALITY: 3.267
+:DRILL_EASE: 1.3
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
 :END:
 
 vim: <[Clear a character and enter Insert mode]> with <[s]>
@@ -3048,17 +3048,17 @@ go: Benchmark functions need to:
 - <[Be in a ..._test.go file]>
 
 *** Benchmarks are Run With                                         :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2021-10-31 Sun>
 :PROPERTIES:
 :ID:       3398b200-2043-4802-b08d-5c42b284b92c
-:DRILL_LAST_INTERVAL: 178.3972
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 463.8327
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_AVERAGE_QUALITY: 4.167
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-28 Tue 12:10]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:31]
 :END:
 
 go: Run *Benchmarks* with the command <[go test -bench .]>

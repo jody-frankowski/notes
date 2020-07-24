@@ -37,35 +37,35 @@ SCHEDULED: <2020-07-25 Sat>
 math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
 
 *** Natural Numbers Including 0                                     :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-18 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a52d3df6-dab7-472e-a7b0-4c5be2092b10
-:DRILL_LAST_INTERVAL: 9.8942
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.4875
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:06]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
 :END:
 
 math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-18 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
-:DRILL_LAST_INTERVAL: 9.8942
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.4875
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:03]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
 :END:
 
 math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
@@ -89,18 +89,18 @@ SCHEDULED: <2020-07-25 Sat>
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
 
 *** Commutative Property                                            :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       acecbbbb-cdfa-4798-98e9-98718b039b4e
-:DRILL_LAST_INTERVAL: 10.228
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 26.378
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:06]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:23]
 :END:
 
 math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
@@ -140,70 +140,70 @@ SCHEDULED: <2020-07-25 Sat>
 math: 7/3 is read as <[Seven Thirds]>
 
 *** Improper Fraction                                               :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-17 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.9512
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:04]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:06]
 :END:
 
 math: a/b is <[an Improper]> fraction if <[a >= b]>
 
 *** Proper Fraction                                                 :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-17 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       17fa6164-7977-4ddf-ba66-7b143b42d68c
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.9512
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 08:58]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
 :END:
 
 math: a/b is <[a Proper]> fraction if <[a < b]>
 
 *** Mixed Number                                                    :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-16 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c07f1718-eb17-480f-b3a9-cd1b6134f66c
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.2222
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:05]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:06]
 :END:
 
 math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
 fraction]>
 
 *** Mixed Number Notation                                           :drill:
-SCHEDULED: <2020-07-24 Fri>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 10.228
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.57
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:06]
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:24]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
@@ -543,8 +543,17 @@ SCHEDULED: <2020-07-27 Mon>
 math: The multiplicative inverse of <[a/b]> is <[b/a]>
 
 *** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
+SCHEDULED: <2020-07-28 Tue>
 :PROPERTIES:
 :ID:       54d54982-7652-4c84-8422-1058f188369b
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:30]
 :END:
 
 math: proof: The multiplicative inverse of a/b is b/a:
@@ -552,16 +561,24 @@ math: proof: The multiplicative inverse of a/b is b/a:
 a/b * X = 1
       X = 1/(a/b)
       X = 1/(a/b) * 1
-      X = 1/(a/b) * (b/a)/(b/a),
+      X = 1/(a/b) * (b/a)/(b/a)
       X = (b/a)/(ab/ab)
       X = (b/a)/1 (identity property of division)
       X = b/a
 ]>
 
 *** 1/(a/b) = b/a                                                   :drill:
+SCHEDULED: <2020-07-28 Tue>
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
 :ID:       a6ba716e-1a86-4fc5-8b10-332d9cb9c639
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:31]
 :END:
 
 math: 1/(a/b) = <[b/a]>
@@ -590,15 +607,33 @@ math: proof: 1/(a/b) = b/a:
 ]>
 
 *** (a/b)/(c/d) = ad/bc                                             :drill:
+SCHEDULED: <2020-07-28 Tue>
 :PROPERTIES:
 :ID:       1d785ebc-a6c4-4caa-b532-1bef0cf3ed87
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:24]
 :END:
 
 math: (a/b)/(c/d) = <[ad/bc]>
 
 *** Proof of (a/b)/(c/d) = ad/bc                                    :drill:
+SCHEDULED: <2020-07-28 Tue>
 :PROPERTIES:
 :ID:       c00ec299-797d-4601-bb43-f217b17a0744
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:23]
 :END:
 
 math: proof: (a/b)/(c/d) = ad/bc
