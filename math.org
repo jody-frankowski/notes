@@ -2,8 +2,6 @@
 
 #+TITLE: Math
 
-#+STARTUP: entitiespretty
-
 * Elements of Algebra - Leonhard Euler
 :LOGBOOK:
 CLOCK: [2020-07-11 Sat 12:47]--[2020-07-11 Sat 13:47] =>  1:00
