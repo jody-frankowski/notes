@@ -1314,17 +1314,17 @@ SCHEDULED: <2020-12-26 Sat>
 c: GCC does not inline functions when <[optimizations are disabled]>
 
 **** GCC Force Inlining                                            :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-21 Fri>
 :PROPERTIES:
 :ID:       d03fa07c-faf5-4c97-9dba-93ac55c4c9bc
-:DRILL_LAST_INTERVAL: 10.5956
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 27.2731
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.632
+:DRILL_AVERAGE_QUALITY: 3.65
 :DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:06]
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:31]
 :END:
 
 c: You can force GCC to inline a function even when there is no optimization
@@ -3444,28 +3444,28 @@ linux: How are files *ACLs* implemented?
 
 ***** Answer
 
-With the *File Extended Attributes*
+With the *Extended File Attributes*
 
 **** Capabilities Through Extended Attributes                      :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2021-12-07 Tue>
 :PROPERTIES:
 :SOURCE: https://wiki.archlinux.org/index.php/Capabilities
 :ID:       bc75ac41-4c31-4c80-93a3-5e4a805d8bb7
-:DRILL_LAST_INTERVAL: 197.2254
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 499.5719
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-10 Fri 07:11]
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:26]
 :END:
 
 linux: How are files *Capabilities* implemented?
 
 ***** Answer
 
-Through the use of *File Extended Attributes*
+Through the use of *Extended File Attributes*
 
 **** File and Extended Attributes                                  :drill:
 SCHEDULED: <2021-03-05 Fri>
@@ -4664,17 +4664,17 @@ SCHEDULED: <2020-12-28 Mon>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 9.5782
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 20.8805
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-15 Wed 10:08]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:25]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not

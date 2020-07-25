@@ -18,18 +18,18 @@ CLOCK: [2020-07-09 Thu 09:29]--[2020-07-09 Thu 10:30] =>  1:01
 
 ** Chapter II – Explanation of the Signs + Plus and – Minus
 *** Natural Numbers                                                 :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-21 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       67805fb8-ab8b-4f52-9731-299f683ac7c5
-:DRILL_LAST_INTERVAL: 10.552
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.2136
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 08:58]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:32]
 :END:
 
 math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
@@ -70,18 +70,18 @@ math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, �
 
 ** Chapter III – Of the Multiplication of Simple Quantities
 *** Associative Property                                            :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-21 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e34cc3b6-7090-4234-8f0c-a77066180051
-:DRILL_LAST_INTERVAL: 10.552
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.2136
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 08:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:25]
 :END:
 
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
@@ -105,34 +105,34 @@ math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
 
 ** Chapter VII – Of Fractions in General
 *** Numerator and Denominator                                       :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-21 Fri>
 :PROPERTIES:
 :ID:       acf9860e-c10a-4396-b669-4aacdf0d4a3e
-:DRILL_LAST_INTERVAL: 10.552
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.2136
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:04]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:32]
 :END:
 
 math: In a/b, a is the <[Numerator or Dividend||XXX or XXX]> and b is the
 <[Denominator or Divisor||XXX or XXX]>
 
 *** Fraction Description                                            :drill:
-SCHEDULED: <2020-07-25 Sat>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :ID:       f3d6d030-991c-41ee-a98f-984369eda9d1
-:DRILL_LAST_INTERVAL: 10.228
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.57
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-15 Wed 10:08]
+:DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:32]
 :END:
 
 math: 7/3 is read as <[Seven Thirds]>
