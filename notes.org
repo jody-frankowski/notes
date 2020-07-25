@@ -3307,6 +3307,273 @@ SCHEDULED: <2020-12-17 Thu>
 The equivalent of <[LD_PRELOAD]> on Linux is <[DYLD_INSERT_LIBRARIES]> on macOS
 
 ** Linux
+*** Boot Process
+
+The file system supported by the Extensible Firmware Interface is based on the
+FAT file system. EFI defines a specific version of FAT that is explicitly
+documented and testable. Conformance to the EFI specification and its associate
+reference documents is the only definition of FAT that needs to be implemented
+to support EFI. To differentiate the EFI file system from pure FAT, a new
+partition file system type has been defined.
+EFI encompasses the use of FAT32 for a system partition, and FAT12 or FAT16 for
+removable media. The FAT32 system partition is identified by an OSType value
+other than that used to identify previous versions of FAT. This unique partition
+type distinguishes an EFI defined file system from a normal FAT file system. The
+file system supported by EFI includes support for long file names.
+
+- UEFI finds and opens EFI System Partition
+- ESP should be formated with a fat fs. and have the following guid
+C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+- Runs ? efi binary
+- Bootloader needs appropriate drivers to open partition that contains kernel
+and initramfs if they aren't on the ESP
+- Initramfs contains drivers to open the rest of the partitions
+- (Arch) initramfs is the one that decrypts partitions (zfs or luks)
+(mkinitcpio hooks). it calls =zfs load-key=.
+- kernel modules (/usr/lib/modules) which contains devices firmware
+https://wiki.archlinux.org/index.php/Mkinitcpio#Image_creation_and_activation
+fallback == all modules
+- When the option CONFIG_EFI_STUB is enabled, the kernel will masquerade as a
+PE binary and can be directly executed by the UEFI firmware
+- Boots configurations are stored in the NVRAM, but the firmware also searches
+for standardized file paths; for example, the file path to the OS loader on an
+x86-64 system is /efi/BOOT/BOOTX64.EFI,[28] and efi\boot\bootaa64.efi on ARM64
+architecture.
+- If you don't use the std paths, the firmware won't automatically suggest your
+efi bootloader and you will probably have to manually configure it from the
+firmware or with efibootmgr?
+- (binary blobs) are added to the initramfs by mkinitcpio
+
+refind:
+TODO Test it can find the root automatically if it has the following
+standardized guid 4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709 (x86-64)
+(https://www.freedesktop.org/wiki/Specifications/DiscoverablePartitionsSpec/)
+
+gpt/fs:
+- https://wiki.archlinux.org/index.php/Persistent_block_device_naming
+- GPT partitions have uuid, but filesystems can have one too!
+- GPT partitions have labels, but filesystems can have one too!
+- GPT partitions have both a guid and a uuid
+- GPT partitions have both a unique guid and a type guid (same as above??)
+- A GPT disk has a unique uuid
+- https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_type_GUIDs
+- https://askubuntu.com/questions/703443/gdisk-hex-codes
+(gdisk uses non-official short ids based on MBR ones to designate full gpt guids)
+- by-id creates a unique name depending on the hardware serial number, by-path
+depending on the shortest physical path (according to sysfs).
+- by-id could be used when we want to clone the disk, but not immediately use
+it?
+
+boot process:
+- The bootloader will load the kernel and initial root file system image into
+memory and then start the kernel, passing in the memory address of the image. At
+the end of its boot sequence, the kernel tries to determine the format of the
+image from its first few blocks of data, which can lead either to the initrd or
+initramfs scheme.
+- In the initrd scheme, the image may be a file system image (optionally
+compressed), which is made available in a special block device (/dev/ram) that
+is then mounted as the initial root file system.[3] The driver for that file
+system must be compiled statically into the kernel. Many distributions
+originally used compressed ext2 file system images, while the others (including
+Debian 3.1) used cramfs in order to boot on memory-limited systems, since the
+cramfs image can be mounted in-place without requiring extra space for
+decompression. Once the initial root file system is up, the kernel executes
+/linuxrc as its first process;[4] when it exits, the kernel assumes that the
+real root file system has been mounted and executes /sbin/init to begin the
+normal user-space boot process.[3]
+- In the initramfs scheme (available since the Linux kernel 2.6.13), the image may
+be a cpio archive (optionally compressed). The archive is unpacked by the kernel
+into a special instance of a tmpfs that becomes the initial root file system.
+This scheme has the advantage of not requiring an intermediate file system or
+block drivers to be compiled into the kernel.[5] Some systems use the dracut
+package to create an initramfs image.[6] In the initramfs scheme, the kernel
+executes /init as its first process that is not expected to exit.[5]. For some
+applications, initramfs can use the casper utility to create a writable
+environment using unionfs to overlay a persistence layer over a read-only root
+filesystem image. For example, overlay data can be stored on a USB flash drive,
+while a compressed SquashFS read-only image stored on a live CD acts as a root
+filesystem.[7][8]
+- the root file system can be indicated to the kernel with the root="" argument
+  the value can be one of:
+  - LABEL={Filesystem Label}
+  - UUID={Filesystem UUID}
+  - /dev/disk/by-...
+  - PARTLABEL={GPT Partition Label}
+  - PARTUUID={GPT Partition UUID}
+
+fat:
+- fat can have 12,16 or 32 bits long pointers in its table. vfat designates a
+fat filesystem with support for long file names (vs 8.3). mkfs.vfat will
+intelligently select between 12/16 and 32bit based on the partition size
+- fat has a max file size of 4GiB and max volume size of 2 or 16TB (4k sectors)
+- FAT does not support symlinks
+
+exfat:
+- exfat is the default fs of sdxc cards above 32 GiB
+- ExFAT does not support symlinks
+- Operating systems have supported EXFAT for many years, since:
+    Windows: XP
+    MacOS: 10.6.3
+    Linux: CentOS 5, Ubuntu 10.04, etc.
+    Android: 4
+
+mdadm:
+ESP Raid 1:
+
+Use mdadm 1.0 so that the raid infos are at the end of the of the partition, and
+the ESP partition still looks like one to the BIOS. (Instead of being
+encapsulated inside a mdadm block (1.1 and 1.2))
+This should not conflict with the FAT fs, and i've checked this myself (no data
+at the end of the partition) ???????? Unless the fs is full??
+If the firmware modifies the ESP it will lead to mdadm/fat corruption.
+Another solution would be to keep both ESP in sync fully manually, resolving
+conflicts automatically (either by copying from a trusted external source or by
+merging and keeping everything)
+https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/QTRRMZU6PORBTGSATUFUIEUKY7QYA3PV/
+According to my single unscientific test, even completely filling the vfat
+partition doesn't overwrite the mdadm metadata.
+
+BIOS /boot raid 1:
+
+
+usb/sdcard idea:
+- gpt?
+- 1 vfat32 part for ESP ? How to hide?
+  - one refind entry for every zfs snapshot?
+- 1 vfat32 part for old printers?
+- 1 exfat part for backups?
+- 1 zfs part for pc copies ?
+
+TODO:
+- https://wiki.archlinux.org/index.php/Microcode
+- Raid 1 ESP
+- Remote unlock https://wiki.archlinux.org/index.php/ZFS#Remote_unlocking_of_ZFS_encrypted_root
+
+Tools:
+
+gdisk vs fdisk:
+- fdisk shows all the disks/devs
+- fdisk shows the full gpt uuids
+- fdisk -l -o +UUID shows partitions uuid
+
+
+qemu-img create test.img 0.1G
+qemu-img resize --preallocation=full test.img 1G
+
+losetup -f test.img
+
+fdisk /dev/loop0
+
+partx --show /dev/loop0
+partx --add /dev/loop0 >>> /dev/loop0p1 exists now!
+
+mkfs.vfat /dev/loop0p1
+
+mdadm -C /dev/md0 -e 1.0 --level=1 --raid-devices=2 missing /dev/loop0p1
+Once you've made a raid1 on p1, you won't be able to mount p1 as vfat. I guess
+it's the kernel that overrides it. You need to mount /dev/md0. But I guess the
+firmware won't have such a problem.
+
+/!\ Keep in mind that all of the following operations will affect the disk
+immediately. GNU parted does not stage changes like fdisk or gdisk.
+
+zfs:
+- TODO
+  - lz4
+  - encryption
+- ZFS may benefit from AF disk https://github.com/zfsonlinux/zfs/wiki/faq#advanced-format-disks
+  - Needs to be proven, but seems like more or less all ssds have 512 bytes sectors
+- Create a pool:
+  zpool create -f <name> /dev/disk/by-id/id-to-partition-partx
+  - Degraded pool (https://blog.chaospixel.com/linux/2017/08/zfs-create-pool-with-missing-devices.html):
+    - truncate -s <size> sparse.img
+    - zpool create -f <name> /dev/disk/by-id/id-to-partition-partx /.../sparse.img
+    - zpool offline <name> /.../sparse.img
+- ZFS Datasets are like partitions but without the hassle.
+  - If you want to boot from older snapshots, you should take care of putting
+  your persistent data outside of the root one (eg. /home). Otherwise you would
+  boot off an older snapshot of your personal data.
+  - zfs create -o mountpoint=/ zroot/root
+  - zfs create -o mountpoint=/home zroot/data
+  - zfs list
+- Swap:
+  - https://github.com/zfsonlinux/zfs/wiki/FAQ#using-a-zvol-for-a-swap-device
+    - zfs create -V 8G -b $(getconf PAGESIZE) \
+                -o logbias=throughput -o sync=always\
+                -o primarycache=metadata \
+                -o com.sun:auto-snapshot=false <pool>/<zvol_name>
+    - mkswap /dev/zvol/swap/swap
+    - swapon /dev/zvol/swap/swap
+    - echo "/dev/zvol/swap/swap none swap discard 0 0" >> /etc/fstab
+- Copy zpool.cache file (cp /etc/zfs/zpool.cache /mnt/etc/zfs)
+
+Gentoo:
+- TODOs
+  - repos.conf
+    - There is one in /usr/share/portage/config, but it looks like it's optional
+    so far
+  - mirrorselect
+  - https://wiki.gentoo.org/wiki/Localization/Guide https://blogs.gentoo.org/mgorny/2016/05/16/how-linguas-are-thrice-wrong/
+  - Prove that locale.gen and locale-gen only generate locales
+  - Prove that localectl changes locale.conf AND vconsole.conf among others
+  - Try not setting locale.conf or LANG
+- mount /proc! Otherwise emerge fails with /dev/fd unsane
+- Sync ebuild repo: emerge-webrsync
+- Sync ebuild repo to the very latest source: emerge --sync [--quiet] # quiet should be faster
+- Generate locales: echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
+
+
+Config:
+- Ansible:
+  - PROS:
+    - Easy templating
+    - Abstraction (eg. timezone module)
+    - Easier to manage differing configurations ???
+  - CONS:
+    - Lots of files
+    - Needs Ansible
+    - Systemd configuration needs to be run
+    - Sometimes need to update config because of ansible update
+- sh:
+  - PROS:
+    - Already have an install script
+    - Fit more stuff in a single file
+    - Needs only a shell
+    - More control, no abstraction
+    - Most configurations can be rerun without problem (idempotence)
+    - No need to update because of ansible update
+    - If splitted properly in functions, pcs and servers could have clearly
+    defined setups ???
+  - CONS:
+    - Hard/No templating
+    - Harder to do a diff ?
+
+Try scripts with Gentoo?
+
+- cmd/files:
+  - PROS:
+    - More control
+    - More cross distros ?
+  - CONS:
+    - Might miss something that systemd wouldn't
+- systemd:
+  - PROS:
+    - Abstraction
+  - CONS:
+    - Less cross distros ?
+
+>> cmd/files for now on Gentoo
+
+Checklist:
+- Partitions
+- FS
+- Bootloader
+- Initramfs
+- Hostname
+- Locales
+- Time sync
+- Update notifier ?
+
 *** Commands
 **** chattr on Linux and chflags on BSDs                           :drill:
 SCHEDULED: <2021-11-29 Mon>
