@@ -2645,18 +2645,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2020-07-26 Sun>
+SCHEDULED: <2020-08-06 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 6.4541
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 10.7525
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.223
+:DRILL_AVERAGE_QUALITY: 3.264
 :DRILL_EASE: 1.58
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-20 Mon 11:35]
+:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:08]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
@@ -3111,7 +3111,7 @@ SCHEDULED: <2020-09-05 Sat>
 :DRILL_LAST_REVIEWED: [2020-02-08 Sat 15:23]
 :END:
 
-go: function: <[len()]> returns <[the length of an array, slice or channel]>
+go: function: <[len()]> returns <[the length of an array or slice]>
 
 *** append()                                                        :drill:
 SCHEDULED: <2021-03-19 Fri>
@@ -3127,8 +3127,7 @@ SCHEDULED: <2021-03-19 Fri>
 :DRILL_LAST_REVIEWED: [2020-07-25 Sat 08:31]
 :END:
 
-go: function: <[append(ARRAY, ELEMENT)]> returns a new slice with an element
-appended
+go: function: <[append(ARRAY, ELEMENT)]> = returns a new slice with an element appended
 
 *** =range= Clause                                                  :drill:
 SCHEDULED: <2020-10-06 Tue>
