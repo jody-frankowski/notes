@@ -2921,6 +2921,7 @@ Add the current word to the second spell file with =2zg=.
 ** Tip 123: Fix Spelling Errors from Insert Mode
 
 Autocomplete the previous spelling error from Insert Mode with =<C-x><C-s>=.
+
 * Learn Go with Tests
 :PROPERTIES:
 :SOURCE: https://github.com/quii/learn-go-with-tests https://github.com/quii/learn-go-with-tests/tree/958d89d0810d630b51799fb9bf319e92df80c43e
