@@ -769,18 +769,18 @@ CLOCK: [2019-09-22 Sun 19:50]--[2019-09-22 Mon 21:10] => 1:20
 
 **** 1.2.1 Linear Recursion and Iteration
 ***** Procedure != Process                                        :drill:
-SCHEDULED: <2020-07-27 Mon>
+SCHEDULED: <2021-12-09 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ff195e38-d812-4dcb-abcf-78c7a1f6eeb1
-:DRILL_LAST_INTERVAL: 191.2016
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 499.9922
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_AVERAGE_QUALITY: 4.167
 :DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-18 Sat 12:40]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:30]
 :END:
 
 cs: A recursive <[procedure]> can have an iterative <[process]>
@@ -1711,18 +1711,18 @@ sequence of other nonblank characters separated with whitespace. A WORD is
 defined as a sequence of nonblank characters separated with whitespace.
 
 *** =ge=                                                            :drill:
-SCHEDULED: <2020-07-27 Mon>
+SCHEDULED: <2020-12-25 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       97935b59-bf44-43d4-85c9-b96bc23357ac
-:DRILL_LAST_INTERVAL: 90.7386
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 150.6261
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.273
+:DRILL_AVERAGE_QUALITY: 3.334
 :DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:27]
 :END:
 
 vim: <[Move to the end of the previous word]> with <[=ge=]>

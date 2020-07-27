@@ -4075,17 +4075,17 @@ SCHEDULED: <2020-11-12 Thu>
 floating point: In a binary32 format, the exponent is <[8]> bits long
 
 ****** binary32 fraction size                                    :drill:
-SCHEDULED: <2020-07-27 Mon>
+SCHEDULED: <2021-01-11 Mon>
 :PROPERTIES:
 :ID:       31996006-7b3d-4acc-bbd3-5d3b9bb0bd11
-:DRILL_LAST_INTERVAL: 69.8627
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 167.8102
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.462
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-18 Mon 10:39]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:30]
 :END:
 
 floating point: In a binary32 format, the fraction is <[23]> bits long
@@ -4128,17 +4128,17 @@ fraction is said to have <[an implicit leading bit set to 1]>
 
 ***** Values
 ****** Special Values                                            :drill:
-SCHEDULED: <2020-07-27 Mon>
+SCHEDULED: <2020-09-27 Sun>
 :PROPERTIES:
 :ID:       44695f7f-8009-4242-b515-b6aea590c4b5
-:DRILL_LAST_INTERVAL: 24.8402
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 62.4731
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_AVERAGE_QUALITY: 3.625
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-02 Thu 08:59]
+:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:28]
 :END:
 
 floating point: The value 0 is expressed with:
@@ -5408,18 +5408,18 @@ SCHEDULED: <2022-04-11 Mon>
 unix: perms: Setting the *Setuid or Setgid Bits* on *normal files* does <[nothing]>
 
 ***** Setgid on Directories                                       :drill:
-SCHEDULED: <2020-07-27 Mon>
+SCHEDULED: <2021-01-18 Mon>
 :PROPERTIES:
 :ID:       0541365B-981E-4113-916F-F273541F2504
 :DRILL_CARD_TYPE: show1cloze
-:DRILL_LAST_INTERVAL: 80.6573
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 174.9457
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_AVERAGE_QUALITY: 3.619
 :DRILL_EASE: 2.1
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-05-07 Thu 10:40]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:27]
 :END:
 
 unix: perms: Setting the <[Setgid Bit on a Directory]> makes <[new files or
