@@ -8100,6 +8100,21 @@ career the raises are more likely to reflect real-world performance.
 :Source: https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient
 :Source+: https://news.ycombinator.com/item?id=23809291
 :END:
+** Erlang
+*** The Zen of Erlang
+*** DONE The Zen of Erlang
+:PROPERTIES:
+:Source: https://ferd.ca/the-zen-of-erlang.html
+:Source+: https://youtu.be/4ZIPijEqrNI
+:Source+: https://news.ycombinator.com/item?id=11058500
+:Source+: https://news.ycombinator.com/item?id=17100626
+:Source+: https://news.ycombinator.com/item?id=23888497
+:END:
+
+Erlang is designed around lightweight processes for which you declarativaly describe their
+dependencies between each others.
+Once you make the connections clear, you can then let them crash and be restarted.
+
 ** Files
 *** DONE https://danluu.com/deconstruct-files/ Files are fraught with peril
 ** Formats
