@@ -347,6 +347,64 @@ math: a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b
    \frac{d}{a} &= \frac{2ad}{2a^2}
    \end{align}
 
+** Chapter X – Of the Multiplication and Division of Fractions
+*** Proof of a/b * c = a/(b/c)                                      :drill:
+:PROPERTIES:
+:END:
+
+math: proof: a/b * c = a/(b/c):
+<[
+a/b * c = a/(b * X)
+a/b * c * X = a/b
+X = a/b * b/a * 1/c
+X = 1/c
+So
+a/b * c = a/(b/c)
+]>
+
+*** (a/b)/c = a/bc                                                  :drill:
+:PROPERTIES:
+:END:
+
+math: (a/b)/c = <[a/bc]>
+
+*** Proof of (a/b)/c = a/bc                                         :drill:
+:PROPERTIES:
+:END:
+
+math: proof: (a/b)/c = a/bc
+<[
+(a/b)/c = a/b * 1/c
+        = a/bc
+]>
+
+*** Proof of 1/ab = 1/a * 1/b                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: proof: 1/ab = 1/a * 1/b
+<[
+1/ab is the inverse of ab, so
+ab * 1/ab must be equal to 1
+ab * (1/a * 1/b) = a * 1/a * b * 1/b
+                 = 1 * 1
+                 = 1
+]>
+
+*** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
+:PROPERTIES:
+:Source: http://mathforum.org/library/drmath/view/63841.html
+:END:
+
+math: proof: (a/b) * (c/d) = ab/cd
+<[
+(a/b) * (c/d) = a * 1/b * c * 1/d
+              = a * c * 1/b * 1/d
+              = a * c * 1/bd (multiplicative inverse is the product of multiplicative inverses)
+              = ac/bd
+]>
+
 * OpenStax - Prealgebra 2e
 :LOGBOOK:
 CLOCK: [2020-07-22 Wed 14:00]--[2020-07-22 Wed 15:01] =>  1:01
