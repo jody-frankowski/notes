@@ -1367,18 +1367,18 @@ Get the decimal and hexadecimal value of the character under the
 cursor with =ga=.
 
 *** C-v{nondigit}                                                   :drill:
-SCHEDULED: <2020-07-28 Tue>
+SCHEDULED: <2021-12-26 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       241b2c74-4d8a-4539-ba3c-a749d3d115fd
-:DRILL_LAST_INTERVAL: 197.4016
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 516.2052
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-13 Mon 08:32]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 08:35]
 :END:
 
 vim: <[Insert a character literally]> with <[<C-v>{char}]>
@@ -3116,11 +3116,21 @@ SCHEDULED: <2020-09-05 Sat>
 go: function: <[len()]> returns <[the length of an array or slice]>
 
 *** cap()                                                           :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       12efd225-35f6-4fce-810a-62e47ab5e57b
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 07:57]
 :END:
 
-go: <[cap(SLICE)]> <[returns the capacity of the underlying array segment]>
+go: <[cap(SLICE)]> returns <[the capacity of the underlying array segment]>
 
 *** append()                                                        :drill:
 SCHEDULED: <2021-03-19 Fri>
@@ -3203,28 +3213,68 @@ SCHEDULED: <2020-10-27 Tue>
 go: Show *Test Coverages* with the command <[go test -cover]>
 
 *** Array Size                                                      :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
+:ID:       2b6bf02c-e38e-4593-9b60-36a5c20adad3
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 07:57]
 :END:
 
 go: The size of arrays <[is fixed||is fixed or not]>
 
 *** Slices                                                          :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
+:ID:       6631ad33-695e-4e5c-9d10-399c8a7f8685
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 07:59]
 :END:
 
 go: A slice is <[a pointer to an array segment with its length and total capacity]>
 
 *** Grow Slices                                                     :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
+:ID:       b1ae0e8f-0cba-407f-b458-2274e8651bec
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 07:59]
 :END:
 
-go: A slice can grow without reallocation if <[the underlying array has the capacity]>
+go: A slice can grow without reallocation if <[the underlying array segment has the capacity]>
 
 *** Slice Example                                                   :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
+:ID:       b894aa94-2693-48d2-ad38-25ef624e5157
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 08:36]
 :END:
 
 #+BEGIN_SRC go
@@ -3239,7 +3289,17 @@ fmt.Println(cap(slice)) // <[3]>
 #+END_SRC
 
 *** Slice Index Example                                             :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
+:ID:       9d4ebac5-1ce1-418f-92e9-dfeb7fa13e57
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 08:37]
 :END:
 
 #+BEGIN_SRC go
@@ -3253,7 +3313,17 @@ fmt.Println(slice) // <[[1]]>
 #+END_SRC
 
 *** Slice append() Example                                          :drill:
+SCHEDULED: <2020-08-01 Sat>
 :PROPERTIES:
+:ID:       6d9ae131-a447-4d58-a695-b25c14dc7a94
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-28 Tue 07:56]
 :END:
 
 #+BEGIN_SRC go
