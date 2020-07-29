@@ -2018,18 +2018,18 @@ SCHEDULED: <2021-08-18 Wed>
 vim: <[Select a "{" block]> with <[aB or a{||X OR Y]>
 
 *** =at=                                                            :drill:
-SCHEDULED: <2020-07-29 Wed>
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4e0a7298-a353-4ce0-a9e7-ff8ca2d5d98c
-:DRILL_LAST_INTERVAL: 161.0586
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.6
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-19 Wed 11:30]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:40]
 :END:
 
 vim: <[Select an html tag]> with <[at]>
@@ -3536,3 +3536,19 @@ value, err := map[2]
 value == <[""]>
 err == <[false]>
 #+END_SRC
+
+*** Maps are Reference Types                                        :drill:
+SCHEDULED: <2020-08-02 Sun>
+:PROPERTIES:
+:ID:       2b1cf4e9-88f9-4eb1-85e9-a1c66aff4861
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:32]
+:END:
+
+go: Maps are passed by <[reference]>

@@ -351,7 +351,17 @@ math: a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b
 
 ** Chapter X – Of the Multiplication and Division of Fractions
 *** Proof of a/b * c = a/(b/c)                                      :drill:
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
+:ID:       d33bad41-9e57-4f48-9355-dffd4790aded
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:40]
 :END:
 
 math: proof: a/b * c = a/(b/c):
@@ -365,13 +375,33 @@ a/b * c = a/(b/c)
 ]>
 
 *** (a/b)/c = a/bc                                                  :drill:
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
+:ID:       bd3946e1-a552-47ce-9b69-03a06a5a1bbf
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:37]
 :END:
 
 math: (a/b)/c = <[a/bc]>
 
 *** Proof of (a/b)/c = a/bc                                         :drill:
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
+:ID:       12363e01-b0dd-451d-bee6-5cbf774935be
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:37]
 :END:
 
 math: proof: (a/b)/c = a/bc
@@ -381,8 +411,17 @@ math: proof: (a/b)/c = a/bc
 ]>
 
 *** Proof of 1/ab = 1/a * 1/b                                       :drill:
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
+:ID:       97dbb2f3-d591-432f-bc00-8d486a4c1815
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:40]
 :END:
 
 math: proof: 1/ab = 1/a * 1/b
@@ -395,8 +434,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
+SCHEDULED: <2020-08-02 Sun>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
+:ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:33]
 :END:
 
 math: proof: (a/b) * (c/d) = ab/cd
