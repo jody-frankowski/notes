@@ -3481,62 +3481,62 @@ cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not
 
 ** Pointers & errors
 *** Alias a Type                                                    :drill:
-SCHEDULED: <2020-07-30 Thu>
+SCHEDULED: <2020-08-03 Mon>
 :PROPERTIES:
 :ID:       2a493929-b718-40bc-bfd7-5933cf30a081
 :DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:18]
+:DRILL_LAST_REVIEWED: [2020-07-30 Thu 13:52]
 :END:
 
 go: Alias a Type: <[type ALIAS ORIGINAL_TYPE]>
 
 ** Maps
 *** Map Definition Syntax                                           :drill:
-SCHEDULED: <2020-07-30 Thu>
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :ID:       b19670c6-7bc8-4a31-a204-7ba104cee460
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:17]
+:DRILL_LAST_REVIEWED: [2020-07-30 Thu 13:49]
 :END:
 
 go: Define a Map: <[NAME := map[KEY_TYPE]VALUE_TYPE{...}]>
 
 *** Map Lookups Return Values                                       :drill:
-SCHEDULED: <2020-07-30 Thu>
+SCHEDULED: <2020-08-08 Sat>
 :PROPERTIES:
 :ID:       acefd8a5-c3d7-4a07-950f-94d7523bb3df
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.4293
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:18]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-07-30 Thu 13:49]
 :END:
 
 #+BEGIN_SRC go
 map := map[int]string{0: "A", 1: "B"}
 
-value, err := map[1]
+value, ok := map[1]
 value == <["B"]>
-err == <[true]>
+ok == <[true]>
 
-value, err := map[2]
+value, ok := map[2]
 value == <[""]>
-err == <[false]>
+ok == <[false]>
 #+END_SRC
 
 *** Maps are Reference Types                                        :drill:

@@ -2008,22 +2008,22 @@ SCHEDULED: <2020-10-09 Fri>
 c: best practice: Use the *restrict* type qualifier
 
 ***** Restrict-Qualified Pointer                                  :drill:
-SCHEDULED: <2020-07-30 Thu>
+SCHEDULED: <2021-10-05 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       897ca648-ec58-48ac-98bb-bdfb4a658e5e
-:DRILL_LAST_INTERVAL: 166.281
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 432.3306
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_AVERAGE_QUALITY: 4.167
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-15 Sat 13:23]
+:DRILL_LAST_REVIEWED: [2020-07-30 Thu 13:50]
 :END:
 
 c: A <[restrict]>-qualified pointer tells the compiler that the <[object pointed
-by said pointer is meant to be modified through that pointer only]>
+by said pointer will be modified through that pointer only]>
 
 ***** Restrict-Qualified Pointer                                  :drill:
 SCHEDULED: <2020-12-09 Wed>
@@ -7164,17 +7164,17 @@ SCHEDULED: <2020-12-29 Tue>
 srs: best practice: Make *Simple* cards
 
 **** Use Images                                                    :drill:
-SCHEDULED: <2020-07-30 Thu>
+SCHEDULED: <2020-08-11 Tue>
 :PROPERTIES:
 :ID:       48fb8184-a1d6-42c0-a016-2a8e699c1ada
-:DRILL_LAST_INTERVAL: 10.3311
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 54
+:DRILL_LAST_INTERVAL: 11.6018
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 55
 :DRILL_FAILURE_COUNT: 9
-:DRILL_AVERAGE_QUALITY: 2.87
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.872
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-20 Mon 11:27]
+:DRILL_LAST_REVIEWED: [2020-07-30 Thu 13:50]
 :END:
 
 srs: best practice: Use *Images*
