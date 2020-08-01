@@ -210,17 +210,17 @@ math: A <[Mixed Number]> is noted as <[a b/c]>
 
 ** Chapter VIII – Of the Properties of Fractions
 *** Multiplying the Numerator and Denominator                      :drill:
-SCHEDULED: <2020-08-01 Sat>
+SCHEDULED: <2020-08-31 Mon>
 :PROPERTIES:
 :ID:       722db1b5-424c-44cd-b290-a1248fc77096
-:DRILL_LAST_INTERVAL: 11.2268
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.3124
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.667
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-21 Tue 09:13]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:19]
 :END:
 
 math: ma/mb = <[a/b]> because <[ma/mb = a/b * m/m and m/m = 1 so ma/mb = a/b * 1 = a/b]>
@@ -282,21 +282,21 @@ math: ma/mb = <[a/b]> because <[ma/mb = a/b * m/m and m/m = 1 so ma/mb = a/b * 1
 
 ** Chapter IX – Of the Addition and Subtraction of Fractions
 *** Adding Fractions With The Same Denominator                      :drill:
-SCHEDULED: <2020-08-01 Sat>
+SCHEDULED: <2020-08-24 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0e8dfab0-0dfb-4615-a049-bdc6fce6e564
-:DRILL_LAST_INTERVAL: 9.904
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.3734
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-22 Wed 12:07]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:05]
 :END:
 
-math: a/c + b/c <[= (a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b) * 1/c = (a + b)/c]>
+math: a/c + b/c = <[(a + b)/c]> because <[a/c + b/c = a * 1/c + b * 1/c = (a + b) * 1/c = (a + b)/c]>
 
 ** Questions for Practice
 
@@ -458,6 +458,8 @@ math: proof: (a/b) * (c/d) = ab/cd
 
 * OpenStax - Prealgebra 2e
 :LOGBOOK:
+CLOCK: [2020-07-31 Fri 16:21]--[2020-07-31 Fri 18:21] =>  2:00
+CLOCK: [2020-07-31 Fri 13:44]--[2020-07-31 Fri 15:45] =>  2:01
 CLOCK: [2020-07-22 Wed 14:00]--[2020-07-22 Wed 15:01] =>  1:01
 CLOCK: [2020-07-22 Wed 15:09]--[2020-07-22 Wed 16:09] =>  1:00
 CLOCK: [2020-07-22 Wed 11:14]--[2020-07-22 Wed 12:17] =>  1:03
@@ -749,3 +751,208 @@ math: proof: (a/b)/(c/d) = ad/bc
             = (a/b) * (d/c) (inverse)
             = ad/bc
 ]>
+
+** 5.3 Decimals and Fractions
+*** Repeating Decimal                                               :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:ID:       14a762fa-06e9-4491-b133-b83dcea8f684
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:47]
+:END:
+
+math: A Repeating Decimal is a <[Decimal Number in which the last digits repeat endlessly]>
+
+*** Repeating Decimal Notation                                      :drill:
+:PROPERTIES:
+:ID:       9183530d-ed71-4788-9398-7eccc96b7dea
+:END:
+
+math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
+
+** 5.5 Averages and Probability
+*** Mean aka Arithmetic Average                                     :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:END:
+
+math: <[Mean]> aka <[Arithmetic Average]>
+
+*** Mean Formula                                                    :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       a4f2c4fb-8b35-47d1-aa33-b9b4cc36411a
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:47]
+:END:
+
+math: <[Mean]> = <[Sum of all the Values / The Number of Values]>
+
+*** Median Formula                                                    :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       e9f8a858-908e-4576-bdd9-7ecbc0b92ad1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:END:
+
+math: <[Median]> = <[The middle value when there is an odd number of them. The mean of the two
+middle values otherwise]>
+
+*** Mode Formula                                                    :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       f5f81d68-9579-4324-bbc1-329310af7056
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:46]
+:END:
+
+math: <[Mode]> = <[The number with the highest frequency]>
+
+*** Probability Formula                                             :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:25]
+:END:
+
+math: <[Probability]> = <[Number of Favorable Outcomes/Number of Outcomes]>
+
+** 5.6 Ratios and Rate
+*** Ratio                                                           :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:END:
+
+math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
+
+*** Rate                                                           :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:END:
+
+math: A <[Rate]> is <[a fraction of two numbers with different units]>
+
+*** Unit Rate                                                       :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       bc37c20d-817c-48c4-a384-333f2408830f
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:08]
+:END:
+
+math: A <[Unit Rate]> is <[a Rate with a denominator of 1]>
+
+** 5.7 Simplify and Use Square Roots
+*** Perfect Square                                                  :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       53abdeff-8b97-43a4-ab75-30eb36ab5759
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:END:
+
+math: A <[Perfect Square]> is a <[Square of an integer]>
+
+*** Radical Sign aka Root Symbol                                    :drill:
+SCHEDULED: <2020-08-05 Wed>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       8c22f6b2-e0e6-4d75-a93d-501d24a7f201
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:END:
+
+math: <[Radical Sign]> aka <[Root Symbol]>
+
+*** Principal Root                                                  :drill:
+:PROPERTIES:
+:ID:       7216aba9-4fdc-46f6-90d6-35bd2129ded6
+:END:
+
+math: $\sqrt{x^2} = <[|x|]>$
