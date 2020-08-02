@@ -307,18 +307,18 @@ Because it avoids evaluating the same expressions multiple times
 
 **** 1.1.6 Conditional Expressions and Predicates
 ***** Predicate                                                   :drill:
-SCHEDULED: <2020-08-02 Sun>
+SCHEDULED: <2022-01-16 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4d4220fa-7ffa-4a72-a5ed-102c2d3a56d3
-:DRILL_LAST_INTERVAL: 203.6022
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 532.4198
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:28]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:31]
 :END:
 
 cs: A <[*Predicate*]> is an expression that returns <[a boolean]>
@@ -1233,18 +1233,18 @@ vim: The difference between the text object selection *a* and *i* is that *a*
 
 ** Tip 10: Use Counts to Do Simple Arithmetic
 *** Decrementing Numbers                                            :drill:
-SCHEDULED: <2020-08-02 Sun>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7621832B-2947-4CA8-A3EB-6D716AC7CC71
-:DRILL_LAST_INTERVAL: 62.4731
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 151.1849
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.666
+:DRILL_AVERAGE_QUALITY: 3.692
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-01 Mon 09:56]
+:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:27]
 :END:
 
 vim: <[Decrement the next number on the line]> with <[<C-x>]>
@@ -1312,18 +1312,18 @@ vim: The mode in which you are after typing an operator (eg. =d=) is called
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
 *** <C-h>                                                              :drill:
-SCHEDULED: <2020-08-02 Sun>
+SCHEDULED: <2020-08-28 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 10.573
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 26.221
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.705
+:DRILL_AVERAGE_QUALITY: 3.721
 :DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-22 Wed 12:06]
+:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:20]
 :END:
 
 vim: <[Delete back one character]> with <[<C-h>]>
@@ -2018,18 +2018,18 @@ SCHEDULED: <2021-08-18 Wed>
 vim: <[Select a "{" block]> with <[aB or a{||X OR Y]>
 
 *** =at=                                                            :drill:
-SCHEDULED: <2020-08-02 Sun>
+SCHEDULED: <2020-08-12 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4e0a7298-a353-4ce0-a9e7-ff8ca2d5d98c
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 10.044
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:40]
+:DRILL_AVERAGE_QUALITY: 3.727
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:19]
 :END:
 
 vim: <[Select an html tag]> with <[at]>
@@ -3540,17 +3540,17 @@ ok == <[false]>
 #+END_SRC
 
 *** Maps are Reference Types                                        :drill:
-SCHEDULED: <2020-08-02 Sun>
+SCHEDULED: <2020-08-12 Wed>
 :PROPERTIES:
 :ID:       2b1cf4e9-88f9-4eb1-85e9-a1c66aff4861
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.316
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:32]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:19]
 :END:
 
 go: Maps are passed by <[reference]>
