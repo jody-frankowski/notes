@@ -6274,20 +6274,20 @@ SCHEDULED: <2022-03-31 Thu>
 POSIX is a <[set of standards||(not the goal)]>
 
 ***** Why                                                         :drill:
-SCHEDULED: <2020-08-03 Mon>
+SCHEDULED: <2021-10-26 Tue>
 :PROPERTIES:
 :ID:       4f487de3-d71b-470f-a018-5765b3898901
-:DRILL_LAST_INTERVAL: 238.7543
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 448.6193
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-08 Sun 10:27]
+:DRILL_LAST_REVIEWED: [2020-08-03 Mon 11:55]
 :END:
 
-The goal of POSIX is to <[help maintain compatibility between Unix OSs]>
+The goal of POSIX is to <[help maintain compatibility between Unix OSes]>
 
 **** SUS
 ***** Acronym                                                     :drill:

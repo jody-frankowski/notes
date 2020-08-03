@@ -972,3 +972,20 @@ SCHEDULED: <2020-08-06 Thu>
 :END:
 
 math: $\sqrt{x^2}$ = <[|x|]>
+
+** 6.5 Solve Proportions and their Applications
+*** Proportion                                                      :drill:
+SCHEDULED: <2020-08-07 Fri>
+:PROPERTIES:
+:ID:       01bcb56c-ab7d-41de-96db-62f265c25afd
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-03 Mon 11:54]
+:END:
+
+math: A Proportion states that <[two ratios or rates are equal]>
