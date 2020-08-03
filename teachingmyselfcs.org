@@ -3554,3 +3554,9 @@ SCHEDULED: <2020-08-12 Wed>
 :END:
 
 go: Maps are passed by <[reference]>
+
+*** Delete an Element from a Map                                    :drill:
+:PROPERTIES:
+:END:
+
+go: <[delete(MAP, ELEM)]> = Remove ELEM from MAP
