@@ -2927,6 +2927,7 @@ Autocomplete the previous spelling error from Insert Mode with =<C-x><C-s>=.
 :SOURCE: https://github.com/quii/learn-go-with-tests https://github.com/quii/learn-go-with-tests/tree/958d89d0810d630b51799fb9bf319e92df80c43e
 :END:
 :LOGBOOK:
+CLOCK: [2020-08-03 Mon 12:32]--[2020-08-03 Mon 16:05] =>  3:33
 CLOCK: [2020-07-28 Tue 16:15]--[2020-07-28 Tue 17:16] =>  1:01
 CLOCK: [2020-07-27 Mon 17:28]--[2020-07-27 Mon 19:28] =>  2:00
 CLOCK: [2020-07-27 Mon 17:28]--[2020-07-27 Mon 19:28] =>  2:00
