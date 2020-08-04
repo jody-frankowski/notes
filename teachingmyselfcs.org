@@ -3557,26 +3557,66 @@ SCHEDULED: <2020-08-12 Wed>
 go: Maps are passed by <[reference]>
 
 *** Delete an Element from a Map                                    :drill:
+SCHEDULED: <2020-08-08 Sat>
 :PROPERTIES:
+:ID:       e43836aa-91c6-4527-ae90-1e87db281267
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
 :END:
 
 go: <[delete(MAP, ELEM)]> = Remove ELEM from MAP
 
 ** Concurrency
 *** Create a Channel                                                :drill:
+SCHEDULED: <2020-08-08 Sat>
 :PROPERTIES:
+:ID:       3b6941bd-7fea-467c-8555-5f0e54624d1f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
 :END:
 
 go: <[CHANNEL = make(chan TYPE)]> = Create a channel CHANNEL of type TYPE
 
 *** Receive From a Channel                                          :drill:
+SCHEDULED: <2020-08-08 Sat>
 :PROPERTIES:
+:ID:       589951bd-35ad-4b4f-9e5f-452c64ef7599
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:05]
 :END:
 
 go: <[VAR := <-CHANNEL]> = Receive from CHANNEL into VAR
 
 *** Send Into a Channel                                             :drill:
+SCHEDULED: <2020-08-08 Sat>
 :PROPERTIES:
+:ID:       e1102df0-d5be-4030-89ac-b748e74a3eb7
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
 :END:
 
 go: <[CHANNEL <- VAR]> = Send VAR into CHANNEL

@@ -466,18 +466,18 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 
 ** 2.5 Prime Factorization and the Least Common Multiple
 *** Least Common Multiple                                           :drill:
-SCHEDULED: <2020-08-04 Tue>
+SCHEDULED: <2020-08-24 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4dff26b9-8699-4af0-8dba-8de3d1ee6eb1
-:DRILL_LAST_INTERVAL: 9.2899
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 19.9733
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:10]
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:05]
 :END:
 
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>

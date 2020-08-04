@@ -433,18 +433,18 @@ stack limit. (https://unix.stackexchange.com/a/239323)
 ** Browsers
 *** Console
 **** Drill :drill:
-SCHEDULED: <2020-08-04 Tue>
+SCHEDULED: <2021-02-07 Sun>
 :PROPERTIES:
 :SOURCE: https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Helpers
 :ID:       f6cae94b-ef2f-4c60-b1e0-d03da382e9c1
-:DRILL_LAST_INTERVAL: 71.5279
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 187.4031
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-24 Sun 10:41]
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
 :END:
 
 browser: console: Get <[the first node under element that matches selector]> ==
@@ -1512,18 +1512,18 @@ c: *No linkage* means the identifier can be referred to <[only from the scope it
 is declared in]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-08-04 Tue>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :ID:       b5c95d53-7783-41dc-80ad-4c97dd0a0126
 :DRILL_CARD_TYPE: show1cloze
-:DRILL_LAST_INTERVAL: 10.5546
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 38
+:DRILL_LAST_INTERVAL: 14.7764
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 39
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.526
+:DRILL_AVERAGE_QUALITY: 3.538
 :DRILL_EASE: 1.4
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
 :END:
 
 c: <[File]>-scoped identifiers have <[external]> linkage by default
