@@ -456,6 +456,7 @@ math: proof: (a/b) * (c/d) = ab/cd
 
 * OpenStax - Prealgebra 2e
 :LOGBOOK:
+CLOCK: [2020-08-04 Tue 08:12]--[2020-08-04 Tue 10:12] =>  2:00
 CLOCK: [2020-07-31 Fri 16:21]--[2020-07-31 Fri 18:21] =>  2:00
 CLOCK: [2020-07-31 Fri 13:44]--[2020-07-31 Fri 15:45] =>  2:01
 CLOCK: [2020-07-22 Wed 14:00]--[2020-07-22 Wed 15:01] =>  1:01
@@ -989,3 +990,48 @@ SCHEDULED: <2020-08-07 Fri>
 :END:
 
 math: A Proportion states that <[two ratios or rates are equal]>
+
+** 7.1 Rational and Irrational Numbers
+*** Rational Numbers                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Rational Numbers]> are <[numbers that can be expressed as a fraction of two integers]>
+
+*** Irrational Numbers                                              :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
+
+*** Real Numbers                                              :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
+
+** 7.3 Distributive Property
+*** Left Distributive Property                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: f is <[left-distributive over g]> if <[f(a, g(b, c)) = g(f(a, b), f(a, c))]>
+
+*** Right Distributive Property                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: f is <[right-distributive over g]> if <[f(g(b, c), a) = g(f(b, a), f(c, a))]>
+
+** 7.4 Properties of Identity, Inverses, and Zero
+*** Identity Element                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: x is the <[identity element]> of f if <[f(x, y) = y]>
