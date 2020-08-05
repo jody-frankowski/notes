@@ -1026,7 +1026,7 @@ SCHEDULED: <2020-08-09 Sun>
 
 math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
 
-*** Real Numbers                                              :drill:
+*** Real Numbers                                                    :drill:
 SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
