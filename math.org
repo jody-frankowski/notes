@@ -1130,3 +1130,18 @@ SCHEDULED: <2020-08-09 Sun>
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
+
+** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
+*** Supplementary Angles                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
+
+*** Complementary Angles                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: Two angles are <[Complementary]> if <[their sum makes 90°]>
