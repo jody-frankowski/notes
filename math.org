@@ -1043,6 +1043,41 @@ SCHEDULED: <2020-08-09 Sun>
 
 math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
 
+*** Natural Numbers Symbol                                          :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Natural Numbers Symbol]> = <[ℕ]>
+
+*** Integers Symbol                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Integers Symbol]> = <[ℤ]>
+
+*** Rational Numbers Symbol                                         :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Rational Numbers Symbol]> = <[ℚ]>
+
+*** Real Numbers Symbol                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Real Numbers Symbol]> = <[ℝ]>
+
+*** R includes Q which includes Z which includes N                  :drill:
+:PROPERTIES:
+:END:
+
+math: <[Real Numbers]> include <[Rational Numbers]> wich include <[Integers]> which include
+<[Natural Numbers]>
+
 ** 7.3 Distributive Property
 *** Left Distributive Property                                      :drill:
 SCHEDULED: <2020-08-09 Sun>
