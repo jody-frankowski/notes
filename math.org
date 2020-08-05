@@ -484,103 +484,103 @@ SCHEDULED: <2020-08-24 Mon>
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
 
 *** Least Common Multiple Example                                   :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-29 Sat>
 :PROPERTIES:
 :ID:       3d5c2743-c2f5-4cb0-8269-638d2e0f0097
-:DRILL_LAST_INTERVAL: 9.8942
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.3397
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:44]
 :END:
 
 math: least_common_multiple(4, 6) = <[12]>
 
 *** Least Common Multiple Use                                       :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-27 Thu>
 :PROPERTIES:
 :ID:       477ceaf4-efb1-48fb-aa7e-7acd9854b154
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.4932
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:17]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:12]
 :END:
 
-math: To merge the sum of two fractions <[find the denominators least common multiple]>
+math: To merge the sum of two fractions with two different denominators <[find their least common
+multiple]>
 
 *** Greatest Common Divisor                                         :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-28 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5e035dae-68da-4bb6-af9c-fc37de53d820
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.2222
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:09]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:13]
 :END:
 
 math: <[greatest_common_divisor(a,b)]> = <[the greatest number that divides both a and b]>
 
 *** Greatest Common Divisor Example                                 :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-28 Fri>
 :PROPERTIES:
 :ID:       0366ae90-f281-45c8-aba4-c9217a9e2b73
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.2222
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:10]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:45]
 :END:
 
 math: greatest_common_divisor(8, 12) = <[4]>
 
 *** Greatest Common Divisor Use                                     :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-28 Fri>
 :PROPERTIES:
 :ID:       e671009b-62b8-4ccf-8cac-b0533551ec2f
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.2222
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:08]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:45]
 :END:
 
 math: To reduce a fraction <[divide the numerator and denominator by their greatest common divisor]>
 
 ** 4.2 Multiply and Divide Fractions
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
 :ID:       2f63114d-4cf1-4ff4-9a26-c04b8b201e7b
-:DRILL_LAST_INTERVAL: 9.592
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-26 Sun 12:08]
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:22]
 :END:
 
-math: <[a/b is an Irreducible Fraction]> if <[a and b have no common factors]>
+math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
 
 *** Irreducible Fraction                                            :drill:
 SCHEDULED: <2020-08-06 Thu>
@@ -753,17 +753,17 @@ math: proof: (a/b)/(c/d) = ad/bc
 
 ** 5.3 Decimals and Fractions
 *** Repeating Decimal                                               :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :ID:       14a762fa-06e9-4491-b133-b83dcea8f684
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:47]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:47]
 :END:
 
 math: A Repeating Decimal is a <[Decimal Number in which the last digits repeat endlessly]>
@@ -786,174 +786,174 @@ math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
 
 ** 5.5 Averages and Probability
 *** Mean aka Arithmetic Average                                     :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
 :DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:22]
 :END:
 
 math: <[Mean]> aka <[Arithmetic Average]>
 
 *** Mean Formula                                                    :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4f2c4fb-8b35-47d1-aa33-b9b4cc36411a
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:47]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:46]
 :END:
 
 math: <[Mean]> = <[Sum of all the Values / The Number of Values]>
 
 *** Median Formula                                                    :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e9f8a858-908e-4576-bdd9-7ecbc0b92ad1
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:48]
 :END:
 
 math: <[Median]> = <[The middle value when there is an odd number of them. The mean of the two
 middle values otherwise]>
 
 *** Mode Formula                                                    :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f5f81d68-9579-4324-bbc1-329310af7056
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:46]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:43]
 :END:
 
 math: <[Mode]> = <[The number with the highest frequency]>
 
 *** Probability Formula                                             :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:25]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:43]
 :END:
 
 math: <[Probability]> = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:46]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
 
 *** Rate                                                           :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:13]
 :END:
 
 math: A <[Rate]> is <[a fraction of two numbers with different units]>
 
 *** Unit Rate                                                       :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bc37c20d-817c-48c4-a384-333f2408830f
-:DRILL_LAST_INTERVAL: 3.874
+:DRILL_LAST_INTERVAL: 3.752
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:08]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:23]
 :END:
 
 math: A <[Unit Rate]> is <[a Rate with a denominator of 1]>
 
 ** 5.7 Simplify and Use Square Roots
 *** Perfect Square                                                  :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       53abdeff-8b97-43a4-ab75-30eb36ab5759
 :DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:24]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:23]
 :END:
 
 math: A <[Perfect Square]> is a <[Square of an integer]>
 
 *** Radical Sign aka Root Symbol                                    :drill:
-SCHEDULED: <2020-08-05 Wed>
+SCHEDULED: <2020-08-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8c22f6b2-e0e6-4d75-a93d-501d24a7f201
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-01 Sat 18:31]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:46]
 :END:
 
 math: <[Radical Sign]> aka <[Root Symbol]>
@@ -993,45 +993,105 @@ math: A Proportion states that <[two ratios or rates are equal]>
 
 ** 7.1 Rational and Irrational Numbers
 *** Rational Numbers                                                :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       5180cd88-940c-4487-bfd8-3e6c5bec0b7f
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:14]
 :END:
 
 math: <[Rational Numbers]> are <[numbers that can be expressed as a fraction of two integers]>
 
 *** Irrational Numbers                                              :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       0c4d4c8a-a08b-4092-bab1-3f7301be1451
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:15]
 :END:
 
 math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
 
 *** Real Numbers                                              :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       40e115d7-ad79-4e10-9a95-e29a2b49c9fc
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:19]
 :END:
 
 math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
 
 ** 7.3 Distributive Property
 *** Left Distributive Property                                      :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       c1c3f04c-99cd-498b-a271-47f6d2102658
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:15]
 :END:
 
 math: f is <[left-distributive over g]> if <[f(a, g(b, c)) = g(f(a, b), f(a, c))]>
 
 *** Right Distributive Property                                     :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       9d714996-3174-4333-a2e6-873574b73201
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:18]
 :END:
 
 math: f is <[right-distributive over g]> if <[f(g(b, c), a) = g(f(b, a), f(c, a))]>
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
+SCHEDULED: <2020-08-09 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 11:19]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
