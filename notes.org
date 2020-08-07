@@ -932,30 +932,30 @@ SCHEDULED: <2020-09-12 Sat>
 c: The <[format]> function attribute specifies that <[the arguments to the
 function should be type checked like printf]>
 
-***** =const= and =pure=                                          :drill:
-SCHEDULED: <2020-08-07 Fri>
-:PROPERTIES:
-:SOURCE: https://stackoverflow.com/questions/29117836/attribute-const-vs-attribute-pure-in-gnu-c
-:ID:       cccb2b03-bc02-48bf-8107-4ed1583c8f3d
-:DRILL_LAST_INTERVAL: 22.3597
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.391
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
-:END:
+# ***** =const= and =pure=                                          :drill:
+# SCHEDULED: <2020-08-07 Fri>
+# :PROPERTIES:
+# :SOURCE: https://stackoverflow.com/questions/29117836/attribute-const-vs-attribute-pure-in-gnu-c
+# :ID:       cccb2b03-bc02-48bf-8107-4ed1583c8f3d
+# :DRILL_LAST_INTERVAL: 22.3597
+# :DRILL_REPEATS_SINCE_FAIL: 13
+# :DRILL_TOTAL_REPEATS: 23
+# :DRILL_FAILURE_COUNT: 2
+# :DRILL_AVERAGE_QUALITY: 3.391
+# :DRILL_EASE: 1.3
+# :DRILL_LAST_QUALITY: 4
+# :DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
+# :END:
 
-c: function attribute: const:
-<[- The function result only depends on its arguments
-  - The function has no side effects
-  - Pointers cannot be dereferenced]>
+# c: function attribute: const:
+# <[- The function result only depends on its arguments
+#   - The function has no side effects
+#   - Pointers cannot be dereferenced]>
 
-c: function attribute: pure:
-<[- The function result depends on its arguments and the global state
-  - The function has no side effects
-  - Pointers can be dereferenced]>
+# c: function attribute: pure:
+# <[- The function result depends on its arguments and the global state
+#   - The function has no side effects
+#   - Pointers can be dereferenced]>
 
 *** Data Types
 **** Floating Points
@@ -5765,23 +5765,23 @@ SCHEDULED: <2020-11-22 Sun>
 unix: function: mktemp() is considered insecure because <[there is a potential
 race condition between checking that the name exists and opening the file]>
 
-**** nextafter                                                     :drill:
-SCHEDULED: <2020-08-07 Fri>
-:PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0c44d6ae-7e68-452d-9083-d3504b9457af
-:DRILL_LAST_INTERVAL: 165.8295
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-23 Sun 16:08]
-:END:
+# **** nextafter                                                     :drill:
+# SCHEDULED: <2020-08-07 Fri>
+# :PROPERTIES:
+# :DRILL_CARD_TYPE: show1cloze
+# :ID:       0c44d6ae-7e68-452d-9083-d3504b9457af
+# :DRILL_LAST_INTERVAL: 165.8295
+# :DRILL_REPEATS_SINCE_FAIL: 6
+# :DRILL_TOTAL_REPEATS: 5
+# :DRILL_FAILURE_COUNT: 0
+# :DRILL_AVERAGE_QUALITY: 3.8
+# :DRILL_EASE: 2.32
+# :DRILL_LAST_QUALITY: 3
+# :DRILL_LAST_REVIEWED: [2020-02-23 Sun 16:08]
+# :END:
 
-unix: function: <[nextafter()]> <[returns the next representable floating point
-value]>
+# unix: function: <[nextafter()]> <[returns the next representable floating point
+# value]>
 
 **** perror                                                        :drill:
 SCHEDULED: <2021-05-30 Sun>
