@@ -9367,6 +9367,11 @@ best practice: Work on problems for some time after I get stuck
 
 Interesting article on the benefits and opportunities of being a jack of all trades.
 
+*** DONE The Art of Not Thinking
+:PROPERTIES:
+:Source: http://tiffanymatthe.com/not-thinking
+:Source+: http://tiffanymatthe.com/not-thinking
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
