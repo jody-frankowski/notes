@@ -1501,7 +1501,6 @@ SCHEDULED: <2020-08-11 Tue>
 
 vim: =<C-r>{register}= can be used from the <[Command Line]> or in <[Insert Mode]>
 
-
 ** Tip 28: Execute a Command on One or More Consecutive Lines
 
 Execute an Ex Command on a specific line with =:{number}{command}=.
@@ -2630,7 +2629,6 @@ Swap two words (eg. =Man= and =Dog=) like so:
 /\v(<man>|<dog>)
 :%s//\={"dog":"man","man":"dog"}[submatch(1)]/g
 #+END_SRC
-
 
 ** Tip 97: Find and Replace Across Multiple Files
 
