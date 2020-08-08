@@ -4659,17 +4659,17 @@ SCHEDULED: <2021-11-15 Mon>
 python: <[=for key in dict=]> will loop over <[the keys]> of dict
 
 **** Dict                                                          :drill:
-SCHEDULED: <2020-08-08 Sat>
+SCHEDULED: <2020-12-20 Sun>
 :PROPERTIES:
 :ID:       6a41804e-f0b7-4a58-8188-ffbfb8a3b305
-:DRILL_LAST_INTERVAL: 59.9795
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 134.3541
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.555
+:DRILL_AVERAGE_QUALITY: 3.578
 :DRILL_EASE: 2.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-09 Tue 11:25]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-08 Sat 09:30]
 :END:
 
 python: <[=for key,value in dict.items()=]> will loop over the keys and values
