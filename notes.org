@@ -497,18 +497,18 @@ browser: console: js function <[document.querySelector()]> == cmd
 <[$(selector, element)]>
 
 **** Drill :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2021-02-09 Tue>
 :PROPERTIES:
 :SOURCE: https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Helpers
 :ID:       d4b17ae9-c862-419f-95f5-8beb1e91c2a7
-:DRILL_LAST_INTERVAL: 93.5889
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 183.4342
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.471
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 1.96
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-08 Fri 11:53]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:16]
 :END:
 
 browser: console: js function <[document.querySelectorAll()]> == cmd
@@ -7512,17 +7512,17 @@ study: best practice: Develop Insights for every technical item learned
 
 ** Math
 *** Best Practice: Recreate Proofs                                  :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2021-03-22 Mon>
 :PROPERTIES:
 :ID:       4fdcb49a-73b8-4d26-a26f-a73382a05681
-:DRILL_LAST_INTERVAL: 139.0653
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 223.617
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-24 Tue 12:28]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:16]
 :END:
 
 study: best practice: Recreate every Proofs learned

@@ -2504,18 +2504,18 @@ change and move]>
 ** Tip 85: Create Complex Patterns by Iterating upon Search History
 
 *** =q:=                                                            :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2021-06-11 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       912b48bc-f078-4ab1-9aed-e050d14c1ab9
-:DRILL_LAST_INTERVAL: 141.9311
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 305.1519
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-21 Sat 15:25]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:17]
 :END:
 
 vim: <[Open the Ex Command-Line Window]> with <[=q:=]>

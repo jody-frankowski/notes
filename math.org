@@ -583,18 +583,18 @@ SCHEDULED: <2020-08-17 Mon>
 math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
 
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 8.856
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:48]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:08]
 :END:
 
 math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
@@ -1044,88 +1044,88 @@ SCHEDULED: <2020-08-19 Wed>
 math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
 
 *** Natural Numbers Symbol                                          :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d36c7f77-0d2b-42ab-a2d9-41ea998d267c
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.316
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:46]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:12]
 :END:
 
 math: <[Natural Numbers Symbol]> = <[ℕ]>
 
 *** Integers Symbol                                                 :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fbf4406d-c819-4fce-9898-ddefd37a820b
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.316
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:47]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:16]
 :END:
 
 math: <[Integers Symbol]> = <[ℤ]>
 
 *** Rational Numbers Symbol                                         :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8f894826-2985-4201-b60f-6ed19e0a8c72
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:46]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:09]
 :END:
 
 math: <[Rational Numbers Symbol]> = <[ℚ]>
 
 *** Real Numbers Symbol                                             :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8cca9e0a-c3f8-4ec4-9c62-9ba4280080e2
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.316
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:48]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:11]
 :END:
 
 math: <[Real Numbers Symbol]> = <[ℝ]>
 
 *** R includes Q which includes Z which includes N                  :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :ID:       93b24ed1-591c-4195-bb9c-7c53e7b6c4a5
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:48]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:12]
 :END:
 
-math: <[Real Numbers]> include <[Rational Numbers]> wich include <[Integers]> which include
+math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> which include
 <[Natural Numbers]>
 
 ** 7.3 Distributive Property
@@ -1183,35 +1183,35 @@ math: x is the <[identity element]> of f if <[f(x, y) = y]>
 
 ** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
 *** Supplementary Angles                                            :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       dccd872d-bfa9-4269-8e1b-6d6827a355ad
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:47]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:08]
 :END:
 
 math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
 
 *** Complementary Angles                                            :drill:
-SCHEDULED: <2020-08-10 Mon>
+SCHEDULED: <2020-08-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bb5203a4-e0dc-43d3-a711-70e1176a9d30
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-06 Thu 12:47]
+:DRILL_LAST_REVIEWED: [2020-08-10 Mon 12:11]
 :END:
 
 math: Two angles are <[Complementary]> if <[their sum makes 90°]>
