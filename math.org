@@ -1615,3 +1615,10 @@ SCHEDULED: <2020-08-23 Sun>
 :END:
 
 math: A *y-intercept* is a point where a line crosses the <[y-axis]>
+
+** 11.4 Understand Slope of a Line
+*** Slope of a Line                                                 :drill:
+:PROPERTIES:
+:END:
+
+math: The Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]>
