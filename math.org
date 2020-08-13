@@ -1216,6 +1216,39 @@ SCHEDULED: <2020-08-20 Thu>
 
 math: Two angles are <[Complementary]> if <[their sum makes 90°]>
 
+*** Similar Figures                                                 :drill:
+SCHEDULED: <2020-08-17 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       591775ff-0050-4491-8027-2dd6c0fd3bf6
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-13 Thu 12:08]
+:END:
+
+math: Two figures are <[Similar]> if <[they have the same shape]>
+
+*** Similar Triangles Angles                                        :drill:
+SCHEDULED: <2020-08-17 Mon>
+:PROPERTIES:
+:ID:       10075338-ceb1-43cf-8fd8-4ac8c3689a12
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-13 Thu 12:02]
+:END:
+
+math: Two Similar Triangles <[have the same]> angles
+
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
 *** Triangle Area                                                   :drill:
 SCHEDULED: <2020-08-22 Sat>
@@ -1618,7 +1651,17 @@ math: A *y-intercept* is a point where a line crosses the <[y-axis]>
 
 ** 11.4 Understand Slope of a Line
 *** Slope of a Line                                                 :drill:
+SCHEDULED: <2020-08-17 Mon>
 :PROPERTIES:
+:ID:       4c2ae4b5-8a5f-4a74-96e9-51970526dd58
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-13 Thu 12:08]
 :END:
 
 math: The Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]>

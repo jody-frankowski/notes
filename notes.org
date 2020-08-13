@@ -4811,17 +4811,17 @@ python: Convert <[a string to utf-8 bytes]> with <[STR.encode()]>
 *** TLS
 **** ESNI
 ***** Acronym                                                     :drill:
-SCHEDULED: <2020-08-13 Thu>
+SCHEDULED: <2021-07-08 Thu>
 :PROPERTIES:
 :ID:       89141d17-2319-4dab-98c7-1202266d255b
-:DRILL_LAST_INTERVAL: 140.7625
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 329.3842
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.666
+:DRILL_AVERAGE_QUALITY: 3.692
 :DRILL_EASE: 2.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-25 Wed 14:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-13 Thu 12:03]
 :END:
 
 ESNI aka <[Encrypted Server Name Indication]>
@@ -7430,21 +7430,21 @@ SCHEDULED: <2020-10-15 Thu>
 
 srs: best practice: *Executing* repeatedly failed cards *In Context*
 
-**** Making Cards after Reading the Material                       :drill:
-SCHEDULED: <2020-10-15 Thu>
-:PROPERTIES:
-:ID:       9D89A14A-8010-459F-BAB1-AE115E4B585F
-:DRILL_LAST_INTERVAL: 214.1563
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-15 Sun 15:35]
-:END:
+# **** Making Cards after Reading the Material                       :drill:
+# SCHEDULED: <2020-10-15 Thu>
+# :PROPERTIES:
+# :ID:       9D89A14A-8010-459F-BAB1-AE115E4B585F
+# :DRILL_LAST_INTERVAL: 214.1563
+# :DRILL_REPEATS_SINCE_FAIL: 8
+# :DRILL_TOTAL_REPEATS: 7
+# :DRILL_FAILURE_COUNT: 0
+# :DRILL_AVERAGE_QUALITY: 3.0
+# :DRILL_EASE: 1.52
+# :DRILL_LAST_QUALITY: 3
+# :DRILL_LAST_REVIEWED: [2020-03-15 Sun 15:35]
+# :END:
 
-srs: best practice: Make cards *after* reading the material
+# srs: best practice: Make cards *after* reading the material
 
 **** Puzzle Cards and Methodology                                  :drill:
 SCHEDULED: <2020-08-22 Sat>
