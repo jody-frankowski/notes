@@ -3623,6 +3623,12 @@ SCHEDULED: <2020-08-18 Tue>
 
 go: <[CHANNEL <- VAR]> = Send VAR into CHANNEL
 
+*** Go Channels Operations are Blocking                             :drill:
+:PROPERTIES:
+:END:
+
+go: Channels operations are <[blocking||blocking or non-blocking]>
+
 *** Goroutine                                                       :drill:
 SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
