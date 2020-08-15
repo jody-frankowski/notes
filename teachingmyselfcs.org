@@ -2443,18 +2443,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2020-08-15 Sat>
+SCHEDULED: <2020-11-07 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 64.4998
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 83.7207
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.125
-:DRILL_EASE: 1.34
+:DRILL_AVERAGE_QUALITY: 3.118
+:DRILL_EASE: 1.2
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:23]
+:DRILL_LAST_REVIEWED: [2020-08-15 Sat 06:52]
 :END:
 
 vim: <[Autocomplete]> the search field with
@@ -2738,18 +2738,18 @@ Jump back from a Tag Search with =<C-t>=.
 Open a tag match list with =g<C-]>=.
 
 *** =<C-]>=                                                         :drill:
-SCHEDULED: <2020-08-15 Sat>
+SCHEDULED: <2020-08-19 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0676996b-20d2-48c6-99b5-259a16872d9a
-:DRILL_LAST_INTERVAL: 146.3552
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-22 Sun 13:06]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.572
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-15 Sat 06:53]
 :END:
 
 vim: <[Go to the definition of the keyword under the cursor]> with <[C-]]>
