@@ -1665,3 +1665,8 @@ SCHEDULED: <2020-08-17 Mon>
 :END:
 
 math: The Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]>
+
+* Openstax - Elementary Algebra 2e
+:LOGBOOK:
+CLOCK: [2020-08-15 Sat 11:52]--[2020-08-15 Sat 14:52] =>  3:00
+:END:
