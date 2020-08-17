@@ -3688,3 +3688,9 @@ SCHEDULED: <2020-08-18 Tue>
 :END:
 
 go: <[Wait on channel communications]> with <[select]>
+
+* The Go Programming Language
+:LOGBOOK:
+CLOCK: [2020-08-15 Sat 16:37]--[2020-08-15 Sat 17:37] =>  1:00
+CLOCK: [2020-08-15 Sat 14:28]--[2020-08-15 Sat 15:29] =>  1:01
+:END:
