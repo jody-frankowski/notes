@@ -5804,18 +5804,18 @@ current value of errno]>
 **** printf
 ***** Conversion Specifiers
 ****** d or i                                                    :drill:
-SCHEDULED: <2020-08-17 Mon>
+SCHEDULED: <2021-10-23 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       b0b7dfd8-e8d9-437f-89a4-af0ab5c39f21
-:DRILL_LAST_INTERVAL: 166.281
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 432.3306
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_AVERAGE_QUALITY: 4.167
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-04 Wed 08:43]
+:DRILL_LAST_REVIEWED: [2020-08-17 Mon 11:42]
 :END:
 
 c: printf: <[Print a signed integer in decimal]> with <[d or i]>
@@ -7867,17 +7867,17 @@ Do not pseudo study (eg. studying in front of the tv). Instead do deep, focused
 study sessions. This will require less time and be more efficient.
 
 ***** Best Practice: Do Deep Study Sessions                       :drill:
-SCHEDULED: <2020-08-17 Mon>
+SCHEDULED: <2021-05-16 Sun>
 :PROPERTIES:
 :ID:       6fd09735-bdda-473d-aded-913a879cd88f
-:DRILL_LAST_INTERVAL: 148.0816
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 272.4701
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-22 Sun 12:59]
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-17 Mon 11:42]
 :END:
 
 study: best practice: Do Deep Study Sessions
