@@ -35,35 +35,35 @@ SCHEDULED: <2020-08-21 Fri>
 math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
 
 *** Natural Numbers Including 0                                     :drill:
-SCHEDULED: <2020-08-18 Tue>
+SCHEDULED: <2020-10-20 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a52d3df6-dab7-472e-a7b0-4c5be2092b10
-:DRILL_LAST_INTERVAL: 25.4875
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 63.1835
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:47]
 :END:
 
 math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
-SCHEDULED: <2020-08-18 Tue>
+SCHEDULED: <2020-08-22 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
-:DRILL_LAST_INTERVAL: 25.4875
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:46]
 :END:
 
 math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
@@ -1233,12 +1233,22 @@ SCHEDULED: <2020-08-26 Wed>
 math: Two Similar Triangles <[have the same]> angles
 
 *** Congruent Figures                                               :drill:
+SCHEDULED: <2020-08-22 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :Source: https://en.wikipedia.org/wiki/Congruence_(geometry)
+:ID:       eed9ae3e-1e6e-4c3b-8b78-188c332e5c1d
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:42]
 :END:
 
-math: Two figures are <[congruent]> if <[they have the same shape and size]>
+math: Two figures are <[Congruent]> if <[they have the same shape and size]>
 
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
 *** Triangle Area                                                   :drill:
