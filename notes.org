@@ -1442,17 +1442,17 @@ The Linkage of identifiers defines how they can refer to the same
 object/function in different scopes.
 
 ***** Possible Linkage                                            :drill:
-SCHEDULED: <2020-08-19 Wed>
+SCHEDULED: <2020-11-11 Wed>
 :PROPERTIES:
 :ID:       e44a597b-6aee-4c72-bb06-e599bc889fd1
-:DRILL_LAST_INTERVAL: 44.4225
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 84.4028
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.455
 :DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-06 Mon 06:42]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:51]
 :END:
 
 c: An object or a function can have one of 3 types of linkages:
@@ -1512,18 +1512,18 @@ c: *No linkage* means the identifier can be referred to <[only from the scope it
 is declared in]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-08-19 Wed>
+SCHEDULED: <2020-09-09 Wed>
 :PROPERTIES:
 :ID:       b5c95d53-7783-41dc-80ad-4c97dd0a0126
 :DRILL_CARD_TYPE: show1cloze
-:DRILL_LAST_INTERVAL: 14.7764
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 39
+:DRILL_LAST_INTERVAL: 20.687
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 40
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.538
+:DRILL_AVERAGE_QUALITY: 3.55
 :DRILL_EASE: 1.4
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-04 Tue 08:07]
+:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:54]
 :END:
 
 c: <[File]>-scoped identifiers have <[external]> linkage by default
@@ -1660,17 +1660,17 @@ c: <[storage-class specifiers]> determine:
 <[- storage duration]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2020-08-19 Wed>
+SCHEDULED: <2020-10-20 Tue>
 :PROPERTIES:
 :ID:       1ab1f047-6e39-4499-8a03-31e0dc43ca15
-:DRILL_LAST_INTERVAL: 47.8741
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 30
+:DRILL_LAST_INTERVAL: 62.1406
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 31
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.366
-:DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-02 Thu 09:03]
+:DRILL_AVERAGE_QUALITY: 3.354
+:DRILL_EASE: 1.2
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:54]
 :END:
 
 c: The storage-class specifiers are:
