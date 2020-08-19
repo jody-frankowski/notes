@@ -1669,5 +1669,50 @@ math: Formula of the Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]> o
 
 * Openstax - Elementary Algebra 2e
 :LOGBOOK:
+CLOCK: [2020-08-19 Wed 10:18]--[2020-08-19 Wed 11:18] =>  1:00
 CLOCK: [2020-08-15 Sat 11:52]--[2020-08-15 Sat 14:52] =>  3:00
 :END:
+
+** 2.4 Use a General Strategy to Solve Linear Equations
+*** Conditional Equation                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[An equation that is true for some values of the variable]> is a <[Conditional Equation]>
+
+*** Identity Equation                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[An equation that is true for any value of the variable]> is <[an Identity Equation]>
+
+*** Contradiction Equation                                          :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[An equation that is false for all values of the variable]> is <[a Contradiction Equation]>
+
+** 2.7 Solve Linear Inequalities
+*** Interval Notation                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: An <[Interval Notation]> is written as <[[X, Y] when X and Y are included or (X, Y) if not]>
+
+*** Dividing or Multiplying an Inequality by a Negative Number      :drill:
+:PROPERTIES:
+:END:
+
+math: When you divide or multiply an inequality by a negative number,
+the inequality <[reverses]>
+
+*** Dividing or Multiplying an Inequality by a Positive Number      :drill:
+:PROPERTIES:
+:END:
+
+math: When you divide or multiply an inequality by a positive number,
+the inequality <[stays the same]>
