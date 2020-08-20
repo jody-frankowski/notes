@@ -6579,18 +6579,18 @@ file if it couldn't be executed by the kernel and if it looks like a text file.
 (https://stackoverflow.com/a/25202821)
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-08-20 Thu>
+SCHEDULED: <2020-08-31 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0E63ECF8-3011-46D4-B71E-786DD7285469
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 10.5373
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.917
+:DRILL_AVERAGE_QUALITY: 3.923
 :DRILL_EASE: 2.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-16 Sun 15:45]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-20 Thu 07:34]
 :END:
 
 sh: Most shells will <[execute text files]> even if <[they don't
