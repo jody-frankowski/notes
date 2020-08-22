@@ -52,18 +52,18 @@ SCHEDULED: <2020-10-20 Tue>
 math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-08-31 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.3751
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:46]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:28]
 :END:
 
 math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
@@ -1233,52 +1233,52 @@ SCHEDULED: <2020-08-26 Wed>
 math: Two Similar Triangles <[have the same]> angles
 
 *** Congruent Figures                                               :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-08-31 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :Source: https://en.wikipedia.org/wiki/Congruence_(geometry)
 :ID:       eed9ae3e-1e6e-4c3b-8b78-188c332e5c1d
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.379
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:42]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:44]
 :END:
 
 math: Two figures are <[Congruent]> if <[they have the same shape and size]>
 
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
 *** Triangle Area                                                   :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-15 Tue>
 :PROPERTIES:
 :ID:       08e8e4ad-460e-48bd-882e-5001bd100c25
-:DRILL_LAST_INTERVAL: 9.684
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.1809
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:59]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:43]
 :END:
 
 math: Triangle Area = <[1/2 * (base * height)]>
 
 *** Sum of Triangle Angles                                          :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-17 Thu>
 :PROPERTIES:
 :ID:       523a5c02-8681-4abd-943b-35ae2f18d718
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.79
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 09:00]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:28]
 :END:
 
 math: The sum of a triangle angles = <[180°]>
@@ -1334,33 +1334,33 @@ math: The Area of a Trapezoid can be thought of as <[the area of two triangles]>
 
 ** 9.5 Solve Geometry Applications: Circles and Irregular Figures
 *** Circle Circumference                                            :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :ID:       e5c044ad-c4ba-479d-8d08-a316872d449c
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 09:00]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:45]
 :END:
 
 math: Circle Circumference = <[2πr]>
 
 *** Circle Area                                                     :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :ID:       b42faad9-e504-48ec-a091-64dd7de89c3c
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 09:00]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:27]
 :END:
 
 math: Circle Area = <[πr^2]>
@@ -1431,17 +1431,17 @@ SCHEDULED: <2020-08-27 Thu>
 math: Cylinder Volume = <[surface of base * height = πr^2 * height]>
 
 *** Cone Volume                                                     :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :ID:       b0759621-9c0b-4cc1-b042-1edcc3fa2518
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:59]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:40]
 :END:
 
 math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
@@ -1480,52 +1480,52 @@ SCHEDULED: <2020-09-10 Thu>
 The degree of a Polynomial is the <[highest degree of all its terms]>
 
 *** Degree of a Polynomial                                          :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :ID:       885aa4ec-b909-46df-830c-676626705213
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:58]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:30]
 :END:
 
-The Standard Form of a Polynomial lists the term <[in decreasing order of degrees]>
+The Standard Form of a Polynomial lists the terms <[in decreasing order of degrees]>
 
 ** 10.2 Use Multiplication Properties of Exponents
 *** Product Property of Exponents                                   :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-18 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       578c9c2d-22db-4c31-964b-94d4b1a0a736
-:DRILL_LAST_INTERVAL: 10.316
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.4406
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:24]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:45]
 :END:
 
 math: <[a^m * a^n]> = <[a^(m + n)]>
 
 *** Power Property of Exponents                                     :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-08-26 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       38b35634-46d2-4947-8c49-78f8e0ee56d4
-:DRILL_LAST_INTERVAL: 10.316
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
+:DRILL_LAST_INTERVAL: 4.256
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:23]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:46]
 :END:
 
 math: <[(a^m)^n]> = <[a^(mn)]>
@@ -1549,18 +1549,18 @@ math: <[(ab)^m]> = <[a^m * b^m]>
 
 ** 10.4 Divide Monomials
 *** Quotient Property of Exponents                                  :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9883c777-9917-4a0f-9c1a-5b6ffe6e4d65
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 09:00]
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:39]
 :END:
 
 math: <[a^m / a^n]> = <[a^(m - n)]>
@@ -1584,18 +1584,18 @@ math: <[(a / b)^m]> = <[a^m / b^m]>
 
 ** 10.5 Integer Exponents and Scientific Notation
 *** Negative Exponent                                               :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-15 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f7939d9c-0bda-4c80-9f53-7567a9dacd6f
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.21
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:23]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:44]
 :END:
 
 math: <[a^-n]> = <[1 / a^n]>
@@ -1619,17 +1619,17 @@ SCHEDULED: <2020-09-12 Sat>
 math: <[An Intercept of a Line]> is <[a point where the line crosses the x or y-axis]>
 
 *** x-intercept of a Line                                           :drill:
-SCHEDULED: <2020-08-22 Sat>
+SCHEDULED: <2020-09-18 Fri>
 :PROPERTIES:
 :ID:       c088f916-87b0-4299-b51f-8a174e872856
-:DRILL_LAST_INTERVAL: 10.316
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 26.605
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 08:24]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:45]
 :END:
 
 math: An *x-intercept* is a point where a line crosses the <[x-axis]>
