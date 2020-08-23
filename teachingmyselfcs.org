@@ -1089,6 +1089,9 @@ SCHEDULED: <2021-09-12 Sun>
 vim: <[Repeat the last change]> with <[.]>
 
 ** Tip 2: Don’t Repeat Yourself
+
+Clear a character and enter Insert mode with =s=
+
 *** S                                                               :drill:
 SCHEDULED: <2020-11-05 Thu>
 :PROPERTIES:
@@ -1105,23 +1108,6 @@ SCHEDULED: <2020-11-05 Thu>
 :END:
 
 vim: <[Clear the whole line and enter Insert mode]> with <[S]>
-
-# *** s                                                               :drill:
-# SCHEDULED: <2020-08-03 Mon>
-# :PROPERTIES:
-# :DRILL_CARD_TYPE: show1cloze
-# :ID:       bbc6f710-861b-4bb2-9ba2-ffed88b9e0af
-# :DRILL_LAST_INTERVAL: 10.1237
-# :DRILL_REPEATS_SINCE_FAIL: 9
-# :DRILL_TOTAL_REPEATS: 30
-# :DRILL_FAILURE_COUNT: 5
-# :DRILL_AVERAGE_QUALITY: 3.267
-# :DRILL_EASE: 1.3
-# :DRILL_LAST_QUALITY: 4
-# :DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:21]
-# :END:
-
-# vim: <[Clear a character and enter Insert mode]> with <[s]>
 
 ** Tip 3: Take One Step Back, Then Three Forward
 *** ;                                                               :drill:
@@ -2450,40 +2436,9 @@ Place the cursor at the end of a search match with =/{pattern}/e=.
 
 ** Tip 84: Operate on a Complete Search Match
 
-Use =gn= (or =gN=) to make a change and repeat it across a document.
-
-*** The Improved Dot Formula                                        :drill:
-SCHEDULED: <2020-09-29 Tue>
-:PROPERTIES:
-:ID:       c11bb962-0b51-4065-8290-890f54ffdcc1
-:DRILL_LAST_INTERVAL: 194.1587
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-19 Thu 11:07]
-:END:
-
-vim: The *Improved Dot Formula* consists in <[using only one key to make a
-change and move]>
-
-# *** Best Practice: Improved Dot Formula                             :drill:
-# SCHEDULED: <2019-12-13 Fri>
-# :PROPERTIES:
-# :ID:       67d8d3e6-9cc2-4b12-9696-498c362ac87d
-# :DRILL_LAST_INTERVAL: 3.874
-# :DRILL_REPEATS_SINCE_FAIL: 2
-# :DRILL_TOTAL_REPEATS: 4
-# :DRILL_FAILURE_COUNT: 1
-# :DRILL_AVERAGE_QUALITY: 2.75
-# :DRILL_EASE: 2.08
-# :DRILL_LAST_QUALITY: 3
-# :DRILL_LAST_REVIEWED: [2019-12-09 Mon 10:27]
-# :END:
-
-# vim: best practice: Use the *Improved Dot Formula*
+Use =gn= (or =gN=) to search for a string and select the current or next (or previous) match.
+The *Improved Dot Formula* consists in using only one key to make a
+change and move
 
 ** Tip 85: Create Complex Patterns by Iterating upon Search History
 
