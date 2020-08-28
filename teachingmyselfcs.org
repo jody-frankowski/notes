@@ -1298,21 +1298,21 @@ vim: The mode in which you are after typing an operator (eg. =d=) is called
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
 *** <C-h>                                                              :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2020-11-01 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 26.221
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 65.0281
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.721
+:DRILL_AVERAGE_QUALITY: 3.736
 :DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:20]
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:19]
 :END:
 
-vim: <[Delete back one character]> with <[<C-h>]>
+vim: <[Delete back one character in insert mode]> with <[<C-h>]>
 
 ** Tip 14: Get Back to Normal Mode
 
@@ -2677,18 +2677,18 @@ Jump back from a Tag Search with =<C-t>=.
 Open a tag match list with =g<C-]>=.
 
 *** =<C-]>=                                                         :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2020-09-16 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0676996b-20d2-48c6-99b5-259a16872d9a
-:DRILL_LAST_INTERVAL: 8.7049
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 18.9767
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.556
 :DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:51]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:15]
 :END:
 
 vim: <[Go to the definition of the keyword under the cursor]> with <[C-]]>

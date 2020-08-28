@@ -10,49 +10,49 @@ Note: Make a Best Practice card for each item.
 - [ ] Implementation rationales in docs/notes
 
 *** Best Practice: Unit Tests                                       :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2021-01-14 Thu>
 :PROPERTIES:
 :ID:       be1caa32-3ea3-4977-aedb-ba85600687d7
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-13 Sat 11:03]
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:18]
 :END:
 
 cs: project best practice: Add unit tests
 
 *** Best Practice: Integration Tests                                :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2021-01-14 Thu>
 :PROPERTIES:
 :ID:       e300dc21-2921-44dc-a20a-fb520451d8f0
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-13 Sat 11:03]
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:19]
 :END:
 
 cs: project best practice: Add integration tests
 
 *** Best Practice: Implementation Rationales                        :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2021-01-14 Thu>
 :PROPERTIES:
 :ID:       12a7ff88-5bef-4b9f-b8a9-a26e6f6ef495
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-13 Sat 11:03]
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:18]
 :END:
 
 cs: project best practice: Add Implementation Rationales
@@ -2474,38 +2474,6 @@ In org-mode [[https://orgmode.org/manual/Structure-of-code-blocks.html][code blo
 #+END_SRC
 
 You can find the list of supported languages [[https://orgmode.org/manual/Languages.html#Languages][here]].
-
-***** Drill :drill:
-SCHEDULED: <2020-08-28 Fri>
-:PROPERTIES:
-:ID:       82A86522-7FBC-48DB-925F-65428AA12615
-:DRILL_LAST_INTERVAL: 183.6069
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 20
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.549
-:DRILL_EASE: 1.84
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-26 Wed 12:23]
-:END:
-
-org: code blocks: The identifier for the org-mode language is <[org]>
-
-***** Drill :drill:
-SCHEDULED: <2022-01-29 Sat>
-:PROPERTIES:
-:ID:       391AC88F-A9AA-491F-8FB4-4602A1B16691
-:DRILL_LAST_INTERVAL: 721.2361
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 15:20]
-:END:
-
-org: code blocks: The identifier for the Emacs Lisp language is <["emacs-lisp"]>
 
 **** Drawers                                                       :drill:
 SCHEDULED: <2020-10-11 Sun>
@@ -5337,17 +5305,17 @@ locations of a file system object]>
 
 **** Permissions
 ***** ls Uppercase setuid/setgid/sticky Bits                      :drill:
-SCHEDULED: <2020-08-28 Fri>
+SCHEDULED: <2021-02-17 Wed>
 :PROPERTIES:
 :ID:       6757681e-9507-4eca-b8f3-245a9654d10b
-:DRILL_LAST_INTERVAL: 69.8608
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 173.2548
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.688
+:DRILL_AVERAGE_QUALITY: 3.706
 :DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-19 Fri 08:58]
+:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:17]
 :END:
 
 unix: perms: With =ls= the set-user-ID, set-group-ID and sticky bits are
