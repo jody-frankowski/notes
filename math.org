@@ -488,17 +488,17 @@ SCHEDULED: <2020-09-04 Fri>
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
 
 *** Least Common Multiple Example                                   :drill:
-SCHEDULED: <2020-08-29 Sat>
+SCHEDULED: <2020-10-25 Sun>
 :PROPERTIES:
 :ID:       3d5c2743-c2f5-4cb0-8269-638d2e0f0097
-:DRILL_LAST_INTERVAL: 24.3397
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 57.3687
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-05 Wed 10:44]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-29 Sat 11:36]
 :END:
 
 math: least_common_multiple(4, 6) = <[12]>
