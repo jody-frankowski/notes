@@ -9487,6 +9487,11 @@ ID spoofing is still a thing.
 :Source: https://blog.nem.ec/2020/05/24/ebay-port-scanning/
 :Source+: https://news.ycombinator.com/item?id=23436775
 :END:
+*** DONE If the NSA has been hacking everything, how has nobody seen them coming?
+:PROPERTIES:
+:Source: https://blog.thinkst.com/p/if-nsa-has-been-hacking-everything-how.html
+:Source+: https://news.ycombinator.com/item?id=24139828
+:END:
 ** Shell
 *** https://web.archive.org/web/20190914105521/https://dwheeler.com/essays/filenames-in-shell.html
 *** https://web.archive.org/web/20190914110211/http://mywiki.wooledge.org/BashFAQ/031 What is the difference between test, [ and [[ ?
