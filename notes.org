@@ -9554,6 +9554,15 @@ Example: "Perl shepherds you into using regexps"
 :PROPERTIES:
 :Source: https://youtu.be/6avJHaC3C2U
 :END:
+*** DONE Is TDD Dead?
+:PROPERTIES:
+:Source: https://martinfowler.com/articles/is-tdd-dead/
+:Source+: https://news.ycombinator.com/item?id=24281195
+:END:
+
+TDD should be used as a tool not as a perfect technique.
+TDD can sometimes lead to bad design decisions.
+
 ** Supercomputing
 *** DONE https://builtin.com/hardware/supercomputers
 
