@@ -1800,17 +1800,17 @@ vim: The =/= motion is <[Exclusive||Exclusive or Inclusive]> in its selection
 
 ** Tip 52: Trace Your Selection with Precision Text Objects
 *** Text Object Motion vs Text Object Selection                     :drill:
-SCHEDULED: <2020-09-02 Wed>
+SCHEDULED: <2021-03-05 Fri>
 :PROPERTIES:
 :ID:       9e178e0f-5ebf-49fb-944e-c0e731ba2447
-:DRILL_LAST_INTERVAL: 73.1556
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 184.3521
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.705
+:DRILL_AVERAGE_QUALITY: 3.721
 :DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-21 Sun 13:55]
+:DRILL_LAST_REVIEWED: [2020-09-02 Wed 12:21]
 :END:
 
 vim: =(= is called a <[Text Object Motion]> while

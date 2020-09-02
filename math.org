@@ -1699,24 +1699,24 @@ SCHEDULED: <2020-09-03 Thu>
 :DRILL_LAST_REVIEWED: [2020-08-24 Mon 09:06]
 :END:
 
-math: <[An equation that is true for some values of the variable]> is a <[Conditional Equation]>
+math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]> is a <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2020-09-02 Wed>
+SCHEDULED: <2020-09-24 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 21.9938
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-24 Mon 09:07]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-02 Wed 12:21]
 :END:
 
-math: <[An equation that is true for any value of the variable]> is <[an Identity Equation]>
+math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is <[an Identity Equation]>
 
 *** Contradiction Equation                                          :drill:
 SCHEDULED: <2020-09-03 Thu>
@@ -1733,7 +1733,7 @@ SCHEDULED: <2020-09-03 Thu>
 :DRILL_LAST_REVIEWED: [2020-08-24 Mon 09:06]
 :END:
 
-math: <[An equation that is false for all values of the variable]> is <[a Contradiction Equation]>
+math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is <[a Contradiction Equation]>
 
 ** 2.7 Solve Linear Inequalities
 *** Interval Notation                                               :drill:

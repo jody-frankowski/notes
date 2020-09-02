@@ -3922,18 +3922,18 @@ floating point: The bfloat16 format has an <[8]> bits long exponent and a <[7]>
 bits long fraction
 
 ***** Truncated binary32                                          :drill:
-SCHEDULED: <2020-09-02 Wed>
+SCHEDULED: <2021-11-22 Mon>
 :PROPERTIES:
 :SOURCE: https://en.wikipedia.org/wiki/Bfloat16_floating-point_format
 :ID:       3e06895d-9e8b-4bb8-a250-5c31bce038d9
-:DRILL_LAST_INTERVAL: 176.9563
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 445.576
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 08:19]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-02 Wed 12:22]
 :END:
 
 floating point: The bfloat16 format is a <[truncated]> version of
@@ -5683,18 +5683,18 @@ SCHEDULED: <2022-07-18 Mon>
 unix: function: <[mkdir()]> == <[make a new directory]>
 
 **** mkstemp                                                       :drill:
-SCHEDULED: <2020-09-02 Wed>
+SCHEDULED: <2021-02-01 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       977219a3-e745-49ee-b626-d3feb2e6930b
-:DRILL_LAST_INTERVAL: 65.437
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 152.0756
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.651
-:DRILL_EASE: 2.4
+:DRILL_AVERAGE_QUALITY: 3.62
+:DRILL_EASE: 2.26
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-29 Mon 10:53]
+:DRILL_LAST_REVIEWED: [2020-09-02 Wed 12:23]
 :END:
 
 unix: function: <[mkstemp()]> == <[make a unique temporary file]>
