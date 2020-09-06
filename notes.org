@@ -1045,18 +1045,18 @@ c: <[long double||float OR double OR long double]> on 64-bit ARM represents the
 
 ***** Sizes
 ****** short                                                     :drill:
-SCHEDULED: <2020-09-06 Sun>
+SCHEDULED: <2022-06-03 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0d1fe017-16f7-4323-a849-6399a117ea7a
-:DRILL_LAST_INTERVAL: 226.107
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 635.1346
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-24 Fri 10:26]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-06 Sun 14:05]
 :END:
 
 c: <[short||short OR int OR long OR long long]> usually is <[16 bits]> long
