@@ -3904,18 +3904,18 @@ between a minimum and maximum value]>
 =bfloat16= flushes denormals to zero.
 
 ***** Sizes                                                       :drill:
-SCHEDULED: <2020-09-07 Mon>
+SCHEDULED: <2020-12-27 Sun>
 :PROPERTIES:
 :SOURCE: https://en.wikipedia.org/wiki/Bfloat16_floating-point_format
 :ID:       a47bec8b-0ec3-42b3-9e15-23fec9606689
-:DRILL_LAST_INTERVAL: 54.3342
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 110.5158
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 2.1
+:DRILL_AVERAGE_QUALITY: 3.41
+:DRILL_EASE: 1.96
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-15 Wed 10:09]
+:DRILL_LAST_REVIEWED: [2020-09-07 Mon 08:39]
 :END:
 
 floating point: The bfloat16 format has an <[8]> bits long exponent and a <[7]>
@@ -4811,17 +4811,17 @@ SCHEDULED: <2021-12-27 Mon>
 ESNI works by <[encrypting the sni with a key obtained from a DNS record]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-09-07 Mon>
+SCHEDULED: <2022-08-09 Tue>
 :PROPERTIES:
 :ID:       149cbe65-dfc6-4d25-9d40-e8d7aa44ba89
-:DRILL_LAST_INTERVAL: 240.0492
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 700.9437
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.3
+:DRILL_AVERAGE_QUALITY: 4.273
 :DRILL_EASE: 2.92
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:25]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-07 Mon 09:14]
 :END:
 
 Which DNS record contains the key used for ESNI?
