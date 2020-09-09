@@ -1512,18 +1512,18 @@ c: *No linkage* means the identifier can be referred to <[only from the scope it
 is declared in]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2020-09-09 Wed>
+SCHEDULED: <2020-10-09 Fri>
 :PROPERTIES:
 :ID:       b5c95d53-7783-41dc-80ad-4c97dd0a0126
 :DRILL_CARD_TYPE: show1cloze
-:DRILL_LAST_INTERVAL: 20.687
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 40
+:DRILL_LAST_INTERVAL: 29.872
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 41
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.55
-:DRILL_EASE: 1.4
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:54]
+:DRILL_AVERAGE_QUALITY: 3.585
+:DRILL_EASE: 1.5
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:42]
 :END:
 
 c: <[File]>-scoped identifiers have <[external]> linkage by default

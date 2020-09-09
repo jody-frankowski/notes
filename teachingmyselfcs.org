@@ -1280,17 +1280,17 @@ more flexible.
 Use operator + motion when possible.
 
 *** Operator-Pending Mode                                           :drill:
-SCHEDULED: <2020-09-09 Wed>
+SCHEDULED: <2022-04-06 Wed>
 :PROPERTIES:
 :ID:       2de6267a-6faa-486e-a114-e025306ecddf
-:DRILL_LAST_INTERVAL: 204.9827
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 573.9516
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-17 Mon 12:16]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:42]
 :END:
 
 vim: The mode in which you are after typing an operator (eg. =d=) is called
@@ -3060,18 +3060,18 @@ SCHEDULED: <2022-03-26 Sat>
 go: function: <[len()]> returns <[the length of an array or slice]>
 
 *** cap()                                                           :drill:
-SCHEDULED: <2020-09-09 Wed>
+SCHEDULED: <2020-11-24 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       12efd225-35f6-4fce-810a-62e47ab5e57b
-:DRILL_LAST_INTERVAL: 28.3051
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 75.9143
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-12 Wed 09:01]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:44]
 :END:
 
 go: <[cap(SLICE)]> returns <[the capacity of the underlying array segment]>
@@ -3174,18 +3174,18 @@ SCHEDULED: <2020-09-11 Fri>
 go: The size of arrays <[is fixed||is fixed or not]>
 
 *** Slices                                                          :drill:
-SCHEDULED: <2020-09-09 Wed>
+SCHEDULED: <2020-09-18 Fri>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
 :ID:       6631ad33-695e-4e5c-9d10-399c8a7f8685
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.379
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-05 Sat 11:53]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:42]
 :END:
 
 go: A slice is <[a pointer to an array segment with its length and total capacity]>
@@ -3612,18 +3612,18 @@ SCHEDULED: <2020-09-15 Tue>
 go: <[defer FUNC()]> = Defer the call of FUNC to the end of the current scope
 
 *** Select                                                          :drill:
-SCHEDULED: <2020-09-09 Wed>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       728c09dd-0dcc-4280-8155-aa9d10aa7607
-:DRILL_LAST_INTERVAL: 21.9938
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.8262
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:40]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:44]
 :END:
 
 go: <[Wait on channel communications]> with <[select]>
