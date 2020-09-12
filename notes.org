@@ -9340,6 +9340,10 @@ Interesting article on the benefits and opportunities of being a jack of all tra
 :Source: http://tiffanymatthe.com/not-thinking
 :Source+: http://tiffanymatthe.com/not-thinking
 :END:
+*** DONE The Impostor's Advantage
+:PROPERTIES:
+:Source: https://www.zainrizvi.io/blog/the-impostors-advantage/
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
