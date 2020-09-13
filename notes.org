@@ -276,22 +276,22 @@ SCHEDULED: <2022-04-03 Sun>
 x86: <[NOP]> instructions may be used to align <[functions start adress]>
 
 **** Drill :drill:
-SCHEDULED: <2020-09-13 Sun>
+SCHEDULED: <2022-09-25 Sun>
 :PROPERTIES:
 :SOURCE: https://stackoverflow.com/a/7788330
 :DRILL_CARD_TYPE: show1cloze
 :ID:       756E4139-727B-4CB8-9E1C-C847B586DB6B
-:DRILL_LAST_INTERVAL: 330.2926
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 742.1675
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-19 Sat 13:35]
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:28]
 :END:
 
-x86: <[Functions with addresses aligned on multiple of 4]> can be <[faster to
+x86: <[Functions with addresses aligned on multiples of 4]> can be <[faster to
 jump to]>
 
 *** Two's Complement
@@ -5909,18 +5909,18 @@ c: printf: <[Print a pointer in hexadecimal]> with <[p]>
 
 ***** Length Modifier
 ****** hh                                                        :drill:
-SCHEDULED: <2020-09-13 Sun>
+SCHEDULED: <2020-09-17 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ce288947-2909-461c-a37a-8b27e4571b7e
-:DRILL_LAST_INTERVAL: 182.5308
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-14 Sat 11:23]
+:DRILL_LAST_INTERVAL: 3.996
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:31]
 :END:
 
 c: printf: <[Cast the integer argument to char]> with <[hh]>

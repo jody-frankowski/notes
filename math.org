@@ -985,18 +985,18 @@ math: $\sqrt{x^2}$ = <[|x|]>
 
 ** 7.1 Rational and Irrational Numbers
 *** Rational Numbers                                                :drill:
-SCHEDULED: <2020-09-13 Sun>
+SCHEDULED: <2020-11-14 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5180cd88-940c-4487-bfd8-3e6c5bec0b7f
-:DRILL_LAST_INTERVAL: 25.3545
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 61.8396
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:55]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:23]
 :END:
 
 math: <[Rational Numbers]> are <[numbers that can be expressed as a fraction of two integers]>
@@ -1019,18 +1019,18 @@ SCHEDULED: <2020-09-14 Mon>
 math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
 
 *** Real Numbers                                                    :drill:
-SCHEDULED: <2020-09-13 Sun>
+SCHEDULED: <2020-11-14 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       40e115d7-ad79-4e10-9a95-e29a2b49c9fc
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.5
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:50]
+:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:29]
 :END:
 
 math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
@@ -1070,18 +1070,18 @@ SCHEDULED: <2020-09-16 Wed>
 math: <[Integers Symbol]> = <[ℤ]>
 
 *** Rational Numbers Symbol                                         :drill:
-SCHEDULED: <2020-09-13 Sun>
+SCHEDULED: <2020-11-09 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8f894826-2985-4201-b60f-6ed19e0a8c72
-:DRILL_LAST_INTERVAL: 24.21
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.7725
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-20 Thu 07:34]
+:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:25]
 :END:
 
 math: <[Rational Numbers Symbol]> = <[ℚ]>
