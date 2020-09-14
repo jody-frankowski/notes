@@ -5410,17 +5410,17 @@ SCHEDULED: <2021-06-20 Sun>
 unix: perms: Setting the *Setuid Bit* on *directories* does <[nothing]>
 
 ***** Blocking setuid and setgid                                  :drill:
-SCHEDULED: <2020-09-14 Mon>
+SCHEDULED: <2021-02-12 Fri>
 :PROPERTIES:
 :ID:       cf66ad30-7a36-4a70-8cc1-463457e9ab4f
-:DRILL_LAST_INTERVAL: 62.4731
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 151.1849
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_AVERAGE_QUALITY: 3.685
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-14 Tue 09:08]
+:DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:51]
 :END:
 
 unix: perms: The setuid and setgid effects on executables are not performed if:
@@ -7249,18 +7249,18 @@ srs: best practice: Add *Sources*
 :END:
 
 **** Why Cards                                                     :drill:
-SCHEDULED: <2020-09-14 Mon>
+SCHEDULED: <2020-09-27 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8e432fe-4b6a-42e5-bd6a-c7dc2672ff3c
-:DRILL_LAST_INTERVAL: 10.1142
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 30
+:DRILL_LAST_INTERVAL: 12.7338
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 31
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.867
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.871
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-04 Fri 11:06]
+:DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:49]
 :END:
 
 srs: best practice: Make *Why* or *Because* cards
