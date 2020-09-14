@@ -1678,6 +1678,8 @@ math: Formula of the Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]> o
 
 * Openstax - Elementary Algebra 2e
 :LOGBOOK:
+CLOCK: [2020-09-14 Mon 15:40]--[2020-09-14 Mon 17:40] =>  2:00
+CLOCK: [2020-09-14 Mon 09:12]--[2020-09-14 Mon 11:12] =>  2:00
 CLOCK: [2020-09-13 Sun 11:49]--[2020-09-13 Sun 14:49] =>  3:00
 CLOCK: [2020-08-20 Thu 13:33]--[2020-08-20 Thu 14:33] =>  1:00
 CLOCK: [2020-08-19 Wed 10:18]--[2020-08-19 Wed 11:18] =>  1:00
