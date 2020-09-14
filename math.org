@@ -1790,3 +1790,18 @@ SCHEDULED: <2020-09-28 Mon>
 
 math: When you divide or multiply an inequality by a positive number,
 the inequality <[stays the same]>
+
+** 4.5 Use the Slope-Intercept Form of an Equation of a Line
+*** Parallel Lines                                                  :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Parallel]> lines have <[the same slope||slope]>
+
+*** Perpendicular Lines                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
