@@ -475,18 +475,18 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 
 ** 2.5 Prime Factorization and the Least Common Multiple
 *** Least Common Multiple                                           :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-09-28 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4dff26b9-8699-4af0-8dba-8de3d1ee6eb1
-:DRILL_LAST_INTERVAL: 6.9732
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 12.9492
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-08 Tue 15:05]
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:03]
 :END:
 
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
@@ -1104,17 +1104,17 @@ SCHEDULED: <2020-09-16 Wed>
 math: <[Real Numbers Symbol]> = <[ℝ]>
 
 *** R includes Q which includes Z which includes N                  :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-11-23 Mon>
 :PROPERTIES:
 :ID:       93b24ed1-591c-4195-bb9c-7c53e7b6c4a5
-:DRILL_LAST_INTERVAL: 25.79
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 69.1688
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-20 Thu 07:34]
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
 :END:
 
 math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> which include
@@ -1209,18 +1209,18 @@ SCHEDULED: <2020-11-14 Sat>
 math: Two angles are <[Complementary]> if <[their sum makes 90°]>
 
 *** Similar Figures                                                 :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       591775ff-0050-4491-8027-2dd6c0fd3bf6
-:DRILL_LAST_INTERVAL: 20.1676
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 43.3603
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-26 Wed 11:55]
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:06]
 :END:
 
 math: Two figures are <[Similar]> if <[they have the same shape]>
@@ -1261,17 +1261,17 @@ math: Two figures are <[Congruent]> if <[they have the same shape and size]>
 
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
 *** Triangle Area                                                   :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-11-13 Fri>
 :PROPERTIES:
 :ID:       08e8e4ad-460e-48bd-882e-5001bd100c25
-:DRILL_LAST_INTERVAL: 24.1809
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 58.8563
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:43]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:07]
 :END:
 
 math: Triangle Area = <[1/2 * (base * height)]>
@@ -1593,18 +1593,18 @@ math: <[(a / b)^m]> = <[a^m / b^m]>
 
 ** 10.5 Integer Exponents and Scientific Notation
 *** Negative Exponent                                               :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-11-13 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f7939d9c-0bda-4c80-9f53-7567a9dacd6f
-:DRILL_LAST_INTERVAL: 24.21
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 58.6124
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:44]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
 :END:
 
 math: <[a^-n]> = <[1 / a^n]>
@@ -1795,15 +1795,35 @@ the inequality <[stays the same]>
 
 ** 4.5 Use the Slope-Intercept Form of an Equation of a Line
 *** Parallel Lines                                                  :drill:
+SCHEDULED: <2020-09-19 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       bd39a336-9408-4ce1-bd1b-c960726e62b4
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
 :END:
 
 math: <[Parallel]> lines have <[the same slope||slope]>
 
 *** Perpendicular Lines                                             :drill:
+SCHEDULED: <2020-09-19 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       48d348fd-f594-491a-b80c-c09fb0d1bbe3
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:06]
 :END:
 
 math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>

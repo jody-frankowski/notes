@@ -979,18 +979,18 @@ c: <[float||float OR double OR long double]> usually represents the
 <[IEEE 754 binary32]> type
 
 ****** double                                                    :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2020-09-24 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       52e84460-d67c-40cc-9d24-731afb7aac28
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 9.3751
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-11 Fri 13:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
 :END:
 
 c: <[double||float OR double OR long double]> usually represents the
@@ -6451,18 +6451,18 @@ SCHEDULED: <2022-07-16 Sat>
 sh: [[ is understood by <[Bash]> <[Ksh]> <[Zsh]>
 
 ****** Drill                                                     :drill:
-SCHEDULED: <2020-09-15 Tue>
+SCHEDULED: <2022-02-04 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0532e2bf-50cc-4e63-b41f-618d0adef731
-:DRILL_LAST_INTERVAL: 239.2293
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 507.1661
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.55
+:DRILL_AVERAGE_QUALITY: 3.571
 :DRILL_EASE: 2.12
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-20 Mon 09:03]
+:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:06]
 :END:
 
 sh: [[: <[=~]> does <[regex matching]>
