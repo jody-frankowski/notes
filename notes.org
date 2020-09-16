@@ -3739,18 +3739,18 @@ SCHEDULED: <2021-03-29 Mon>
 linux: When the File Attribute <[i]> is set <[the file is immutable]>
 
 ***** S                                                           :drill:
-SCHEDULED: <2020-09-16 Wed>
+SCHEDULED: <2020-09-26 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4df41e8-c482-48a5-8357-4b49030436ca
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 9.7625
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.875
+:DRILL_AVERAGE_QUALITY: 3.889
 :DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-12 Sat 13:41]
+:DRILL_LAST_REVIEWED: [2020-09-16 Wed 11:10]
 :END:
 
 linux: When the File Attribute <[S]> is set <[the file modifications are written
