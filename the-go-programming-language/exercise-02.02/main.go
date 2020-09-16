@@ -19,9 +19,7 @@ func main() {
 			fmt.Fprintf(os.Stderr, "cf: %v\n", err)
 			os.Exit(1)
 		}
-		f := tempconv.Fahrenheit(t)
-		c := tempconv.Celsius(t)
-		fmt.Printf("%s = %s, %s = %s\n", f, tempconv.FToC(f), c, tempconv.CToF(c))
+		fmt.Printf("%s = %s, %s = %s\n", tempconv.Fahrenheit(t), tempconv.FToC(tempconv.Fahrenheit(t)), tempconv.Celsius(t), tempconv.CToF(tempconv.Celsius(t)))
 		fmt.Printf("%s = %s, %s = %s\n", Feet(t), FeetToMeters(Feet(t)), Meters(t), MetersToFeet(Meters(t)))
 		fmt.Printf("%s = %s, %s = %s\n", Grams(t), GramsToPounds(Grams(t)), Pounds(t), PoundsToGrams(Pounds(t)))
 	}
