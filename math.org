@@ -1827,3 +1827,54 @@ SCHEDULED: <2020-09-19 Sat>
 :END:
 
 math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
+
+** 4.7 Graphs of Linear Inequalities
+*** Dashed Boundary Line                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Dashed]> Boundary Line means the line <[isn't]> included in the solution
+
+*** Solid Boundary Line                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Solid]> Boundary Line means the line <[is]> included in the solution
+
+** 5.1 Solve Systems of Equations by Graphing
+*** Coincident Lines                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Coincident Lines]> are lines that <[have the same slope and y-intercept]>
+
+*** Consistent System                                              :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[A Consistent]> System of equations has <[at least one solution]>
+
+*** Inconsistent System                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[An Inconsistent]> System of equations has <[no solution]>
+
+*** Dependent Equations                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Dependent]> Equations have <[the same]> solutions
+
+*** Independent Equations                                           :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Independent]> Equations have <[different]> solutions
