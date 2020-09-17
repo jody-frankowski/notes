@@ -1456,22 +1456,6 @@ SCHEDULED: <2020-11-17 Tue>
 math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
 
 ** 10.1 Add and Subtract Polynomials
-*** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2020-10-25 Sun>
-:PROPERTIES:
-:ID:       b7977c33-4d02-489e-a698-fe6a493ad2bd
-:DRILL_LAST_INTERVAL: 43.6459
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-11 Fri 12:47]
-:END:
-
-The degree of a Polynomial Term is <[the exponent of its variable]>
-
 *** Degree of a Polynomial                                          :drill:
 SCHEDULED: <2020-10-25 Sun>
 :PROPERTIES:
@@ -1949,3 +1933,70 @@ SCHEDULED: <2020-09-21 Mon>
 :END:
 
 math: <[Independent]> Equations have <[different]> solutions
+
+** 5.2 Solving Systems of Equations by Substitution
+*** Solve a System of Equations by Substitution                     :drill:
+:PROPERTIES:
+:END:
+
+math: Solve the following system by Substitution:
+x + 2y = 4
+x + 3y = 2
+
+<[
+x = 4 - 2y (isolate x in the first equation)
+
+4 - 2y + 3y = 2 (substitute x in the second equation)
+y = -2
+
+x + 2(-2) = 4 (use y in one of the equations (here the first))
+x = 8
+
+8 + 2(-2) = 4 (check that the solution is correct in the first equation)
+4 = 4
+
+8 + 3(-2) = 2 (check that the solution is correct in the second equation)
+2 = 2
+
+Solution: (8, -2)
+]>
+
+** 5.3 Solve Systems of Equations by Elimination
+*** Based on Addition Property of Equality                          :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: Solving Systems of Equations by Elimination is based on the <[addition/substraction property
+of equality]>
+
+*** Solve a System of Equations by Elimination                                 :drill:
+:PROPERTIES:
+:END:
+
+math: Solve the following system by Elimination:
+x + 3y = 2
+x + 2y = 4
+
+<[
+x + 3y - x - 2y = 2 - 4 (substract the second equation from the first one)
+y = -2
+
+x + 2(-2) = 4 (use y in one of the equations)
+x = 8
+
+8 + 3(-2) = 2 (check that the solution is correct in the first equation)
+2 = 2
+
+8 + 2(-2) = 4 (check that the solution is correct in the second equation)
+4 = 4
+
+Solution: (8, -2)
+]>
+
+** 6.1 Add and Subtract Polynomials
+*** Degree of a Polynomial Term                                     :drill:
+:PROPERTIES:
+:END:
+
+The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
