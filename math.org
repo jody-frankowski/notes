@@ -1882,7 +1882,7 @@ SCHEDULED: <2020-09-21 Mon>
 
 math: <[Coincident Lines]> are lines that <[have the same slope and y-intercept]>
 
-*** Consistent System                                              :drill:
+*** Consistent System                                               :drill:
 SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
