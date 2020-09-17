@@ -138,18 +138,18 @@ SCHEDULED: <2020-10-23 Fri>
 math: 7/3 is read as <[Seven Thirds]>
 
 *** Improper Fraction                                               :drill:
-SCHEDULED: <2020-09-17 Thu>
+SCHEDULED: <2020-10-26 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
-:DRILL_LAST_INTERVAL: 18.376
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 38.7917
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_AVERAGE_QUALITY: 3.374
 :DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:32]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:10]
 :END:
 
 math: a/b is <[an Improper]> fraction if <[a >= b]>
@@ -1277,17 +1277,17 @@ SCHEDULED: <2020-11-13 Fri>
 math: Triangle Area = <[1/2 * (base * height)]>
 
 *** Sum of Triangle Angles                                          :drill:
-SCHEDULED: <2020-09-17 Thu>
+SCHEDULED: <2020-11-23 Mon>
 :PROPERTIES:
 :ID:       523a5c02-8681-4abd-943b-35ae2f18d718
-:DRILL_LAST_INTERVAL: 25.79
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 66.5124
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_AVERAGE_QUALITY: 4.25
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-22 Sat 12:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:11]
 :END:
 
 math: The sum of a triangle angles = <[180°]>
@@ -1831,51 +1831,121 @@ math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of
 
 ** 4.7 Graphs of Linear Inequalities
 *** Dashed Boundary Line                                            :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       ec6cc5d8-ac0c-4bd3-930c-deab8b993d47
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:09]
 :END:
 
 math: A <[Dashed]> Boundary Line means the line <[isn't]> included in the solution
 
 *** Solid Boundary Line                                             :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       5b22b38b-9ddb-4514-9e4e-1457c744bf51
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:09]
 :END:
 
 math: A <[Solid]> Boundary Line means the line <[is]> included in the solution
 
 ** 5.1 Solve Systems of Equations by Graphing
 *** Coincident Lines                                                :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:08]
 :END:
 
 math: <[Coincident Lines]> are lines that <[have the same slope and y-intercept]>
 
 *** Consistent System                                              :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       c5a0597c-d66a-44f4-b0a4-d595983411b1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:11]
 :END:
 
 math: <[A Consistent]> System of equations has <[at least one solution]>
 
 *** Inconsistent System                                             :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       d2f4d572-45a2-41af-86f3-c7248f812799
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 10:59]
 :END:
 
 math: <[An Inconsistent]> System of equations has <[no solution]>
 
 *** Dependent Equations                                             :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       9be40c51-d70c-44c6-b8b0-52002fbe0735
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:10]
 :END:
 
 math: <[Dependent]> Equations have <[the same]> solutions
 
 *** Independent Equations                                           :drill:
+SCHEDULED: <2020-09-21 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       da58f785-9495-4e7d-8a71-666d19435483
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:10]
 :END:
 
 math: <[Independent]> Equations have <[different]> solutions
