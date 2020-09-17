@@ -1488,7 +1488,7 @@ SCHEDULED: <2020-10-25 Sun>
 
 The degree of a Polynomial is the <[highest degree of all its terms]>
 
-*** Degree of a Polynomial                                          :drill:
+*** Polynomial Terms Order                                          :drill:
 SCHEDULED: <2020-11-17 Tue>
 :PROPERTIES:
 :ID:       885aa4ec-b909-46df-830c-676626705213
