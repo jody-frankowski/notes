@@ -951,18 +951,18 @@ SCHEDULED: <2020-11-05 Thu>
 math: A <[Perfect Square]> is a <[Square of an integer]>
 
 *** Radical Sign aka Root Symbol                                    :drill:
-SCHEDULED: <2020-09-19 Sat>
+SCHEDULED: <2020-10-05 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8c22f6b2-e0e6-4d75-a93d-501d24a7f201
-:DRILL_LAST_INTERVAL: 8.0668
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 16.2465
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-11 Fri 12:44]
+:DRILL_LAST_REVIEWED: [2020-09-19 Sat 11:51]
 :END:
 
 math: <[Radical Sign]> aka <[Root Symbol]>
@@ -1781,35 +1781,35 @@ the inequality <[stays the same]>
 
 ** 4.5 Use the Slope-Intercept Form of an Equation of a Line
 *** Parallel Lines                                                  :drill:
-SCHEDULED: <2020-09-19 Sat>
+SCHEDULED: <2020-09-30 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bd39a336-9408-4ce1-bd1b-c960726e62b4
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.9752
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
+:DRILL_LAST_REVIEWED: [2020-09-19 Sat 11:52]
 :END:
 
 math: <[Parallel]> lines have <[the same slope||slope]>
 
 *** Perpendicular Lines                                             :drill:
-SCHEDULED: <2020-09-19 Sat>
+SCHEDULED: <2020-09-29 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       48d348fd-f594-491a-b80c-c09fb0d1bbe3
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:06]
+:DRILL_LAST_REVIEWED: [2020-09-19 Sat 11:52]
 :END:
 
 math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
