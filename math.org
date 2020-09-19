@@ -2040,3 +2040,32 @@ SCHEDULED: <2020-09-22 Tue>
 :END:
 
 The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
+
+** 6.4 Special Products
+*** Squared Binomial                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: pattern: <[(a + b)^2]> = <[a^2 + 2ab + b^2]>
+
+*** Squared Binomial                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: pattern: <[(a - b)^2]> = <[a^2 - 2ab + b^2]>
+
+*** Conjugate Pair                                                  :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Conjugate Pair]> is <[two binomials of the form (a + b),(a - b)]>
+
+*** Multiplied Conjugate Pair                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
