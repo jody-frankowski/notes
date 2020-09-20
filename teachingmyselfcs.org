@@ -168,17 +168,17 @@ lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
 This is common to most lisp based languages
 
 ***** Elisp Named Function Definition                             :drill:
-SCHEDULED: <2020-09-20 Sun>
+SCHEDULED: <2020-09-28 Mon>
 :PROPERTIES:
 :ID:       8F8D9A03-5564-4F52-A1C1-E383CFCC965E
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 29
+:DRILL_LAST_INTERVAL: 8.087
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 30
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.517
-:DRILL_EASE: 1.9
+:DRILL_AVERAGE_QUALITY: 3.566
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-16 Wed 11:17]
+:DRILL_LAST_REVIEWED: [2020-09-20 Sun 14:20]
 :END:
 
 elisp: prototype: Define a named function:
@@ -2068,18 +2068,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2020-09-20 Sun>
+SCHEDULED: <2020-09-28 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 7.1205
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 37
+:DRILL_LAST_INTERVAL: 8.2598
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 38
 :DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.135
+:DRILL_AVERAGE_QUALITY: 3.158
 :DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:23]
+:DRILL_LAST_REVIEWED: [2020-09-20 Sun 14:19]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
