@@ -2110,3 +2110,19 @@ SCHEDULED: <2020-09-24 Thu>
 :END:
 
 math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
+
+** 6.6 Divide Polynomials
+*** Divide a Polynomial by a Binomial                               :drill:
+:PROPERTIES:
+:END:
+
+math: Divide (2x^2 + 4) by (x - 2):
+<[
+        2x + 4 + 12/(x - 2)
+       ____________________
+x - 2 | 2x^2 + 0x + 4
+      -(2x^2 - 4x)
+               4x + 4
+             -(4x - 8)
+                   12
+]>
