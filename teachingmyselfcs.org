@@ -2248,18 +2248,18 @@ Execute a macro in parallel by using the =:normal= Ex Command, like so
 macros that can execute will.
 
 *** =~=                                                             :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2022-02-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9fd4938e-85be-4ed1-9d8d-438c13da7262
-:DRILL_LAST_INTERVAL: 190.3108
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 506.2267
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-16 Mon 10:29]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:14]
 :END:
 
 vim: <[Switch case of the current character]> with <[~]>

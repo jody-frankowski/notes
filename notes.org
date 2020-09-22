@@ -4078,17 +4078,17 @@ floating point: The IEEE 754 format is composed of:
 - <[Fraction bits]>
 
 ****** Implicit Leading Bit                                      :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-09-26 Sat>
 :PROPERTIES:
 :ID:       82f3f5a3-9c25-4591-854a-8d39812117a4
-:DRILL_LAST_INTERVAL: 188.0274
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-18 Wed 13:05]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:14]
 :END:
 
 floating point: In the IEEE 754 format when the exponent is non null, the
@@ -4852,20 +4852,20 @@ With which versions of TLS does ESNI work?
 
 ** Shell
 *** Field Splitting                                                 :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2021-01-18 Mon>
 :PROPERTIES:
 :SOURCE: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_05
 :SOURCE+: http://zsh.sourceforge.net/Doc/Release/Expansion.html#Parameter-Expansion
 :SOURCE+: http://zsh.sourceforge.net/Doc/Release/Expansion.html#Command-Substitution
 :ID:       b1c22b11-b909-4eba-870c-cc212c3b3d6b
-:DRILL_LAST_INTERVAL: 77.2027
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 118.1201
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.177
-:DRILL_EASE: 1.58
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.44
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-07 Tue 10:39]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:09]
 :END:
 
 posix shell: Field splitting is done:

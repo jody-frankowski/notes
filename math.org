@@ -1242,19 +1242,19 @@ SCHEDULED: <2020-11-12 Thu>
 math: Two Similar Triangles <[have the same]> angles
 
 *** Congruent Figures                                               :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :Source: https://en.wikipedia.org/wiki/Congruence_(geometry)
 :ID:       eed9ae3e-1e6e-4c3b-8b78-188c332e5c1d
-:DRILL_LAST_INTERVAL: 21.9938
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 47.2867
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-31 Mon 07:25]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:46]
 :END:
 
 math: Two figures are <[Congruent]> if <[they have the same shape and size]>
@@ -1559,18 +1559,18 @@ SCHEDULED: <2020-11-19 Thu>
 math: <[a^m / a^n]> = <[a^(m - n)]>
 
 *** Quotient to a Power Property of Exponents                       :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-12-04 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cad50b07-67b5-4bf7-ba42-ac176949556e
-:DRILL_LAST_INTERVAL: 27.4406
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 72.992
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-26 Wed 11:56]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:14]
 :END:
 
 math: <[(a / b)^m]> = <[a^m / b^m]>
@@ -1939,17 +1939,17 @@ math: <[Independent]> Equations have <[different]> solutions
 
 ** 5.2 Solving Systems of Equations by Substitution
 *** Solve a System of Equations by Substitution                     :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-10-02 Fri>
 :PROPERTIES:
 :ID:       b4007763-7e3d-409a-8bf7-a4389296d736
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-18 Fri 12:45]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:46]
 :END:
 
 math: Solve the following system by Substitution:
@@ -1976,34 +1976,34 @@ Solution: (8, -2)
 
 ** 5.3 Solve Systems of Equations by Elimination
 *** Based on Addition Property of Equality                          :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-10-02 Fri>
 :PROPERTIES:
 :ID:       5a430aae-106b-4abc-9e98-ac8e56616303
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-18 Fri 12:36]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:41]
 :END:
 
 math: Solving Systems of Equations by Elimination is based on the <[addition/substraction property
 of equality]>
 
 *** Solve a System of Equations by Elimination                                 :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-10-02 Fri>
 :PROPERTIES:
 :ID:       751753d0-461c-4e7a-9b63-04daf0114f17
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-18 Fri 12:35]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:45]
 :END:
 
 math: Solve the following system by Elimination:
@@ -2028,17 +2028,17 @@ Solution: (8, -2)
 
 ** 6.1 Add and Subtract Polynomials
 *** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2020-09-22 Tue>
+SCHEDULED: <2020-10-02 Fri>
 :PROPERTIES:
 :ID:       72e4d321-d16e-4f14-b466-d4012ea3d99b
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-18 Fri 12:46]
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:45]
 :END:
 
 The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
@@ -2114,7 +2114,17 @@ math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
 
 ** 6.6 Divide Polynomials
 *** Divide a Polynomial by a Binomial                               :drill:
+SCHEDULED: <2020-09-26 Sat>
 :PROPERTIES:
+:ID:       6d427c9e-e19b-425b-8496-2ece850b523c
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:09]
 :END:
 
 math: Divide (2x^2 + 4) by (x - 2):
