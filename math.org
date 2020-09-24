@@ -2137,3 +2137,50 @@ x - 2 | 2x^2 + 0x + 4
              -(4x - 8)
                    12
 ]>
+
+** 6.7 Integer Exponents and Scientific Notation
+*** Negative Exponent                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[a^-n]> = <[1/a^n]>
+
+*** Negative Exponent                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[a^n]> = <[1/a^-n]>
+
+*** Quotient to a Negative Exponent Property                        :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[(a/b)^-n]> = <[(b/a)^n]>
+
+** 7.2 Factor Trinomials of the Form x2+bx+c
+*** Factor Trinomials of the Form x^2 + bx + c                      :drill:
+:PROPERTIES:
+:END:
+
+math: Factor x^2 - 11x + 24:
+<[
+x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
+b = -11 = -3 + -8
+c =  24 = -3 * -8
+So x^2 - 11x + 24 = (x - 3)(x - 8)
+]>
+
+*** Factor Trinomials of the Form x^2 + bx + c                      :drill:
+:PROPERTIES:
+:END:
+
+math: Factor x^2 + 4x - 5:
+<[
+x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
+b =  4 = 5 + -1
+c = -5 = 5 * -1
+So x^2 + 4x - 5 = (x + 5)(x - 1)
+]>
