@@ -8019,7 +8019,7 @@ A lot of large outages are caused by:
   Also a good solution is to read books. They contain thoughtful and curated
   content.
 
-*** DONE  Lots of people make the mistake of thinking there's only two vectors you can go to improve performance, high or wide.
+*** DONE Lots of people make the mistake of thinking there's only two vectors you can go to improve performance, high or wide.
 :PROPERTIES:
 :Source: https://news.ycombinator.com/item?id=8902739
 :END:
