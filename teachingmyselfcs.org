@@ -92,18 +92,18 @@ arguments]>
 
 **** 1.1.4 Compound Procedures
 ***** Function vs Procedure                                       :drill:
-SCHEDULED: <2020-09-24 Thu>
+SCHEDULED: <2022-06-09 Thu>
 :PROPERTIES:
 :SOURCE: https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87 https://en.wikipedia.org/wiki/Subroutine#Language_support_2
 :ID:       7ED81C54-AD66-4083-ACAE-37A82F6C4A23
-:DRILL_LAST_INTERVAL: 225.7627
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 623.1051
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.1
+:DRILL_AVERAGE_QUALITY: 4.091
 :DRILL_EASE: 2.76
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-11 Tue 11:14]
+:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:34]
 :END:
 
 cs: A *subroutine* that returns a value is usually called a <[Function]>
@@ -1834,18 +1834,18 @@ SCHEDULED: <2021-08-18 Wed>
 vim: <[Move a sentence backward]> with <[(]>
 
 *** =)=                                                             :drill:
-SCHEDULED: <2020-09-24 Thu>
+SCHEDULED: <2020-12-25 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ff055d09-298d-4d9f-a304-7d5bb19ad849
-:DRILL_LAST_INTERVAL: 44.3407
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 92.3173
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.455
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-11 Tue 15:14]
+:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:33]
 :END:
 
 vim: <[Move a sentence forward]> with <[)]>
@@ -2038,18 +2038,18 @@ Enable the /matchit/ plugin so that =%= can jump between more matching keywords
 (eg. HTML tags or Ruby def/end)
 
 *** =%=                                                             :drill:
-SCHEDULED: <2020-09-24 Thu>
+SCHEDULED: <2022-03-27 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       aa91ab44-ab79-4c79-b35a-b9449503ee33
-:DRILL_LAST_INTERVAL: 209.996
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 549.1395
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-27 Thu 13:54]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:32]
 :END:
 
 vim: <[Go to the *Matching* or *Surrounding* Brace||X or Y]> with <[=%=]>
