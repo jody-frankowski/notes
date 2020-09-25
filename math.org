@@ -1869,7 +1869,7 @@ SCHEDULED: <2020-10-01 Thu>
 :DRILL_LAST_REVIEWED: [2020-09-21 Mon 14:48]
 :END:
 
-math: <[Coincident Lines]> are lines that <[have the same slope and y-intercept]>
+math: <[Coincident Lines]> have <[the same slope and y-intercept]>
 
 *** Consistent System                                               :drill:
 SCHEDULED: <2020-10-01 Thu>
@@ -1920,7 +1920,7 @@ SCHEDULED: <2020-10-01 Thu>
 :DRILL_LAST_REVIEWED: [2020-09-21 Mon 14:38]
 :END:
 
-math: <[Dependent]> Equations have <[the same]> solutions
+math: <[Dependent]> Equations have <[the same solutions]>
 
 *** Independent Equations                                           :drill:
 SCHEDULED: <2020-10-01 Thu>
@@ -1937,7 +1937,7 @@ SCHEDULED: <2020-10-01 Thu>
 :DRILL_LAST_REVIEWED: [2020-09-21 Mon 14:39]
 :END:
 
-math: <[Independent]> Equations have <[different]> solutions
+math: <[Independent]> Equations have <[different solutions]>
 
 ** 5.2 Solving Systems of Equations by Substitution
 *** Solve a System of Equations by Substitution                     :drill:
