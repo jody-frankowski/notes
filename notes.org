@@ -8671,7 +8671,7 @@ A chunk is a compact package of information. It helps memorizing new
 concepts as it has context. Without context memorizing information would
 be much harder. When focusing on something you also make connections
 from the "four working chunks" to other parts of your brain. Stress
-hinders that process Chunks are pieces of information bound together
+hinders that process. Chunks are pieces of information bound together
 through meaning or use. A chunk is a network of neurons that are used to
 fire together. Expertise comes by creating little by little more chunks.
 
