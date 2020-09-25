@@ -1784,7 +1784,17 @@ math: When you divide or multiply an inequality by a positive number,
 the inequality <[stays the same]>
 
 *** Solve an Inequality                                             :drill:
+SCHEDULED: <2020-09-29 Tue>
 :PROPERTIES:
+:ID:       4af2c8e8-78f0-4f5b-85ea-2c325af6c5d6
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-25 Fri 15:35]
 :END:
 
 math: Solve -10x >= 50:
@@ -1796,13 +1806,22 @@ Solution: (∞, -5]
 
 ** 3.6 Solve Applications with Linear Inequalities
 *** Linear Inequality Application                                   :drill:
+SCHEDULED: <2020-09-29 Tue>
 :PROPERTIES:
+:ID:       46fec2dc-0ee7-4545-b174-e3d1f0301f09
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-09-25 Fri 15:35]
 :END:
 
 math: Translate the following to an Inequality:
-Sergio and Lizeth have a very tight vacation budget. They plan to rent a car from a company that
-charges $75 a week plus $0.25 a mile. How many miles can they travel and still keep within their
-$200 budget?
+Bob plans to rent a car from a company that charges $75 a week plus $0.25 a mile. How many miles can
+he travel and still keep within his $200 budget?
 <[
 75 + 0.25m <= 200
 ]>
@@ -2183,9 +2202,18 @@ SCHEDULED: <2020-09-28 Mon>
 math: <[a^-n]> = <[1/a^n]>
 
 *** Negative Exponent                                               :drill:
+SCHEDULED: <2020-09-29 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4d4ccc7c-acdd-425f-bd34-1ddb5ed11b33
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-25 Fri 15:36]
 :END:
 
 math: <[a^n]> = <[1/a^-n]>
@@ -2253,8 +2281,18 @@ So x^2 + 4x - 5 = (x + 5)(x - 1)
 ]>
 
 *** Prime Polynomial                                                :drill:
+SCHEDULED: <2020-09-29 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       3a59e965-e778-4dd2-bca0-7782b9c3cb0c
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-25 Fri 15:36]
 :END:
 
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
