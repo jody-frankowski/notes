@@ -1783,6 +1783,30 @@ SCHEDULED: <2020-09-28 Mon>
 math: When you divide or multiply an inequality by a positive number,
 the inequality <[stays the same]>
 
+*** Solve an Inequality                                             :drill:
+:PROPERTIES:
+:END:
+
+math: Solve -10x >= 50:
+<[
+-10x >= 50
+x =< -5
+Solution: (∞, -5]
+]>
+
+** 3.6 Solve Applications with Linear Inequalities
+*** Linear Inequality Application                                   :drill:
+:PROPERTIES:
+:END:
+
+math: Translate the following to an Inequality:
+Sergio and Lizeth have a very tight vacation budget. They plan to rent a car from a company that
+charges $75 a week plus $0.25 a mile. How many miles can they travel and still keep within their
+$200 budget?
+<[
+75 + 0.25m <= 200
+]>
+
 ** 4.5 Use the Slope-Intercept Form of an Equation of a Line
 *** Parallel Lines                                                  :drill:
 SCHEDULED: <2020-09-30 Wed>
@@ -2227,3 +2251,10 @@ b =  4 = 5 + -1
 c = -5 = 5 * -1
 So x^2 + 4x - 5 = (x + 5)(x - 1)
 ]>
+
+*** Prime Polynomial                                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
