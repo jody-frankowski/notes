@@ -3739,18 +3739,18 @@ SCHEDULED: <2021-03-29 Mon>
 linux: When the File Attribute <[i]> is set <[the file is immutable]>
 
 ***** S                                                           :drill:
-SCHEDULED: <2020-09-26 Sat>
+SCHEDULED: <2020-10-21 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4df41e8-c482-48a5-8357-4b49030436ca
-:DRILL_LAST_INTERVAL: 9.7625
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 24.6015
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.889
+:DRILL_AVERAGE_QUALITY: 3.9
 :DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-16 Wed 11:10]
+:DRILL_LAST_REVIEWED: [2020-09-26 Sat 12:19]
 :END:
 
 linux: When the File Attribute <[S]> is set <[the file modifications are written
@@ -4078,17 +4078,17 @@ floating point: The IEEE 754 format is composed of:
 - <[Fraction bits]>
 
 ****** Implicit Leading Bit                                      :drill:
-SCHEDULED: <2020-09-26 Sat>
+SCHEDULED: <2020-10-05 Mon>
 :PROPERTIES:
 :ID:       82f3f5a3-9c25-4591-854a-8d39812117a4
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 9.3751
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:14]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-09-26 Sat 12:16]
 :END:
 
 floating point: In the IEEE 754 format when the exponent is non null, the
@@ -4222,24 +4222,24 @@ SCHEDULED: <2021-06-19 Sat>
 floating point: A <[Subnormal]> Number is <[a floating point number that can
 only be expressed with leading zeros in its fraction part]>
 
-***** Gradual Underflow                                           :drill:
-SCHEDULED: <2020-09-26 Sat>
-:PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:SOURCE: https://en.wikipedia.org/wiki/Denormal_number
-:ID:       4f99ee32-5473-4346-9377-30bc47028320
-:DRILL_LAST_INTERVAL: 194.1587
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-16 Mon 10:27]
-:END:
+# ***** Gradual Underflow                                           :drill:
+# SCHEDULED: <2020-09-26 Sat>
+# :PROPERTIES:
+# :DRILL_CARD_TYPE: show1cloze
+# :SOURCE: https://en.wikipedia.org/wiki/Denormal_number
+# :ID:       4f99ee32-5473-4346-9377-30bc47028320
+# :DRILL_LAST_INTERVAL: 194.1587
+# :DRILL_REPEATS_SINCE_FAIL: 6
+# :DRILL_TOTAL_REPEATS: 5
+# :DRILL_FAILURE_COUNT: 0
+# :DRILL_AVERAGE_QUALITY: 4.4
+# :DRILL_EASE: 2.7
+# :DRILL_LAST_QUALITY: 4
+# :DRILL_LAST_REVIEWED: [2020-03-16 Mon 10:27]
+# :END:
 
-floating point: Subnormal numbers are said to allow a <[Gradual Underflow]>
-because <[they gradually lose precision the smaller they get]>
+# floating point: Subnormal numbers are said to allow a <[Gradual Underflow]>
+# because <[they gradually lose precision the smaller they get]>
 
 **** ULP
 ***** Acronym                                                     :drill:
