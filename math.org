@@ -2235,6 +2235,29 @@ SCHEDULED: <2020-09-28 Mon>
 
 math: <[(a/b)^-n]> = <[(b/a)^n]>
 
+** 7.1 Greatest Common Factor and Factor by Grouping
+*** Factor out the GCF                                              :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 4y^2 + 24y + 28
+<[
+Factor out the GCF:
+4y^2 + 24y + 28 = 4(y^2 + 6y + 7)
+]>
+
+*** Factor by Grouping                                              :drill:
+:PROPERTIES:
+:END:
+
+math: Factor xy + 3y + 2x + 6
+<[
+Factor by grouping:
+xy + 3y + 2x + 6 = y(x + 3) + 2(x + 3)
+                 = (y + 2)(x + 3)
+]>
+
+
 ** 7.2 Factor Trinomials of the Form x2+bx+c
 *** Factor Trinomials of the Form x^2 + bx + c                      :drill:
 SCHEDULED: <2020-09-28 Mon>
@@ -2296,3 +2319,43 @@ SCHEDULED: <2020-09-29 Tue>
 :END:
 
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
+
+*** Factor Prime Trinomial                                          :drill:
+:PROPERTIES:
+:END:
+
+math: Factor y^2 − 6y + 15
+<[
+y^2 − 6y + 15 is a prime trinomial
+]>
+
+*** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
+:PROPERTIES:
+:END:
+
+math: Factor x^2 + 12xy + 36y^2
+<[
+x^2 + 12xy + 36y^2 = (x + m)(x + n) with b = m + n and c = m * n
+b = 12y   = 6y + 6y
+c = 36y^2 = 6y * 6y
+So x^2 + 12xy + 36y^2 = (x + 6y)(x + 6y)
+]>
+
+** 7.3 Factor Trinomials of the Form ax2+bx+c
+*** Factor Using the AC Method                                      :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 6x^2 + 7x + 2
+<[
+Factor with the ac method:
+ac = 12
+b = 7
+Possible factors of 12 are:
+12 * 1 > 12 + 1 = 13
+6 * 2  > 6 + 2  = 8
+4 * 3  > 4 + 3  = 7 = b
+So 6x^2 + 7x + 2 = 6x^2 + 4x + 3x + 2
+Factor by grouping:
+6x^2 + 4x + 3x + 2 = 3x(2x + 1) + 2(2x + 1) = (3x + 2)(2x + 1)
+]>
