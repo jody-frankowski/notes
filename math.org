@@ -2274,7 +2274,7 @@ SCHEDULED: <2020-09-28 Mon>
 :DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:31]
 :END:
 
-math: Factor x^2 - 11x + 24:
+math: Factor x^2 - 11x + 24
 <[
 x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
 b = -11 = -3 + -8
@@ -2296,7 +2296,7 @@ SCHEDULED: <2020-09-28 Mon>
 :DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:33]
 :END:
 
-math: Factor x^2 + 4x - 5:
+math: Factor x^2 + 4x - 5
 <[
 x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
 b =  4 = 5 + -1
