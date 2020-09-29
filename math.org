@@ -2410,3 +2410,18 @@ So 6x^2 + 7x + 2 = 6x^2 + 4x + 3x + 2
 Factor by grouping:
 6x^2 + 4x + 3x + 2 = 3x(2x + 1) + 2(2x + 1) = (3x + 2)(2x + 1)
 ]>
+
+** 7.4 Factor Special Products
+*** Sum of Cubes Pattern                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: pattern: <[a^3 + b^3]> = <[(a + b)(a^2 - ab + b^2)]>
+
+*** Difference of Cubes Pattern                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
