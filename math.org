@@ -2447,3 +2447,75 @@ SCHEDULED: <2020-10-03 Sat>
 :END:
 
 math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
+
+*** Factor a^2 + 2ab + b^2                                          :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 4n^2 + 12n + 9
+<[
+4n^2 + 12n + 9 is of the form a^2 + 2ab + b^2 = (a + b)^2
+4n^2 + 12n + 9 = (2n + 3)^2
+]>
+
+*** Factor a^2 - 2ab + b^2                                          :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 100x^2 − 20x + 1
+<[
+100x^2 − 20x + 1 is of the form a^2 - 2ab + b^2 = (a - b)^2
+100x^2 − 20x + 1 = (10x - 1)^2
+]>
+
+*** Factor a^2 - b^2                                                :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 27q^2 - 3
+<[
+27q^2 - 3 = 3(9q^2 - 1)
+9q^2 - 1 is of the form a^2 - b^2 = (a + b)(a - b)
+3(9q^2 - 1) = 3(3q + 1)(3q - 1)
+]>
+
+*** Factor a^3 + b^3                                                :drill:
+:PROPERTIES:
+:END:
+
+math: Factor x^3 + 64
+<[
+x^3 + 64 is of the form a^3 + b^3 = (a + b)(a^2 - ab + b^2)
+x^3 + 64 = (x + 4)(x^2 + 4x + 16)
+]>
+
+*** Factor a^3 - b^3                                                :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 27 - 125p^3
+<[
+27 - 125p^3 is of the form a^3 - b^3 = (a - b)(a^2 + ab + b^2)
+27 - 125p^3 = (3 - 5p)(9 + 15p + 25p^2)
+]>
+
+*** Factor a^4 - b^4                                                :drill:
+:PROPERTIES:
+:END:
+
+math: Factor m^4 - n^4
+<[
+m^4 - n^4 is of the form a^2 - b^2 = (a + b)(a - b)
+m^4 - n^4 = (m^2 + n^2)(m^2 - n^2)
+m^2 - n^2 is of the form a^2 - b^2 = (a + b)(a - b)
+(m^2 + n^2)(m^2 - n^2) = (m^2 + n^2)(m + n)(m - n)
+]>
+
+*** Factor an Irreducible Polynomial                                :drill:
+:PROPERTIES:
+:END:
+
+math: Factor 9x^2 + 4
+<[
+9x^2 + 4 is irreducible over the integers
+]>
