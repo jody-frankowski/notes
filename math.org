@@ -2400,6 +2400,7 @@ SCHEDULED: <2020-10-02 Fri>
 math: Factor 6x^2 + 7x + 2
 <[
 Factor with the ac method:
+6x^2 + 7x + 2 = ax^2 + mx + nx + c with b = m + n and  a * c = m * n
 ac = 12
 b = 7
 Possible factors of 12 are:
