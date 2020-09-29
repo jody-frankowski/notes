@@ -2358,7 +2358,7 @@ SCHEDULED: <2020-10-02 Fri>
 
 math: Factor y^2 − 6y + 15
 <[
-y^2 − 6y + 15 is a prime trinomial
+y^2 − 6y + 15 is irreducible over the integers
 ]>
 
 *** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
