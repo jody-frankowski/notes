@@ -2342,6 +2342,13 @@ SCHEDULED: <2020-10-08 Thu>
 
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
 
+*** Prime Polynomial aka Irreducible Polynomial                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
+
 *** Factor Prime Trinomial                                          :drill:
 SCHEDULED: <2020-10-02 Fri>
 :PROPERTIES:
