@@ -286,17 +286,17 @@ SCHEDULED: <2021-10-13 Wed>
 lisp: Lisp uses the <[Applicative Order]> Evalution Strategy
 
 ***** Why Lisp Uses Applicative Order                             :drill:
-SCHEDULED: <2020-09-30 Wed>
+SCHEDULED: <2022-05-26 Thu>
 :PROPERTIES:
 :ID:       F9200285-F9BE-4E14-9D8D-6047899533F7
-:DRILL_LAST_INTERVAL: 263.1564
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 602.6282
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-11 Sat 11:29]
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-09-30 Wed 13:43]
 :END:
 
 lisp: Why does *Lisp* use the *Applicative Order* Evalution Strategy?
@@ -1320,18 +1320,18 @@ Enter *Insert Normal Mode* with =<C-o>= which is a mode that accepts a Normal
 Mode command and immediately returns to Insert Mode.
 
 *** zz                                                              :drill:
-SCHEDULED: <2020-09-30 Wed>
+SCHEDULED: <2020-11-26 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       52dcc269-bec8-467a-9ce1-c78af7dbb176
-:DRILL_LAST_INTERVAL: 30.7255
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 56.5349
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.467
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-30 Sun 11:32]
+:DRILL_AVERAGE_QUALITY: 3.438
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-09-30 Wed 13:51]
 :END:
 
 vim: <[*Center* the current line]> with <[zz]>
