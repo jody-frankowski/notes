@@ -2526,3 +2526,26 @@ math: Factor 9x^2 + 4
 <[
 9x^2 + 4 is irreducible over the integers
 ]>
+
+** 7.5 General Strategy for Factoring Polynomials
+*** General Strategy for Factoring Polynomials                      :drill:
+:PROPERTIES:
+:END:
+
+math: General Strategy for Factoring Polynomials
+<[
+- Factor out the GCF if there is one
+- For binomials:
+  - If of the form a^2 + b^2: Do nothing
+  - If of the form a^2 - b^2: (a + b)(a - b)
+  - If of the form a^3 + b^3: (a + b)(a^2 - ab + b^2)
+  - If of the form a^3 - b^3: (a - b)(a^2 + ab + b^2)
+- For trinomials:
+  - If of the form x^2 + bx + c: (x + m)(x + n) where b = m + n and c = m * n
+  - If of the form ax^2 + bx + c:
+    - If a and c are perfect squares:
+      - a^2 + 2ab + b^2 = (a + b)^2
+      - a^2 - 2ab + b^2 = (a - b)^2
+    - Use the trial and error or the ac method
+- If it has more than 3 terms: Use grouping
+]>
