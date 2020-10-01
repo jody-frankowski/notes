@@ -2640,3 +2640,21 @@ math: General Strategy for Factoring Polynomials
     - Use the trial and error or the ac method
 - If it has more than 3 terms: Use grouping
 ]>
+
+** 7.6 Quadratic Equations
+*** Quadratic Equation                                              :drill:
+SCHEDULED: <2020-10-05 Mon>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       10aff243-042d-4563-ae20-b6badb2b03d0
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:08]
+:END:
+
+math: An equation of the form <[ax^2 + bx + c]> is <[a Quadratic Equation]>
