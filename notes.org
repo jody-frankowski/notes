@@ -4096,17 +4096,17 @@ fraction is said to have <[an implicit leading bit set to 1]>
 
 ***** Values
 ****** Special Values                                            :drill:
-SCHEDULED: <2020-10-01 Thu>
+SCHEDULED: <2020-10-10 Sat>
 :PROPERTIES:
 :ID:       44695f7f-8009-4242-b515-b6aea590c4b5
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 9.3751
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.555
+:DRILL_AVERAGE_QUALITY: 3.578
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-27 Sun 13:09]
+:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:07]
 :END:
 
 floating point: The value 0 is expressed with:
