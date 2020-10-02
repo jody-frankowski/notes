@@ -4259,19 +4259,19 @@ SCHEDULED: <2021-05-25 Tue>
 floating point: ULP aka <[Unit in the Last Place]>
 
 ***** What                                                        :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-08 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://en.wikipedia.org/wiki/Unit_in_the_last_place
 :ID:       4d359fed-433e-40c8-90f3-6946e7c5b240
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 5.7025
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.063
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.059
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 11:05]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:53]
 :END:
 
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>

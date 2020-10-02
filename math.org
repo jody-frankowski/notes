@@ -1988,17 +1988,17 @@ math: <[Independent]> Equations have <[different solutions]>
 
 ** 5.2 Solving Systems of Equations by Substitution
 *** Solve a System of Equations by Substitution                     :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :ID:       b4007763-7e3d-409a-8bf7-a4389296d736
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.79
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:46]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:23]
 :END:
 
 math: Solve the following system by Substitution:
@@ -2025,34 +2025,34 @@ Solution: (8, -2)
 
 ** 5.3 Solve Systems of Equations by Elimination
 *** Based on Addition Property of Equality                          :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-26 Mon>
 :PROPERTIES:
 :ID:       5a430aae-106b-4abc-9e98-ac8e56616303
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.21
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:41]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:27]
 :END:
 
 math: Solving Systems of Equations by Elimination is based on the <[addition/substraction property
 of equality]>
 
 *** Solve a System of Equations by Elimination                                 :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-27 Tue>
 :PROPERTIES:
 :ID:       751753d0-461c-4e7a-9b63-04daf0114f17
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:45]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:23]
 :END:
 
 math: Solve the following system by Elimination:
@@ -2077,17 +2077,17 @@ Solution: (8, -2)
 
 ** 6.1 Add and Subtract Polynomials
 *** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-06 Tue>
 :PROPERTIES:
 :ID:       72e4d321-d16e-4f14-b466-d4012ea3d99b
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 09:45]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:52]
 :END:
 
 The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
@@ -2241,17 +2241,17 @@ math: <[(a/b)^-n]> = <[(b/a)^n]>
 
 ** 7.1 Greatest Common Factor and Factor by Grouping
 *** Factor out the GCF                                              :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-12 Mon>
 :PROPERTIES:
 :ID:       42351cda-0582-40cc-a774-5c2667c862a1
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 11:04]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:20]
 :END:
 
 math: Factor 4y^2 + 24y + 28
@@ -2261,17 +2261,17 @@ Factor out the GCF:
 ]>
 
 *** Factor by Grouping                                              :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-13 Tue>
 :PROPERTIES:
 :ID:       3da868d8-1424-4c5a-9791-539750e04cac
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.9752
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 10:59]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:29]
 :END:
 
 math: Factor xy + 3y + 2x + 6
@@ -2362,17 +2362,17 @@ SCHEDULED: <2020-10-04 Sun>
 math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
 
 *** Factor Prime Trinomial                                          :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-11 Sun>
 :PROPERTIES:
 :ID:       ea6f6f3c-02e9-4f95-869e-f9c22ec8c1b6
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 10:50]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:30]
 :END:
 
 math: Factor y^2 − 6y + 15
@@ -2381,40 +2381,40 @@ y^2 − 6y + 15 is irreducible over the integers
 ]>
 
 *** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-13 Tue>
 :PROPERTIES:
 :ID:       67d66aa0-4604-47eb-8adf-92084e181526
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.641
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 10:43]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:52]
 :END:
 
-math: Factor x^2 + 12xy + 36y^2
+math: Factor x^2 - 8xy + 15y^2
 <[
-x^2 + 12xy + 36y^2 = (x + m)(x + n) with b = m + n and c = m * n
-b = 12y   = 6y + 6y
-c = 36y^2 = 6y * 6y
-So x^2 + 12xy + 36y^2 = (x + 6y)(x + 6y)
+x^2 - 8xy + 15y^2 = (x + m)(x + n) with b = m + n and c = m * n
+b = 8y    = -5y - 3y
+c = 15y^2 = -5y * -3y
+So x^2 - 8xy + 15y^2 = (x - 5y)(x - 3y)
 ]>
 
 ** 7.3 Factor Trinomials of the Form ax2+bx+c
 *** Factor Using the AC Method                                      :drill:
-SCHEDULED: <2020-10-02 Fri>
+SCHEDULED: <2020-10-12 Mon>
 :PROPERTIES:
 :ID:       51488fe5-5c79-40ce-a84c-2ec8c7022425
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 11:05]
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:15]
 :END:
 
 math: Factor 6x^2 + 7x + 2
@@ -2659,3 +2659,54 @@ SCHEDULED: <2020-10-05 Mon>
 :END:
 
 math: An equation of the form <[ax^2 + bx + c]> is <[a Quadratic Equation]>
+
+** 8.1 Simplify Rational Expressions
+*** Rational Expression                                             :drill:
+SCHEDULED: <2020-10-06 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:55]
+:END:
+
+math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
+
+*** Rational Fraction                                               :drill:
+SCHEDULED: <2020-10-06 Tue>
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:ID:       218cb650-a999-4ddd-8455-973fa37fe139
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:55]
+:END:
+
+math: <[Rational Expression]> aka <[Rational Fraction]>
+
+*** Opposites in a Rational Expression                              :drill:
+SCHEDULED: <2020-10-06 Tue>
+:PROPERTIES:
+:ID:       07336528-4174-4086-aeb1-7bab315db73a
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:53]
+:END:
+
+math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
