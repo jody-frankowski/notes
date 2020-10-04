@@ -2,19 +2,21 @@
 :PROPERTIES:
 :SOURCE: https://melpa.org/#/sicp https://github.com/sarabander/sicp-pdf https://github.com/sarabander/sicp
 :END:
+:LOGBOOK:
+CLOCK: [2019-10-06 Sun 15:10]--[2019-10-06 Sun 17:10] =>  2:00
+CLOCK: [2019-10-01 Tue 17:57]--[2019-10-01 Tue 20:57] =>  3:00
+CLOCK: [2019-09-22 Sun 19:50]--[2019-09-22 Mon 20:50] =>  1:00
+CLOCK: [2019-09-22 Sun 18:30]--[2019-09-22 Sun 19:30] =>  1:00
+CLOCK: [2019-09-16 Mon 18:14]--[2019-09-16 Mon 20:14] =>  2:00
+CLOCK: [2019-09-13 Fri 15:03]--[2019-09-13 Fri 16:03] =>  1:00
+CLOCK: [2019-09-12 Thu 16:20]--[2019-09-12 Thu 18:20] =>  2:00
+CLOCK: [2019-09-10 Tue 14:50]--[2019-09-10 Tue 16:50] =>  2:00
+:END:
 
 [[./sicp-cover.jpg]]
 
 ** 1 Building Abstractions with Procedures
 *** 1.1 The Elements of Programming
-:LOGBOOK:
-CLOCK: [2019-09-22 Sun 18:30]--[2019-09-22 Sun 19:46] =>  1:16
-CLOCK: [2019-09-16 Mon 18:14]--[2019-09-16 Mon 20:21] =>  2:07
-CLOCK: [2019-09-13 Fri 15:03]--[2019-09-13 Fri 16:06] =>  1:03
-CLOCK: [2019-09-12 Thu 16:20]--[2019-09-12 Thu 18:49] =>  2:29
-CLOCK: [2019-09-10 Tue 14:50]--[2019-09-10 Tue 16:20] =>  1:30
-:END:
-
 **** 1.1.1 Expressions
 **** 1.1.2 Naming and the Environment
 ***** Read-Eval-Print Loop                                        :drill:
@@ -761,12 +763,6 @@ these square-root and cube-root procedures.)
 **** 1.1.8 Procedures as Black-Box Abstractions
 
 *** 1.2 Procedures and the Processes They Generate
-:LOGBOOK:
-CLOCK: [2019-10-06 Sun 15:10]--[2019-10-06 Sun 16:31] => 1:21
-CLOCK: [2019-10-01 Tue 17:57]--[2019-10-01 Tue 20:51] => 2:54
-CLOCK: [2019-09-22 Sun 19:50]--[2019-09-22 Mon 21:10] => 1:20
-:END:
-
 **** 1.2.1 Linear Recursion and Iteration
 ***** Procedure != Process                                        :drill:
 SCHEDULED: <2021-12-09 Thu>
