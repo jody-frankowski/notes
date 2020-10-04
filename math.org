@@ -2282,7 +2282,6 @@ xy + 3y + 2x + 6 = y(x + 3) + 2(x + 3)
                  = (y + 2)(x + 3)
 ]>
 
-
 ** 7.2 Factor Trinomials of the Form x2+bx+c
 *** Factor Trinomials of the Form x^2 + bx + c                      :drill:
 SCHEDULED: <2020-10-08 Thu>
