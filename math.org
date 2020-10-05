@@ -2719,3 +2719,11 @@ SCHEDULED: <2020-10-06 Tue>
 :END:
 
 math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
+
+** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
+*** Find the Least Common Multiple of Polynomials                   :drill:
+:PROPERTIES:
+:END:
+
+math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
+the highest power of their factors]>
