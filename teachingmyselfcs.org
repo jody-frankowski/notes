@@ -1498,18 +1498,18 @@ Complete Ex commands with =TAB= or =<C-d>=.
 
 ** Tip 33: Insert the Current Word at the Command Prompt
 *** Insert the Current Word at the Command Prompt with =<C-r><C-w>=    :drill:
-SCHEDULED: <2020-10-06 Tue>
+SCHEDULED: <2021-03-12 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0e56efe4-aca9-4732-9aaa-ade5f96a2e66
-:DRILL_LAST_INTERVAL: 80.7529
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 156.4184
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.471
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-17 Fri 07:19]
+:DRILL_AVERAGE_QUALITY: 3.445
+:DRILL_EASE: 1.86
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-07 Wed 13:55]
 :END:
 
 vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
@@ -3090,17 +3090,17 @@ SCHEDULED: <2021-03-19 Fri>
 go: function: <[append(ARRAY, ELEMENT)]> = returns a new slice with an element appended
 
 *** =range= Clause                                                  :drill:
-SCHEDULED: <2020-10-06 Tue>
+SCHEDULED: <2021-09-21 Tue>
 :PROPERTIES:
 :ID:       28b63118-f1c2-41c6-b204-3388d38498d7
-:DRILL_LAST_INTERVAL: 150.5517
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 349.2799
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.701
+:DRILL_AVERAGE_QUALITY: 3.728
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-08 Fri 12:01]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-07 Wed 13:58]
 :END:
 
 go: Use the =range= clause like so <[for key, value := range ARRAY]>
