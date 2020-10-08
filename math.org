@@ -2748,3 +2748,15 @@ SCHEDULED: <2020-10-11 Sun>
 
 math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
 the highest power of their factors]>
+
+*** Add and Subtract Rational Expressions with Unlike Denominators  :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: Add rational expressions with unlike denominators by:
+<[
+- Finding the Least Common Denominator
+- Multiplying the numerators by the factors their denominators were missing
+- Adding the rational expressions now that they have the same denominators
+]>
