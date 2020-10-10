@@ -2183,18 +2183,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2020-10-10 Sat>
+SCHEDULED: <2020-10-25 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 11.5224
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 39
+:DRILL_LAST_INTERVAL: 14.5067
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 40
 :DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.18
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 10:38]
+:DRILL_AVERAGE_QUALITY: 3.176
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-10 Sat 14:08]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
@@ -2635,22 +2635,22 @@ Confirm before doing substitutions with the =c= flag like so
 Insert the last search pattern in the Command Prompt with =<C-r>/=.
 
 *** Reuse the Last Search Pattern in a Substitute Command           :drill:
-SCHEDULED: <2020-10-10 Sat>
+SCHEDULED: <2022-03-06 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e9d29d2b-fef0-46d3-9305-3ea3defa17f0
-:DRILL_LAST_INTERVAL: 195.7643
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 511.9236
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-28 Sat 13:42]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-10 Sat 14:08]
 :END:
 
 vim: In a Substitute Command <[reuse the last search pattern]> by
-<[leaving the pattern field blank]>
+<[leaving the pattern field empty]>
 
 ** Tip 92: Replace with the Contents of a Register
 
