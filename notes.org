@@ -1607,17 +1607,17 @@ c: An object with <[external or internal]> linkage has <[static]> storage
 duration
 
 **** Extern Storage-class Specifier                                :drill:
-SCHEDULED: <2020-10-11 Sun>
+SCHEDULED: <2022-09-17 Sat>
 :PROPERTIES:
 :ID:       6f0a606a-f926-45f7-9be0-94038cbb9930
-:DRILL_LAST_INTERVAL: 251.1829
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 705.5728
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-03 Mon 09:25]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-11 Sun 14:08]
 :END:
 
 c: An object declared with the *extern* storage-class specifier has <[static]>
@@ -2476,19 +2476,19 @@ In org-mode [[https://orgmode.org/manual/Structure-of-code-blocks.html][code blo
 You can find the list of supported languages [[https://orgmode.org/manual/Languages.html#Languages][here]].
 
 **** Drawers                                                       :drill:
-SCHEDULED: <2020-10-11 Sun>
+SCHEDULED: <2021-07-10 Sat>
 :PROPERTIES:
 :SOURCE: https://orgmode.org/worg/org-glossary.html#drawer
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3B3333E4-B8A8-40FD-9BF0-0386EC95F4F1
-:DRILL_LAST_INTERVAL: 93.0622
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 271.7416
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 4.066
+:DRILL_AVERAGE_QUALITY: 4.062
 :DRILL_EASE: 2.92
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:45]
+:DRILL_LAST_REVIEWED: [2020-10-11 Sun 14:08]
 :END:
 
 org: <[Drawers]> are containers that can be used to <[hide]> informations during
@@ -7249,18 +7249,18 @@ srs: best practice: Add *Sources*
 :END:
 
 **** Why Cards                                                     :drill:
-SCHEDULED: <2020-10-11 Sun>
+SCHEDULED: <2020-10-29 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8e432fe-4b6a-42e5-bd6a-c7dc2672ff3c
-:DRILL_LAST_INTERVAL: 14.3001
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 32
+:DRILL_LAST_INTERVAL: 18.0038
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 33
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.875
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.879
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-27 Sun 13:07]
+:DRILL_LAST_REVIEWED: [2020-10-11 Sun 14:09]
 :END:
 
 srs: best practice: Make *Why* or *Because* cards
