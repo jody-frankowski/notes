@@ -2795,3 +2795,56 @@ Add:
 Simplify:
 (4d - 12 + c)/c(d + 3)(d - 3)
 ]>
+
+** 8.5 Simplify Complex Rational Expressions
+*** Complex Rational Expression                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Complex Rational Expression]> is a <[rational expression in which the numerator or
+denominator contains a rational expression]>
+
+*** Simplify Complex Rational Expressions                           :drill:
+:PROPERTIES:
+:END:
+
+Simplify a complex rational expression by either:
+<[
+- Multiplying the numerator by the reciprocal of the denominator
+- Multiplying the numerator and denominator by the LCD of all the fractions
+]>
+
+*** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal :drill:
+:PROPERTIES:
+:END:
+
+math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the reciprocal
+method
+<[
+\begin{gather*}
+\text{Simplify the numerator and denominator} \\
+\frac{\frac{y + x}{xy}}
+     {\frac{x^2 - y^2}{xy}} \\
+\text{Multiply the numerator by the reciprocal of the denominator} \\
+\frac{(y + x)xy}{xy(x^2 - y^2)} \\
+\text{Simplify} \\
+\frac{1}{x - y}
+\end{gather*}
+]>
+
+*** Example of Simplifying Complex Rational Expressions by Multiplying by the LCD :drill:
+:PROPERTIES:
+:END:
+
+math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the LCD method
+<[
+\begin{gather*}
+\text{Mutiply the numerator and denominator by the LCD ($xy$):} \\
+\frac{{\color{red}xy} \cdot \frac{1}{x} + {\color{red}xy} \cdot \frac{1}{y}}
+     {{\color{red}xy} \cdot \frac{x}{y} - {\color{red}xy} \cdot \frac{y}{x}} \\
+\text{Simplify} \\
+\frac{y + x}{x^2 + y^2} \\
+\frac{1}{x - y}
+\end{gather*}
+]>
