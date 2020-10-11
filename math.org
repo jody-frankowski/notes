@@ -2776,7 +2776,7 @@ math: Add rational expressions with unlike denominators by:
 :PROPERTIES:
 :END:
 
-math: 4/(cd + 3c) + 1/(d^2 - 9)
+math: Simplify 4/(cd + 3c) + 1/(d^2 - 9)
 <[
 Factor the denominators:
 cd + 3c = c(d + 3)
