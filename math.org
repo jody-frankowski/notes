@@ -2771,3 +2771,27 @@ math: Add rational expressions with unlike denominators by:
 - Multiplying the numerators by the factors their denominators were missing
 - Adding the rational expressions now that they have the same denominators
 ]>
+
+*** Example Add and Subtract Rational Expressions with Unlike Denominators :drill:
+:PROPERTIES:
+:END:
+
+math: 4/(cd + 3c) + 1/(d^2 - 9)
+<[
+Factor the denominators:
+cd + 3c = c(d + 3)
+d^2 - 9 = (d + 3)(d - 3)
+
+Find the least common denominator:
+lcm(cd + 3c, d^2 - 9) = c(d + 3)(d - 3)
+
+Multiply the numerators and denominators by the factors the denominators were missing:
+4(d - 3)/c(d + 3)(d - 3) + c/c(d + 3)(d - 3)
+
+Add:
+4(d - 3)/c(d + 3)(d - 3) + c/c(d + 3)(d - 3)
+(4(d - 3) + c)/c(d + 3)(d - 3)
+
+Simplify:
+(4d - 12 + c)/c(d + 3)(d - 3)
+]>
