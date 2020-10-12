@@ -43,17 +43,17 @@ cs: How is called a python/lisp *interpreter input cycle*?
 A Read-Eval-Print Loop
 
 ***** Define a Variable in Elisp                                  :drill:
-SCHEDULED: <2020-10-12 Mon>
+SCHEDULED: <2023-01-22 Sun>
 :PROPERTIES:
 :ID:       88902983-949C-4B13-BA73-18FE15B5FBFE
-:DRILL_LAST_INTERVAL: 290.8213
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 831.7489
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.222
+:DRILL_AVERAGE_QUALITY: 4.2
 :DRILL_EASE: 2.86
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-26 Thu 14:16]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:58]
 :END:
 
 elisp: *Define a variable* with <[defconst]>, <[defvar]> or <[setq]>
@@ -3126,17 +3126,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2020-10-12 Mon>
+SCHEDULED: <2020-10-16 Fri>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 115.1648
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.62
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.235
+:DRILL_EASE: 1.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-19 Fri 09:19]
+:DRILL_LAST_REVIEWED: [2020-10-12 Mon 10:02]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
