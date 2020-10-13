@@ -2502,17 +2502,17 @@ vim: <[Select the current or the next/previous search match]> with
 <[gn/gN]>
 
 *** C-n and C-p                                                     :drill:
-SCHEDULED: <2020-10-13 Tue>
+SCHEDULED: <2020-12-21 Mon>
 :PROPERTIES:
 :ID:       766ce35e-5068-4a29-b31d-c10ec7fd4135
-:DRILL_LAST_INTERVAL: 26.3795
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 69.1143
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:10]
+:DRILL_LAST_REVIEWED: [2020-10-13 Tue 15:02]
 :END:
 
 vim: Scroll through the Ex commands or search history with
