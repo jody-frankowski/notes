@@ -2679,7 +2679,7 @@ SCHEDULED: <2020-10-14 Wed>
 :DRILL_LAST_REVIEWED: [2020-10-05 Mon 10:16]
 :END:
 
-math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c]>
+math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
