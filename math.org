@@ -2681,6 +2681,47 @@ SCHEDULED: <2020-10-14 Wed>
 
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
+*** Solve a Quadratic Equation                                      :drill:
+:PROPERTIES:
+:END:
+
+math: Solve a Quadratic Equation by:
+<[
+- Writing it in standard form
+- Factoring it comletely
+- Using the Zero Product property
+- Solving the linear equations
+]>
+
+*** Example of Solving a Quadratic Equation                         :drill:
+:PROPERTIES:
+:END:
+
+math: Solve 3c^2 = 10c − 8
+<[
+Write in standard form:
+3c^2 - 10c + 8 = 0
+
+Factor:
+3c^2 - 6c - 4c + 8 = 0
+3c(c - 2) - 4(c - 2) = 0
+(3c - 4)(c - 2) = 0
+
+Use the Zero Product property:
+If (3c - 4)(c - 2) = 0 then either 3c - 4 = 0 or c - 2 = 0 or both.
+
+Solve the linear equations:
+3c - 4 = 0
+3c = 4
+c = 4/3
+
+c - 2 = 0
+c = 2
+
+Solutions:
+c = 4/3 or c = 2
+]>
+
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
 SCHEDULED: <2020-10-16 Fri>
