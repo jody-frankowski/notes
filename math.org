@@ -2947,3 +2947,26 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 \frac{1}{x - y}
 \end{gather*}
 ]>
+
+** 8.6 Solve Rational Equations
+*** Extraneous Solution                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
+undefined]>
+
+** 8.7 Solve Proportion and Similar Figure Applications
+*** Proportion                                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
+
+*** Proportion Reading                                              :drill:
+:PROPERTIES:
+:END:
+
+math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
