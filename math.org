@@ -1757,6 +1757,14 @@ SCHEDULED: <2020-11-22 Sun>
 math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is
 <[a Contradiction Equation]>
 
+** 2.5 Solve Equations with Fractions or Decimals
+*** Solve Equations with Fractions                                  :drill:
+:PROPERTIES:
+:END:
+
+math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
+of all the fractions]>
+
 ** 2.7 Solve Linear Inequalities
 *** Interval Notation                                               :drill:
 SCHEDULED: <2020-11-06 Fri>
