@@ -507,23 +507,6 @@ SCHEDULED: <2020-10-25 Sun>
 
 math: least_common_multiple(4, 6) = <[12]>
 
-*** Least Common Multiple Use                                       :drill:
-SCHEDULED: <2020-10-14 Wed>
-:PROPERTIES:
-:ID:       477ceaf4-efb1-48fb-aa7e-7acd9854b154
-:DRILL_LAST_INTERVAL: 48.3604
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-27 Thu 11:51]
-:END:
-
-math: To merge the sum of two fractions with two different denominators <[find their least common
-multiple]>
-
 *** Greatest Common Divisor                                         :drill:
 SCHEDULED: <2020-10-22 Thu>
 :PROPERTIES:
@@ -575,17 +558,17 @@ math: To reduce a fraction <[divide the numerator and denominator by their great
 
 ** 4.2 Multiply and Divide Fractions
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2021-01-05 Tue>
 :PROPERTIES:
 :ID:       2f63114d-4cf1-4ff4-9a26-c04b8b201e7b
-:DRILL_LAST_INTERVAL: 39.7563
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 82.6931
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_AVERAGE_QUALITY: 3.374
 :DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-04 Fri 11:07]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:10]
 :END:
 
 math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
@@ -1376,17 +1359,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-10-20 Tue>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 6.2294
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.668
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 2.701
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-10 Sat 14:08]
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 10:59]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -1760,7 +1743,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
+:ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:49]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -2375,18 +2368,18 @@ SCHEDULED: <2020-10-28 Wed>
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
 
 *** Prime Polynomial aka Irreducible Polynomial                     :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-06 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4e6706db-3df1-4947-9091-73694ffc4636
-:DRILL_LAST_INTERVAL: 9.684
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.709
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:31]
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:00]
 :END:
 
 math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
@@ -2498,17 +2491,17 @@ SCHEDULED: <2020-10-31 Sat>
 math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
 
 *** Factor a^2 + 2ab + b^2                                          :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-07 Sat>
 :PROPERTIES:
 :ID:       7801ce7b-0016-432f-9e4b-90997d6877dd
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.21
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:32]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:08]
 :END:
 
 math: Factor 4n^2 + 12n + 9
@@ -2518,17 +2511,17 @@ math: Factor 4n^2 + 12n + 9
 ]>
 
 *** Factor a^2 - 2ab + b^2                                          :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-06 Fri>
 :PROPERTIES:
 :ID:       37349c31-2d63-4902-9b9b-183debd5c6d8
-:DRILL_LAST_INTERVAL: 9.684
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.445
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:36]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:00]
 :END:
 
 math: Factor 100x^2 − 20x + 1
@@ -2538,17 +2531,17 @@ math: Factor 100x^2 − 20x + 1
 ]>
 
 *** Factor a^2 - b^2                                                :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-09 Mon>
 :PROPERTIES:
 :ID:       b9f0e140-5325-49e7-aa9e-326f4ab762b1
-:DRILL_LAST_INTERVAL: 10.3067
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.9523
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:35]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:10]
 :END:
 
 math: Factor 27q^2 - 3
@@ -2599,17 +2592,17 @@ math: Factor 27 - 125p^3
 ]>
 
 *** Factor a^4 - b^4                                                :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-09 Mon>
 :PROPERTIES:
 :ID:       14c5e6b2-8d6e-49ef-be68-0d6516addb8f
-:DRILL_LAST_INTERVAL: 10.316
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.9757
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:27]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:47]
 :END:
 
 math: Factor m^4 - n^4
@@ -2621,17 +2614,17 @@ m^2 - n^2 is of the form a^2 - b^2 = (a + b)(a - b)
 ]>
 
 *** Factor an Irreducible Polynomial                                :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :ID:       dbfb4be2-ef4c-4ec3-a425-46cb717a69da
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:31]
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:08]
 :END:
 
 math: Factor 9x^2 + 4
@@ -2641,17 +2634,17 @@ math: Factor 9x^2 + 4
 
 ** 7.5 General Strategy for Factoring Polynomials
 *** General Strategy for Factoring Polynomials                      :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
 :ID:       07499152-8cbf-4e89-ba09-ca6c1b015b98
-:DRILL_LAST_INTERVAL: 10.3067
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-04 Sun 09:31]
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:46]
 :END:
 
 math: General Strategy for Factoring Polynomials
@@ -2674,24 +2667,34 @@ math: General Strategy for Factoring Polynomials
 
 ** 7.6 Quadratic Equations
 *** Quadratic Equation                                              :drill:
-SCHEDULED: <2020-10-14 Wed>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       10aff243-042d-4563-ae20-b6badb2b03d0
-:DRILL_LAST_INTERVAL: 9.0845
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 19.5317
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-05 Mon 10:16]
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:08]
 :END:
 
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation                                      :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
+:ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:22]
 :END:
 
 math: Solve a Quadratic Equation by:
@@ -2703,7 +2706,17 @@ math: Solve a Quadratic Equation by:
 ]>
 
 *** Example of Solving a Quadratic Equation                         :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
+:ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:55]
 :END:
 
 math: Solve 3c^2 = 10c − 8
@@ -2815,11 +2828,11 @@ SCHEDULED: <2020-10-21 Wed>
 :DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:48]
 :END:
 
-math: Add rational expressions with unlike denominators by:
+math: To add rational expressions with unlike denominators:
 <[
-- Finding the Least Common Denominator
-- Multiplying the numerators by the factors their denominators were missing
-- Adding the rational expressions now that they have the same denominators
+- Find the Least Common Denominator
+- Multiply the fractions by the factors their denominator was missing
+- Add the rational expressions now that they have the same denominators
 ]>
 
 *** Example Add and Subtract Rational Expressions with Unlike Denominators :drill:
@@ -2951,8 +2964,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -2960,14 +2983,34 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
 :END:
 
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
+SCHEDULED: <2020-10-18 Sun>
 :PROPERTIES:
+:ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
