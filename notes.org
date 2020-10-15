@@ -7383,17 +7383,17 @@ janki method: *Executing* repeatedly failed cards *In Context* is useful because
 - <[It helps remembering them more]>
 
 **** Executing Repeatedly Failed Cards in Context                  :drill:
-SCHEDULED: <2020-10-15 Thu>
+SCHEDULED: <2021-08-26 Thu>
 :PROPERTIES:
 :ID:       D3336A08-FC17-4F70-B94A-4C450990DC78
-:DRILL_LAST_INTERVAL: 214.1563
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 315.2381
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-15 Sun 15:34]
+:DRILL_LAST_REVIEWED: [2020-10-15 Thu 12:46]
 :END:
 
 srs: best practice: *Executing* repeatedly failed cards *In Context*
@@ -7447,17 +7447,17 @@ SCHEDULED: <2020-10-24 Sat>
 srs: best practice: Make *Recurring Patterns* cards
 
 **** Shallow Technology Knowledge                                  :drill:
-SCHEDULED: <2020-10-15 Thu>
+SCHEDULED: <2021-08-26 Thu>
 :PROPERTIES:
 :ID:       A321283F-AA47-4DD9-9FF8-A51F09CB78C8
-:DRILL_LAST_INTERVAL: 214.1563
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 315.2381
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-15 Sun 15:34]
+:DRILL_LAST_REVIEWED: [2020-10-15 Thu 12:47]
 :END:
 
 srs: best practice: Put on hold *Shallow Technology Knowledge* until later use
