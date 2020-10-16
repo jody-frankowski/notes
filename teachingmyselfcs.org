@@ -3128,17 +3128,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2020-10-16 Fri>
+SCHEDULED: <2020-10-20 Tue>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
 :DRILL_LAST_INTERVAL: 3.874
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.235
-:DRILL_EASE: 1.48
+:DRILL_TOTAL_REPEATS: 19
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.157
+:DRILL_EASE: 1.34
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-12 Mon 10:02]
+:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:58]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
