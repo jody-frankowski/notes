@@ -6915,18 +6915,18 @@ allows bypass of !root configuration, and USER= logging, for a "sudo -u
 # vim: <[Go to the next unmatched parenthesis]> with <[=])=]>
 
 *** Format with =gq= or =gw=                                        :drill:
-SCHEDULED: <2020-10-17 Sat>
+SCHEDULED: <2022-06-17 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2c347cd8-3c66-41b7-974e-32331677a69d
-:DRILL_LAST_INTERVAL: 228.688
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 608.3101
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-02 Mon 10:51]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-17 Sat 18:19]
 :END:
 
 vim: <[Format]> with <[gq or gw||X or Y]>
