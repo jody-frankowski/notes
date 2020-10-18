@@ -1744,17 +1744,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:49]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:37]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -2635,17 +2635,17 @@ math: Factor 9x^2 + 4
 
 ** 7.5 General Strategy for Factoring Polynomials
 *** General Strategy for Factoring Polynomials                      :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-27 Tue>
 :PROPERTIES:
 :ID:       07499152-8cbf-4e89-ba09-ca6c1b015b98
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 8.7049
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:46]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:32]
 :END:
 
 math: General Strategy for Factoring Polynomials
@@ -2660,8 +2660,8 @@ math: General Strategy for Factoring Polynomials
   - If of the form x^2 + bx + c: (x + m)(x + n) where b = m + n and c = m * n
   - If of the form ax^2 + bx + c:
     - If a and c are perfect squares:
-      - a^2 + 2ab + b^2 = (a + b)^2
-      - a^2 - 2ab + b^2 = (a - b)^2
+      - If of the form a^2 + 2ab + b^2: (a + b)^2
+      - If of the form a^2 - 2ab + b^2: (a - b)^2
     - Use the trial and error or the ac method
 - If it has more than 3 terms: Use grouping
 ]>
@@ -2685,17 +2685,17 @@ SCHEDULED: <2020-11-03 Tue>
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation                                      :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-27 Tue>
 :PROPERTIES:
 :ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:22]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:41]
 :END:
 
 math: Solve a Quadratic Equation by:
@@ -2707,17 +2707,17 @@ math: Solve a Quadratic Equation by:
 ]>
 
 *** Example of Solving a Quadratic Equation                         :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-22 Thu>
 :PROPERTIES:
 :ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
 :DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:55]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:42]
 :END:
 
 math: Solve 3c^2 = 10c − 8
@@ -2965,18 +2965,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-27 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:42]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -2984,34 +2984,34 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-27 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:24]
 :END:
 
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
-SCHEDULED: <2020-10-18 Sun>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:11]
+:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:37]
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
