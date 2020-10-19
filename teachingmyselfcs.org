@@ -766,7 +766,6 @@ these square-root and cube-root procedures.)
 : 3.001274406506175
 
 **** 1.1.8 Procedures as Black-Box Abstractions
-
 *** 1.2 Procedures and the Processes They Generate
 **** 1.2.1 Linear Recursion and Iteration
 ***** Procedure != Process                                        :drill:
@@ -1049,9 +1048,6 @@ prove that _Fib_(n) = ([phi]^n - [illegiblesymbol]^n)/[sqrt](5).
 
 ****** TODO Solution
 **** 1.2.3 Orders of Growth
-
-TODO Theta formulation
-
 ***** Exercise 1.14
 
 *Exercise 1.14:* Draw the tree illustrating the process generated
@@ -1181,7 +1177,270 @@ recursively, which should be equal to =log(3.0, a/0.1)= so in O() notation =O(lo
 The order of growth in space should be equal to the number of times p and sine are called,
 which should be equal to =2*log(3.0, a/0.1)= so in O() notation =O(log(a))=.
 
+**** 1.2.4 Exponentiation
+***** Exercise 1.16
+
+*Exercise 1.16:* Design a procedure that evolves an iterative
+exponentiation process that uses successive squaring and uses a
+logarithmic number of steps, as does `fast-expt'.  (Hint: Using the
+observation that (b^(n/2))^2 = (b^2)^(n/2), keep, along with the
+exponent n and the base b, an additional state variable a, and
+define the state transformation in such a way that the product a
+b^n is unchanged from state to state.  At the beginning of the
+process a is taken to be 1, and the answer is given by the value
+of a at the end of the process.  In general, the technique of
+defining an "invariant quantity" that remains unchanged from state
+to state is a powerful way to think about the design of iterative
+algorithms.)
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (even? n)
+  (= (remainder n 2) 0))
+
+;; Iterative algorithm with iterative process
+(define (fast-expt-iterative b n)
+  (let ((result 1))
+    (do ((n n (cond ((even? n) (/ n 2))
+                    (else (- n 1)))))
+        ((= n 0) result)
+      (cond ((even? n) (set! b (square b)))
+            (else (set! result (* result b)))))))
+
+
+;; Iterative algorithm with tail-recursive process
+(define (fast-expt-iterative2 b n)
+  (define (expt a b n)
+    (cond ((= 0 n) a)
+          ((even? n) (expt a (square b) (/ n 2)))
+          (else (expt (* a b) b (- n 1)))))
+  (expt 1 b n))
+
+(and (= (fast-expt-iterative 3 0) 1)
+     (= (fast-expt-iterative 5 1) 5)
+     (= (fast-expt-iterative 7 2) 49)
+     (= (fast-expt-iterative 3 3) 27)
+     (= (fast-expt-iterative 3 4) 81)
+     (= (fast-expt-iterative 2 5) 32)
+     (= (fast-expt-iterative 2 6) 64)
+     (= (fast-expt-iterative 2 7) 128)
+     (= (fast-expt-iterative2 3 0) 1)
+     (= (fast-expt-iterative2 5 1) 5)
+     (= (fast-expt-iterative2 7 2) 49)
+     (= (fast-expt-iterative2 3 3) 27)
+     (= (fast-expt-iterative2 3 4) 81)
+     (= (fast-expt-iterative2 2 5) 32)
+     (= (fast-expt-iterative2 2 6) 64)
+     (= (fast-expt-iterative2 2 7) 128))
 #+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.17
+
+*Exercise 1.17:* The exponentiation algorithms in this section are
+based on performing exponentiation by means of repeated
+multiplication.  In a similar way, one can perform integer
+multiplication by means of repeated addition.  The following
+multiplication procedure (in which it is assumed that our language
+can only add, not multiply) is analogous to the `expt' procedure:
+
+#+BEGIN_SRC scheme
+(define (* a b)
+  (if (= b 0)
+      0
+      (+ a (* a (- b 1)))))
+#+END_SRC
+
+This algorithm takes a number of steps that is linear in `b'.  Now
+suppose we include, together with addition, operations `double',
+which doubles an integer, and `halve', which divides an (even)
+integer by 2.  Using these, design a multiplication procedure
+analogous to `fast-expt' that uses a logarithmic number of steps.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (even? n)
+  (= (remainder n 2) 0))
+
+(define (double num)
+  (+ num num))
+
+(define (halve num)
+  (/ num 2))
+
+(define (* a b)
+  (if (= b 0)
+      0
+      (cond ((even? b) (* (double a) (halve b)))
+            (else (+ a (* a (- b 1)))))))
+
+(and (= (* 0 3) 0)
+     (= (* 1 1) 1)
+     (= (* 1 2) 2)
+     (= (* 1 3) 3)
+     (= (* 2 2) 4)
+     (= (* 2 3) 6)
+     (= (* 3 2) 6)
+     (= (* 3 3) 9)
+     (= (* 4 2) 8)
+     (= (* 4 3) 12))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.18
+
+*Exercise 1.18:* Using the results of *Note Exercise 1-16:: and
+*Note Exercise 1-17::, devise a procedure that generates an
+iterative process for multiplying two integers in terms of adding,
+doubling, and halving and uses a logarithmic number of steps.(4)
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (even? n)
+  (= (remainder n 2) 0))
+
+(define (double num)
+  (+ num num))
+
+(define (halve num)
+  (/ num 2))
+
+(define (* a b)
+  (define (mult product a b)
+    (if (= b 0)
+        product
+        (cond ((even? b) (mult product (double a) (halve b)))
+              (else (mult (+ product a) a (- b 1))))))
+  (mult 0 a b))
+
+(and (= (* 0 3) 0)
+     (= (* 1 1) 1)
+     (= (* 1 2) 2)
+     (= (* 1 3) 3)
+     (= (* 2 2) 4)
+     (= (* 2 3) 6)
+     (= (* 3 2) 6)
+     (= (* 3 3) 9)
+     (= (* 4 2) 8)
+     (= (* 4 3) 12))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.19
+
+*Exercise 1.19:* There is a clever algorithm for computing the
+Fibonacci numbers in a logarithmic number of steps.  Recall the
+transformation of the state variables a and b in the `fib-iter'
+process of section *Note 1-2-2::: a <- a + b and b <- a.  Call
+this transformation T, and observe that applying T over and over
+again n times, starting with 1 and 0, produces the pair _Fib_(n +
+1) and _Fib_(n).  In other words, the Fibonacci numbers are
+produced by applying T^n, the nth power of the transformation T,
+starting with the pair (1,0).  Now consider T to be the special
+case of p = 0 and q = 1 in a family of transformations T_(pq),
+where T_(pq) transforms the pair (a,b) according to a <- bq + aq +
+ap and b <- bp + aq.  Show that if we apply such a transformation
+T_(pq) twice, the effect is the same as using a single
+transformation T_(p'q') of the same form, and compute p' and q' in
+terms of p and q.  This gives us an explicit way to square these
+transformations, and thus we can compute T^n using successive
+squaring, as in the `fast-expt' procedure.  Put this all together
+to complete the following procedure, which runs in a logarithmic
+number of steps:(5)
+
+#+BEGIN_SRC scheme
+(define (fib n)
+  (fib-iter 1 0 0 1 n))
+
+(define (fib-iter a b p q count)
+  (cond ((= count 0) b)
+        ((even? count)
+         (fib-iter a
+                   b
+                   <??>      ; compute p'
+                   <??>      ; compute q'
+                   (/ count 2)))
+        (else (fib-iter (+ (* b q) (* a q) (* a p))
+                        (+ (* b p) (* a q))
+                        p
+                        q
+                        (- count 1)))))
+#+END_SRC
+
+****** Solution
+
+So we have:
+#+BEGIN_SRC
+a = bq + aq + ap
+b = bp + aq
+#+END_SRC
+
+Let's apply a second time to get a' and b':
+#+BEGIN_SRC
+a' = (bq + aq)q + (bq + aq + ap)q + (bq + aq + ap)p
+   = bpq + aq^2 + bq^2 + aq^2 + apq + bpq + apq + ap^2
+
+b' = (bp + aq)p + (bq + aq + ap)q
+   = bp^2 + apq + bq^2 + aq^2 + apq
+#+END_SRC
+
+The factorisation isn't obvious for a' but it is for b':
+#+BEGIN_SRC
+b' = b(p^2 + q^2) + a(2pq + q^2)
+#+END_SRC
+
+From there we can now work out a':
+#+BEGIN_SRC
+a' = b(2pq + q^2) + a(2pq + q^2) + a(p^2 + q^2)
+#+END_SRC
+
+So we have found p' and q' which are:
+#+BEGIN_SRC
+p' = p^2 + q^2
+q' = 2pq + q^2
+#+END_SRC
+
+Let's use those in the provided source code:
+#+BEGIN_SRC scheme :results value :session
+(define (fib n)
+  (fib-iter 1 0 0 1 n))
+
+(define (fib-iter a b p q count)
+  (cond ((= count 0) b)
+        ((even? count)
+         (fib-iter a
+                   b
+                   (+ (* p p) (* q q))
+                   (+ (* 2 p q) (* q q))
+                   (/ count 2)))
+        (else (fib-iter (+ (* b q) (* a q) (* a p))
+                        (+ (* b p) (* a q))
+                        p
+                        q
+                        (- count 1)))))
+
+(and (= (fib 0) 0)
+     (= (fib 1) 1)
+     (= (fib 2) 1)
+     (= (fib 3) 2)
+     (= (fib 4) 3)
+     (= (fib 5) 5)
+     (= (fib 6) 8)
+     (= (fib 7) 13)
+     (= (fib 25) 75025))
+#+END_SRC
+
+#+RESULTS:
+: #t
 
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
