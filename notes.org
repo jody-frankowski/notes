@@ -107,18 +107,18 @@ job of the compilers to respect them (eg. between user space programs and the
 kernel, but not necessarily in the same program).
 
 *** x32                                                           :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0d5bedac-d90f-48a8-a94d-4d26d33740a9
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 7.8022
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.249
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 13:00]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:36]
 :END:
 
 cs: abi: <[x32]> is an ABI that <[is the same as the x86-64 ABI but uses 32-bit
@@ -1660,17 +1660,17 @@ c: <[storage-class specifiers]> determine:
 <[- storage duration]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :ID:       1ab1f047-6e39-4499-8a03-31e0dc43ca15
-:DRILL_LAST_INTERVAL: 62.1406
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 31
+:DRILL_LAST_INTERVAL: 72.2074
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 32
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.354
-:DRILL_EASE: 1.2
+:DRILL_AVERAGE_QUALITY: 3.343
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:54]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:40]
 :END:
 
 c: The storage-class specifiers are:
@@ -5857,18 +5857,18 @@ SCHEDULED: <2021-06-26 Sat>
 c: printf: <[Print a double]> with <[f]>
 
 ****** c                                                         :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2022-07-13 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9fe143c4-509f-44a8-830f-0552890e9168
-:DRILL_LAST_INTERVAL: 217.4577
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 630.6273
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_AVERAGE_QUALITY: 4.667
 :DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-17 Tue 13:03]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:39]
 :END:
 
 c: printf: <[Print a character]> with <[c]>
@@ -6468,17 +6468,17 @@ SCHEDULED: <2022-02-04 Fri>
 sh: [[: <[=~]> does <[regex matching]>
 
 ****** Drill                                                     :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-24 Sat>
 :PROPERTIES:
 :ID:       ca9fe039-0364-4953-a982-2b0e6b6b5777
-:DRILL_LAST_INTERVAL: 329.7515
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.183
-:DRILL_EASE: 2.24
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 13
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.078
+:DRILL_EASE: 2.1
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-25 Mon 09:47]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:51]
 :END:
 
 bash: [[: =~ will do regex matching only if the argument <[isn't quoted or is a

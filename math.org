@@ -35,18 +35,18 @@ SCHEDULED: <2020-10-29 Thu>
 math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
 
 *** Natural Numbers Including 0                                     :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2021-03-17 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a52d3df6-dab7-472e-a7b0-4c5be2092b10
-:DRILL_LAST_INTERVAL: 63.1835
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 148.1021
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.28
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-18 Tue 13:47]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:38]
 :END:
 
 math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
@@ -1359,17 +1359,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-29 Thu>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 6.2294
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 9.1697
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.701
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 2.728
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 10:59]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:30]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -2747,18 +2747,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-28 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 7.8022
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 2.8
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:58]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:27]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
@@ -2781,17 +2781,17 @@ SCHEDULED: <2020-11-04 Wed>
 math: <[Rational Expression]> aka <[Rational Fraction]>
 
 *** Opposites in a Rational Expression                              :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-11-12 Thu>
 :PROPERTIES:
 :ID:       07336528-4174-4086-aeb1-7bab315db73a
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 22.7066
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_AVERAGE_QUALITY: 3.4
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-11 Sun 13:44]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:37]
 :END:
 
 math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
@@ -2837,17 +2837,17 @@ math: To add rational expressions with unlike denominators:
 ]>
 
 *** Example Add and Subtract Rational Expressions with Unlike Denominators :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-29 Thu>
 :PROPERTIES:
 :ID:       46ebc6dc-bf2d-4e49-81d3-b65db7dc2ea2
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.8
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:59]
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:26]
 :END:
 
 math: Simplify 4/(cd + 3c) + 1/(d^2 - 9)
@@ -2890,17 +2890,17 @@ math: A <[Complex Rational Expression]> is a <[rational expression in which the 
 denominator contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2020-10-20 Tue>
+SCHEDULED: <2020-10-29 Thu>
 :PROPERTIES:
 :ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.379
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.6
+:DRILL_AVERAGE_QUALITY: 2.833
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:59]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:24]
 :END:
 
 math: Simplify a Complex Rational Expression by either:
@@ -3015,3 +3015,128 @@ SCHEDULED: <2020-10-28 Wed>
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
+
+*** Proportion Work Application                                     :drill:
+SCHEDULED: <2020-10-24 Sat>
+:PROPERTIES:
+:ID:       b38ac638-cd2e-460f-8be2-4278c46085ac
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:42]
+:END:
+
+math: Bob can paint a room in 6 hours. Alice takes 12 hours to paint the same room. How long would
+it take Bob and Alice to paint the room if they worked together?
+<[
+Translate to an equation:
+1/6 + 1/12 = 1/x
+
+Multiply by the LCD of all the fractions to remove them:
+12x(1/6 + 1/12) = 12x*1/x
+2x + x = 12
+
+Simplify:
+3x = 12
+x = 12/3
+x = 4
+
+Answer: 4 hours
+]>
+
+** 8.9 Use Direct and Inverse Variation
+*** Direct Variation                                                :drill:
+SCHEDULED: <2020-10-24 Sat>
+:PROPERTIES:
+:ID:       1ac2db67-1ca3-458d-a9db-7c080da07815
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:48]
+:END:
+
+math: x varies directly with y if <[x = ky]>
+
+*** Direct Variation Example                                        :drill:
+SCHEDULED: <2020-10-24 Sat>
+:PROPERTIES:
+:ID:       c22738d5-a2b8-431c-b23c-15a991d7f829
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:48]
+:END:
+
+math: The distance a moving body travels, d, varies directly with the time, t, it moves. A train
+travels 100 miles in 2 hours.
+Write the equation that relates d and t.
+<[
+d = kt
+100 = k2
+k = 50
+
+Answer: d = 50t
+]>
+
+How many miles would it travel in 5 hours?
+<[
+miles = kt = 50 * 5 = 250 miles
+]>
+
+*** Inverse Variation                                               :drill:
+SCHEDULED: <2020-10-24 Sat>
+:PROPERTIES:
+:ID:       18d8192f-c01a-44ae-a517-97891d24e083
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:47]
+:END:
+
+math: x varies inversely with y if <[x = k/y]>
+
+*** Inverse Variation Example                                       :drill:
+SCHEDULED: <2020-10-24 Sat>
+:PROPERTIES:
+:ID:       58727f5e-8f45-422e-8327-fc67e255aa7c
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:39]
+:END:
+
+math: The time required to empty a tank varies inversely with the rate of pumping. It took Janet 5
+hours to pump her flooded basement using a pump that was rated at 200 gpm (gallons per minute).
+Write the equation that relates the number of hours to the pump rate.
+<[
+time = k/rate
+5 = k/200
+k = 5 * rate = 1000
+
+Answer: time = 1000/rate
+]>
+
+How long would it take Janet to pump her basement if she used a pump rated at 400 gpm?
+<[
+time = 1000/rate = 1000/400 = 2.5
+]>
