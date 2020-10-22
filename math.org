@@ -190,18 +190,18 @@ math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
 fraction]>
 
 *** Mixed Number Notation                                           :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2020-10-26 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 63.925
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:52]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:37]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2020-11-29 Sun>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 23.0958
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 38.339
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.091
 :DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-29 Tue 14:19]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:31]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -475,18 +475,18 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 
 ** 2.5 Prime Factorization and the Least Common Multiple
 *** Least Common Multiple                                           :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2020-12-02 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4dff26b9-8699-4af0-8dba-8de3d1ee6eb1
-:DRILL_LAST_INTERVAL: 23.8265
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 40.6242
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 1.76
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 11:03]
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:36]
 :END:
 
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
@@ -508,18 +508,18 @@ SCHEDULED: <2020-10-25 Sun>
 math: least_common_multiple(4, 6) = <[12]>
 
 *** Greatest Common Divisor                                         :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2021-02-24 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5e035dae-68da-4bb6-af9c-fc37de53d820
-:DRILL_LAST_INTERVAL: 54.8044
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 125.2829
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:18]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:36]
 :END:
 
 math: <[greatest_common_divisor(a,b)]> = <[the greatest number that divides both a and b]>
@@ -541,17 +541,17 @@ SCHEDULED: <2020-10-24 Sat>
 math: greatest_common_divisor(8, 12) = <[4]>
 
 *** Greatest Common Divisor Use                                     :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2021-02-24 Wed>
 :PROPERTIES:
 :ID:       e671009b-62b8-4ccf-8cac-b0533551ec2f
-:DRILL_LAST_INTERVAL: 54.8044
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 125.2829
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:18]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:34]
 :END:
 
 math: To reduce a fraction <[divide the numerator and denominator by their greatest common divisor]>
@@ -2708,17 +2708,17 @@ math: Solve a Quadratic Equation by:
 ]>
 
 *** Example of Solving a Quadratic Equation                         :drill:
-SCHEDULED: <2020-10-22 Thu>
+SCHEDULED: <2020-11-01 Sun>
 :PROPERTIES:
 :ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 9.684
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:42]
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:22]
 :END:
 
 math: Solve 3c^2 = 10c − 8
