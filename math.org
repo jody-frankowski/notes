@@ -87,18 +87,18 @@ SCHEDULED: <2020-10-29 Thu>
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
 
 *** Commutative Property                                            :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2021-03-31 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       acecbbbb-cdfa-4798-98e9-98718b039b4e
-:DRILL_LAST_INTERVAL: 66.4198
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 158.2784
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-19 Wed 09:52]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:45]
 :END:
 
 math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
@@ -525,17 +525,17 @@ SCHEDULED: <2021-02-24 Wed>
 math: <[greatest_common_divisor(a,b)]> = <[the greatest number that divides both a and b]>
 
 *** Greatest Common Divisor Example                                 :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2021-03-08 Mon>
 :PROPERTIES:
 :ID:       0366ae90-f281-45c8-aba4-c9217a9e2b73
-:DRILL_LAST_INTERVAL: 56.5228
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 134.6938
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:19]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:44]
 :END:
 
 math: greatest_common_divisor(8, 12) = <[4]>
@@ -1894,18 +1894,18 @@ math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of
 
 ** 4.7 Graphs of Linear Inequalities
 *** Dashed Boundary Line                                            :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-12-12 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ec6cc5d8-ac0c-4bd3-930c-deab8b993d47
-:DRILL_LAST_INTERVAL: 22.709
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.8243
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:06]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:43]
 :END:
 
 math: inequality graph: A <[Dashed]> Boundary Line means the line <[isn't]> included in the solution
@@ -1946,18 +1946,18 @@ SCHEDULED: <2020-10-26 Mon>
 math: <[Coincident Lines]> have <[the same slope and y-intercept]>
 
 *** Consistent System                                               :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-12-17 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c5a0597c-d66a-44f4-b0a4-d595983411b1
-:DRILL_LAST_INTERVAL: 23.445
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 53.5953
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:05]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:43]
 :END:
 
 math: <[A Consistent]> System of Equations has <[at least one solution]>
@@ -3019,17 +3019,17 @@ SCHEDULED: <2020-10-28 Wed>
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
 
 *** Proportion Work Application                                     :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :ID:       b38ac638-cd2e-460f-8be2-4278c46085ac
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:42]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:42]
 :END:
 
 math: Bob can paint a room in 6 hours. Alice takes 12 hours to paint the same room. How long would
@@ -3052,33 +3052,33 @@ Answer: 4 hours
 
 ** 8.9 Use Direct and Inverse Variation
 *** Direct Variation                                                :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :ID:       1ac2db67-1ca3-458d-a9db-7c080da07815
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:48]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:39]
 :END:
 
 math: x varies directly with y if <[x = ky]>
 
 *** Direct Variation Example                                        :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :ID:       c22738d5-a2b8-431c-b23c-15a991d7f829
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:48]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:41]
 :END:
 
 math: The distance a moving body travels, d, varies directly with the time, t, it moves. A train
@@ -3098,33 +3098,33 @@ miles = kt = 50 * 5 = 250 miles
 ]>
 
 *** Inverse Variation                                               :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :ID:       18d8192f-c01a-44ae-a517-97891d24e083
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:47]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:42]
 :END:
 
 math: x varies inversely with y if <[x = k/y]>
 
 *** Inverse Variation Example                                       :drill:
-SCHEDULED: <2020-10-24 Sat>
+SCHEDULED: <2020-11-03 Tue>
 :PROPERTIES:
 :ID:       58727f5e-8f45-422e-8327-fc67e255aa7c
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:39]
+:DRILL_LAST_REVIEWED: [2020-10-24 Sat 15:38]
 :END:
 
 math: The time required to empty a tank varies inversely with the rate of pumping. It took Janet 5
