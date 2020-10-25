@@ -4259,19 +4259,19 @@ SCHEDULED: <2021-05-25 Tue>
 floating point: ULP aka <[Unit in the Last Place]>
 
 ***** What                                                        :drill:
-SCHEDULED: <2020-10-25 Sun>
+SCHEDULED: <2020-11-04 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://en.wikipedia.org/wiki/Unit_in_the_last_place
 :ID:       4d359fed-433e-40c8-90f3-6946e7c5b240
-:DRILL_LAST_INTERVAL: 9.1567
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 9.9625
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.053
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.05
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:51]
+:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:23]
 :END:
 
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>
@@ -5926,18 +5926,18 @@ SCHEDULED: <2020-12-13 Sun>
 c: printf: <[Cast the integer argument to char]> with <[hh]>
 
 ****** h                                                         :drill:
-SCHEDULED: <2020-10-25 Sun>
+SCHEDULED: <2022-06-26 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f2341b94-1057-4137-b451-d8837d8e2a18
-:DRILL_LAST_INTERVAL: 217.4738
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 608.9266
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-22 Sun 13:00]
+:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:25]
 :END:
 
 c: printf: <[Cast the integer argument to short]> with <[h]>
