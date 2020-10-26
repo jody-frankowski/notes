@@ -1532,6 +1532,301 @@ smallest divisor of each of the following numbers: 199, 1999,
 : 1999
 : 7
 
+***** Exercise 1.22
+
+*Exercise 1.22:* Most Lisp implementations include a primitive
+called `runtime' that returns an integer that specifies the amount
+of time the system has been running (measured, for example, in
+microseconds).  The following `timed-prime-test' procedure, when
+called with an integer n, prints n and checks to see if n is
+prime.  If n is prime, the procedure prints three asterisks
+followed by the amount of time used in performing the test.
+
+#+BEGIN_SRC scheme
+(define (timed-prime-test n)
+  (newline)
+  (display n)
+  (start-prime-test n (runtime)))
+
+(define (start-prime-test n start-time)
+  (if (prime? n)
+      (report-prime (- (runtime) start-time))))
+
+(define (report-prime elapsed-time)
+  (display " *** ")
+  (display elapsed-time))
+#+END_SRC
+
+Using this procedure, write a procedure `search-for-primes' that
+checks the primality of consecutive odd integers in a specified
+range.  Use your procedure to find the three smallest primes
+larger than 1000; larger than 10,000; larger than 100,000; larger
+than 1,000,000.  Note the time needed to test each prime.  Since
+the testing algorithm has order of growth of [theta](_[sqrt]_(n)),
+you should expect that testing for primes around 10,000 should
+take about _[sqrt]_(10) times as long as testing for primes around
+1000.  Do your timing data bear this out?  How well do the data
+for 100,000 and 1,000,000 support the _[sqrt]_(n) prediction?  Is
+your result compatible with the notion that programs on your
+machine run in time proportional to the number of steps required
+for the computation?
+
+****** Solution
+
+I have used larger values in order to be able to see the increase on my computer:
+
+#+BEGIN_SRC scheme :results output :session
+(define (smallest-divisor n)
+  (find-divisor n 2))
+
+(define (find-divisor n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor n (+ test-divisor 1)))))
+
+(define (divides? a b)
+  (= (remainder b a) 0))
+
+(define (prime? n)
+  (= n (smallest-divisor n)))
+
+(define (timed-prime-test n)
+  (start-prime-test n (runtime)))
+
+(define (start-prime-test n start-time)
+  (define is-prime (prime? n))
+  (if is-prime
+      (report-prime n (- (runtime) start-time)))
+  is-prime)
+
+(define (report-prime prime elapsed-time)
+  (display prime)
+  (display " *** ")
+  (display elapsed-time)
+  (newline))
+
+(define (search-for-primes range-start range-end)
+  (if (<= range-start range-end)
+      (cond ((even? range-start) (search-for-primes (+ range-start 1) range-end))
+            (else (timed-prime-test range-start) (search-for-primes (+ range-start 2) range-end)))))
+
+(search-for-primes 100000000000 100000000060)
+(newline)
+(search-for-primes 1000000000000 1000000000090)
+(newline)
+(search-for-primes 10000000000000 10000000000100)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+100000000003 *** .21999999999999997
+100000000019 *** .22999999999999998
+100000000057 *** .19999999999999996
+
+1000000000039 *** .6199999999999999
+1000000000061 *** .6299999999999999
+1000000000063 *** .6699999999999999
+
+10000000000037 *** 1.98
+10000000000051 *** 2.089999999999999
+10000000000099 *** 1.9800000000000004
+#+end_example
+
+It indeed increases by roughly sqrt(10):
+- 0.2 * sqrt(10) = 0.63
+- 0.63 * sqrt(10) = 1.99
+
+***** Exercise 1.23
+
+*Exercise 1.23:* The `smallest-divisor' procedure shown at the
+start of this section does lots of needless testing: After it
+checks to see if the number is divisible by 2 there is no point in
+checking to see if it is divisible by any larger even numbers.
+This suggests that the values used for `test-divisor' should not
+be 2, 3, 4, 5, 6, ..., but rather 2, 3, 5, 7, 9, ....  To
+implement this change, define a procedure `next' that returns 3 if
+its input is equal to 2 and otherwise returns its input plus 2.
+Modify the `smallest-divisor' procedure to use `(next
+test-divisor)' instead of `(+ test-divisor 1)'.  With
+`timed-prime-test' incorporating this modified version of
+`smallest-divisor', run the test for each of the 12 primes found in
+*Note Exercise 1-22::.  Since this modification halves the number
+of test steps, you should expect it to run about twice as fast.
+Is this expectation confirmed?  If not, what is the observed ratio
+of the speeds of the two algorithms, and how do you explain the
+fact that it is different from 2?
+
+****** Solution
+
+#+BEGIN_SRC scheme :results output :session
+(define (next n)
+  (if (= n 2)
+      3
+      (+ n 2)))
+
+(define (smallest-divisor n)
+  (find-divisor n 2))
+
+(define (find-divisor n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor n (next test-divisor)))))
+
+(define (divides? a b)
+  (= (remainder b a) 0))
+
+(define (prime? n)
+  (= n (smallest-divisor n)))
+
+(define (timed-prime-test n)
+  (start-prime-test n (runtime)))
+
+(define (start-prime-test n start-time)
+  (define is-prime (prime? n))
+  (if is-prime
+      (report-prime n (- (runtime) start-time)))
+  is-prime)
+
+(define (report-prime prime elapsed-time)
+  (display prime)
+  (display " *** ")
+  (display elapsed-time)
+  (newline))
+
+(define (search-for-primes range-start range-end)
+  (if (<= range-start range-end)
+      (cond ((even? range-start) (search-for-primes (+ range-start 1) range-end))
+            (else (timed-prime-test range-start) (search-for-primes (+ range-start 2) range-end)))))
+
+(search-for-primes 100000000000 100000000060)
+(newline)
+(search-for-primes 1000000000000 1000000000090)
+(newline)
+(search-for-primes 10000000000000 10000000000100)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+100000000003 *** .129999999999999
+100000000019 *** .120000000000001
+100000000057 *** .120000000000001
+
+1000000000039 *** .39000000000000057
+1000000000061 *** .379999999999999
+1000000000063 *** .39000000000000057
+
+10000000000037 *** 1.259999999999998
+10000000000051 *** 1.2299999999999969
+10000000000099 *** 1.2199999999999989
+#+end_example
+
+We see a speedup of about 1.6. It's most likely not 2 because we didn't exactly halve the number of
+operations. While there is twice less divisions, there is also another =if= betwen each operations.
+Let's manually check for 2 and then increase 2 by 2 from 3.
+
+#+BEGIN_SRC scheme :results output :session
+(define (smallest-divisor n)
+  (if (divides? 2 n)
+      2
+      (find-divisor n 3)))
+
+(define (find-divisor n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor n (+ test-divisor 2)))))
+
+(search-for-primes 100000000000 100000000060)
+(newline)
+(search-for-primes 1000000000000 1000000000090)
+(newline)
+(search-for-primes 10000000000000 10000000000100)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+100000000003 *** .14999999999999858
+100000000019 *** .10999999999999943
+100000000057 *** .09999999999999787
+
+1000000000039 *** .3099999999999987
+1000000000061 *** .3100000000000023
+1000000000063 *** .3099999999999987
+
+10000000000037 *** 1.
+10000000000051 *** 1.
+10000000000099 *** .990000000000002
+#+end_example
+
+We now get our factor of 2 speedup.
+
+***** Exercise 1.24
+
+*Exercise 1.24:* Modify the `timed-prime-test' procedure of *Note
+Exercise 1-22:: to use `fast-prime?' (the Fermat method), and test
+each of the 12 primes you found in that exercise.  Since the
+Fermat test has [theta](`log' n) growth, how would you expect the
+time to test primes near 1,000,000 to compare with the time needed
+to test primes near 1000?  Do your data bear this out?  Can you
+explain any discrepancy you find?
+
+****** Solution
+
+I expect the time needed to increase by only a small amount.
+
+#+BEGIN_SRC scheme :results output :session
+(define (expmod base exp m)
+  (cond ((= exp 0) 1)
+        ((even? exp)
+         (remainder (square (expmod base (/ exp 2) m))
+                    m))
+        (else
+         (remainder (* base (expmod base (- exp 1) m))
+                    m))))
+
+(define (fermat-test n)
+  (define (try-it a)
+    (= (expmod a n n) a))
+  (try-it (+ 1 (random (- n 1)))))
+
+(define (fast-prime? n times)
+  (cond ((= times 0) true)
+        ((fermat-test n) (fast-prime? n (- times 1)))
+        (else false)))
+
+(define (timed-prime-test n)
+  (start-prime-test n (runtime)))
+
+(define (start-prime-test n start-time)
+  (define is-prime (fast-prime? n 10000))
+  (if is-prime
+      (report-prime n (- (runtime) start-time)))
+  is-prime)
+
+(define (report-prime prime elapsed-time)
+  (display prime)
+  (display " *** ")
+  (display elapsed-time)
+  (newline))
+
+(define (search-for-primes range-start range-end)
+  (if (<= range-start range-end)
+      (cond ((even? range-start) (search-for-primes (+ range-start 1) range-end))
+            (else (timed-prime-test range-start) (search-for-primes (+ range-start 2) range-end)))))
+
+(search-for-primes 100000000000000000000000000 100000000000000000000000200)
+(newline)
+(search-for-primes 100000000000000000000000000000 100000000000000000000000000480)
+#+END_SRC
+
+#+RESULTS:
+: 100000000000000000000000067 *** 1.25
+: 100000000000000000000000123 *** 1.1999999999999957
+: 100000000000000000000000127 *** 1.220000000000006
+:
+: 100000000000000000000000000319 *** 1.4500000000000028
+: 100000000000000000000000000379 *** 1.4200000000000017
+: 100000000000000000000000000459 *** 1.3900000000000006
+
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
 :SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
