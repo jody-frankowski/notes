@@ -138,18 +138,18 @@ SCHEDULED: <2020-10-27 Tue>
 math: 7/3 is read as <[Seven Thirds]>
 
 *** Improper Fraction                                               :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2021-01-11 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
-:DRILL_LAST_INTERVAL: 38.7917
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 76.6524
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.374
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:10]
+:DRILL_AVERAGE_QUALITY: 3.332
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:45]
 :END:
 
 math: a/b is <[an Improper]> fraction if <[a >= b]>
@@ -190,18 +190,18 @@ math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
 fraction]>
 
 *** Mixed Number Notation                                           :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-11-04 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 9.0845
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:37]
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:26]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
@@ -848,35 +848,35 @@ SCHEDULED: <2020-11-04 Wed>
 math: <[Mode]> = <[The number with the highest frequency]>
 
 *** Probability Formula                                             :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2021-02-01 Mon>
 :PROPERTIES:
 :ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 48.8243
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 98.3321
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-07 Mon 09:17]
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:47]
 :END:
 
 math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2021-02-01 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 48.8243
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 98.3321
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-07 Mon 09:16]
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:45]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -1929,18 +1929,18 @@ math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included
 
 ** 5.1 Solve Systems of Equations by Graphing
 *** Coincident Lines                                                :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-12-26 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 60.525
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:04]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:46]
 :END:
 
 math: <[Coincident Lines]> have <[the same slope and y-intercept]>
@@ -2052,17 +2052,17 @@ Solution: (8, -2)
 
 ** 5.3 Solve Systems of Equations by Elimination
 *** Based on Addition Property of Equality                          :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-12-22 Tue>
 :PROPERTIES:
 :ID:       5a430aae-106b-4abc-9e98-ac8e56616303
-:DRILL_LAST_INTERVAL: 24.21
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.7725
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:27]
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:47]
 :END:
 
 math: Solving Systems of Equations by Elimination is based on the <[addition/substraction property
@@ -2575,17 +2575,17 @@ x^3 + 64 = (x + 4)(x^2 - 4x + 16)
 ]>
 
 *** Factor a^3 - b^3                                                :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
 :ID:       7a8e64d2-87d6-4e09-b941-99ccbbeafab4
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 22.7066
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-17 Sat 18:16]
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:35]
 :END:
 
 math: Factor 27 - 125p^3
@@ -2912,17 +2912,17 @@ math: Simplify a Complex Rational Expression by either:
 ]>
 
 *** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-10-30 Fri>
 :PROPERTIES:
 :ID:       f26ae1bb-8d2e-4c05-a332-4a0b05c163e9
-:DRILL_LAST_INTERVAL: 9.684
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.25
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:46]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:47]
 :END:
 
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the reciprocal
@@ -2940,17 +2940,17 @@ method
 ]>
 
 *** Example of Simplifying Complex Rational Expressions by Multiplying by the LCD :drill:
-SCHEDULED: <2020-10-26 Mon>
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
 :ID:       960d7bf3-592a-493f-a946-95ca7f3dd734
-:DRILL_LAST_INTERVAL: 9.684
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.445
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:52]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:36]
 :END:
 
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the LCD method
