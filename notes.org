@@ -8032,6 +8032,11 @@ higher, by giving more resources to a machine, go wider, by using distributed co
 deeper, by using better algorithms and data structures. He solved some problems by going deeper and
 then higher when he needed to scale more.
 
+*** DONE This is How Science Happens
+:PROPERTIES:
+:Source: https://hillelwayne.com/post/this-is-how-science-happens/
+:Source+: https://news.ycombinator.com/item?id=22531453
+:END:
 ** Data Science
 *** DONE My Journey: From Psych Grad to VP of Data Science at Lazada
 :PROPERTIES:
