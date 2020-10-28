@@ -591,18 +591,18 @@ SCHEDULED: <2020-11-17 Tue>
 math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
 
 *** Multiplicative Inverse aka Reciprocal                           :drill:
-SCHEDULED: <2020-10-27 Tue>
+SCHEDULED: <2021-02-27 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d08dc316-3d6a-4394-8fb7-88e8e05329fd
-:DRILL_LAST_INTERVAL: 56.6059
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 121.7027
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-31 Mon 07:28]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:05]
 :END:
 
 math: <[Multiplicative Inverse]> aka <[Reciprocal]>
@@ -642,17 +642,17 @@ SCHEDULED: <2020-11-13 Fri>
 math: The multiplicative inverse of <[a/b]> is <[b/a]>
 
 *** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-11-01 Sun>
 :PROPERTIES:
 :ID:       54d54982-7652-4c84-8422-1058f188369b
-:DRILL_LAST_INTERVAL: 29.8032
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.125
-:DRILL_EASE: 1.76
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-28 Mon 11:02]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:09]
 :END:
 
 math: proof: The multiplicative inverse of a/b is b/a:
@@ -724,17 +724,17 @@ SCHEDULED: <2020-11-15 Sun>
 math: (a/b)/(c/d) = <[ad/bc]>
 
 *** Proof of (a/b)/(c/d) = ad/bc                                    :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2021-02-27 Sat>
 :PROPERTIES:
 :ID:       c00ec299-797d-4601-bb43-f217b17a0744
-:DRILL_LAST_INTERVAL: 56.6059
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 121.7027
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-01 Tue 12:17]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:04]
 :END:
 
 math: proof: (a/b)/(c/d) = ad/bc
@@ -1192,18 +1192,18 @@ SCHEDULED: <2020-11-14 Sat>
 math: Two angles are <[Complementary]> if <[their sum makes 90°]>
 
 *** Similar Figures                                                 :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2021-01-26 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       591775ff-0050-4491-8027-2dd6c0fd3bf6
-:DRILL_LAST_INTERVAL: 43.3603
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 90.2761
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:06]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:06]
 :END:
 
 math: Two figures are <[Similar]> if <[they have the same shape]>
@@ -1709,18 +1709,18 @@ math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]>
 <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-11-13 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 10.8579
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 15.9828
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.8
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 2.818
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-17 Sat 18:14]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:06]
 :END:
 
 math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
@@ -1746,17 +1746,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-11-22 Sun>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:37]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:03]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -1815,17 +1815,17 @@ math: When you divide or multiply an inequality by a positive number,
 the inequality <[stays the same]>
 
 *** Solve an Inequality                                             :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-12-12 Sat>
 :PROPERTIES:
 :ID:       4af2c8e8-78f0-4f5b-85ea-2c325af6c5d6
-:DRILL_LAST_INTERVAL: 20.1676
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 44.7721
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-08 Thu 10:39]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:04]
 :END:
 
 math: Solve -10x >= 50 and give the solution as an interval notation
@@ -2015,17 +2015,17 @@ math: <[Independent]> Equations have <[different solutions]>
 
 ** 5.2 Solving Systems of Equations by Substitution
 *** Solve a System of Equations by Substitution                     :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2021-01-01 Fri>
 :PROPERTIES:
 :ID:       b4007763-7e3d-409a-8bf7-a4389296d736
-:DRILL_LAST_INTERVAL: 25.79
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 64.9392
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:23]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:05]
 :END:
 
 math: Solve the following system by Substitution:
@@ -2069,17 +2069,17 @@ math: Solving Systems of Equations by Elimination is based on the <[addition/sub
 of equality]>
 
 *** Solve a System of Equations by Elimination                                 :drill:
-SCHEDULED: <2020-10-27 Tue>
+SCHEDULED: <2020-12-28 Mon>
 :PROPERTIES:
 :ID:       751753d0-461c-4e7a-9b63-04daf0114f17
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 60.525
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-02 Fri 15:23]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:07]
 :END:
 
 math: Solve the following system by Elimination:
@@ -2354,18 +2354,18 @@ So x^2 + 4x - 5 = (x + 5)(x - 1)
 ]>
 
 *** Prime Polynomial                                                :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-12-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3a59e965-e778-4dd2-bca0-7782b9c3cb0c
-:DRILL_LAST_INTERVAL: 20.1676
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 43.3603
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-08 Thu 10:40]
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:05]
 :END:
 
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
@@ -2749,18 +2749,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-11-01 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 7.8022
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.8
-:DRILL_EASE: 1.94
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.715
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-20 Tue 11:27]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:08]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
@@ -3003,17 +3003,17 @@ SCHEDULED: <2020-11-16 Mon>
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
-SCHEDULED: <2020-10-28 Wed>
+SCHEDULED: <2020-11-22 Sun>
 :PROPERTIES:
 :ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-18 Sun 12:37]
+:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:02]
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
