@@ -3143,3 +3143,18 @@ How long would it take Janet to pump her basement if she used a pump rated at 40
 <[
 time = 1000/rate = 1000/400 = 2.5
 ]>
+
+** 9.2 Simplify Square Roots
+*** Product Property of Square Roots                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[sqrt(ab)]> = <[sqrt(a)*sqrt(b)]>
+
+*** Quotient Property of Square Roots                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[sqrt(a/b)]> = <[sqrt(a)/sqrt(b)]>
