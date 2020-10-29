@@ -1828,6 +1828,58 @@ I expect the time needed to increase by only a small amount.
 : 100000000000000000000000000379 *** 1.4200000000000017
 : 100000000000000000000000000459 *** 1.3900000000000006
 
+***** Exercise 1.25
+
+*Exercise 1.25:* Alyssa P. Hacker complains that we went to a lot
+of extra work in writing `expmod'.  After all, she says, since we
+already know how to compute exponentials, we could have simply
+written
+
+#+BEGIN_SRC scheme
+(define (expmod base exp m)
+  (remainder (fast-expt base exp) m))
+#+END_SRC
+
+Is she correct?  Would this procedure serve as well for our fast
+prime tester?  Explain.
+
+****** Solution
+
+Instead of calling =remainder= multiple times, on smaller numbers, her function calls =remainder=
+once on one large number. This will possibly be slower, because the scheme runtime may have to
+resort to the use of bignums.
+
+***** Exercise 1.26
+
+*Exercise 1.26:* Louis Reasoner is having great difficulty doing
+*Note Exercise 1-24::.  His `fast-prime?' test seems to run more
+slowly than his `prime?' test.  Louis calls his friend Eva Lu Ator
+over to help.  When they examine Louis's code, they find that he
+has rewritten the `expmod' procedure to use an explicit
+multiplication, rather than calling `square':
+
+#+BEGIN_SRC scheme
+(define (expmod base exp m)
+  (cond ((= exp 0) 1)
+        ((even? exp)
+         (remainder (* (expmod base (/ exp 2) m)
+                       (expmod base (/ exp 2) m))
+                    m))
+        (else
+         (remainder (* base (expmod base (- exp 1) m))
+                    m))))
+#+END_SRC
+
+"I don't see what difference that could make," says Louis.  "I
+do."  says Eva.  "By writing the procedure like that, you have
+transformed the [theta](`log' n) process into a [theta](n)
+process."  Explain.
+
+****** Solution
+
+Louis has effectively removed the optimization from this algorithm by forcing the procedure to
+compute the same costly thing (=(expmod base (/ exp 2) m)=) twice.
+
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
 :SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
