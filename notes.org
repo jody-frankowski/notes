@@ -9597,6 +9597,16 @@ Smartphones are as powerful as the best supercomputer 25 years ago.
 *** https://web.archive.org/web/20190914105823/https://everythingsysadmin.com/dumb-things-to-check.html
 *** https://web.archive.org/web/20190914110919/https://namingschemes.com/
 *** https://web.archive.org/web/20190914110733/https://mnx.io/blog/a-proper-server-naming-scheme/
+*** DONE Type in the exact number of machines to proceed
+:PROPERTIES:
+:Source: https://rachelbythebay.com/w/2020/10/26/num/
+:Source+: https://news.ycombinator.com/item?id=24904204
+:END:
+
+To prevent script executions on too many machines (millions perhaps), you can ask the user to enter
+the exact number of machines that will be impacted. Hopefully if it was a mistake the user can now
+realise that and stop.
+
 ** Technology
 *** DONE À propos du débat sur la 5G
 :PROPERTIES:
