@@ -9585,6 +9585,11 @@ Example: "Perl shepherds you into using regexps"
 TDD should be used as a tool not as a perfect technique.
 TDD can sometimes lead to bad design decisions.
 
+*** DONE The Grand Unified Theory of Software Architecture
+:PROPERTIES:
+:Source: https://danuker.go.ro/the-grand-unified-theory-of-software-architecture.html
+:Source+: https://news.ycombinator.com/item?id=24915497
+:END:
 ** Supercomputing
 *** DONE https://builtin.com/hardware/supercomputers
 
