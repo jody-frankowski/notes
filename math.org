@@ -3178,3 +3178,77 @@ SCHEDULED: <2020-11-03 Tue>
 :END:
 
 math: <[sqrt(a/b)]> = <[sqrt(a)/sqrt(b)]>
+
+** 9.5 Divide Square Roots
+*** Simplify a Fraction with a Monomial                             :drill:
+:PROPERTIES:
+:END:
+
+math: Simplify $\sqrt{\frac{11}{28}}$
+<[
+\begin{gather*}
+\sqrt{\frac{11}{28}} \\
+\frac{\sqrt{11}}{2\sqrt{7}} \\
+\frac{\sqrt{11} \cdot {\color{red}\sqrt{7}}}{2\sqrt{7} \cdot {\color{red}\sqrt{7}}} \\
+\frac{\sqrt{77}}{2 \cdot 7} \\
+\frac{\sqrt{77}}{14}
+\end{gather*}
+]>
+
+*** Simplify a Fraction with a Binomial                             :drill:
+:PROPERTIES:
+:END:
+
+math: Simplify $\frac{4}{4 + \sqrt{2}}$
+<[
+\begin{gather*}
+\frac{4}{4 + \sqrt{2}} \\
+\frac{4{\color{red}(4 - \sqrt{2})}}{(4 + \sqrt{2}) {\color{red}(4 - \sqrt{2})}} \\
+\frac{4(4 - \sqrt{2})}{16 - 2} \\
+\frac{4(4 - \sqrt{2})}{14} \\
+\frac{2(4 - \sqrt{2})}{7}
+\end{gather*}
+]>
+
+** 9.6 Solve Equations with Square Roots
+*** Solve a Radical Equation with a Monomial                        :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $\sqrt{5n - 4} - 9 = 0$
+<[
+\begin{gather*}
+\sqrt{5n - 4} = 9 \\
+5n - 4 = 81 \\
+5n = 85 \\
+n = 17
+\end{gather*}
+]>
+
+*** Solve a Radical Equation with a Binomial                        :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $\sqrt{p - 1} + 1 = p$
+<[
+\begin{gather*}
+\sqrt{p - 1} = p - 1 \\
+p - 1 = (p - 1)^2 \\
+p - 1 = p^2 - 2p + 1 \\
+0 = p^2 - 3p + 2 \\
+0 = (p - 2)(p - 1) \\
+p = 2 \text{ or } p = 1
+\end{gather*}
+]>
+
+*** Solve a Radical Equation with no Solution                       :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $\sqrt{9k − 2} + 1 = 0$
+<[
+\begin{gather*}
+\sqrt{9k − 2} = -1 \\
+\text{Since the square root is a negative number, the equation has no solution.}
+\end{gather*}
+]>
