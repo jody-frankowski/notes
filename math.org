@@ -105,17 +105,17 @@ math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
 
 ** Chapter VII – Of Fractions in General
 *** Numerator and Denominator                                       :drill:
-SCHEDULED: <2020-10-31 Sat>
+SCHEDULED: <2021-04-27 Tue>
 :PROPERTIES:
 :ID:       acf9860e-c10a-4396-b669-4aacdf0d4a3e
-:DRILL_LAST_INTERVAL: 70.7554
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 178.1621
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-21 Fri 14:36]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:46]
 :END:
 
 math: In a/b, a is the <[Numerator or Dividend||XXX or XXX]> and b is the
@@ -1140,18 +1140,18 @@ math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> wh
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
-SCHEDULED: <2020-10-31 Sat>
+SCHEDULED: <2021-02-16 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 50.414
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 108.3901
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-11 Fri 13:10]
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:47]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
@@ -2388,17 +2388,17 @@ SCHEDULED: <2020-11-06 Fri>
 math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
 
 *** Factor Prime Trinomial                                          :drill:
-SCHEDULED: <2020-10-31 Sat>
+SCHEDULED: <2020-12-11 Fri>
 :PROPERTIES:
 :ID:       ea6f6f3c-02e9-4f95-869e-f9c22ec8c1b6
-:DRILL_LAST_INTERVAL: 19.5317
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 40.665
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-11 Sun 14:06]
+:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:49]
 :END:
 
 math: Factor y^2 − 6y + 15
@@ -2460,35 +2460,35 @@ Factor by grouping:
 
 ** 7.4 Factor Special Products
 *** Sum of Cubes Pattern                                            :drill:
-SCHEDULED: <2020-10-31 Sat>
+SCHEDULED: <2020-12-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       76024c21-d10c-4127-aa2f-a20a2b93ed89
-:DRILL_LAST_INTERVAL: 19.0404
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 39.6421
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:42]
+:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:50]
 :END:
 
 math: pattern: <[a^3 + b^3]> = <[(a + b)(a^2 - ab + b^2)]>
 
 *** Difference of Cubes Pattern                                     :drill:
-SCHEDULED: <2020-10-31 Sat>
+SCHEDULED: <2020-12-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       adb2e8ce-1d30-4063-aad4-ab9554dae73c
-:DRILL_LAST_INTERVAL: 19.0404
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 39.6421
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:45]
+:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:48]
 :END:
 
 math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
