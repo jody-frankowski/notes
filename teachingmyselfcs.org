@@ -3,6 +3,7 @@
 :SOURCE: https://melpa.org/#/sicp https://github.com/sarabander/sicp-pdf https://github.com/sarabander/sicp
 :END:
 :LOGBOOK:
+CLOCK: [2020-11-01 Sun 10:03]--[2020-11-01 Sun 13:03] =>  3:00
 CLOCK: [2020-10-30 Fri 10:05]--[2020-10-30 Fri 14:05] =>  4:00
 CLOCK: [2020-10-27 Tue 12:13]--[2020-10-27 Tue 15:13] =>  3:00
 CLOCK: [2020-10-25 Sun 13:53]--[2020-10-25 Sun 16:53] =>  3:00
