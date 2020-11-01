@@ -3245,10 +3245,10 @@ p = 2 \text{ or } p = 1
 :PROPERTIES:
 :END:
 
-math: Solve $\sqrt{9k − 2} + 1 = 0$
+math: Solve $\sqrt{9k - 2} + 1 = 0$
 <[
 \begin{gather*}
-\sqrt{9k − 2} = -1 \\
+\sqrt{9k - 2} = -1 \\
 \text{Since the square root is a negative number, the equation has no solution.}
 \end{gather*}
 ]>
