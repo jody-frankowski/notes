@@ -2114,18 +2114,18 @@ vim: The mode in which you are after typing an operator (eg. =d=) is called
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
 *** <C-h>                                                              :drill:
-SCHEDULED: <2020-11-01 Sun>
+SCHEDULED: <2021-04-06 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 65.0281
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 156.1975
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.736
-:DRILL_EASE: 2.48
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-28 Fri 11:19]
+:DRILL_AVERAGE_QUALITY: 3.699
+:DRILL_EASE: 2.34
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:44]
 :END:
 
 vim: <[Delete back one character in insert mode]> with <[<C-h>]>
@@ -2548,17 +2548,17 @@ Use the search motion without the visual selection because the search motion
 is exclusive while the visual selection by default is not.
 
 *** Use the Search Command to Move Around                           :drill:
-SCHEDULED: <2020-11-01 Sun>
+SCHEDULED: <2021-01-02 Sat>
 :PROPERTIES:
 :ID:       4a83776b-8744-448f-9eb2-146d33d8503f
-:DRILL_LAST_INTERVAL: 55.56
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 62.3939
+:DRILL_REPEATS_SINCE_FAIL: 14
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.909
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.913
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-06 Sun 14:05]
+:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:55]
 :END:
 
 vim: best practice: Use the Search Command to Move Around
@@ -3827,17 +3827,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2020-11-01 Sun>
+SCHEDULED: <2020-11-10 Tue>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 6.9562
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 9.3213
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.237
+:DRILL_AVERAGE_QUALITY: 3.272
 :DRILL_EASE: 1.34
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:22]
+:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:43]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
@@ -4428,18 +4428,18 @@ SCHEDULED: <2020-11-23 Mon>
 go: <[defer FUNC()]> = Defer the call of FUNC to the end of the current scope
 
 *** Select                                                          :drill:
-SCHEDULED: <2020-11-01 Sun>
+SCHEDULED: <2020-11-09 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       728c09dd-0dcc-4280-8155-aa9d10aa7607
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 8.0657
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:07]
+:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:43]
 :END:
 
 go: <[Wait on channel communications]> with <[select]>
