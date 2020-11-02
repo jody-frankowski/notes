@@ -70,18 +70,18 @@ math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, �
 
 ** Chapter III – Of the Multiplication of Simple Quantities
 *** Associative Property                                            :drill:
-SCHEDULED: <2020-11-02 Mon>
+SCHEDULED: <2020-11-11 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e34cc3b6-7090-4234-8f0c-a77066180051
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 8.7049
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-29 Thu 11:37]
+:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:49]
 :END:
 
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
@@ -882,18 +882,18 @@ SCHEDULED: <2021-02-01 Mon>
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
 
 *** Rate                                                           :drill:
-SCHEDULED: <2020-11-02 Mon>
+SCHEDULED: <2021-01-11 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
-:DRILL_LAST_INTERVAL: 37.2836
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 70.0559
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.182
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-26 Sat 12:40]
+:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:56]
 :END:
 
 math: A <[Rate]> is <[a fraction of two numbers with different units]>
@@ -1276,18 +1276,18 @@ SCHEDULED: <2020-11-23 Mon>
 math: The sum of a triangle angles = <[180°]>
 
 *** Trapezoid                                                       :drill:
-SCHEDULED: <2020-11-02 Mon>
+SCHEDULED: <2020-11-09 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9a5fabdb-c6dc-4f53-9e0c-9a8cf500e75c
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 7.05
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.94
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-29 Thu 11:36]
+:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:49]
 :END:
 
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>

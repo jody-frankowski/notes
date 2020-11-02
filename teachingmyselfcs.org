@@ -2006,12 +2006,22 @@ way to make `expmod' signal is to have it return 0.
 
 *** 1.3 Formulating Abstractions with Higher-Order Procedures
 **** Higher-Order Procedures                                       :drill:
+SCHEDULED: <2020-11-06 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       a24f5a64-e8f8-45e4-a25c-7e19054919dd
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:55]
 :END:
 
 cs: Procedures that <[take procedures as arguments or return procedures]> are called <[Higher-Order
-Procedures]
+Procedures]>
 
 **** 1.3.1 Procedures as Arguments
 ***** Exercise 1.29
@@ -2867,17 +2877,17 @@ SCHEDULED: <2021-01-02 Sat>
 vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2020-11-02 Mon>
+SCHEDULED: <2020-11-06 Fri>
 :PROPERTIES:
 :ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 3.752
+:DRILL_LAST_INTERVAL: 3.874
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 55
-:DRILL_FAILURE_COUNT: 12
-:DRILL_AVERAGE_QUALITY: 2.781
-:DRILL_EASE: 1.16
+:DRILL_TOTAL_REPEATS: 57
+:DRILL_FAILURE_COUNT: 13
+:DRILL_AVERAGE_QUALITY: 2.771
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-29 Thu 11:36]
+:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:56]
 :END:
 
 vim: best practice: Use the Search Command to Modify (after an operator)
