@@ -3303,3 +3303,56 @@ math: Solve $\sqrt{9k - 2} + 1 = 0$
 \text{Since the square root is a negative number, the equation has no solution.}
 \end{gather*}
 ]>
+
+*** Solve a Radical Equation with an Extraneous Solution            :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $\sqrt{r + 4} - r + 2 = 0$
+<[
+\begin{gather*}
+\sqrt{r + 4} = r - 2 \\
+r + 4 = r^2 - 4r + 4 \\
+0 = r^2 - 5r \\
+0 = r(r - 5) \\
+r = 0 \text{ or } r = 5 \\
+\\
+\text{Check the solutions for a possibly extraneous one:} \\
+\sqrt{0 + 4} - 0 + 2 = 0 \\
+2 + 2 = 0 \\
+4 \neq 0 \text{, 0 is an extraneous solution} \\
+\\
+\sqrt{5 + 4} - 5 + 2 = 0 \\
+3 - 5 + 2 = 0 \\
+0 = 0 \\
+\\
+\text{Solution: r = 5}
+\end{gather*}
+]>
+
+** 9.7 Higher Roots
+*** nth Root                                                        :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: If <[a^n = b]> then <[a is an nth root of b]>
+
+*** nth Root Index                                                  :drill:
+:PROPERTIES:
+:END:
+
+math: In $\sqrt[n]{x}$ n is called <[the Index]>
+
+*** Real or Imaginary Roots                                         :drill:
+:PROPERTIES:
+:END:
+
+math: State the type of the root of $\sqrt[n]{x}$ depending on x:
+<[
+- If n is even
+  - and x >= 0 then the root is a real number
+  - and x < 0 then the root is an imaginary number
+- If n is odd
+  - The root is always a real number
+]>
