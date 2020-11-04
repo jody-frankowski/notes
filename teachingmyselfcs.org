@@ -2194,6 +2194,84 @@ b. We did a recursive procedure first, so here's the iterative version:
 #+RESULTS:
 : #t
 
+***** Exercise 1.32
+
+*Exercise 1.32:*
+a. Show that `sum' and `product' (*Note Exercise 1-31::) are
+both special cases of a still more general notion called
+`accumulate' that combines a collection of terms, using some
+general accumulation function:
+
+#+BEGIN_SRC scheme
+(accumulate combiner null-value term a next b)
+#+END_SRC
+
+    `Accumulate' takes as arguments the same term and range
+    specifications as `sum' and `product', together with a
+    `combiner' procedure (of two arguments) that specifies how
+    the current term is to be combined with the accumulation of
+    the preceding terms and a `null-value' that specifies what
+    base value to use when the terms run out.  Write `accumulate'
+    and show how `sum' and `product' can both be defined as
+    simple calls to `accumulate'.
+
+  b. If your `accumulate' procedure generates a recursive process,
+    write one that generates an iterative process.  If it
+    generates an iterative process, write one that generates a
+    recursive process.
+
+**** Solution
+
+a.
+
+#+BEGIN_SRC scheme :results value :session
+(define (accumulate combiner null-value term a next b)
+  (if (> a b)
+      null-value
+      (combiner (term a)
+                (accumulate combiner null-value term (next a) next b))))
+
+(define (product term a next b)
+  (accumulate * 1 term a next b))
+
+(define (sum term a next b)
+  (accumulate + 0 term a next b))
+
+(define (identity x) x)
+(define (inc n) (+ n 1))
+
+(define (factorial n)
+  (product identity 1 inc n))
+
+(define (nth-triangle-number n)
+  (sum identity 0 inc n))
+
+(and (= (factorial 0) 1)
+     (= (factorial 1) 1)
+     (= (factorial 2) 2)
+     (= (factorial 3) 6)
+     (= (factorial 4) 24)
+     (= (nth-triangle-number 0) 0)
+     (= (nth-triangle-number 1) 1)
+     (= (nth-triangle-number 2) 3)
+     (= (nth-triangle-number 3) 6)
+     (= (nth-triangle-number 4) 10))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+b.
+
+#+BEGIN_SRC scheme
+(define (accumulate combiner null-value term a next b)
+  (define (iter a result)
+    (if (> a b)
+        result
+        (iter (next a) (combiner result (term a)))))
+  (iter a null-value))
+#+END_SRC
+
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
 :SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
