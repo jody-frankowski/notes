@@ -2220,7 +2220,7 @@ general accumulation function:
     generates an iterative process, write one that generates a
     recursive process.
 
-**** Solution
+****** Solution
 
 a.
 
