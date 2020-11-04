@@ -2273,6 +2273,157 @@ b.
   (iter a null-value))
 #+END_SRC
 
+***** Exercise 1.33
+
+*Exercise 1.33:* You can obtain an even more general version of
+`accumulate' (*Note Exercise 1-32::) by introducing the notion of
+a "filter" on the terms to be combined.  That is, combine only
+those terms derived from values in the range that satisfy a
+specified condition.  The resulting `filtered-accumulate'
+abstraction takes the same arguments as accumulate, together with
+an additional predicate of one argument that specifies the filter.
+Write `filtered-accumulate' as a procedure.  Show how to express
+the following using `filtered-accumulate':
+
+  a. the sum of the squares of the prime numbers in the interval a
+    to b (assuming that you have a `prime?' predicate already
+    written)
+
+  b. the product of all the positive integers less than n that are
+    relatively prime to n (i.e., all positive integers i < n such
+    that GCD(i,n) = 1).
+
+****** Solution
+
+a.
+
+#+BEGIN_SRC scheme :results value :session
+(define (next n)
+  (if (= n 2)
+      3
+      (+ n 2)))
+
+(define (divides? a b)
+  (= (remainder b a) 0))
+
+(define (find-divisor n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor n (next test-divisor)))))
+
+(define (smallest-divisor n)
+  (find-divisor n 2))
+
+(define (prime? n)
+  (= n (smallest-divisor n)))
+
+(define (filtered-accumulate filter combiner null-value term a next b)
+  (define (iter a result)
+    (if (> a b)
+        result
+        (iter (next a)
+              (if (filter a)
+                  (combiner result (term a))
+                  result))))
+  (iter a null-value))
+
+(define (sum-of-squares-of-primes a b)
+  (define (filter a)
+    (prime? a))
+  (define (term n)
+    (* n n))
+  (define (next n) (+ n 1))
+  (filtered-accumulate filter + 0 term a next b))
+
+(and (= (sum-of-squares-of-primes 2 6) 38)
+     (= (sum-of-squares-of-primes 2 10) 87))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+b.
+
+#+BEGIN_SRC scheme :results value :session
+(define (filtered-accumulate filter combiner null-value term a next b)
+  (define (iter a result)
+    (if (> a b)
+        result
+        (iter (next a)
+              (if (filter a)
+                  (combiner result (term a))
+                  result))))
+  (iter a null-value))
+
+  (define (gcd a b)
+    (if (= b 0)
+        a
+        (gcd b (remainder a b))))
+(define (product-of-relative-primes n)
+  (define (filter a)
+    (= (gcd a n) 1))
+  (define (identity x) x)
+  (define (next n) (+ n 1))
+  (filtered-accumulate filter * 1 identity 1 next (- n 1)))
+
+(and (= (product-of-relative-primes 3) 2)
+     (= (product-of-relative-primes 5) 24)
+     (= (product-of-relative-primes 10) 189))
+#+END_SRC
+
+#+RESULTS:
+: #t
+
+***** Exercise 1.34
+
+*Exercise 1.34:* Suppose we define the procedure
+
+#+BEGIN_SRC scheme
+(define (f g)
+    (g 2))
+#+END_SRC
+
+Then we have
+
+#+BEGIN_SRC scheme
+(f square)
+4
+
+(f (lambda (z) (* z (+ z 1))))
+6
+#+END_SRC
+
+What happens if we (perversely) ask the interpreter to evaluate
+the combination `(f f)'?  Explain.
+
+****** Solution
+
+The code would be expanded as follows:
+#+BEGIN_SRC scheme
+(f f)
+(f 2)
+(2 2)
+#+END_SRC
+
+It would result in an error because =2= is not a function:
+
+#+BEGIN_SRC scheme :results output :session
+(define (f g)
+  (g 2))
+(f f)
+#+END_SRC
+
+#+RESULTS:
+:
+: ;The object 2 is not applicable.
+: ;To continue, call RESTART with an option number:
+: ; (RESTART 4) => Specify a procedure to use in its place.
+: ; (RESTART 3) => Return to read-eval-print level 3.
+: ; (RESTART 2) => Return to read-eval-print level 2.
+: ; (RESTART 1) => Return to read-eval-print level 1.
+:
+: 4 error>
+
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
 :SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
