@@ -190,18 +190,18 @@ math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
 fraction]>
 
 *** Mixed Number Notation                                           :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-24 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 9.0845
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 19.5317
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.375
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:26]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:23]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
@@ -796,53 +796,53 @@ SCHEDULED: <2020-11-05 Thu>
 math: <[Mean]> aka <[Arithmetic Average]>
 
 *** Mean Formula                                                    :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2021-03-06 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4f2c4fb-8b35-47d1-aa33-b9b4cc36411a
-:DRILL_LAST_INTERVAL: 56.7725
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 122.0609
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-08 Tue 15:08]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:26]
 :END:
 
 math: <[Mean]> = <[Sum of all the Values / The Number of Values]>
 
 *** Median Formula                                                    :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2021-03-06 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e9f8a858-908e-4576-bdd9-7ecbc0b92ad1
-:DRILL_LAST_INTERVAL: 56.7725
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 122.0609
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-08 Tue 15:06]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:30]
 :END:
 
 math: <[Median]> = <[The middle value when there is an odd number of them. The mean of the two
 middle values otherwise]>
 
 *** Mode Formula                                                    :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f5f81d68-9579-4324-bbc1-329310af7056
-:DRILL_LAST_INTERVAL: 56.7725
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-08 Tue 15:07]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:40]
 :END:
 
 math: <[Mode]> = <[The number with the highest frequency]>
@@ -951,17 +951,17 @@ SCHEDULED: <2020-11-05 Thu>
 math: <[Radical Sign]> aka <[Root Symbol]>
 
 *** Principal Root                                                  :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2021-03-18 Thu>
 :PROPERTIES:
 :ID:       7216aba9-4fdc-46f6-90d6-35bd2129ded6
-:DRILL_LAST_INTERVAL: 56.7603
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 133.9543
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_AVERAGE_QUALITY: 3.8
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-08 Tue 15:07]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:33]
 :END:
 
 math: $\sqrt{x^2}$ = <[|x|]>
@@ -1293,17 +1293,17 @@ SCHEDULED: <2020-11-09 Mon>
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
 
 *** Trapezoid Area                                                  :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 52.9618
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-12 Sat 13:29]
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:41]
 :END:
 
 math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
@@ -2000,18 +2000,18 @@ SCHEDULED: <2020-12-19 Sat>
 math: <[Dependent]> Equations have <[the same solutions]>
 
 *** Independent Equations                                           :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-21 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       da58f785-9495-4e7d-8a71-666d19435483
-:DRILL_LAST_INTERVAL: 8.0579
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 16.7765
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-27 Tue 11:42]
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:22]
 :END:
 
 math: <[Independent]> Equations have <[different solutions]>
@@ -2270,17 +2270,17 @@ math: <[(a/b)^-n]> = <[(b/a)^n]>
 
 ** 7.1 Greatest Common Factor and Factor by Grouping
 *** Factor out the GCF                                              :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :ID:       42351cda-0582-40cc-a774-5c2667c862a1
-:DRILL_LAST_INTERVAL: 23.445
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.7603
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:44]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:32]
 :END:
 
 math: Factor 4y^2 + 24y + 28
@@ -2768,18 +2768,18 @@ SCHEDULED: <2020-11-08 Sun>
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
 
 *** Rational Fraction                                               :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-12-15 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       218cb650-a999-4ddd-8455-973fa37fe139
-:DRILL_LAST_INTERVAL: 19.5317
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 40.665
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-15 Thu 12:44]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:26]
 :END:
 
 math: <[Rational Expression]> aka <[Rational Fraction]>
@@ -3305,7 +3305,17 @@ math: Solve $\sqrt{9k - 2} + 1 = 0$
 ]>
 
 *** Solve a Radical Equation with an Extraneous Solution            :drill:
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
+:ID:       f9ee9c80-0ee3-4157-960d-5704d6964984
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:28]
 :END:
 
 math: Solve $\sqrt{r + 4} - r + 2 = 0$
@@ -3332,23 +3342,53 @@ r = 0 \text{ or } r = 5 \\
 
 ** 9.7 Higher Roots
 *** nth Root                                                        :drill:
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       0e5e9d5e-07eb-4a19-9815-5ce4a10fc305
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:25]
 :END:
 
-math: If <[a^n = b]> then <[a is an nth root of b]>
+math: If <[a^n = b]> then a is <[an nth root of b]>
 
 *** nth Root Index                                                  :drill:
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
+:ID:       923cfaa8-0c94-4b80-ac87-a372f1c4d71f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:23]
 :END:
 
 math: In $\sqrt[n]{x}$ n is called <[the Index]>
 
 *** Real or Imaginary Roots                                         :drill:
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
+:ID:       028467c5-b933-46c6-b46f-c8a99d753191
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:35]
 :END:
 
-math: State the type of the root of $\sqrt[n]{x}$ depending on x:
+math: State the type of the root of $\sqrt[n]{x}$ depending on n and x:
 <[
 - If n is even
   - and x >= 0 then the root is a real number

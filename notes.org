@@ -4259,19 +4259,19 @@ SCHEDULED: <2021-05-25 Tue>
 floating point: ULP aka <[Unit in the Last Place]>
 
 ***** What                                                        :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-16 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://en.wikipedia.org/wiki/Unit_in_the_last_place
 :ID:       4d359fed-433e-40c8-90f3-6946e7c5b240
-:DRILL_LAST_INTERVAL: 9.9625
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 11.5565
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.05
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:23]
+:DRILL_AVERAGE_QUALITY: 3.095
+:DRILL_EASE: 1.3
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:23]
 :END:
 
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>
@@ -7163,17 +7163,17 @@ srs: best practice: Use *Images*
 srs: best practice: Use *Mnemonic Techniques*
 
 **** Use Graphic Deletion                                          :drill:
-SCHEDULED: <2020-11-04 Wed>
+SCHEDULED: <2020-11-08 Sun>
 :PROPERTIES:
 :ID:       298e6279-44c1-4327-be5f-23384484f1a5
-:DRILL_LAST_INTERVAL: 71.0611
-:DRILL_REPEATS_SINCE_FAIL: 21
-:DRILL_TOTAL_REPEATS: 35
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.887
-:DRILL_EASE: 1.16
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 37
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 2.866
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-25 Tue 11:49]
+:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:40]
 :END:
 
 srs: best practice: Use *Graphic Deletion*
