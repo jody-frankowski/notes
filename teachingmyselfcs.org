@@ -2452,18 +2452,18 @@ vim: <[Repeat the last change]> with <[.]>
 Clear a character and enter Insert mode with =s=
 
 *** S                                                               :drill:
-SCHEDULED: <2020-11-05 Thu>
+SCHEDULED: <2022-01-28 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       faf68228-ea4f-4e5d-a866-4882306e5f40
-:DRILL_LAST_INTERVAL: 239.0161
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 449.1113
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-11 Wed 09:48]
+:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:04]
 :END:
 
 vim: <[Clear the whole line and enter Insert mode]> with <[S]>
