@@ -3405,3 +3405,41 @@ math: State the type of the root of $\sqrt[n]{x}$ depending on n and x:
 - If n is odd
   - The root is always a real number
 ]>
+
+*** Root with an Even Index                                         :drill:
+:PROPERTIES:
+:END:
+
+math: $\sqrt[4]{x^4}$ = <[$|x|$]>
+
+*** Root with an Even Index                                         :drill:
+:PROPERTIES:
+:END:
+
+math: $\sqrt[4]{48y^6}$ = <[$2|y|\sqrt[4]{3y^2}$]>
+
+*** Root of a Negative Number                                       :drill:
+:PROPERTIES:
+:END:
+
+math: $\sqrt[6]{-64}$ = <[Not a Real Number]>
+
+** 9.8 Rational Exponents
+*** Root is the same as a Rational Exponent                         :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: <[$\sqrt[n]{a}$]> = <[$a^\frac{1}{n}$]>
+
+*** Negative Rational Exponent                                      :drill:
+:PROPERTIES:
+:END:
+
+math: Simplify $16^{-\frac{3}{2}}$
+<[
+\begin{gather*}
+\frac{1}{16^\frac{3}{2}}
+\frac{1}{64}
+\end{gather*}
+]>
