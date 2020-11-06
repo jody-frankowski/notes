@@ -2424,6 +2424,286 @@ It would result in an error because =2= is not a function:
 :
 : 4 error>
 
+**** 1.3.3 Procedures as General Methods
+***** Exercise 1.35
+
+*Exercise 1.35:* Show that the golden ratio [phi] (section *Note
+1-2-2::) is a fixed point of the transformation x |-> 1 + 1/x, and
+use this fact to compute [phi] by means of the `fixed-point'
+procedure.
+
+****** Solution
+
+We have as a fixed point $x = 1 + \frac{1}{x}$ which means $x^2 - x - 1 = 0$. The solution being
+$\frac{1 + \sqrt{5}}{2}$ which is equal to $\phi$.
+
+Here is its approximation using the =fixed-point= procedure:
+
+#+BEGIN_SRC scheme :results value :session
+(define tolerance 0.00001)
+
+(define (fixed-point f first-guess)
+  (define (close-enough? v1 v2)
+    (< (abs (- v1 v2)) tolerance))
+  (define (try guess)
+    (let ((next (f guess)))
+      (if (close-enough? guess next)
+          next
+          (try next))))
+  (try first-guess))
+
+(fixed-point (lambda (x) (+ 1 (/ 1 x))) 1.0)
+#+END_SRC
+
+#+RESULTS:
+: 1.6180327868852458
+
+***** Exercise 1.36
+
+*Exercise 1.36:* Modify `fixed-point' so that it prints the
+sequence of approximations it generates, using the `newline' and
+`display' primitives shown in *Note Exercise 1-22::.  Then find a
+solution to x^x = 1000 by finding a fixed point of x |->
+`log'(1000)/`log'(x).  (Use Scheme's primitive `log' procedure,
+which computes natural logarithms.)  Compare the number of steps
+this takes with and without average damping.  (Note that you
+cannot start `fixed-point' with a guess of 1, as this would cause
+division by `log'(1) = 0.)
+
+****** Solution
+
+#+BEGIN_SRC scheme :results output :session
+(define tolerance 0.00001)
+
+(define (fixed-point f first-guess)
+  (define (close-enough? v1 v2)
+    (< (abs (- v1 v2)) tolerance))
+  (define (try guess)
+    (display guess)
+    (newline)
+    (let ((next (f guess)))
+      (if (close-enough? guess next)
+          next
+          (try next))))
+  (try first-guess))
+
+(define (average a b)
+  (/ (+ a b) 2))
+
+(fixed-point (lambda (y) (average y (/ (log 1000) (log y)))) 4.0)
+(fixed-point (lambda (y) (/ (log 1000) (log y))) 4.0)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+4.
+4.491446071165521
+4.544974650975552
+4.553746974742814
+4.555231425802502
+4.555483906560562
+4.5555268862194875
+4.
+4.9828921423310435
+4.301189432497896
+4.734933901055578
+4.442378437719526
+4.632377941509958
+4.505830646780212
+4.588735606875766
+4.533824356566501
+4.56993352418142
+4.546075272637246
+4.561789745175654
+4.55141783665413
+4.5582542120702625
+4.553744140202578
+4.556717747893265
+4.554756404545319
+4.5560497413912975
+4.5551967522618035
+4.555759257615811
+4.555388284933278
+4.555632929754932
+4.555471588998784
+4.555577989320218
+4.555507819903776
+4.555554095154945
+4.555523577416557
+4.555543703263474
+4.555530430629037
+#+end_example
+
+***** Exercise 1.37
+
+*Exercise 1.37:*
+  a. An infinite "continued fraction" is an expression of the form
+
+                    N_1
+          f = ---------------------
+                        N_2
+              D_1 + ---------------
+                            N_3
+                    D_2 + ---------
+                          D_3 + ...
+
+    As an example, one can show that the infinite continued
+    fraction expansion with the n_i and the D_i all equal to 1
+    produces 1/[phi], where [phi] is the golden ratio (described
+    in section *Note 1-2-2::).  One way to approximate an
+    infinite continued fraction is to truncate the expansion
+    after a given number of terms.  Such a truncation--a
+    so-called finite continued fraction "k-term finite continued
+    fraction"--has the form
+
+                N_1
+          -----------------
+                    N_2
+          D_1 + -----------
+                ...    N_K
+                    + -----
+                      D_K
+
+    Suppose that `n' and `d' are procedures of one argument (the
+    term index i) that return the n_i and D_i of the terms of the
+    continued fraction.  Define a procedure `cont-frac' such that
+    evaluating `(cont-frac n d k)' computes the value of the
+    k-term finite continued fraction.  Check your procedure by
+    approximating 1/[phi] using
+
+          (cont-frac (lambda (i) 1.0)
+                    (lambda (i) 1.0)
+                    k)
+
+    for successive values of `k'.  How large must you make `k' in
+    order to get an approximation that is accurate to 4 decimal
+    places?
+
+  b. If your `cont-frac' procedure generates a recursive process,
+    write one that generates an iterative process.  If it
+    generates an iterative process, write one that generates a
+    recursive process.
+
+****** Solution
+
+a.
+
+k needs to be at least equal to 11 in order to have an approximation that is accurate to 4 decimal
+places.
+
+#+BEGIN_SRC scheme :results output :session
+(define (cont-frac n d k)
+  (define (frac i)
+    (if (> i k)
+        0
+        (/ (n i) (+ (d i) (frac (+ i 1))))))
+  (frac 1))
+
+(display (cont-frac (lambda (i) 1.0)
+                    (lambda (i) 1.0)
+                    10))
+(newline)
+(display (cont-frac (lambda (i) 1.0)
+                    (lambda (i) 1.0)
+                    11))
+#+END_SRC
+
+#+RESULTS:
+: .6179775280898876
+: .6180555555555556
+
+b.
+
+Here is the iterative version:
+
+#+BEGIN_SRC scheme :results output :session
+(define (cont-frac n d k)
+  (define (loop i result)
+    (if (< i 1)
+        result
+        (loop (- i 1) (/ (n i) (+ (d i) result)))))
+  (loop k 0))
+
+(display (cont-frac (lambda (i) 1.0)
+                    (lambda (i) 1.0)
+                    11))
+#+END_SRC
+
+#+RESULTS:
+: .6180555555555556
+
+***** Exercise 1.38
+
+*Exercise 1.38:* In 1737, the Swiss mathematician Leonhard Euler
+published a memoir `De Fractionibus Continuis', which included a
+continued fraction expansion for e - 2, where e is the base of the
+natural logarithms.  In this fraction, the n_i are all 1, and the
+D_i are successively 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, ....  Write
+a program that uses your `cont-frac' procedure from *Note Exercise
+1-37:: to approximate e, based on Euler's expansion.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (cont-frac n d k)
+  (define (frac i)
+    (if (> i k)
+        0
+        (/ (n i) (+ (d i) (frac (+ i 1))))))
+  (frac 1))
+
+(cont-frac (lambda (i) 1.0)
+           (lambda (i)
+             (cond ((= (remainder i 3) 2) (- i (quotient i 3)))
+                   (else 1)))
+           1000)
+#+END_SRC
+
+#+RESULTS:
+: 0.7182818284590453
+
+***** Exercise 1.39
+
+*Exercise 1.39:* A continued fraction representation of the
+tangent function was published in 1770 by the German mathematician
+J.H. Lambert:
+
+                  x
+    tan x = ---------------
+                    x^2
+            1 - -----------
+                      x^2
+                3 - -------
+                    5 - ...
+
+where x is in radians.  Define a procedure `(tan-cf x k)' that
+computes an approximation to the tangent function based on
+Lambert's formula.  `K' specifies the number of terms to compute,
+as in *Note Exercise 1-37::.
+
+****** Solution
+
+#+BEGIN_SRC scheme :results value :session
+(define (cont-frac n d k)
+  (define (frac i)
+    (if (> i k)
+        0
+        (/ (n i) (+ (d i) (frac (+ i 1))))))
+  (frac 1))
+
+(define (tan-cf x k)
+  (cont-frac (lambda (i) (if (= i 1)
+                             x
+                             (* -1 x x)))
+             (lambda (i) (- (* i 2) 1))
+             k))
+
+(exact->inexact (tan-cf 42 100))
+#+END_SRC
+
+#+RESULTS:
+: 2.2913879924374863
+
 * Practical Vim, Second Edition, Edit Text at the Speed of Thought
 :PROPERTIES:
 :SOURCE: Practical Vim, Second Edition, Edit Text at the Speed of Thought
