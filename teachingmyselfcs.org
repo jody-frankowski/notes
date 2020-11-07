@@ -4053,18 +4053,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2020-11-07 Sat>
+SCHEDULED: <2021-02-12 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 83.7207
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 97.2835
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.118
-:DRILL_EASE: 1.2
+:DRILL_AVERAGE_QUALITY: 3.111
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-15 Sat 06:52]
+:DRILL_LAST_REVIEWED: [2020-11-07 Sat 11:55]
 :END:
 
 vim: <[Autocomplete]> the search field with
