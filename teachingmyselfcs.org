@@ -5252,18 +5252,18 @@ SCHEDULED: <2020-11-23 Mon>
 go: <[defer FUNC()]> = Defer the call of FUNC to the end of the current scope
 
 *** Select                                                          :drill:
-SCHEDULED: <2020-11-09 Mon>
+SCHEDULED: <2020-11-24 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       728c09dd-0dcc-4280-8155-aa9d10aa7607
-:DRILL_LAST_INTERVAL: 8.0657
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 15.1555
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:43]
+:DRILL_LAST_REVIEWED: [2020-11-09 Mon 12:00]
 :END:
 
 go: <[Wait on channel communications]> with <[select]>
