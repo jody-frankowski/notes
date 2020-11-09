@@ -8037,6 +8037,11 @@ then higher when he needed to scale more.
 :Source: https://hillelwayne.com/post/this-is-how-science-happens/
 :Source+: https://news.ycombinator.com/item?id=22531453
 :END:
+*** DONE Why I prefer functional programming
+:PROPERTIES:
+:Source: http://www.haskellforall.com/2020/10/why-i-prefer-functional-programming.html
+:Source+: https://news.ycombinator.com/item?id=24949882
+:END:
 ** Data Science
 *** DONE My Journey: From Psych Grad to VP of Data Science at Lazada
 :PROPERTIES:
