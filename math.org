@@ -3494,3 +3494,30 @@ math: Simplify $16^{-\frac{3}{2}}$
 \frac{1}{64}
 \end{gather*}
 ]>
+
+** 10.1 Solve Quadratic Equations Using the Square Root Property
+*** Solve a Quadratic Equation of the Form ax^2 = k Using the Square Root Property :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $x^2 - 48 = 0$
+<[
+\begin{align*}
+x^2 &= 48 \\
+x &= \pm \sqrt{48} \\
+x &= \pm 4 \sqrt{3}
+\end{align*}
+]>
+
+*** Solve a Quadratic Equation of the Form ax^2 = k Where k < 0     :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $x^2 + 24 = 0$
+<[
+\begin{gather*}
+x^2 = -24 \\
+x = \pm \sqrt{-24} \\
+\text{There is no real solution}
+\end{gather*}
+]>
