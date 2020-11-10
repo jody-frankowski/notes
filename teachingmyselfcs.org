@@ -4651,17 +4651,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2020-11-10 Tue>
+SCHEDULED: <2020-11-22 Sun>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 9.3213
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 12.4905
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.272
+:DRILL_AVERAGE_QUALITY: 3.304
 :DRILL_EASE: 1.34
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-01 Sun 09:43]
+:DRILL_LAST_REVIEWED: [2020-11-10 Tue 10:09]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
@@ -4831,18 +4831,18 @@ SCHEDULED: <2020-12-04 Fri>
 go: A slice is <[a pointer to an array segment with its length and total capacity]>
 
 *** Grow Slices                                                     :drill:
-SCHEDULED: <2020-11-10 Tue>
+SCHEDULED: <2021-04-19 Mon>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
 :ID:       b1ae0e8f-0cba-407f-b458-2274e8651bec
-:DRILL_LAST_INTERVAL: 64.9392
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 159.7504
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-06 Sun 14:08]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-10 Tue 10:29]
 :END:
 
 go: A slice can grow without reallocation if <[the underlying array segment has the capacity]>
