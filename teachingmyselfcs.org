@@ -801,6 +801,30 @@ SCHEDULED: <2021-12-09 Thu>
 
 cs: A recursive <[procedure]> can have an iterative <[process]>
 
+***** How to Design Recursive Algorithms                          :drill:
+:PROPERTIES:
+:END:
+
+cs: How to design recursive algorithms:
+<[
+- Assume the desired procedure exists BUT only solves a smaller version of the problem
+- Use that to come up with the desired solution
+- Solve the smallest problem manually (AKA stopping condition)
+
+Example, for the factorial:
+- Assume fact(n - 1) exists
+- Guess that fact(n) is n * fact(n - 1)
+- Stop the recursive with fact(1) = 1
+
+Result:
+#+BEGIN_SRC scheme
+(define (fact n)
+ (if (= n 1)                ; test for base case
+     1                      ; base case
+     (* n (fact (- n 1))))) ; recursive case
+#+END_SRC
+]>
+
 ***** Exercise 1.9
 
 *Exercise 1.9:* Each of the following two procedures defines a
