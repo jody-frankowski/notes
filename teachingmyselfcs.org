@@ -4773,22 +4773,6 @@ SCHEDULED: <2021-09-21 Tue>
 
 go: Use the =range= clause like so <[for key, value := range ARRAY]>
 
-*** Blank Identifier                                                :drill:
-SCHEDULED: <2022-06-01 Wed>
-:PROPERTIES:
-:ID:       c35586a4-ed28-4c00-9417-eeab1b3ee274
-:DRILL_LAST_INTERVAL: 608.3101
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:08]
-:END:
-
-go: The Blank Identifier is represented by <[_]>
-
 *** Variadic Function                                               :drill:
 SCHEDULED: <2020-11-26 Thu>
 :PROPERTIES:
