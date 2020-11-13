@@ -3542,3 +3542,70 @@ x = \pm \sqrt{-24} \\
 \text{There is no real solution}
 \end{gather*}
 ]>
+
+*** Solve a Quadratic Equation of the Form a(x − h)^2 = k           :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $(x - 2)^2 + 3 = 30$
+<[
+\begin{gather*}
+(x - 2)^2 = 27 \\
+x - 2 = \pm \sqrt{27} \\
+x - 2 = \pm 3 \sqrt{3} \\
+x = 2 \pm 3 \sqrt{3}
+\end{gather*}
+]>
+
+*** Solve a Quadratic Equation with a Perfect Square Trinomial      :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $p^2 - 10p + 25 = 18$
+<[
+\begin{align*}
+p^2 - 10p + 25 &= 18 \text{ is a perfect square trinomial} \\
+(p - 5)^2 &= 18 \\
+p - 5 &= \pm 3 \sqrt{2} \\
+p &= 5 \pm 3 \sqrt{2}
+\end{align*}
+]>
+
+** 10.2 Solve Quadratic Equations by Completing the Square
+*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $y^2 = 6y + 16$ by completing the square
+<[
+\begin{gather*}
+y^2 = 6y + 16 \\
+y^2 - 6y = 16 \\
+y^2 - 2 \cdot 3y + 9 = 16 + 9 \\
+(y - 3)^2 = 25 \\
+y - 3 = \pm \sqrt{25} \\
+y - 3 = \pm 5 \\
+y = 3 \pm 5 \\
+y = -2, y = 8
+\end{gather*}
+]>
+
+*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square with a Coefficient :drill:
+:PROPERTIES:
+:END:
+
+math: Solve $2x^2 - 3x = 20$
+<[
+\begin{gather*}
+2x^2 - 3x = 20 \\
+2(x^2 - \frac{3}{2}x) = 20 \\
+x^2 - \frac{3}{2}x = 10 \\
+x^2 - 2\frac{3}{4}x = 10 \\
+x^2 - 2\frac{3}{4}x + \frac{9}{16} = 10 + \frac{9}{16} \\
+x^2 - 2\frac{3}{4}x + \frac{9}{16} = \frac{169}{16} \\
+(x - \frac{3}{4})^2 = \frac{169}{16} \\
+x - \frac{3}{4} = \pm \frac{13}{4} \\
+x = \frac{3}{4} \pm \frac{13}{4} \\
+x = 4, x = -\frac{5}{2}
+\end{gather*}
+]>
