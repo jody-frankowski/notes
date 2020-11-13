@@ -802,7 +802,17 @@ SCHEDULED: <2021-12-09 Thu>
 cs: A recursive <[procedure]> can have an iterative <[process]>
 
 ***** How to Design Recursive Algorithms                          :drill:
+SCHEDULED: <2020-11-17 Tue>
 :PROPERTIES:
+:ID:       3013d589-5a12-4d44-a14b-772858c48f73
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-13 Fri 10:25]
 :END:
 
 cs: How to design recursive algorithms:
