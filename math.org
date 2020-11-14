@@ -968,18 +968,18 @@ math: $\sqrt{x^2}$ = <[|x|]>
 
 ** 7.1 Rational and Irrational Numbers
 *** Rational Numbers                                                :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2021-04-06 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5180cd88-940c-4487-bfd8-3e6c5bec0b7f
-:DRILL_LAST_INTERVAL: 61.8396
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 142.7258
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:23]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:30]
 :END:
 
 math: <[Rational Numbers]> are <[numbers that can be expressed as a fraction of two integers]>
@@ -1002,21 +1002,21 @@ SCHEDULED: <2020-11-20 Fri>
 math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
 
 *** Real Numbers                                                    :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2021-04-14 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       40e115d7-ad79-4e10-9a95-e29a2b49c9fc
-:DRILL_LAST_INTERVAL: 62.5
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 151.3125
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-13 Sun 10:29]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:16]
 :END:
 
-math: <[Real Numbers]> are <[numbers that are either rational or irrational]>
+math: <[Real Numbers]> are numbers that are <[either rational or irrational]>
 
 *** Natural Numbers Symbol                                          :drill:
 SCHEDULED: <2020-11-24 Tue>
@@ -1158,35 +1158,35 @@ math: x is the <[identity element]> of f if <[f(x, y) = y]>
 
 ** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
 *** Supplementary Angles                                            :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       dccd872d-bfa9-4269-8e1b-6d6827a355ad
-:DRILL_LAST_INTERVAL: 60.525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:51]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:31]
 :END:
 
 math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
 
 *** Complementary Angles                                            :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2021-04-10 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bb5203a4-e0dc-43d3-a711-70e1176a9d30
-:DRILL_LAST_INTERVAL: 60.525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 146.531
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_AVERAGE_QUALITY: 3.8
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:51]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:17]
 :END:
 
 math: Two angles are <[Complementary]> if <[their sum makes 90°]>
@@ -1359,17 +1359,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-11-19 Thu>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 4.8774
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.715
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.734
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-10 Tue 10:31]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 12:55]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -2804,17 +2804,17 @@ math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
 
 ** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
 *** Find the Least Common Multiple of Polynomials                   :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2021-01-10 Sun>
 :PROPERTIES:
 :ID:       9efc5ffa-fb1d-4a20-a101-5247daa64003
-:DRILL_LAST_INTERVAL: 24.21
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.7725
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-21 Wed 12:44]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:28]
 :END:
 
 math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
@@ -2878,22 +2878,22 @@ Simplify:
 
 ** 8.5 Simplify Complex Rational Expressions
 *** Complex Rational Expression                                     :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-12-25 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       466c0f83-3038-454d-b9fb-079818ad49b7
-:DRILL_LAST_INTERVAL: 19.5317
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 40.665
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:24]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:27]
 :END:
 
-math: A <[Complex Rational Expression]> is a <[rational expression in which the numerator or
-denominator contains a rational expression]>
+math: A <[Complex Rational Expression]> is a <[rational expression whose numerator or denominator
+contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
 SCHEDULED: <2020-11-21 Sat>
@@ -3209,17 +3209,17 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 ]>
 
 *** Simplify a Fraction with a Binomial                             :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-12-07 Mon>
 :PROPERTIES:
 :ID:       982c5071-d48e-4d22-abb4-7b72d5fd8795
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.7066
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 09:43]
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 12:55]
 :END:
 
 math: Simplify $\frac{4}{4 + \sqrt{2}}$
@@ -3259,17 +3259,17 @@ n = 17
 ]>
 
 *** Solve a Radical Equation with a Binomial                        :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-12-07 Mon>
 :PROPERTIES:
 :ID:       90955e3c-6a35-4b6d-bcf3-791211fed01f
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.4194
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:02]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:04]
 :END:
 
 math: Solve $\sqrt{p - 1} + 1 = p$
@@ -3294,17 +3294,17 @@ p = 2 \text{ or } p = 1 \\
 ]>
 
 *** Solve a Radical Equation with no Solution                       :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
 :ID:       521cb532-0317-4fbb-b76b-7e863ec4151f
-:DRILL_LAST_INTERVAL: 9.379
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 09:42]
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:30]
 :END:
 
 math: Solve $\sqrt{9k - 2} + 1 = 0$
@@ -3425,17 +3425,17 @@ SCHEDULED: <2020-11-19 Thu>
 math: $\sqrt[4]{x^12}$ = <[$|x^3|$]>
 
 *** Root with an Even Index                                         :drill:
-SCHEDULED: <2020-11-14 Sat>
+SCHEDULED: <2020-11-25 Wed>
 :PROPERTIES:
 :ID:       07279dc9-7f76-4d99-a28b-3b7395b0e18e
-:DRILL_LAST_INTERVAL: 4.126
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 10.641
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_AVERAGE_QUALITY: 3.4
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-10 Tue 10:30]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:01]
 :END:
 
 math: $\sqrt[4]{48y^6}$ = <[$2|y|\sqrt[4]{3y^2}$]>
@@ -3544,7 +3544,17 @@ x = \pm \sqrt{-24} \\
 ]>
 
 *** Solve a Quadratic Equation of the Form a(x − h)^2 = k           :drill:
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
+:ID:       a650506e-ca88-4c2f-a51a-1a42b36ab208
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:20]
 :END:
 
 math: Solve $(x - 2)^2 + 3 = 30$
@@ -3558,7 +3568,17 @@ x = 2 \pm 3 \sqrt{3}
 ]>
 
 *** Solve a Quadratic Equation with a Perfect Square Trinomial      :drill:
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
+:ID:       94d2361f-8a37-4ad5-9897-0d35e31aab6b
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:31]
 :END:
 
 math: Solve $p^2 - 10p + 25 = 18$
@@ -3573,7 +3593,17 @@ p &= 5 \pm 3 \sqrt{2}
 
 ** 10.2 Solve Quadratic Equations by Completing the Square
 *** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square :drill:
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
+:ID:       902418a4-c18e-450e-b299-813ce19898a2
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:19]
 :END:
 
 math: Solve $y^2 = 6y + 16$ by completing the square
@@ -3591,7 +3621,17 @@ y = -2, y = 8
 ]>
 
 *** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square with a Coefficient :drill:
+SCHEDULED: <2020-11-18 Wed>
 :PROPERTIES:
+:ID:       15792de0-ad9f-4c5f-a597-bc6f9e666c5b
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:24]
 :END:
 
 math: Solve $2x^2 - 3x = 20$
