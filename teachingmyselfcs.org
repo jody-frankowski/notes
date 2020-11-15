@@ -5289,6 +5289,7 @@ go: <[Wait on channel communications]> with <[select]>
 
 * The Go Programming Language
 :LOGBOOK:
+CLOCK: [2020-11-15 Sun 17:56]--[2020-11-15 Sun 20:56] =>  3:00
 CLOCK: [2020-10-31 Sat 15:32]--[2020-10-31 Sat 17:32] =>  2:00
 CLOCK: [2020-10-19 Mon 16:52]--[2020-10-19 Mon 19:52] =>  3:00
 CLOCK: [2020-10-18 Sun 19:57]--[2020-10-18 Sun 21:57] =>  2:00
