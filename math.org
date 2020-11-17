@@ -1390,6 +1390,16 @@ SCHEDULED: <2021-01-16 Sat>
 
 math: Sphere Volume = <[4/3 * πr^3]>
 
+*** Circle Circumference and Area and Sphere Surface and Volume     :drill:
+:PROPERTIES:
+:END:
+
+math:
+- Circle Circumference = <[$2 \pi r$]>
+- Circle Area = <[$\pi r^2$]>
+- Sphere Surface = <[$4 \pi r^2$]>
+- Sphere Volume = <[$\frac{4}{3} \pi r^3$]>
+
 *** Cylinder Surface Area                                           :drill:
 SCHEDULED: <2021-03-11 Thu>
 :PROPERTIES:
