@@ -5384,3 +5384,8 @@ SCHEDULED: <2020-11-25 Wed>
 :END:
 
 go: =STRING[0]= will access the first <[byte]> of STRING
+
+* How to Design Programs
+:LOGBOOK:
+CLOCK: [2020-11-15 Sun 13:06]--[2020-11-15 Sun 15:06] =>  2:00
+:END:
