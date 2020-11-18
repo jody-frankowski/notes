@@ -3850,18 +3850,18 @@ lowercase will overwrite the content of the register, and uppercase letters will
 append to it.
 
 *** ="0= Register                                                   :drill:
-SCHEDULED: <2020-11-18 Wed>
+SCHEDULED: <2021-02-22 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       6d656590-90ea-4e1a-8cc5-eaa80060810f
-:DRILL_LAST_INTERVAL: 52.1284
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 95.9163
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.467
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-27 Sun 13:07]
+:DRILL_AVERAGE_QUALITY: 3.438
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:43]
 :END:
 
 vim: Use the <[Yank]> register with <[="0=]>
