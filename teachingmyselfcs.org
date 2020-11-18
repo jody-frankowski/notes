@@ -5321,7 +5321,7 @@ CLOCK: [2020-08-15 Sat 16:37]--[2020-08-15 Sat 17:37] =>  1:00
 CLOCK: [2020-08-15 Sat 14:28]--[2020-08-15 Sat 15:28] =>  1:00
 :END:
 
-** 3 Basic Data Types
+** 3.5 Strings
 *** Raw String Literal                                              :drill:
 SCHEDULED: <2020-11-25 Wed>
 :PROPERTIES:
@@ -5385,6 +5385,13 @@ SCHEDULED: <2020-11-25 Wed>
 :END:
 
 go: =STRING[0]= will access the first <[byte]> of STRING
+
+** 4.1 Arrays
+*** Compare Arrays                                                  :drill:
+:PROPERTIES:
+:END:
+
+go: Arrays can be compared for equality with <[==]>
 
 * How to Design Programs
 :LOGBOOK:
