@@ -1718,18 +1718,18 @@ In C the *Translation Units* designate the source files after preprocessing
 the #includes.
 
 **** Drill                                                         :drill:
-SCHEDULED: <2020-11-19 Thu>
+SCHEDULED: <2023-04-29 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       31bebe41-3402-4e75-94b1-2cb884a6f790
-:DRILL_LAST_INTERVAL: 297.0918
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 891.2754
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.299
+:DRILL_AVERAGE_QUALITY: 4.272
 :DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-27 Mon 09:29]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-19 Thu 13:26]
 :END:
 
 c: A <[Translation Unit]> is a <[source file with its includes processed]>
