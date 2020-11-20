@@ -7568,6 +7568,11 @@ What could slow down aging:
 :Source: https://www.forbes.com/sites/davidcarpenter/2020/02/02/5-meo-dmt-the-20-minute-psychoactive-toad-experience-thats-transforming-lives/
 :Source+: https://news.ycombinator.com/item?id=22218645
 :END:
+*** DONE I should have loved biology
+:PROPERTIES:
+:Source: https://jsomers.net/i-should-have-loved-biology/
+:Source+: https://news.ycombinator.com/item?id=25136422
+:END:
 ** Books
 *** DONE Ansible for Devops
 *** DONE An Introduction to Programming in Emacs Lisp
