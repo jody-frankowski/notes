@@ -3813,3 +3813,47 @@ math: Solve a Quadratic Equation by:
 - Next trying to use the square root property
 - Finally using the quadratic formula
 ]>
+
+** 10.5 Graphing Quadratic Equations in Two Variables
+*** Parabola Orientation                                            :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: For a Quadratic Equation $y = ax^2 + bx + c$ state the parabola orientation based on ...
+<[
+- If $a > 0$ the parabola opens upward
+- If $a < 0$ the parabola opens downward
+]>
+
+*** Parabola Vertex                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: The <[Vertex]> of a Parabola is <[its highest or lowest point]>
+
+*** Parabola Vertex/Axis of Symmetry                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math: Parabola <[Vertex/Axis of Symmetry]> on the x-axis = <[$-\frac{b}{2a}$]>
+
+*** Vertex Example                                                  :drill:
+:PROPERTIES:
+:END:
+
+math: For the parabola $y = 3x^2 − 6x + 2$ find the axis of symmetry and the vertex
+<[
+\begin{gather*}
+\text{The axis of symmetry is on the x coordinate of the vertex} \\
+x_{vertex} = -\frac{b}{2a} \\
+x_{vertex} = -\frac{-6}{6} = 1 \\
+\\
+\text{Now replace $x$ by $x_{vertex}$ in the equation} \\
+y_{vertex} = 3 - 6 + 2 = -1 \\
+\\
+\text{Vertex is at (1, -1)}
+\end{gather*}
+]>
