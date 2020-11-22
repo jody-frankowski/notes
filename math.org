@@ -3899,3 +3899,69 @@ y_{vertex} = 3 - 6 + 2 = -1 \\
 \text{The Vertex is at (1, -1)}
 \end{gather*}
 ]>
+
+*** Find the Intercepts of a Parabola                               :drill:
+:PROPERTIES:
+:END:
+
+math:
+To find the x-intercepts of a Parabola, <[let y = 0 and solve for x]>
+To find the y-intercept  of a Parabola, <[let x = 0 and solve for y]>
+
+*** Intercepts Example                                              :drill:
+:PROPERTIES:
+:END:
+
+math: Find the intercepts of the parabola $y = x^2 - 2x - 8$
+<[
+\begin{gather*}
+\text{For the y-intercept, let x = 0 an solve for y} \\
+y = 0^2 - 2*0 - 8 = -8 \\
+\text{y-intercept: (0, -8)} \\
+\\
+\text{For the x-intercept, let y = 0 an solve for x} \\
+0 = x^2 - 2x - 8 \\
+0 = (x - 4)(x + 2) \\
+x = 4, x = -2 \\
+\text{x-intercepts: (4, 0), (-2, 0)}
+\end{gather*}
+]>
+
+*** Use the Discriminant to Determine the Number of x-intercepts of a Parabola :drill:
+:PROPERTIES:
+:END:
+
+math: State the number of x-intercepts of a Parabola based on its Discriminant values:
+<[
+- If $b^2 - 4ac > 0$, the parabola has two x-intercepts
+- If $b^2 - 4ac = 0$, the parabola has one x-intercept
+- If $b^2 - 4ac < 0$, the parabola has no x-intercept
+]>
+
+*** Minimum or Maximum Values of a Quadratic Equation               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: show1cloze
+:END:
+
+math:
+The <[y-coordinate of the vertex]> of the graph of a quadratic equation is the:
+<[
+- minimum value of the equation if the parabola opens upward
+- maximum value of the equation if the parabola opens downward
+]>
+
+*** Minimum or Maximum Example                                      :drill:
+:PROPERTIES:
+:END:
+
+math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x - 8$
+<[
+\begin{gather*}
+\text{$a$ is positive, so the parabola opens upward.} \\
+\text{A minimum value is to be found.} \\
+\text{The minimum value is at the Vertex} \\
+x_{vertex} = -\frac{b}{2a} = -\frac{2}{2} = -1 \\
+y_{vertex} = 1 - 2 - 8 = -9 \\
+\text{The minimum value is $-9$ and it occurs when $x = -1$}
+\end{gather*}
+]>
