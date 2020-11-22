@@ -416,17 +416,17 @@ math: proof: (a/b)/c = a/bc
 ]>
 
 *** Proof of 1/ab = 1/a * 1/b                                       :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2020-11-30 Mon>
 :PROPERTIES:
 :ID:       97dbb2f3-d591-432f-bc00-8d486a4c1815
-:DRILL_LAST_INTERVAL: 5.3391
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 7.9019
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.934
+:DRILL_AVERAGE_QUALITY: 3.001
 :DRILL_EASE: 1.48
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-17 Tue 12:20]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:25]
 :END:
 
 math: proof: 1/ab = 1/a * 1/b
@@ -1392,17 +1392,17 @@ SCHEDULED: <2021-01-16 Sat>
 math: Sphere Volume = <[4/3 * πr^3]>
 
 *** Circle Circumference and Area and Sphere Surface and Volume     :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2020-12-02 Wed>
 :PROPERTIES:
 :ID:       3781175c-a072-4322-8012-79a903f4095b
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.316
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:44]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:25]
 :END:
 
 math:
@@ -1754,18 +1754,18 @@ math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 
 <[an Identity Equation]>
 
 *** Contradiction Equation                                          :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2021-04-01 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       55e8e6e3-bbe1-424f-80d2-2ab007a13dfe
-:DRILL_LAST_INTERVAL: 56.7603
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 129.754
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-26 Sat 12:35]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:39]
 :END:
 
 math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is
@@ -1773,21 +1773,21 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2020-11-26 Thu>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:03]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:42]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
-of all the fractions]>
+of all the fractions (you need to multiply by a number that is divisible by all the denominators)]>
 
 ** 2.7 Solve Linear Inequalities
 *** Interval Notation                                               :drill:
@@ -2865,37 +2865,36 @@ math: To add rational expressions with unlike denominators:
 ]>
 
 *** Example Add and Subtract Rational Expressions with Unlike Denominators :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2020-12-01 Tue>
 :PROPERTIES:
 :ID:       46ebc6dc-bf2d-4e49-81d3-b65db7dc2ea2
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 9.16
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:53]
+:DRILL_AVERAGE_QUALITY: 3.222
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:24]
 :END:
 
-math: Simplify 4/(cd + 3c) + 1/(d^2 - 9)
+math: Simplify $\frac{4}{cd + 3c} + \frac{1}{d^2 - 9}$
 <[
-Factor the denominators:
-cd + 3c = c(d + 3)
-d^2 - 9 = (d + 3)(d - 3)
-
-Find the least common denominator:
-lcm(cd + 3c, d^2 - 9) = c(d + 3)(d - 3)
-
-Multiply the numerators and denominators by the factors the denominators were missing:
-4(d - 3)/c(d + 3)(d - 3) + c/c(d + 3)(d - 3)
-
-Add:
-4(d - 3)/c(d + 3)(d - 3) + c/c(d + 3)(d - 3)
-(4(d - 3) + c)/c(d + 3)(d - 3)
-
-Simplify:
-(4(d - 3) + c)/c(d + 3)(d - 3)
+\begin{gather*}
+\text{Factor the denominators} \\
+cd + 3c = c(d + 3) \\
+d^2 - 9 = (d + 3)(d - 3) \\
+\\
+\text{Find the least common denominator} \\
+lcm(cd + 3c, d^2 - 9) = c(d + 3)(d - 3) \\
+\\
+\text{Multiply the numerators and denominators by} \\
+\text{the factors the denominators were missing} \\
+\frac{4(d - 3)}{c(d + 3)(d - 3)} + \frac{c}{c(d + 3)(d - 3)} \\
+\\
+\text{Add} \\
+\frac{4(d - 3) + c}{c(d + 3)(d - 3)} \\
+\end{gather*}
 ]>
 
 ** 8.5 Simplify Complex Rational Expressions
@@ -3029,17 +3028,17 @@ SCHEDULED: <2020-11-27 Fri>
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
-SCHEDULED: <2020-11-22 Sun>
+SCHEDULED: <2021-01-23 Sat>
 :PROPERTIES:
 :ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.5
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:02]
+:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:39]
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
