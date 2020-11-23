@@ -1087,17 +1087,17 @@ SCHEDULED: <2020-11-29 Sun>
 math: <[Real Numbers Symbol]> = <[ℝ]>
 
 *** R includes Q which includes Z which includes N                  :drill:
-SCHEDULED: <2020-11-23 Mon>
+SCHEDULED: <2021-05-29 Sat>
 :PROPERTIES:
 :ID:       93b24ed1-591c-4195-bb9c-7c53e7b6c4a5
-:DRILL_LAST_INTERVAL: 69.1688
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 186.7558
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.4
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-15 Tue 15:05]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:49]
 :END:
 
 math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> which include
@@ -1260,17 +1260,17 @@ SCHEDULED: <2021-04-02 Fri>
 math: Triangle Area = <[1/2 * (base * height)]>
 
 *** Sum of Triangle Angles                                          :drill:
-SCHEDULED: <2020-11-23 Mon>
+SCHEDULED: <2021-05-14 Fri>
 :PROPERTIES:
 :ID:       523a5c02-8681-4abd-943b-35ae2f18d718
-:DRILL_LAST_INTERVAL: 66.5124
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 171.5355
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_AVERAGE_QUALITY: 4.2
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-17 Thu 11:11]
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:52]
 :END:
 
 math: The sum of a triangle angles = <[180°]>
@@ -2434,17 +2434,17 @@ y^2 − 6y + 15 is irreducible over the integers
 ]>
 
 *** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
-SCHEDULED: <2020-11-23 Mon>
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
 :ID:       67d66aa0-4604-47eb-8adf-92084e181526
-:DRILL_LAST_INTERVAL: 9.978
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-13 Fri 10:17]
+:DRILL_LAST_INTERVAL: 3.87
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.375
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:20]
 :END:
 
 math: Factor x^2 - 8xy + 15y^2
@@ -3901,7 +3901,17 @@ y_{vertex} = 3 - 6 + 2 = -1 \\
 ]>
 
 *** Find the Intercepts of a Parabola                               :drill:
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
+:ID:       cf4435ed-88af-4f62-8943-c4c2dd9e232f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:19]
 :END:
 
 math:
@@ -3909,17 +3919,27 @@ To find the x-intercepts of a Parabola, <[let y = 0 and solve for x]>
 To find the y-intercept  of a Parabola, <[let x = 0 and solve for y]>
 
 *** Intercepts Example                                              :drill:
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
+:ID:       4bd3225f-0039-4bef-b252-2e83607dc2e0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:22]
 :END:
 
 math: Find the intercepts of the parabola $y = x^2 - 2x - 8$
 <[
 \begin{gather*}
-\text{For the y-intercept, let x = 0 an solve for y} \\
+\text{For the y-intercept, let x = 0 and solve for y} \\
 y = 0^2 - 2*0 - 8 = -8 \\
 \text{y-intercept: (0, -8)} \\
 \\
-\text{For the x-intercept, let y = 0 an solve for x} \\
+\text{For the x-intercept, let y = 0 and solve for x} \\
 0 = x^2 - 2x - 8 \\
 0 = (x - 4)(x + 2) \\
 x = 4, x = -2 \\
@@ -3928,7 +3948,17 @@ x = 4, x = -2 \\
 ]>
 
 *** Use the Discriminant to Determine the Number of x-intercepts of a Parabola :drill:
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
+:ID:       8878a046-ffc8-4d65-8d92-28d8776304ee
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:20]
 :END:
 
 math: State the number of x-intercepts of a Parabola based on its Discriminant values:
@@ -3939,8 +3969,18 @@ math: State the number of x-intercepts of a Parabola based on its Discriminant v
 ]>
 
 *** Minimum or Maximum Values of a Quadratic Equation               :drill:
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
+:ID:       76182406-31d8-4736-862c-e90b22d0e9d1
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:53]
 :END:
 
 math:
@@ -3951,7 +3991,17 @@ The <[y-coordinate of the vertex]> of the graph of a quadratic equation is the:
 ]>
 
 *** Minimum or Maximum Example                                      :drill:
+SCHEDULED: <2020-11-27 Fri>
 :PROPERTIES:
+:ID:       7155ca1a-12f0-4cc9-ae9a-c2ce7d803a45
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:52]
 :END:
 
 math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x - 8$
@@ -3959,9 +4009,11 @@ math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x 
 \begin{gather*}
 \text{$a$ is positive, so the parabola opens upward.} \\
 \text{A minimum value is to be found.} \\
+\\
 \text{The minimum value is at the Vertex} \\
 x_{vertex} = -\frac{b}{2a} = -\frac{2}{2} = -1 \\
 y_{vertex} = 1 - 2 - 8 = -9 \\
+\\
 \text{The minimum value is $-9$ and it occurs when $x = -1$}
 \end{gather*}
 ]>
