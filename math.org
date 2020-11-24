@@ -2749,7 +2749,7 @@ SCHEDULED: <2020-11-28 Sat>
 :DRILL_LAST_REVIEWED: [2020-11-24 Tue 14:55]
 :END:
 
-math: Solve 3c^2 = 10c − 8 by factoring with the ac method
+math: Solve 3c^2 = 10c − 8 by factoring
 <[
 Write in standard form:
 3c^2 - 10c + 8 = 0
