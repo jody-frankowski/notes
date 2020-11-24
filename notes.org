@@ -6485,18 +6485,18 @@ bash: [[: =~ will do regex matching only if the argument <[isn't quoted or is a
 variable||something or something]>
 
 ****** Drill                                                     :drill:
-SCHEDULED: <2020-11-24 Tue>
+SCHEDULED: <2022-03-29 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9a5a2551-d571-4990-b263-40b49ad7f772
-:DRILL_LAST_INTERVAL: 193.3322
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 490.4838
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.001
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-15 Fri 11:50]
+:DRILL_AVERAGE_QUALITY: 3.918
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-24 Tue 14:05]
 :END:
 
 sh: [[: <[-eq]> does <[integer comparisons]>
