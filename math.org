@@ -1158,18 +1158,18 @@ math: x is the <[identity element]> of f if <[f(x, y) = y]>
 
 ** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
 *** Supplementary Angles                                            :drill:
-SCHEDULED: <2020-11-26 Thu>
+SCHEDULED: <2020-12-14 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       dccd872d-bfa9-4269-8e1b-6d6827a355ad
-:DRILL_LAST_INTERVAL: 8.3294
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 17.9082
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.428
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:40]
+:DRILL_AVERAGE_QUALITY: 3.374
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-26 Thu 12:39]
 :END:
 
 math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
@@ -1774,17 +1774,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2020-11-26 Thu>
+SCHEDULED: <2020-12-05 Sat>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.379
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:42]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-26 Thu 12:35]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
