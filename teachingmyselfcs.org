@@ -5415,6 +5415,7 @@ SCHEDULED: <2020-12-03 Thu>
 
 go: Arrays can be compared for equality with <[==]>
 
+** 4.2 Slices
 *** Extend a Slice to its Capacity                                  :drill:
 SCHEDULED: <2020-12-06 Sun>
 :PROPERTIES:
@@ -5447,6 +5448,55 @@ SCHEDULED: <2020-12-06 Sun>
 :END:
 
 go: Append SLICE2 to a SLICE with <[SLICE = append(SLICE, SLICE2...)]>
+
+*** Copy a Slice to Another                                         :drill:
+SCHEDULED: <2020-12-01 Tue>
+:PROPERTIES:
+:ID:       bd64d40e-cdd8-4372-b650-f5eb77691c66
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:07]
+:END:
+
+go: Copy elements of SLICE2 to SLICE with <[copy(SLICE, SLICE2)]>
+
+** 4.3. Maps
+*** Accessing an Absent Key in a Map                                :drill:
+SCHEDULED: <2020-12-01 Tue>
+:PROPERTIES:
+:ID:       0152e17a-4518-4306-8184-fd42a95839be
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:08]
+:END:
+
+go: Accessing an absent key in a map yields <[its zero value]>
+
+*** Check That an Element is in a Map                               :drill:
+SCHEDULED: <2020-12-01 Tue>
+:PROPERTIES:
+:ID:       370c813d-81da-4262-9808-e0b0a61822c1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:07]
+:END:
+
+go: Check that KEY is in MAP with <[_, ok := MAP[KEY]]>
 
 * How to Design Programs
 :LOGBOOK:

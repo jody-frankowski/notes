@@ -2434,17 +2434,17 @@ y^2 − 6y + 15 is irreducible over the integers
 ]>
 
 *** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-06 Sun>
 :PROPERTIES:
 :ID:       67d66aa0-4604-47eb-8adf-92084e181526
-:DRILL_LAST_INTERVAL: 3.87
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 8.6959
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:20]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 08:56]
 :END:
 
 math: Factor x^2 - 8xy + 15y^2
@@ -2582,17 +2582,17 @@ math: Factor 27q^2 - 3
 ]>
 
 *** Factor a^3 + b^3                                                :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2021-02-05 Fri>
 :PROPERTIES:
 :ID:       f3867e78-22c0-4b44-9cf9-f980765b508b
-:DRILL_LAST_INTERVAL: 27.8236
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 70.4772
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-30 Fri 09:49]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:09]
 :END:
 
 math: Factor x^3 + 64
@@ -2993,18 +2993,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 7.05
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 12.831
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.833
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 2.857
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-20 Fri 11:02]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:05]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -3012,18 +3012,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-10 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 7.05
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 12.831
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.833
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 2.857
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-20 Fri 11:04]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:06]
 :END:
 
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
@@ -3316,17 +3316,17 @@ p = 2 \text{ or } p = 1 \\
 ]>
 
 *** Solve a Radical Equation with no Real Solution                  :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-17 Thu>
 :PROPERTIES:
 :ID:       521cb532-0317-4fbb-b76b-7e863ec4151f
-:DRILL_LAST_INTERVAL: 8.5921
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 19.8306
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:38]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:04]
 :END:
 
 math: Solve $\sqrt{9k - 2} + 1 = 0$
@@ -3901,17 +3901,17 @@ y_{vertex} = 3 - 6 + 2 = -1 \\
 ]>
 
 *** Find the Intercepts of a Parabola                               :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-07 Mon>
 :PROPERTIES:
 :ID:       cf4435ed-88af-4f62-8943-c4c2dd9e232f
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:19]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:05]
 :END:
 
 math:
@@ -3919,17 +3919,17 @@ To find the x-intercepts of a Parabola, <[let y = 0 and solve for x]>
 To find the y-intercept  of a Parabola, <[let x = 0 and solve for y]>
 
 *** Intercepts Example                                              :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-07 Mon>
 :PROPERTIES:
 :ID:       4bd3225f-0039-4bef-b252-2e83607dc2e0
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:22]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 08:53]
 :END:
 
 math: Find the intercepts of the parabola $y = x^2 - 2x - 8$
@@ -3948,17 +3948,17 @@ x = 4, x = -2 \\
 ]>
 
 *** Use the Discriminant to Determine the Number of x-intercepts of a Parabola :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-07 Mon>
 :PROPERTIES:
 :ID:       8878a046-ffc8-4d65-8d92-28d8776304ee
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 12:20]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 08:54]
 :END:
 
 math: State the number of x-intercepts of a Parabola based on its Discriminant values:
@@ -3969,39 +3969,38 @@ math: State the number of x-intercepts of a Parabola based on its Discriminant v
 ]>
 
 *** Minimum or Maximum Values of a Quadratic Equation               :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-01 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       76182406-31d8-4736-862c-e90b22d0e9d1
-:DRILL_LAST_INTERVAL: 3.874
+:DRILL_LAST_INTERVAL: 3.752
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:53]
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:10]
 :END:
 
-math:
-The <[y-coordinate of the vertex]> of the graph of a quadratic equation is the:
+math: The <[y-coordinate of the vertex]> of the graph of a quadratic equation is the:
 <[
 - minimum value of the equation if the parabola opens upward
 - maximum value of the equation if the parabola opens downward
 ]>
 
 *** Minimum or Maximum Example                                      :drill:
-SCHEDULED: <2020-11-27 Fri>
+SCHEDULED: <2020-12-06 Sun>
 :PROPERTIES:
 :ID:       7155ca1a-12f0-4cc9-ae9a-c2ce7d803a45
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.379
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-23 Mon 11:52]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:06]
 :END:
 
 math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x - 8$
