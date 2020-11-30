@@ -4916,17 +4916,17 @@ sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not
 '2>&1 >FILE'||... and not ...]>
 
 *** Tilde Expansion                                                 :drill:
-SCHEDULED: <2020-11-30 Mon>
+SCHEDULED: <2021-09-28 Tue>
 :PROPERTIES:
 :ID:       f925f9f5-c75b-43bb-b385-f7200ca5e3d1
-:DRILL_LAST_INTERVAL: 142.8596
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 301.5766
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-10 Fri 08:42]
+:DRILL_LAST_REVIEWED: [2020-11-30 Mon 11:07]
 :END:
 
 sh: The Tilde character <[isn't]> expanded in double-quote strings
@@ -5339,17 +5339,17 @@ unix: perms: With =chmod= the set-user-ID, set-group-ID and sticky bits can be
 set with the symbolic representations <[u+s, g+s and +t]>
 
 ***** Setuid and Setgid Bit on Executable Files Change the Effective ID :drill:
-SCHEDULED: <2020-11-30 Mon>
+SCHEDULED: <2022-08-18 Thu>
 :PROPERTIES:
 :ID:       0d28ce4f-3da7-47b2-83bf-a66fae3d283a
-:DRILL_LAST_INTERVAL: 274.5844
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 626.0524
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.726
+:DRILL_AVERAGE_QUALITY: 3.749
 :DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-29 Sat 13:40]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-11-30 Mon 11:07]
 :END:
 
 unix: perms: What process id does the setuid or setgid bit on an executable file
