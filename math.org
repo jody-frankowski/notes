@@ -475,18 +475,18 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 
 ** 2.5 Prime Factorization and the Least Common Multiple
 *** Least Common Multiple                                           :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2021-02-10 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       4dff26b9-8699-4af0-8dba-8de3d1ee6eb1
-:DRILL_LAST_INTERVAL: 40.6242
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 70.1174
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.62
+:DRILL_AVERAGE_QUALITY: 3.154
+:DRILL_EASE: 1.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-22 Thu 13:36]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:48]
 :END:
 
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
@@ -1360,17 +1360,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-11 Fri>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 7.3551
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 9.2233
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.883
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-25 Wed 12:54]
+:DRILL_AVERAGE_QUALITY: 2.89
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:42]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -1392,17 +1392,17 @@ SCHEDULED: <2021-01-16 Sat>
 math: Sphere Volume = <[4/3 * πr^3]>
 
 *** Circle Circumference and Area and Sphere Surface and Volume     :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-29 Tue>
 :PROPERTIES:
 :ID:       3781175c-a072-4322-8012-79a903f4095b
-:DRILL_LAST_INTERVAL: 10.316
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 26.605
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:25]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:51]
 :END:
 
 math:
@@ -3140,17 +3140,17 @@ SCHEDULED: <2021-01-29 Fri>
 math: x varies inversely with y if <[x = k/y]>
 
 *** Inverse Variation Example                                       :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-12 Sat>
 :PROPERTIES:
 :ID:       58727f5e-8f45-422e-8327-fc67e255aa7c
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-28 Sat 12:14]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:43]
 :END:
 
 math: The time required to empty a tank varies inversely with the rate of pumping. It took Janet 5
@@ -3674,17 +3674,17 @@ x = 4, x = -\frac{5}{2}
 
 ** 10.3 Solve Quadratic Equations Using the Quadratic Formula
 *** Quadratic Formula                                               :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2021-01-01 Fri>
 :PROPERTIES:
 :ID:       b340d92a-0d74-41dc-a1ef-2998a76ac5fe
-:DRILL_LAST_INTERVAL: 10.9752
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.1159
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-21 Sat 11:49]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:56]
 :END:
 
 math: The solution to $ax^2 + bx + c = 0, a \neq 0$ is
@@ -3728,17 +3728,17 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 ]>
 
 *** Solve a Quadratic Equation with the Quadratic Formula           :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2021-01-01 Fri>
 :PROPERTIES:
 :ID:       d6440f5c-b861-43a9-81a5-e83488944569
-:DRILL_LAST_INTERVAL: 10.9752
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.1159
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-21 Sat 12:02]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:50]
 :END:
 
 math: Solve $\frac{1}{2}u^2 + \frac{2}{3}u = \frac{1}{3}$ by using the Quadratic Formula
@@ -3776,17 +3776,17 @@ SCHEDULED: <2020-12-24 Thu>
 math: In the Quadratic Formula, <[$b^2 - 4ac$]> is <[the Discrimant]>
 
 *** Use the Discriminant to Determine the Number of Solutions of a Quadratic Equation :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :ID:       72441153-78bc-4fb0-a1bf-19b6a6a46cb2
-:DRILL_LAST_INTERVAL: 10.9752
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 29.194
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.667
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-21 Sat 11:51]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:51]
 :END:
 
 math: State the number of solutions of a Quadratic Equation based on its Discriminant values:
@@ -3797,17 +3797,17 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 ]>
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-06 Sun>
 :PROPERTIES:
 :ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 10.641
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_LAST_INTERVAL: 4.126
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-21 Sat 11:50]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:56]
 :END:
 
 math: Solve a Quadratic Equation by:

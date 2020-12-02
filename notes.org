@@ -666,22 +666,22 @@ void test(int array[static 10])
 #+END_SRC
 
 **** Drill :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2021-01-27 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       B915C12C-9EAD-4EFB-A31E-CE3661E67194
-:DRILL_LAST_INTERVAL: 22.5062
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 56.0855
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_AVERAGE_QUALITY: 3.818
 :DRILL_EASE: 2.38
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-09 Mon 11:54]
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:55]
 :END:
 
 c: You can tell the compiler that a function argument array <[should have at
-least a specific size]>, by including the keyword <[~static~]> in its
+least a specific size]>, by including the keyword <[static]> in its
 declaration
 
 ***** Example
@@ -1442,17 +1442,17 @@ The Linkage of identifiers defines how they can refer to the same
 object/function in different scopes.
 
 ***** Possible Linkage                                            :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-17 Thu>
 :PROPERTIES:
 :ID:       e44a597b-6aee-4c72-bb06-e599bc889fd1
-:DRILL_LAST_INTERVAL: 10.3636
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 15.3381
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.267
+:DRILL_AVERAGE_QUALITY: 3.313
 :DRILL_EASE: 1.48
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:17]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:43]
 :END:
 
 c: An object or a function can have one of 3 types of linkages:
@@ -4353,17 +4353,17 @@ python: With pass-by-assignment, reassignment <[doesn't change||changes or
 doesn't change]> the outer reference
 
 **** Drill :drill:
-SCHEDULED: <2020-12-02 Wed>
+SCHEDULED: <2020-12-23 Wed>
 :PROPERTIES:
 :ID:       e08e86f6-d282-4a58-9a6b-de61e4022671
-:DRILL_LAST_INTERVAL: 14.147
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 28
+:DRILL_LAST_INTERVAL: 21.2205
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 29
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.357
+:DRILL_AVERAGE_QUALITY: 3.379
 :DRILL_EASE: 1.5
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:40]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:50]
 :END:
 
 #+BEGIN_SRC python
