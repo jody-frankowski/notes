@@ -8368,6 +8368,12 @@ ROM. AES-only boot bit blown.
 :Source: https://semiengineering.com/aging-problems-at-5nm-and-below/
 :Source+: https://news.ycombinator.com/item?id=23516959
 :END:
+*** DONE Why is Apple’s M1 Chip So Fast?
+:PROPERTIES:
+:Source: https://erik-engheim.medium.com/why-is-apples-m1-chip-so-fast-3262b158cba2
+:Source+: https://archive.is/Ja58b
+:Source+: https://news.ycombinator.com/item?id=25257932
+:END:
 ** Historical
 *** DONE https://www.youtube.com/watch?v=H62hZJVqs2o "Uptime 15,364 days - The Computers of Voyager" by Aaron Cummings
 - Voyager 1 and 2 are still up and running
