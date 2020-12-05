@@ -5090,18 +5090,18 @@ go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
 its inputs and expected results]>
 
 *** Kent Beck Quote                                                 :drill:
-SCHEDULED: <2020-12-05 Sat>
+SCHEDULED: <2020-12-12 Sat>
 :PROPERTIES:
 :SOURCE: The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
 :ID:       d2ed43e9-b02b-47dc-b52e-022a8c3fd4fe
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 6.9771
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.86
+:DRILL_AVERAGE_QUALITY: 3.315
+:DRILL_EASE: 1.72
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-01 Tue 13:22]
+:DRILL_LAST_REVIEWED: [2020-12-05 Sat 11:28]
 :END:
 
 cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not

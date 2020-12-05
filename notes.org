@@ -979,18 +979,18 @@ c: <[float||float OR double OR long double]> usually represents the
 <[IEEE 754 binary32]> type
 
 ****** double                                                    :drill:
-SCHEDULED: <2020-12-05 Sat>
+SCHEDULED: <2020-12-09 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       52e84460-d67c-40cc-9d24-731afb7aac28
-:DRILL_LAST_INTERVAL: 50.1035
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.7
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-16 Fri 12:58]
+:DRILL_LAST_INTERVAL: 3.634
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.14
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-05 Sat 11:39]
 :END:
 
 c: <[double||float OR double OR long double]> usually represents the
