@@ -7576,6 +7576,11 @@ What could slow down aging:
 :Source: https://jsomers.net/i-should-have-loved-biology/
 :Source+: https://news.ycombinator.com/item?id=25136422
 :END:
+*** DONE What is the “protein folding problem”? A brief explanation
+:PROPERTIES:
+:Source: https://rootsofprogress.org/alphafold-protein-folding-explainer
+:Source+: https://news.ycombinator.com/item?id=25261591
+:END:
 ** Books
 *** DONE Ansible for Devops
 *** DONE An Introduction to Programming in Emacs Lisp
