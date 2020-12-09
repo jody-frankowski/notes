@@ -1,3 +1,5 @@
+#+TITLE: CS
+
 * Structure and Interpretation of Computer Programs
 :PROPERTIES:
 :SOURCE: https://melpa.org/#/sicp https://github.com/sarabander/sicp-pdf https://github.com/sarabander/sicp
