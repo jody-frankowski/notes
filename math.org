@@ -1991,18 +1991,18 @@ SCHEDULED: <2020-12-17 Thu>
 math: <[A Consistent]> System of Equations has <[at least one solution]>
 
 *** Inconsistent System                                             :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2020-12-14 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d2f4d572-45a2-41af-86f3-c7248f812799
-:DRILL_LAST_INTERVAL: 47.5958
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-23 Fri 13:27]
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:11]
 :END:
 
 math: <[An Inconsistent]> System of Equations has <[no solution]>
@@ -2381,18 +2381,18 @@ So x^2 + 4x - 5 = (x + 5)(x - 1)
 ]>
 
 *** Prime Polynomial                                                :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2021-03-10 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3a59e965-e778-4dd2-bca0-7782b9c3cb0c
-:DRILL_LAST_INTERVAL: 43.3603
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 90.2761
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:05]
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:10]
 :END:
 
 math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
@@ -2487,35 +2487,35 @@ Factor by grouping:
 
 ** 7.4 Factor Special Products
 *** Sum of Cubes Pattern                                            :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2021-02-25 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       76024c21-d10c-4127-aa2f-a20a2b93ed89
-:DRILL_LAST_INTERVAL: 39.6421
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 76.9057
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.2
 :DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:50]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:07]
 :END:
 
 math: pattern: <[a^3 + b^3]> = <[(a + b)(a^2 - ab + b^2)]>
 
 *** Difference of Cubes Pattern                                     :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2021-02-25 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       adb2e8ce-1d30-4063-aad4-ab9554dae73c
-:DRILL_LAST_INTERVAL: 39.6421
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 76.9057
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.2
 :DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:48]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:07]
 :END:
 
 math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
@@ -2993,18 +2993,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 12.831
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 20.6322
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.857
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 2.875
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:05]
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:08]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -3012,18 +3012,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 12.831
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 20.6322
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.857
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 2.875
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-27 Fri 09:06]
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:11]
 :END:
 
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
@@ -3257,17 +3257,17 @@ math: Simplify $\frac{4}{4 + \sqrt{2}}$
 
 ** 9.6 Solve Equations with Square Roots
 *** Solve a Radical Equation with a Monomial                        :drill:
-SCHEDULED: <2020-12-10 Thu>
+SCHEDULED: <2020-12-14 Mon>
 :PROPERTIES:
 :ID:       41c3c9c3-1baa-4a23-9836-3cad322ff124
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.6
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-15 Sun 09:24]
+:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:11]
 :END:
 
 math: Solve $\sqrt{5n - 4} - 9 = 0$
