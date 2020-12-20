@@ -1150,18 +1150,18 @@ long
 
 ***** Types
 ****** intN_t                                                    :drill:
-SCHEDULED: <2020-12-20 Sun>
+SCHEDULED: <2023-01-24 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7E8B173A-BE02-4ED9-9796-AA3ED2B2C0E9
-:DRILL_LAST_INTERVAL: 337.0135
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 765.0206
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-18 Sat 12:40]
+:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:32]
 :END:
 
 c: <[intN_t]> is <[an integer type that is N bits]> long
@@ -3739,18 +3739,18 @@ SCHEDULED: <2021-03-29 Mon>
 linux: When the File Attribute <[i]> is set <[the file is immutable]>
 
 ***** S                                                           :drill:
-SCHEDULED: <2020-12-20 Sun>
+SCHEDULED: <2021-05-16 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4df41e8-c482-48a5-8357-4b49030436ca
-:DRILL_LAST_INTERVAL: 60.0523
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 147.1281
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.818
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-21 Wed 12:44]
+:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:34]
 :END:
 
 linux: When the File Attribute <[S]> is set <[the file modifications are written
@@ -4624,23 +4624,23 @@ SCHEDULED: <2021-11-15 Mon>
 :DRILL_LAST_REVIEWED: [2020-04-24 Fri 17:38]
 :END:
 
-python: <[=for key in dict=]> will loop over <[the keys]> of dict
+python: <[for key in dict]> will loop over <[the keys]> of dict
 
 **** Dict                                                          :drill:
-SCHEDULED: <2020-12-20 Sun>
+SCHEDULED: <2021-11-14 Sun>
 :PROPERTIES:
 :ID:       6a41804e-f0b7-4a58-8188-ffbfb8a3b305
-:DRILL_LAST_INTERVAL: 134.3541
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 329.1675
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.578
+:DRILL_AVERAGE_QUALITY: 3.599
 :DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-08 Sat 09:30]
+:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:33]
 :END:
 
-python: <[=for key,value in dict.items()=]> will loop over the keys and values
+python: <[for key,value in dict.items()]> will loop over the keys and values
 of a dict
 
 *** Order of Operations
@@ -7182,34 +7182,34 @@ SCHEDULED: <2020-12-25 Fri>
 srs: best practice: Use *Graphic Deletion*
 
 **** Avoid Sets and Enumerations                                   :drill:
-SCHEDULED: <2020-12-20 Sun>
+SCHEDULED: <2022-03-10 Thu>
 :PROPERTIES:
 :ID:       9d188185-9f08-4e01-92a1-566a4c29723b
-:DRILL_LAST_INTERVAL: 261.082
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 445.1448
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 1.76
+:DRILL_AVERAGE_QUALITY: 3.249
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-03 Fri 08:11]
+:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:33]
 :END:
 
 srs: best practice: Avoid *Sets* and *Enumerations* but use *Enumerations* if
 you really have to
 
 **** Detect and Remove Interfering Cards                           :drill:
-SCHEDULED: <2020-12-20 Sun>
+SCHEDULED: <2022-03-10 Thu>
 :PROPERTIES:
 :ID:       6bfda1c0-f4b7-4abf-8113-09a0b70f9b4b
-:DRILL_LAST_INTERVAL: 261.082
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 445.1448
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 1.76
+:DRILL_AVERAGE_QUALITY: 3.249
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-03 Fri 08:12]
+:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:34]
 :END:
 
 srs: best practice: *Detect and Remove* *Interfering* cards
