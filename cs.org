@@ -224,17 +224,17 @@ can be used to add <[properties]> to the function
 (obsolete current-name when)
 
 ***** Elisp Named Function Definition Interactive                 :drill:
-SCHEDULED: <2020-12-21 Mon>
+SCHEDULED: <2022-01-07 Fri>
 :PROPERTIES:
 :ID:       ACC72965-D448-41E9-AF6F-8FAE46D76D68
-:DRILL_LAST_INTERVAL: 155.8704
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 382.3501
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.818
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:09]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-21 Mon 12:32]
 :END:
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~
@@ -4090,17 +4090,17 @@ vim: <[Select the current or the next/previous search match]> with
 <[gn/gN]>
 
 *** C-n and C-p                                                     :drill:
-SCHEDULED: <2020-12-21 Mon>
+SCHEDULED: <2021-06-20 Sun>
 :PROPERTIES:
 :ID:       766ce35e-5068-4a29-b31d-c10ec7fd4135
-:DRILL_LAST_INTERVAL: 69.1143
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 181.0795
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-13 Tue 15:02]
+:DRILL_LAST_REVIEWED: [2020-12-21 Mon 12:33]
 :END:
 
 vim: Scroll through the Ex commands or search history with
