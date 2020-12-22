@@ -845,18 +845,18 @@ c: Suffix an *Integer Constant* with <[U]> to make its type be <[unsigned]>
 *** Compiler
 **** Flags
 ***** -Wpedantic                                                  :drill:
-SCHEDULED: <2020-12-22 Tue>
+SCHEDULED: <2023-07-11 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       00703CF1-042F-4501-90F9-C09D82B310AB
-:DRILL_LAST_INTERVAL: 403.7165
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 930.5665
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-14 Thu 13:49]
+:DRILL_LAST_REVIEWED: [2020-12-22 Tue 13:42]
 :END:
 
 c: The compiler flag <[-Wpedantic]> will warn about the usage of <[non-standard
@@ -4981,18 +4981,18 @@ SCHEDULED: <2022-08-17 Wed>
 TOCTTOU aka <[Time Of Check To Time Of Use]>
 
 *** TOCTTOU                                                         :drill:
-SCHEDULED: <2020-12-22 Tue>
+SCHEDULED: <2020-12-30 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       24629c09-4b24-4519-b6f2-af4bfefabca1
-:DRILL_LAST_INTERVAL: 3.634
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 7.5333
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.14
+:DRILL_AVERAGE_QUALITY: 3.444
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-18 Fri 10:05]
+:DRILL_LAST_REVIEWED: [2020-12-22 Tue 13:38]
 :END:
 
 A <[TOCTTOU Bug]> is a <[bug related to checking before using something]>
