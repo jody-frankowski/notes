@@ -3384,18 +3384,18 @@ sequence of other nonblank characters separated with whitespace. A WORD is
 defined as a sequence of nonblank characters separated with whitespace.
 
 *** =ge=                                                            :drill:
-SCHEDULED: <2020-12-25 Fri>
+SCHEDULED: <2021-08-24 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       97935b59-bf44-43d4-85c9-b96bc23357ac
-:DRILL_LAST_INTERVAL: 150.6261
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 242.2068
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:27]
+:DRILL_AVERAGE_QUALITY: 3.308
+:DRILL_EASE: 1.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-25 Fri 15:27]
 :END:
 
 vim: <[Move to the end of the previous word]> with <[=ge=]>
@@ -3538,18 +3538,18 @@ SCHEDULED: <2021-08-18 Wed>
 vim: <[Move a sentence backward]> with <[(]>
 
 *** =)=                                                             :drill:
-SCHEDULED: <2020-12-25 Fri>
+SCHEDULED: <2021-06-16 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ff055d09-298d-4d9f-a304-7d5bb19ad849
-:DRILL_LAST_INTERVAL: 92.3173
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 173.4642
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.455
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.417
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:33]
+:DRILL_LAST_REVIEWED: [2020-12-25 Fri 15:19]
 :END:
 
 vim: <[Move a sentence forward]> with <[)]>
