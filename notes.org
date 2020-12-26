@@ -180,69 +180,69 @@ the callstack]>
 
 *** GAS
 **** =b= suffix                                                    :drill:
-SCHEDULED: <2020-12-26 Sat>
+SCHEDULED: <2023-01-13 Fri>
 :PROPERTIES:
 :SOURCE: https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax#Operation_Suffixes
 :ID:       dba34b88-c022-4ad9-80d8-f7deb21fdf95
-:DRILL_LAST_INTERVAL: 251.1829
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 748.2739
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-19 Sun 08:56]
+:DRILL_AVERAGE_QUALITY: 4.833
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:06]
 :END:
 
 asm: gas syntax: b suffix = <[byte]> operand = <[8]> bits long operand
 
 **** =w= suffix                                                    :drill:
-SCHEDULED: <2020-12-26 Sat>
+SCHEDULED: <2022-11-29 Tue>
 :PROPERTIES:
 :SOURCE: https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax#Operation_Suffixes
 :ID:       27ee78a2-dcfb-4d1e-be64-67ba6f2cf9d9
-:DRILL_LAST_INTERVAL: 251.1829
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 702.5586
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-19 Sun 09:07]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:01]
 :END:
 
 asm: gas syntax: w suffix = <[word]> operand = <[16]> bits long operand
 
 **** =l= suffix                                                    :drill:
-SCHEDULED: <2020-12-26 Sat>
+SCHEDULED: <2022-12-21 Wed>
 :PROPERTIES:
 :SOURCE: https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax#Operation_Suffixes
 :ID:       12a5c251-ac28-437d-b50c-855becc9b19f
-:DRILL_LAST_INTERVAL: 251.1829
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 725.4162
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_AVERAGE_QUALITY: 4.667
 :DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-19 Sun 09:07]
+:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:12]
 :END:
 
 asm: gas syntax: l suffix = <[long]> operand = <[32]> bits long operand
 
 **** =q= suffix                                                    :drill:
-SCHEDULED: <2020-12-26 Sat>
+SCHEDULED: <2020-12-30 Wed>
 :PROPERTIES:
 :SOURCE: https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax#Operation_Suffixes
 :ID:       5f393cec-3a45-4523-9945-f75146e59a4f
-:DRILL_LAST_INTERVAL: 251.1829
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.285
 :DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-19 Sun 09:07]
+:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:14]
 :END:
 
 asm: gas syntax: q suffix = <[quad]> operand = <[64]> bits long operand
@@ -1298,17 +1298,17 @@ c: The function specifier *inline* specifies that <[calls to the function should
 be as fast as possible]>
 
 **** GCC Not Inlining                                              :drill:
-SCHEDULED: <2020-12-26 Sat>
+SCHEDULED: <2023-05-10 Wed>
 :PROPERTIES:
 :ID:       e72bbc4a-9044-4c65-966c-e6099aad6be5
-:DRILL_LAST_INTERVAL: 357.5277
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 865.217
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-03 Fri 07:56]
+:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:02]
 :END:
 
 c: GCC does not inline functions when <[optimizations are disabled]>
