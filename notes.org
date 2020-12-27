@@ -1167,18 +1167,18 @@ SCHEDULED: <2023-01-24 Tue>
 c: <[intN_t]> is <[an integer type that is N bits]> long
 
 ****** int_leastN_t                                              :drill:
-SCHEDULED: <2020-12-27 Sun>
+SCHEDULED: <2021-12-27 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       A6FC1263-5C53-450D-9AB1-368A9E94B636
-:DRILL_LAST_INTERVAL: 155.8704
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 365.3602
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.818
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:22]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-27 Sun 13:35]
 :END:
 
 c: <[int_leastN_t]> is <[the smallest possible]> integer type that is at least N
@@ -3904,18 +3904,18 @@ between a minimum and maximum value]>
 =bfloat16= flushes denormals to zero.
 
 ***** Sizes                                                       :drill:
-SCHEDULED: <2020-12-27 Sun>
+SCHEDULED: <2020-12-31 Thu>
 :PROPERTIES:
 :SOURCE: https://en.wikipedia.org/wiki/Bfloat16_floating-point_format
 :ID:       a47bec8b-0ec3-42b3-9e15-23fec9606689
-:DRILL_LAST_INTERVAL: 110.5158
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 22
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.41
-:DRILL_EASE: 1.96
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 24
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 3.334
+:DRILL_EASE: 1.82
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-07 Mon 08:39]
+:DRILL_LAST_REVIEWED: [2020-12-27 Sun 13:35]
 :END:
 
 floating point: The bfloat16 format has an <[8]> bits long exponent and a <[7]>
