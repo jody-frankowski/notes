@@ -1774,17 +1774,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-02-19 Fri>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 22.7066
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 53.247
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.571
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-05 Sat 11:31]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:33]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -2097,17 +2097,17 @@ math: Solving Systems of Equations by Elimination is based on the <[addition/sub
 of equality]>
 
 *** Solve a System of Equations by Elimination                                 :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-05-19 Wed>
 :PROPERTIES:
 :ID:       751753d0-461c-4e7a-9b63-04daf0114f17
-:DRILL_LAST_INTERVAL: 60.525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 141.9311
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-28 Wed 14:07]
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:36]
 :END:
 
 math: Solve the following system by Elimination:
@@ -2714,17 +2714,17 @@ SCHEDULED: <2021-03-03 Wed>
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation by Factoring                         :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-03-25 Thu>
 :PROPERTIES:
 :ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 41.9932
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 87.4298
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-16 Mon 10:29]
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:30]
 :END:
 
 math: Solve a Quadratic Equation by Factoring by:
@@ -2736,17 +2736,17 @@ math: Solve a Quadratic Equation by Factoring by:
 ]>
 
 *** Example of Solving a Quadratic Equation                         :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-01-05 Tue>
 :PROPERTIES:
 :ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 8.0657
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-24 Thu 15:48]
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:21]
 :END:
 
 math: Solve 3c^2 = 10c − 8 by factoring
@@ -3615,17 +3615,17 @@ p &= 5 \pm 3 \sqrt{2}
 
 ** 10.2 Solve Quadratic Equations by Completing the Square
 *** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-01-07 Thu>
 :PROPERTIES:
 :ID:       902418a4-c18e-450e-b299-813ce19898a2
-:DRILL_LAST_INTERVAL: 3.996
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.6623
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-24 Thu 15:48]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:22]
 :END:
 
 math: Solve $y^2 = 6y + 16$ by completing the square
@@ -3695,17 +3695,17 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 ]>
 
 *** Derivation of Quadratic Formula                                 :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-01-01 Fri>
 :PROPERTIES:
 :ID:       d1cc06c5-a7a0-433e-90b0-b1e83eec65b7
-:DRILL_LAST_INTERVAL: 26.605
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-01 Tue 13:18]
+:DRILL_LAST_INTERVAL: 3.996
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:40]
 :END:
 
 math: Derive the Quadratic Formula

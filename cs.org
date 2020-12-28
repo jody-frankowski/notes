@@ -5408,17 +5408,17 @@ go: =STRING[0]= will access the first <[byte]> of STRING
 
 ** 4.1 Arrays
 *** Compare Arrays                                                  :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-02-28 Sun>
 :PROPERTIES:
 :ID:       d5a368b4-66b5-48b0-9cd3-6212bfb2908b
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.5
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-03 Thu 12:10]
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:32]
 :END:
 
 go: Arrays can be compared for equality with <[==]>

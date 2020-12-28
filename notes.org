@@ -4096,17 +4096,17 @@ fraction is said to have <[an implicit leading bit set to 1]>
 
 ***** Values
 ****** Special Values                                            :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2021-05-09 Sun>
 :PROPERTIES:
 :ID:       44695f7f-8009-4242-b515-b6aea590c4b5
-:DRILL_LAST_INTERVAL: 56.2428
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 131.8331
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.618
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-02 Mon 13:53]
+:DRILL_AVERAGE_QUALITY: 3.59
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:31]
 :END:
 
 floating point: The value 0 is expressed with:
@@ -4882,18 +4882,18 @@ zsh: Field splitting is done:
 ]>
 
 *** Reading the Script                                              :drill:
-SCHEDULED: <2020-12-28 Mon>
+SCHEDULED: <2022-02-27 Sun>
 :PROPERTIES:
 :Source: https://unix.stackexchange.com/a/121025
 :ID:       5c38721a-b321-4033-8cf6-a31879f44bd1
-:DRILL_LAST_INTERVAL: 165.125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 425.8574
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:32]
 :END:
 
 sh: Shells <[don't always]> load the whole script in memory before executing it
