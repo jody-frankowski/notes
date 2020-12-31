@@ -934,18 +934,18 @@ SCHEDULED: <2021-03-03 Wed>
 math: A <[Perfect Square]> is a <[Square of an integer]>
 
 *** Radical Sign aka Root Symbol                                    :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-03-30 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8c22f6b2-e0e6-4d75-a93d-501d24a7f201
-:DRILL_LAST_INTERVAL: 55.5595
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 89.3397
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.111
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.1
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:05]
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:29]
 :END:
 
 math: <[Radical Sign]> aka <[Root Symbol]>
@@ -2295,17 +2295,17 @@ math: <[(a/b)^-n]> = <[(b/a)^n]>
 
 ** 7.1 Greatest Common Factor and Factor by Grouping
 *** Factor out the GCF                                              :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-05-13 Thu>
 :PROPERTIES:
 :ID:       42351cda-0582-40cc-a774-5c2667c862a1
-:DRILL_LAST_INTERVAL: 56.7603
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 133.1029
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-04 Wed 08:32]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:26]
 :END:
 
 math: Factor 4y^2 + 24y + 28
@@ -2993,18 +2993,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-02-01 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.875
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 2.889
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:08]
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:33]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -3012,18 +3012,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-02-01 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.875
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 2.889
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:11]
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:33]
 :END:
 
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
@@ -3776,17 +3776,17 @@ SCHEDULED: <2021-02-17 Wed>
 math: In the Quadratic Formula, <[$b^2 - 4ac$]> is <[the Discrimant]>
 
 *** Use the Discriminant to Determine the Number of Solutions of a Quadratic Equation :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-03-21 Sun>
 :PROPERTIES:
 :ID:       72441153-78bc-4fb0-a1bf-19b6a6a46cb2
-:DRILL_LAST_INTERVAL: 29.194
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 80.1083
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-02 Wed 14:51]
+:DRILL_AVERAGE_QUALITY: 4.75
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:48]
 :END:
 
 math: State the number of solutions of a Quadratic Equation based on its Discriminant values:
@@ -3873,17 +3873,17 @@ SCHEDULED: <2021-02-11 Thu>
 math: Parabola's <[Vertex/Axis of Symmetry]> x-coordinate = <[$-\frac{b}{2a}$]>
 
 *** Vertex Example                                                  :drill:
-SCHEDULED: <2020-12-31 Thu>
+SCHEDULED: <2021-03-08 Mon>
 :PROPERTIES:
 :ID:       75c71cc7-ca14-490a-a860-dfd38d507acc
-:DRILL_LAST_INTERVAL: 25.79
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 66.5124
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_AVERAGE_QUALITY: 4.25
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-12-05 Sat 11:29]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:47]
 :END:
 
 math: For the parabola $y = 3x^2 - 6x + 2$ find the axis of symmetry and the vertex
