@@ -3819,17 +3819,17 @@ math: Solve a Quadratic Equation by:
 
 ** 10.5 Graphing Quadratic Equations in Two Variables
 *** Parabola Orientation                                            :drill:
-SCHEDULED: <2021-01-04 Mon>
+SCHEDULED: <2021-03-23 Tue>
 :PROPERTIES:
 :ID:       7419f7e4-2329-478c-8a40-4a360967dc00
-:DRILL_LAST_INTERVAL: 29.194
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 77.656
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-06 Sun 14:12]
+:DRILL_LAST_REVIEWED: [2021-01-04 Mon 18:52]
 :END:
 
 math: For a Quadratic Equation $y = ax^2 + bx + c$ the parabola opens
