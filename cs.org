@@ -144,18 +144,18 @@ SCHEDULED: <2022-02-25 Fri>
 cs: <[Anonymous Function]> aka <[Lambda]>
 
 ***** Scheme Named Function Definition                            :drill:
-SCHEDULED: <2021-01-06 Wed>
+SCHEDULED: <2021-02-12 Fri>
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
 :ID:       732F37AC-1DF9-4165-8055-3A2A67674B99
-:DRILL_LAST_INTERVAL: 18.2543
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 33
+:DRILL_LAST_INTERVAL: 37.33
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 34
 :DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.545
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-19 Sat 09:25]
+:DRILL_AVERAGE_QUALITY: 3.529
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:01]
 :END:
 
 scheme: prototype: Define a named function:
@@ -3487,17 +3487,17 @@ vim: An *Inclusive* Character Motion means that the motion will include
 <[the start and end positions]>
 
 *** / is Exclusive                                                  :drill:
-SCHEDULED: <2021-01-06 Wed>
+SCHEDULED: <2022-05-06 Fri>
 :PROPERTIES:
 :ID:       9fe75d4a-fc16-47a7-b982-f54f0f834903
-:DRILL_LAST_INTERVAL: 240.6261
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 484.621
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-10 Sun 11:59]
+:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:05]
 :END:
 
 vim: The =/= motion is <[Exclusive||Exclusive or Inclusive]> in its selection
@@ -4610,17 +4610,17 @@ cs: The TDD Cycle steps are:
 - <[Refactor based on the current tests]>
 
 *** Test Functions                                                  :drill:
-SCHEDULED: <2021-01-06 Wed>
+SCHEDULED: <2022-06-05 Sun>
 :PROPERTIES:
 :ID:       441ea307-1788-416a-a1a9-10a86ef49f4f
-:DRILL_LAST_INTERVAL: 247.7443
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 515.3081
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.571
 :DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-03 Sun 12:23]
+:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:00]
 :END:
 
 go: Test functions need to:
@@ -5442,17 +5442,17 @@ SCHEDULED: <2021-02-16 Tue>
 go: <[Extend a slice's length to its capacity]> with <[SLICE = SLICE[:cap(SLICE)]]>
 
 *** Append a Slice to a Slice                                       :drill:
-SCHEDULED: <2021-01-06 Wed>
+SCHEDULED: <2021-01-15 Fri>
 :PROPERTIES:
 :ID:       1dbfbef7-f301-4f0d-ba8e-273cd6460881
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.3673
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-02 Sat 16:12]
+:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:00]
 :END:
 
 go: Append SLICE2 to SLICE with <[SLICE = append(SLICE, SLICE2...)]>
