@@ -89,19 +89,19 @@ scheme: *Define a variable* with <[(define NAME VALUE)]>
 
 **** 1.1.3 Evaluating Combinations
 ***** Special Forms                                               :drill:
-SCHEDULED: <2021-01-09 Sat>
+SCHEDULED: <2021-09-20 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://www.gnu.org/software/emacs/manual/html_node/elisp/Special-Forms.html
 :ID:       2F79DFE4-7B97-4A45-A01C-815C4E5E3EE6
-:DRILL_LAST_INTERVAL: 127.2401
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 253.844
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.571
-:DRILL_EASE: 2.06
+:DRILL_AVERAGE_QUALITY: 3.533
+:DRILL_EASE: 1.92
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-04 Fri 11:09]
+:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:39]
 :END:
 
 lisp: <[*Special Forms*]> are <[functions that don't *evaluate* all of their
@@ -4072,18 +4072,18 @@ Go to the next match with =n=.
 Go to the previous match with =N=.
 
 *** gn and gN                                                       :drill:
-SCHEDULED: <2021-01-09 Sat>
+SCHEDULED: <2021-09-14 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       818713A5-1F25-424D-B6BB-21C147FCDAE7
-:DRILL_LAST_INTERVAL: 148.6448
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 247.6422
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 1.72
+:DRILL_AVERAGE_QUALITY: 3.474
+:DRILL_EASE: 1.58
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-13 Thu 12:16]
+:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:37]
 :END:
 
 vim: <[Select the current or the next/previous search match]> with
@@ -4286,18 +4286,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2021-01-09 Sat>
+SCHEDULED: <2021-01-19 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 8.5806
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 29
+:DRILL_LAST_INTERVAL: 9.9792
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 30
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.242
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:19]
+:DRILL_AVERAGE_QUALITY: 3.234
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:37]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
@@ -5458,17 +5458,17 @@ SCHEDULED: <2021-01-15 Fri>
 go: Append SLICE2 to SLICE with <[SLICE = append(SLICE, SLICE2...)]>
 
 *** Copy a Slice to Another                                         :drill:
-SCHEDULED: <2021-01-09 Sat>
+SCHEDULED: <2021-01-19 Tue>
 :PROPERTIES:
 :ID:       bd64d40e-cdd8-4372-b650-f5eb77691c66
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-05 Tue 19:11]
+:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:34]
 :END:
 
 go: Copy elements of SLICE2 to SLICE with <[copy(SLICE, SLICE2)]>
