@@ -2827,22 +2827,22 @@ math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
 
 ** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
 *** Find the Least Common Multiple of Polynomials                   :drill:
-SCHEDULED: <2021-01-10 Sun>
+SCHEDULED: <2021-01-14 Thu>
 :PROPERTIES:
 :ID:       9efc5ffa-fb1d-4a20-a101-5247daa64003
-:DRILL_LAST_INTERVAL: 56.7725
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:28]
+:DRILL_LAST_REVIEWED: [2021-01-10 Sun 08:49]
 :END:
 
 math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
 their factors to their highest powers]>
-Example lcm(a^2 - b^2, (a + b)^2) = <[(a - b)(a + b)^2]>
+Example: lcm(a^2 - b^2, (a + b)^2) = <[(a - b)(a + b)^2]>
 
 *** Add and Subtract Rational Expressions with Unlike Denominators  :drill:
 SCHEDULED: <2021-03-07 Sun>
