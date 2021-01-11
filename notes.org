@@ -3594,18 +3594,18 @@ SCHEDULED: <2021-07-07 Wed>
 linux: cmd: <[getfacl]> == list file acls
 
 **** getfattr                                                      :drill:
-SCHEDULED: <2021-01-11 Mon>
+SCHEDULED: <2022-07-28 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1ef825d8-a4e6-47d6-8ea9-3db197873a88
-:DRILL_LAST_INTERVAL: 270.1752
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 562.5048
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-16 Thu 12:47]
+:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:38]
 :END:
 
 linux: cmd: <[getfattr]> == <[get extended file attributes]>
@@ -4043,17 +4043,17 @@ SCHEDULED: <2022-06-24 Fri>
 floating point: In a binary32 format, the exponent is <[8]> bits long
 
 ****** binary32 fraction size                                    :drill:
-SCHEDULED: <2021-01-11 Mon>
+SCHEDULED: <2022-01-26 Wed>
 :PROPERTIES:
 :ID:       31996006-7b3d-4acc-bbd3-5d3b9bb0bd11
-:DRILL_LAST_INTERVAL: 167.8102
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 380.2579
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.34
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:30]
+:DRILL_AVERAGE_QUALITY: 3.467
+:DRILL_EASE: 2.2
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:38]
 :END:
 
 floating point: In a binary32 format, the fraction is <[23]> bits long
@@ -4899,17 +4899,17 @@ SCHEDULED: <2022-02-27 Sun>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2021-01-11 Mon>
+SCHEDULED: <2021-01-19 Tue>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 8.2942
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.417
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.385
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-07 Thu 09:11]
+:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:30]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not
@@ -5505,18 +5505,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-01-11 Mon>
+SCHEDULED: <2021-01-15 Fri>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 255.0335
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.417
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.357
 :DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-01 Fri 14:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:38]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
@@ -7136,17 +7136,17 @@ SCHEDULED: <2022-05-09 Mon>
 srs: best practice: Make *Simple* cards
 
 **** Use Images                                                    :drill:
-SCHEDULED: <2021-01-11 Mon>
+SCHEDULED: <2021-02-15 Mon>
 :PROPERTIES:
 :ID:       48fb8184-a1d6-42c0-a016-2a8e699c1ada
-:DRILL_LAST_INTERVAL: 30.8301
-:DRILL_REPEATS_SINCE_FAIL: 18
-:DRILL_TOTAL_REPEATS: 62
+:DRILL_LAST_INTERVAL: 34.6222
+:DRILL_REPEATS_SINCE_FAIL: 19
+:DRILL_TOTAL_REPEATS: 63
 :DRILL_FAILURE_COUNT: 9
-:DRILL_AVERAGE_QUALITY: 2.886
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.888
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-11 Fri 12:39]
+:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:38]
 :END:
 
 srs: best practice: Use *Images*
