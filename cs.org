@@ -4381,18 +4381,18 @@ Jump back from a Tag Search with =<C-t>=.
 Open a tag match list with =g<C-]>=.
 
 *** =<C-]>=                                                         :drill:
-SCHEDULED: <2021-01-13 Wed>
+SCHEDULED: <2021-06-08 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0676996b-20d2-48c6-99b5-259a16872d9a
-:DRILL_LAST_INTERVAL: 79.1582
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 145.6511
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.455
-:DRILL_EASE: 1.9
+:DRILL_AVERAGE_QUALITY: 3.417
+:DRILL_EASE: 1.76
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:45]
+:DRILL_LAST_REVIEWED: [2021-01-13 Wed 09:37]
 :END:
 
 vim: <[Go to the definition of the keyword under the cursor]> with <[C-]]>
@@ -5097,18 +5097,18 @@ go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
 its inputs and expected results]>
 
 *** Kent Beck Quote                                                 :drill:
-SCHEDULED: <2021-01-13 Wed>
+SCHEDULED: <2021-02-15 Mon>
 :PROPERTIES:
 :SOURCE: The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
 :ID:       d2ed43e9-b02b-47dc-b52e-022a8c3fd4fe
-:DRILL_LAST_INTERVAL: 19.993
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 33.3083
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.332
+:DRILL_AVERAGE_QUALITY: 3.362
 :DRILL_EASE: 1.58
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-24 Thu 15:46]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-01-13 Wed 09:43]
 :END:
 
 cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not
