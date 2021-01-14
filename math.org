@@ -2602,17 +2602,17 @@ x^3 + 64 = (x + 4)(x^2 - 4x + 16)
 ]>
 
 *** Factor a^3 - b^3                                                :drill:
-SCHEDULED: <2021-01-14 Thu>
+SCHEDULED: <2021-06-06 Sun>
 :PROPERTIES:
 :ID:       7a8e64d2-87d6-4e09-b941-99ccbbeafab4
-:DRILL_LAST_INTERVAL: 56.6984
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 142.7666
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:45]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-01-14 Thu 09:10]
 :END:
 
 math: Factor 27 - 125p^3
@@ -2827,17 +2827,17 @@ math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
 
 ** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
 *** Find the Least Common Multiple of Polynomials                   :drill:
-SCHEDULED: <2021-01-14 Thu>
+SCHEDULED: <2021-01-22 Fri>
 :PROPERTIES:
 :ID:       9efc5ffa-fb1d-4a20-a101-5247daa64003
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 8.0657
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-10 Sun 08:49]
+:DRILL_LAST_REVIEWED: [2021-01-14 Thu 09:09]
 :END:
 
 math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
