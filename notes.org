@@ -822,18 +822,18 @@ SCHEDULED: <2022-06-25 Sat>
 c: Suffix an *Integer Constant* with <[LL]> to make its type be <[long long]>
 
 ****** U Suffix                                                  :drill:
-SCHEDULED: <2021-01-15 Fri>
+SCHEDULED: <2023-02-07 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5f11ddd0-85f3-4410-830b-5bdf2b70f570
-:DRILL_LAST_INTERVAL: 259.0976
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 752.9376
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-05-01 Fri 14:57]
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.86
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-15 Fri 09:25]
 :END:
 
 c: Suffix an *Integer Constant* with <[U]> to make its type be <[unsigned]>
@@ -5505,18 +5505,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-01-15 Fri>
+SCHEDULED: <2021-01-22 Fri>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 6.664
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.357
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:38]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.58
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-15 Fri 09:16]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
