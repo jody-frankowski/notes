@@ -2933,8 +2933,24 @@ SCHEDULED: <2021-01-25 Mon>
 
 math: Simplify a Complex Rational Expression by either:
 <[
-- Multiplying the numerator and denominator by the reciprocal of the denominator
+- Multiplying the numerator by the reciprocal of the denominator
 - Multiplying the numerator and denominator by the LCD of all the fractions
+]>
+Example:
+<[
+\begin{gather*}
+\text{Multiplying the numerator by the reciprocal of the denominator} \\
+\frac{\frac{a}{b}}
+     {\frac{x}{y}} \\
+\frac{a}{b} \cdot \frac{y}{x} \\
+\frac{ay}{bx} \\
+\text{Multiplying the numerator and denominator by the LCD of all the fractions} \\
+\frac{\frac{a}{b}}
+     {\frac{x}{y}} \\
+\frac{\frac{a}{b} \cdot by}
+     {\frac{x}{y} \cdot by} \\
+\frac{ay}{bx}
+\end{gather*}
 ]>
 
 *** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal :drill:
