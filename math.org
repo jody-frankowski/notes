@@ -2918,22 +2918,22 @@ math: A <[Complex Rational Expression]> is a <[rational expression whose numerat
 contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2021-01-17 Sun>
+SCHEDULED: <2021-01-25 Mon>
 :PROPERTIES:
 :ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 8.0657
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.9
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 2.909
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-13 Wed 09:45]
+:DRILL_LAST_REVIEWED: [2021-01-17 Sun 09:20]
 :END:
 
 math: Simplify a Complex Rational Expression by either:
 <[
-- Multiplying the numerator by the reciprocal of the denominator
+- Multiplying the numerator and denominator by the reciprocal of the denominator
 - Multiplying the numerator and denominator by the LCD of all the fractions
 ]>
 
