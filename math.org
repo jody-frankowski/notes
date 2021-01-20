@@ -1158,18 +1158,18 @@ math: x is the <[identity element]> of f if <[f(x, y) = y]>
 
 ** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
 *** Supplementary Angles                                            :drill:
-SCHEDULED: <2021-01-20 Wed>
+SCHEDULED: <2021-03-31 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       dccd872d-bfa9-4269-8e1b-6d6827a355ad
-:DRILL_LAST_INTERVAL: 37.2849
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 70.0583
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.332
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.299
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-14 Mon 09:47]
+:DRILL_LAST_REVIEWED: [2021-01-20 Wed 09:23]
 :END:
 
 math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
@@ -1887,18 +1887,18 @@ he travel and still keep within his $200 budget?
 
 ** 4.5 Use the Slope-Intercept Form of an Equation of a Line
 *** Parallel Lines                                                  :drill:
-SCHEDULED: <2021-01-20 Wed>
+SCHEDULED: <2021-08-17 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bd39a336-9408-4ce1-bd1b-c960726e62b4
-:DRILL_LAST_INTERVAL: 81.6743
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 208.9229
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-30 Fri 09:45]
+:DRILL_LAST_REVIEWED: [2021-01-20 Wed 09:20]
 :END:
 
 math: <[Parallel]> lines have <[the same slope||slope]>
@@ -2736,17 +2736,17 @@ math: Solve a Quadratic Equation by Factoring by:
 ]>
 
 *** Example of Solving a Quadratic Equation                         :drill:
-SCHEDULED: <2021-01-20 Wed>
+SCHEDULED: <2021-02-17 Wed>
 :PROPERTIES:
 :ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
-:DRILL_LAST_INTERVAL: 15.1555
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 28.4772
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.154
+:DRILL_AVERAGE_QUALITY: 3.214
 :DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-05 Tue 19:08]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-01-20 Wed 09:22]
 :END:
 
 math: Solve 3c^2 = 10c − 8 by factoring
