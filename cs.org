@@ -202,17 +202,17 @@ elisp: prototype: Define a named function:
 <[(defun NAME (args...) [docstring] [declare] [interactive] ...)]>
 
 ***** Elisp Named Function Definition Declare                     :drill:
-SCHEDULED: <2021-01-21 Thu>
+SCHEDULED: <2021-03-05 Fri>
 :PROPERTIES:
 :ID:       FA1F46C0-91E9-466D-B831-2F1418A1A93B
-:DRILL_LAST_INTERVAL: 19.6113
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 43.3018
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.666
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2021-01-01 Fri 14:55]
+:DRILL_AVERAGE_QUALITY: 3.624
+:DRILL_EASE: 2.14
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-21 Thu 09:29]
 :END:
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~ *declare*
@@ -3222,18 +3222,18 @@ SCHEDULED: <2021-03-12 Fri>
 vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
 
 *** Insert the Current Whole WORD at the Command Prompt with =<C-r><C-a>= :drill:
-SCHEDULED: <2021-01-21 Thu>
+SCHEDULED: <2021-01-25 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ae4476b5-de5c-4105-bd4b-f49c34a3f2e8
-:DRILL_LAST_INTERVAL: 225.2704
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.369
-:DRILL_EASE: 2.1
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-10 Wed 14:48]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 21
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 3.287
+:DRILL_EASE: 1.96
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-21 Thu 09:31]
 :END:
 
 vim: <[Insert the Current Whole WORD at the Command Prompt]> with <[<C-r><C-a>]>
