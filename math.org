@@ -1428,17 +1428,17 @@ SCHEDULED: <2021-03-11 Thu>
 math: Cylinder Surface Area = <[2 * surface of base + surface of rectangle = 2πr^2 + 2πr * height]>
 
 *** Cylinder Volume                                                 :drill:
-SCHEDULED: <2021-01-23 Sat>
+SCHEDULED: <2021-07-26 Mon>
 :PROPERTIES:
 :ID:       78f0f840-ad5e-40dc-8de3-1342c6865b9f
-:DRILL_LAST_INTERVAL: 75.0508
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 184.3998
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.701
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-09 Mon 12:07]
+:DRILL_AVERAGE_QUALITY: 3.637
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-23 Sat 14:14]
 :END:
 
 math: Cylinder Volume = <[surface of base * height = πr^2 * height]>
@@ -3045,17 +3045,17 @@ SCHEDULED: <2021-02-01 Mon>
 math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
-SCHEDULED: <2021-01-23 Sat>
+SCHEDULED: <2021-06-23 Wed>
 :PROPERTIES:
 :ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
-:DRILL_LAST_INTERVAL: 62.5
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 151.3125
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:39]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-23 Sat 14:13]
 :END:
 
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
