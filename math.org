@@ -684,17 +684,17 @@ SCHEDULED: <2021-06-10 Thu>
 math: 1/(a/b) = <[b/a]>
 
 *** Proof of 1/(a/b) = b/a                                          :drill:
-SCHEDULED: <2021-01-24 Sun>
+SCHEDULED: <2021-08-21 Sat>
 :PROPERTIES:
 :ID:       b2ac6f11-aefc-4dda-88e5-827921b698c5
-:DRILL_LAST_INTERVAL: 100.5896
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 209.4275
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-15 Thu 12:47]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-01-24 Sun 12:59]
 :END:
 
 math: proof: 1/(a/b) = b/a:
@@ -1957,18 +1957,18 @@ math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included
 
 ** 5.1 Solve Systems of Equations by Graphing
 *** Coincident Lines                                                :drill:
-SCHEDULED: <2021-01-24 Sun>
+SCHEDULED: <2021-02-25 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
-:DRILL_LAST_INTERVAL: 16.7951
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 31.558
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.249
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.221
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-07 Thu 08:53]
+:DRILL_LAST_REVIEWED: [2021-01-24 Sun 12:59]
 :END:
 
 math: <[Coincident Lines]> have <[the same slope and y-intercept]>
@@ -1991,18 +1991,18 @@ SCHEDULED: <2021-04-11 Sun>
 math: <[A Consistent]> System of Equations has <[at least one solution]>
 
 *** Inconsistent System                                             :drill:
-SCHEDULED: <2021-01-24 Sun>
+SCHEDULED: <2021-02-23 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d2f4d572-45a2-41af-86f3-c7248f812799
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 30.3706
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-03 Sun 18:05]
+:DRILL_LAST_REVIEWED: [2021-01-24 Sun 13:00]
 :END:
 
 math: <[An Inconsistent]> System of Equations has <[no solution]>
@@ -2982,17 +2982,17 @@ method
 ]>
 
 *** Example of Simplifying Complex Rational Expressions by Multiplying by the LCD :drill:
-SCHEDULED: <2021-01-24 Sun>
+SCHEDULED: <2021-02-08 Mon>
 :PROPERTIES:
 :ID:       960d7bf3-592a-493f-a946-95ca7f3dd734
-:DRILL_LAST_INTERVAL: 8.0657
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 15.1555
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-16 Sat 09:01]
+:DRILL_LAST_REVIEWED: [2021-01-24 Sun 12:59]
 :END:
 
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the LCD method
@@ -3391,18 +3391,18 @@ r = 0 \text{ or } r = 5 \\
 
 ** 9.7 Higher Roots
 *** nth Root                                                        :drill:
-SCHEDULED: <2021-01-24 Sun>
+SCHEDULED: <2021-05-04 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0e5e9d5e-07eb-4a19-9815-5ce4a10fc305
-:DRILL_LAST_INTERVAL: 47.4944
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 100.2607
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-08 Tue 15:48]
+:DRILL_LAST_REVIEWED: [2021-01-24 Sun 13:01]
 :END:
 
 math: If <[a^n = b]> then a is <[an nth root of b]>
