@@ -185,17 +185,17 @@ lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
 This is common to most lisp based languages
 
 ***** Elisp Named Function Definition                             :drill:
-SCHEDULED: <2021-01-28 Thu>
+SCHEDULED: <2021-07-14 Wed>
 :PROPERTIES:
 :ID:       8F8D9A03-5564-4F52-A1C1-E383CFCC965E
-:DRILL_LAST_INTERVAL: 71.6844
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 33
+:DRILL_LAST_INTERVAL: 166.5229
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 34
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.636
+:DRILL_AVERAGE_QUALITY: 3.647
 :DRILL_EASE: 2.1
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-11-17 Tue 12:26]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-01-28 Thu 13:21]
 :END:
 
 elisp: prototype: Define a named function:
