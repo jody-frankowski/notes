@@ -574,18 +574,18 @@ SCHEDULED: <2021-06-26 Sat>
 math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
 
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2021-01-30 Sat>
+SCHEDULED: <2021-02-03 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
-:DRILL_LAST_INTERVAL: 3.874
+:DRILL_LAST_INTERVAL: 3.752
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 16
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.188
-:DRILL_EASE: 1.8
+:DRILL_TOTAL_REPEATS: 18
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.111
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-26 Tue 12:32]
+:DRILL_LAST_REVIEWED: [2021-01-30 Sat 14:18]
 :END:
 
 math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
