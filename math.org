@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-01-30 Sat>
+SCHEDULED: <2021-02-05 Fri>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 61.6491
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.083
-:DRILL_EASE: 1.52
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-29 Sun 15:08]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:28]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -848,35 +848,35 @@ SCHEDULED: <2021-02-11 Thu>
 math: <[Mode]> = <[The number with the highest frequency]>
 
 *** Probability Formula                                             :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-02-05 Fri>
 :PROPERTIES:
 :ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 98.3321
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:47]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:28]
 :END:
 
 math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-02-05 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 98.3321
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-26 Mon 12:45]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:28]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -3009,18 +3009,18 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 
 ** 8.6 Solve Rational Equations
 *** Extraneous Solution                                             :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-03-16 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 32.1243
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 42.9502
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.889
-:DRILL_EASE: 1.38
+:DRILL_AVERAGE_QUALITY: 2.9
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:33]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:21]
 :END:
 
 math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
@@ -3028,21 +3028,21 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-02-05 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 32.1243
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.889
-:DRILL_EASE: 1.38
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.818
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:33]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:28]
 :END:
 
-math: A <[Proportion]> is <[an equation of the form a/b = c/d]>
+math: A <[Proportion]> is an equation of the form <[a/b = c/d]>
 
 *** Proportion Reading                                              :drill:
 SCHEDULED: <2021-06-23 Wed>
@@ -3222,17 +3222,17 @@ math: <[sqrt(a/b)]> = <[sqrt(a)/sqrt(b)]>
 
 ** 9.5 Divide Square Roots
 *** Simplify a Fraction with a Monomial                             :drill:
-SCHEDULED: <2021-01-30 Sat>
+SCHEDULED: <2021-06-04 Fri>
 :PROPERTIES:
 :ID:       1e86eaf9-c735-49b1-b494-2c5a31309bff
-:DRILL_LAST_INTERVAL: 52.355
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 122.7201
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.428
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-09 Wed 14:12]
+:DRILL_AVERAGE_QUALITY: 3.374
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:23]
 :END:
 
 math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
@@ -3247,6 +3247,19 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 ]>
 
 *** Simplify a Fraction with a Binomial                             :drill:
+SCHEDULED: <2021-02-05 Fri>
+:PROPERTIES:
+:ID:       0599c5d3-5c20-4d84-bfbd-0400c6b43166
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:06]
+:END:
+ ff
 SCHEDULED: <2021-02-04 Thu>
 :PROPERTIES:
 :ID:       982c5071-d48e-4d22-abb4-7b72d5fd8795
@@ -3606,17 +3619,17 @@ x = 2 \pm 3 \sqrt{3}
 ]>
 
 *** Solve a Quadratic Equation with a Perfect Square Trinomial      :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-03-26 Fri>
 :PROPERTIES:
 :ID:       94d2361f-8a37-4ad5-9897-0d35e31aab6b
-:DRILL_LAST_INTERVAL: 23.3731
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 53.3608
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.374
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:36]
+:DRILL_AVERAGE_QUALITY: 3.332
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:21]
 :END:
 
 math: Solve $p^2 - 10p + 25 = 18$

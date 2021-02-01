@@ -3222,18 +3222,18 @@ SCHEDULED: <2021-03-12 Fri>
 vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
 
 *** Insert the Current Whole WORD at the Command Prompt with =<C-r><C-a>= :drill:
-SCHEDULED: <2021-02-01 Mon>
+SCHEDULED: <2021-02-15 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ae4476b5-de5c-4105-bd4b-f49c34a3f2e8
-:DRILL_LAST_INTERVAL: 7.3529
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 14.2793
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.274
-:DRILL_EASE: 1.82
+:DRILL_AVERAGE_QUALITY: 3.262
+:DRILL_EASE: 1.68
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-25 Mon 13:16]
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:06]
 :END:
 
 vim: <[Insert the Current Whole WORD at the Command Prompt]> with <[<C-r><C-a>]>
@@ -4287,18 +4287,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2021-01-31 Sun>
+SCHEDULED: <2021-02-14 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 11.5759
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 31
+:DRILL_LAST_INTERVAL: 13.0229
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 32
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.259
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-19 Tue 08:46]
+:DRILL_AVERAGE_QUALITY: 3.251
+:DRILL_EASE: 1.16
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-01 Mon 12:06]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
