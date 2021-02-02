@@ -2045,18 +2045,18 @@ way to make `expmod' signal is to have it return 0.
 
 *** 1.3 Formulating Abstractions with Higher-Order Procedures
 **** Higher-Order Procedures                                       :drill:
-SCHEDULED: <2021-02-02 Tue>
+SCHEDULED: <2021-05-31 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a24f5a64-e8f8-45e4-a25c-7e19054919dd
-:DRILL_LAST_INTERVAL: 54.9785
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 118.2038
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-09 Wed 14:15]
+:DRILL_LAST_REVIEWED: [2021-02-02 Tue 13:36]
 :END:
 
 cs: Procedures that <[take procedures as arguments or return procedures]> are called <[Higher-Order
@@ -4946,17 +4946,17 @@ fmt.Println(slice) // <[[1]]>
 #+END_SRC
 
 *** Slice append() Example                                          :drill:
-SCHEDULED: <2021-02-02 Tue>
+SCHEDULED: <2021-02-10 Wed>
 :PROPERTIES:
 :ID:       6d9ae131-a447-4d58-a695-b25c14dc7a94
-:DRILL_LAST_INTERVAL: 3.634
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 7.5333
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.455
-:DRILL_EASE: 2.14
+:DRILL_AVERAGE_QUALITY: 3.417
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-29 Fri 11:37]
+:DRILL_LAST_REVIEWED: [2021-02-02 Tue 13:34]
 :END:
 
 #+BEGIN_SRC go

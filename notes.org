@@ -1924,17 +1924,17 @@ SCHEDULED: <2021-10-15 Fri>
 c: A <[pointer to constant int]> can be declared as follows: <[int const * ptr; const int * ptr;]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-02-02 Tue>
+SCHEDULED: <2022-01-25 Tue>
 :PROPERTIES:
 :ID:       46205B6F-2C3E-4AD8-95FD-15E9B8550D1A
-:DRILL_LAST_INTERVAL: 184.2304
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 356.8543
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.615
-:DRILL_EASE: 2.0
+:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_EASE: 1.86
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:29]
+:DRILL_LAST_REVIEWED: [2021-02-02 Tue 13:35]
 :END:
 
 c: <[Members of a const-qualified struct or union]> are automatically
@@ -5505,18 +5505,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-02-02 Tue>
+SCHEDULED: <2021-02-18 Thu>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 10.5291
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 16.1095
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 1.58
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-22 Fri 10:14]
+:DRILL_AVERAGE_QUALITY: 3.353
+:DRILL_EASE: 1.44
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-02 Tue 13:36]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
