@@ -3452,17 +3452,17 @@ SCHEDULED: <2021-03-22 Mon>
 vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2021-02-03 Wed>
+SCHEDULED: <2021-02-20 Sat>
 :PROPERTIES:
 :ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 15.1162
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 66
+:DRILL_LAST_INTERVAL: 16.9755
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 67
 :DRILL_FAILURE_COUNT: 13
-:DRILL_AVERAGE_QUALITY: 2.802
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.805
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-19 Tue 08:50]
+:DRILL_LAST_REVIEWED: [2021-02-03 Wed 14:40]
 :END:
 
 vim: best practice: Use the Search Command to Modify (after an operator)
