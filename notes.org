@@ -107,18 +107,18 @@ job of the compilers to respect them (eg. between user space programs and the
 kernel, but not necessarily in the same program).
 
 *** x32                                                           :drill:
-SCHEDULED: <2021-02-04 Thu>
+SCHEDULED: <2021-05-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0d5bedac-d90f-48a8-a94d-4d26d33740a9
-:DRILL_LAST_INTERVAL: 55.1757
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 100.4198
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.363
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-11 Fri 12:38]
+:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:11]
 :END:
 
 cs: abi: <[x32]> is an ABI that <[is the same as the x86-64 ABI but uses 32-bit
@@ -2054,17 +2054,17 @@ away" the variable and always force re-reading its value when accessing it.
 Its primary use case is memory mapped I/O.
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-02-04 Thu>
+SCHEDULED: <2022-08-07 Sun>
 :PROPERTIES:
 :ID:       3d873709-8446-4276-a8e4-39c2357a2bef
-:DRILL_LAST_INTERVAL: 314.8838
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 548.8425
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.249
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-26 Thu 07:58]
+:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:11]
 :END:
 
 c: ~volatile~ guarantees that the access to a variable:

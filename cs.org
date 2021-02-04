@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-02-04 Thu>
+SCHEDULED: <2021-02-08 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 56
+:DRILL_LAST_INTERVAL: 4.2149
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 57
 :DRILL_FAILURE_COUNT: 10
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.14
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-31 Sun 13:34]
+:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:11]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>

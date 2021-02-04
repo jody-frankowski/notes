@@ -1360,17 +1360,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2021-02-04 Thu>
+SCHEDULED: <2021-02-12 Fri>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 7.4831
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 27
+:DRILL_LAST_INTERVAL: 8.4035
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 28
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.963
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.964
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-28 Thu 13:19]
+:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:10]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -1461,17 +1461,17 @@ math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
 
 ** 10.1 Add and Subtract Polynomials
 *** Degree of a Polynomial                                          :drill:
-SCHEDULED: <2021-02-04 Thu>
+SCHEDULED: <2021-02-12 Fri>
 :PROPERTIES:
 :ID:       06f15f3d-f1da-4f89-9598-66634fef5a2c
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 8.3291
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_AVERAGE_QUALITY: 3.374
 :DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-31 Sun 13:34]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:10]
 :END:
 
 The degree of a Polynomial is the <[highest degree of all its terms]>
