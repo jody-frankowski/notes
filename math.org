@@ -831,18 +831,18 @@ math: <[Median]> = <[The middle value when there is an odd number of them. The m
 middle values otherwise]>
 
 *** Mode Formula                                                    :drill:
-SCHEDULED: <2021-02-11 Thu>
+SCHEDULED: <2021-04-21 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f5f81d68-9579-4324-bbc1-329310af7056
-:DRILL_LAST_INTERVAL: 44.3535
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 69.0584
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-29 Tue 12:07]
+:DRILL_LAST_REVIEWED: [2021-02-11 Thu 13:00]
 :END:
 
 math: <[Mode]> = <[The number with the highest frequency]>
@@ -1293,17 +1293,17 @@ SCHEDULED: <2021-02-27 Sat>
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
 
 *** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-02-11 Thu>
+SCHEDULED: <2021-02-18 Thu>
 :PROPERTIES:
 :ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 6.609
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 5
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.48
+:DRILL_EASE: 1.34
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-07 Sun 12:30]
+:DRILL_LAST_REVIEWED: [2021-02-11 Thu 13:00]
 :END:
 
 math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
@@ -3885,18 +3885,18 @@ SCHEDULED: <2021-04-20 Tue>
 math: The <[Vertex]> of a Parabola is <[its highest or lowest point]>
 
 *** Parabola Vertex/Axis of Symmetry                                :drill:
-SCHEDULED: <2021-02-11 Thu>
+SCHEDULED: <2021-05-20 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       12da1833-8639-4bcb-b6d0-975216f6e398
-:DRILL_LAST_INTERVAL: 47.2867
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 98.4509
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-26 Sat 15:12]
+:DRILL_LAST_REVIEWED: [2021-02-11 Thu 13:01]
 :END:
 
 math: Parabola's <[Vertex/Axis of Symmetry]> x-coordinate = <[$-\frac{b}{2a}$]>

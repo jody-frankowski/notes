@@ -3806,18 +3806,18 @@ SCHEDULED: <2021-06-14 Mon>
 vim: <[Go to the next newer change position]> with <[=g,=]>
 
 *** =gi=                                                            :drill:
-SCHEDULED: <2021-02-11 Thu>
+SCHEDULED: <2021-02-19 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0bb85849-f6cc-4c2e-9e16-8ebe022c8d8f
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 8.2942
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-07 Sun 12:30]
+:DRILL_LAST_REVIEWED: [2021-02-11 Thu 13:00]
 :END:
 
 vim: <[Get back to insertion mode at the place of last insertion]> with <[=gi=]>
