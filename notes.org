@@ -4575,18 +4575,18 @@ SCHEDULED: <2021-04-13 Tue>
 python 3: 3//2.0 == <[1.0]>
 
 **** True Division Operator                                        :drill:
-SCHEDULED: <2021-02-12 Fri>
+SCHEDULED: <2022-02-11 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       05595497-ABCB-44A0-8EB8-ABE2E0B4B062
-:DRILL_LAST_INTERVAL: 153.4697
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 364.1836
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.727
-:DRILL_EASE: 2.24
+:DRILL_AVERAGE_QUALITY: 3.666
+:DRILL_EASE: 2.1
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-12 Sat 13:28]
+:DRILL_LAST_REVIEWED: [2021-02-12 Fri 12:01]
 :END:
 
 python 3: <[/]> aka <[True Division Operator]>
@@ -5410,24 +5410,24 @@ SCHEDULED: <2021-06-20 Sun>
 
 unix: perms: Setting the *Setuid Bit* on *directories* does <[nothing]>
 
-***** Blocking setuid and setgid                                  :drill:
-SCHEDULED: <2021-02-12 Fri>
-:PROPERTIES:
-:ID:       cf66ad30-7a36-4a70-8cc1-463457e9ab4f
-:DRILL_LAST_INTERVAL: 151.1849
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.685
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:51]
-:END:
+# ***** Blocking setuid and setgid                                  :drill:
+# SCHEDULED: <2021-02-12 Fri>
+# :PROPERTIES:
+# :ID:       cf66ad30-7a36-4a70-8cc1-463457e9ab4f
+# :DRILL_LAST_INTERVAL: 151.1849
+# :DRILL_REPEATS_SINCE_FAIL: 6
+# :DRILL_TOTAL_REPEATS: 19
+# :DRILL_FAILURE_COUNT: 3
+# :DRILL_AVERAGE_QUALITY: 3.685
+# :DRILL_EASE: 2.42
+# :DRILL_LAST_QUALITY: 4
+# :DRILL_LAST_REVIEWED: [2020-09-14 Mon 08:51]
+# :END:
 
-unix: perms: The setuid and setgid effects on executables are not performed if:
-<[- The calling process is being ptraced]>
-<[- The filesystem is mounted with "nosuid"]>
-<[- The no_new_privs attribute is set on the calling thread]>
+# unix: perms: The setuid and setgid effects on executables are not performed if:
+# <[- The calling process is being ptraced]>
+# <[- The filesystem is mounted with "nosuid"]>
+# <[- The no_new_privs attribute is set on the calling thread]>
 
 ***** Sticky Bit on Directories                                   :drill:
 SCHEDULED: <2021-07-16 Fri>
