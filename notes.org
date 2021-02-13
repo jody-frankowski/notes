@@ -915,18 +915,18 @@ c: The <[constructor and deconstructor]> function attributes <[make the
 functions be called respectively before and after main()||What they do]>
 
 ***** =format=                                                    :drill:
-SCHEDULED: <2021-02-13 Sat>
+SCHEDULED: <2022-01-28 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ef5017f0-1ef9-4b65-a013-0bebac8e565f
-:DRILL_LAST_INTERVAL: 153.7995
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 348.5097
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.34
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-12 Sat 13:40]
+:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_EASE: 2.2
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:58]
 :END:
 
 c: The <[format]> function attribute specifies that <[the arguments to the
@@ -6468,22 +6468,22 @@ SCHEDULED: <2022-02-04 Fri>
 
 sh: [[: <[=~]> does <[regex matching]>
 
-****** Drill                                                     :drill:
-SCHEDULED: <2021-02-13 Sat>
-:PROPERTIES:
-:ID:       ca9fe039-0364-4953-a982-2b0e6b6b5777
-:DRILL_LAST_INTERVAL: 59.3304
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.236
-:DRILL_EASE: 1.96
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-16 Wed 16:49]
-:END:
+# ****** Drill                                                     :drill:
+# SCHEDULED: <2021-02-13 Sat>
+# :PROPERTIES:
+# :ID:       ca9fe039-0364-4953-a982-2b0e6b6b5777
+# :DRILL_LAST_INTERVAL: 59.3304
+# :DRILL_REPEATS_SINCE_FAIL: 6
+# :DRILL_TOTAL_REPEATS: 17
+# :DRILL_FAILURE_COUNT: 3
+# :DRILL_AVERAGE_QUALITY: 3.236
+# :DRILL_EASE: 1.96
+# :DRILL_LAST_QUALITY: 4
+# :DRILL_LAST_REVIEWED: [2020-12-16 Wed 16:49]
+# :END:
 
-bash: [[: =~ will do regex matching only if the argument <[isn't quoted or is a
-variable||something or something]>
+# bash: [[: =~ will do regex matching only if the argument <[isn't quoted or is a
+# variable||something or something]>
 
 ****** Drill                                                     :drill:
 SCHEDULED: <2022-03-29 Tue>

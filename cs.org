@@ -389,17 +389,17 @@ SCHEDULED: <2021-07-04 Sun>
 lisp: prototype: unless: <[(unless CONDITION THEN...)]>
 
 ***** =cond= in elisp and scheme                                  :drill:
-SCHEDULED: <2021-02-13 Sat>
+SCHEDULED: <2021-02-19 Fri>
 :PROPERTIES:
 :ID:       0a47d723-3330-462d-bc81-0b0ee63b1508
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 6.0782
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.223
+:DRILL_AVERAGE_QUALITY: 3.264
 :DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-09 Tue 13:47]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:54]
 :END:
 
 elisp: prototype: cond:
@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-02-13 Sat>
+SCHEDULED: <2021-02-18 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 4.7333
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 58
+:DRILL_LAST_INTERVAL: 5.1498
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 59
 :DRILL_FAILURE_COUNT: 10
-:DRILL_AVERAGE_QUALITY: 3.138
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.136
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-08 Mon 12:13]
+:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:54]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>

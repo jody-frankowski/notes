@@ -2166,18 +2166,18 @@ SCHEDULED: <2021-03-20 Sat>
 math: pattern: <[(a + b)^2]> = <[a^2 + 2ab + b^2]>
 
 *** Squared Binomial                                                :drill:
-SCHEDULED: <2021-02-13 Sat>
+SCHEDULED: <2021-06-28 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2d2dd1b3-5f48-466b-89c0-4cd9266079ae
-:DRILL_LAST_INTERVAL: 73.9138
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 134.5231
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-01 Tue 13:19]
+:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:57]
 :END:
 
 math: pattern: <[(a - b)^2]> = <[a^2 - 2ab + b^2]>
@@ -2200,18 +2200,18 @@ SCHEDULED: <2021-02-27 Sat>
 math: A <[Conjugate Pair]> is <[two binomials of the form (a + b),(a - b)||form]>
 
 *** Multiplied Conjugate Pair                                       :drill:
-SCHEDULED: <2021-02-13 Sat>
+SCHEDULED: <2021-06-28 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8cf8e0ae-ab98-4ec1-8ac1-7326731baad9
-:DRILL_LAST_INTERVAL: 73.9138
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 134.5231
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-01 Tue 13:19]
+:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:59]
 :END:
 
 math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
