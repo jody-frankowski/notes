@@ -1589,18 +1589,18 @@ c: <[Static]> storage duration means that the object lives as long as <[the
 program runs]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-02-18 Thu>
+SCHEDULED: <2022-09-23 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7b61aa53-6a02-4642-ad4c-c22b689f9948
-:DRILL_LAST_INTERVAL: 284.4562
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 581.7129
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-10 Sun 11:53]
+:DRILL_LAST_REVIEWED: [2021-02-18 Thu 13:51]
 :END:
 
 c: An object with <[external or internal]> linkage has <[static]> storage
@@ -5505,18 +5505,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-02-18 Thu>
+SCHEDULED: <2021-03-13 Sat>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 16.1095
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 23.1977
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.353
+:DRILL_AVERAGE_QUALITY: 3.389
 :DRILL_EASE: 1.44
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-02 Tue 13:36]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-02-18 Thu 13:52]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
