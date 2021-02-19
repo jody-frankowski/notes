@@ -1774,17 +1774,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2021-02-19 Fri>
+SCHEDULED: <2021-02-23 Tue>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 53.247
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.3
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:33]
+:DRILL_LAST_REVIEWED: [2021-02-19 Fri 12:02]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -3711,17 +3711,17 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 ]>
 
 *** Derivation of Quadratic Formula                                 :drill:
-SCHEDULED: <2021-02-19 Fri>
+SCHEDULED: <2021-03-13 Sat>
 :PROPERTIES:
 :ID:       d1cc06c5-a7a0-433e-90b0-b1e83eec65b7
-:DRILL_LAST_INTERVAL: 9.3751
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 22.3221
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.455
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-02-10 Wed 13:09]
+:DRILL_AVERAGE_QUALITY: 3.417
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-19 Fri 11:59]
 :END:
 
 math: Derive the Quadratic Formula
