@@ -642,17 +642,17 @@ SCHEDULED: <2021-05-17 Mon>
 math: The multiplicative inverse of <[a/b]> is <[b/a]>
 
 *** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
-SCHEDULED: <2021-02-20 Sat>
+SCHEDULED: <2021-02-26 Fri>
 :PROPERTIES:
 :ID:       54d54982-7652-4c84-8422-1058f188369b
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 5.7761
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.294
-:DRILL_EASE: 1.54
+:DRILL_AVERAGE_QUALITY: 3.278
+:DRILL_EASE: 1.4
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-16 Tue 12:52]
+:DRILL_LAST_REVIEWED: [2021-02-20 Sat 13:59]
 :END:
 
 math: proof: The multiplicative inverse of a/b is b/a:
@@ -1140,18 +1140,18 @@ math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> wh
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
-SCHEDULED: <2021-02-20 Sat>
+SCHEDULED: <2021-02-27 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 7.05
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-16 Tue 12:52]
+:DRILL_LAST_REVIEWED: [2021-02-20 Sat 13:59]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
@@ -3536,17 +3536,17 @@ math: Simplify $16^{-\frac{3}{2}}$
 
 ** 10.1 Solve Quadratic Equations Using the Square Root Property
 *** Solve a Quadratic Equation of the Form ax^2 = k Using the Square Root Property :drill:
-SCHEDULED: <2021-02-20 Sat>
+SCHEDULED: <2021-07-21 Wed>
 :PROPERTIES:
 :ID:       02ec9572-dd67-4381-960c-87688bc94337
-:DRILL_LAST_INTERVAL: 62.5
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 151.3125
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:36]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-20 Sat 14:01]
 :END:
 
 math: Solve $x^2 - 48 = 0$
