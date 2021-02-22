@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-02-22 Mon>
+SCHEDULED: <2021-02-26 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 61
+:DRILL_LAST_INTERVAL: 4.2149
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 62
 :DRILL_FAILURE_COUNT: 11
-:DRILL_AVERAGE_QUALITY: 3.115
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.113
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-18 Thu 13:53]
+:DRILL_LAST_REVIEWED: [2021-02-22 Mon 12:22]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
@@ -3863,18 +3863,18 @@ lowercase will overwrite the content of the register, and uppercase letters will
 append to it.
 
 *** ="0= Register                                                   :drill:
-SCHEDULED: <2021-02-22 Mon>
+SCHEDULED: <2021-08-12 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       6d656590-90ea-4e1a-8cc5-eaa80060810f
-:DRILL_LAST_INTERVAL: 95.9163
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 170.9228
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.438
-:DRILL_EASE: 1.76
+:DRILL_AVERAGE_QUALITY: 3.412
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:43]
+:DRILL_LAST_REVIEWED: [2021-02-22 Mon 12:23]
 :END:
 
 vim: Use the <[Yank]> register with <[="0=]>
