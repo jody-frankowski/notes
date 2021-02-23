@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-02-23 Tue>
+SCHEDULED: <2021-03-03 Wed>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 7.0679
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 7.9373
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-16 Tue 12:47]
+:DRILL_LAST_REVIEWED: [2021-02-23 Tue 09:25]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -1774,17 +1774,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2021-02-23 Tue>
+SCHEDULED: <2021-03-03 Wed>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 8.0657
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.3
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.273
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-19 Fri 12:02]
+:DRILL_LAST_REVIEWED: [2021-02-23 Tue 09:26]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
@@ -1991,18 +1991,18 @@ SCHEDULED: <2021-04-11 Sun>
 math: <[A Consistent]> System of Equations has <[at least one solution]>
 
 *** Inconsistent System                                             :drill:
-SCHEDULED: <2021-02-23 Tue>
+SCHEDULED: <2021-04-05 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d2f4d572-45a2-41af-86f3-c7248f812799
-:DRILL_LAST_INTERVAL: 30.3706
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 40.6055
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.38
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-24 Sun 13:00]
+:DRILL_LAST_REVIEWED: [2021-02-23 Tue 09:29]
 :END:
 
 math: <[An Inconsistent]> System of Equations has <[no solution]>
@@ -2776,18 +2776,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2021-02-23 Tue>
+SCHEDULED: <2021-02-27 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 46.5853
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.001
-:DRILL_EASE: 1.38
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.929
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-07 Thu 09:04]
+:DRILL_LAST_REVIEWED: [2021-02-23 Tue 09:29]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
@@ -3247,17 +3247,17 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 ]>
 
 *** Simplify a Fraction with a Binomial                             :drill:
-SCHEDULED: <2021-02-23 Tue>
+SCHEDULED: <2021-03-16 Tue>
 :PROPERTIES:
 :ID:       982c5071-d48e-4d22-abb4-7b72d5fd8795
-:DRILL_LAST_INTERVAL: 8.5921
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 20.7843
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_AVERAGE_QUALITY: 3.625
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2021-02-14 Sun 12:02]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2021-02-23 Tue 09:26]
 :END:
 
 math: Simplify $\frac{4}{4 + \sqrt{2}}$
