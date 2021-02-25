@@ -1957,18 +1957,18 @@ math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included
 
 ** 5.1 Solve Systems of Equations by Graphing
 *** Coincident Lines                                                :drill:
-SCHEDULED: <2021-02-25 Thu>
+SCHEDULED: <2021-03-01 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
-:DRILL_LAST_INTERVAL: 31.558
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.221
-:DRILL_EASE: 1.8
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.09
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-24 Sun 12:59]
+:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:25]
 :END:
 
 math: <[Coincident Lines]> have <[the same slope and y-intercept]>
@@ -2415,17 +2415,17 @@ SCHEDULED: <2021-04-09 Fri>
 math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
 
 *** Factor Prime Trinomial                                          :drill:
-SCHEDULED: <2021-02-25 Thu>
+SCHEDULED: <2021-07-14 Wed>
 :PROPERTIES:
 :ID:       ea6f6f3c-02e9-4f95-869e-f9c22ec8c1b6
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-11 Fri 12:38]
+:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:21]
 :END:
 
 math: Factor y^2 − 6y + 15
@@ -2487,35 +2487,35 @@ Factor by grouping:
 
 ** 7.4 Factor Special Products
 *** Sum of Cubes Pattern                                            :drill:
-SCHEDULED: <2021-02-25 Thu>
+SCHEDULED: <2021-07-20 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       76024c21-d10c-4127-aa2f-a20a2b93ed89
-:DRILL_LAST_INTERVAL: 76.9057
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 144.5058
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:07]
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:21]
 :END:
 
 math: pattern: <[a^3 + b^3]> = <[(a + b)(a^2 - ab + b^2)]>
 
 *** Difference of Cubes Pattern                                     :drill:
-SCHEDULED: <2021-02-25 Thu>
+SCHEDULED: <2021-07-20 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       adb2e8ce-1d30-4063-aad4-ab9554dae73c
-:DRILL_LAST_INTERVAL: 76.9057
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 144.5058
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-10 Thu 14:07]
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:25]
 :END:
 
 math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
@@ -4006,17 +4006,17 @@ math: The <[y-coordinate of the vertex]> of the graph of a quadratic equation is
 ]>
 
 *** Minimum or Maximum Example                                      :drill:
-SCHEDULED: <2021-02-25 Thu>
+SCHEDULED: <2021-07-18 Sun>
 :PROPERTIES:
 :ID:       7155ca1a-12f0-4cc9-ae9a-c2ce7d803a45
-:DRILL_LAST_INTERVAL: 58.4782
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 142.6283
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-29 Tue 12:11]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:24]
 :END:
 
 math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x - 8$
