@@ -4118,18 +4118,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2021-03-02 Tue>
+SCHEDULED: <2021-03-08 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 5.1482
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 23
+:DRILL_LAST_INTERVAL: 5.6012
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 24
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.044
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.042
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:21]
+:DRILL_LAST_REVIEWED: [2021-03-02 Tue 08:08]
 :END:
 
 vim: <[Autocomplete]> the search field with
@@ -4165,18 +4165,18 @@ SCHEDULED: <2021-06-11 Fri>
 vim: <[Open the Ex Command-Line Window]> with <[=q:=]>
 
 *** =q/=                                                            :drill:
-SCHEDULED: <2021-03-02 Tue>
+SCHEDULED: <2021-03-26 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       d01f65ee-fd24-4045-ad30-63d94bcec60f
-:DRILL_LAST_INTERVAL: 21.8803
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 23.8058
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.28
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.269
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-08 Mon 12:25]
+:DRILL_LAST_REVIEWED: [2021-03-02 Tue 08:08]
 :END:
 
 vim: <[Open the Search Command-Line Window]> with <[=q/=]>
@@ -4814,17 +4814,17 @@ SCHEDULED: <2021-09-21 Tue>
 go: Use the =range= clause like so <[for key, value := range ARRAY]>
 
 *** Variadic Function                                               :drill:
-SCHEDULED: <2021-03-02 Tue>
+SCHEDULED: <2021-08-02 Mon>
 :PROPERTIES:
 :ID:       b2abe1db-b503-43f2-85e6-1168d305e40b
-:DRILL_LAST_INTERVAL: 96.0786
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 152.5728
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.476
-:DRILL_EASE: 1.64
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-26 Thu 12:40]
+:DRILL_AVERAGE_QUALITY: 3.454
+:DRILL_EASE: 1.5
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-02 Tue 08:14]
 :END:
 
 go: Declare a variadic function like so <[func NAME(ARG ...TYPE)]>
