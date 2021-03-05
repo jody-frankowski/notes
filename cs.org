@@ -202,17 +202,17 @@ elisp: prototype: Define a named function:
 <[(defun NAME (args...) [docstring] [declare] [interactive] ...)]>
 
 ***** Elisp Named Function Definition Declare                     :drill:
-SCHEDULED: <2021-03-05 Fri>
+SCHEDULED: <2021-06-03 Thu>
 :PROPERTIES:
 :ID:       FA1F46C0-91E9-466D-B831-2F1418A1A93B
-:DRILL_LAST_INTERVAL: 43.3018
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 89.7646
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.624
-:DRILL_EASE: 2.14
+:DRILL_AVERAGE_QUALITY: 3.587
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-21 Thu 09:29]
+:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:57]
 :END:
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~ *declare*
@@ -3504,17 +3504,17 @@ vim: The =/= motion is <[Exclusive||Exclusive or Inclusive]> in its selection
 
 ** Tip 52: Trace Your Selection with Precision Text Objects
 *** Text Object Motion vs Text Object Selection                     :drill:
-SCHEDULED: <2021-03-05 Fri>
+SCHEDULED: <2022-05-29 Sun>
 :PROPERTIES:
 :ID:       9e178e0f-5ebf-49fb-944e-c0e731ba2447
-:DRILL_LAST_INTERVAL: 184.3521
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 450.0035
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.721
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-02 Wed 12:21]
+:DRILL_AVERAGE_QUALITY: 3.683
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:57]
 :END:
 
 vim: =(= is called a <[Text Object Motion]> while

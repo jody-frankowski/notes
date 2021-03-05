@@ -3703,17 +3703,17 @@ linux: How are files *Capabilities* implemented?
 Through the use of *Extended File Attributes*
 
 **** File and Extended Attributes                                  :drill:
-SCHEDULED: <2021-03-05 Fri>
+SCHEDULED: <2022-07-14 Thu>
 :PROPERTIES:
 :ID:       9e878238-752b-45d0-bf82-d89099324449
-:DRILL_LAST_INTERVAL: 246.1342
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 495.7143
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-02 Thu 09:02]
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:57]
 :END:
 
 linux: fs: File Attributes are <[specific attributes that affect the filesystem
@@ -4899,17 +4899,17 @@ SCHEDULED: <2022-02-27 Sun>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2021-03-05 Fri>
+SCHEDULED: <2021-03-09 Tue>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 29.7901
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.62
+:DRILL_LAST_INTERVAL: 3.634
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.235
+:DRILL_EASE: 1.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-03 Wed 14:28]
+:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:58]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not
