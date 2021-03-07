@@ -3024,18 +3024,18 @@ Enter *Insert Normal Mode* with =<C-o>= which is a mode that accepts a Normal
 Mode command and immediately returns to Insert Mode.
 
 *** zz                                                              :drill:
-SCHEDULED: <2021-03-07 Sun>
+SCHEDULED: <2021-08-28 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       52dcc269-bec8-467a-9ce1-c78af7dbb176
-:DRILL_LAST_INTERVAL: 100.7452
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 173.8862
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.412
-:DRILL_EASE: 1.62
+:DRILL_AVERAGE_QUALITY: 3.389
+:DRILL_EASE: 1.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-26 Thu 12:39]
+:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:46]
 :END:
 
 vim: <[*Center* the current line]> with <[zz]>
@@ -5476,17 +5476,17 @@ go: Copy elements of SLICE2 to SLICE with <[copy(SLICE, SLICE2)]>
 
 ** 4.3. Maps
 *** Accessing an Absent Key in a Map                                :drill:
-SCHEDULED: <2021-03-07 Sun>
+SCHEDULED: <2021-03-11 Thu>
 :PROPERTIES:
 :ID:       0152e17a-4518-4306-8184-fd42a95839be
-:DRILL_LAST_INTERVAL: 60.525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.36
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-05 Tue 19:09]
+:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:46]
 :END:
 
 go: Accessing an absent key in a map yields <[its zero value]>
