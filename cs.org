@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-03-08 Mon>
+SCHEDULED: <2021-03-14 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 5.325
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 64
+:DRILL_LAST_INTERVAL: 5.98
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 65
 :DRILL_FAILURE_COUNT: 11
-:DRILL_AVERAGE_QUALITY: 3.109
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.107
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-03 Wed 08:37]
+:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:40]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
@@ -4118,18 +4118,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2021-03-08 Mon>
+SCHEDULED: <2021-03-16 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 5.6012
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 24
+:DRILL_LAST_INTERVAL: 7.5224
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 25
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.042
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.04
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-02 Tue 08:08]
+:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:38]
 :END:
 
 vim: <[Autocomplete]> the search field with
