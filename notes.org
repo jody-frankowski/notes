@@ -1534,17 +1534,17 @@ The lifetime of an object is determined by its storage duration. This storage
 duration can be:
 
 ***** Storage Durations                                           :drill:
-SCHEDULED: <2021-03-09 Tue>
+SCHEDULED: <2021-03-13 Sat>
 :PROPERTIES:
 :ID:       a44656b6-cdd5-4579-933f-2290a83dc4c2
-:DRILL_LAST_INTERVAL: 288.0165
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-25 Mon 10:59]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-09 Tue 08:54]
 :END:
 
 c: Objects have 3 possible storage durations:
@@ -3904,18 +3904,18 @@ between a minimum and maximum value]>
 =bfloat16= flushes denormals to zero.
 
 ***** Sizes                                                       :drill:
-SCHEDULED: <2021-03-09 Tue>
+SCHEDULED: <2021-04-25 Sun>
 :PROPERTIES:
 :SOURCE: https://en.wikipedia.org/wiki/Bfloat16_floating-point_format
 :ID:       a47bec8b-0ec3-42b3-9e15-23fec9606689
-:DRILL_LAST_INTERVAL: 31.3632
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 28
+:DRILL_LAST_INTERVAL: 46.7625
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 29
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.358
-:DRILL_EASE: 1.54
+:DRILL_AVERAGE_QUALITY: 3.346
+:DRILL_EASE: 1.4
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-06 Sat 11:28]
+:DRILL_LAST_REVIEWED: [2021-03-09 Tue 08:53]
 :END:
 
 floating point: The bfloat16 format has an <[8]> bits long exponent and a <[7]>
@@ -4899,17 +4899,17 @@ SCHEDULED: <2022-02-27 Sun>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2021-03-09 Tue>
+SCHEDULED: <2021-03-15 Mon>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 3.634
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 6.1996
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.235
-:DRILL_EASE: 1.48
+:DRILL_AVERAGE_QUALITY: 3.222
+:DRILL_EASE: 1.34
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:58]
+:DRILL_LAST_REVIEWED: [2021-03-09 Tue 08:47]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not
