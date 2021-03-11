@@ -492,17 +492,17 @@ SCHEDULED: <2021-06-10 Thu>
 math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
 
 *** Least Common Multiple Example                                   :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2022-01-12 Wed>
 :PROPERTIES:
 :ID:       3d5c2743-c2f5-4cb0-8269-638d2e0f0097
-:DRILL_LAST_INTERVAL: 136.7096
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 307.1865
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-25 Sun 13:26]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:43]
 :END:
 
 math: least_common_multiple(4, 6) = <[12]>
@@ -1053,18 +1053,18 @@ SCHEDULED: <2021-05-14 Fri>
 math: <[Integers Symbol]> = <[ℤ]>
 
 *** Rational Numbers Symbol                                         :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2021-11-20 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8f894826-2985-4201-b60f-6ed19e0a8c72
-:DRILL_LAST_INTERVAL: 122.0609
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 254.1308
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-09 Mon 12:07]
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
 :END:
 
 math: <[Rational Numbers Symbol]> = <[ℚ]>
@@ -1412,17 +1412,17 @@ math:
 - Sphere Volume = <[$\frac{4}{3} \pi r^3$]>
 
 *** Cylinder Surface Area                                           :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2021-12-06 Mon>
 :PROPERTIES:
 :ID:       8f2d6811-bf34-4d22-b7ab-c7527923ec65
-:DRILL_LAST_INTERVAL: 125.6613
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 270.1718
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:04]
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
 :END:
 
 math: Cylinder Surface Area = <[2 * surface of base + surface of rectangle = 2πr^2 + 2πr * height]>
@@ -1528,18 +1528,18 @@ SCHEDULED: <2021-08-26 Thu>
 math: <[(a^m)^n]> = <[a^(mn)]>
 
 *** Product to a Power Property of Exponents                        :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2021-12-06 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2e6707cc-2ec1-43c7-a77d-ba382e89457b
-:DRILL_LAST_INTERVAL: 125.6613
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 270.1718
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:03]
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:46]
 :END:
 
 math: <[(ab)^m]> = <[a^m * b^m]>
@@ -1599,18 +1599,18 @@ math: <[a^-n]> = <[1 / a^n]>
 
 ** 11.3 Graphing with Intercepts
 *** Intercepts of a Line                                            :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2021-12-06 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       bb537b51-c252-4f52-aacf-518763cdc14e
-:DRILL_LAST_INTERVAL: 125.6613
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 270.1718
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:05]
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
 :END:
 
 math: <[An Intercept of a Line]> is <[a point where the line crosses the x or y-axis]>
@@ -2900,18 +2900,18 @@ lcm(cd + 3c, d^2 - 9) = c(d + 3)(d - 3) \\
 
 ** 8.5 Simplify Complex Rational Expressions
 *** Complex Rational Expression                                     :drill:
-SCHEDULED: <2021-03-11 Thu>
+SCHEDULED: <2021-07-28 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       466c0f83-3038-454d-b9fb-079818ad49b7
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-25 Fri 15:27]
+:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
 :END:
 
 math: A <[Complex Rational Expression]> is a <[rational expression whose numerator or denominator
