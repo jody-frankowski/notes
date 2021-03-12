@@ -3205,18 +3205,18 @@ Complete Ex commands with =TAB= or =<C-d>=.
 
 ** Tip 33: Insert the Current Word at the Command Prompt
 *** Insert the Current Word at the Command Prompt with =<C-r><C-w>=    :drill:
-SCHEDULED: <2021-03-12 Fri>
+SCHEDULED: <2022-01-16 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0e56efe4-aca9-4732-9aaa-ade5f96a2e66
-:DRILL_LAST_INTERVAL: 156.4184
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 309.552
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.445
-:DRILL_EASE: 1.86
+:DRILL_AVERAGE_QUALITY: 3.422
+:DRILL_EASE: 1.72
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-07 Wed 13:55]
+:DRILL_LAST_REVIEWED: [2021-03-12 Fri 08:44]
 :END:
 
 vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
