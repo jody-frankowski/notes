@@ -1534,17 +1534,17 @@ The lifetime of an object is determined by its storage duration. This storage
 duration can be:
 
 ***** Storage Durations                                           :drill:
-SCHEDULED: <2021-03-13 Sat>
+SCHEDULED: <2021-03-23 Tue>
 :PROPERTIES:
 :ID:       a44656b6-cdd5-4579-933f-2290a83dc4c2
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 10.3552
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.76
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-09 Tue 08:54]
+:DRILL_LAST_REVIEWED: [2021-03-13 Sat 10:51]
 :END:
 
 c: Objects have 3 possible storage durations:
@@ -5505,18 +5505,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-03-13 Sat>
+SCHEDULED: <2021-04-14 Wed>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 23.1977
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 32.3608
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.389
-:DRILL_EASE: 1.44
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-02-18 Thu 13:52]
+:DRILL_AVERAGE_QUALITY: 3.369
+:DRILL_EASE: 1.3
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-13 Sat 11:03]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
