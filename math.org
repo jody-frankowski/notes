@@ -779,18 +779,18 @@ math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
 
 ** 5.5 Averages and Probability
 *** Mean aka Arithmetic Average                                     :drill:
-SCHEDULED: <2021-03-14 Sun>
+SCHEDULED: <2021-03-27 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
-:DRILL_LAST_INTERVAL: 7.05
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 12.831
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.099
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.09
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:43]
+:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:57]
 :END:
 
 math: <[Mean]> aka <[Arithmetic Average]>
@@ -1649,17 +1649,17 @@ math: A *y-intercept* is a point where a line crosses the <[y-axis]>
 
 ** 11.4 Understand Slope of a Line
 *** Formula of the Slope of a Line                                  :drill:
-SCHEDULED: <2021-03-14 Sun>
+SCHEDULED: <2021-03-18 Thu>
 :PROPERTIES:
 :ID:       4c2ae4b5-8a5f-4a74-96e9-51970526dd58
-:DRILL_LAST_INTERVAL: 118.369
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.04
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-16 Mon 10:32]
+:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:59]
 :END:
 
 math: Formula of the Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]> or <[m in y = mx + b]>
@@ -2697,18 +2697,18 @@ math: General Strategy for Factoring Polynomials
 
 ** 7.6 Quadratic Equations
 *** Quadratic Equation                                              :drill:
-SCHEDULED: <2021-03-14 Sun>
+SCHEDULED: <2021-03-25 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       10aff243-042d-4563-ae20-b6badb2b03d0
-:DRILL_LAST_INTERVAL: 7.0507
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 11.3375
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:44]
+:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:56]
 :END:
 
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
