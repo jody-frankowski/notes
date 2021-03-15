@@ -848,17 +848,17 @@ SCHEDULED: <2021-04-21 Wed>
 math: <[Mode]> = <[The number with the highest frequency]>
 
 *** Probability Formula                                             :drill:
-SCHEDULED: <2021-03-15 Mon>
+SCHEDULED: <2021-04-13 Tue>
 :PROPERTIES:
 :ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 18.8204
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 29.3034
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.091
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-24 Wed 13:18]
+:DRILL_LAST_REVIEWED: [2021-03-15 Mon 08:41]
 :END:
 
 math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
@@ -1360,17 +1360,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2021-03-15 Mon>
+SCHEDULED: <2021-03-28 Sun>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 11.5305
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 31
+:DRILL_LAST_INTERVAL: 12.5452
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 32
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.967
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.968
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-03 Wed 08:39]
+:DRILL_LAST_REVIEWED: [2021-03-15 Mon 08:49]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -2776,18 +2776,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2021-03-15 Mon>
+SCHEDULED: <2021-03-23 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 6.1297
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 7.6866
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.942
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.945
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-09 Tue 08:48]
+:DRILL_LAST_REVIEWED: [2021-03-15 Mon 08:40]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
@@ -3156,17 +3156,17 @@ SCHEDULED: <2021-06-29 Tue>
 math: x varies inversely with y if <[x = k/y]>
 
 *** Inverse Variation Example                                       :drill:
-SCHEDULED: <2021-03-15 Mon>
+SCHEDULED: <2021-03-19 Fri>
 :PROPERTIES:
 :ID:       58727f5e-8f45-422e-8327-fc67e255aa7c
-:DRILL_LAST_INTERVAL: 66.5124
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.875
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-07 Thu 09:06]
+:DRILL_LAST_INTERVAL: 3.996
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-15 Mon 08:49]
 :END:
 
 math: The time required to empty a tank varies inversely with the rate of pumping. It took Janet 5
