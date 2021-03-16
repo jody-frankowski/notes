@@ -994,18 +994,18 @@ h(n) computes =2^2^2...(n-1 exponentations, eg. h(2) -> 2^2)=:
 
 **** 1.2.2 Tree Recursion
 ***** Linear Recursion != Tree Recursion                          :drill:
-SCHEDULED: <2021-03-16 Tue>
+SCHEDULED: <2022-11-07 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       68c19c55-93ca-4e7f-b07b-f73f321eb3c6
-:DRILL_LAST_INTERVAL: 293.8681
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 600.9603
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-26 Tue 15:21]
+:DRILL_LAST_REVIEWED: [2021-03-16 Tue 08:49]
 :END:
 
 cs: <[Linear]> Recursion is different than <[Tree]> Recursion
@@ -4118,18 +4118,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2021-03-16 Tue>
+SCHEDULED: <2021-03-24 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 7.5224
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 8.1844
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.04
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.038
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:38]
+:DRILL_LAST_REVIEWED: [2021-03-16 Tue 08:49]
 :END:
 
 vim: <[Autocomplete]> the search field with
