@@ -382,18 +382,18 @@ In order to compute the Two's Complement of a number you:
 <[- Add one]>
 
 **** Minimum Number                                                :drill:
-SCHEDULED: <2021-03-18 Thu>
+SCHEDULED: <2021-03-26 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2E8296D1-BEA2-4C7B-8BEC-95506FD21EE0
-:DRILL_LAST_INTERVAL: 3.748
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 7.912
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.444
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:58]
+:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:48]
 :END:
 
 Why does computing the Two's Complement of the minimum number in the range
@@ -1680,17 +1680,17 @@ c: The storage-class specifiers are:
 <[- static]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-03-18 Thu>
+SCHEDULED: <2021-03-28 Sun>
 :PROPERTIES:
 :ID:       b5e1455a-22ad-445b-88b6-998a0ae88d64
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 9.6656
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.875
-:DRILL_EASE: 2.52
+:DRILL_AVERAGE_QUALITY: 3.778
+:DRILL_EASE: 2.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:58]
+:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:49]
 :END:
 
 c: The storage-class specifier "register" suggests that the <[access to the
