@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-03-22 Mon>
+SCHEDULED: <2021-04-02 Fri>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 9.698
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 10.5514
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-12 Fri 08:43]
+:DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:39]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -1209,17 +1209,17 @@ SCHEDULED: <2021-07-15 Thu>
 math: Two figures are <[Similar]> if <[they have the same shape]>
 
 *** Similar Triangles Angles                                        :drill:
-SCHEDULED: <2021-03-22 Mon>
+SCHEDULED: <2022-01-13 Thu>
 :PROPERTIES:
 :ID:       10075338-ceb1-43cf-8fd8-4ac8c3689a12
-:DRILL_LAST_INTERVAL: 129.7356
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 296.5756
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-12 Thu 11:58]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:41]
 :END:
 
 math: Two Similar Triangles <[have the same]> angles
@@ -3813,17 +3813,17 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 ]>
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2021-03-22 Mon>
+SCHEDULED: <2021-03-30 Tue>
 :PROPERTIES:
 :ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 3.748
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 7.912
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.301
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:51]
+:DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:39]
 :END:
 
 math: Solve a Quadratic Equation by:
