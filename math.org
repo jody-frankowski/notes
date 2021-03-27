@@ -779,18 +779,18 @@ math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
 
 ** 5.5 Averages and Probability
 *** Mean aka Arithmetic Average                                     :drill:
-SCHEDULED: <2021-03-27 Sat>
+SCHEDULED: <2021-04-17 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
-:DRILL_LAST_INTERVAL: 12.831
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 20.6322
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.09
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.082
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-14 Sun 10:57]
+:DRILL_LAST_REVIEWED: [2021-03-27 Sat 11:02]
 :END:
 
 math: <[Mean]> aka <[Arithmetic Average]>
@@ -2132,17 +2132,17 @@ Solution: (8, -2)
 
 ** 6.1 Add and Subtract Polynomials
 *** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2021-03-27 Sat>
+SCHEDULED: <2021-06-11 Fri>
 :PROPERTIES:
 :ID:       72e4d321-d16e-4f14-b466-d4012ea3d99b
-:DRILL_LAST_INTERVAL: 40.665
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 76.4095
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.308
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-14 Sun 12:03]
+:DRILL_LAST_REVIEWED: [2021-03-27 Sat 11:02]
 :END:
 
 The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
@@ -2918,17 +2918,17 @@ math: A <[Complex Rational Expression]> is a <[rational expression whose numerat
 contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2021-03-27 Sat>
+SCHEDULED: <2021-04-06 Tue>
 :PROPERTIES:
 :ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 8.0645
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 10.4435
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.882
-:DRILL_EASE: 1.24
+:DRILL_AVERAGE_QUALITY: 2.889
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-19 Fri 09:01]
+:DRILL_LAST_REVIEWED: [2021-03-27 Sat 11:02]
 :END:
 
 math: Simplify a Complex Rational Expression by either:
