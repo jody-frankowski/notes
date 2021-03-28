@@ -1680,17 +1680,17 @@ c: The storage-class specifiers are:
 <[- static]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-03-28 Sun>
+SCHEDULED: <2021-04-20 Tue>
 :PROPERTIES:
 :ID:       b5e1455a-22ad-445b-88b6-998a0ae88d64
-:DRILL_LAST_INTERVAL: 9.6656
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 22.8495
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.778
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.7
+:DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:49]
+:DRILL_LAST_REVIEWED: [2021-03-28 Sun 11:35]
 :END:
 
 c: The storage-class specifier "register" suggests that the <[access to the
