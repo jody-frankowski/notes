@@ -4513,18 +4513,18 @@ Remove the current word from spell file with =zw=.
 Revert zg or zw command for the current word =zug=.
 
 *** =]s=                                                            :drill:
-SCHEDULED: <2021-03-29 Mon>
+SCHEDULED: <2021-12-18 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3938d357-ce93-40b6-b587-1e8b5ba9cc18
-:DRILL_LAST_INTERVAL: 179.1801
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 263.7531
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.154
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:08]
+:DRILL_LAST_REVIEWED: [2021-03-29 Mon 08:53]
 :END:
 
 vim: <[Go to the next spelling error]> with <[=]s=]>

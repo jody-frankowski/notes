@@ -3722,18 +3722,18 @@ linux: fs: Extended File Attributes are <[arbitrary key value pairs]>
 
 **** File Attributes
 ***** i                                                           :drill:
-SCHEDULED: <2021-03-29 Mon>
+SCHEDULED: <2024-03-03 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       643dd849-3691-4f2a-8f48-2eb7880949a7
-:DRILL_LAST_INTERVAL: 421.9204
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 1070.4121
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-01 Sat 09:30]
+:DRILL_AVERAGE_QUALITY: 4.143
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-03-29 Mon 08:52]
 :END:
 
 linux: When the File Attribute <[i]> is set <[the file is immutable]>
