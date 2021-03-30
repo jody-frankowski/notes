@@ -3098,18 +3098,18 @@ Do a block-wise selection with =<C-v>=.
 Reselect the last visual selection with =gv=.
 
 *** =o= while selecting                                             :drill:
-SCHEDULED: <2021-03-30 Tue>
+SCHEDULED: <2021-12-20 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       32c9c9d4-80c9-4849-af8e-059f39b12cf6
-:DRILL_LAST_INTERVAL: 136.1967
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 265.4474
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.266
+:DRILL_AVERAGE_QUALITY: 3.312
 :DRILL_EASE: 1.76
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:30]
+:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:55]
 :END:
 
 vim: selection: <[Go to the other end of the selection]> with <[o]>
@@ -4716,17 +4716,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2021-03-30 Tue>
+SCHEDULED: <2021-05-23 Sun>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 49.9329
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 27
+:DRILL_LAST_INTERVAL: 54.327
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 28
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.407
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.392
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-08 Mon 12:25]
+:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:55]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
