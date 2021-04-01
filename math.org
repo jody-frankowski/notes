@@ -1755,18 +1755,18 @@ math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 
 <[an Identity Equation]>
 
 *** Contradiction Equation                                          :drill:
-SCHEDULED: <2021-04-01 Thu>
+SCHEDULED: <2021-04-05 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       55e8e6e3-bbe1-424f-80d2-2ab007a13dfe
-:DRILL_LAST_INTERVAL: 129.754
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-22 Sun 11:39]
+:DRILL_LAST_REVIEWED: [2021-04-01 Thu 08:43]
 :END:
 
 math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is
