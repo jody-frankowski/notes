@@ -70,18 +70,18 @@ math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, â€
 
 ** Chapter III â€“ Of the Multiplication of Simple Quantities
 *** Associative Property                                            :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2021-09-06 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e34cc3b6-7090-4234-8f0c-a77066180051
-:DRILL_LAST_INTERVAL: 85.2254
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 156.8147
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 1.9
+:DRILL_AVERAGE_QUALITY: 3.364
+:DRILL_EASE: 1.76
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-07 Thu 09:07]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:46]
 :END:
 
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
@@ -190,18 +190,18 @@ math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
 fraction]>
 
 *** Mixed Number Notation                                           :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2021-09-13 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 87.4298
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 164.2806
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.364
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-05 Tue 19:08]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:47]
 :END:
 
 math: A <[Mixed Number]> is noted as <[a b/c]>
@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2021-04-14 Wed>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 10.5514
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 11.8492
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:39]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:48]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -1140,18 +1140,18 @@ math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> wh
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2021-05-04 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.091
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-12 Fri 08:44]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:47]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
@@ -1244,17 +1244,17 @@ math: Two figures are <[Congruent]> if <[they have the same shape and size]>
 
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
 *** Triangle Area                                                   :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2022-02-11 Fri>
 :PROPERTIES:
 :ID:       08e8e4ad-460e-48bd-882e-5001bd100c25
-:DRILL_LAST_INTERVAL: 140.2546
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 315.1521
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-13 Fri 10:27]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:46]
 :END:
 
 math: Triangle Area = <[1/2 * (base * height)]>
@@ -2776,18 +2776,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2021-04-02 Fri>
+SCHEDULED: <2021-04-13 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 10.3231
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 11.2315
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.948
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.951
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-23 Tue 08:44]
+:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:47]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
