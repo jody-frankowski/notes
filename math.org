@@ -52,18 +52,18 @@ SCHEDULED: <2022-02-12 Sat>
 math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
 
 *** Natural Numbers Excluding 0                                     :drill:
-SCHEDULED: <2021-04-03 Sat>
+SCHEDULED: <2022-02-12 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
-:DRILL_LAST_INTERVAL: 136.1076
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 315.4974
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.779
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-18 Wed 08:50]
+:DRILL_AVERAGE_QUALITY: 3.701
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-04-03 Sat 11:17]
 :END:
 
 math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
@@ -865,18 +865,18 @@ math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2021-04-03 Sat>
+SCHEDULED: <2021-04-14 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 10.3231
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 11.2315
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.889
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.895
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-24 Wed 08:52]
+:DRILL_LAST_REVIEWED: [2021-04-03 Sat 11:17]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -1461,17 +1461,17 @@ math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
 
 ** 10.1 Add and Subtract Polynomials
 *** Degree of a Polynomial                                          :drill:
-SCHEDULED: <2021-04-03 Sat>
+SCHEDULED: <2021-06-01 Tue>
 :PROPERTIES:
 :ID:       06f15f3d-f1da-4f89-9598-66634fef5a2c
-:DRILL_LAST_INTERVAL: 32.5841
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 59.3031
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.299
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.272
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-01 Mon 07:43]
+:DRILL_LAST_REVIEWED: [2021-04-03 Sat 11:17]
 :END:
 
 The degree of a Polynomial is the <[highest degree of all its terms]>
