@@ -560,18 +560,18 @@ That's about it for what's common and useful.
 Please note macOS horrible inconsistency!
 
 **** =<C-S-I>=                                                     :drill:
-SCHEDULED: <2021-04-05 Mon>
+SCHEDULED: <2024-12-22 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1BFF6519-3736-40FA-A2E5-3436059AD90C
-:DRILL_LAST_INTERVAL: 507.7732
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 1357.2778
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.875
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-14 Thu 13:49]
+:DRILL_AVERAGE_QUALITY: 3.778
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-04-05 Mon 10:58]
 :END:
 
 browser: In Firefox and Chrome <[open the inspector]> with <[=<C-S-I>=]>
@@ -2070,22 +2070,6 @@ SCHEDULED: <2022-08-07 Sun>
 c: ~volatile~ guarantees that the access to a variable:
 - <[is always done through the actual memory]>
 - <[isn't optimized away]>
-
-***** Drill                                                       :drill:
-SCHEDULED: <2021-04-05 Mon>
-:PROPERTIES:
-:ID:       86b26d86-3d92-4002-a432-d266ecfccf1b
-:DRILL_LAST_INTERVAL: 360.5906
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-09 Thu 14:27]
-:END:
-
-c: ~volatile~ lacks <[the guarantees needed for a synchronization primitive]>
 
 ** Compilers
 *** Linkers
@@ -4259,19 +4243,19 @@ SCHEDULED: <2021-05-25 Tue>
 floating point: ULP aka <[Unit in the Last Place]>
 
 ***** What                                                        :drill:
-SCHEDULED: <2021-04-05 Mon>
+SCHEDULED: <2021-05-04 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://en.wikipedia.org/wiki/Unit_in_the_last_place
 :ID:       4d359fed-433e-40c8-90f3-6946e7c5b240
-:DRILL_LAST_INTERVAL: 25.6849
-:DRILL_REPEATS_SINCE_FAIL: 14
-:DRILL_TOTAL_REPEATS: 28
+:DRILL_LAST_INTERVAL: 28.8441
+:DRILL_REPEATS_SINCE_FAIL: 15
+:DRILL_TOTAL_REPEATS: 29
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.071
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.069
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-10 Wed 08:46]
+:DRILL_LAST_REVIEWED: [2021-04-05 Mon 10:57]
 :END:
 
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>
@@ -5910,18 +5894,18 @@ c: printf: <[Print a pointer in hexadecimal]> with <[p]>
 
 ***** Length Modifier
 ****** hh                                                        :drill:
-SCHEDULED: <2021-04-05 Mon>
+SCHEDULED: <2021-12-03 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       ce288947-2909-461c-a37a-8b27e4571b7e
-:DRILL_LAST_INTERVAL: 112.8321
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 241.5735
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.545
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-13 Sun 13:32]
+:DRILL_LAST_REVIEWED: [2021-04-05 Mon 10:57]
 :END:
 
 c: printf: <[Cast the integer argument to char]> with <[hh]>
@@ -6415,18 +6399,18 @@ SCHEDULED: <2022-07-16 Sat>
 sh: <[test]> is equivalent to <[ [ ]>
 
 ***** =[[= vs =[=                                                 :drill:
-SCHEDULED: <2021-04-05 Mon>
+SCHEDULED: <2021-05-07 Fri>
 :PROPERTIES:
 :SOURCE: https://unix.stackexchange.com/a/408003
 :ID:       9a64a2bf-5d6e-4e63-a886-123fc4b9538a
-:DRILL_LAST_INTERVAL: 20.6834
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 32.0593
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.44
-:DRILL_EASE: 1.6
+:DRILL_AVERAGE_QUALITY: 3.423
+:DRILL_EASE: 1.46
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-15 Mon 08:48]
+:DRILL_LAST_REVIEWED: [2021-04-05 Mon 10:58]
 :END:
 
 sh: =[[= supports these additional operators:
