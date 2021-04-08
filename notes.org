@@ -3924,17 +3924,17 @@ floating point: The bfloat16 format is a <[truncated]> version of
 <[IEEE 754 binary32]>
 
 **** Fraction Homonyms                                             :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-12 Mon>
 :PROPERTIES:
 :ID:       0d17c379-28cb-4aee-8bfe-dcc826bf2d1a
-:DRILL_LAST_INTERVAL: 306.453
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.332
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-06 Sat 12:55]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.999
+:DRILL_EASE: 2.86
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:49]
 :END:
 
 floating point: Fraction aka <[Mantissa]> aka <[Significand]>

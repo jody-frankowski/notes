@@ -87,18 +87,18 @@ SCHEDULED: <2021-09-06 Mon>
 math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
 
 *** Commutative Property                                            :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-16 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       acecbbbb-cdfa-4798-98e9-98718b039b4e
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 8.2942
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.222
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-04 Sun 11:22]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
 :END:
 
 math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
@@ -574,18 +574,18 @@ SCHEDULED: <2021-06-26 Sat>
 math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
 
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-21 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
-:DRILL_LAST_INTERVAL: 11.2315
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 28
+:DRILL_LAST_INTERVAL: 12.613
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 29
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.036
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.035
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-28 Sun 11:36]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
 :END:
 
 math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
@@ -1276,18 +1276,18 @@ SCHEDULED: <2021-05-14 Fri>
 math: The sum of a triangle angles = <[180°]>
 
 *** Trapezoid                                                       :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-05-01 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9a5fabdb-c6dc-4f53-9e0c-9a8cf500e75c
-:DRILL_LAST_INTERVAL: 21.0546
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 22.9074
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.099
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.094
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:50]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
 :END:
 
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
@@ -1737,18 +1737,18 @@ math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]>
 <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-17 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 8.1844
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 23
+:DRILL_LAST_INTERVAL: 9.1911
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 24
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.87
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.875
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:46]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
 :END:
 
 math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
@@ -2664,17 +2664,17 @@ math: Factor 9x^2 + 4
 
 ** 7.5 General Strategy for Factoring Polynomials
 *** General Strategy for Factoring Polynomials                      :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-18 Sun>
 :PROPERTIES:
 :ID:       07499152-8cbf-4e89-ba09-ca6c1b015b98
-:DRILL_LAST_INTERVAL: 9.3255
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 10.4725
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.055
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.052
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:52]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:44]
 :END:
 
 math: General Strategy for Factoring Polynomials
@@ -3028,18 +3028,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-04-17 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 8.4493
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 23
+:DRILL_LAST_INTERVAL: 9.1928
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 24
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.87
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.875
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:46]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
 :END:
 
 math: A <[Proportion]> is an equation of the form <[a/b = c/d]>
@@ -3408,17 +3408,17 @@ SCHEDULED: <2021-05-04 Tue>
 math: If <[a^n = b]> then a is <[an nth root of b]>
 
 *** nth Root Index                                                  :drill:
-SCHEDULED: <2021-04-08 Thu>
+SCHEDULED: <2021-05-06 Thu>
 :PROPERTIES:
 :ID:       923cfaa8-0c94-4b80-ac87-a372f1c4d71f
-:DRILL_LAST_INTERVAL: 15.1555
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 27.583
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.231
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-24 Wed 08:54]
+:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:49]
 :END:
 
 math: In $\sqrt[n]{x}$ n is called <[the Index]>
