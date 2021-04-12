@@ -3924,17 +3924,17 @@ floating point: The bfloat16 format is a <[truncated]> version of
 <[IEEE 754 binary32]>
 
 **** Fraction Homonyms                                             :drill:
-SCHEDULED: <2021-04-12 Mon>
+SCHEDULED: <2021-04-23 Fri>
 :PROPERTIES:
 :ID:       0d17c379-28cb-4aee-8bfe-dcc826bf2d1a
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 10.731
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.999
-:DRILL_EASE: 2.86
+:DRILL_AVERAGE_QUALITY: 3.916
+:DRILL_EASE: 2.72
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:49]
+:DRILL_LAST_REVIEWED: [2021-04-12 Mon 08:48]
 :END:
 
 floating point: Fraction aka <[Mantissa]> aka <[Significand]>
@@ -5307,17 +5307,17 @@ unix: perms: With =ls= the set-user-ID, set-group-ID and sticky bits are
 represented as <[S, S and T]> if the corresponding *executable bit* is *not* set
 
 ***** chmod Symbolic Representations of setuid/setgid/sticky Bits :drill:
-SCHEDULED: <2021-04-12 Mon>
+SCHEDULED: <2024-01-09 Tue>
 :PROPERTIES:
 :ID:       8f9dc27d-ca7e-49bf-a455-a3144703ba5c
-:DRILL_LAST_INTERVAL: 423.8442
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 1001.9677
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-13 Thu 11:07]
+:DRILL_LAST_REVIEWED: [2021-04-12 Mon 08:48]
 :END:
 
 unix: perms: With =chmod= the set-user-ID, set-group-ID and sticky bits can be
@@ -5527,18 +5527,18 @@ unix: function: The *at() function family doesn't protect you <[from a potential
 race condition with the very first open()]>
 
 **** chdir                                                         :drill:
-SCHEDULED: <2021-04-12 Mon>
+SCHEDULED: <2024-01-09 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86296a09-2913-4a7c-99f4-71eb7ef0b9b2
-:DRILL_LAST_INTERVAL: 423.8442
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 1001.9677
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-13 Thu 11:07]
+:DRILL_LAST_REVIEWED: [2021-04-12 Mon 08:48]
 :END:
 
 unix: function: <[chdir()]> == <[change the working directory]>
