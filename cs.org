@@ -4863,21 +4863,21 @@ SCHEDULED: <2021-07-21 Wed>
 go: The size of arrays <[is fixed||is fixed or not]>
 
 *** Slices                                                          :drill:
-SCHEDULED: <2021-04-13 Tue>
+SCHEDULED: <2022-02-04 Fri>
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
 :ID:       6631ad33-695e-4e5c-9d10-399c8a7f8685
-:DRILL_LAST_INTERVAL: 129.7356
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 296.5756
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-04 Fri 12:35]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-04-13 Tue 08:57]
 :END:
 
-go: A slice is <[a pointer to an array segment with its length and total capacity]>
+go: A slice is <[a pointer to an array segment with a length and a total capacity]>
 
 *** Grow Slices                                                     :drill:
 SCHEDULED: <2021-04-19 Mon>
