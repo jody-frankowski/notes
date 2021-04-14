@@ -5489,18 +5489,18 @@ unix: function: The <[*at()]> function family all take <[a directory file
 descriptor]> as a first argument
 
 **** *at                                                           :drill:
-SCHEDULED: <2021-04-14 Wed>
+SCHEDULED: <2021-06-05 Sat>
 :PROPERTIES:
 :SOURCE: man 2 openat
 :ID:       b2e74d99-50b6-485d-9b4a-8c8f647d2e14
-:DRILL_LAST_INTERVAL: 32.3608
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 19
+:DRILL_LAST_INTERVAL: 52.3274
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 20
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.369
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.351
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-13 Sat 11:03]
+:DRILL_LAST_REVIEWED: [2021-04-14 Wed 08:50]
 :END:
 
 unix: function: What's the main reason for using the *at() functions?
