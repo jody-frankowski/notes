@@ -416,17 +416,17 @@ math: proof: (a/b)/c = a/bc
 ]>
 
 *** Proof of 1/ab = 1/a * 1/b                                       :drill:
-SCHEDULED: <2021-04-15 Thu>
+SCHEDULED: <2021-04-26 Mon>
 :PROPERTIES:
 :ID:       97dbb2f3-d591-432f-bc00-8d486a4c1815
-:DRILL_LAST_INTERVAL: 9.4426
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 28
+:DRILL_LAST_INTERVAL: 10.604
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 29
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.072
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.07
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-06 Tue 08:43]
+:DRILL_LAST_REVIEWED: [2021-04-15 Thu 08:54]
 :END:
 
 math: proof: 1/ab = 1/a * 1/b
@@ -1774,17 +1774,17 @@ math: <[An equation that is false for all values of the variable (eg. x = x + 1)
 
 ** 2.5 Solve Equations with Fractions or Decimals
 *** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2021-04-15 Thu>
+SCHEDULED: <2021-05-29 Sat>
 :PROPERTIES:
 :ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 27.583
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 44.3535
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.231
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.214
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:50]
+:DRILL_LAST_REVIEWED: [2021-04-15 Thu 08:55]
 :END:
 
 math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
