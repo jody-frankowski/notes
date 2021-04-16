@@ -8388,6 +8388,11 @@ ROM. AES-only boot bit blown.
 :PROPERTIES:
 :Source: https://youtu.be/gigtS_5KOqo
 :END:
+** Languages
+*** DONE The Power Law Distribution and the Harsh Reality of Language Learning
+:PROPERTIES:
+:Source: https://luckytoilet.wordpress.com/2017/07/12/the-power-law-distribution-and-the-harsh-reality-of-language-learning/
+:END:
 ** Lisp
 *** DONE https://tech.grammarly.com/blog/running-lisp-in-production
 *** DONE https://en.m.wikipedia.org/wiki/Greenspun%27s_tenth_rule Greenspun's tenth rule: Any sufficiently complicated C or Fortran program contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.
