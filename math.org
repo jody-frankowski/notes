@@ -779,18 +779,18 @@ math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
 
 ** 5.5 Averages and Probability
 *** Mean aka Arithmetic Average                                     :drill:
-SCHEDULED: <2021-04-17 Sat>
+SCHEDULED: <2021-05-19 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.082
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.076
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-27 Sat 11:02]
+:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
 :END:
 
 math: <[Mean]> aka <[Arithmetic Average]>
@@ -1737,18 +1737,18 @@ math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]>
 <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2021-04-17 Sat>
+SCHEDULED: <2021-04-27 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 9.1911
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 24
+:DRILL_LAST_INTERVAL: 9.9999
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 25
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.875
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.88
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
+:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
 :END:
 
 math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
@@ -1904,18 +1904,18 @@ SCHEDULED: <2021-08-17 Tue>
 math: <[Parallel]> lines have <[the same slope||slope]>
 
 *** Perpendicular Lines                                             :drill:
-SCHEDULED: <2021-04-17 Sat>
+SCHEDULED: <2021-04-25 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       48d348fd-f594-491a-b80c-c09fb0d1bbe3
-:DRILL_LAST_INTERVAL: 7.0679
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 15
+:DRILL_LAST_INTERVAL: 7.9373
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 16
 :DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:47]
+:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
 :END:
 
 math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
@@ -1939,18 +1939,18 @@ SCHEDULED: <2021-10-01 Fri>
 math: inequality graph: A <[Dashed]> Boundary Line means the line <[isn't]> included in the solution
 
 *** Solid Boundary Line                                             :drill:
-SCHEDULED: <2021-04-17 Sat>
+SCHEDULED: <2021-12-21 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5b22b38b-9ddb-4514-9e4e-1457c744bf51
-:DRILL_LAST_INTERVAL: 118.9898
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 247.7368
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-19 Sat 09:29]
+:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
 :END:
 
 math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included in the solution
@@ -3028,18 +3028,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2021-04-17 Sat>
+SCHEDULED: <2021-04-27 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 9.1928
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 24
+:DRILL_LAST_INTERVAL: 10.3235
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 25
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.875
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.88
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-08 Thu 08:48]
+:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
 :END:
 
 math: A <[Proportion]> is an equation of the form <[a/b = c/d]>
