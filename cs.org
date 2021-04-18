@@ -3002,18 +3002,18 @@ vim: The mode in which you are after typing an operator (eg. =d=) is called
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
 *** <C-h>                                                              :drill:
-SCHEDULED: <2021-04-18 Sun>
+SCHEDULED: <2021-05-04 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 7.9955
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 23
+:DRILL_LAST_INTERVAL: 15.951
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 24
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.564
-:DRILL_EASE: 2.06
+:DRILL_AVERAGE_QUALITY: 3.54
+:DRILL_EASE: 1.92
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:48]
+:DRILL_LAST_REVIEWED: [2021-04-18 Sun 12:52]
 :END:
 
 vim: <[Delete back one character in insert mode]> with <[<C-h>]>
