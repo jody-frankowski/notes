@@ -1680,17 +1680,17 @@ c: The storage-class specifiers are:
 <[- static]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-06-13 Sun>
 :PROPERTIES:
 :ID:       b5e1455a-22ad-445b-88b6-998a0ae88d64
-:DRILL_LAST_INTERVAL: 22.8495
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 54.2219
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.7
-:DRILL_EASE: 2.24
+:DRILL_AVERAGE_QUALITY: 3.636
+:DRILL_EASE: 2.1
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-28 Sun 11:35]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:05]
 :END:
 
 c: The storage-class specifier "register" suggests that the <[access to the
@@ -9344,18 +9344,18 @@ Resources:
 - https://www.redgreencode.com/how-long-should-you-work-on-a-math-problem-before-looking-at-the-answer/
 
 **** Best Practice: Work on problems for some time after I get stuck :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-11-27 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5456e8d3-5fff-4006-94f1-301394b07933
-:DRILL_LAST_INTERVAL: 137.5647
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 221.204
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-03 Thu 12:11]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:05]
 :END:
 
 best practice: Work on problems for some time after I get stuck

@@ -796,35 +796,35 @@ SCHEDULED: <2021-05-19 Wed>
 math: <[Mean]> aka <[Arithmetic Average]>
 
 *** Mean Formula                                                    :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-05-22 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       a4f2c4fb-8b35-47d1-aa33-b9b4cc36411a
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.091
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:56]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:01]
 :END:
 
 math: <[Mean]> = <[Sum of all the Values / The Number of Values]>
 
 *** Median Formula                                                    :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-05-22 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       e9f8a858-908e-4576-bdd9-7ecbc0b92ad1
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 32.1243
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.091
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:56]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:03]
 :END:
 
 math: <[Median]> = <[The middle value when there is an odd number of them. The mean of the two
@@ -1293,17 +1293,17 @@ SCHEDULED: <2021-05-01 Sat>
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
 
 *** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-04-24 Sat>
 :PROPERTIES:
 :ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 15.8472
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 24
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 26
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 2.962
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-04 Sun 11:21]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:05]
 :END:
 
 math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
@@ -3855,18 +3855,18 @@ math: For a Quadratic Equation $y = ax^2 + bx + c$ the parabola opens
 ]>
 
 *** Parabola Vertex                                                 :drill:
-SCHEDULED: <2021-04-20 Tue>
+SCHEDULED: <2021-09-06 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       97229f1b-0809-45d1-995e-810a7224484a
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 139.0653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-03 Wed 14:40]
+:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:01]
 :END:
 
 math: The <[Vertex]> of a Parabola is <[its highest or lowest point]>
