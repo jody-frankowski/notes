@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-04-21 Wed>
+SCHEDULED: <2021-05-03 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 11.0852
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 69
+:DRILL_LAST_INTERVAL: 12.0607
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 70
 :DRILL_FAILURE_COUNT: 11
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.099
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:47]
+:DRILL_LAST_REVIEWED: [2021-04-21 Wed 08:41]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
@@ -5306,18 +5306,18 @@ SCHEDULED: <2021-05-20 Thu>
 go: <[defer FUNC()]> = Defer the call of FUNC to the end of the current scope
 
 *** Select                                                          :drill:
-SCHEDULED: <2021-04-21 Wed>
+SCHEDULED: <2021-08-14 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       728c09dd-0dcc-4280-8155-aa9d10aa7607
-:DRILL_LAST_INTERVAL: 73.6268
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 114.6369
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-06 Sat 11:31]
+:DRILL_LAST_REVIEWED: [2021-04-21 Wed 08:40]
 :END:
 
 go: <[Wait on channel communications]> with <[select]>
