@@ -3452,17 +3452,17 @@ SCHEDULED: <2021-06-18 Fri>
 vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2021-04-23 Fri>
+SCHEDULED: <2021-04-27 Tue>
 :PROPERTIES:
 :ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 22.5662
-:DRILL_REPEATS_SINCE_FAIL: 15
-:DRILL_TOTAL_REPEATS: 70
-:DRILL_FAILURE_COUNT: 13
-:DRILL_AVERAGE_QUALITY: 2.814
-:DRILL_EASE: 1.16
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 72
+:DRILL_FAILURE_COUNT: 14
+:DRILL_AVERAGE_QUALITY: 2.806
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:52]
+:DRILL_LAST_REVIEWED: [2021-04-23 Fri 07:44]
 :END:
 
 vim: best practice: Use the Search Command to Modify (after an operator)
@@ -4118,18 +4118,18 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 Show a search preview with =:set incsearch=.
 
 *** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2021-04-23 Fri>
+SCHEDULED: <2021-05-05 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 11.2299
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 29
+:DRILL_LAST_INTERVAL: 12.2181
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 30
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.035
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.034
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-12 Mon 08:47]
+:DRILL_LAST_REVIEWED: [2021-04-23 Fri 07:44]
 :END:
 
 vim: <[Autocomplete]> the search field with
@@ -4287,18 +4287,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2021-04-23 Fri>
+SCHEDULED: <2021-05-15 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 19.4413
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 36
+:DRILL_LAST_INTERVAL: 21.8326
+:DRILL_REPEATS_SINCE_FAIL: 14
+:DRILL_TOTAL_REPEATS: 37
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.223
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.217
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-04 Sun 11:21]
+:DRILL_LAST_REVIEWED: [2021-04-23 Fri 07:43]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
