@@ -1293,17 +1293,17 @@ SCHEDULED: <2021-05-01 Sat>
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
 
 *** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-04-24 Sat>
+SCHEDULED: <2021-04-28 Wed>
 :PROPERTIES:
 :ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 26
+:DRILL_LAST_INTERVAL: 4.2149
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 27
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.962
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.963
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:05]
+:DRILL_LAST_REVIEWED: [2021-04-24 Sat 13:33]
 :END:
 
 math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
@@ -2008,18 +2008,18 @@ SCHEDULED: <2021-04-29 Thu>
 math: <[An Inconsistent]> System of Equations has <[no solution]>
 
 *** Dependent Equations                                             :drill:
-SCHEDULED: <2021-04-24 Sat>
+SCHEDULED: <2021-07-31 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9be40c51-d70c-44c6-b8b0-52002fbe0735
-:DRILL_LAST_INTERVAL: 61.2319
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 98.4609
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.199
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.181
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-22 Mon 12:24]
+:DRILL_LAST_REVIEWED: [2021-04-24 Sat 13:33]
 :END:
 
 math: <[Dependent]> Equations have <[the same]> solutions
