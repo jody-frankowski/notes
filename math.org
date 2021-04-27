@@ -105,17 +105,17 @@ math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
 
 ** Chapter VII – Of Fractions in General
 *** Numerator and Denominator                                       :drill:
-SCHEDULED: <2021-04-27 Tue>
+SCHEDULED: <2022-07-06 Wed>
 :PROPERTIES:
 :ID:       acf9860e-c10a-4396-b669-4aacdf0d4a3e
-:DRILL_LAST_INTERVAL: 178.1621
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 434.5374
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-31 Sat 09:46]
+:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
 :END:
 
 math: In a/b, a is the <[Numerator or Dividend||XXX or XXX]> and b is the
@@ -439,18 +439,18 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 ]>
 
 *** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-04-27 Tue>
+SCHEDULED: <2021-05-11 Tue>
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
 :ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 12.8919
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 23
+:DRILL_LAST_INTERVAL: 14.4776
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 24
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-14 Wed 08:51]
+:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
 :END:
 
 math: proof: (a/b) * (c/d) = ac/bd
@@ -865,18 +865,18 @@ math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2021-04-27 Tue>
+SCHEDULED: <2021-05-11 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 12.613
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 13.7229
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.9
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.905
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-14 Wed 08:50]
+:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -1737,18 +1737,18 @@ math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]>
 <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2021-04-27 Tue>
+SCHEDULED: <2021-05-08 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 9.9999
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 11.2299
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.88
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.885
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
+:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
 :END:
 
 math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
@@ -3028,18 +3028,18 @@ undefined]>
 
 ** 8.7 Solve Proportion and Similar Figure Applications
 *** Proportion                                                      :drill:
-SCHEDULED: <2021-04-27 Tue>
+SCHEDULED: <2021-05-08 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 10.3235
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 11.232
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.88
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.885
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
+:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
 :END:
 
 math: A <[Proportion]> is an equation of the form <[a/b = c/d]>
