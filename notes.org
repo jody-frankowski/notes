@@ -1015,18 +1015,18 @@ c: <[long double||float OR double OR long double]> on x86 usually represents the
 <[x86 80-bit extended precision]> type
 
 ****** long double on 64-bit ARM                                        :drill:
-SCHEDULED: <2021-05-03 Mon>
+SCHEDULED: <2021-05-07 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9517fcb8-48cc-44c5-bf53-5cd7b65866bd
-:DRILL_LAST_INTERVAL: 295.5091
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-11 Sat 09:33]
+:DRILL_LAST_REVIEWED: [2021-05-03 Mon 08:56]
 :END:
 
 c: <[long double||float OR double OR long double]> on 64-bit ARM represents the
