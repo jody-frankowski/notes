@@ -231,18 +231,18 @@ SCHEDULED: <2022-12-21 Wed>
 asm: gas syntax: l suffix = <[long]> operand = <[32]> bits long operand
 
 **** =q= suffix                                                    :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-11-30 Tue>
 :PROPERTIES:
 :SOURCE: https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax#Operation_Suffixes
 :ID:       5f393cec-3a45-4523-9945-f75146e59a4f
-:DRILL_LAST_INTERVAL: 82.8935
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 210.3008
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.999
-:DRILL_EASE: 2.62
+:DRILL_AVERAGE_QUALITY: 3.908
+:DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-10 Wed 13:12]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:46]
 :END:
 
 asm: gas syntax: q suffix = <[quad]> operand = <[64]> bits long operand
@@ -4243,19 +4243,19 @@ SCHEDULED: <2021-05-25 Tue>
 floating point: ULP aka <[Unit in the Last Place]>
 
 ***** What                                                        :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-06-04 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://en.wikipedia.org/wiki/Unit_in_the_last_place
 :ID:       4d359fed-433e-40c8-90f3-6946e7c5b240
-:DRILL_LAST_INTERVAL: 28.8441
-:DRILL_REPEATS_SINCE_FAIL: 15
-:DRILL_TOTAL_REPEATS: 29
+:DRILL_LAST_INTERVAL: 31.3824
+:DRILL_REPEATS_SINCE_FAIL: 16
+:DRILL_TOTAL_REPEATS: 30
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.069
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.067
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-05 Mon 10:57]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:46]
 :END:
 
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>

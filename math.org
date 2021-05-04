@@ -1140,18 +1140,18 @@ math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> wh
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-06-16 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 32.1243
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 42.9502
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.091
-:DRILL_EASE: 1.38
+:DRILL_AVERAGE_QUALITY: 3.083
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:47]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:45]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
@@ -2714,17 +2714,17 @@ SCHEDULED: <2021-05-06 Thu>
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation by Factoring                         :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-05-28 Fri>
 :PROPERTIES:
 :ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 17.6525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 23.6014
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.38
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-16 Fri 09:28]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:47]
 :END:
 
 math: Solve a Quadratic Equation by Factoring by:
@@ -3247,17 +3247,17 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 ]>
 
 *** Simplify a Fraction with a Binomial                             :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-08-15 Sun>
 :PROPERTIES:
 :ID:       982c5071-d48e-4d22-abb4-7b72d5fd8795
-:DRILL_LAST_INTERVAL: 48.6768
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 102.7567
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.556
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-16 Tue 08:50]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:45]
 :END:
 
 math: Simplify $\frac{4}{4 + \sqrt{2}}$
@@ -3391,18 +3391,18 @@ r = 0 \text{ or } r = 5 \\
 
 ** 9.7 Higher Roots
 *** nth Root                                                        :drill:
-SCHEDULED: <2021-05-04 Tue>
+SCHEDULED: <2021-11-25 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0e5e9d5e-07eb-4a19-9815-5ce4a10fc305
-:DRILL_LAST_INTERVAL: 100.2607
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 205.0331
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.9
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-24 Sun 13:01]
+:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:46]
 :END:
 
 math: If <[a^n = b]> then a is <[an nth root of b]>
