@@ -612,21 +612,21 @@ For example it is used in the =string.h= header of libbsd as follows:
 #+END_SRC
 
 **** Drill :drill:
-SCHEDULED: <2021-05-09 Sun>
+SCHEDULED: <2023-04-07 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       12DD5551-8167-429D-8DD7-20A773266C4E
-:DRILL_LAST_INTERVAL: 321.8413
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 698.0738
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.24
+:DRILL_AVERAGE_QUALITY: 3.692
+:DRILL_EASE: 2.1
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-21 Sun 13:55]
+:DRILL_LAST_REVIEWED: [2021-05-09 Sun 13:10]
 :END:
 
-c: <[~#include_next~]> can be used to include <[customized headers]>, eg.
+c: <[#include_next]> can be used to include <[customized headers]>, eg.
 stdlib.h
 
 *** Architectures
@@ -4080,17 +4080,17 @@ fraction is said to have <[an implicit leading bit set to 1]>
 
 ***** Values
 ****** Special Values                                            :drill:
-SCHEDULED: <2021-05-09 Sun>
+SCHEDULED: <2022-03-01 Tue>
 :PROPERTIES:
 :ID:       44695f7f-8009-4242-b515-b6aea590c4b5
-:DRILL_LAST_INTERVAL: 131.8331
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 295.9653
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.59
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.564
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-28 Mon 16:31]
+:DRILL_LAST_REVIEWED: [2021-05-09 Sun 13:10]
 :END:
 
 floating point: The value 0 is expressed with:
