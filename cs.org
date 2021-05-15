@@ -246,18 +246,18 @@ elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~
 
 **** 1.1.5 The Substitution Model for Procedure Application
 ***** Applicative Order                                           :drill:
-SCHEDULED: <2021-05-15 Sat>
+SCHEDULED: <2023-08-09 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2efd00dd-9bb5-415b-a4ef-3735c38565d0
-:DRILL_LAST_INTERVAL: 357.0975
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 816.3249
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-23 Sat 12:14]
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:46]
 :END:
 
 cs: <[Applicative Order]> is an *Evaluation Strategy* that <[evaluates the
@@ -4287,18 +4287,18 @@ Find and replace across multiple files like so:
 ** Tip 98: Meet the Global Command
 
 *** =:global=                                                       :drill:
-SCHEDULED: <2021-05-15 Sat>
+SCHEDULED: <2021-06-09 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 21.8326
-:DRILL_REPEATS_SINCE_FAIL: 14
-:DRILL_TOTAL_REPEATS: 37
+:DRILL_LAST_INTERVAL: 24.9983
+:DRILL_REPEATS_SINCE_FAIL: 15
+:DRILL_TOTAL_REPEATS: 38
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.217
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.211
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-23 Fri 07:43]
+:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:46]
 :END:
 
 vim: <[Execute an Ex Command on lines that match a pattern]> with
@@ -5176,17 +5176,17 @@ ok == <[false]>
 #+END_SRC
 
 *** Maps are Reference Types                                        :drill:
-SCHEDULED: <2021-05-15 Sat>
+SCHEDULED: <2022-08-11 Thu>
 :PROPERTIES:
 :ID:       2b1cf4e9-88f9-4eb1-85e9-a1c66aff4861
-:DRILL_LAST_INTERVAL: 179.8498
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 452.8618
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-16 Mon 10:26]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:45]
 :END:
 
 go: Maps are passed by <[reference]>

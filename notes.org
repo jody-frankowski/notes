@@ -107,18 +107,18 @@ job of the compilers to respect them (eg. between user space programs and the
 kernel, but not necessarily in the same program).
 
 *** x32                                                           :drill:
-SCHEDULED: <2021-05-15 Sat>
+SCHEDULED: <2021-10-23 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0d5bedac-d90f-48a8-a94d-4d26d33740a9
-:DRILL_LAST_INTERVAL: 100.4198
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 161.475
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.307
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:11]
+:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:45]
 :END:
 
 cs: abi: <[x32]> is an ABI that <[is the same as the x86-64 ABI but uses 32-bit
