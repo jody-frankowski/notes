@@ -3452,17 +3452,17 @@ SCHEDULED: <2021-06-18 Fri>
 vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2021-05-17 Mon>
+SCHEDULED: <2021-05-25 Tue>
 :PROPERTIES:
 :ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 5.7832
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 76
+:DRILL_LAST_INTERVAL: 7.8131
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 77
 :DRILL_FAILURE_COUNT: 14
-:DRILL_AVERAGE_QUALITY: 2.817
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.819
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-11 Tue 08:52]
+:DRILL_LAST_REVIEWED: [2021-05-17 Mon 08:50]
 :END:
 
 vim: best practice: Use the Search Command to Modify (after an operator)
@@ -3772,18 +3772,18 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 See the Change List with =:changes=.
 
 *** =g;=                                                            :drill:
-SCHEDULED: <2021-05-17 Mon>
+SCHEDULED: <2021-05-31 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 13.5442
-:DRILL_REPEATS_SINCE_FAIL: 12
-:DRILL_TOTAL_REPEATS: 71
+:DRILL_LAST_INTERVAL: 14.262
+:DRILL_REPEATS_SINCE_FAIL: 13
+:DRILL_TOTAL_REPEATS: 72
 :DRILL_FAILURE_COUNT: 11
-:DRILL_AVERAGE_QUALITY: 3.098
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.097
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-03 Mon 08:53]
+:DRILL_LAST_REVIEWED: [2021-05-17 Mon 08:51]
 :END:
 
 vim: <[Go to the next older change position]> with <[=g;=]>
