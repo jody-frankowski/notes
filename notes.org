@@ -1232,17 +1232,17 @@ needed once.
 :END:
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-05-24 Mon>
+SCHEDULED: <2024-11-19 Tue>
 :PROPERTIES:
 :ID:       8aa6f9d0-3600-4f21-a5c9-7109a61b0757
-:DRILL_LAST_INTERVAL: 477.1672
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 1275.4679
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-02 Sun 13:18]
+:DRILL_AVERAGE_QUALITY: 4.286
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-05-24 Mon 15:54]
 :END:
 
 c: By the standard, freeing() NULL has <[no effect]>
@@ -3842,42 +3842,42 @@ $ pkg-config --libs libpng
 #+END_SRC
 
 ** Numbers
-*** Arithmetic
-**** Modular                                                       :drill:
-SCHEDULED: <2021-05-24 Mon>
-:PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       BD0D007D-128D-4625-9C19-ACDBA58DD6C7
-:DRILL_LAST_INTERVAL: 426.0306
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-24 Tue 12:29]
-:END:
+# *** Arithmetic
+# **** Modular                                                       :drill:
+# SCHEDULED: <2021-05-24 Mon>
+# :PROPERTIES:
+# :DRILL_CARD_TYPE: show1cloze
+# :ID:       BD0D007D-128D-4625-9C19-ACDBA58DD6C7
+# :DRILL_LAST_INTERVAL: 426.0306
+# :DRILL_REPEATS_SINCE_FAIL: 7
+# :DRILL_TOTAL_REPEATS: 6
+# :DRILL_FAILURE_COUNT: 0
+# :DRILL_AVERAGE_QUALITY: 4.0
+# :DRILL_EASE: 2.42
+# :DRILL_LAST_QUALITY: 3
+# :DRILL_LAST_REVIEWED: [2020-03-24 Tue 12:29]
+# :END:
 
-math: With <[Modular]> arithmetic the results of operations <[*wrap* around a
-minimum and maximum value]>
+# math: With <[Modular]> arithmetic the results of operations <[*wrap* around a
+# minimum and maximum value]>
 
-**** Saturation                                                    :drill:
-SCHEDULED: <2021-09-05 Sun>
-:PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       41C7E590-F526-4CC5-8DE1-78D66CB00DAF
-:DRILL_LAST_INTERVAL: 500.4404
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-04-23 Thu 08:22]
-:END:
+# **** Saturation                                                    :drill:
+# SCHEDULED: <2021-09-05 Sun>
+# :PROPERTIES:
+# :DRILL_CARD_TYPE: show1cloze
+# :ID:       41C7E590-F526-4CC5-8DE1-78D66CB00DAF
+# :DRILL_LAST_INTERVAL: 500.4404
+# :DRILL_REPEATS_SINCE_FAIL: 7
+# :DRILL_TOTAL_REPEATS: 6
+# :DRILL_FAILURE_COUNT: 0
+# :DRILL_AVERAGE_QUALITY: 4.167
+# :DRILL_EASE: 2.56
+# :DRILL_LAST_QUALITY: 3
+# :DRILL_LAST_REVIEWED: [2020-04-23 Thu 08:22]
+# :END:
 
-math: With <[Saturation]> arithmetic the results of operations <[are *clamped*
-between a minimum and maximum value]>
+# math: With <[Saturation]> arithmetic the results of operations <[are *clamped*
+# between a minimum and maximum value]>
 
 *** Floating Point
 **** bfloat16
@@ -5272,17 +5272,17 @@ cmd: <[nm]> shows the <[symbol table]> of object files
 
 *** FS
 **** Inode                                                         :drill:
-SCHEDULED: <2021-05-24 Mon>
+SCHEDULED: <2023-01-16 Mon>
 :PROPERTIES:
 :ID:       5327fa09-eca5-4913-8f77-f91ffafd9bd6
-:DRILL_LAST_INTERVAL: 334.1869
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 601.8706
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 1.86
+:DRILL_AVERAGE_QUALITY: 3.462
+:DRILL_EASE: 1.72
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-06-24 Wed 09:21]
+:DRILL_LAST_REVIEWED: [2021-05-24 Mon 15:54]
 :END:
 
 unix: fs: An inode is a <[structure that holds the attributes and disk block
@@ -6065,16 +6065,16 @@ unix: function: <[unlink()]> == <[delete a name and possibly the file it refers
 to]>
 
 **** unlink                                                        :drill:
-SCHEDULED: <2021-05-24 Mon>
+SCHEDULED: <2021-05-30 Sun>
 :PROPERTIES:
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 6.0318
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.154
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-20 Thu 08:50]
+:DRILL_LAST_REVIEWED: [2021-05-24 Mon 15:49]
 :ID:       01b3b693-e45b-4ae6-abc0-9eff4f43d12b
 :END:
 
