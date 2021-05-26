@@ -848,35 +848,35 @@ SCHEDULED: <2021-07-22 Thu>
 math: <[Mode]> = <[The number with the highest frequency]>
 
 *** Probability Formula                                             :drill:
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-05-30 Sun>
 :PROPERTIES:
 :ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 4.0822
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:36]
+:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
 :END:
 
 math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-06-11 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 15.4108
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 22
+:DRILL_LAST_INTERVAL: 16.2276
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 23
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.909
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.913
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-11 Tue 08:54]
+:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:46]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -1755,18 +1755,18 @@ math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 
 <[an Identity Equation]>
 
 *** Contradiction Equation                                          :drill:
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-07-09 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       55e8e6e3-bbe1-424f-80d2-2ab007a13dfe
-:DRILL_LAST_INTERVAL: 27.583
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 44.3535
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.199
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.181
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-28 Wed 09:06]
+:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
 :END:
 
 math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is
@@ -2919,17 +2919,17 @@ math: A <[Complex Rational Expression]> is a <[rational expression whose numerat
 contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-06-01 Tue>
 :PROPERTIES:
 :ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 5.9336
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 6.4558
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.88
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.885
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-20 Thu 08:49]
+:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
 :END:
 
 math: Simplify a Complex Rational Expression by either:
@@ -3814,17 +3814,17 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 ]>
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-06-01 Tue>
 :PROPERTIES:
 :ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 6.3998
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.059
-:DRILL_EASE: 1.34
+:DRILL_AVERAGE_QUALITY: 3.056
+:DRILL_EASE: 1.2
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:36]
+:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
 :END:
 
 math: Solve a Quadratic Equation by:
