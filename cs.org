@@ -5426,18 +5426,18 @@ go: Arrays can be compared for equality with <[==]>
 
 ** 4.2 Slices
 *** Extend a Slice to its Capacity                                  :drill:
-SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-06-02 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       74b5eab3-f4ac-4a92-8abe-d023db7bbe45
-:DRILL_LAST_INTERVAL: 101.6522
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-16 Tue 12:48]
+:DRILL_LAST_REVIEWED: [2021-05-29 Sat 15:39]
 :END:
 
 go: <[Extend a slice's length to its capacity]> with <[SLICE = SLICE[:cap(SLICE)]]>

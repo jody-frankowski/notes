@@ -1015,18 +1015,18 @@ c: <[long double||float OR double OR long double]> on x86 usually represents the
 <[x86 80-bit extended precision]> type
 
 ****** long double on 64-bit ARM                                        :drill:
-SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-06-16 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9517fcb8-48cc-44c5-bf53-5cd7b65866bd
-:DRILL_LAST_INTERVAL: 11.3375
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 17.6525
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.083
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.077
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-18 Tue 08:55]
+:DRILL_LAST_REVIEWED: [2021-05-29 Sat 15:39]
 :END:
 
 c: <[long double||float OR double OR long double]> on 64-bit ARM represents the
@@ -7352,17 +7352,17 @@ srs: best practice: *Brainstorming* about a card use and *Deleting* it if
 useless
 
 **** Executing Repeatedly Failed Cards in Context                  :drill:
-SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2024-02-22 Thu>
 :PROPERTIES:
 :ID:       656BE464-85B0-45B4-AB7B-7493A15ABC2E
-:DRILL_LAST_INTERVAL: 393.9198
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 999.3745
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-30 Thu 11:05]
+:DRILL_AVERAGE_QUALITY: 3.917
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-05-29 Sat 15:39]
 :END:
 
 janki method: *Executing* repeatedly failed cards *In Context* is useful because:
