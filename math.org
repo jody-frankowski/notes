@@ -138,18 +138,18 @@ SCHEDULED: <2022-02-22 Tue>
 math: 7/3 is read as <[Seven Thirds]>
 
 *** Improper Fraction                                               :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2022-02-22 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
-:DRILL_LAST_INTERVAL: 141.0404
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 266.2843
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.299
-:DRILL_EASE: 1.76
+:DRILL_AVERAGE_QUALITY: 3.272
+:DRILL_EASE: 1.62
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:36]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:56]
 :END:
 
 math: a/b is <[an Improper]> fraction if <[a >= b]>
@@ -1360,17 +1360,17 @@ math: Circle Area = <[πr^2]>
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
 *** Sphere Surface Area                                             :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-06-22 Tue>
 :PROPERTIES:
 :ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 18.7283
-:DRILL_REPEATS_SINCE_FAIL: 16
-:DRILL_TOTAL_REPEATS: 36
+:DRILL_LAST_INTERVAL: 21.0319
+:DRILL_REPEATS_SINCE_FAIL: 17
+:DRILL_TOTAL_REPEATS: 37
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.972
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.973
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-13 Thu 18:13]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:56]
 :END:
 
 math: Sphere Surface Area = <[4πr^2]>
@@ -1461,17 +1461,17 @@ math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
 
 ** 10.1 Add and Subtract Polynomials
 *** Degree of a Polynomial                                          :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-09-04 Sat>
 :PROPERTIES:
 :ID:       06f15f3d-f1da-4f89-9598-66634fef5a2c
-:DRILL_LAST_INTERVAL: 59.3031
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 95.3594
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.272
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.249
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-03 Sat 11:17]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:55]
 :END:
 
 The degree of a Polynomial is the <[highest degree of all its terms]>
@@ -2715,17 +2715,17 @@ SCHEDULED: <2021-06-06 Sun>
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation by Factoring                         :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-06-05 Sat>
 :PROPERTIES:
 :ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 4.0822
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.923
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.928
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-28 Fri 08:54]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:55]
 :END:
 
 math: Solve a Quadratic Equation by Factoring by:
@@ -2919,17 +2919,17 @@ math: A <[Complex Rational Expression]> is a <[rational expression whose numerat
 contains a rational expression]>
 
 *** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-06-10 Thu>
 :PROPERTIES:
 :ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 6.4558
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 26
+:DRILL_LAST_INTERVAL: 8.6701
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 27
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.885
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.889
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:54]
 :END:
 
 math: Simplify a Complex Rational Expression by either:
@@ -3814,17 +3814,17 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 ]>
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-06-08 Tue>
 :PROPERTIES:
 :ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 6.3998
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 7.4366
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.056
-:DRILL_EASE: 1.2
+:DRILL_AVERAGE_QUALITY: 3.053
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-26 Wed 08:45]
+:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:55]
 :END:
 
 math: Solve a Quadratic Equation by:
