@@ -1660,17 +1660,17 @@ c: <[storage-class specifiers]> determine:
 <[- storage duration]>
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-06-03 Thu>
+SCHEDULED: <2021-06-16 Wed>
 :PROPERTIES:
 :ID:       1ab1f047-6e39-4499-8a03-31e0dc43ca15
-:DRILL_LAST_INTERVAL: 12.0064
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 44
+:DRILL_LAST_INTERVAL: 13.063
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 45
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.244
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:35]
+:DRILL_LAST_REVIEWED: [2021-06-03 Thu 07:39]
 :END:
 
 c: The storage-class specifiers are:
@@ -5737,18 +5737,18 @@ race condition between checking that the name exists and opening the file]>
 # value]>
 
 **** perror                                                        :drill:
-SCHEDULED: <2021-06-03 Thu>
+SCHEDULED: <2021-06-11 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       372e238f-b509-4e6e-8ac5-4cd1b4653779
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 8.2844
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.625
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.556
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-30 Sun 14:18]
+:DRILL_LAST_REVIEWED: [2021-06-03 Thu 07:38]
 :END:
 
 unix: function: <[perror()]> == <[print an error message according to the
