@@ -4261,18 +4261,18 @@ SCHEDULED: <2021-07-09 Fri>
 floating point: The <[ULP]> is <[the spacing between floating point numbers]>
 
 **** Underflow                                                     :drill:
-SCHEDULED: <2021-06-08 Tue>
+SCHEDULED: <2023-04-28 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       14995f3a-d4ac-4bd8-9796-4809a4999fc9
-:DRILL_LAST_INTERVAL: 326.618
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 689.4906
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.572
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-16 Thu 11:51]
+:DRILL_LAST_REVIEWED: [2021-06-08 Tue 08:55]
 :END:
 
 floating point: An <[Underflow]> happens when <[the result of an operation is
