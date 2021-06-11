@@ -1495,17 +1495,17 @@ c: *Internal linkage* means the identifier can be referred to <[from all the
 scopes of the translation unit]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-06-11 Fri>
+SCHEDULED: <2021-06-18 Fri>
 :PROPERTIES:
 :ID:       134c3bf7-bba1-48b1-9f80-96ace054b111
-:DRILL_LAST_INTERVAL: 3.874
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 7.0507
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.222
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-07 Mon 08:47]
+:DRILL_LAST_REVIEWED: [2021-06-11 Fri 08:53]
 :END:
 
 c: *No linkage* means the identifier can be referred to <[only from the scope it
@@ -5737,18 +5737,18 @@ race condition between checking that the name exists and opening the file]>
 # value]>
 
 **** perror                                                        :drill:
-SCHEDULED: <2021-06-11 Fri>
+SCHEDULED: <2021-06-28 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       372e238f-b509-4e6e-8ac5-4cd1b4653779
-:DRILL_LAST_INTERVAL: 8.2844
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 17.1736
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.556
-:DRILL_EASE: 2.14
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-03 Thu 07:38]
+:DRILL_LAST_REVIEWED: [2021-06-11 Fri 08:53]
 :END:
 
 unix: function: <[perror()]> == <[print an error message according to the
