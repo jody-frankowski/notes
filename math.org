@@ -882,18 +882,18 @@ SCHEDULED: <2021-06-29 Tue>
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
 
 *** Rate                                                           :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2021-06-27 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
-:DRILL_LAST_INTERVAL: 10.4435
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 11.3625
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.059
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.056
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-06 Sun 12:08]
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:51]
 :END:
 
 math: A <[Rate]> is <[a fraction of two numbers with different units]>
@@ -1070,18 +1070,18 @@ SCHEDULED: <2021-11-20 Sat>
 math: <[Rational Numbers Symbol]> = <[ℚ]>
 
 *** Real Numbers Symbol                                             :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2022-11-18 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8cca9e0a-c3f8-4ec4-9c62-9ba4280080e2
-:DRILL_LAST_INTERVAL: 198.7084
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 519.6225
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-29 Sun 15:10]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:53]
 :END:
 
 math: <[Real Numbers Symbol]> = <[ℝ]>
@@ -1140,18 +1140,18 @@ math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> wh
 
 ** 7.4 Properties of Identity, Inverses, and Zero
 *** Identity Element                                                :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2021-08-11 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 42.9502
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 55.6205
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.083
-:DRILL_EASE: 1.24
+:DRILL_AVERAGE_QUALITY: 3.077
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:45]
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:52]
 :END:
 
 math: x is the <[identity element]> of f if <[f(x, y) = y]>
@@ -2043,17 +2043,17 @@ math: <[Independent]> Equations have <[different]> solutions
 
 ** 5.2 Solving Systems of Equations by Substitution
 *** Solve a System of Equations by Substitution                     :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2022-08-07 Sun>
 :PROPERTIES:
 :ID:       b4007763-7e3d-409a-8bf7-a4389296d736
-:DRILL_LAST_INTERVAL: 164.7508
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 417.3138
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2021-01-02 Sat 16:02]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:51]
 :END:
 
 math: Solve the following system by Substitution:
@@ -2715,17 +2715,17 @@ SCHEDULED: <2021-07-15 Thu>
 math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
 
 *** Solve a Quadratic Equation by Factoring                         :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2021-06-23 Wed>
 :PROPERTIES:
 :ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 5.9649
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 6.6986
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.937
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.941
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 08:59]
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:50]
 :END:
 
 math: Solve a Quadratic Equation by Factoring by:
@@ -2955,17 +2955,17 @@ Example:
 ]>
 
 *** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2022-04-25 Mon>
 :PROPERTIES:
 :ID:       f26ae1bb-8d2e-4c05-a332-4a0b05c163e9
-:DRILL_LAST_INTERVAL: 139.3536
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 313.1275
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.626
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.556
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-28 Thu 13:22]
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:52]
 :END:
 
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the reciprocal
@@ -3223,17 +3223,17 @@ math: <[sqrt(a/b)]> = <[sqrt(a)/sqrt(b)]>
 
 ** 9.5 Divide Square Roots
 *** Simplify a Fraction with a Monomial                             :drill:
-SCHEDULED: <2021-06-16 Wed>
+SCHEDULED: <2021-07-01 Thu>
 :PROPERTIES:
 :ID:       1e86eaf9-c735-49b1-b494-2c5a31309bff
-:DRILL_LAST_INTERVAL: 7.5333
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 14.592
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.181
-:DRILL_EASE: 2.0
+:DRILL_AVERAGE_QUALITY: 3.166
+:DRILL_EASE: 1.86
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-08 Tue 08:54]
+:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:49]
 :END:
 
 math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
