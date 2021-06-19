@@ -4189,25 +4189,25 @@ SCHEDULED: <2022-11-13 Sun>
 floating point: <[Subnormal]> Numbers aka <[Denormal]> Numbers
 
 ***** Subnormal Numbers                                           :drill:
-SCHEDULED: <2021-06-19 Sat>
+SCHEDULED: <2021-06-23 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f9398c01-3786-4bcd-a9e8-18befc95eabf
-:DRILL_LAST_INTERVAL: 337.2317
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-17 Fri 07:20]
+:DRILL_LAST_INTERVAL: 3.748
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:06]
 :END:
 
 floating point: A <[Subnormal]> Number is <[a floating point number that can
 only be expressed with leading zeros in its fraction part]>
 
 # ***** Gradual Underflow                                           :drill:
-# SCHEDULED: <2020-09-26 Sat>
+#
 # :PROPERTIES:
 # :DRILL_CARD_TYPE: show1cloze
 # :SOURCE: https://en.wikipedia.org/wiki/Denormal_number
