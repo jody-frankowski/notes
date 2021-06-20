@@ -1534,17 +1534,17 @@ The lifetime of an object is determined by its storage duration. This storage
 duration can be:
 
 ***** Storage Durations                                           :drill:
-SCHEDULED: <2021-06-20 Sun>
+SCHEDULED: <2021-06-24 Thu>
 :PROPERTIES:
 :ID:       a44656b6-cdd5-4579-933f-2290a83dc4c2
-:DRILL_LAST_INTERVAL: 63.1032
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 18
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.34
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 20
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.55
+:DRILL_EASE: 2.2
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-18 Sun 12:53]
+:DRILL_LAST_REVIEWED: [2021-06-20 Sun 12:08]
 :END:
 
 c: Objects have 3 possible storage durations:
@@ -5379,17 +5379,17 @@ unix: perms: Setting the <[Setgid Bit on a Directory]> makes <[new files or
 directories under it inherit its group]>
 
 ***** Setuid on Directories                                       :drill:
-SCHEDULED: <2021-06-20 Sun>
+SCHEDULED: <2024-04-30 Tue>
 :PROPERTIES:
 :ID:       9E9042FC-A6F9-4784-8A6D-63B15EC70DAE
-:DRILL_LAST_INTERVAL: 449.4747
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 1045.0287
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.375
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-28 Sat 13:39]
+:DRILL_LAST_REVIEWED: [2021-06-20 Sun 12:05]
 :END:
 
 unix: perms: Setting the *Setuid Bit* on *directories* does <[nothing]>
@@ -6532,18 +6532,18 @@ file if it couldn't be executed by the kernel and if it looks like a text file.
 (https://stackoverflow.com/a/25202821)
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-06-20 Sun>
+SCHEDULED: <2022-09-09 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       0E63ECF8-3011-46D4-B71E-786DD7285469
-:DRILL_LAST_INTERVAL: 188.6605
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 445.8048
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.812
-:DRILL_EASE: 2.44
+:DRILL_AVERAGE_QUALITY: 3.764
+:DRILL_EASE: 2.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-13 Sun 13:32]
+:DRILL_LAST_REVIEWED: [2021-06-20 Sun 12:00]
 :END:
 
 sh: Most shells will <[execute text files]> even if <[they don't
