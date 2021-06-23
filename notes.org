@@ -4189,18 +4189,18 @@ SCHEDULED: <2022-11-13 Sun>
 floating point: <[Subnormal]> Numbers aka <[Denormal]> Numbers
 
 ***** Subnormal Numbers                                           :drill:
-SCHEDULED: <2021-06-23 Wed>
+SCHEDULED: <2021-07-01 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       f9398c01-3786-4bcd-a9e8-18befc95eabf
-:DRILL_LAST_INTERVAL: 3.748
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 7.912
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.444
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:06]
+:DRILL_LAST_REVIEWED: [2021-06-23 Wed 08:50]
 :END:
 
 floating point: A <[Subnormal]> Number is <[a floating point number that can
