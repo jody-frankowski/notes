@@ -1534,17 +1534,17 @@ The lifetime of an object is determined by its storage duration. This storage
 duration can be:
 
 ***** Storage Durations                                           :drill:
-SCHEDULED: <2021-06-24 Thu>
+SCHEDULED: <2021-07-02 Fri>
 :PROPERTIES:
 :ID:       a44656b6-cdd5-4579-933f-2290a83dc4c2
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 20
+:DRILL_LAST_INTERVAL: 7.9955
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 21
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.55
-:DRILL_EASE: 2.2
+:DRILL_AVERAGE_QUALITY: 3.524
+:DRILL_EASE: 2.06
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-20 Sun 12:08]
+:DRILL_LAST_REVIEWED: [2021-06-24 Thu 08:51]
 :END:
 
 c: Objects have 3 possible storage durations:
@@ -2288,18 +2288,18 @@ SCHEDULED: <2022-02-01 Tue>
 emacs: comint: <[Select the *next input*]> with <[M-n]>
 
 **** Previous Input                                                :drill:
-SCHEDULED: <2021-06-24 Thu>
+SCHEDULED: <2021-07-11 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       E0D15A70-C520-4809-BB23-A85B302383DF
-:DRILL_LAST_INTERVAL: 8.2844
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 17.1736
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.556
-:DRILL_EASE: 2.14
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:49]
+:DRILL_LAST_REVIEWED: [2021-06-24 Thu 08:51]
 :END:
 
 emacs: comint: <[Select the *previous input*]> with <[M-p]>
