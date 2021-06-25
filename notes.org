@@ -4883,17 +4883,17 @@ SCHEDULED: <2022-02-27 Sun>
 sh: Shells <[don't always]> load the whole script in memory before executing it
 
 *** Redirect Both stdout and stderr                                 :drill:
-SCHEDULED: <2021-06-25 Fri>
+SCHEDULED: <2021-07-19 Mon>
 :PROPERTIES:
 :ID:       50f90969-55d4-4b54-ac1c-f29892959fd5
-:DRILL_LAST_INTERVAL: 20.9341
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 23.509
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.159
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.153
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-04 Fri 08:51]
+:DRILL_LAST_REVIEWED: [2021-06-25 Fri 08:55]
 :END:
 
 sh: Redirect both stdout and stderr to FILE with <['>FILE 2>&1' and not

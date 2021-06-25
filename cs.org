@@ -5080,18 +5080,18 @@ go: Any structure automatically fits an Interface as long as all <[the specified
 methods are implemented]>
 
 *** Table Driven Tests                                              :drill:
-SCHEDULED: <2021-06-25 Fri>
+SCHEDULED: <2023-11-13 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       60862745-bde1-46bb-a38a-61479aa04622
-:DRILL_LAST_INTERVAL: 381.1271
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 871.2566
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-09 Tue 11:27]
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-06-25 Fri 08:55]
 :END:
 
 go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
