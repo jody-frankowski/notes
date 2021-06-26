@@ -3972,18 +3972,18 @@ vim: <[Switch case of the current character]> with <[~]>
 ** Tip 69: Append Commands to a Macro
 
 *** Append to a Macro                                               :drill:
-SCHEDULED: <2021-06-26 Sat>
+SCHEDULED: <2021-07-03 Sat>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       9a008e35-d7e1-467f-be2e-71c40a68dfc7
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 6.9037
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.273
-:DRILL_EASE: 1.9
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 1.76
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-22 Tue 08:51]
+:DRILL_LAST_REVIEWED: [2021-06-26 Sat 11:42]
 :END:
 
 vim: <[Append Commands to a Macro]> with <[=q{Uppercase letter}=]>
