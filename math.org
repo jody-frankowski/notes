@@ -642,17 +642,17 @@ SCHEDULED: <2022-08-27 Sat>
 math: The multiplicative inverse of <[a/b]> is <[b/a]>
 
 *** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
-SCHEDULED: <2021-06-27 Sun>
+SCHEDULED: <2021-07-01 Thu>
 :PROPERTIES:
 :ID:       54d54982-7652-4c84-8422-1058f188369b
-:DRILL_LAST_INTERVAL: 9.1928
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 32
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.124
-:DRILL_EASE: 1.16
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 34
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.087
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-18 Fri 08:53]
+:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
 :END:
 
 math: proof: The multiplicative inverse of a/b is b/a:
@@ -882,18 +882,18 @@ SCHEDULED: <2021-06-29 Tue>
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
 
 *** Rate                                                           :drill:
-SCHEDULED: <2021-06-27 Sun>
+SCHEDULED: <2021-07-12 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
-:DRILL_LAST_INTERVAL: 11.3625
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 15.2598
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.056
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.053
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:51]
+:DRILL_LAST_REVIEWED: [2021-06-27 Sun 12:59]
 :END:
 
 math: A <[Rate]> is <[a fraction of two numbers with different units]>
@@ -2828,17 +2828,17 @@ math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
 
 ** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
 *** Find the Least Common Multiple of Polynomials                   :drill:
-SCHEDULED: <2021-06-27 Sun>
+SCHEDULED: <2021-09-27 Mon>
 :PROPERTIES:
 :ID:       9efc5ffa-fb1d-4a20-a101-5247daa64003
-:DRILL_LAST_INTERVAL: 69.0584
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 92.3311
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.091
-:DRILL_EASE: 1.38
+:DRILL_AVERAGE_QUALITY: 3.083
+:DRILL_EASE: 1.24
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-19 Mon 08:46]
+:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
 :END:
 
 math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
@@ -3776,18 +3776,18 @@ u = \frac{-2 \pm \sqrt{10}}{3}
 ]>
 
 *** Quadratic Formula Discriminant                                  :drill:
-SCHEDULED: <2021-06-27 Sun>
+SCHEDULED: <2022-03-29 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       84cfa366-9573-4447-bca7-034d28d5eecd
-:DRILL_LAST_INTERVAL: 130.2733
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 275.0069
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-17 Wed 13:18]
+:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
 :END:
 
 math: In the Quadratic Formula, <[$b^2 - 4ac$]> is <[the Discrimant]>
@@ -3814,17 +3814,17 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 ]>
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2021-06-27 Sun>
+SCHEDULED: <2021-07-11 Sun>
 :PROPERTIES:
 :ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 10.4725
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 13.6247
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.048
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.046
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-17 Thu 08:48]
+:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
 :END:
 
 math: Solve a Quadratic Equation by:
