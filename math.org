@@ -1293,17 +1293,17 @@ SCHEDULED: <2021-07-25 Sun>
 math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
 
 *** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2021-07-10 Sat>
 :PROPERTIES:
 :ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 10.8264
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 35
+:DRILL_LAST_INTERVAL: 12.158
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 36
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.971
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.972
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-17 Thu 08:49]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:03]
 :END:
 
 math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
@@ -1904,18 +1904,18 @@ SCHEDULED: <2021-08-17 Tue>
 math: <[Parallel]> lines have <[the same slope||slope]>
 
 *** Perpendicular Lines                                             :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2021-07-15 Thu>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       48d348fd-f594-491a-b80c-c09fb0d1bbe3
-:DRILL_LAST_INTERVAL: 15.4158
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 17.3119
+:DRILL_REPEATS_SINCE_FAIL: 12
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-13 Sun 12:23]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
 :END:
 
 math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
@@ -2166,18 +2166,18 @@ SCHEDULED: <2021-11-05 Fri>
 math: pattern: <[(a + b)^2]> = <[a^2 + 2ab + b^2]>
 
 *** Squared Binomial                                                :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2022-01-30 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       2d2dd1b3-5f48-466b-89c0-4cd9266079ae
-:DRILL_LAST_INTERVAL: 134.5231
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 216.3131
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:57]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
 :END:
 
 math: pattern: <[(a - b)^2]> = <[a^2 - 2ab + b^2]>
@@ -2200,18 +2200,18 @@ SCHEDULED: <2021-08-02 Mon>
 math: A <[Conjugate Pair]> is <[two binomials of the form (a + b),(a - b)||form]>
 
 *** Multiplied Conjugate Pair                                       :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2022-01-30 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       8cf8e0ae-ab98-4ec1-8ac1-7326731baad9
-:DRILL_LAST_INTERVAL: 134.5231
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 216.3131
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-13 Sat 13:59]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
 :END:
 
 math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
@@ -2664,17 +2664,17 @@ math: Factor 9x^2 + 4
 
 ** 7.5 General Strategy for Factoring Polynomials
 *** General Strategy for Factoring Polynomials                      :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2021-07-08 Thu>
 :PROPERTIES:
 :ID:       07499152-8cbf-4e89-ba09-ca6c1b015b98
-:DRILL_LAST_INTERVAL: 9.1928
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 33
+:DRILL_LAST_INTERVAL: 10.3235
+:DRILL_REPEATS_SINCE_FAIL: 10
+:DRILL_TOTAL_REPEATS: 34
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.939
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 2.941
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:01]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:01]
 :END:
 
 math: General Strategy for Factoring Polynomials
@@ -2777,18 +2777,18 @@ c = 4/3 or c = 2
 
 ** 8.1 Simplify Rational Expressions
 *** Rational Expression                                             :drill:
-SCHEDULED: <2021-06-28 Mon>
+SCHEDULED: <2021-07-18 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 18.2236
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 19.8273
+:DRILL_REPEATS_SINCE_FAIL: 14
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.961
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.962
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 09:00]
+:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
 :END:
 
 math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
