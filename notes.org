@@ -1352,17 +1352,17 @@ SCHEDULED: <2021-09-04 Sat>
 c: An *lvalue* is an object that is <[addressable]>
 
 **** rvalue                                                        :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2021-07-03 Sat>
 :PROPERTIES:
 :ID:       13afd09e-2c02-499f-864e-96c66b36f744
-:DRILL_LAST_INTERVAL: 394.3531
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 1.8
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.11
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-31 Sun 11:52]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:54]
 :END:
 
 c: An *rvalue* is <[by definition anything that isn't an *lvalue*]>
@@ -1495,17 +1495,17 @@ c: *Internal linkage* means the identifier can be referred to <[from all the
 scopes of the translation unit]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2021-07-17 Sat>
 :PROPERTIES:
 :ID:       134c3bf7-bba1-48b1-9f80-96ace054b111
-:DRILL_LAST_INTERVAL: 11.3375
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 17.6525
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 1.52
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.38
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-18 Fri 08:53]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:53]
 :END:
 
 c: *No linkage* means the identifier can be referred to <[only from the scope it

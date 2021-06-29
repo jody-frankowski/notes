@@ -865,18 +865,18 @@ math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
 
 ** 5.6 Ratios and Rate
 *** Ratio                                                           :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2021-07-19 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 18.2236
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 24
+:DRILL_LAST_INTERVAL: 19.8273
+:DRILL_REPEATS_SINCE_FAIL: 14
+:DRILL_TOTAL_REPEATS: 25
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.917
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.92
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-11 Fri 08:55]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:53]
 :END:
 
 math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
@@ -3062,17 +3062,17 @@ SCHEDULED: <2022-06-13 Mon>
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
 
 *** Proportion Work Application                                     :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2021-07-03 Sat>
 :PROPERTIES:
 :ID:       b38ac638-cd2e-460f-8be2-4278c46085ac
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-29 Fri 11:37]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:55]
 :END:
 
 math: Bob can paint a room in 6 hours. Alice takes 12 hours to paint the same room. How long would
@@ -3095,17 +3095,17 @@ Answer: 4 hours
 
 ** 8.9 Use Direct and Inverse Variation
 *** Direct Variation                                                :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2022-06-19 Sun>
 :PROPERTIES:
 :ID:       1ac2db67-1ca3-458d-a9db-7c080da07815
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 354.8278
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-29 Fri 11:28]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:52]
 :END:
 
 math: x varies directly with y if <[x = ky]>
@@ -3141,17 +3141,17 @@ miles = kt = 50 * 5 = 250 miles
 ]>
 
 *** Inverse Variation                                               :drill:
-SCHEDULED: <2021-06-29 Tue>
+SCHEDULED: <2022-06-19 Sun>
 :PROPERTIES:
 :ID:       18d8192f-c01a-44ae-a517-97891d24e083
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 354.8278
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-29 Fri 11:28]
+:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:53]
 :END:
 
 math: x varies inversely with y if <[x = k/y]>
