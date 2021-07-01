@@ -4716,17 +4716,17 @@ go: Run *Benchmarks* with the command <[go test -bench .]>
 
 ** Arrays and slices
 *** Array Syntax                                                    :drill:
-SCHEDULED: <2021-07-01 Thu>
+SCHEDULED: <2021-07-12 Mon>
 :PROPERTIES:
 :ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 10.0361
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 35
+:DRILL_LAST_INTERVAL: 11.2705
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 36
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.286
-:DRILL_EASE: 1.16
+:DRILL_AVERAGE_QUALITY: 3.278
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-21 Mon 08:46]
+:DRILL_LAST_REVIEWED: [2021-07-01 Thu 08:55]
 :END:
 
 go: Declare an array with =var array <[[SIZE|...]TYPE]>=
@@ -5098,18 +5098,18 @@ go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
 its inputs and expected results]>
 
 *** Kent Beck Quote                                                 :drill:
-SCHEDULED: <2021-07-01 Thu>
+SCHEDULED: <2021-07-05 Mon>
 :PROPERTIES:
 :SOURCE: The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
 :ID:       d2ed43e9-b02b-47dc-b52e-022a8c3fd4fe
-:DRILL_LAST_INTERVAL: 85.106
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 24
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.332
-:DRILL_EASE: 1.3
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 26
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.268
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-07 Wed 08:50]
+:DRILL_LAST_REVIEWED: [2021-07-01 Thu 09:01]
 :END:
 
 cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not
