@@ -1478,17 +1478,17 @@ c: *External linkage* means the identifier can be referred to <[from anywhere in
 the whole program]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-07-02 Fri>
+SCHEDULED: <2021-07-06 Tue>
 :PROPERTIES:
 :ID:       1998149e-a65c-4c26-ba79-cc73380edd8d
-:DRILL_LAST_INTERVAL: 402.9144
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.692
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-05-25 Mon 11:00]
+:DRILL_LAST_INTERVAL: 3.752
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 15
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.533
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:57]
 :END:
 
 c: *Internal linkage* means the identifier can be referred to <[from all the
@@ -1534,17 +1534,17 @@ The lifetime of an object is determined by its storage duration. This storage
 duration can be:
 
 ***** Storage Durations                                           :drill:
-SCHEDULED: <2021-07-02 Fri>
+SCHEDULED: <2021-07-18 Sun>
 :PROPERTIES:
 :ID:       a44656b6-cdd5-4579-933f-2290a83dc4c2
-:DRILL_LAST_INTERVAL: 7.9955
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 15.951
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.524
-:DRILL_EASE: 2.06
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 1.92
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-24 Thu 08:51]
+:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:54]
 :END:
 
 c: Objects have 3 possible storage durations:
