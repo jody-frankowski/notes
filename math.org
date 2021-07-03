@@ -574,18 +574,18 @@ SCHEDULED: <2021-07-07 Wed>
 math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
 
 *** Irreducible Fraction                                            :drill:
-SCHEDULED: <2021-07-03 Sat>
+SCHEDULED: <2021-07-12 Mon>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
-:DRILL_LAST_INTERVAL: 6.8801
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 38
+:DRILL_LAST_INTERVAL: 8.951
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 39
 :DRILL_FAILURE_COUNT: 7
 :DRILL_AVERAGE_QUALITY: 3.001
-:DRILL_EASE: 1.3
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-26 Sat 11:42]
+:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:17]
 :END:
 
 math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
@@ -1737,18 +1737,18 @@ math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]>
 <[Conditional Equation]>
 
 *** Identity Equation                                               :drill:
-SCHEDULED: <2021-07-03 Sat>
+SCHEDULED: <2021-07-21 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 16.2252
-:DRILL_REPEATS_SINCE_FAIL: 15
-:DRILL_TOTAL_REPEATS: 30
+:DRILL_LAST_INTERVAL: 17.653
+:DRILL_REPEATS_SINCE_FAIL: 16
+:DRILL_TOTAL_REPEATS: 31
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.9
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 2.903
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-17 Thu 08:50]
+:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:21]
 :END:
 
 math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
@@ -3062,17 +3062,17 @@ SCHEDULED: <2022-06-13 Mon>
 math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
 
 *** Proportion Work Application                                     :drill:
-SCHEDULED: <2021-07-03 Sat>
+SCHEDULED: <2021-07-11 Sun>
 :PROPERTIES:
 :ID:       b38ac638-cd2e-460f-8be2-4278c46085ac
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 8.0668
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.375
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:55]
+:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:16]
 :END:
 
 math: Bob can paint a room in 6 hours. Alice takes 12 hours to paint the same room. How long would
@@ -3355,17 +3355,17 @@ math: Solve $\sqrt{9k - 2} + 1 = 0$
 ]>
 
 *** Solve a Radical Equation with an Extraneous Solution            :drill:
-SCHEDULED: <2021-07-03 Sat>
+SCHEDULED: <2021-07-14 Wed>
 :PROPERTIES:
 :ID:       f9ee9c80-0ee3-4157-960d-5704d6964984
-:DRILL_LAST_INTERVAL: 10.1364
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 11.0284
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.04
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.038
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-23 Wed 08:50]
+:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:21]
 :END:
 
 math: Solve $\sqrt{r + 4} - r + 2 = 0$

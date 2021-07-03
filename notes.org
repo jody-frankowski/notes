@@ -1352,17 +1352,17 @@ SCHEDULED: <2021-09-04 Sat>
 c: An *lvalue* is an object that is <[addressable]>
 
 **** rvalue                                                        :drill:
-SCHEDULED: <2021-07-03 Sat>
+SCHEDULED: <2021-07-09 Fri>
 :PROPERTIES:
 :ID:       13afd09e-2c02-499f-864e-96c66b36f744
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 6.0332
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.11
-:DRILL_EASE: 1.66
+:DRILL_AVERAGE_QUALITY: 3.099
+:DRILL_EASE: 1.52
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:54]
+:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:17]
 :END:
 
 c: An *rvalue* is <[by definition anything that isn't an *lvalue*]>
