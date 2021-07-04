@@ -164,18 +164,18 @@ OR shorter version:
 <[(define (NAME ARGS...) ...)]>
 
 ***** Lambda Definition                                           :drill:
-SCHEDULED: <2021-07-04 Sun>
+SCHEDULED: <2024-07-03 Wed>
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
 :ID:       65190513-558A-4D8B-ACB3-160894F6730B
-:DRILL_LAST_INTERVAL: 456.2115
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 1095.3638
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-04-04 Sat 12:44]
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:13]
 :END:
 
 lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
@@ -373,17 +373,17 @@ SCHEDULED: <2022-09-20 Tue>
 lisp: prototype: when: <[(when CONDITION THEN...)]>
 
 ***** =unless=                                                    :drill:
-SCHEDULED: <2021-07-04 Sun>
+SCHEDULED: <2024-02-21 Wed>
 :PROPERTIES:
 :ID:       af344d0a-3557-4410-961c-a3007b6356b9
-:DRILL_LAST_INTERVAL: 400.5301
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 961.6728
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 3.857
+:DRILL_EASE: 2.28
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-29 Fri 13:21]
+:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:12]
 :END:
 
 lisp: prototype: unless: <[(unless CONDITION THEN...)]>
