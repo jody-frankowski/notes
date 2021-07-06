@@ -1442,17 +1442,17 @@ The Linkage of identifiers defines how they can refer to the same
 object/function in different scopes.
 
 ***** Possible Linkage                                            :drill:
-SCHEDULED: <2021-07-06 Tue>
+SCHEDULED: <2021-09-09 Thu>
 :PROPERTIES:
 :ID:       e44a597b-6aee-4c72-bb06-e599bc889fd1
-:DRILL_LAST_INTERVAL: 59.5262
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 21
+:DRILL_LAST_INTERVAL: 64.7645
+:DRILL_REPEATS_SINCE_FAIL: 11
+:DRILL_TOTAL_REPEATS: 22
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 1.3
+:DRILL_AVERAGE_QUALITY: 3.319
+:DRILL_EASE: 1.16
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-07 Fri 08:57]
+:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:13]
 :END:
 
 c: An object or a function can have one of 3 types of linkages:
@@ -1478,17 +1478,17 @@ c: *External linkage* means the identifier can be referred to <[from anywhere in
 the whole program]>
 
 ***** Drill                                                       :drill:
-SCHEDULED: <2021-07-06 Tue>
+SCHEDULED: <2021-07-10 Sat>
 :PROPERTIES:
 :ID:       1998149e-a65c-4c26-ba79-cc73380edd8d
-:DRILL_LAST_INTERVAL: 3.752
+:DRILL_LAST_INTERVAL: 3.634
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.533
-:DRILL_EASE: 2.28
+:DRILL_TOTAL_REPEATS: 17
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.411
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:57]
+:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:13]
 :END:
 
 c: *Internal linkage* means the identifier can be referred to <[from all the
@@ -7281,17 +7281,17 @@ To:
 - Fail the card if it hasn't been implemented recently
 
 **** Best Practice Cards and Failing Them                          :drill:
-SCHEDULED: <2021-07-06 Tue>
+SCHEDULED: <2023-06-04 Sun>
 :PROPERTIES:
 :ID:       CE00AAE5-D7EF-4623-902B-34BAE633CB92
-:DRILL_LAST_INTERVAL: 379.0825
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 697.5118
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.428
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-22 Mon 11:56]
+:DRILL_AVERAGE_QUALITY: 3.374
+:DRILL_EASE: 1.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:13]
 :END:
 
 srs: best practice: Make *Best Practice* cards and *Fail* them if not
