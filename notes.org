@@ -5945,18 +5945,18 @@ SCHEDULED: <2022-05-29 Sun>
 c: printf: <[Cast the integer argument to long]> with <[l]>
 
 ****** ll                                                        :drill:
-SCHEDULED: <2021-07-12 Mon>
+SCHEDULED: <2023-07-26 Wed>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       914d9a4b-a9f1-4bc6-af03-53e263897661
-:DRILL_LAST_INTERVAL: 345.9004
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 743.6859
+:DRILL_REPEATS_SINCE_FAIL: 8
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 3.572
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-31 Fri 12:51]
+:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:45]
 :END:
 
 c: printf: <[Cast the integer argument to long long]> with <[ll]>
@@ -6976,18 +6976,18 @@ What if I told you that in Vim (and emulators) you could *reselect your last
 selection*?!  Just hit ~gv~ to get that fleeting selection.
 
 **** Drill                                                         :drill:
-SCHEDULED: <2021-07-12 Mon>
+SCHEDULED: <2021-07-16 Fri>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       5929EA62-8D77-49BD-8053-72DD79A50921
-:DRILL_LAST_INTERVAL: 584.5669
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-05 Thu 14:06]
+:DRILL_LAST_INTERVAL: 3.874
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:45]
 :END:
 
 vim: <[Reselect your last selection]> with <[gv]>
