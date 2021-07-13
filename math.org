@@ -1957,18 +1957,18 @@ math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included
 
 ** 5.1 Solve Systems of Equations by Graphing
 *** Coincident Lines                                                :drill:
-SCHEDULED: <2021-07-13 Tue>
+SCHEDULED: <2021-07-25 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: show1cloze
 :ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
-:DRILL_LAST_INTERVAL: 10.9252
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 25
+:DRILL_LAST_INTERVAL: 12.269
+:DRILL_REPEATS_SINCE_FAIL: 9
+:DRILL_TOTAL_REPEATS: 26
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 2.999
-:DRILL_EASE: 1.16
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:54]
+:DRILL_LAST_REVIEWED: [2021-07-13 Tue 07:10]
 :END:
 
 math: <[Coincident Lines]> have <[the same slope and y-intercept]>
@@ -2132,17 +2132,17 @@ Solution: (8, -2)
 
 ** 6.1 Add and Subtract Polynomials
 *** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2021-07-13 Tue>
+SCHEDULED: <2021-07-29 Thu>
 :PROPERTIES:
 :ID:       72e4d321-d16e-4f14-b466-d4012ea3d99b
-:DRILL_LAST_INTERVAL: 12.5594
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 18
+:DRILL_LAST_INTERVAL: 16.2644
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 19
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.24
+:DRILL_AVERAGE_QUALITY: 3.158
+:DRILL_EASE: 1.3
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-30 Wed 08:55]
+:DRILL_LAST_REVIEWED: [2021-07-13 Tue 07:11]
 :END:
 
 The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
