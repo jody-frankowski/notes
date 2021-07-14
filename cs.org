@@ -175,7 +175,7 @@ SCHEDULED: <2024-07-03 Wed>
 
 lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
 
-****** Note
+****** Extra
 
 This is common to most lisp based languages
 
