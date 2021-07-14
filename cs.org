@@ -258,7 +258,7 @@ SCHEDULED: <2023-08-09 Wed>
 cs: <[Applicative Order]> is an *Evaluation Strategy* that <[evaluates the
 arguments before applying the function]>
 
-****** Tip
+****** Extra
 
 *A* plicative order *A* pplies the *A* rguments first, and expands the function
 second.
@@ -3233,7 +3233,7 @@ SCHEDULED: <2021-08-09 Mon>
 
 vim: <[Insert the Current Whole WORD at the Command Prompt]> with <[<C-r><C-a>]>
 
-**** Tip
+**** Extra
 
 <C-a> like <C-All>
 
