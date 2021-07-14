@@ -37,7 +37,6 @@ CLOCK: [2019-09-10 Tue 14:50]--[2019-09-10 Tue 16:50] =>  2:00
 ***** Read-Eval-Print Loop                                        :drill:
 SCHEDULED: <2022-03-04 Fri>
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
 :ID:       2D416CA8-BE20-44A9-864E-EB8FFA238594
 :DRILL_LAST_INTERVAL: 636.4045
 :DRILL_REPEATS_SINCE_FAIL: 7
@@ -49,11 +48,7 @@ SCHEDULED: <2022-03-04 Fri>
 :DRILL_LAST_REVIEWED: [2020-06-06 Sat 12:58]
 :END:
 
-cs: How is called a python/lisp *interpreter input cycle*?
-
-****** Answer
-
-A Read-Eval-Print Loop
+cs: A python/lisp *interpreter input cycle* is called a <[Read-Eval-Print Loop]>
 
 ***** Define a Variable in Elisp                                  :drill:
 SCHEDULED: <2023-01-22 Sun>
