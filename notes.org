@@ -509,7 +509,7 @@ OR
 
 ***** Text
 
-c: *Bitfields* can be declared in {{c1:Structures or Unions}}
+c: *Bitfields* can be declared in {{c1::Structures or Unions}}
 
 *** Constants
 **** Integers
@@ -1153,7 +1153,7 @@ c: A {{c1::Translation Unit}} is {{c2::a source file with its includes processed
 
 ***** Text
 
-c: There is {{c1:3}} characters in Trigraph Sequences
+c: There is {{c1::3}} characters in Trigraph Sequences
 
 **** Trigraph Sequences
 :PROPERTIES:
@@ -1173,7 +1173,7 @@ c: All {{c1::Trigraph}} Sequences start with {{c2::??}}
 
 ***** Text
 
-c: Trigraph Sequences are replaced by {{c1:1}} character(s)
+c: Trigraph Sequences are replaced by {{c1::1}} character(s)
 
 **** Trigraph Sequences
 :PROPERTIES:
@@ -1183,7 +1183,7 @@ c: Trigraph Sequences are replaced by {{c1:1}} character(s)
 
 ***** Text
 
-c: Trigraph Sequences are replaced {{c1:before any processing}}
+c: Trigraph Sequences are replaced {{c1::before any processing}}
 
 *** Type Qualifiers
 **** ~const~
