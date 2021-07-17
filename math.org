@@ -1,4 +1,5 @@
 #+TITLE: Math
+#+PROPERTY: ANKI_DECK Math
 
 * Elements of Algebra - Leonhard Euler
 :LOGBOOK:
@@ -17,215 +18,138 @@ CLOCK: [2020-07-09 Thu 09:29]--[2020-07-09 Thu 10:30] =>  1:01
 :END:
 
 ** Chapter II – Explanation of the Signs + Plus and – Minus
-*** Natural Numbers                                                 :drill:
-SCHEDULED: <2022-04-12 Tue>
+*** Natural Numbers
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       67805fb8-ab8b-4f52-9731-299f683ac7c5
-:DRILL_LAST_INTERVAL: 366.9176
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525419651
 :END:
 
-math: <[Natural Numbers]> = <[0, 1, 2, ... or 1, 2, ...||X or Y]>
+**** Text
 
-*** Natural Numbers Including 0                                     :drill:
-SCHEDULED: <2022-02-12 Sat>
+math: {{c1::Natural Numbers}} = {{c2::0, 1, 2, ... or 1, 2, ...::X or Y}}
+
+*** Natural Numbers Including 0
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       a52d3df6-dab7-472e-a7b0-4c5be2092b10
-:DRILL_LAST_INTERVAL: 332.4892
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-17 Wed 09:06]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525419791
 :END:
 
-math: <[N_0 = N^0 = N \cup {0}||3 Notations]> = <[{0, 1, 2, …}]>
+**** Text
 
-*** Natural Numbers Excluding 0                                     :drill:
-SCHEDULED: <2022-02-12 Sat>
+math: {{c1::N_0}} = {{c1::N^0}} = {{c1:: N \cup {0} }} = {{c2:: {0, 1, 2, …} }}
+
+*** Natural Numbers Excluding 0
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       7dfc1349-9080-4afa-9d10-9b482bff5724
-:DRILL_LAST_INTERVAL: 315.4974
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.701
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-03 Sat 11:17]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525419952
 :END:
 
-math: <[N^{*} = N^{+} = N_{1} = N_{>0} = N \ {0}||5 Notations]> = <[{1, 2, 3, …}]>
+**** Text
+
+math: {{c1:: N^{*} }} = {{c1:: N^{+} }} = {{c1:: N_{1} }} = {{c1:: N_{>0} }} = {{c1:: N \ {0} }} =
+{{c2:: {1, 2, 3, …} }}
 
 ** Chapter III – Of the Multiplication of Simple Quantities
-*** Associative Property                                            :drill:
-SCHEDULED: <2021-09-06 Mon>
+*** Associative Property
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       e34cc3b6-7090-4234-8f0c-a77066180051
-:DRILL_LAST_INTERVAL: 156.8147
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.364
-:DRILL_EASE: 1.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525420110
 :END:
 
-math: f is <[Associative]> if: <[f(f(a, b), c) = f(a, f(b, c))]>
+**** Text
 
-*** Commutative Property                                            :drill:
-SCHEDULED: <2021-09-22 Wed>
+math: f is {{c1::Associative}} if {{c2::f(f(a, b), c) = f(a, f(b, c))}}
+
+*** Commutative Property
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       acecbbbb-cdfa-4798-98e9-98718b039b4e
-:DRILL_LAST_INTERVAL: 66.9794
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-17 Sat 10:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525420309
 :END:
 
-math: f is <[Commutative]> if: <[f(a, b) = f(b, a)]>
+**** Text
+
+math: f is {{c1::Commutative}} if {{c2::f(a, b) = f(b, a)}}
 
 ** Chapter VII – Of Fractions in General
-*** Numerator and Denominator                                       :drill:
-SCHEDULED: <2022-07-06 Wed>
+*** Numerator and Denominator
 :PROPERTIES:
-:ID:       acf9860e-c10a-4396-b669-4aacdf0d4a3e
-:DRILL_LAST_INTERVAL: 434.5374
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-27 Tue 08:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525420558
 :END:
 
-math: In a/b, a is the <[Numerator or Dividend||XXX or XXX]> and b is the
-<[Denominator or Divisor||XXX or XXX]>
+**** Text
 
-*** Fraction Description                                            :drill:
-SCHEDULED: <2022-02-22 Tue>
+math: In a/b, a is the {{c1::Numerator or Dividend::XXX or XXX}} and b is the
+{{c2::Denominator or Divisor::XXX or XXX}}
+
+*** Fraction Description
 :PROPERTIES:
-:ID:       f3d6d030-991c-41ee-a98f-984369eda9d1
-:DRILL_LAST_INTERVAL: 270.1853
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.545
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-28 Fri 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421223
 :END:
 
-math: 7/3 is read as <[Seven Thirds]>
+**** Text
 
-*** Improper Fraction                                               :drill:
-SCHEDULED: <2022-02-22 Tue>
+math: 7/3 is read as {{c1::Seven Thirds}}
+
+*** Improper Fraction
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1c4603d6-3b02-4353-86d4-cca6ef8862cb
-:DRILL_LAST_INTERVAL: 266.2843
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.272
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421371
 :END:
 
-math: a/b is <[an Improper]> fraction if <[a >= b]>
+**** Text
 
-*** Proper Fraction                                                 :drill:
-SCHEDULED: <2021-11-16 Tue>
+math: a/b is {{c1::an Improper}} fraction if {{c2::a >= b}}
+
+*** Proper Fraction
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       17fa6164-7977-4ddf-ba66-7b143b42d68c
-:DRILL_LAST_INTERVAL: 270.7339
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-18 Thu 13:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421537
 :END:
 
-math: a/b is <[a Proper]> fraction if <[a < b]>
+**** Text
 
-*** Mixed Number                                                    :drill:
-SCHEDULED: <2021-11-08 Mon>
+math: a/b is {{c1::a Proper}} fraction if {{c1::a < b}}
+
+*** Mixed Number
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       c07f1718-eb17-480f-b3a9-cd1b6134f66c
-:DRILL_LAST_INTERVAL: 269.3582
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-12 Fri 12:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421657
 :END:
 
-math: A <[Mixed Number]> is <[the sum of a non-zero integer and a proper
-fraction]>
+**** Text
 
-*** Mixed Number Notation                                           :drill:
-SCHEDULED: <2021-09-13 Mon>
+math: A {{c1::Mixed Number}} is {{c2::the sum of a non-zero integer and a proper fraction}}
+
+*** Mixed Number Notation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       f3580a87-8b20-4355-bea9-bd40efd56212
-:DRILL_LAST_INTERVAL: 164.2806
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.364
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421805
 :END:
 
-math: A <[Mixed Number]> is noted as <[a b/c]>
+**** Text
+
+math: A {{c1::Mixed Number}} is noted as {{c2::a b/c}}
 
 ** Chapter VIII – Of the Properties of Fractions
-*** Multiplying the Numerator and Denominator                      :drill:
-SCHEDULED: <2022-12-06 Tue>
+*** Multiplying the Numerator and Denominator
 :PROPERTIES:
-:ID:       722db1b5-424c-44cd-b290-a1248fc77096
-:DRILL_LAST_INTERVAL: 539.2699
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-15 Tue 09:29]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525421965
 :END:
 
+**** Text
+
 math: proof: ma/mb = a/b
-<[Extract m/m out of the fraction:
-  ma/mb = a/b * m/m
-        = a/b * 1
-        = a/b]>
+{{c1::
+#+BEGIN_SRC
+Extract m/m out of the fraction:
+ma/mb = a/b * m/m
+      = a/b * 1
+      = a/b
+#+END_SRC
+}}
 
 ** Questions for Practice
 
@@ -283,25 +207,22 @@ math: proof: ma/mb = a/b
    \end{align}
 
 ** Chapter IX – Of the Addition and Subtraction of Fractions
-*** Adding Fractions With The Same Denominator                      :drill:
-SCHEDULED: <2021-10-05 Tue>
+*** Adding Fractions With The Same Denominator
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0e8dfab0-0dfb-4615-a049-bdc6fce6e564
-:DRILL_LAST_INTERVAL: 239.1758
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-08 Mon 12:26]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525422180
 :END:
 
-math: a/c + b/c = <[(a + b)/c]> because
-<[a/c + b/c = a * 1/c + b * 1/c
-            = (a + b) * 1/c
-            = (a + b)/c]>
+**** Text
+
+math: a/c + b/c = {{c1::(a + b)/c}} because
+{{c1::
+#+BEGIN_SRC
+a/c + b/c = a * 1/c + b * 1/c
+          = (a + b) * 1/c
+          = (a + b)/c
+#+END_SRC
+}}
 
 ** Questions for Practice
 
@@ -355,111 +276,65 @@ math: a/c + b/c = <[(a + b)/c]> because
    \end{align}
 
 ** Chapter X – Of the Multiplication and Division of Fractions
-# *** Proof of a/b * c = a/(b/c)                                      :drill:
-# SCHEDULED: <2020-08-02 Sun>
-# :PROPERTIES:
-# :ID:       d33bad41-9e57-4f48-9355-dffd4790aded
-# :DRILL_LAST_INTERVAL: 3.874
-# :DRILL_REPEATS_SINCE_FAIL: 2
-# :DRILL_TOTAL_REPEATS: 2
-# :DRILL_FAILURE_COUNT: 1
-# :DRILL_AVERAGE_QUALITY: 2.5
-# :DRILL_EASE: 2.36
-# :DRILL_LAST_QUALITY: 3
-# :DRILL_LAST_REVIEWED: [2020-07-29 Wed 15:40]
-# :END:
-
-# math: proof: a/b * c = a/(b/c):
-# <[
-# a/b * c = a/(b * X)
-# a/b * c * X = a/b
-# X = a/b * b/a * 1/c
-# X = 1/c
-# So
-# a/b * c = a/(b/c)
-# ]>
-
-*** (a/b)/c = a/bc                                                  :drill:
-SCHEDULED: <2021-09-27 Mon>
+*** (a/b)/c = a/bc
 :PROPERTIES:
-:ID:       bd3946e1-a552-47ce-9b69-03a06a5a1bbf
-:DRILL_LAST_INTERVAL: 192.1544
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.9
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-19 Fri 09:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525422328
 :END:
 
-math: (a/b)/c = <[a/bc]>
+**** Text
 
-*** Proof of (a/b)/c = a/bc                                         :drill:
-SCHEDULED: <2022-02-19 Sat>
+math: (a/b)/c = {{c1::a/bc}}
+
+*** Proof of (a/b)/c = a/bc
 :PROPERTIES:
-:ID:       12363e01-b0dd-451d-bee6-5cbf774935be
-:DRILL_LAST_INTERVAL: 326.53
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-29 Mon 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525422585
 :END:
+
+**** Text
 
 math: proof: (a/b)/c = a/bc
-<[
+{{c1::
+#+BEGIN_SRC
 (a/b)/c = a/b * 1/c
         = a/bc
-]>
+#+END_SRC
+}}
 
-*** Proof of 1/ab = 1/a * 1/b                                       :drill:
-SCHEDULED: <2021-07-23 Fri>
+*** Proof of 1/ab = 1/a * 1/b
 :PROPERTIES:
-:ID:       97dbb2f3-d591-432f-bc00-8d486a4c1815
-:DRILL_LAST_INTERVAL: 11.1549
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 41
-:DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.024
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423160
 :END:
 
+**** Text
+
 math: proof: 1/ab = 1/a * 1/b
-<[
+{{c1::
 1/ab is the inverse of ab, so
 ab * 1/ab must be equal to 1
 ab * (1/a * 1/b) = a * 1/a * b * 1/b
                  = 1 * 1
                  = 1
-]>
+}}
 
-*** Proof of (a/b) * (c/d) = ab/cd                                  :drill:
-SCHEDULED: <2021-07-27 Tue>
+*** Proof of (a/b) * (c/d) = ab/cd
 :PROPERTIES:
 :Source: http://mathforum.org/library/drmath/view/63841.html
-:ID:       a71f5026-42b0-4a33-b8df-bb527be4b54b
-:DRILL_LAST_INTERVAL: 22.7451
-:DRILL_REPEATS_SINCE_FAIL: 16
-:DRILL_TOTAL_REPEATS: 28
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423325
 :END:
 
+**** Text
+
 math: proof: (a/b) * (c/d) = ac/bd
-<[
+{{c1::
 (a/b) * (c/d) = a * 1/b * c * 1/d
               = a * c * 1/b * 1/d
               = a * c * 1/bd (multiplicative inverse is the product of multiplicative inverses)
               = ac/bd
-]>
+}}
 
 * OpenStax - Prealgebra 2e
 :LOGBOOK:
@@ -474,189 +349,118 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 :END:
 
 ** 2.5 Prime Factorization and the Least Common Multiple
-*** Least Common Multiple                                           :drill:
-SCHEDULED: <2021-11-12 Fri>
+*** Least Common Multiple
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4dff26b9-8699-4af0-8dba-8de3d1ee6eb1
-:DRILL_LAST_INTERVAL: 155.2671
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.133
-:DRILL_EASE: 1.2
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 09:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423523
 :END:
 
-math: <[least_common_multiple(a,b)]> = <[the smallest number that is divisible by both a and b]>
+**** Text
 
-*** Least Common Multiple Example                                   :drill:
-SCHEDULED: <2022-01-12 Wed>
+math: {{c1::least_common_multiple(a,b)}} = {{c2::the smallest number that is divisible by both a and b}}
+
+*** Least Common Multiple Example
 :PROPERTIES:
-:ID:       3d5c2743-c2f5-4cb0-8269-638d2e0f0097
-:DRILL_LAST_INTERVAL: 307.1865
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423646
 :END:
 
-math: least_common_multiple(4, 6) = <[12]>
+**** Text
 
-*** Greatest Common Divisor                                         :drill:
-SCHEDULED: <2021-11-20 Sat>
+math: least_common_multiple(4, 6) = {{c1::12}}
+
+*** Greatest Common Divisor
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       5e035dae-68da-4bb6-af9c-fc37de53d820
-:DRILL_LAST_INTERVAL: 269.3582
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-24 Wed 13:19]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423796
 :END:
 
-math: <[greatest_common_divisor(a,b)]> = <[the greatest number that divides both a and b]>
+**** Text
 
-*** Greatest Common Divisor Example                                 :drill:
-SCHEDULED: <2022-01-24 Mon>
+math: {{c1::greatest_common_divisor(a,b)}} = {{c2::the greatest number that divides both a and b}}
+
+*** Greatest Common Divisor Example
 :PROPERTIES:
-:ID:       0366ae90-f281-45c8-aba4-c9217a9e2b73
-:DRILL_LAST_INTERVAL: 322.3223
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525423971
 :END:
 
-math: greatest_common_divisor(8, 12) = <[4]>
+**** Text
 
-*** Greatest Common Divisor Use                                     :drill:
-SCHEDULED: <2021-11-20 Sat>
+math: greatest_common_divisor(8, 12) = {{c1::4}}
+
+*** Greatest Common Divisor Use
 :PROPERTIES:
-:ID:       e671009b-62b8-4ccf-8cac-b0533551ec2f
-:DRILL_LAST_INTERVAL: 269.3582
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-24 Wed 13:18]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525424108
 :END:
 
-math: To reduce a fraction <[divide the numerator and denominator by their greatest common divisor]>
+**** Text
+
+math: To reduce a fraction {{c1::divide the numerator and denominator by their greatest common divisor}}
 
 ** 4.2 Multiply and Divide Fractions
-*** Irreducible Fraction                                            :drill:
-SCHEDULED: <2021-07-18 Sun>
+*** Irreducible Fraction
 :PROPERTIES:
-:ID:       2f63114d-4cf1-4ff4-9a26-c04b8b201e7b
-:DRILL_LAST_INTERVAL: 11.3375
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.153
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-07 Wed 13:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525424270
 :END:
 
-math: a/b is an Irreducible Fraction if <[gcd(a, b) = 1]>
+**** Text
 
-*** Irreducible Fraction                                            :drill:
-SCHEDULED: <2021-07-22 Thu>
+math: a/b is an Irreducible Fraction if {{c1::gcd(a, b) = 1}}
+
+*** Irreducible Fraction
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       25aea381-ca4f-4c51-97ce-b2a0ae21a86f
-:DRILL_LAST_INTERVAL: 10.052
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 40
-:DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.001
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525424697
 :END:
 
-math: <[Irreducible Fraction]> aka <[Simplified Fraction]>
+**** Text
 
-*** Multiplicative Inverse aka Reciprocal                           :drill:
-SCHEDULED: <2021-11-07 Sun>
+math: {{c1::Irreducible Fraction}} aka {{c2::Simplified Fraction}}
+
+*** Multiplicative Inverse aka Reciprocal
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d08dc316-3d6a-4394-8fb7-88e8e05329fd
-:DRILL_LAST_INTERVAL: 253.385
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-27 Sat 13:10]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525424927
 :END:
 
-math: <[Multiplicative Inverse]> aka <[Reciprocal]>
+**** Text
 
-*** Multiplicative Inverse Definition                               :drill:
-SCHEDULED: <2022-08-27 Sat>
+math: {{c1::Multiplicative Inverse}} aka {{c2::Reciprocal}}
+
+*** Multiplicative Inverse Definition
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       adc8d162-4674-4aa2-8c51-eee0e81d43af
-:DRILL_LAST_INTERVAL: 466.9931
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-17 Mon 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525425102
 :END:
 
-math: Y is the <[Muliplicative Inverse]> of X if <[X * Y = 1]>
+**** Text
 
-*** The Muliplicative Inverse of a/b                                :drill:
-SCHEDULED: <2022-08-27 Sat>
+math: Y is the {{c1::Muliplicative Inverse}} of X if {{c2::X * Y = 1}}
+
+*** The Muliplicative Inverse of a/b
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d15b9a70-937c-4033-b6df-05db89d81b6d
-:DRILL_LAST_INTERVAL: 466.9931
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-17 Mon 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525425300
 :END:
 
-math: The multiplicative inverse of <[a/b]> is <[b/a]>
+**** Text
 
-*** Proof of the Muliplicative Inverse of a/b is b/a                :drill:
-SCHEDULED: <2021-07-21 Wed>
+math: The multiplicative inverse of {{c1::a/b}} is {{c2::b/a}}
+
+*** Proof of the Muliplicative Inverse of a/b is b/a
 :PROPERTIES:
-:ID:       54d54982-7652-4c84-8422-1058f188369b
-:DRILL_LAST_INTERVAL: 5.9738
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 38
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.105
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525425491
 :END:
+
+**** Text
 
 math: proof: The multiplicative inverse of a/b is b/a:
-<[
+{{c1::
+#+BEGIN_SRC
 State as an equation, and then cancel the denominator:
 a/b * X = 1
       X = 1/(a/b)
@@ -665,1004 +469,619 @@ a/b * X = 1
       X = (b/a)/(ab/ab)
       X = (b/a)/1 (identity property of division)
       X = b/a
-]>
+#+END_SRC
+}}
 
-*** 1/(a/b) = b/a                                                   :drill:
-SCHEDULED: <2022-12-18 Sun>
+*** 1/(a/b) = b/a
 :PROPERTIES:
-:ID:       a6ba716e-1a86-4fc5-8b10-332d9cb9c639
-:DRILL_LAST_INTERVAL: 555.7528
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 09:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525425676
 :END:
 
-math: 1/(a/b) = <[b/a]>
+**** Text
 
-*** Proof of 1/(a/b) = b/a                                          :drill:
-SCHEDULED: <2021-08-21 Sat>
+math: 1/(a/b) = {{c1::b/a}}
+
+*** Proof of 1/(a/b) = b/a
 :PROPERTIES:
-:ID:       b2ac6f11-aefc-4dda-88e5-827921b698c5
-:DRILL_LAST_INTERVAL: 209.4275
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-24 Sun 12:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525425867
 :END:
+
+**** Text
 
 math: proof: 1/(a/b) = b/a:
-<[
+{{c1::
+#+BEGIN_SRC
 Cancel the demoninator by multipying the numerator and the denominator by b/a:
 1/(a/b) = 1/(a/b) * 1
         = 1/(a/b) * (b/a)/(b/a)
         = (b/a)/(ab/ab)
         = (b/a)/1
         = b/a
-]>
+#+END_SRC
+}}
 
-*** (a/b)/(c/d) = ad/bc                                             :drill:
-SCHEDULED: <2022-08-16 Tue>
+*** (a/b)/(c/d) = ad/bc
 :PROPERTIES:
-:ID:       1d785ebc-a6c4-4caa-b532-1bef0cf3ed87
-:DRILL_LAST_INTERVAL: 457.919
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525426004
 :END:
 
-math: (a/b)/(c/d) = <[ad/bc]>
+**** Text
 
-*** Proof of (a/b)/(c/d) = ad/bc                                    :drill:
-SCHEDULED: <2021-11-07 Sun>
+math: (a/b)/(c/d) = {{c1::ad/bc}}
+
+*** Proof of (a/b)/(c/d) = ad/bc
 :PROPERTIES:
-:ID:       c00ec299-797d-4601-bb43-f217b17a0744
-:DRILL_LAST_INTERVAL: 253.385
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-27 Sat 13:10]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525426477
 :END:
+
+**** Text
 
 math: proof: (a/b)/(c/d) = ad/bc
-<[
+{{c1::
+#+BEGIN_SRC
 (a/b)/(c/d) = (a/b) * 1/(c/d) (division is multiplication by inverse)
             = (a/b) * (d/c) (inverse)
             = ad/bc
-]>
+#+END_SRC
+}}
 
 ** 5.3 Decimals and Fractions
-*** Repeating Decimal                                               :drill:
-SCHEDULED: <2022-01-02 Sun>
+*** Repeating Decimal
 :PROPERTIES:
-:ID:       14a762fa-06e9-4491-b133-b83dcea8f684
-:DRILL_LAST_INTERVAL: 288.074
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-20 Sat 11:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525426787
 :END:
 
-math: A Repeating Decimal is a <[Decimal Number in which the last digits repeat endlessly]>
+**** Text
 
-*** Repeating Decimal Notation                                      :drill:
-SCHEDULED: <2022-06-26 Sun>
+math: A Repeating Decimal is a {{c1::Decimal Number in which the last digits repeat endlessly}}
+
+*** Repeating Decimal Notation
 :PROPERTIES:
-:ID:       9183530d-ed71-4788-9398-7eccc96b7dea
-:DRILL_LAST_INTERVAL: 422.1049
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-30 Fri 08:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525426962
 :END:
 
-math: A Repeating Decimal is written as <[$X.Y\overline{Z}$]>
+**** Text
+
+math: A Repeating Decimal is written as {{c1::$X.Y\overline{Z}$}}
 
 ** 5.5 Averages and Probability
-*** Mean aka Arithmetic Average                                     :drill:
-SCHEDULED: <2021-08-26 Thu>
+*** Mean aka Arithmetic Average
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9de4d869-0e89-4aed-9a42-45a0306932ef
-:DRILL_LAST_INTERVAL: 55.6205
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.066
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-01 Thu 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427098
 :END:
 
-math: <[Mean]> aka <[Arithmetic Average]>
+**** Text
 
-*** Mean Formula                                                    :drill:
-SCHEDULED: <2021-08-29 Sun>
+math: {{c1::Mean}} aka {{c2::Arithmetic Average}}
+
+*** Mean Formula
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       a4f2c4fb-8b35-47d1-aa33-b9b4cc36411a
-:DRILL_LAST_INTERVAL: 55.6205
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.077
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427212
 :END:
 
-math: <[Mean]> = <[Sum of all the Values / The Number of Values]>
+**** Text
 
-*** Median Formula                                                    :drill:
-SCHEDULED: <2021-07-22 Thu>
+math: {{c1::Mean}} = {{c2::Sum of all the Values / The Number of Values}}
+
+*** Median Formula
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       e9f8a858-908e-4576-bdd9-7ecbc0b92ad1
-:DRILL_LAST_INTERVAL: 5.3132
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-17 Sat 10:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427362
 :END:
 
-math: <[Median]> = <[The middle value when there is an odd number of them. The mean of the two
-middle values otherwise]>
+**** Text
 
-*** Mode Formula                                                    :drill:
-SCHEDULED: <2021-07-22 Thu>
+math: {{c1::Median}} = {{c2::The middle value when there is an odd number of them. The mean of the two
+middle values otherwise}}
+
+*** Mode Formula
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       f5f81d68-9579-4324-bbc1-329310af7056
-:DRILL_LAST_INTERVAL: 92.3311
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-21 Wed 08:40]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427575
 :END:
 
-math: <[Mode]> = <[The number with the highest frequency]>
+**** Text
 
-*** Probability Formula                                             :drill:
-SCHEDULED: <2021-07-29 Thu>
+math: {{c1::Mode}} = {{c2::The number with the highest frequency}}
+
+*** Probability Formula
 :PROPERTIES:
-:ID:       3c9103f1-c6c1-4635-9e1e-611caed8e3d0
-:DRILL_LAST_INTERVAL: 11.9577
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 22
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-17 Sat 10:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427711
 :END:
 
-math: Probability Formula = <[Number of Favorable Outcomes/Number of Outcomes]>
+**** Text
+
+math: Probability Formula = {{c1::Number of Favorable Outcomes/Number of Outcomes}}
 
 ** 5.6 Ratios and Rate
-*** Ratio                                                           :drill:
-SCHEDULED: <2021-07-19 Mon>
+*** Ratio
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       c8541d3a-fc4a-44df-a174-9475e4b2f778
-:DRILL_LAST_INTERVAL: 19.8273
-:DRILL_REPEATS_SINCE_FAIL: 14
-:DRILL_TOTAL_REPEATS: 25
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.92
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525427871
 :END:
 
-math: A <[Ratio]> is <[a fraction of two numbers with the same unit]>
+**** Text
 
-*** Rate                                                           :drill:
-SCHEDULED: <2021-07-29 Thu>
+math: A {{c1::Ratio}} is {{c2::a fraction of two numbers with the same unit}}
+
+*** Rate
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       fe53a772-6e3c-468f-b52b-fba64de80ebc
-:DRILL_LAST_INTERVAL: 16.6027
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 20
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.05
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525428272
 :END:
 
-math: A <[Rate]> is <[a fraction of two numbers with different units]>
+**** Text
 
-*** Unit Rate                                                       :drill:
-SCHEDULED: <2022-01-10 Mon>
+math: A {{c1::Rate}} is {{c2::a fraction of two numbers with different units}}
+
+*** Unit Rate
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       bc37c20d-817c-48c4-a384-333f2408830f
-:DRILL_LAST_INTERVAL: 248.4613
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.111
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-07 Fri 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525428426
 :END:
 
-math: A <[Unit Rate]> is <[a Rate with a denominator of 1]>
+**** Text
+
+math: A {{c1::Unit Rate}} is {{c2::a Rate with a denominator of 1}}
 
 ** 5.7 Simplify and Use Square Roots
-*** Perfect Square                                                  :drill:
-SCHEDULED: <2021-11-04 Thu>
+*** Perfect Square
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       53abdeff-8b97-43a4-ab75-30eb36ab5759
-:DRILL_LAST_INTERVAL: 246.1003
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.249
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-03 Wed 08:38]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525428663
 :END:
 
-math: A <[Perfect Square]> is a <[Square of an integer]>
+**** Text
 
-*** Radical Sign aka Root Symbol                                    :drill:
-SCHEDULED: <2021-08-16 Mon>
+math: A {{c1::Perfect Square}} is a {{c2::Square of an integer}}
+
+*** Radical Sign aka Root Symbol
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       8c22f6b2-e0e6-4d75-a93d-501d24a7f201
-:DRILL_LAST_INTERVAL: 139.1019
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.091
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525428854
 :END:
 
-math: <[Radical Sign]> aka <[Root Symbol]>
+**** Text
 
-*** Principal Root                                                  :drill:
-SCHEDULED: <2022-01-18 Tue>
+math: {{c1::Radical Sign}} aka {{c2::Root Symbol}}
+
+*** Principal Root
 :PROPERTIES:
-:ID:       7216aba9-4fdc-46f6-90d6-35bd2129ded6
-:DRILL_LAST_INTERVAL: 306.2195
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-18 Thu 08:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525429056
 :END:
 
-math: $\sqrt{x^2}$ = <[|x|]>
+**** Text
+
+math: $\sqrt{x^2}$ = {{c1::|x|}}
 
 ** 7.1 Rational and Irrational Numbers
-*** Rational Numbers                                                :drill:
-SCHEDULED: <2022-02-01 Tue>
+*** Rational Numbers
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       5180cd88-940c-4487-bfd8-3e6c5bec0b7f
-:DRILL_LAST_INTERVAL: 301.2942
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-06 Tue 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525429236
 :END:
 
-math: <[Rational Numbers]> are <[numbers that can be expressed as a fraction of two integers]>
+**** Text
 
-*** Irrational Numbers                                              :drill:
-SCHEDULED: <2022-06-24 Fri>
+math: {{c1::Rational Numbers}} are {{c2::numbers that can be expressed as a fraction of two integers}}
+
+*** Irrational Numbers
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0c4d4c8a-a08b-4092-bab1-3f7301be1451
-:DRILL_LAST_INTERVAL: 411.8056
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-08 Sat 13:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525429384
 :END:
 
-math: <[Irrational Numbers]> are <[all the numbers that aren't rational]>
+**** Text
 
-*** Real Numbers                                                    :drill:
-SCHEDULED: <2022-03-26 Sat>
+math: {{c1::Irrational Numbers}} are {{c2::all the numbers that aren't rational}}
+
+*** Real Numbers
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       40e115d7-ad79-4e10-9a95-e29a2b49c9fc
-:DRILL_LAST_INTERVAL: 345.9004
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-14 Wed 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525429541
 :END:
 
-math: <[Real Numbers]> are numbers that are <[either rational or irrational]>
+**** Text
 
-*** Natural Numbers Symbol                                          :drill:
-SCHEDULED: <2022-07-06 Wed>
+math: {{c1::Real Numbers}} are numbers that are {{c2::either rational or irrational}}
+
+*** Natural Numbers Symbol
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d36c7f77-0d2b-42ab-a2d9-41ea998d267c
-:DRILL_LAST_INTERVAL: 418.0409
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-14 Fri 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525429709
 :END:
 
-math: <[Natural Numbers Symbol]> = <[ℕ]>
+**** Text
 
-*** Integers Symbol                                                 :drill:
-SCHEDULED: <2022-07-06 Wed>
+math: {{c1::Natural Numbers Symbol}} = {{c2::ℕ}}
+
+*** Integers Symbol
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       fbf4406d-c819-4fce-9898-ddefd37a820b
-:DRILL_LAST_INTERVAL: 418.0409
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-14 Fri 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525430097
 :END:
 
-math: <[Integers Symbol]> = <[ℤ]>
+**** Text
 
-*** Rational Numbers Symbol                                         :drill:
-SCHEDULED: <2021-11-20 Sat>
+math: {{c1::Integers Symbol}} = {{c2::ℤ}}
+
+*** Rational Numbers Symbol
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       8f894826-2985-4201-b60f-6ed19e0a8c72
-:DRILL_LAST_INTERVAL: 254.1308
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525430340
 :END:
 
-math: <[Rational Numbers Symbol]> = <[ℚ]>
+**** Text
 
-*** Real Numbers Symbol                                             :drill:
-SCHEDULED: <2022-11-18 Fri>
+math: {{c1::Rational Numbers Symbol}} = {{c2::ℚ}}
+
+*** Real Numbers Symbol
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       8cca9e0a-c3f8-4ec4-9c62-9ba4280080e2
-:DRILL_LAST_INTERVAL: 519.6225
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525430543
 :END:
 
-math: <[Real Numbers Symbol]> = <[ℝ]>
+**** Text
 
-*** R includes Q which includes Z which includes N                  :drill:
-SCHEDULED: <2022-09-29 Thu>
+math: {{c1::Real Numbers Symbol}} = {{c2::ℝ}}
+
+*** R includes Q which includes Z which includes N
 :PROPERTIES:
-:ID:       93b24ed1-591c-4195-bb9c-7c53e7b6c4a5
-:DRILL_LAST_INTERVAL: 488.3664
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-29 Sat 15:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525430716
 :END:
 
-math: <[Real]> Numbers include <[Rational Numbers]> wich include <[Integers]> which include
-<[Natural Numbers]>
+**** Text
 
-# ** 7.3 Distributive Property
-# *** Left Distributive Property                                      :drill:
-# SCHEDULED: <2020-10-30 Fri>
-# :PROPERTIES:
-# :DRILL_CARD_TYPE: show1cloze
-# :ID:       c1c3f04c-99cd-498b-a271-47f6d2102658
-# :DRILL_LAST_INTERVAL: 48.8243
-# :DRILL_REPEATS_SINCE_FAIL: 5
-# :DRILL_TOTAL_REPEATS: 4
-# :DRILL_FAILURE_COUNT: 0
-# :DRILL_AVERAGE_QUALITY: 3.25
-# :DRILL_EASE: 2.08
-# :DRILL_LAST_QUALITY: 3
-# :DRILL_LAST_REVIEWED: [2020-09-11 Fri 13:07]
-# :END:
+math: {{c1::Real}} Numbers include {{c1::Rational Numbers}} wich include {{c1::Integers}} which include
+{{c1::Natural Numbers}}
 
-# math: f is <[left-distributive over g]> if <[f(a, g(b, c)) = g(f(a, b), f(a, c))]>
+** 7.3 Distributive Property
+*** Left Distributive Property
 
-# *** Right Distributive Property                                     :drill:
-# SCHEDULED: <2020-10-30 Fri>
-# :PROPERTIES:
-# :DRILL_CARD_TYPE: show1cloze
-# :ID:       9d714996-3174-4333-a2e6-873574b73201
-# :DRILL_LAST_INTERVAL: 48.8243
-# :DRILL_REPEATS_SINCE_FAIL: 5
-# :DRILL_TOTAL_REPEATS: 4
-# :DRILL_FAILURE_COUNT: 0
-# :DRILL_AVERAGE_QUALITY: 3.25
-# :DRILL_EASE: 2.08
-# :DRILL_LAST_QUALITY: 3
-# :DRILL_LAST_REVIEWED: [2020-09-11 Fri 12:46]
-# :END:
+f is left-distributive over g if f(a, g(b, c)) = g(f(a, b), f(a, c))
 
-# math: f is <[right-distributive over g]> if <[f(g(b, c), a) = g(f(b, a), f(c, a))]>
+*** Right Distributive Property
+
+f is right-distributive over g if f(g(b, c), a) = g(f(b, a), f(c, a))
 
 ** 7.4 Properties of Identity, Inverses, and Zero
-*** Identity Element                                                :drill:
-SCHEDULED: <2021-08-11 Wed>
+*** Identity Element
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1e818ce3-8fdf-4050-9789-555f6fc2f5c5
-:DRILL_LAST_INTERVAL: 55.6205
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.077
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525430935
 :END:
 
-math: x is the <[identity element]> of f if <[f(x, y) = y]>
+**** Text
+
+math: x is the {{c1::identity element}} of f if {{c2::f(x, y) = y}}
 
 ** 9.3 Use Properties of Angles, Triangles, and the Pythagorean Theorem
-*** Supplementary Angles                                            :drill:
-SCHEDULED: <2021-08-06 Fri>
+*** Supplementary Angles
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       dccd872d-bfa9-4269-8e1b-6d6827a355ad
-:DRILL_LAST_INTERVAL: 127.5061
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.272
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525431118
 :END:
 
-math: Two angles are <[Supplementary]> if <[their sum makes 180°]>
+**** Text
 
-*** Complementary Angles                                            :drill:
-SCHEDULED: <2022-03-11 Fri>
+math: Two angles are {{c1::Supplementary}} if {{c2::their sum makes 180°}}
+
+*** Complementary Angles
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       bb5203a4-e0dc-43d3-a711-70e1176a9d30
-:DRILL_LAST_INTERVAL: 334.9699
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525431387
 :END:
 
-math: Two angles are <[Complementary]> if <[their sum makes 90°]>
+**** Text
 
-*** Similar Figures                                                 :drill:
-SCHEDULED: <2021-07-19 Mon>
+math: Two angles are {{c1::Complementary}} if {{c2::their sum makes 90°}}
+
+*** Similar Figures
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       591775ff-0050-4491-8027-2dd6c0fd3bf6
-:DRILL_LAST_INTERVAL: 3.752
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:24]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525431529
 :END:
 
-math: Two figures are <[Similar]> if <[they have the same shape]>
+**** Text
 
-*** Similar Triangles Angles                                        :drill:
-SCHEDULED: <2022-01-13 Thu>
+math: Two figures are {{c1::Similar}} if {{c2::they have the same shape}}
+
+*** Similar Triangles Angles
 :PROPERTIES:
-:ID:       10075338-ceb1-43cf-8fd8-4ac8c3689a12
-:DRILL_LAST_INTERVAL: 296.5756
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:41]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525431656
 :END:
 
-math: Two Similar Triangles <[have the same]> angles
+**** Text
 
-*** Congruent Figures                                               :drill:
-SCHEDULED: <2021-08-18 Wed>
+math: Two Similar Triangles {{c1::have the same}} angles
+
+*** Congruent Figures
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
 :Source: https://en.wikipedia.org/wiki/Congruence_(geometry)
-:ID:       eed9ae3e-1e6e-4c3b-8b78-188c332e5c1d
-:DRILL_LAST_INTERVAL: 184.9892
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-14 Sun 12:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525432299
 :END:
 
-math: Two figures are <[Congruent]> if <[they have the same shape and size]>
+**** Text
+
+math: Two figures are {{c1::Congruent}} if {{c2::they have the same shape and size}}
 
 ** 9.4 Use Properties of Rectangles, Triangles, and Trapezoids
-*** Triangle Area                                                   :drill:
-SCHEDULED: <2022-02-11 Fri>
+*** Triangle Area
 :PROPERTIES:
-:ID:       08e8e4ad-460e-48bd-882e-5001bd100c25
-:DRILL_LAST_INTERVAL: 315.1521
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-02 Fri 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525432460
 :END:
 
-math: Triangle Area = <[1/2 * (base * height)]>
+**** Text
 
-*** Sum of Triangle Angles                                          :drill:
-SCHEDULED: <2022-07-20 Wed>
+math: Triangle Area = {{c1::1/2 * (base * height)}}
+
+*** Sum of Triangle Angles
 :PROPERTIES:
-:ID:       523a5c02-8681-4abd-943b-35ae2f18d718
-:DRILL_LAST_INTERVAL: 431.9264
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-14 Fri 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525432622
 :END:
 
-math: The sum of a triangle angles = <[180°]>
+**** Text
 
-*** Trapezoid                                                       :drill:
-SCHEDULED: <2021-07-25 Sun>
+math: The sum of a triangle angles = {{c1::180°}}
+
+*** Trapezoid
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9a5fabdb-c6dc-4f53-9e0c-9a8cf500e75c
-:DRILL_LAST_INTERVAL: 31.4314
-:DRILL_REPEATS_SINCE_FAIL: 15
-:DRILL_TOTAL_REPEATS: 24
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.082
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-24 Thu 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525432765
 :END:
 
-math: A <[Trapezoid]> is <[a quadrilateral with at least one pair of parallel sides]>
+**** Text
 
-*** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-07-23 Fri>
+math: A {{c1::Trapezoid}} is {{c2::a quadrilateral with at least one pair of parallel sides}}
+
+*** Trapezoid Area
 :PROPERTIES:
-:ID:       e9c06589-9b3a-44a8-b5e2-f0d534ecdc74
-:DRILL_LAST_INTERVAL: 13.2279
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 37
-:DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.973
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:15]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525432896
 :END:
 
-math: Trapezoid Area = <[1/2 * height * (big base + small base)]>
+**** Text
 
-*** Trapezoid Area                                                  :drill:
-SCHEDULED: <2021-07-25 Sun>
+math: Trapezoid Area = {{c1::1/2 * height * (big base + small base)}}
+
+*** Trapezoid Area
 :PROPERTIES:
 :Source: https://math.stackexchange.com/a/277033
-:ID:       007260e3-c78b-425c-b661-0f7da39a6937
-:DRILL_LAST_INTERVAL: 47.7905
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-07 Mon 08:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525433065
 :END:
 
-math: The Area of a Trapezoid can be thought of as <[the area of two triangles]>
+**** Text
+
+math: The Area of a Trapezoid can be thought of as {{c1::the area of two triangles}}
 
 ** 9.5 Solve Geometry Applications: Circles and Irregular Figures
-*** Circle Circumference                                            :drill:
-SCHEDULED: <2022-05-05 Thu>
+*** Circle Circumference
 :PROPERTIES:
-:ID:       e5c044ad-c4ba-479d-8d08-a316872d449c
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-22 Thu 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525433193
 :END:
 
-math: Circle Circumference = <[2πr]>
+**** Text
 
-*** Circle Area                                                     :drill:
-SCHEDULED: <2022-05-05 Thu>
+math: Circle Circumference = {{c1::2πr}}
+
+*** Circle Area
 :PROPERTIES:
-:ID:       b42faad9-e504-48ec-a091-64dd7de89c3c
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-22 Thu 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525433395
 :END:
 
-math: Circle Area = <[πr^2]>
+**** Text
+
+math: Circle Area = {{c1::πr^2}}
 
 ** 9.6 Solve Geometry Applications: Volume and Surface Area
-*** Sphere Surface Area                                             :drill:
-SCHEDULED: <2021-08-11 Wed>
+*** Sphere Surface Area
 :PROPERTIES:
-:ID:       fdd097b2-1a21-411a-b529-175ba89faffa
-:DRILL_LAST_INTERVAL: 26.5439
-:DRILL_REPEATS_SINCE_FAIL: 19
-:DRILL_TOTAL_REPEATS: 39
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525433556
 :END:
 
-math: Sphere Surface Area = <[4πr^2]>
+**** Text
 
-*** Sphere Volume                                                   :drill:
-SCHEDULED: <2022-04-12 Tue>
+math: Sphere Surface Area = {{c1::4πr^2}}
+
+*** Sphere Volume
 :PROPERTIES:
-:ID:       640c9314-6333-4ea1-9e3a-2be36857951b
-:DRILL_LAST_INTERVAL: 291.1292
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-25 Fri 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525434314
 :END:
 
-math: Sphere Volume = <[4/3 * πr^3]>
+**** Text
 
-*** Circle Circumference and Area and Sphere Surface and Volume     :drill:
-SCHEDULED: <2021-08-26 Thu>
+math: Sphere Volume = {{c1::4/3 * πr^3}}
+
+*** Circle Circumference and Area and Sphere Surface and Volume
 :PROPERTIES:
-:ID:       3781175c-a072-4322-8012-79a903f4095b
-:DRILL_LAST_INTERVAL: 171.3985
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525434506
 :END:
+
+**** Text
 
 math:
-- Circle Circumference = <[$2 \pi r$]>
-- Circle Area = <[$\pi r^2$]>
-- Sphere Surface = <[$4 \pi r^2$]>
-- Sphere Volume = <[$\frac{4}{3} \pi r^3$]>
+- Circle Circumference = {{c1::$2 \pi r$}}
+- Circle Area = {{c1::$\pi r^2$}}
+- Sphere Surface = {{c1::$4 \pi r^2$}}
+- Sphere Volume = {{c1::$\frac{4}{3} \pi r^3$}}
 
-*** Cylinder Surface Area                                           :drill:
-SCHEDULED: <2021-12-06 Mon>
+*** Cylinder Surface Area
 :PROPERTIES:
-:ID:       8f2d6811-bf34-4d22-b7ab-c7527923ec65
-:DRILL_LAST_INTERVAL: 270.1718
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525434612
 :END:
 
-math: Cylinder Surface Area = <[2 * surface of base + surface of rectangle = 2πr^2 + 2πr * height]>
+**** Text
 
-*** Cylinder Volume                                                 :drill:
-SCHEDULED: <2021-07-26 Mon>
+math: Cylinder Surface Area = {{c1::2 * surface of base + surface of rectangle = 2πr^2 + 2πr * height}}
+
+*** Cylinder Volume
 :PROPERTIES:
-:ID:       78f0f840-ad5e-40dc-8de3-1342c6865b9f
-:DRILL_LAST_INTERVAL: 184.3998
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.637
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-23 Sat 14:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525434787
 :END:
 
-math: Cylinder Volume = <[surface of base * height = πr^2 * height]>
+**** Text
 
-*** Cone Volume                                                     :drill:
-SCHEDULED: <2022-05-05 Thu>
+math: Cylinder Volume = {{c1::surface of base * height = πr^2 * height}}
+
+*** Cone Volume
 :PROPERTIES:
-:ID:       b0759621-9c0b-4cc1-b042-1edcc3fa2518
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-22 Thu 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525434977
 :END:
 
-math: Cone Volume = <[1/3 * surface of base * height = 1/3 * πr^2 * height]>
+**** Text
+
+math: Cone Volume = {{c1::1/3 * surface of base * height = 1/3 * πr^2 * height}}
 
 ** 10.1 Add and Subtract Polynomials
-*** Degree of a Polynomial                                          :drill:
-SCHEDULED: <2021-09-04 Sat>
+*** Degree of a Polynomial
 :PROPERTIES:
-:ID:       06f15f3d-f1da-4f89-9598-66634fef5a2c
-:DRILL_LAST_INTERVAL: 95.3594
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.249
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-01 Tue 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525435151
 :END:
 
-The degree of a Polynomial is the <[highest degree of all its terms]>
+**** Text
 
-*** Polynomial Terms Order                                          :drill:
-SCHEDULED: <2022-05-05 Thu>
+math: The degree of a Polynomial is the {{c1::highest degree of all its terms}}
+
+*** Polynomial Terms Order
 :PROPERTIES:
-:ID:       885aa4ec-b909-46df-830c-676626705213
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-22 Thu 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525435321
 :END:
 
-The Standard Form of a Polynomial lists the terms <[in decreasing order of degrees]>
+**** Text
+
+math: The Standard Form of a Polynomial lists the terms {{c1::in decreasing order of degrees}}
 
 ** 10.2 Use Multiplication Properties of Exponents
-*** Product Property of Exponents                                   :drill:
-SCHEDULED: <2022-10-05 Wed>
+*** Product Property of Exponents
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       578c9c2d-22db-4c31-964b-94d4b1a0a736
-:DRILL_LAST_INTERVAL: 483.4841
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-09 Wed 08:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525435489
 :END:
 
-math: <[a^m * a^n]> = <[a^(m + n)]>
+**** Text
 
-*** Power Property of Exponents                                     :drill:
-SCHEDULED: <2021-08-26 Thu>
+math: {{c1::a^m * a^n}} = {{c2::a^(m + n)}}
+
+*** Power Property of Exponents
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       38b35634-46d2-4947-8c49-78f8e0ee56d4
-:DRILL_LAST_INTERVAL: 230.2377
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.875
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-08 Fri 09:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436094
 :END:
 
-math: <[(a^m)^n]> = <[a^(mn)]>
+**** Text
 
-*** Product to a Power Property of Exponents                        :drill:
-SCHEDULED: <2021-12-06 Mon>
+math: {{c1::(a^m)^n}} = {{c2::a^(mn)}}
+
+*** Product to a Power Property of Exponents
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2e6707cc-2ec1-43c7-a77d-ba382e89457b
-:DRILL_LAST_INTERVAL: 270.1718
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436249
 :END:
 
-math: <[(ab)^m]> = <[a^m * b^m]>
+**** Text
+
+math: {{c1::(ab)^m}} = {{c2::a^m * b^m}}
 
 ** 10.4 Divide Monomials
-*** Quotient Property of Exponents                                  :drill:
-SCHEDULED: <2022-07-02 Sat>
+*** Quotient Property of Exponents
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9883c777-9917-4a0f-9c1a-5b6ffe6e4d65
-:DRILL_LAST_INTERVAL: 422.1049
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-06 Thu 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436414
 :END:
 
-math: <[a^m / a^n]> = <[a^(m - n)]>
+**** Text
 
-*** Quotient to a Power Property of Exponents                       :drill:
-SCHEDULED: <2022-09-29 Thu>
+math: {{c1::a^m / a^n}} = {{c2::a^(m - n)}}
+
+*** Quotient to a Power Property of Exponents
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       cad50b07-67b5-4bf7-ba42-ac176949556e
-:DRILL_LAST_INTERVAL: 476.2734
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 09:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436554
 :END:
 
-math: <[(a / b)^m]> = <[a^m / b^m]>
+**** Text
+
+math: {{c1::(a / b)^m}} = {{c2::a^m / b^m}}
 
 ** 10.5 Integer Exponents and Scientific Notation
-*** Negative Exponent                                               :drill:
-SCHEDULED: <2022-02-10 Thu>
+*** Negative Exponent
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       f7939d9c-0bda-4c80-9f53-7567a9dacd6f
-:DRILL_LAST_INTERVAL: 316.2116
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436727
 :END:
 
-math: <[a^-n]> = <[1 / a^n]>
+**** Text
+
+math: {{c1::a^-n}} = {{c2::1 / a^n}}
 
 ** 11.3 Graphing with Intercepts
-*** Intercepts of a Line                                            :drill:
-SCHEDULED: <2021-12-06 Mon>
+*** Intercepts of a Line
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       bb537b51-c252-4f52-aacf-518763cdc14e
-:DRILL_LAST_INTERVAL: 270.1718
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525436930
 :END:
 
-math: <[An Intercept of a Line]> is <[a point where the line crosses the x or y-axis]>
+**** Text
 
-*** x-intercept of a Line                                           :drill:
-SCHEDULED: <2022-11-30 Wed>
+math: {{c1::An Intercept of a Line}} is {{c2::a point where the line crosses the x or y-axis}}
+
+*** x-intercept of a Line
 :PROPERTIES:
-:ID:       c088f916-87b0-4299-b51f-8a174e872856
-:DRILL_LAST_INTERVAL: 534.5149
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-13 Sun 12:24]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525437103
 :END:
 
-math: An *x-intercept* is a point where a line crosses the <[x-axis]>
+**** Text
 
-*** y-intercept of a Line                                           :drill:
-SCHEDULED: <2021-07-19 Mon>
+math: An *x-intercept* is a point where a line crosses the {{c1::x-axis}}
+
+*** y-intercept of a Line
 :PROPERTIES:
-:ID:       51e2df35-dce6-4ee3-bfca-7865f351a6be
-:DRILL_LAST_INTERVAL: 224.3086
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-12-07 Mon 11:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525437241
 :END:
 
-math: A *y-intercept* is a point where a line crosses the <[y-axis]>
+**** Text
+
+math: A *y-intercept* is a point where a line crosses the {{c1::y-axis}}
 
 ** 11.4 Understand Slope of a Line
-*** Formula of the Slope of a Line                                  :drill:
-SCHEDULED: <2021-08-02 Mon>
+*** Formula of the Slope of a Line
 :PROPERTIES:
-:ID:       4c2ae4b5-8a5f-4a74-96e9-51970526dd58
-:DRILL_LAST_INTERVAL: 55.0869
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.083
-:DRILL_EASE: 1.2
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-08 Tue 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525437385
 :END:
 
-math: Formula of the Slope of a Line = <[Rise/Run]> or <[(y2 - y1)/(x2 - x1)]> or <[m in y = mx + b]>
+**** Text
+
+math: Formula of the Slope of a Line = {{c1::Rise/Run}} or {{c1::(y2 - y1)/(x2 - x1)}} or
+{{c1::m in y = mx + b}}
 
 * Openstax - Elementary Algebra 2e
 :LOGBOOK:
@@ -1699,368 +1118,238 @@ CLOCK: [2020-08-15 Sat 11:52]--[2020-08-15 Sat 14:52] =>  3:00
 :END:
 
 ** 1.6 Add and Subtract Fractions
-*** Find the Least Common Multiple Using the Prime Factorization    :drill:
-SCHEDULED: <2021-08-11 Wed>
+*** Find the Least Common Multiple Using the Prime Factorization
 :PROPERTIES:
-:ID:       a27e4d31-c500-41a4-b4fe-388ae633c106
-:DRILL_LAST_INTERVAL: 31.558
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.3
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:15]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525438039
 :END:
+
+**** Text
 
 math: Using the *Prime Factorization*, the *Least Common Multiple* of two numbers is
-<[the multiplication of their prime factors to their highest powers]>
-Example lcm(8, 18, 21) = <[2^3 * 3^2 * 7^1]>
+{{c1::the multiplication of their prime factors to their highest powers}}
+Example lcm(8, 18, 21) = {{c1::2^3 * 3^2 * 7^1}}
 
 ** 2.4 Use a General Strategy to Solve Linear Equations
-*** Conditional Equation                                            :drill:
-SCHEDULED: <2022-04-19 Tue>
+*** Conditional Equation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       58edd627-8f1c-43ff-a185-f8a09a8b6226
-:DRILL_LAST_INTERVAL: 354.8278
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-29 Thu 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525438233
 :END:
 
-math: <[An equation that is true for some values of the variable (eg. 2 x = 4)]> is a
-<[Conditional Equation]>
+**** Text
 
-*** Identity Equation                                               :drill:
-SCHEDULED: <2021-07-21 Wed>
+math: {{c1::An equation that is true for some values of the variable (eg. 2 x = 4)}} is a
+{{c2::Conditional Equation}}
+
+*** Identity Equation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1e18e2e4-6ab1-4de6-b7b3-cf411d57b6f6
-:DRILL_LAST_INTERVAL: 17.653
-:DRILL_REPEATS_SINCE_FAIL: 16
-:DRILL_TOTAL_REPEATS: 31
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.903
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525438434
 :END:
 
-math: <[An equation that is true for any value of the variable (eg. x + 3 = x + 3)]> is
-<[an Identity Equation]>
+**** Text
 
-*** Contradiction Equation                                          :drill:
-SCHEDULED: <2021-09-17 Fri>
+math: {{c1::An equation that is true for any value of the variable (eg. x + 3 = x + 3)}} is
+{{c2::an Identity Equation}}
+
+*** Contradiction Equation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       55e8e6e3-bbe1-424f-80d2-2ab007a13dfe
-:DRILL_LAST_INTERVAL: 69.0584
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.166
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525438909
 :END:
 
-math: <[An equation that is false for all values of the variable (eg. x = x + 1)]> is
-<[a Contradiction Equation]>
+**** Text
+
+math: {{c1::An equation that is false for all values of the variable (eg. x = x + 1)}} is
+{{c2::a Contradiction Equation}}
 
 ** 2.5 Solve Equations with Fractions or Decimals
-*** Solve Equations with Fractions                                  :drill:
-SCHEDULED: <2021-08-06 Fri>
+*** Solve Equations with Fractions
 :PROPERTIES:
-:ID:       d3a452db-31f7-4fc2-8f60-f39d1cf7192c
-:DRILL_LAST_INTERVAL: 69.0584
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-29 Sat 15:38]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439030
 :END:
 
-math: To easily simplify equations with fractions <[multiply both sides of the equation by the LCD
-of all the fractions (you need to multiply by a number that is divisible by all the denominators)]>
+**** Text
+
+math: To easily simplify equations with fractions {{c1::multiply both sides of the equation by the LCD
+of all the fractions (you need to multiply by a number that is divisible by all the denominators)}}
 
 ** 2.7 Solve Linear Inequalities
-*** Interval Notation                                               :drill:
-SCHEDULED: <2022-01-19 Wed>
+*** Interval Notation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0aadffa1-3482-4f57-9113-d762dc7d2c3f
-:DRILL_LAST_INTERVAL: 223.617
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-09 Wed 08:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439168
 :END:
 
-math: An <[Interval Notation]> is written as <[[X, Y] when X and Y are included or (X, Y) if not]>
+**** Text
 
-*** Dividing or Multiplying an Inequality by a Negative Number      :drill:
-SCHEDULED: <2022-02-22 Tue>
+math: An {{c1::Interval Notation}} is written as {{c2::[X, Y] when X and Y are included or (X, Y) if not}}
+
+*** Dividing or Multiplying an Inequality by a Negative Number
 :PROPERTIES:
-:ID:       7338a041-ab1f-40bd-be61-3376a18ccac0
-:DRILL_LAST_INTERVAL: 316.2116
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-12 Mon 08:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439313
 :END:
+
+**** Text
 
 math: When you divide or multiply an inequality by a negative number,
-the inequality <[reverses]>
+the inequality {{c1::reverses}}
 
-*** Dividing or Multiplying an Inequality by a Positive Number      :drill:
-SCHEDULED: <2022-08-13 Sat>
+*** Dividing or Multiplying an Inequality by a Positive Number
 :PROPERTIES:
-:ID:       74b768b6-aa2a-40bd-b03d-0045a205e156
-:DRILL_LAST_INTERVAL: 448.4817
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:35]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439462
 :END:
+
+**** Text
 
 math: When you divide or multiply an inequality by a positive number,
-the inequality <[stays the same]>
+the inequality {{c1::stays the same}}
 
-*** Solve an Inequality                                             :drill:
-SCHEDULED: <2021-10-21 Thu>
+*** Solve an Inequality
 :PROPERTIES:
-:ID:       4af2c8e8-78f0-4f5b-85ea-2c325af6c5d6
-:DRILL_LAST_INTERVAL: 213.6973
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439621
 :END:
 
+**** Text
+
 math: Solve -10x >= 50 and give the solution as an interval notation
-<[
+{{c1::
+#+BEGIN_SRC
 -10x >= 50
 x =< -5
 Solution: (-∞, -5]
-]>
+#+END_SRC
+}}
 
 ** 3.6 Solve Applications with Linear Inequalities
-*** Linear Inequality Application                                   :drill:
-SCHEDULED: <2021-08-28 Sat>
+*** Linear Inequality Application
 :PROPERTIES:
-:ID:       46fec2dc-0ee7-4545-b174-e3d1f0301f09
-:DRILL_LAST_INTERVAL: 212.8243
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-27 Wed 12:16]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439787
 :END:
+
+**** Text
 
 math: Translate the following to an Inequality:
 Bob plans to rent a car from a company that charges $75 a week plus $0.25 a mile. How many miles can
 he travel and still keep within his $200 budget?
-<[
+{{c1::
 75 + 0.25m <= 200
-]>
+}}
 
 ** 4.5 Use the Slope-Intercept Form of an Equation of a Line
-*** Parallel Lines                                                  :drill:
-SCHEDULED: <2021-08-17 Tue>
+*** Parallel Lines
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       bd39a336-9408-4ce1-bd1b-c960726e62b4
-:DRILL_LAST_INTERVAL: 208.9229
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-20 Wed 09:20]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525439945
 :END:
 
-math: <[Parallel]> lines have <[the same slope||slope]>
+**** Text
 
-*** Perpendicular Lines                                             :drill:
-SCHEDULED: <2021-08-03 Tue>
+math: {{c1::Parallel}} lines have {{c2::the same slope::XXX slope}}
+
+*** Perpendicular Lines
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       48d348fd-f594-491a-b80c-c09fb0d1bbe3
-:DRILL_LAST_INTERVAL: 18.818
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.043
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525440177
 :END:
 
-math: <[Perpendicular]> lines have <[slopes that are the negative reciprocals of each other||slope]>
+**** Text
+
+math: {{c1::Perpendicular}} lines have {{c2::slopes that are the negative reciprocals of each other||slope}}
 
 ** 4.7 Graphs of Linear Inequalities
-*** Dashed Boundary Line                                            :drill:
-SCHEDULED: <2021-10-01 Fri>
+*** Dashed Boundary Line
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ec6cc5d8-ac0c-4bd3-930c-deab8b993d47
-:DRILL_LAST_INTERVAL: 191.0045
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-24 Wed 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525440581
 :END:
 
-math: inequality graph: A <[Dashed]> Boundary Line means the line <[isn't]> included in the solution
+**** Text
 
-*** Solid Boundary Line                                             :drill:
-SCHEDULED: <2021-12-21 Tue>
+math: inequality graph: A {{c1::Dashed}} Boundary Line means the line {{c2::isn't}} included in the solution
+
+*** Solid Boundary Line
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       5b22b38b-9ddb-4514-9e4e-1457c744bf51
-:DRILL_LAST_INTERVAL: 247.7368
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-17 Sat 12:33]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525440757
 :END:
 
-math: inequality graph: A <[Solid]> Boundary Line means the line <[is]> included in the solution
+**** Text
+
+math: inequality graph: A {{c1::Solid}} Boundary Line means the line {{c2::is}} included in the solution
 
 ** 5.1 Solve Systems of Equations by Graphing
-*** Coincident Lines                                                :drill:
-SCHEDULED: <2021-07-25 Sun>
+*** Coincident Lines
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1f04bfa7-3837-4c77-8c55-237b1a5f2f49
-:DRILL_LAST_INTERVAL: 12.269
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 26
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.999
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-13 Tue 07:10]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525440877
 :END:
 
-math: <[Coincident Lines]> have <[the same slope and y-intercept]>
+**** Text
 
-*** Consistent System                                               :drill:
-SCHEDULED: <2021-12-07 Tue>
+math: {{c1::Coincident Lines}} have {{c2::the same slope and y-intercept}}
+
+*** Consistent System
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       c5a0597c-d66a-44f4-b0a4-d595983411b1
-:DRILL_LAST_INTERVAL: 239.9087
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-11 Sun 11:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441020
 :END:
 
-math: <[A Consistent]> System of Equations has <[at least one]> solution
+**** Text
 
-*** Inconsistent System                                             :drill:
-SCHEDULED: <2021-07-23 Fri>
+math: {{c1::A Consistent}} System of Equations has {{c2::at least one}} solution
+
+*** Inconsistent System
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d2f4d572-45a2-41af-86f3-c7248f812799
-:DRILL_LAST_INTERVAL: 14.9267
-:DRILL_REPEATS_SINCE_FAIL: 14
-:DRILL_TOTAL_REPEATS: 25
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.96
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-08 Thu 12:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441185
 :END:
 
-math: <[An Inconsistent]> System of Equations has <[no solution]>
+**** Text
 
-*** Dependent Equations                                             :drill:
-SCHEDULED: <2021-07-31 Sat>
+math: {{c1::An Inconsistent}} System of Equations has {{c2::no solution}}
+
+*** Dependent Equations
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9be40c51-d70c-44c6-b8b0-52002fbe0735
-:DRILL_LAST_INTERVAL: 98.4609
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.181
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-24 Sat 13:33]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441330
 :END:
 
-math: <[Dependent]> Equations have <[the same]> solutions
+**** Text
 
-*** Independent Equations                                           :drill:
-SCHEDULED: <2021-07-20 Tue>
+math: {{c1::Dependent}} Equations have {{c2::the same}} solutions
+
+*** Independent Equations
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       da58f785-9495-4e7d-8a71-666d19435483
-:DRILL_LAST_INTERVAL: 7.5224
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 29
-:DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 2.828
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441540
 :END:
 
-math: <[Independent]> Equations have <[different]> solutions
+**** Text
+
+math: {{c1::Independent}} Equations have {{c2::different}} solutions
 
 ** 5.2 Solving Systems of Equations by Substitution
-*** Solve a System of Equations by Substitution                     :drill:
-SCHEDULED: <2022-08-07 Sun>
+*** Solve a System of Equations by Substitution
 :PROPERTIES:
-:ID:       b4007763-7e3d-409a-8bf7-a4389296d736
-:DRILL_LAST_INTERVAL: 417.3138
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441677
 :END:
 
+**** Text
+
+#+BEGIN_SRC
 math: Solve the following system by Substitution:
 x + 2y = 4
 x + 3y = 2
 
-<[
+{{c1::
 x = 4 - 2y (isolate x in the first equation)
 
 4 - 2y + 3y = 2 (substitute x in the second equation)
@@ -2076,45 +1365,35 @@ x = 8
 2 = 2
 
 Solution: (8, -2)
-]>
+}}
+#+END_SRC
 
 ** 5.3 Solve Systems of Equations by Elimination
-*** Based on Addition Property of Equality                          :drill:
-SCHEDULED: <2022-01-02 Sun>
+*** Based on Addition Property of Equality
 :PROPERTIES:
-:ID:       5a430aae-106b-4abc-9e98-ac8e56616303
-:DRILL_LAST_INTERVAL: 254.1308
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-23 Fri 07:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525441815
 :END:
 
-math: Solving Systems of Equations by Elimination is based on the <[addition/substraction property
-of equality]>
+**** Text
 
-*** Solve a System of Equations by Elimination                                 :drill:
-SCHEDULED: <2022-03-20 Sun>
+math: Solving Systems of Equations by Elimination is based on the {{c1::addition/substraction property
+of equality}}
+
+*** Solve a System of Equations by Elimination
 :PROPERTIES:
-:ID:       751753d0-461c-4e7a-9b63-04daf0114f17
-:DRILL_LAST_INTERVAL: 305.1519
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-19 Wed 09:19]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525442266
 :END:
 
+**** Text
+
+#+BEGIN_SRC
 math: Solve the following system by Elimination:
 x + 3y = 2
 x + 2y = 4
 
-<[
+{{c1::
 x + 3y - x - 2y = 2 - 4 (substract the second equation from the first one)
 y = -2
 
@@ -2128,111 +1407,73 @@ x = 8
 4 = 4
 
 Solution: (8, -2)
-]>
+}}
+#+END_SRC
 
 ** 6.1 Add and Subtract Polynomials
-*** Degree of a Polynomial Term                                     :drill:
-SCHEDULED: <2021-07-29 Thu>
+*** Degree of a Polynomial Term
 :PROPERTIES:
-:ID:       72e4d321-d16e-4f14-b466-d4012ea3d99b
-:DRILL_LAST_INTERVAL: 16.2644
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.158
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-13 Tue 07:11]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525442624
 :END:
 
-The degree of a Polynomial Term is <[the sum of the exponents of its variables]>
+**** Text
+
+The degree of a Polynomial Term is {{c1::the sum of the exponents of its variables}}
 
 ** 6.4 Special Products
-*** Squared Binomial                                                :drill:
-SCHEDULED: <2021-11-05 Fri>
+*** Squared Binomial
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ef067327-695f-41ea-9645-f6ea666be599
-:DRILL_LAST_INTERVAL: 230.3806
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-20 Sat 11:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525442857
 :END:
 
-math: pattern: <[(a + b)^2]> = <[a^2 + 2ab + b^2]>
+**** Text
 
-*** Squared Binomial                                                :drill:
-SCHEDULED: <2022-01-30 Sun>
+math: pattern: {{c1::(a + b)^2}} = {{c2::a^2 + 2ab + b^2}}
+
+*** Squared Binomial
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2d2dd1b3-5f48-466b-89c0-4cd9266079ae
-:DRILL_LAST_INTERVAL: 216.3131
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525442995
 :END:
 
-math: pattern: <[(a - b)^2]> = <[a^2 - 2ab + b^2]>
+**** Text
 
-*** Conjugate Pair                                                  :drill:
-SCHEDULED: <2021-08-02 Mon>
+math: pattern: {{c1::(a - b)^2}} = {{c2::a^2 - 2ab + b^2}}
+
+*** Conjugate Pair
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0bb04c82-eafd-44e8-896d-e0198a6f4f57
-:DRILL_LAST_INTERVAL: 88.4243
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-06 Thu 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525443140
 :END:
 
-math: A <[Conjugate Pair]> is <[two binomials of the form (a + b),(a - b)||form]>
+**** Text
 
-*** Multiplied Conjugate Pair                                       :drill:
-SCHEDULED: <2022-01-30 Sun>
+math: A {{c1::Conjugate Pair}} is {{c2::two binomials of the form (a + b),(a - b)::form}}
+
+*** Multiplied Conjugate Pair
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       8cf8e0ae-ab98-4ec1-8ac1-7326731baad9
-:DRILL_LAST_INTERVAL: 216.3131
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525443297
 :END:
 
-math: pattern: <[(a + b)(a - b)]> = <[a^2 - b^2]>
+**** Text
+
+math: pattern: {{c1::(a + b)(a - b)}} = {{c2::a^2 - b^2}}
 
 ** 6.6 Divide Polynomials
-*** Divide a Polynomial by a Binomial                               :drill:
-SCHEDULED: <2021-08-03 Tue>
+*** Divide a Polynomial by a Binomial
 :PROPERTIES:
-:ID:       6d427c9e-e19b-425b-8496-2ece850b523c
-:DRILL_LAST_INTERVAL: 19.185
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.105
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525443446
 :END:
 
+**** Text
+
 math: Divide (2x^2 + 4) by (x - 2):
-<[
+{{c1::
+#+BEGIN_SRC
         2x + 4 + 12/(x - 2)
        ____________________
 x - 2 | 2x^2 + 0x + 4
@@ -2240,238 +1481,176 @@ x - 2 | 2x^2 + 0x + 4
                4x + 4
              -(4x - 8)
                    12
-]>
+#+END_SRC
+}}
 
 ** 6.7 Integer Exponents and Scientific Notation
-*** Negative Exponent                                               :drill:
-SCHEDULED: <2021-09-24 Fri>
+*** Negative Exponent
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       5dab02b1-faff-481e-9938-df2012712f0c
-:DRILL_LAST_INTERVAL: 184.9892
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-23 Tue 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525443594
 :END:
 
-math: <[a^-n]> = <[1/a^n]>
+**** Text
 
-*** Negative Exponent                                               :drill:
-SCHEDULED: <2021-10-26 Tue>
+math: {{c1::a^-n}} = {{c2::1/a^n}}
+
+*** Negative Exponent
 :PROPERTIES:
-:ID:       4d4ccc7c-acdd-425f-bd34-1ddb5ed11b33
-:DRILL_LAST_INTERVAL: 211.6694
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-28 Sun 11:36]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525444049
 :END:
 
-math: 1/a^-n = <[a^n]>
+**** Text
 
-*** Quotient to a Negative Exponent Property                        :drill:
-SCHEDULED: <2021-07-29 Thu>
+math: 1/a^-n = {{c1::a^n}}
+
+*** Quotient to a Negative Exponent Property
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4affd3b9-ab0d-4f8f-a376-bd23a431efc0
-:DRILL_LAST_INTERVAL: 19.4698
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 22
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.909
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525444231
 :END:
 
-math: <[(a/b)^-n]> = <[(b/a)^n]>
+**** Text
+
+math: {{c1::(a/b)^-n}} = {{c2::(b/a)^n}}
 
 ** 7.1 Greatest Common Factor and Factor by Grouping
-*** Factor out the GCF                                              :drill:
-SCHEDULED: <2022-02-23 Wed>
+*** Factor out the GCF
 :PROPERTIES:
-:ID:       42351cda-0582-40cc-a774-5c2667c862a1
-:DRILL_LAST_INTERVAL: 286.1712
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-13 Thu 18:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525444431
 :END:
+
+**** Text
 
 math: Factor 4y^2 + 24y + 28
-<[
+{{c1::
+#+BEGIN_SRC
 Factor out the GCF:
 4y^2 + 24y + 28 = 4(y^2 + 6y + 7)
-]>
+#+END_SRC
+}}
 
-*** Factor by Grouping                                              :drill:
-SCHEDULED: <2021-08-09 Mon>
+*** Factor by Grouping
 :PROPERTIES:
-:ID:       3da868d8-1424-4c5a-9791-539750e04cac
-:DRILL_LAST_INTERVAL: 193.6609
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-27 Wed 12:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525444699
 :END:
 
+**** Text
+
 math: Factor xy + 3y + 2x + 6
-<[
+{{c1::
+#+BEGIN_SRC
 Factor by grouping:
 xy + 3y + 2x + 6 = y(x + 3) + 2(x + 3)
                  = (y + 2)(x + 3)
-]>
+#+END_SRC
+}}
 
 ** 7.2 Factor Trinomials of the Form x2+bx+c
-*** Factor Trinomials of the Form x^2 + bx + c                      :drill:
-SCHEDULED: <2021-07-20 Tue>
+*** Factor Trinomials of the Form x^2 + bx + c
 :PROPERTIES:
-:ID:       e5f95fe0-b475-4673-9717-5c94a7346dea
-:DRILL_LAST_INTERVAL: 18.357
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.444
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525444917
 :END:
 
+**** Text
+
 math: Factor x^2 - 11x + 24
-<[
+{{c1::
+#+BEGIN_SRC
 x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
 b = -11 = -3 + -8
 c =  24 = -3 * -8
 So x^2 - 11x + 24 = (x - 3)(x - 8)
-]>
+#+END_SRC
+}}
 
-*** Factor Trinomials of the Form x^2 + bx + c                      :drill:
-SCHEDULED: <2021-07-21 Wed>
+*** Factor Trinomials of the Form x^2 + bx + c
 :PROPERTIES:
-:ID:       4fb45fcc-bea6-4bce-a701-15adc69bf255
-:DRILL_LAST_INTERVAL: 13.6059
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 20
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-07 Wed 13:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525445090
 :END:
 
+**** Text
+
 math: Factor x^2 + 4x - 5
-<[
+{{c1::
+#+BEGIN_SRC
 x^2 + bx + c = (x + m)(x + n) with b = m + n and c = m * n
 b =  4 = 5 + -1
 c = -5 = 5 * -1
 So x^2 + 4x - 5 = (x + 5)(x - 1)
-]>
+#+END_SRC
+}}
 
-*** Prime Polynomial                                                :drill:
-SCHEDULED: <2021-08-27 Fri>
+*** Prime Polynomial
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       3a59e965-e778-4dd2-bca0-7782b9c3cb0c
-:DRILL_LAST_INTERVAL: 169.6288
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-10 Wed 08:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525445254
 :END:
 
-math: <[A Prime Polynomial]> is <[a Polynomial that cannot be factorized]>
+**** Text
 
-*** Prime Polynomial aka Irreducible Polynomial                     :drill:
-SCHEDULED: <2021-11-14 Sun>
+math: {{c1::A Prime Polynomial}} is {{c2::a Polynomial that cannot be factorized}}
+
+*** Prime Polynomial aka Irreducible Polynomial
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4e6706db-3df1-4947-9091-73694ffc4636
-:DRILL_LAST_INTERVAL: 218.5521
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-09 Fri 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525445401
 :END:
 
-math: <[Prime Polynomial]> aka <[Irreducible Polynomial]>
+**** Text
 
-*** Factor Prime Trinomial                                          :drill:
-SCHEDULED: <2022-02-23 Wed>
+math: {{c1::Prime Polynomial}} aka {{c2::Irreducible Polynomial}}
+
+*** Factor Prime Trinomial
 :PROPERTIES:
-:ID:       ea6f6f3c-02e9-4f95-869e-f9c22ec8c1b6
-:DRILL_LAST_INTERVAL: 223.617
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525445559
 :END:
+
+**** Text
 
 math: Factor y^2 − 6y + 15
-<[
+{{c1::
+#+BEGIN_SRC
 y^2 − 6y + 15 is irreducible over the integers
-]>
+#+END_SRC
+}}
 
-*** Factor Trinomials of the Form x^2 + bxy + cy^2                  :drill:
-SCHEDULED: <2021-07-18 Sun>
+*** Factor Trinomials of the Form x^2 + bxy + cy^2
 :PROPERTIES:
-:ID:       67d66aa0-4604-47eb-8adf-92084e181526
-:DRILL_LAST_INTERVAL: 27.8523
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 18
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.222
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-20 Sun 11:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525446000
 :END:
 
+**** Text
+
 math: Factor x^2 - 8xy + 15y^2
-<[
+{{c1::
+#+BEGIN_SRC
 x^2 - 8xy + 15y^2 = (x + m)(x + n) with b = m + n and c = m * n
 b = 8y    = -5y - 3y
 c = 15y^2 = -5y * -3y
 So x^2 - 8xy + 15y^2 = (x - 5y)(x - 3y)
-]>
+#+END_SRC
+}}
 
 ** 7.3 Factor Trinomials of the Form ax2+bx+c
-*** Factor Using the AC Method                                      :drill:
-SCHEDULED: <2022-03-29 Tue>
+*** Factor Using the AC Method
 :PROPERTIES:
-:ID:       51488fe5-5c79-40ce-a84c-2ec8c7022425
-:DRILL_LAST_INTERVAL: 305.1519
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-28 Fri 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525446266
 :END:
 
+**** Text
+
 math: Factor 6x^2 + 7x + 2
-<[
+{{c1::
+#+BEGIN_SRC
 Factor with the ac method:
 6x^2 + 7x + 2 = ax^2 + mx + nx + c with b = m + n and  a * c = m * n
 ac = 12
@@ -2483,202 +1662,156 @@ Possible factors of 12 are:
 So 6x^2 + 7x + 2 = 6x^2 + 4x + 3x + 2
 Factor by grouping:
 6x^2 + 4x + 3x + 2 = 3x(2x + 1) + 2(2x + 1) = (3x + 2)(2x + 1)
-]>
+#+END_SRC
+}}
 
 ** 7.4 Factor Special Products
-*** Sum of Cubes Pattern                                            :drill:
-SCHEDULED: <2021-07-20 Tue>
+*** Sum of Cubes Pattern
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       76024c21-d10c-4127-aa2f-a20a2b93ed89
-:DRILL_LAST_INTERVAL: 144.5058
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525446475
 :END:
 
-math: pattern: <[a^3 + b^3]> = <[(a + b)(a^2 - ab + b^2)]>
+**** Text
 
-*** Difference of Cubes Pattern                                     :drill:
-SCHEDULED: <2021-07-20 Tue>
+math: pattern: {{c1::a^3 + b^3}} = {{c2::(a + b)(a^2 - ab + b^2)}}
+
+*** Difference of Cubes Pattern
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       adb2e8ce-1d30-4063-aad4-ab9554dae73c
-:DRILL_LAST_INTERVAL: 144.5058
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:25]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525446646
 :END:
 
-math: pattern: <[a^3 - b^3]> = <[(a - b)(a^2 + ab + b^2)]>
+**** Text
 
-*** Factor a^2 + 2ab + b^2                                          :drill:
-SCHEDULED: <2021-07-21 Wed>
+math: pattern: {{c1::a^3 - b^3}} = {{c2::(a - b)(a^2 + ab + b^2)}}
+
+*** Factor a^2 + 2ab + b^2
 :PROPERTIES:
-:ID:       7801ce7b-0016-432f-9e4b-90997d6877dd
-:DRILL_LAST_INTERVAL: 32.1243
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.091
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:02]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525446858
 :END:
+
+**** Text
 
 math: Factor 4n^2 + 12n + 9
-<[
+{{c1::
+#+BEGIN_SRC
 4n^2 + 12n + 9 is of the form a^2 + 2ab + b^2 = (a + b)^2
 4n^2 + 12n + 9 = (2n + 3)^2
-]>
+#+END_SRC
+}}
 
-*** Factor a^2 - 2ab + b^2                                          :drill:
-SCHEDULED: <2022-07-15 Fri>
+*** Factor a^2 - 2ab + b^2
 :PROPERTIES:
-:ID:       37349c31-2d63-4902-9b9b-183debd5c6d8
-:DRILL_LAST_INTERVAL: 369.2241
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.7
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-11 Sun 12:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525447026
 :END:
+
+**** Text
 
 math: Factor 100x^2 − 20x + 1
-<[
+{{c1::
+#+BEGIN_SRC
 100x^2 − 20x + 1 is of the form a^2 - 2ab + b^2 = (a - b)^2
 100x^2 − 20x + 1 = (10x - 1)^2
-]>
+#+END_SRC
+}}
 
-*** Factor a^2 - b^2                                                :drill:
-SCHEDULED: <2021-07-18 Sun>
+*** Factor a^2 - b^2
 :PROPERTIES:
-:ID:       b9f0e140-5325-49e7-aa9e-326f4ab762b1
-:DRILL_LAST_INTERVAL: 16.18
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525447190
 :END:
 
+**** Text
+
 math: Factor 27q^2 - 3
-<[
+{{c1::
+#+BEGIN_SRC
 27q^2 - 3 = 3(9q^2 - 1)
 9q^2 - 1 is of the form a^2 - b^2 = (a + b)(a - b)
 3(9q^2 - 1) = 3(3q + 1)(3q - 1)
-]>
+#+END_SRC
+}}
 
-*** Factor a^3 + b^3                                                :drill:
-SCHEDULED: <2021-10-30 Sat>
+*** Factor a^3 + b^3
 :PROPERTIES:
-:ID:       f3867e78-22c0-4b44-9cf9-f980765b508b
-:DRILL_LAST_INTERVAL: 121.7862
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.353
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-30 Wed 08:58]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525447338
 :END:
+
+**** Text
 
 math: Factor x^3 + 64
-<[
+{{c1::
+#+BEGIN_SRC
 x^3 + 64 is of the form a^3 + b^3 = (a + b)(a^2 - ab + b^2)
 x^3 + 64 = (x + 4)(x^2 - 4x + 16)
-]>
+#+END_SRC
+}}
 
-*** Factor a^3 - b^3                                                :drill:
-SCHEDULED: <2022-05-20 Fri>
+*** Factor a^3 - b^3
 :PROPERTIES:
-:ID:       7a8e64d2-87d6-4e09-b941-99ccbbeafab4
-:DRILL_LAST_INTERVAL: 348.2077
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-06 Sun 12:10]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525447805
 :END:
+
+**** Text
 
 math: Factor 27 - 125p^3
-<[
+{{c1::
+#+BEGIN_SRC
 27 - 125p^3 is of the form a^3 - b^3 = (a - b)(a^2 + ab + b^2)
 27 - 125p^3 = (3 - 5p)(9 + 15p + 25p^2)
-]>
+#+END_SRC
+}}
 
-*** Factor a^4 - b^4                                                :drill:
-SCHEDULED: <2022-07-28 Thu>
+*** Factor a^4 - b^4
 :PROPERTIES:
-:ID:       14c5e6b2-8d6e-49ef-be68-0d6516addb8f
-:DRILL_LAST_INTERVAL: 398.4989
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-25 Fri 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525447939
 :END:
 
+**** Text
+
 math: Factor m^4 - n^4
-<[
+{{c1::
+#+BEGIN_SRC
 m^4 - n^4 is of the form a^2 - b^2 = (a + b)(a - b)
 m^4 - n^4 = (m^2 + n^2)(m^2 - n^2)
 m^2 - n^2 is of the form a^2 - b^2 = (a + b)(a - b)
 (m^2 + n^2)(m^2 - n^2) = (m^2 + n^2)(m + n)(m - n)
-]>
+#+END_SRC
+}}
 
-*** Factor an Irreducible Polynomial                                :drill:
-SCHEDULED: <2022-06-27 Mon>
+*** Factor an Irreducible Polynomial
 :PROPERTIES:
-:ID:       dbfb4be2-ef4c-4ec3-a425-46cb717a69da
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-14 Mon 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525448084
 :END:
+
+**** Text
 
 math: Factor 9x^2 + 4
-<[
+{{c1::
+#+BEGIN_SRC
 9x^2 + 4 is irreducible over the integers
-]>
+#+END_SRC
+}}
 
 ** 7.5 General Strategy for Factoring Polynomials
-*** General Strategy for Factoring Polynomials                      :drill:
-SCHEDULED: <2021-07-19 Mon>
+*** General Strategy for Factoring Polynomials
 :PROPERTIES:
-:ID:       07499152-8cbf-4e89-ba09-ca6c1b015b98
-:DRILL_LAST_INTERVAL: 11.232
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 35
-:DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.943
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-08 Thu 12:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525448223
 :END:
 
+**** Text
+
 math: General Strategy for Factoring Polynomials
-<[
+{{c1::
+#+BEGIN_SRC
 - Factor out the GCF if there is one
 - For binomials:
   - If of the form a^2 + b^2: Do nothing
@@ -2694,64 +1827,45 @@ math: General Strategy for Factoring Polynomials
     - The ac method: ax^2 + mx + nx + c with b = m + n and  a * c = m * n, then use grouping
     - Or use the trial and error method
 - If it has more than 3 terms: Use grouping
-]>
+#+END_SRC
+}}
 
 ** 7.6 Quadratic Equations
-*** Quadratic Equation                                              :drill:
-SCHEDULED: <2021-08-29 Sun>
+*** Quadratic Equation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       10aff243-042d-4563-ae20-b6badb2b03d0
-:DRILL_LAST_INTERVAL: 45.0976
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.071
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525448409
 :END:
 
-math: A <[Quadratic Equation]> is an equation of the form <[ax^2 + bx + c = 0]>
+**** Text
 
-*** Solve a Quadratic Equation by Factoring                         :drill:
-SCHEDULED: <2021-07-23 Fri>
+math: A {{c1::Quadratic Equation}} is an equation of the form {{c2::ax^2 + bx + c = 0}}
+
+*** Solve a Quadratic Equation by Factoring
 :PROPERTIES:
-:ID:       f37f7388-ad1b-43e0-b7b7-f4332efdec5f
-:DRILL_LAST_INTERVAL: 10.648
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 20
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.95
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525448611
 :END:
+
+**** Text
 
 math: Solve a Quadratic Equation by Factoring by:
-<[
-- Writing it in standard form
-- Factoring it completely
-- Using the Zero Product property
-- Solving the linear equations
-]>
+- {{c1::Writing it in standard form}}
+- {{c1::Factoring it completely}}
+- {{c1::Using the Zero Product property}}
+- {{c1::Solving the linear equations}}
 
-*** Example of Solving a Quadratic Equation                         :drill:
-SCHEDULED: <2021-11-09 Tue>
+*** Example of Solving a Quadratic Equation
 :PROPERTIES:
-:ID:       e668eecb-0e7b-447f-8368-dd666ad81cce
-:DRILL_LAST_INTERVAL: 129.7607
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.177
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-02 Fri 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525448889
 :END:
 
+**** Text
+
 math: Solve 3c^2 = 10c − 8 by factoring
-<[
+{{c1::
+#+BEGIN_SRC
 Write in standard form:
 3c^2 - 10c + 8 = 0
 
@@ -2773,115 +1887,76 @@ c = 2
 
 Solutions:
 c = 4/3 or c = 2
-]>
+#+END_SRC
+}}
 
 ** 8.1 Simplify Rational Expressions
-*** Rational Expression                                             :drill:
-SCHEDULED: <2021-07-18 Sun>
+*** Rational Expression
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       3b80f40c-1f52-4fc5-b12b-bbf896e001a1
-:DRILL_LAST_INTERVAL: 19.8273
-:DRILL_REPEATS_SINCE_FAIL: 14
-:DRILL_TOTAL_REPEATS: 26
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.962
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-28 Mon 09:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525449106
 :END:
 
-math: A <[Rational Expression]> is <[an expression of the form f(x)/g(x) where f and g are polynomials]>
+**** Text
 
-*** Rational Fraction                                               :drill:
-SCHEDULED: <2021-07-18 Sun>
+math: A {{c1::Rational Expression}} is {{c2::an expression of the form f(x)/g(x) where f and g are polynomials}}
+
+*** Rational Fraction
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       218cb650-a999-4ddd-8455-973fa37fe139
-:DRILL_LAST_INTERVAL: 139.0653
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-01 Mon 07:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525449533
 :END:
 
-math: <[Rational Expression]> aka <[Rational Fraction]>
+**** Text
 
-*** Opposites in a Rational Expression                              :drill:
-SCHEDULED: <2021-07-19 Mon>
+math: {{c1::Rational Expression}} aka {{c2::Rational Fraction}}
+
+*** Opposites in a Rational Expression
 :PROPERTIES:
-:ID:       07336528-4174-4086-aeb1-7bab315db73a
-:DRILL_LAST_INTERVAL: 31.558
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-17 Thu 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525449691
 :END:
 
-math: (a - b)/(b - a) = <[(a - b)/-(a - b)]> = <[-1]>
+**** Text
+
+math: (a - b)/(b - a) = {{c1::(a - b)/-(a - b)}} = {{c1::-1}}
 
 ** 8.4 Add and Subtract Rational Expressions with Unlike Denominators
-*** Find the Least Common Multiple of Polynomials                   :drill:
-SCHEDULED: <2021-09-27 Mon>
+*** Find the Least Common Multiple of Polynomials
 :PROPERTIES:
-:ID:       9efc5ffa-fb1d-4a20-a101-5247daa64003
-:DRILL_LAST_INTERVAL: 92.3311
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.083
-:DRILL_EASE: 1.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525449839
 :END:
 
-math: Find the Least Common Multiple of polynomials by <[factoring them completely and multiplying
-their factors to their highest powers]>
-Example: lcm(a^2 - b^2, (a + b)^2) = <[(a - b)(a + b)^2]>
+**** Text
 
-*** Add and Subtract Rational Expressions with Unlike Denominators  :drill:
-SCHEDULED: <2021-07-24 Sat>
+math: Find the Least Common Multiple of polynomials by {{c1::factoring them completely and multiplying
+their factors to their highest powers}}
+Example: lcm(a^2 - b^2, (a + b)^2) = {{c1::(a - b)(a + b)^2}}
+
+*** Add and Subtract Rational Expressions with Unlike Denominators
 :PROPERTIES:
-:ID:       4ae5b0ba-70fc-4f49-872f-ac342c3d95c8
-:DRILL_LAST_INTERVAL: 139.0653
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525449972
 :END:
+
+**** Text
 
 math: To add rational expressions with unlike denominators:
-<[
-- Find the Least Common Denominator
-- Multiply the fractions' denominator and numerator by the factors their denominator was missing
-- Add the rational expressions now that they have the same denominators
-]>
+- {{c1::Find the Least Common Denominator}}
+- {{c1::Multiply the fractions' denominator and numerator by the factors their denominator was missing}}
+- {{c1::Add the rational expressions now that they have the same denominators}}
 
-*** Example Add and Subtract Rational Expressions with Unlike Denominators :drill:
-SCHEDULED: <2022-06-14 Tue>
+*** Example Add and Subtract Rational Expressions with Unlike Denominators
 :PROPERTIES:
-:ID:       46ebc6dc-bf2d-4e49-81d3-b65db7dc2ea2
-:DRILL_LAST_INTERVAL: 341.6033
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.462
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-07 Wed 13:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525450133
 :END:
 
+**** Text
+
 math: Simplify $\frac{4}{cd + 3c} + \frac{1}{d^2 - 9}$
-<[
+{{c1::
 \begin{gather*}
 \text{Factor the denominators} \\
 cd + 3c = c(d + 3) \\
@@ -2897,48 +1972,33 @@ lcm(cd + 3c, d^2 - 9) = c(d + 3)(d - 3) \\
 \text{Add} \\
 \frac{4(d - 3) + c}{c(d + 3)(d - 3)} \\
 \end{gather*}
-]>
+}}
 
 ** 8.5 Simplify Complex Rational Expressions
-*** Complex Rational Expression                                     :drill:
-SCHEDULED: <2021-07-28 Wed>
+*** Complex Rational Expression
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       466c0f83-3038-454d-b9fb-079818ad49b7
-:DRILL_LAST_INTERVAL: 139.0653
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-11 Thu 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525450276
 :END:
 
-math: A <[Complex Rational Expression]> is a <[rational expression whose numerator or denominator
-contains a rational expression]>
+**** Text
 
-*** Simplify Complex Rational Expressions                           :drill:
-SCHEDULED: <2021-07-25 Sun>
+math: A {{c1::Complex Rational Expression}} is a {{c2::rational expression whose numerator or denominator
+contains a rational expression}}
+
+*** Simplify Complex Rational Expressions
 :PROPERTIES:
-:ID:       19a53624-b855-4df3-885d-4ef6d5504194
-:DRILL_LAST_INTERVAL: 12.9432
-:DRILL_REPEATS_SINCE_FAIL: 11
-:DRILL_TOTAL_REPEATS: 31
-:DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.903
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525450421
 :END:
+
+**** Text
 
 math: Simplify a Complex Rational Expression by either:
-<[
-- Multiplying the numerator by the reciprocal of the denominator
-- Multiplying the numerator and denominator by the LCD of all the fractions
-]>
+- {{c1::Multiplying the numerator by the reciprocal of the denominator}}
+- {{c1::Multiplying the numerator and denominator by the LCD of all the fractions}}
 Example:
-<[
+{{c1::
 \begin{gather*}
 \text{Multiplying the numerator by the reciprocal of the denominator} \\
 \frac{\frac{a}{b}}
@@ -2952,25 +2012,19 @@ Example:
      {\frac{x}{y} \cdot by} \\
 \frac{ay}{bx}
 \end{gather*}
-]>
+}}
 
-*** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal :drill:
-SCHEDULED: <2022-04-25 Mon>
+*** Example of Simplifying Complex Rational Expressions by Multiplying by the Reciprocal
 :PROPERTIES:
-:ID:       f26ae1bb-8d2e-4c05-a332-4a0b05c163e9
-:DRILL_LAST_INTERVAL: 313.1275
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.556
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525450604
 :END:
+
+**** Text
 
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the reciprocal
 method
-<[
+{{c1::
 \begin{gather*}
 \text{Simplify the numerator and denominator} \\
 \frac{\frac{y + x}{xy}}
@@ -2980,24 +2034,18 @@ method
 \text{Simplify} \\
 \frac{1}{x - y}
 \end{gather*}
-]>
+}}
 
-*** Example of Simplifying Complex Rational Expressions by Multiplying by the LCD :drill:
-SCHEDULED: <2021-10-29 Fri>
+*** Example of Simplifying Complex Rational Expressions by Multiplying by the LCD
 :PROPERTIES:
-:ID:       960d7bf3-592a-493f-a946-95ca7f3dd734
-:DRILL_LAST_INTERVAL: 114.6369
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525451056
 :END:
 
+**** Text
+
 math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ using the LCD method
-<[
+{{c1::
 \begin{gather*}
 \text{Mutiply the numerator and denominator by the LCD ($xy$):} \\
 \frac{{\color{red}xy} \cdot \frac{1}{x} + {\color{red}xy} \cdot \frac{1}{y}}
@@ -3006,78 +2054,53 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 \frac{y + x}{x^2 - y^2} \\
 \frac{1}{x - y}
 \end{gather*}
-]>
+}}
 
 ** 8.6 Solve Rational Equations
-*** Extraneous Solution                                             :drill:
-SCHEDULED: <2021-07-19 Mon>
+*** Extraneous Solution
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2278631e-8935-4052-aa78-1c33d2b0fc94
-:DRILL_LAST_INTERVAL: 4.2149
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.867
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525451219
 :END:
 
-math: <[An Extraneous Solution]> to an equation is <[a solution that would make the equation be
-undefined]>
+**** Text
+
+math: {{c1::An Extraneous Solution}} to an equation is {{c2::a solution that would make the equation be
+undefined}}
 
 ** 8.7 Solve Proportion and Similar Figure Applications
-*** Proportion                                                      :drill:
-SCHEDULED: <2021-07-25 Sun>
+*** Proportion
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       cbe598e4-3c51-4917-bb98-2bd2a7c009e3
-:DRILL_LAST_INTERVAL: 18.8301
-:DRILL_REPEATS_SINCE_FAIL: 16
-:DRILL_TOTAL_REPEATS: 31
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.903
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525451416
 :END:
 
-math: A <[Proportion]> is an equation of the form <[a/b = c/d]>
+**** Text
 
-*** Proportion Reading                                              :drill:
-SCHEDULED: <2022-06-13 Mon>
+math: A {{c1::Proportion}} is an equation of the form {{c2::a/b = c/d}}
+
+*** Proportion Reading
 :PROPERTIES:
-:ID:       17ddb87a-6535-4ba0-b405-d6210f00baa4
-:DRILL_LAST_INTERVAL: 354.8278
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-23 Wed 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525451647
 :END:
 
-math: A proportion a/b = c/d is read as <[a is to b as c is to d]>
+**** Text
 
-*** Proportion Work Application                                     :drill:
-SCHEDULED: <2021-07-28 Wed>
+math: A proportion a/b = c/d is read as {{c1::a is to b as c is to d}}
+
+*** Proportion Work Application
 :PROPERTIES:
-:ID:       b38ac638-cd2e-460f-8be2-4278c46085ac
-:DRILL_LAST_INTERVAL: 16.7951
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-11 Sun 12:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525451812
 :END:
+
+**** Text
 
 math: Bob can paint a room in 6 hours. Alice takes 12 hours to paint the same room. How long would
 it take Bob and Alice to paint the room if they worked together?
-<[
+{{c1::
+#+BEGIN_SRC
 Translate to an equation:
 1/6 + 1/12 = 1/x
 
@@ -3091,153 +2114,118 @@ x = 12/3
 x = 4
 
 Answer: 4 hours
-]>
+#+END_SRC
+}}
 
 ** 8.9 Use Direct and Inverse Variation
-*** Direct Variation                                                :drill:
-SCHEDULED: <2022-06-19 Sun>
+*** Direct Variation
 :PROPERTIES:
-:ID:       1ac2db67-1ca3-458d-a9db-7c080da07815
-:DRILL_LAST_INTERVAL: 354.8278
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525452025
 :END:
 
-math: x varies directly with y if <[x = ky]>
+**** Text
 
-*** Direct Variation Example                                        :drill:
-SCHEDULED: <2022-07-17 Sun>
+math: x varies directly with y if {{c1::x = ky}}
+
+*** Direct Variation Example
 :PROPERTIES:
-:ID:       c22738d5-a2b8-431c-b23c-15a991d7f829
-:DRILL_LAST_INTERVAL: 378.2812
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525452178
 :END:
+
+**** Text
 
 math: The distance a moving body travels, d, varies directly with the time, t, it moves. A train
 travels 100 miles in 2 hours.
 Write the equation that relates d and t.
-<[
+{{c1::
+#+BEGIN_SRC
 d = kt
 100 = k2
 k = 50
 
 Answer: d = 50t
-]>
+#+END_SRC
+}}
 
 How many miles would it travel in 5 hours?
-<[
+{{c1::
+#+BEGIN_SRC
 miles = kt = 50 * 5 = 250 miles
-]>
+#+END_SRC
+}}
 
-*** Inverse Variation                                               :drill:
-SCHEDULED: <2022-06-19 Sun>
+*** Inverse Variation
 :PROPERTIES:
-:ID:       18d8192f-c01a-44ae-a517-97891d24e083
-:DRILL_LAST_INTERVAL: 354.8278
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525452327
 :END:
 
-math: x varies inversely with y if <[x = k/y]>
+**** Text
 
-*** Inverse Variation Example                                       :drill:
-SCHEDULED: <2021-09-14 Tue>
+math: x varies inversely with y if {{c1::x = k/y}}
+
+*** Inverse Variation Example
 :PROPERTIES:
-:ID:       58727f5e-8f45-422e-8327-fc67e255aa7c
-:DRILL_LAST_INTERVAL: 97.7316
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-08 Tue 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525452477
 :END:
+
+**** Text
 
 math: The time required to empty a tank varies inversely with the rate of pumping. It took Janet 5
 hours to pump her flooded basement using a pump that was rated at 200 gpm (gallons per minute).
 Write the equation that relates the number of hours to the pump rate.
-<[
+{{c1::
+#+BEGIN_SRC
 time = k/rate
 5 = k/200
 k = 5 * rate = 1000
 
 Answer: time = 1000/rate
-]>
+#+END_SRC
+}}
 
 How long would it take Janet to pump her basement if she used a pump rated at 400 gpm?
-<[
+{{c1::
+#+BEGIN_SRC
 time = 1000/rate = 1000/400 = 2.5
-]>
+#+END_SRC
+}}
 
 ** 9.2 Simplify Square Roots
-*** Product Property of Square Roots                                :drill:
-SCHEDULED: <2022-01-14 Fri>
+*** Product Property of Square Roots
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       3d3e499c-c066-4d93-b95b-1aa27df18066
-:DRILL_LAST_INTERVAL: 238.3494
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-21 Fri 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525452904
 :END:
 
-math: <[sqrt(ab)]> = <[sqrt(a)*sqrt(b)]>
+**** Text
 
-*** Quotient Property of Square Roots                               :drill:
-SCHEDULED: <2022-01-14 Fri>
+math: {{c1::sqrt(ab)}} = {{c2::sqrt(a)*sqrt(b)}}
+
+*** Quotient Property of Square Roots
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1bebd91f-382b-4a27-89c7-ad28beaedc81
-:DRILL_LAST_INTERVAL: 238.3494
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-21 Fri 08:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453063
 :END:
 
-math: <[sqrt(a/b)]> = <[sqrt(a)/sqrt(b)]>
+**** Text
+
+math: {{c1::sqrt(a/b)}} = {{c2::sqrt(a)/sqrt(b)}}
 
 ** 9.5 Divide Square Roots
-*** Simplify a Fraction with a Monomial                             :drill:
-SCHEDULED: <2021-07-29 Thu>
+*** Simplify a Fraction with a Monomial
 :PROPERTIES:
-:ID:       1e86eaf9-c735-49b1-b494-2c5a31309bff
-:DRILL_LAST_INTERVAL: 28.3814
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.153
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-01 Thu 08:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453173
 :END:
 
+**** Text
+
 math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
-<[
+{{c1::
 \begin{gather*}
 \sqrt{\frac{11}{28}} \\
 \frac{\sqrt{11}}{2\sqrt{7}} \\
@@ -3245,24 +2233,18 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 \frac{\sqrt{77}}{2 \cdot 7} \\
 \frac{\sqrt{77}}{14}
 \end{gather*}
-]>
+}}
 
-*** Simplify a Fraction with a Binomial                             :drill:
-SCHEDULED: <2021-08-15 Sun>
+*** Simplify a Fraction with a Binomial
 :PROPERTIES:
-:ID:       982c5071-d48e-4d22-abb4-7b72d5fd8795
-:DRILL_LAST_INTERVAL: 102.7567
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453308
 :END:
 
+**** Text
+
 math: Simplify $\frac{4}{4 + \sqrt{2}}$
-<[
+{{c1::
 \begin{gather*}
 \frac{4}{4 + \sqrt{2}} \\
 \frac{4{\color{red}(4 - \sqrt{2})}}{(4 + \sqrt{2}) {\color{red}(4 - \sqrt{2})}} \\
@@ -3270,49 +2252,37 @@ math: Simplify $\frac{4}{4 + \sqrt{2}}$
 \frac{4(4 - \sqrt{2})}{14} \\
 \frac{2(4 - \sqrt{2})}{7}
 \end{gather*}
-]>
+}}
 
 ** 9.6 Solve Equations with Square Roots
-*** Solve a Radical Equation with a Monomial                        :drill:
-SCHEDULED: <2021-08-19 Thu>
+*** Solve a Radical Equation with a Monomial
 :PROPERTIES:
-:ID:       41c3c9c3-1baa-4a23-9836-3cad322ff124
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.668
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:47]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453482
 :END:
 
+**** Text
+
 math: Solve $\sqrt{5n - 4} - 9 = 0$
-<[
+{{c1::
 \begin{gather*}
 \sqrt{5n - 4} = 9 \\
 5n - 4 = 81 \\
 5n = 85 \\
 n = 17
 \end{gather*}
-]>
+}}
 
-*** Solve a Radical Equation with a Binomial                        :drill:
-SCHEDULED: <2022-05-29 Sun>
+*** Solve a Radical Equation with a Binomial
 :PROPERTIES:
-:ID:       90955e3c-6a35-4b6d-bcf3-791211fed01f
-:DRILL_LAST_INTERVAL: 336.888
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-26 Sat 11:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453642
 :END:
 
+**** Text
+
 math: Solve $\sqrt{p - 1} + 1 = p$
-<[
+{{c1::
 \begin{gather*}
 \sqrt{p - 1} = p - 1 \\
 p - 1 = (p - 1)^2 \\
@@ -3330,46 +2300,34 @@ p = 2 \text{ or } p = 1 \\
 \\
 \text{Solution: p = 2 or p = 1}
 \end{gather*}
-]>
+}}
 
-*** Solve a Radical Equation with no Real Solution                  :drill:
-SCHEDULED: <2021-11-03 Wed>
+*** Solve a Radical Equation with no Real Solution
 :PROPERTIES:
-:ID:       521cb532-0317-4fbb-b76b-7e863ec4151f
-:DRILL_LAST_INTERVAL: 186.6267
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.332
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-30 Fri 09:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525453850
 :END:
 
+**** Text
+
 math: Solve $\sqrt{9k - 2} + 1 = 0$
-<[
+{{c1::
 \begin{gather*}
 \sqrt{9k - 2} = -1 \\
 \text{Since the square root is a negative number, there is no real solution.}
 \end{gather*}
-]>
+}}
 
-*** Solve a Radical Equation with an Extraneous Solution            :drill:
-SCHEDULED: <2021-07-26 Mon>
+*** Solve a Radical Equation with an Extraneous Solution
 :PROPERTIES:
-:ID:       f9ee9c80-0ee3-4157-960d-5704d6964984
-:DRILL_LAST_INTERVAL: 12.3849
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 27
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.037
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525454143
 :END:
 
+**** Text
+
 math: Solve $\sqrt{r + 4} - r + 2 = 0$
-<[
+{{c1::
 \begin{gather*}
 \sqrt{r + 4} = r - 2 \\
 r + 4 = r^2 - 4r + 4 \\
@@ -3388,265 +2346,189 @@ r = 0 \text{ or } r = 5 \\
 \\
 \text{Solution: r = 5}
 \end{gather*}
-]>
+}}
 
 ** 9.7 Higher Roots
-*** nth Root                                                        :drill:
-SCHEDULED: <2021-11-25 Thu>
+*** nth Root
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0e5e9d5e-07eb-4a19-9815-5ce4a10fc305
-:DRILL_LAST_INTERVAL: 205.0331
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-04 Tue 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525454581
 :END:
 
-math: If <[a^n = b]> then a is <[an nth root of b]>
+**** Text
 
-*** nth Root Index                                                  :drill:
-SCHEDULED: <2021-08-27 Fri>
+math: If {{c1::a^n = b}} then a is {{c2::an nth root of b}}
+
+*** nth Root Index
 :PROPERTIES:
-:ID:       923cfaa8-0c94-4b80-ac87-a372f1c4d71f
-:DRILL_LAST_INTERVAL: 69.0584
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:05]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525454747
 :END:
 
-math: In $\sqrt[n]{x}$ n is called <[the Index]>
+**** Text
 
-*** Real or Imaginary Roots                                         :drill:
-SCHEDULED: <2021-07-23 Fri>
+math: In $\sqrt[n]{x}$ n is called {{c1::the Index}}
+
+*** Real or Imaginary Roots
 :PROPERTIES:
-:ID:       028467c5-b933-46c6-b46f-c8a99d753191
-:DRILL_LAST_INTERVAL: 8.5112
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:05]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525454900
 :END:
+
+**** Text
 
 math: State the type of the root of $\sqrt[n]{x}$ depending on n and x:
-<[
+{{c1::
+#+BEGIN_SRC
 - If n is even
   - and x >= 0 then the root is a real number
   - and x < 0 then the root is an imaginary number
 - If n is odd
   - The root is always a real number
-]>
+#+END_SRC
+}}
 
-*** Root with an Even Index                                         :drill:
-SCHEDULED: <2021-07-21 Wed>
+*** Root with an Even Index
 :PROPERTIES:
-:ID:       353b82de-5e15-4d1d-90b9-fbff29410a96
-:DRILL_LAST_INTERVAL: 69.0584
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.091
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-13 Thu 18:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455029
 :END:
 
-math: $\sqrt[4]{x^{12}}$ = <[$|x^3|$]>
+**** Text
 
-*** Root with an Even Index                                         :drill:
-SCHEDULED: <2021-08-27 Fri>
+math: $\sqrt[4]{x^{12}}$ = {{c1::$|x^3|$}}
+
+*** Root with an Even Index
 :PROPERTIES:
-:ID:       07279dc9-7f76-4d99-a28b-3b7395b0e18e
-:DRILL_LAST_INTERVAL: 176.7979
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-03 Wed 08:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455140
 :END:
 
-math: $\sqrt[4]{48y^6}$ = <[$2|y|\sqrt[4]{3y^2}$]>
+**** Text
 
-*** Root of a Negative Number                                       :drill:
-SCHEDULED: <2021-07-26 Mon>
+math: $\sqrt[4]{48y^6}$ = {{c1::$2|y|\sqrt[4]{3y^2}$}}
+
+*** Root of a Negative Number
 :PROPERTIES:
-:ID:       ffa80cfb-7ab0-4f46-9f99-059349395295
-:DRILL_LAST_INTERVAL: 20.6322
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.1
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-05 Mon 13:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455285
 :END:
 
-math: $\sqrt[6]{-64}$ = <[Not a Real Number]>
+**** Text
+
+math: $\sqrt[6]{-64}$ = {{c1::Not a Real Number}}
 
 ** 9.8 Rational Exponents
-*** Root is the Same as a Rational Exponent                         :drill:
-SCHEDULED: <2022-02-05 Sat>
+*** Root is the Same as a Rational Exponent
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2ad446a2-6244-43c0-aa21-27366563dae2
-:DRILL_LAST_INTERVAL: 246.1003
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-04 Fri 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455441
 :END:
 
-math: <[$\sqrt[n]{a}$]> (root form) = <[$a^\frac{1}{n}$]> (exponent form)
+**** Text
 
-*** Negative Rational Exponent                                      :drill:
-SCHEDULED: <2022-07-06 Wed>
+math: {{c1::$\sqrt[n]{a}$}} (root form) = {{c2::$a^\frac{1}{n}$}} (exponent form)
+
+*** Negative Rational Exponent
 :PROPERTIES:
-:ID:       86ffbc62-a5dc-4eb0-8dbd-2d8710c6c79d
-:DRILL_LAST_INTERVAL: 354.8278
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-16 Fri 11:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455600
 :END:
+
+**** Text
 
 math: Simplify $16^{-\frac{3}{2}}$
-<[
+{{c1::
+#+BEGIN_SRC
 \begin{gather*}
 \frac{1}{16^\frac{3}{2}} \\
 \frac{1}{64}
 \end{gather*}
-]>
+#+END_SRC
+}}
 
 ** 10.1 Solve Quadratic Equations Using the Square Root Property
-*** Solve a Quadratic Equation of the Form ax^2 = k Using the Square Root Property :drill:
-SCHEDULED: <2021-07-21 Wed>
+*** Solve a Quadratic Equation of the Form ax^2 = k Using the Square Root Property
 :PROPERTIES:
-:ID:       02ec9572-dd67-4381-960c-87688bc94337
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-20 Sat 14:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525455835
 :END:
 
+**** Text
+
 math: Solve $x^2 - 48 = 0$
-<[
+{{c1::
 \begin{align*}
 x^2 &= 48 \\
 x &= \pm \sqrt{48} \\
 x &= \pm 4 \sqrt{3}
 \end{align*}
-]>
+}}
 
-*** Solve a Quadratic Equation of the Form ax^2 = k Where k < 0     :drill:
-SCHEDULED: <2021-07-26 Mon>
+*** Solve a Quadratic Equation of the Form ax^2 = k Where k < 0
 :PROPERTIES:
-:ID:       40882711-9143-4c95-b369-1e8d977d9e7c
-:DRILL_LAST_INTERVAL: 15.6606
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.221
-:DRILL_EASE: 1.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525456484
 :END:
 
+**** Text
+
 math: Solve $x^2 + 24 = 0$
-<[
+{{c1::
 \begin{gather*}
 x^2 = -24 \\
 x = \pm \sqrt{-24} \\
 \text{There is no real solution}
 \end{gather*}
-]>
+}}
 
-*** Solve a Quadratic Equation of the Form a(x − h)^2 = k           :drill:
-SCHEDULED: <2021-10-16 Sat>
+*** Solve a Quadratic Equation of the Form a(x − h)^2 = k
 :PROPERTIES:
-:ID:       a650506e-ca88-4c2f-a51a-1a42b36ab208
-:DRILL_LAST_INTERVAL: 208.9229
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525456623
 :END:
 
+**** Text
+
 math: Solve $(x - 2)^2 + 3 = 30$
-<[
+{{c1::
 \begin{gather*}
 (x - 2)^2 = 27 \\
 x - 2 = \pm \sqrt{27} \\
 x - 2 = \pm 3 \sqrt{3} \\
 x = 2 \pm 3 \sqrt{3}
 \end{gather*}
-]>
+}}
 
-*** Solve a Quadratic Equation with a Perfect Square Trinomial      :drill:
-SCHEDULED: <2022-03-04 Fri>
+*** Solve a Quadratic Equation with a Perfect Square Trinomial
 :PROPERTIES:
-:ID:       94d2361f-8a37-4ad5-9897-0d35e31aab6b
-:DRILL_LAST_INTERVAL: 230.3582
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.272
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-17 Sat 10:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525456786
 :END:
 
+**** Text
+
 math: Solve $p^2 - 10p + 25 = 18$
-<[
+{{c1::
 \begin{align*}
 p^2 - 10p + 25 &= 18 \text{ is a perfect square trinomial} \\
 (p - 5)^2 &= 18 \\
 p - 5 &= \pm 3 \sqrt{2} \\
 p &= 5 \pm 3 \sqrt{2}
 \end{align*}
-]>
+}}
 
 ** 10.2 Solve Quadratic Equations by Completing the Square
-*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square :drill:
-SCHEDULED: <2021-08-02 Mon>
+*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square
 :PROPERTIES:
-:ID:       902418a4-c18e-450e-b299-813ce19898a2
-:DRILL_LAST_INTERVAL: 23.4106
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 21
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.048
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525456911
 :END:
 
+**** Text
+
 math: Solve $y^2 = 6y + 16$ by completing the square
-<[
+{{c1::
 \begin{gather*}
 y^2 = 6y + 16 \\
 y^2 - 6y = 16 \\
@@ -3657,24 +2539,18 @@ y - 3 = \pm 5 \\
 y = 3 \pm 5 \\
 y = -2, y = 8
 \end{gather*}
-]>
+}}
 
-*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square with a Coefficient :drill:
-SCHEDULED: <2021-10-16 Sat>
+*** Solve a Quadratic Equation of the Form x^2 + bx + c = 0 by Completing the Square with a Coefficient
 :PROPERTIES:
-:ID:       15792de0-ad9f-4c5f-a597-bc6f9e666c5b
-:DRILL_LAST_INTERVAL: 208.9229
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525457052
 :END:
 
+**** Text
+
 math: Solve $2x^2 - 3x = 20$ by completing the square
-<[
+{{c1::
 \begin{gather*}
 2x^2 - 3x = 20 \\
 2(x^2 - \frac{3}{2}x) = 20 \\
@@ -3687,46 +2563,34 @@ x - \frac{3}{4} = \pm \frac{13}{4} \\
 x = \frac{3}{4} \pm \frac{13}{4} \\
 x = 4, x = -\frac{5}{2}
 \end{gather*}
-]>
+}}
 
 ** 10.3 Solve Quadratic Equations Using the Quadratic Formula
-*** Quadratic Formula                                               :drill:
-SCHEDULED: <2021-11-27 Sat>
+*** Quadratic Formula
 :PROPERTIES:
-:ID:       b340d92a-0d74-41dc-a1ef-2998a76ac5fe
-:DRILL_LAST_INTERVAL: 243.2682
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-29 Mon 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525457190
 :END:
 
+**** Text
+
 math: The solution to $ax^2 + bx + c = 0, a \neq 0$ is
-<[
+{{c1::
 \begin{gather*}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \end{gather*}
-]>
+}}
 
-*** Derivation of Quadratic Formula                                 :drill:
-SCHEDULED: <2021-08-11 Wed>
+*** Derivation of Quadratic Formula
 :PROPERTIES:
-:ID:       d1cc06c5-a7a0-433e-90b0-b1e83eec65b7
-:DRILL_LAST_INTERVAL: 102.1724
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.357
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-01 Sat 12:28]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525457363
 :END:
 
+**** Text
+
 math: Derive the Quadratic Formula
-<[
+{{c1::
 \begin{gather*}
 \text{Complete the square} \\
 ax^2 + bx + c = 0 \\
@@ -3742,24 +2606,18 @@ x + \frac{b}{2a} = \pm \frac{\sqrt{b^2 - 4ac}}{2a} \\
 x = - \frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} \\
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \end{gather*}
-]>
+}}
 
-*** Solve a Quadratic Equation with the Quadratic Formula           :drill:
-SCHEDULED: <2021-11-15 Mon>
+*** Solve a Quadratic Equation with the Quadratic Formula
 :PROPERTIES:
-:ID:       d6440f5c-b861-43a9-81a5-e83488944569
-:DRILL_LAST_INTERVAL: 137.4845
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.1
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-01 Thu 09:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525457495
 :END:
 
+**** Text
+
 math: Solve $\frac{1}{2}u^2 + \frac{2}{3}u = \frac{1}{3}$ by using the Quadratic Formula
-<[
+{{c1::
 \begin{gather*}
 \text{Remove the fractions by multiplying by the LCD} \\
 3u^2 + 4u - 2 = 0 \\
@@ -3773,138 +2631,87 @@ u = \frac{-4 \pm \sqrt{40}}{6} \\
 u = \frac{-4 \pm 2 \sqrt{10}}{6} \\
 u = \frac{-2 \pm \sqrt{10}}{3}
 \end{gather*}
-]>
+}}
 
-*** Quadratic Formula Discriminant                                  :drill:
-SCHEDULED: <2022-03-29 Tue>
+*** Quadratic Formula Discriminant
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       84cfa366-9573-4447-bca7-034d28d5eecd
-:DRILL_LAST_INTERVAL: 275.0069
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-27 Sun 13:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525457981
 :END:
 
-math: In the Quadratic Formula, <[$b^2 - 4ac$]> is <[the Discrimant]>
+**** Text
 
-*** Use the Discriminant to Determine the Number of Solutions of a Quadratic Equation :drill:
-SCHEDULED: <2021-10-24 Sun>
+math: In the Quadratic Formula, {{c1::$b^2 - 4ac$}} is {{c2::the Discrimant}}
+
+*** Use the Discriminant to Determine the Number of Solutions of a Quadratic Equation
 :PROPERTIES:
-:ID:       72441153-78bc-4fb0-a1bf-19b6a6a46cb2
-:DRILL_LAST_INTERVAL: 217.2537
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525458206
 :END:
+
+**** Text
 
 math: State the number of solutions of a Quadratic Equation based on its Discriminant values:
-<[
-- If $b^2 - 4ac > 0$, the equation has two solutions
-- If $b^2 - 4ac = 0$, the equation has one solution
-- If $b^2 - 4ac < 0$, the equation has no real solutions
-]>
+- If {{c1::$b^2 - 4ac > 0$, the equation has two solutions}}
+- If {{c1::$b^2 - 4ac = 0$, the equation has one solution}}
+- If {{c1::$b^2 - 4ac < 0$, the equation has no real solutions}}
 
-*** Identify the Most Appropriate Method to Solve a Quadratic Equation :drill:
-SCHEDULED: <2021-07-26 Mon>
+*** Identify the Most Appropriate Method to Solve a Quadratic Equation
 :PROPERTIES:
-:ID:       7318c3e9-d46d-41eb-91ed-7fd847412e2c
-:DRILL_LAST_INTERVAL: 15.3005
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.044
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-11 Sun 12:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525458383
 :END:
+
+**** Text
 
 math: Solve a Quadratic Equation by:
-<[
-- Trying to factor it first
-- Next trying to use the square root property
-- Finally using the quadratic formula
-]>
+- {{c1::Trying to factor it first}}
+- {{c1::Next trying to use the square root property}}
+- {{c1::Finally using the quadratic formula}}
 
 ** 10.5 Graphing Quadratic Equations in Two Variables
-*** Parabola Orientation                                            :drill:
-SCHEDULED: <2021-10-09 Sat>
+*** Parabola Orientation
 :PROPERTIES:
-:ID:       7419f7e4-2329-478c-8a40-4a360967dc00
-:DRILL_LAST_INTERVAL: 200.0419
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-23 Tue 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525458612
 :END:
+
+**** Text
 
 math: For a Quadratic Equation $y = ax^2 + bx + c$ the parabola opens
-<[
-- Upward if $a > 0$
-- Downward if $a < 0$
-]>
+- {{c1::Upward if $a > 0$}}
+- {{c1::Downward if $a < 0$}}
 
-*** Parabola Vertex                                                 :drill:
-SCHEDULED: <2021-09-06 Mon>
+*** Parabola Vertex
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       97229f1b-0809-45d1-995e-810a7224484a
-:DRILL_LAST_INTERVAL: 139.0653
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-20 Tue 17:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525458885
 :END:
 
-math: The <[Vertex]> of a Parabola is <[its highest or lowest point]>
+**** Text
 
-*** Parabola Vertex/Axis of Symmetry                                :drill:
-SCHEDULED: <2021-11-21 Sun>
+math: The {{c1::Vertex}} of a Parabola is {{c2::its highest or lowest point}}
+
+*** Parabola Vertex/Axis of Symmetry
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       12da1833-8639-4bcb-b6d0-975216f6e398
-:DRILL_LAST_INTERVAL: 184.9892
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-20 Thu 08:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525459036
 :END:
 
-math: Parabola's <[Vertex/Axis of Symmetry]> x-coordinate = <[$-\frac{b}{2a}$]>
+**** Text
 
-*** Vertex Example                                                  :drill:
-SCHEDULED: <2021-08-21 Sat>
+math: Parabola's {{c1::Vertex/Axis of Symmetry}} x-coordinate = {{c2::$-\frac{b}{2a}$}}
+
+*** Vertex Example
 :PROPERTIES:
-:ID:       75c71cc7-ca14-490a-a860-dfd38d507acc
-:DRILL_LAST_INTERVAL: 166.148
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-08 Mon 08:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525459188
 :END:
+
+**** Text
 
 math: For the parabola $y = 3x^2 - 6x + 2$ find the axis of symmetry and the vertex
-<[
+{{c1::
 \begin{gather*}
 \text{The axis of symmetry is on the $x$-coordinate of the vertex} \\
 x_{vertex} = -\frac{b}{2a} \\
@@ -3915,42 +2722,30 @@ y_{vertex} = 3 - 6 + 2 = -1 \\
 \\
 \text{The Vertex is at (1, -1)}
 \end{gather*}
-]>
+}}
 
-*** Find the Intercepts of a Parabola                               :drill:
-SCHEDULED: <2021-08-01 Sun>
+*** Find the Intercepts of a Parabola
 :PROPERTIES:
-:ID:       cf4435ed-88af-4f62-8943-c4c2dd9e232f
-:DRILL_LAST_INTERVAL: 76.4095
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.3
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-17 Mon 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525459337
 :END:
+
+**** Text
 
 math:
-To find the x-intercepts of a Parabola, <[let y = 0 and solve for x]>
-To find the y-intercept  of a Parabola, <[let x = 0 and solve for y]>
+To find the x-intercepts of a Parabola, {{c1::let y = 0 and solve for x}}
+To find the y-intercept  of a Parabola, {{c1::let x = 0 and solve for y}}
 
-*** Intercepts Example                                              :drill:
-SCHEDULED: <2021-08-25 Wed>
+*** Intercepts Example
 :PROPERTIES:
-:ID:       4bd3225f-0039-4bef-b252-2e83607dc2e0
-:DRILL_LAST_INTERVAL: 167.5009
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-10 Wed 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525459463
 :END:
 
+**** Text
+
 math: Find the intercepts of the parabola $y = x^2 - 2x - 8$
-<[
+{{c1::
 \begin{gather*}
 \text{For the y-intercept, let x = 0 and solve for y} \\
 y = 0^2 - 2*0 - 8 = -8 \\
@@ -3962,66 +2757,43 @@ y = 0^2 - 2*0 - 8 = -8 \\
 x = 4, x = -2 \\
 \text{x-intercepts: (4, 0), (-2, 0)}
 \end{gather*}
-]>
+}}
 
-*** Use the Discriminant to Determine the Number of x-intercepts of a Parabola :drill:
-SCHEDULED: <2021-07-23 Fri>
+*** Use the Discriminant to Determine the Number of x-intercepts of a Parabola
 :PROPERTIES:
-:ID:       8878a046-ffc8-4d65-8d92-28d8776304ee
-:DRILL_LAST_INTERVAL: 141.9311
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-03 Wed 08:40]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525459920
 :END:
+
+**** Text
 
 math: State the number of x-intercepts of a Parabola based on its Discriminant values:
-<[
-- If $b^2 - 4ac > 0$, the parabola has two x-intercepts
-- If $b^2 - 4ac = 0$, the parabola has one x-intercept
-- If $b^2 - 4ac < 0$, the parabola has no x-intercept
-]>
+- If {{c1::$b^2 - 4ac > 0$, the parabola has two x-intercepts}}
+- If {{c1::$b^2 - 4ac = 0$, the parabola has one x-intercept}}
+- If {{c1::$b^2 - 4ac < 0$, the parabola has no x-intercept}}
 
-*** Minimum or Maximum Values of a Quadratic Equation               :drill:
-SCHEDULED: <2021-11-04 Thu>
+*** Minimum or Maximum Values of a Quadratic Equation
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       76182406-31d8-4736-862c-e90b22d0e9d1
-:DRILL_LAST_INTERVAL: 137.7151
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.889
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-19 Sat 13:02]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525460083
 :END:
 
-math: The <[y-coordinate of the vertex]> of the graph of a quadratic equation is the:
-<[
-- minimum value of the equation if the parabola opens upward
-- maximum value of the equation if the parabola opens downward
-]>
+**** Text
 
-*** Minimum or Maximum Example                                      :drill:
-SCHEDULED: <2021-07-18 Sun>
+math: The {{c1::y-coordinate of the vertex}} of the graph of a quadratic equation is the:
+- {{c1::minimum value of the equation if the parabola opens upward}}
+- {{c1::maximum value of the equation if the parabola opens downward}}
+
+*** Minimum or Maximum Example
 :PROPERTIES:
-:ID:       7155ca1a-12f0-4cc9-ae9a-c2ce7d803a45
-:DRILL_LAST_INTERVAL: 142.6283
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-25 Thu 10:24]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626525460224
 :END:
+
+**** Text
 
 math: Find the minimum or maximum value of the quadratic equation $y = x^2 + 2x - 8$
-<[
+{{c1::
 \begin{gather*}
 \text{$a$ is positive, so the parabola opens upward.} \\
 \text{A minimum value is to be found.} \\
@@ -4032,4 +2804,4 @@ y_{vertex} = 1 - 2 - 8 = -9 \\
 \\
 \text{The minimum value is $-9$ and it occurs when $x = -1$}
 \end{gather*}
-]>
+}}
