@@ -2439,12 +2439,10 @@ math: {{c1::$\sqrt[n]{a}$}} (root form) = {{c2::$a^\frac{1}{n}$}} (exponent form
 
 math: Simplify $16^{-\frac{3}{2}}$
 {{c1::
-#+BEGIN_SRC
 \begin{gather*}
 \frac{1}{16^\frac{3}{2}} \\
 \frac{1}{64}
 \end{gather*}
-#+END_SRC
 }}
 
 ** 10.1 Solve Quadratic Equations Using the Square Root Property
