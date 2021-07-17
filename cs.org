@@ -3144,8 +3144,8 @@ is exclusive while the visual selection by default is not.
 
 *** Use the Search Command to Move Around
 :PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1626518555836
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1626520972807
 :END:
 
 **** Text
@@ -3154,8 +3154,8 @@ vim: best practice: Use the Search Command to Move Around
 
 *** Use the Search Command to Modify
 :PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1626518555983
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1626520972892
 :END:
 
 **** Text
