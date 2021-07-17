@@ -226,11 +226,8 @@ lisp: Lisp uses the {{c1::Applicative Order}} Evalution Strategy
 
 ****** Text
 
-lisp: Why does *Lisp* use the *Applicative Order* Evalution Strategy?
-
-****** Answer
-
-Because it avoids evaluating the same expressions multiple times
+lisp: *Lisp* uses the *Applicative Order* Evalution Strategy {{c1::because it avoids evaluating the
+same expressions multiple times}}
 
 **** 1.1.6 Conditional Expressions and Predicates
 ***** Predicate
@@ -4325,14 +4322,14 @@ fmt.Println(slice) // {{c1::[1 2 3]}}
 
 go: Define a *Structure* with:
 
-**** Answer
-
+{{c1::
 #+BEGIN_SRC go
 type NAME struct {
     FIELD TYPE
     ...
 }
 #+END_SRC
+}}
 
 *** Struct Declaration Syntax
 :PROPERTIES:
@@ -4364,14 +4361,14 @@ go: Define a *Method* with {{c1:: ~func (RECEIVER_NAME RECEIVER_TYPE) METHOD_NAM
 
 go: Define an *Interface* with
 
-**** Answer
-
+{{c1::
 #+BEGIN_SRC go
 type NAME interface {
     METHOD
     ...
 }
 #+END_SRC
+}}
 
 *** Interface Resolution
 :PROPERTIES:
