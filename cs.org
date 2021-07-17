@@ -1,4 +1,5 @@
 #+TITLE: CS
+#+PROPERTY: ANKI_DECK CS
 
 * Structure and Interpretation of Computer Programs
 :PROPERTIES:
@@ -34,282 +35,196 @@ CLOCK: [2019-09-10 Tue 14:50]--[2019-09-10 Tue 16:50] =>  2:00
 *** 1.1 The Elements of Programming
 **** 1.1.1 Expressions
 **** 1.1.2 Naming and the Environment
-***** Read-Eval-Print Loop                                        :drill:
-SCHEDULED: <2022-03-04 Fri>
+***** Read-Eval-Print Loop
 :PROPERTIES:
-:ID:       2D416CA8-BE20-44A9-864E-EB8FFA238594
-:DRILL_LAST_INTERVAL: 636.4045
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-06 Sat 12:58]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518549759
 :END:
 
-cs: A python/lisp *interpreter input cycle* is called a <[Read-Eval-Print Loop]>
+****** Text
 
-***** Define a Variable in Elisp                                  :drill:
-SCHEDULED: <2023-01-22 Sun>
+cs: A python/lisp *interpreter input cycle* is called a {{c1::Read-Eval-Print Loop}}
+
+***** Define a Variable in Elisp
 :PROPERTIES:
-:ID:       88902983-949C-4B13-BA73-18FE15B5FBFE
-:DRILL_LAST_INTERVAL: 831.7489
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.86
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-12 Mon 09:58]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518549863
 :END:
 
-elisp: *Define a variable* with <[defconst]>, <[defvar]> or <[setq]>
+****** Text
 
-***** Define a Variable in Scheme                                 :drill:
-SCHEDULED: <2021-11-28 Sun>
+elisp: *Define a variable* with {{c1::defconst}}, {{c1::defvar}} or {{c1::setq}}
+
+***** Define a Variable in Scheme
 :PROPERTIES:
-:ID:       A7ADBEAE-CF04-4C46-A9BD-B56A99E44168
-:DRILL_LAST_INTERVAL: 533.514
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-12 Fri 15:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518549987
 :END:
 
-scheme: *Define a variable* with <[(define NAME VALUE)]>
+****** Text
+
+scheme: *Define a variable* with {{c1:: ~(define NAME VALUE)~ }}
 
 **** 1.1.3 Evaluating Combinations
-***** Special Forms                                               :drill:
-SCHEDULED: <2021-09-20 Mon>
+***** Special Forms
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
 :SOURCE: https://www.gnu.org/software/emacs/manual/html_node/elisp/Special-Forms.html
-:ID:       2F79DFE4-7B97-4A45-A01C-815C4E5E3EE6
-:DRILL_LAST_INTERVAL: 253.844
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.533
-:DRILL_EASE: 1.92
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550277
 :END:
 
-lisp: <[*Special Forms*]> are <[functions that don't *evaluate* all of their
-arguments]>
+****** Text
+
+lisp: {{c1::Special Forms}} are {{c2::functions that don't evaluate all of their
+arguments}}
 
 **** 1.1.4 Compound Procedures
-***** Function vs Procedure                                       :drill:
-SCHEDULED: <2022-06-09 Thu>
+***** Function vs Procedure
 :PROPERTIES:
 :SOURCE: https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87 https://en.wikipedia.org/wiki/Subroutine#Language_support_2
-:ID:       7ED81C54-AD66-4083-ACAE-37A82F6C4A23
-:DRILL_LAST_INTERVAL: 623.1051
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.091
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:34]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550348
 :END:
 
-cs: A *subroutine* that returns a value is usually called a <[Function]>
-cs: A *subroutine* that doesn't return a value is usually called a <[Procedure]>
+****** Text
 
-***** Anonymous Function aka Lambda                               :drill:
-SCHEDULED: <2022-02-25 Fri>
+cs: A *subroutine* that returns a value is usually called a {{c1::Function}}
+cs: A *subroutine* that doesn't return a value is usually called a {{c1::Procedure}}
+
+***** Anonymous Function aka Lambda
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       CEDD1A92-C15E-4BC0-9C75-8F4B71DC3ACE
-:DRILL_LAST_INTERVAL: 631.1881
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-04 Thu 11:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550453
 :END:
 
-cs: <[Anonymous Function]> aka <[Lambda]>
+****** Text
 
-***** Scheme Named Function Definition                            :drill:
-SCHEDULED: <2021-08-22 Sun>
+cs: {{c1::Anonymous Function}} aka {{c2::Lambda}}
+
+***** Scheme Named Function Definition
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
-:ID:       732F37AC-1DF9-4165-8055-3A2A67674B99
-:DRILL_LAST_INTERVAL: 122.4006
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 36
-:DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-22 Thu 08:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550535
 :END:
+
+****** Text
 
 scheme: prototype: Define a named function:
-<[(define NAME (lambda (ARGS...) ...))]>
+{{c1:: ~(define NAME (lambda (ARGS...) ...))~ }}
 OR shorter version:
-<[(define (NAME ARGS...) ...)]>
+{{c1::(define (NAME ARGS...) ...)}}
 
-***** Lambda Definition                                           :drill:
-SCHEDULED: <2024-07-03 Wed>
+***** Lambda Definition
 :PROPERTIES:
 :SOURCE: https://www.gnu.org/software/guile/manual/html_node/Creating-a-Procedure.html#Creating-a-Procedure https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lambda-Expressions.html#Lambda-Expressions
-:ID:       65190513-558A-4D8B-ACB3-160894F6730B
-:DRILL_LAST_INTERVAL: 1095.3638
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.857
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550685
 :END:
 
-lisp: prototype: Define a Lambda with <[(lambda (args...) expressions)]>
+****** Text
+
+lisp: prototype: Define a Lambda with {{c1:: ~(lambda (args...) expressions)~ }}
 
 ****** Extra
 
 This is common to most lisp based languages
 
-***** Elisp Named Function Definition                             :drill:
-SCHEDULED: <2021-07-18 Sun>
+***** Elisp Named Function Definition
 :PROPERTIES:
-:ID:       8F8D9A03-5564-4F52-A1C1-E383CFCC965E
-:DRILL_LAST_INTERVAL: 3.516
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 36
-:DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 3.583
-:DRILL_EASE: 1.96
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518550784
 :END:
+
+****** Text
 
 elisp: prototype: Define a named function:
-<[(defun NAME (args...) [docstring] [declare] [interactive] ...)]>
+{{c1:: ~(defun NAME (args...) [docstring] [declare] [interactive] ...)~ }}
 
-***** Elisp Named Function Definition Declare                     :drill:
-SCHEDULED: <2021-11-30 Tue>
+***** Elisp Named Function Definition Declare
 :PROPERTIES:
-:ID:       FA1F46C0-91E9-466D-B831-2F1418A1A93B
-:DRILL_LAST_INTERVAL: 180.2473
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 18
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.554
-:DRILL_EASE: 1.86
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-03 Thu 07:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551106
 :END:
+
+****** Text
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~ *declare*
-can be used to add <[properties]> to the function
+can be used to add {{c1::properties}} to the function
 
-****** Example
+****** Extra
 
+Example:
+
+#+BEGIN_SRC emacs-lisp
 (interactive-only value)
 (obsolete current-name when)
+#+END_SRC
 
-***** Elisp Named Function Definition Interactive                 :drill:
-SCHEDULED: <2022-01-07 Fri>
+***** Elisp Named Function Definition Interactive
 :PROPERTIES:
-:ID:       ACC72965-D448-41E9-AF6F-8FAE46D76D68
-:DRILL_LAST_INTERVAL: 382.3501
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-21 Mon 12:32]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551254
 :END:
+
+****** Text
 
 elisp: In ~(defun NAME (args...) [docstring] [declare] [interactive])~
-*interactive* specifies <[how the function should be called interactively]>
+*interactive* specifies {{c1::how the function should be called interactively}}
 
-****** Example
+****** Extra
 
+Example:
+
+#+BEGIN_SRC emacs-lisp
 (interactive "bBuffer to rename: \nsRename buffer %s to: ")
+#+END_SRC
 
 **** 1.1.5 The Substitution Model for Procedure Application
-***** Applicative Order                                           :drill:
-SCHEDULED: <2023-08-09 Wed>
+***** Applicative Order
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2efd00dd-9bb5-415b-a4ef-3735c38565d0
-:DRILL_LAST_INTERVAL: 816.3249
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.714
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551447
 :END:
 
-cs: <[Applicative Order]> is an *Evaluation Strategy* that <[evaluates the
-arguments before applying the function]>
+****** Text
+
+cs: {{c1::Applicative Order}} is an *Evaluation Strategy* that {{c2::evaluates the
+arguments before applying the function}}
 
 ****** Extra
 
 *A* plicative order *A* pplies the *A* rguments first, and expands the function
 second.
 
-***** Normal Order                                                :drill:
-SCHEDULED: <2021-08-26 Thu>
+***** Normal Order
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4143103f-0c1b-4132-8d2f-f855a53929bb
-:DRILL_LAST_INTERVAL: 332.9208
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-27 Sun 13:08]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551525
 :END:
 
-cs: <[Normal Order]> is an *Evaluation Strategy* that <[fully expands the
-expression before applying the functions]>
+****** Text
 
-***** Lisp Uses Applicative Order                                 :drill:
-SCHEDULED: <2021-10-13 Wed>
+cs: {{c1::Normal Order}} is an *Evaluation Strategy* that {{c2::fully expands the
+expression before applying the functions}}
+
+***** Lisp Uses Applicative Order
 :PROPERTIES:
-:ID:       D22C1F10-E13E-4F6F-BB73-5E8ABD340120
-:DRILL_LAST_INTERVAL: 526.5456
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-04 Mon 15:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551604
 :END:
 
-lisp: Lisp uses the <[Applicative Order]> Evalution Strategy
+****** Text
 
-***** Why Lisp Uses Applicative Order                             :drill:
-SCHEDULED: <2022-05-26 Thu>
+lisp: Lisp uses the {{c1::Applicative Order}} Evalution Strategy
+
+***** Why Lisp Uses Applicative Order
 :PROPERTIES:
-:ID:       F9200285-F9BE-4E14-9D8D-6047899533F7
-:DRILL_LAST_INTERVAL: 602.6282
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.857
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-09-30 Wed 13:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518551734
 :END:
+
+****** Text
 
 lisp: Why does *Lisp* use the *Applicative Order* Evalution Strategy?
 
@@ -318,92 +233,69 @@ lisp: Why does *Lisp* use the *Applicative Order* Evalution Strategy?
 Because it avoids evaluating the same expressions multiple times
 
 **** 1.1.6 Conditional Expressions and Predicates
-***** Predicate                                                   :drill:
-SCHEDULED: <2022-01-16 Sun>
+***** Predicate
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4d4220fa-7ffa-4a72-a5ed-102c2d3a56d3
-:DRILL_LAST_INTERVAL: 532.4198
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-08-02 Sun 08:31]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552018
 :END:
 
-cs: A <[*Predicate*]> is an expression that returns <[a boolean]>
+****** Text
 
-***** =if=                                                        :drill:
-SCHEDULED: <2023-07-26 Wed>
+cs: A {{c1::Predicate}} is an expression that returns {{c2::a boolean}}
+
+***** ~if~
 :PROPERTIES:
-:ID:       dcb0067d-62cf-4dcb-a440-83a65bf21a97
-:DRILL_LAST_INTERVAL: 794.6345
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.601
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:35]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552112
 :END:
 
-lisp: prototype: if: <[(if CONDITION THEN ELSE...)]>
+****** Text
 
-***** =when=                                                      :drill:
-SCHEDULED: <2022-09-20 Tue>
+lisp: prototype: if: {{c1:: ~(if CONDITION THEN ELSE...)~ }}
+
+***** ~when~
 :PROPERTIES:
-:ID:       506c5726-6435-4513-89af-570aaddd6092
-:DRILL_LAST_INTERVAL: 642.3449
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-12-17 Thu 12:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552211
 :END:
 
-lisp: prototype: when: <[(when CONDITION THEN...)]>
+****** Text
 
-***** =unless=                                                    :drill:
-SCHEDULED: <2024-02-21 Wed>
+lisp: prototype: when: {{c1:: ~(when CONDITION THEN...)~ }}
+
+***** ~unless~
 :PROPERTIES:
-:ID:       af344d0a-3557-4410-961c-a3007b6356b9
-:DRILL_LAST_INTERVAL: 961.6728
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.857
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-04 Sun 14:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552357
 :END:
 
-lisp: prototype: unless: <[(unless CONDITION THEN...)]>
+****** Text
 
-***** =cond= in elisp and scheme                                  :drill:
-SCHEDULED: <2021-07-30 Fri>
+lisp: prototype: unless: {{c1:: ~(unless CONDITION THEN...)~ }}
+
+***** ~cond~ in elisp and scheme
 :PROPERTIES:
-:ID:       0a47d723-3330-462d-bc81-0b0ee63b1508
-:DRILL_LAST_INTERVAL: 33.3204
-:DRILL_REPEATS_SINCE_FAIL: 10
-:DRILL_TOTAL_REPEATS: 26
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.193
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-27 Sun 12:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552484
 :END:
+
+****** Text
 
 elisp: prototype: cond:
-<[(cond (CONDITION THEN...)...
-        (t THEN))]>
+{{c1::
+#+BEGIN_SRC emacs-lisp
+(cond (CONDITION THEN...)...
+      (t THEN))
+#+END_SRC
+}}
 
 scheme: prototype: cond:
-<[(cond (CONDITION THEN...)...
-        (else THEN))]>
+{{c1::
+#+BEGIN_SRC emacs-lisp
+(cond (CONDITION THEN...)...
+      (else THEN))
+#+END_SRC
+}}
 
 ***** Exercise 1.1
 
@@ -781,39 +673,26 @@ these square-root and cube-root procedures.)
 **** 1.1.8 Procedures as Black-Box Abstractions
 *** 1.2 Procedures and the Processes They Generate
 **** 1.2.1 Linear Recursion and Iteration
-***** Procedure != Process                                        :drill:
-SCHEDULED: <2021-12-09 Thu>
+***** Procedure != Process
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ff195e38-d812-4dcb-abcf-78c7a1f6eeb1
-:DRILL_LAST_INTERVAL: 499.9922
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-27 Mon 11:30]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552584
 :END:
 
-cs: A recursive <[procedure]> can have an iterative <[process]>
+****** Text
 
-***** How to Design Recursive Algorithms                          :drill:
-SCHEDULED: <2022-02-10 Thu>
+cs: A recursive {{c1::procedure}} can have an iterative {{c2::process}}
+
+***** How to Design Recursive Algorithms
 :PROPERTIES:
-:ID:       3013d589-5a12-4d44-a14b-772858c48f73
-:DRILL_LAST_INTERVAL: 238.3494
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-17 Thu 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552684
 :END:
+
+****** Text
 
 cs: How to design recursive algorithms:
-<[
+{{c1::
 - Assume the desired procedure exists BUT only solves a smaller version of the problem
 - Use that to come up with the desired solution
 - Solve the smallest problem manually (AKA stopping condition)
@@ -830,7 +709,7 @@ Result:
      1                      ; base case
      (* n (fact (- n 1))))) ; recursive case
 #+END_SRC
-]>
+}}
 
 ***** Exercise 1.9
 
@@ -988,22 +867,15 @@ h(n) computes =2^2^2...(n-1 exponentations, eg. h(2) -> 2^2)=:
 #+END_SRC
 
 **** 1.2.2 Tree Recursion
-***** Linear Recursion != Tree Recursion                          :drill:
-SCHEDULED: <2022-11-07 Mon>
+***** Linear Recursion != Tree Recursion
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       68c19c55-93ca-4e7f-b07b-f73f321eb3c6
-:DRILL_LAST_INTERVAL: 600.9603
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-16 Tue 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518552785
 :END:
 
-cs: <[Linear]> Recursion is different than <[Tree]> Recursion
+****** Text
+
+cs: {{c1::Linear}} Recursion is different than {{c2::Tree}} Recursion
 
 ***** Exercise 1.11
 
@@ -2039,23 +1911,16 @@ way to make `expmod' signal is to have it return 0.
 #+end_example
 
 *** 1.3 Formulating Abstractions with Higher-Order Procedures
-**** Higher-Order Procedures                                       :drill:
-SCHEDULED: <2022-02-01 Tue>
+**** Higher-Order Procedures
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       a24f5a64-e8f8-45e4-a25c-7e19054919dd
-:DRILL_LAST_INTERVAL: 246.1003
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-31 Mon 08:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553079
 :END:
 
-cs: Procedures that <[take procedures as arguments or return procedures]> are called <[Higher-Order
-Procedures]>
+***** Text
+
+cs: Procedures that {{c1::take procedures as arguments or return procedures}} are called {{c2::Higher-Order
+Procedures}}
 
 **** 1.3.1 Procedures as Arguments
 ***** Exercise 1.29
@@ -2458,23 +2323,17 @@ It would result in an error because =2= is not a function:
 : 4 error>
 
 **** 1.3.2 Constructing Procedures Using `Lambda'
-***** let is a special form of lambda                             :drill:
-SCHEDULED: <2021-10-05 Tue>
+***** let is a special form of lambda
 :PROPERTIES:
-:ID:       83c53277-de77-40f0-8d43-c5defa73bef0
-:DRILL_LAST_INTERVAL: 200.0419
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-19 Fri 09:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553240
 :END:
 
-scheme: =let= is actually a special form of <[lambda]>
+****** Text
+
+scheme: =let= is actually a special form of {{c1::lambda}}
 Example:
-<[
+{{c1::
 #+BEGIN_SRC scheme
 (let ((a 3) (b 1))
   (+ a b))
@@ -2482,7 +2341,7 @@ Example:
 ((lambda (a b)
    (+ a b)) 3 1)
 #+END_SRC
-]>
+}}
 
 **** 1.3.3 Procedures as General Methods
 ***** Exercise 1.35
@@ -2770,119 +2629,77 @@ as in *Note Exercise 1-37::.
 :END:
 
 ** Tip 1: Meet the Dot Command
-*** .                                                               :drill:
-SCHEDULED: <2021-09-12 Sun>
+*** .
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       c4939665-f081-4940-a37c-f7e66e994b8b
-:DRILL_LAST_INTERVAL: 468.4349
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-01 Mon 09:56]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553328
 :END:
 
-vim: <[Repeat the last change]> with <[.]>
+**** Text
+
+vim: {{c1::Repeat the last change}} with {{c2::.}}
 
 ** Tip 2: Don’t Repeat Yourself
 
 Clear a character and enter Insert mode with =s=
 
-*** S                                                               :drill:
-SCHEDULED: <2022-01-28 Fri>
+*** S
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       faf68228-ea4f-4e5d-a866-4882306e5f40
-:DRILL_LAST_INTERVAL: 449.1113
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.285
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-05 Thu 11:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553411
 :END:
 
-vim: <[Clear the whole line and enter Insert mode]> with <[S]>
+**** Text
+
+vim: {{c1::Clear the whole line and enter Insert mode}} with {{c2::S}}
 
 ** Tip 3: Take One Step Back, Then Three Forward
-*** ;                                                               :drill:
-SCHEDULED: <2024-05-20 Mon>
+*** ;
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       68a12ba1-2022-4fe6-9a82-32c7e5ea232a
-:DRILL_LAST_INTERVAL: 1055.2623
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-30 Wed 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553494
 :END:
 
-vim: <[Repeat the last find]> with <[;]>
+**** Text
+
+vim: {{c1::Repeat the last find}} with {{c2::;}}
 
 ** Tip 4: Act, Repeat, Reverse
-*** ,                                                               :drill:
-SCHEDULED: <2021-09-10 Fri>
+*** ,
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       a68a0891-f245-487d-a63a-0a8391c8feed
-:DRILL_LAST_INTERVAL: 439.7622
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.901
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-27 Sat 13:16]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553585
 :END:
 
-vim: <[Repeat the last *Find* in the opposite direction]> with <[,]>
+**** Text
 
-*** &                                                               :drill:
-SCHEDULED: <2021-08-05 Thu>
+vim: {{c1::Repeat the last *Find* in the opposite direction}} with {{c2::,}}
+
+*** &
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       204c0f1b-0031-4874-90a8-656e4b662088
-:DRILL_LAST_INTERVAL: 22.0932
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553685
 :END:
 
-vim: <[Repeat the last substitute]> with <[&]>
+**** Text
+
+vim: {{c1::Repeat the last substitute}} with {{c2::&}}
 
 ** Tip 5: Find and Replace by Hand
 
 Find and replace manually with =n= and =.=
 
 ** Tip 6: Meet the Dot Formula
-*** The Dot Formula                                                 :drill:
-SCHEDULED: <2021-08-08 Sun>
+*** The Dot Formula
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       686ad2c7-f6e1-474b-bda7-0008b27efc6e
-:DRILL_LAST_INTERVAL: 435.4435
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-05-30 Sat 13:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518553766
 :END:
 
-vim: <[The *Dot Formula*]> consists in using <[one key to move and one key to
-execute]>
+**** Text
+
+vim: {{c1::The *Dot Formula*}} consists in using {{c2::one key to move and one key to
+execute}}
 
 ** Tip 7: Pause with Your Brush Off the Page
 
@@ -2899,75 +2716,48 @@ granular control of the undos.
 Try to make all your changes repeatable so that you can use the dot command when
 needed.
 
-*** a vs i                                                          :drill:
-SCHEDULED: <2024-01-31 Wed>
+*** a vs i
 :PROPERTIES:
-:ID:       bca43c41-e0c9-41ab-9b3a-33faf360228c
-:DRILL_LAST_INTERVAL: 961.0099
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.857
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-14 Mon 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554106
 :END:
+
+**** Text
 
 vim: The difference between the text object selection *a* and *i* is that *a*
-<[selects the surrounding characters]>
+{{c1::selects the surrounding characters}}
 
 ** Tip 10: Use Counts to Do Simple Arithmetic
-*** Decrementing Numbers                                            :drill:
-SCHEDULED: <2021-12-20 Mon>
+*** Decrementing Numbers
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       7621832B-2947-4CA8-A3EB-6D716AC7CC71
-:DRILL_LAST_INTERVAL: 354.3774
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.643
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-31 Thu 15:41]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554211
 :END:
 
-vim: <[Decrement the next number on the line]> with <[<C-x>]>
+**** Text
 
-*** Incrementing Numbers                                            :drill:
-SCHEDULED: <2022-05-05 Thu>
+vim: {{c1::Decrement the next number on the line}} with {{c2::<C-x>}}
+
+*** Incrementing Numbers
 :PROPERTIES:
-:ID:       DA568555-6484-4A00-8E61-D0335AA9C45B
-:DRILL_LAST_INTERVAL: 685.8778
-:DRILL_CARD_TYPE: show1cloze
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-06-18 Thu 11:25]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554341
 :END:
 
-vim: <[Increment the next number on the line]> with <[<C-a>]>
+**** Text
 
-*** Prefix C-x or C-a                                               :drill:
-SCHEDULED: <2023-04-30 Sun>
+vim: {{c1::Increment the next number on the line}} with {{c2::<C-a>}}
+
+*** Prefix C-x or C-a
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       6cc13d2a-fce7-4153-b485-6fc8d3d04c56
-:DRILL_LAST_INTERVAL: 743.6859
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.572
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-16 Fri 09:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554403
 :END:
 
-vim: <[*Prefix* <C-x> or <C-a> with a *number*]> to <[decrement or increment the
-next number on the line by that number]>
+**** Text
+
+vim: {{c1::*Prefix* <C-x> or <C-a> with a *number*}} to {{c2::decrement or increment the
+next number on the line by that number}}
 
 ** Tip 11: Don’t Count If You Can Repeat
 
@@ -2978,62 +2768,42 @@ more flexible.
 
 Use operator + motion when possible.
 
-*** Operator-Pending Mode                                           :drill:
-SCHEDULED: <2022-04-06 Wed>
+*** Operator-Pending Mode
 :PROPERTIES:
-:ID:       2de6267a-6faa-486e-a114-e025306ecddf
-:DRILL_LAST_INTERVAL: 573.9516
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-09 Wed 11:42]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554481
 :END:
+
+**** Text
 
 vim: The mode in which you are after typing an operator (eg. =d=) is called
-<[Operator-Pending Mode]>
+{{c1::Operator-Pending Mode}}
 
 ** Tip 13: Make Corrections Instantly from Insert Mode
-*** <C-h>                                                              :drill:
-SCHEDULED: <2021-07-23 Fri>
+*** <C-h>
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       fea6fa70-b7a5-48fb-9bd4-b0e3bb06b1ce
-:DRILL_LAST_INTERVAL: 49.7844
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 26
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.498
-:DRILL_EASE: 1.64
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-03 Thu 07:39]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554588
 :END:
 
-vim: <[Delete back one character in insert mode]> with <[<C-h>]>
+**** Text
+
+vim: {{c1::Delete back one character in insert mode}} with {{c2::<C-h>}}
 
 ** Tip 14: Get Back to Normal Mode
 
 Enter *Insert Normal Mode* with =<C-o>= which is a mode that accepts a Normal
 Mode command and immediately returns to Insert Mode.
 
-*** zz                                                              :drill:
-SCHEDULED: <2021-08-28 Sat>
+*** zz
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       52dcc269-bec8-467a-9ce1-c78af7dbb176
-:DRILL_LAST_INTERVAL: 173.8862
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 18
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.389
-:DRILL_EASE: 1.48
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-07 Sun 12:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554687
 :END:
 
-vim: <[*Center* the current line]> with <[zz]>
+**** Text
+
+vim: {{c1::*Center* the current line}} with {{c2::zz}}
 
 ** Tip 15: Paste from a Register Without Leaving Insert Mode
 
@@ -3051,22 +2821,15 @@ unicode point.
 Get the decimal and hexadecimal value of the character under the
 cursor with =ga=.
 
-*** C-v{nondigit}                                                   :drill:
-SCHEDULED: <2021-12-26 Sun>
+*** C-v{nondigit}
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       241b2c74-4d8a-4539-ba3c-a749d3d115fd
-:DRILL_LAST_INTERVAL: 516.2052
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-28 Tue 08:35]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554764
 :END:
 
-vim: <[Insert a character literally]> with <[<C-v>{char}]>
+**** Text
+
+vim: {{c1::Insert a character literally}} with {{c2::<C-v>{char}}}
 
 ** Tip 18: Insert Unusual Characters by Digraph
 
@@ -3092,22 +2855,15 @@ Do a line-wise selection with =V=.
 Do a block-wise selection with =<C-v>=.
 Reselect the last visual selection with =gv=.
 
-*** =o= while selecting                                             :drill:
-SCHEDULED: <2021-12-20 Mon>
+*** =o= while selecting
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       32c9c9d4-80c9-4849-af8e-059f39b12cf6
-:DRILL_LAST_INTERVAL: 265.4474
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 16
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.312
-:DRILL_EASE: 1.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-03-30 Tue 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518554887
 :END:
 
-vim: selection: <[Go to the other end of the selection]> with <[o]>
+**** Text
+
+vim: selection: {{c1::Go to the other end of the selection}} with {{c2::o}}
 
 ** Tip 22: Repeat Line-Wise Visual Commands
 
@@ -3137,38 +2893,25 @@ Execute an Ex Command on all lines that match a pattern with
 =:[range]g[lobal]/{pattern}/[cmd]=.
 Execute a Normal command on a range with =:[range]norm[al] {commands}=.
 
-*** C-r{register}                                                   :drill:
-SCHEDULED: <2022-02-01 Tue>
+*** C-r{register}
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2301cb16-42c4-47af-87d1-a2a986c2c6a1
-:DRILL_LAST_INTERVAL: 256.5571
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.153
-:DRILL_EASE: 1.2
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-20 Thu 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555186
 :END:
 
-vim: <[Insert the content of a Register]> with <[=<C-r>{register}=]>
+**** Text
 
-*** C-r{register} at the Command Line or in Insert Mode             :drill:
-SCHEDULED: <2021-11-03 Wed>
+vim: {{c1::Insert the content of a Register}} with {{c2::=<C-r>{register}=}}
+
+*** C-r{register} at the Command Line or in Insert Mode
 :PROPERTIES:
-:ID:       ce4f14d6-72d9-4443-872c-da0845a52237
-:DRILL_LAST_INTERVAL: 269.3582
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-07 Sun 12:29]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555260
 :END:
 
-vim: =<C-r>{register}= can be used from the <[Command Line]> or in <[Insert Mode]>
+**** Text
+
+vim: =<C-r>{register}= can be used from the {{c1::Command Line}} or in {{c1::Insert Mode}}
 
 ** Tip 28: Execute a Command on One or More Consecutive Lines
 
@@ -3199,39 +2942,25 @@ Repeat the last Ex command with =@:= and =@@= after that.
 Complete Ex commands with =TAB= or =<C-d>=.
 
 ** Tip 33: Insert the Current Word at the Command Prompt
-*** Insert the Current Word at the Command Prompt with =<C-r><C-w>=    :drill:
-SCHEDULED: <2022-01-16 Sun>
+*** Insert the Current Word at the Command Prompt with =<C-r><C-w>=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0e56efe4-aca9-4732-9aaa-ade5f96a2e66
-:DRILL_LAST_INTERVAL: 309.552
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.422
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-12 Fri 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555346
 :END:
 
-vim: <[Insert the Current Word at the Command Prompt]> with <[<C-r><C-w>]>
+**** Text
 
-*** Insert the Current Whole WORD at the Command Prompt with =<C-r><C-a>= :drill:
-SCHEDULED: <2021-08-09 Mon>
+vim: {{c1::Insert the Current Word at the Command Prompt}} with {{c2::<C-r><C-w>}}
+
+*** Insert the Current Whole WORD at the Command Prompt with =<C-r><C-a>=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ae4476b5-de5c-4105-bd4b-f49c34a3f2e8
-:DRILL_LAST_INTERVAL: 65.1891
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 27
-:DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 3.223
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-05 Sat 12:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555492
 :END:
 
-vim: <[Insert the Current Whole WORD at the Command Prompt]> with <[<C-r><C-a>]>
+**** Text
+
+vim: {{c1::Insert the Current Whole WORD at the Command Prompt}} with {{c2::<C-r><C-a>}}
 
 **** Extra
 
@@ -3378,39 +3107,25 @@ A word is defined as a sequence of letters, digits, and underscores, or as a
 sequence of other nonblank characters separated with whitespace. A WORD is
 defined as a sequence of nonblank characters separated with whitespace.
 
-*** =ge=                                                            :drill:
-SCHEDULED: <2021-08-24 Tue>
+*** =ge=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       97935b59-bf44-43d4-85c9-b96bc23357ac
-:DRILL_LAST_INTERVAL: 242.2068
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.308
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-25 Fri 15:27]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555632
 :END:
 
-vim: <[Move to the end of the previous word]> with <[=ge=]>
+**** Text
 
-*** =gE=                                                            :drill:
-SCHEDULED: <2022-06-29 Wed>
+vim: {{c1::Move to the end of the previous word}} with {{c2::ge}}
+
+*** =gE=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       1c05c1b9-4866-4d3a-803f-f46973b7b745
-:DRILL_LAST_INTERVAL: 534.1899
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.572
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-11 Mon 08:35]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555735
 :END:
 
-vim: <[Move to the end of the previous WHOLE WORD]> with <[=gE=]>
+**** Text
+
+vim: {{c1::Move to the end of the previous WHOLE WORD}} with {{c2::gE}}
 
 ** Tip 50: Find by Character
 
@@ -3430,277 +3145,170 @@ Move around with the search command.
 Use the search motion without the visual selection because the search motion
 is exclusive while the visual selection by default is not.
 
-*** Use the Search Command to Move Around                           :drill:
-SCHEDULED: <2021-10-07 Thu>
+*** Use the Search Command to Move Around
 :PROPERTIES:
-:ID:       4a83776b-8744-448f-9eb2-146d33d8503f
-:DRILL_LAST_INTERVAL: 111.0639
-:DRILL_REPEATS_SINCE_FAIL: 17
-:DRILL_TOTAL_REPEATS: 26
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.923
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-18 Fri 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555836
 :END:
+
+**** Text
 
 vim: best practice: Use the Search Command to Move Around
 
-*** Use the Search Command to Modify                                :drill:
-SCHEDULED: <2021-07-19 Mon>
+*** Use the Search Command to Modify
 :PROPERTIES:
-:ID:       bab505de-ced6-49aa-aa6b-e65c9a642d9d
-:DRILL_LAST_INTERVAL: 13.0984
-:DRILL_REPEATS_SINCE_FAIL: 12
-:DRILL_TOTAL_REPEATS: 82
-:DRILL_FAILURE_COUNT: 14
-:DRILL_AVERAGE_QUALITY: 2.829
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:13]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518555983
 :END:
+
+**** Text
 
 vim: best practice: Use the Search Command to Modify (after an operator)
 
-*** Exclusive vs Inclusive                                          :drill:
-SCHEDULED: <2021-08-31 Tue>
+*** Exclusive vs Inclusive
 :PROPERTIES:
-:ID:       f471a709-397c-4fc2-bd94-794c17d47bd8
-:DRILL_LAST_INTERVAL: 419.6875
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-07 Tue 10:36]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556277
 :END:
+
+**** Text
 
 vim: An *Exclusive* Character Motion means that the motion will include
-<[only the start position]>
+{{c1::only the start position}}
 vim: An *Inclusive* Character Motion means that the motion will include
-<[the start and end positions]>
+{{c1::the start and end positions}}
 
-*** / is Exclusive                                                  :drill:
-SCHEDULED: <2022-05-06 Fri>
+*** / is Exclusive
 :PROPERTIES:
-:ID:       9fe75d4a-fc16-47a7-b982-f54f0f834903
-:DRILL_LAST_INTERVAL: 484.621
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:05]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556366
 :END:
 
-vim: The =/= motion is <[Exclusive||Exclusive or Inclusive]> in its selection
+**** Text
+
+vim: The =/= motion is {{c1::Exclusive::Exclusive or Inclusive}} in its selection
 
 ** Tip 52: Trace Your Selection with Precision Text Objects
-*** Text Object Motion vs Text Object Selection                     :drill:
-SCHEDULED: <2022-05-29 Sun>
+*** Text Object Motion vs Text Object Selection
 :PROPERTIES:
-:ID:       9e178e0f-5ebf-49fb-944e-c0e731ba2447
-:DRILL_LAST_INTERVAL: 450.0035
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.683
-:DRILL_EASE: 2.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-05 Fri 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556493
 :END:
 
-vim: =(= is called a <[Text Object Motion]> while
-    =a(= is called a <[Text Object Selection]>
+**** Text
 
-*** =(=                                                             :drill:
-SCHEDULED: <2021-08-18 Wed>
+vim: =(= is called a {{c1::Text Object Motion}} while
+    =a(= is called a {{c1::Text Object Selection}}
+
+*** =(=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       dd09704b-0bba-4c2a-a9a4-5ece4ec46416
-:DRILL_LAST_INTERVAL: 406.4062
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:16]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556618
 :END:
 
-vim: <[Move a sentence backward]> with <[(]>
+**** Text
 
-*** =)=                                                             :drill:
-SCHEDULED: <2022-04-28 Thu>
+vim: {{c1::Move a sentence backward}} with {{c2::(}}
+
+*** =)=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ff055d09-298d-4d9f-a304-7d5bb19ad849
-:DRILL_LAST_INTERVAL: 315.7048
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.385
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-16 Wed 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556764
 :END:
 
-vim: <[Move a sentence forward]> with <[)]>
+**** Text
 
-*** ={=                                                             :drill:
-SCHEDULED: <2021-10-09 Sat>
+vim: {{c1::Move a sentence forward}} with {{c2::)}}
+
+*** ={=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       12dbf654-358f-4759-b51b-71684ac59c46
-:DRILL_LAST_INTERVAL: 435.4435
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-31 Fri 12:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518556931
 :END:
 
-vim: <[Move a paragraph backward]> with <[{]>
+**** Text
 
-*** =}=                                                             :drill:
-SCHEDULED: <2021-08-18 Wed>
+vim: {{c1::Move a paragraph backward}} with {{c2::{}}
+
+*** =}=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4c30df8e-c0c6-4b87-8e82-fcfd2ffb825f
-:DRILL_LAST_INTERVAL: 406.4062
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557054
 :END:
 
-vim: <[Move a paragraph forward]> with <[}]>
+**** Text
 
-*** =as=                                                            :drill:
-SCHEDULED: <2021-08-18 Wed>
+vim: {{c1::Move a paragraph forward}} with {{c2::}}}
+
+*** =as=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       6e5c1cd3-83bc-4a12-93d8-9a4c6120ae2b
-:DRILL_LAST_INTERVAL: 406.4062
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:16]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557244
 :END:
 
-vim: <[Select a sentence]> with <[as]>
+**** Text
 
-*** =ap=                                                            :drill:
-SCHEDULED: <2023-06-01 Thu>
+vim: {{c1::Select a sentence}} with {{c2::as}}
+
+*** =ap=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       043d2dbc-f404-4f3a-8c12-701bd315533d
-:DRILL_LAST_INTERVAL: 723.5423
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.572
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-07 Mon 08:46]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557344
 :END:
 
-vim: <[Select a paragraph]> with <[ap]>
+**** Text
 
-*** =a[=                                                            :drill:
-SCHEDULED: <2021-10-24 Sun>
+vim: {{c1::Select a paragraph}} with {{c2::ap}}
+
+*** =a[=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       ce142f5e-219f-45d0-a1a9-90179dbf0d8f
-:DRILL_LAST_INTERVAL: 449.624
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-31 Fri 12:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557630
 :END:
 
-vim: <[Select a "[" block]> with <[a[]>
+**** Text
 
-*** =a<=                                                            :drill:
-SCHEDULED: <2021-10-09 Sat>
+vim: {{c1::Select a "[" block}} with {{c2::a[}}
+
+*** =a<=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d923e014-b59f-4ac5-8c68-b5a5938a94a8
-:DRILL_LAST_INTERVAL: 432.3306
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.889
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-03 Mon 11:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557719
 :END:
 
-vim: <[Select a "<" block]> with <[a<]>
+**** Text
 
-*** =a(= or =ab=                                                    :drill:
-SCHEDULED: <2021-10-24 Sun>
+vim: {{c1::Select a "<" block}} with {{c2::a<}}
+
+*** =a(= or =ab=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       f9b54363-47e0-43c6-bf7b-bf4bcb1145f7
-:DRILL_LAST_INTERVAL: 449.624
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-31 Fri 12:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557840
 :END:
 
-vim: <[Select a "(" block]> with <[ab or a(||X OR Y]>
+**** Text
 
-*** =a{= or =aB=                                                    :drill:
-SCHEDULED: <2021-08-18 Wed>
+vim: {{c1::Select a "(" block}} with {{c2::ab or a(::X OR Y}}
+
+*** =a{= or =aB=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9698e753-b6ee-4292-a672-3c7458a54c27
-:DRILL_LAST_INTERVAL: 406.4062
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518557939
 :END:
 
-vim: <[Select a "{" block]> with <[aB or a{||X OR Y]>
+**** Text
 
-*** =at=                                                            :drill:
-SCHEDULED: <2022-05-26 Thu>
+vim: <{{c1::elect a "{" block}} with {{c2::aB or a{::X OR Y}}
+
+*** =at=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       4e0a7298-a353-4ce0-a9e7-ff8ca2d5d98c
-:DRILL_LAST_INTERVAL: 395.2918
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.733
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-04-26 Mon 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558036
 :END:
 
-vim: <[Select an html tag]> with <[at]>
+**** Text
+
+vim: {{c1::Select an html tag}} with {{c2::at}}
 
 ** Tip 53: Delete Around, or Change Inside
 
@@ -3736,22 +3344,15 @@ Otherwise you can install the [[https://github.com/tpope/vim-surround][vim-surro
 Enable the /matchit/ plugin so that =%= can jump between more matching keywords
 (eg. HTML tags or Ruby def/end)
 
-*** =%=                                                             :drill:
-SCHEDULED: <2022-03-27 Sun>
+*** =%=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       aa91ab44-ab79-4c79-b35a-b9449503ee33
-:DRILL_LAST_INTERVAL: 549.1395
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-09-24 Thu 13:32]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558126
 :END:
 
-vim: <[Go to the *Matching* or *Surrounding* Brace||X or Y]> with <[=%=]>
+**** Text
+
+vim: {{c1::Go to the *Matching* or *Surrounding* Brace::X or Y}} with {{c2::%}}
 
 ** Tip 56: Traverse the Jump List
 
@@ -3766,56 +3367,35 @@ Jump to definition of keyword under the cursor with =<C-]>= or =:tab {name}=.
 
 See the Change List with =:changes=.
 
-*** =g;=                                                            :drill:
-SCHEDULED: <2021-07-27 Tue>
+*** =g;=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       49ef65b3-7db5-4c15-9d63-ed6792af15fd
-:DRILL_LAST_INTERVAL: 11.3477
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 81
-:DRILL_FAILURE_COUNT: 12
-:DRILL_AVERAGE_QUALITY: 3.074
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-16 Fri 11:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558214
 :END:
 
-vim: <[Go to the next older change position]> with <[=g;=]>
+**** Text
 
-*** =g,=                                                            :drill:
-SCHEDULED: <2022-10-15 Sat>
+vim: {{c1::Go to the next older change position}} with {{c2::g;}}
+
+*** =g,=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       324e28c5-c60c-4647-8097-9bfa811bde44
-:DRILL_LAST_INTERVAL: 487.959
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-14 Mon 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558291
 :END:
 
-vim: <[Go to the next newer change position]> with <[=g,=]>
+**** Text
 
-*** =gi=                                                            :drill:
-SCHEDULED: <2021-07-28 Wed>
+vim: {{c1::Go to the next newer change position}} with {{c2::g,}}
+
+*** =gi=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0bb85849-f6cc-4c2e-9e16-8ebe022c8d8f
-:DRILL_LAST_INTERVAL: 66.9794
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.231
-:DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-22 Sat 15:36]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558551
 :END:
 
-vim: <[Get back to insertion mode at the place of last insertion]> with <[=gi=]>
+**** Text
+
+vim: {{c1::Get back to insertion mode at the place of last insertion}} with {{c2::gi}}
 
 ** Tip 58: Jump to the Filename Under the Cursor
 
@@ -3857,22 +3437,15 @@ There is 26 generic registers you can use with ="{letter}= where the letter if
 lowercase will overwrite the content of the register, and uppercase letters will
 append to it.
 
-*** ="0= Register                                                   :drill:
-SCHEDULED: <2021-08-12 Thu>
+*** ="0= Register
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       6d656590-90ea-4e1a-8cc5-eaa80060810f
-:DRILL_LAST_INTERVAL: 170.9228
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.412
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-22 Mon 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558625
 :END:
 
-vim: Use the <[Yank]> register with <[="0=]>
+**** Text
+
+vim: Use the {{c1::Yank}} register with {{c2::"0}}
 
 ** Tip 62: Replace a Visual Selection with a Register
 
@@ -3905,22 +3478,15 @@ finally saving it with =q=.
 Check the content of the Macro with =:reg {register}=.
 Invoke a Macro with =@{register}=.
 
-*** =@@=                                                            :drill:
-SCHEDULED: <2021-08-02 Mon>
+*** =@@=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       aa65070d-00ae-490d-8f55-4d0aedaa826f
-:DRILL_LAST_INTERVAL: 291.5825
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.546
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-14 Wed 11:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558713
 :END:
 
-vim: <[Invoke the Last Called Macro]> with <[=@@=]>
+**** Text
+
+vim: {{c1::Invoke the Last Called Macro}} with {{c2::@@}}
 
 ** Tip 66: Normalize, Strike, Abort
 
@@ -3947,41 +3513,27 @@ Execute a macro in parallel by using the =:normal= Ex Command, like so
 =:{range}normal @{macro}=. The advantage of this technique is that all the
 macros that can execute will.
 
-*** =~=                                                             :drill:
-SCHEDULED: <2022-02-10 Thu>
+*** =~=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9fd4938e-85be-4ed1-9d8d-438c13da7262
-:DRILL_LAST_INTERVAL: 506.2267
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-22 Tue 10:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558833
 :END:
 
-vim: <[Switch case of the current character]> with <[~]>
+**** Text
+
+vim: {{c1::Switch case of the current character}} with {{c2::~}}
 
 ** Tip 69: Append Commands to a Macro
 
-*** Append to a Macro                                               :drill:
-SCHEDULED: <2021-08-08 Sun>
+*** Append to a Macro
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       9a008e35-d7e1-467f-be2e-71c40a68dfc7
-:DRILL_LAST_INTERVAL: 24.0143
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.286
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:23]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518558930
 :END:
 
-vim: <[Append Commands to a Macro]> with <[=q{Uppercase letter}=]>
+**** Text
+
+vim: {{c1::Append Commands to a Macro}} with {{c2::q{Uppercase letter}}}
 
 ** Tip 70: Act Upon a Collection of Files
 
@@ -4067,40 +3619,27 @@ Search backward with =?=.
 Go to the next match with =n=.
 Go to the previous match with =N=.
 
-*** gn and gN                                                       :drill:
-SCHEDULED: <2021-09-14 Tue>
+*** gn and gN
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       818713A5-1F25-424D-B6BB-21C147FCDAE7
-:DRILL_LAST_INTERVAL: 247.6422
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.474
-:DRILL_EASE: 1.58
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-09 Sat 08:37]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559042
 :END:
 
-vim: <[Select the current or the next/previous search match]> with
-<[gn/gN]>
+**** Text
 
-*** C-n and C-p                                                     :drill:
-SCHEDULED: <2022-09-22 Thu>
+vim: {{c1::Select the current or the next/previous search match}} with
+{{c2::gn/gN}}
+
+*** C-n and C-p
 :PROPERTIES:
-:ID:       766ce35e-5068-4a29-b31d-c10ec7fd4135
-:DRILL_LAST_INTERVAL: 459.3987
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.917
-:DRILL_EASE: 2.48
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-20 Sun 11:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559160
 :END:
+
+**** Text
 
 vim: Scroll through the Ex commands or search history with
-<[=<C-n>= and =<C-p>=|| X and Y ]>
+{{c1::<C-n> and <C-p>::X and Y}}
 
 ** Tip 81: Highlight Search Matches
 
@@ -4112,23 +3651,15 @@ Disable highlighting search matches for one time with =:nohlsearch=.
 
 Show a search preview with =:set incsearch=.
 
-*** Autocomplete Searches with =<C-r><C-w>=                         :drill:
-SCHEDULED: <2021-07-28 Wed>
+*** Autocomplete Searches with =<C-r><C-w>=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       86cbb447-4956-4d19-8184-266ce634766f
-:DRILL_LAST_INTERVAL: 20.4833
-:DRILL_REPEATS_SINCE_FAIL: 17
-:DRILL_TOTAL_REPEATS: 35
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.029
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-08 Thu 12:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559288
 :END:
 
-vim: <[Autocomplete]> the search field with
-<[<C-r><C-a> or <C-r><C-w>||... or ... ]>
+**** Text
+
+vim: {{c1::Autocomplete}} the search field with {{c2::<C-r><C-a> or <C-r><C-w>::... or ...}}
 
 ** Tip 83: Offset the Cursor to the End of a Search Match
 
@@ -4142,39 +3673,25 @@ change and move
 
 ** Tip 85: Create Complex Patterns by Iterating upon Search History
 
-*** =q:=                                                            :drill:
-SCHEDULED: <2023-02-16 Thu>
+*** =q:=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       912b48bc-f078-4ab1-9aed-e050d14c1ab9
-:DRILL_LAST_INTERVAL: 614.5759
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.429
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-11 Fri 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559384
 :END:
 
-vim: <[Open the Ex Command-Line Window]> with <[=q:=]>
+**** Text
 
-*** =q/=                                                            :drill:
-SCHEDULED: <2021-07-29 Thu>
+vim: {{c1::Open the Ex Command-Line Window}} with {{c2::q:}}
+
+*** =q/=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d01f65ee-fd24-4045-ad30-63d94bcec60f
-:DRILL_LAST_INTERVAL: 35.5385
-:DRILL_REPEATS_SINCE_FAIL: 13
-:DRILL_TOTAL_REPEATS: 30
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.233
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-23 Wed 08:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559710
 :END:
 
-vim: <[Open the Search Command-Line Window]> with <[=q/=]>
+**** Text
+
+vim: {{c1::Open the Search Command-Line Window}} with {{c2::q/}}
 
 ** Tip 86: Count the Matches for the Current Pattern
 
@@ -4219,23 +3736,16 @@ Confirm before doing substitutions with the =c= flag like so
 
 Insert the last search pattern in the Command Prompt with =<C-r>/=.
 
-*** Reuse the Last Search Pattern in a Substitute Command           :drill:
-SCHEDULED: <2022-03-06 Sun>
+*** Reuse the Last Search Pattern in a Substitute Command
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       e9d29d2b-fef0-46d3-9305-3ea3defa17f0
-:DRILL_LAST_INTERVAL: 511.9236
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-10 Sat 14:08]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559832
 :END:
 
-vim: In a Substitute Command <[reuse the last search pattern]> by
-<[leaving the pattern field empty]>
+**** Text
+
+vim: In a Substitute Command {{c1::reuse the last search pattern}} by
+{{c2::leaving the pattern field empty}}
 
 ** Tip 92: Replace with the Contents of a Register
 
@@ -4281,59 +3791,38 @@ Find and replace across multiple files like so:
 
 ** Tip 98: Meet the Global Command
 
-*** =:global=                                                       :drill:
-SCHEDULED: <2021-08-07 Sat>
+*** =:global=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       2f1368b3-3471-4ec8-8718-c4b192cac6f4
-:DRILL_LAST_INTERVAL: 30.5435
-:DRILL_REPEATS_SINCE_FAIL: 17
-:DRILL_TOTAL_REPEATS: 40
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.201
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-07 Wed 13:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518559942
 :END:
 
-vim: <[Execute an Ex Command on lines that match a pattern]> with
-<[:g/{pattern}/{cmd}]>
+**** Text
 
-*** =:global!= and =:vglobal=                                       :drill:
-SCHEDULED: <2021-09-30 Thu>
+vim: {{c1::Execute an Ex Command on lines that match a pattern}} with
+{{c2:::g/{pattern}/{cmd}}}
+
+*** =:global!= and =:vglobal=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       d64e29ef-8461-4366-80c3-df69483a5e05
-:DRILL_LAST_INTERVAL: 395.2544
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-08-31 Mon 07:26]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560040
 :END:
 
-vim: <[Execute an Ex Command on lines that don't match a pattern]> with
-<[=:g!/{pattern}/{cmd}= OR =:v/{pattern}/{cmd}=]>
+**** Text
 
-*** Reuse the Last Search Pattern in a Global Command               :drill:
-SCHEDULED: <2022-04-27 Wed>
+vim: {{c1::Execute an Ex Command on lines that don't match a pattern}} with
+{{c2:::g!/{pattern}/{cmd} OR :v/{pattern}/{cmd}}}
+
+*** Reuse the Last Search Pattern in a Global Command
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       dcbe8c23-e109-48ed-b65f-98fd6b60ba92
-:DRILL_LAST_INTERVAL: 540.1675
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-11-03 Tue 11:04]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560154
 :END:
 
-vim: In a Global Command <[reuse the last search pattern]> by
-<[leaving the pattern field blank]>
+**** Text
+
+vim: In a Global Command {{c1::reuse the last search pattern}} by
+{{c2::leaving the pattern field blank}}
 
 ** Tip 99: Delete Lines Containing a Pattern
 
@@ -4376,22 +3865,15 @@ Update the tags file each time a file is save with
 Jump back from a Tag Search with =<C-t>=.
 Open a tag match list with =g<C-]>=.
 
-*** =<C-]>=                                                         :drill:
-SCHEDULED: <2022-03-10 Thu>
+*** =<C-]>=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       0676996b-20d2-48c6-99b5-259a16872d9a
-:DRILL_LAST_INTERVAL: 274.9893
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.385
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-08 Tue 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560262
 :END:
 
-vim: <[Go to the definition of the keyword under the cursor]> with <[C-]]>
+**** Text
+
+vim: {{c1::Go to the definition of the keyword under the cursor}} with {{c2::C-]}}
 
 ** Tip 105: Compile Code Without Leaving Vim
 
@@ -4507,39 +3989,25 @@ Add the current word to the spell file with =zg=.
 Remove the current word from spell file with =zw=.
 Revert zg or zw command for the current word =zug=.
 
-*** =]s=                                                            :drill:
-SCHEDULED: <2021-12-18 Sat>
+*** =]s=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       3938d357-ce93-40b6-b587-1e8b5ba9cc18
-:DRILL_LAST_INTERVAL: 263.7531
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-29 Mon 08:53]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560381
 :END:
 
-vim: <[Go to the next spelling error]> with <[=]s=]>
+**** Text
 
-*** =[s=                                                            :drill:
-SCHEDULED: <2021-07-30 Fri>
+vim: {{c1::Go to the next spelling error}} with {{c2::]s}}
+
+*** =[s=
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       a6e1cab5-af1a-4d07-9bde-116f13405557
-:DRILL_LAST_INTERVAL: 24.8067
-:DRILL_REPEATS_SINCE_FAIL: 17
-:DRILL_TOTAL_REPEATS: 35
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.114
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-05 Mon 13:38]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560479
 :END:
 
-vim: <[Go to the previous spelling error]> with <[=[s=]>
+**** Text
+
+vim: {{c1::Go to the previous spelling error}} with {{c2::[s}}
 
 ** Tip 121: Use Alternate Spelling Dictionaries
 
@@ -4584,351 +4052,229 @@ CLOCK: [2019-09-19 Thu 10:28]--[2019-09-19 Thu 11:28] =>  1:00
 :END:
 
 ** Hello, World
-*** TDD Cycle                                                       :drill:
-SCHEDULED: <2021-07-22 Thu>
+*** TDD Cycle
 :PROPERTIES:
-:ID:       ede97d9f-a348-4a68-8070-dda21cad8f9d
-:DRILL_LAST_INTERVAL: 7.5239
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-14 Wed 12:05]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560804
 :END:
+
+**** Text
 
 cs: The TDD Cycle steps are:
-- <[Add a test]>
-- <[Run it and see it fail]>
-- <[Make it pass with the minimum amount of code]>
-- <[Ensure all the other tests pass]>
-- <[Refactor based on the current tests]>
+- {{c1::Add a test}}
+- {{c1::Run it and see it fail}}
+- {{c1::Make it pass with the minimum amount of code}}
+- {{c1::Ensure all the other tests pass}}
+- {{c1::Refactor based on the current tests}}
 
-*** Test Functions                                                  :drill:
-SCHEDULED: <2022-06-05 Sun>
+*** Test Functions
 :PROPERTIES:
-:ID:       441ea307-1788-416a-a1a9-10a86ef49f4f
-:DRILL_LAST_INTERVAL: 515.3081
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.571
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2021-01-06 Wed 19:00]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560876
 :END:
+
+**** Text
 
 go: Test functions need to:
-- <[Be called Test...()]>
-- <[Be in a ..._test.go file]>
+- {{c1::Be called Test...()}}
+- {{c1::Be in a ..._test.go file}}
 
-*** Tests are Run With                                              :drill:
-SCHEDULED: <2022-06-21 Tue>
+*** Tests are Run With
 :PROPERTIES:
-:ID:       999173ea-8172-4be7-aaeb-9be00185c11b
-:DRILL_LAST_INTERVAL: 627.5199
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518560984
 :END:
 
-go: Run *Tests* with the command <[go test]>
+**** Text
 
-*** Public Functions Uppercase Letter                               :drill:
-SCHEDULED: <2022-06-01 Wed>
+go: Run *Tests* with the command {{c1::go test}}
+
+*** Public Functions Uppercase Letter
 :PROPERTIES:
-:ID:       1ae8438d-6c64-4334-87d0-bd934219aa7c
-:DRILL_LAST_INTERVAL: 608.3101
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-01 Thu 13:07]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561112
 :END:
 
-go: Public Functions start with <[an Uppercase Letter]>
+**** Text
+
+go: Public Functions start with {{c1::an Uppercase Letter}}
 
 ** Integers
-*** Example Functions                                               :drill:
-SCHEDULED: <2021-08-01 Sun>
+*** Example Functions
 :PROPERTIES:
-:ID:       0c4b0d5b-aa72-4edb-989a-54b2c2977456
-:DRILL_LAST_INTERVAL: 389.3631
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-08 Wed 10:15]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561217
 :END:
+
+**** Text
 
 go: Example functions need to:
-- <[Be called Example...()]>
-- <[Be in a ..._test.go file]>
+- {{c1::Be called Example...()}}
+- {{c1::Be in a ..._test.go file}}
 
 ** Iteration
-*** Benchmark Functions                                             :drill:
-SCHEDULED: <2021-08-11 Wed>
+*** Benchmark Functions
 :PROPERTIES:
-:ID:       c345379b-8bb5-4032-96e4-95bddb901a19
-:DRILL_LAST_INTERVAL: 206.9225
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 23
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.434
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-16 Sat 09:02]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561320
 :END:
+
+**** Text
 
 go: Benchmark functions need to:
-- <[Be called Benchmark...()]>
-- <[Be in a ..._test.go file]>
+- {{c1::Be called Benchmark...()}}
+- {{c1::Be in a ..._test.go file}}
 
-*** Benchmarks are Run With                                         :drill:
-SCHEDULED: <2021-10-31 Sun>
+*** Benchmarks are Run With
 :PROPERTIES:
-:ID:       3398b200-2043-4802-b08d-5c42b284b92c
-:DRILL_LAST_INTERVAL: 463.8327
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-07-24 Fri 13:31]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561443
 :END:
 
-go: Run *Benchmarks* with the command <[go test -bench .]>
+**** Text
+
+go: Run *Benchmarks* with the command {{c1::go test -bench .}}
 
 ** Arrays and slices
-*** Array Syntax                                                    :drill:
-SCHEDULED: <2021-07-24 Sat>
+*** Array Syntax
 :PROPERTIES:
-:ID:       6301ca7c-f041-46b2-ac99-1bb24003ccca
-:DRILL_LAST_INTERVAL: 12.2623
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 37
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.27
-:DRILL_EASE: 1.16
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-12 Mon 16:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561512
 :END:
 
-go: Declare an array with =var array <[[SIZE|...]TYPE]>=
+**** Text
 
-*** Slice Syntax                                                    :drill:
-SCHEDULED: <2021-12-01 Wed>
+go: Declare an array with ~var array {{c1::[SIZE|...]TYPE}}~
+
+*** Slice Syntax
 :PROPERTIES:
-:ID:       dd79a268-2eee-4eb0-a17c-aeb46c901a68
-:DRILL_LAST_INTERVAL: 422.3963
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 15
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.534
-:DRILL_EASE: 2.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-10-05 Mon 10:29]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561841
 :END:
 
-go: Declare a slice with =var slice <[[]TYPE]>=
+**** Text
 
-*** len()                                                           :drill:
-SCHEDULED: <2022-03-26 Sat>
+go: Declare a slice with ~var slice {{c1::[]TYPE}}~
+
+*** len()
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       54ff64dc-c1a4-42e8-86d3-99708f79eb19
-:DRILL_LAST_INTERVAL: 566.9892
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-09-05 Sat 11:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518561962
 :END:
 
-go: function: <[len()]> returns <[the length of an array or slice]>
+**** Text
 
-*** cap()                                                           :drill:
-SCHEDULED: <2022-10-28 Fri>
+go: function: {{c1::len()}} returns {{c1::the length of an array or slice}}
+
+*** cap()
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       12efd225-35f6-4fce-810a-62e47ab5e57b
-:DRILL_LAST_INTERVAL: 502.8408
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-12 Sat 11:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562083
 :END:
 
-go: <[cap(SLICE)]> returns <[the capacity of the underlying array segment]>
+**** Text
 
-*** append()                                                        :drill:
-SCHEDULED: <2022-07-23 Sat>
+go: function: {{c1::cap(SLICE)}} returns {{c2::the capacity of the underlying array segment}}
+
+*** append()
 :PROPERTIES:
-:ID:       269c0a37-11ea-42aa-a83c-d409e2c75821
-:DRILL_LAST_INTERVAL: 491.3843
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.471
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-19 Fri 09:06]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562155
 :END:
 
-go: function: <[append(ARRAY, ELEMENT)]> = returns a new slice with an element appended
+**** Text
 
-*** =range= Clause                                                  :drill:
-SCHEDULED: <2021-09-21 Tue>
+go: function: {{c1::append(ARRAY, ELEMENT)}} returns a new slice with an element appended
+
+*** =range= Clause
 :PROPERTIES:
-:ID:       28b63118-f1c2-41c6-b204-3388d38498d7
-:DRILL_LAST_INTERVAL: 349.2799
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.728
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-07 Wed 13:58]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562251
 :END:
 
-go: Use the =range= clause like so <[for key, value := range ARRAY]>
+**** Text
 
-*** Variadic Function                                               :drill:
-SCHEDULED: <2021-08-02 Mon>
+go: Use the =range= clause like so {{c1::for key, value := range ARRAY}}
+
+*** Variadic Function
 :PROPERTIES:
-:ID:       b2abe1db-b503-43f2-85e6-1168d305e40b
-:DRILL_LAST_INTERVAL: 152.5728
-:DRILL_REPEATS_SINCE_FAIL: 9
-:DRILL_TOTAL_REPEATS: 22
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.454
-:DRILL_EASE: 1.5
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-02 Tue 08:14]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562361
 :END:
 
-go: Declare a variadic function like so <[func NAME(ARG ...TYPE)]>
+**** Text
 
-*** Tests are Run With                                              :drill:
-SCHEDULED: <2022-10-28 Fri>
+go: Declare a variadic function like so {{c1::func NAME(ARG ...TYPE)}}
+
+*** Tests are Run With
 :PROPERTIES:
-:ID:       2e9080e6-0553-4360-96d6-a483d69bc3b0
-:DRILL_LAST_INTERVAL: 730.9528
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-10-27 Tue 11:48]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562493
 :END:
 
-go: Show *Test Coverages* with the command <[go test -cover]>
+**** Text
 
-*** Array Size                                                      :drill:
-SCHEDULED: <2021-07-21 Wed>
+go: Show *Test Coverages* with the command {{c1::go test -cover}}
+
+*** Array Size
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
-:ID:       2b6bf02c-e38e-4593-9b60-36a5c20adad3
-:DRILL_LAST_INTERVAL: 228.688
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-12-04 Fri 12:32]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562586
 :END:
 
-go: The size of arrays <[is fixed||is fixed or not]>
+**** Text
 
-*** Slices                                                          :drill:
-SCHEDULED: <2022-02-04 Fri>
+go: The size of arrays {{c1::is fixed::is fixed or not}}
+
+*** Slices
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
-:ID:       6631ad33-695e-4e5c-9d10-399c8a7f8685
-:DRILL_LAST_INTERVAL: 296.5756
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-13 Tue 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518562745
 :END:
 
-go: A slice is <[a pointer to an array segment with a length and a total capacity]>
+**** Text
 
-*** Grow Slices                                                     :drill:
-SCHEDULED: <2022-05-14 Sat>
+go: A slice is {{c1::a pointer to an array segment with a length and a total capacity}}
+
+*** Grow Slices
 :PROPERTIES:
 :Source: https://blog.golang.org/slices-intro
-:ID:       b1ae0e8f-0cba-407f-b458-2274e8651bec
-:DRILL_LAST_INTERVAL: 389.6312
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-19 Mon 08:44]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563077
 :END:
 
-go: A slice can grow without reallocation if <[the underlying array segment has the capacity]>
+**** Text
 
-*** Slice Example                                                   :drill:
-SCHEDULED: <2023-01-20 Fri>
+go: A slice can grow without reallocation if {{c1::the underlying array segment has the capacity}}
+
+*** Slice Example
 :PROPERTIES:
-:ID:       b894aa94-2693-48d2-ad38-25ef624e5157
-:DRILL_LAST_INTERVAL: 576.3597
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-23 Wed 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563185
 :END:
+
+**** Text
 
 #+BEGIN_SRC go
 array := [4]int{0, 1, 2, 3}
 slice := array[1:3]
 
-fmt.Println(array) // <[[0 1 2 3]]>
-fmt.Println(slice) // <[[1 2]]>
+fmt.Println(array) // {{c1::[0 1 2 3]}}
+fmt.Println(slice) // {{c1::[1 2]}}
 
-fmt.Println(len(slice)) // <[2]>
-fmt.Println(cap(slice)) // <[3]>
+fmt.Println(len(slice)) // {{c1::2}}
+fmt.Println(cap(slice)) // {{c1::3}}
 #+END_SRC
 
-*** Slice Index Example                                             :drill:
-SCHEDULED: <2023-03-04 Sat>
+*** Slice Index Example
 :PROPERTIES:
-:ID:       9d4ebac5-1ce1-418f-92e9-dfeb7fa13e57
-:DRILL_LAST_INTERVAL: 613.1058
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-29 Tue 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563336
 :END:
+
+**** Text
 
 #+BEGIN_SRC go
 array := [1]int{0}
@@ -4936,23 +4282,17 @@ slice := array[:]
 
 slice[0] = 1
 
-fmt.Println(array) // <[[1]]>
-fmt.Println(slice) // <[[1]]>
+fmt.Println(array) // {{c1::[1]}}
+fmt.Println(slice) // {{c1::[1]}}
 #+END_SRC
 
-*** Slice append() Example                                          :drill:
-SCHEDULED: <2021-08-01 Sun>
+*** Slice append() Example
 :PROPERTIES:
-:ID:       6d9ae131-a447-4d58-a695-b25c14dc7a94
-:DRILL_LAST_INTERVAL: 81.4359
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 16
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 1.58
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-12 Wed 09:10]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563482
 :END:
+
+**** Text
 
 #+BEGIN_SRC go
 array := [2]int{0, 1}
@@ -4960,34 +4300,28 @@ slice := array[0:1]
 
 slice = append(slice, 2)
 
-fmt.Println(array) // <[[0 2]]>
-fmt.Println(slice) // <[[0 2]]>
+fmt.Println(array) // {{c1::[0 2]}}
+fmt.Println(slice) // {{c1::[0 2]}}
 
 slice = append(slice, 3)
 
-fmt.Println(array) // <[[0 2]]>
-fmt.Println(slice) // <[[0 2 3]]>
+fmt.Println(array) // {{c1::[0 2]}}
+fmt.Println(slice) // {{c1::[0 2 3]}}
 
 slice[0] = 1
 
-fmt.Println(array) // <[[0 2]]>
-fmt.Println(slice) // <[[1 2 3]]>
+fmt.Println(array) // {{c1::[0 2]}}
+fmt.Println(slice) // {{c1::[1 2 3]}}
 #+END_SRC
 
 ** Structs, methods & interfaces
-*** Struct Definition Syntax                                        :drill:
-SCHEDULED: <2022-01-08 Sat>
+*** Struct Definition Syntax
 :PROPERTIES:
-:ID:       ec6bb07b-5cc7-4d89-9fe6-69fa7fd918f8
-:DRILL_LAST_INTERVAL: 347.6019
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.357
-:DRILL_EASE: 1.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-01-25 Mon 13:20]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563612
 :END:
+
+**** Text
 
 go: Define a *Structure* with:
 
@@ -5000,51 +4334,33 @@ type NAME struct {
 }
 #+END_SRC
 
-*** Struct Declaration Syntax                                       :drill:
-SCHEDULED: <2022-04-19 Tue>
+*** Struct Declaration Syntax
 :PROPERTIES:
-:ID:       35f2284d-3775-4863-b821-8ca3cac007e6
-:DRILL_LAST_INTERVAL: 438.3447
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.364
-:DRILL_EASE: 1.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-05 Fri 13:05]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563718
 :END:
 
-go: Initialize a variable as a struct with ~var struct := <[STRUCT_NAME{FIELD, ...}]>~
+**** Text
 
-*** Method Definition Syntax                                        :drill:
-SCHEDULED: <2021-09-30 Thu>
+go: Initialize a variable as a struct with ~var struct := {{c1::STRUCT_NAME{FIELD, ...}}}~
+
+*** Method Definition Syntax
 :PROPERTIES:
-:ID:       160c8a08-e6cf-4abb-a2d3-cafdf570a6c9
-:DRILL_LAST_INTERVAL: 284.1335
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 16
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.438
-:DRILL_EASE: 1.72
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-12-20 Sun 12:34]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518563798
 :END:
 
-go: Define a *Method* with <[func (RECEIVER_NAME RECEIVER_TYPE) METHOD_NAME(ARGS...) RETURN_TYPE]>
+**** Text
 
-*** Interface Definition Syntax                                     :drill:
-SCHEDULED: <2022-09-08 Thu>
+go: Define a *Method* with {{c1:: ~func (RECEIVER_NAME RECEIVER_TYPE) METHOD_NAME(ARGS...) RETURN_TYPE~ }}
+
+*** Interface Definition Syntax
 :PROPERTIES:
-:ID:       a53837bf-8c79-41ff-8af3-5f1d648400cd
-:DRILL_LAST_INTERVAL: 662.6736
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-11-14 Sat 13:17]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564126
 :END:
+
+**** Text
 
 go: Define an *Interface* with
 
@@ -5057,265 +4373,173 @@ type NAME interface {
 }
 #+END_SRC
 
-*** Interface Resolution                                            :drill:
-SCHEDULED: <2023-09-27 Wed>
+*** Interface Resolution
 :PROPERTIES:
-:ID:       7c94897b-a2d5-469d-9e8f-3a406cb6fa76
-:DRILL_LAST_INTERVAL: 819.4858
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.572
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-30 Wed 08:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564263
 :END:
 
-go: Any structure automatically fits an Interface as long as all <[the specified
-methods are implemented]>
+**** Text
 
-*** Table Driven Tests                                              :drill:
-SCHEDULED: <2023-11-13 Mon>
+go: Any structure automatically fits an Interface as long as all {{c1::the specified
+methods are implemented}}
+
+*** Table Driven Tests
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       60862745-bde1-46bb-a38a-61479aa04622
-:DRILL_LAST_INTERVAL: 871.2566
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.714
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-25 Fri 08:55]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564383
 :END:
 
-go: <[Table Driven Tests]> is a pattern where each <[table entry is a test with
-its inputs and expected results]>
+**** Text
 
-*** Kent Beck Quote                                                 :drill:
-SCHEDULED: <2021-07-20 Tue>
+go: {{c1::Table Driven Tests}} is a pattern where each {{c2::table entry is a test with
+its inputs and expected results}}
+
+*** Kent Beck Quote
 :PROPERTIES:
 :SOURCE: The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
-:ID:       d2ed43e9-b02b-47dc-b52e-022a8c3fd4fe
-:DRILL_LAST_INTERVAL: 5.4874
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 29
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.309
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2021-07-15 Thu 12:22]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564487
 :END:
 
-cs: According to *Kent Beck*, tests should be <[Assertions of Truth]> not
-<[Sequences of Operations]>
+**** Text
+
+cs: According to *Kent Beck*, tests should be {{c1::Assertions of Truth}} not
+{{c2::Sequences of Operations}}
 
 ** Pointers & errors
-*** Alias a Type                                                    :drill:
-SCHEDULED: <2021-07-30 Fri>
+*** Alias a Type
 :PROPERTIES:
-:ID:       2a493929-b718-40bc-bfd7-5933cf30a081
-:DRILL_LAST_INTERVAL: 50.2766
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 13
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.232
-:DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-10 Thu 09:01]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564566
 :END:
 
-go: Alias a Type: <[type ALIAS ORIGINAL_TYPE]>
+**** Text
+
+go: Alias a Type: {{c1::type ALIAS ORIGINAL_TYPE}}
 
 ** Maps
-*** Map Definition Syntax                                           :drill:
-SCHEDULED: <2021-07-22 Thu>
+*** Map Definition Syntax
 :PROPERTIES:
-:ID:       b19670c6-7bc8-4a31-a204-7ba104cee460
-:DRILL_LAST_INTERVAL: 16.2644
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 16
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.125
-:DRILL_EASE: 1.3
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-06 Tue 13:12]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564656
 :END:
 
-go: Define a Map: <[NAME := map[KEY_TYPE]VALUE_TYPE{...}]>
+**** Text
 
-*** Map Lookups Return Values                                       :drill:
-SCHEDULED: <2022-01-06 Thu>
+go: Define a Map: {{c1::NAME := map[KEY_TYPE]VALUE_TYPE{...}}}
+
+*** Map Lookups Return Values
 :PROPERTIES:
-:ID:       acefd8a5-c3d7-4a07-950f-94d7523bb3df
-:DRILL_LAST_INTERVAL: 302.317
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-10 Wed 08:41]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564781
 :END:
+
+**** Text
 
 #+BEGIN_SRC go
 map := map[int]string{0: "A", 1: "B"}
 
 value, ok := map[1]
-value == <["B"]>
-ok == <[true]>
+value == {{c1::"B"}}
+ok == {{c1::true}}
 
 value, ok := map[2]
-value == <[""]>
-ok == <[false]>
+value == {{c1::""}}
+ok == {{c1::false}}
 #+END_SRC
 
-*** Maps are Reference Types                                        :drill:
-SCHEDULED: <2022-08-11 Thu>
+*** Maps are Reference Types
 :PROPERTIES:
-:ID:       2b1cf4e9-88f9-4eb1-85e9-a1c66aff4861
-:DRILL_LAST_INTERVAL: 452.8618
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-15 Sat 12:45]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518564881
 :END:
 
-go: Maps are passed by <[reference]>
+**** Text
 
-*** Delete an Element from a Map                                    :drill:
-SCHEDULED: <2021-09-12 Sun>
+go: Maps are passed by {{c1::reference}}
+
+*** Delete an Element from a Map
 :PROPERTIES:
-:ID:       e43836aa-91c6-4527-ae90-1e87db281267
-:DRILL_LAST_INTERVAL: 218.5683
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-05 Fri 13:06]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565160
 :END:
 
-go: <[delete(MAP, ELEM)]> = Remove ELEM from MAP
+**** Text
+
+go: {{c1::delete(MAP, ELEM)}} = Remove ELEM from MAP
 
 ** Concurrency
-*** Create a Channel                                                :drill:
-SCHEDULED: <2021-08-22 Sun>
+*** Create a Channel
 :PROPERTIES:
-:ID:       3b6941bd-7fea-467c-8555-5f0e54624d1f
-:DRILL_LAST_INTERVAL: 42.9502
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.235
-:DRILL_EASE: 1.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-10 Sat 13:15]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565237
 :END:
 
-go: <[CHANNEL = make(chan TYPE)]> = Create a channel CHANNEL of type TYPE
+**** Text
 
-*** Receive From a Channel                                          :drill:
-SCHEDULED: <2022-02-18 Fri>
+go: {{c1::CHANNEL = make(chan TYPE)}} = Create a channel CHANNEL of type TYPE
+
+*** Receive From a Channel
 :PROPERTIES:
-:ID:       589951bd-35ad-4b4f-9e5f-452c64ef7599
-:DRILL_LAST_INTERVAL: 239.4943
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-06-24 Thu 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565325
 :END:
 
-go: <[VAR := <-CHANNEL]> = Receive from CHANNEL into VAR
+**** Text
 
-*** Send Into a Channel                                             :drill:
-SCHEDULED: <2022-08-11 Thu>
+go: {{c1::VAR := <-CHANNEL}} = Receive from CHANNEL into VAR
+
+*** Send Into a Channel
 :PROPERTIES:
-:ID:       e1102df0-d5be-4030-89ac-b748e74a3eb7
-:DRILL_LAST_INTERVAL: 449.2041
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-19 Wed 09:19]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565432
 :END:
 
-go: <[CHANNEL <- VAR]> = Send VAR into CHANNEL
+**** Text
 
-*** Go Channels Operations are Blocking                             :drill:
-SCHEDULED: <2022-05-30 Mon>
+go: {{c1::CHANNEL <- VAR}} = Send VAR into CHANNEL
+
+*** Go Channels Operations are Blocking
 :PROPERTIES:
-:ID:       9a5aa724-bcde-42a8-9e32-4ad9a1c34b5f
-:DRILL_LAST_INTERVAL: 375.6995
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-19 Wed 09:19]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565504
 :END:
 
-go: Channels operations are <[blocking||blocking or non-blocking]>
+**** Text
 
-*** Goroutine                                                       :drill:
-SCHEDULED: <2022-06-29 Wed>
+go: Channels operations are {{c1::blocking::blocking or non-blocking}}
+
+*** Goroutine
 :PROPERTIES:
-:ID:       1297fda7-444f-4bc3-a9aa-bd25a345d132
-:DRILL_LAST_INTERVAL: 422.1049
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-03 Mon 08:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565602
 :END:
 
-go: <[go FUNC()]> = Run FUNC in a goroutine
+**** Text
+
+go: {{c1::go FUNC()}} = Run FUNC in a goroutine
 
 ** Select
-*** Defer a Function Call                                           :drill:
-SCHEDULED: <2022-08-12 Fri>
+*** Defer a Function Call
 :PROPERTIES:
-:ID:       8a1c7f09-06de-41a1-a58d-d46eb3c5639e
-:DRILL_LAST_INTERVAL: 449.2041
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-05-20 Thu 08:49]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565739
 :END:
 
-go: <[defer FUNC()]> = Defer the call of FUNC to the end of the current scope
+**** Text
 
-*** Select                                                          :drill:
-SCHEDULED: <2021-08-14 Sat>
+go: {{c1::defer FUNC()}} = Defer the call of FUNC to the end of the current scope
+
+*** Select
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       728c09dd-0dcc-4280-8155-aa9d10aa7607
-:DRILL_LAST_INTERVAL: 114.6369
-:DRILL_REPEATS_SINCE_FAIL: 8
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 1.38
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-21 Wed 08:40]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518565889
 :END:
 
-go: <[Wait on channel communications]> with <[select]>
+**** Text
+
+go: {{c1::Wait on channel communications}} with {{c2::select}}
 
 * The Go Programming Language
 :LOGBOOK:
@@ -5338,169 +4562,108 @@ CLOCK: [2020-08-15 Sat 14:28]--[2020-08-15 Sat 15:28] =>  1:00
 :END:
 
 ** 3.5 Strings
-*** Raw String Literal                                              :drill:
-SCHEDULED: <2021-08-19 Thu>
+*** Raw String Literal
 :PROPERTIES:
-:ID:       a0c12fe2-d18b-4f88-99c9-c591fc33c855
-:DRILL_LAST_INTERVAL: 171.3985
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-01 Mon 07:43]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566251
 :END:
 
-go: Create a Raw String Literal with <[`STRING`]>
+**** Text
 
-*** Raw String Literal Interpretation                               :drill:
-SCHEDULED: <2021-08-08 Sun>
+go: Create a Raw String Literal with {{c1::`STRING`}}
+
+*** Raw String Literal Interpretation
 :PROPERTIES:
-:ID:       c73d3529-e046-42ee-ae14-684d5199aa13
-:DRILL_LAST_INTERVAL: 161.8845
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-27 Sat 13:08]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566341
 :END:
 
-go: What is interpreted in a Raw String Literal? <[Nothing]>
+**** Text
 
-*** Looping Over String                                             :drill:
-SCHEDULED: <2021-07-21 Wed>
+go: What is interpreted in a Raw String Literal? {{c1::Nothing}}
+
+*** Looping Over String
 :PROPERTIES:
-:ID:       f65c3f80-0ea7-4af9-96be-5da0e9e82908
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-20 Sat 13:59]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566408
 :END:
 
-go: =for ... range STRING= will loop on <[each rune]> of STRING
+**** Text
 
-*** String Slice                                                    :drill:
-SCHEDULED: <2021-07-31 Sat>
+go: =for ... range STRING= will loop on {{c1::each rune}} of STRING
+
+*** String Slice
 :PROPERTIES:
-:ID:       fef7944d-87e6-4743-bcda-5dab6dd5860b
-:DRILL_LAST_INTERVAL: 22.9808
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.294
-:DRILL_EASE: 1.58
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-08 Thu 12:52]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566513
 :END:
 
-go: =STRING[0]= will access the first <[byte]> of STRING
+**** Text
+
+go: =STRING[0]= will access the first {{c1::byte}} of STRING
 
 ** 4.1 Arrays
-*** Compare Arrays                                                  :drill:
-SCHEDULED: <2021-07-29 Thu>
+*** Compare Arrays
 :PROPERTIES:
-:ID:       d5a368b4-66b5-48b0-9cd3-6212bfb2908b
-:DRILL_LAST_INTERVAL: 151.3125
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-02-28 Sun 16:32]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566603
 :END:
 
-go: Arrays can be compared for equality with <[==]>
+**** Text
+
+go: Arrays can be compared for equality with {{c1::==}}
 
 ** 4.2 Slices
-*** Extend a Slice to its Capacity                                  :drill:
-SCHEDULED: <2021-08-01 Sun>
+*** Extend a Slice to its Capacity
 :PROPERTIES:
-:DRILL_CARD_TYPE: show1cloze
-:ID:       74b5eab3-f4ac-4a92-8abe-d023db7bbe45
-:DRILL_LAST_INTERVAL: 23.6014
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-08 Thu 12:57]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566692
 :END:
 
-go: <[Extend a slice's length to its capacity]> with <[SLICE = SLICE[:cap(SLICE)]]>
+**** Text
 
-*** Append a Slice to a Slice                                       :drill:
-SCHEDULED: <2021-07-18 Sun>
+go: {{c1::Extend a slice's length to its capacity}} with {{c2::SLICE = SLICE[:cap(SLICE)]}}
+
+*** Append a Slice to a Slice
 :PROPERTIES:
-:ID:       1dbfbef7-f301-4f0d-ba8e-273cd6460881
-:DRILL_LAST_INTERVAL: 109.2054
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.444
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-31 Wed 08:51]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566791
 :END:
 
-go: Append SLICE2 to SLICE with <[SLICE = append(SLICE, SLICE2...)]>
+**** Text
 
-*** Copy a Slice to Another                                         :drill:
-SCHEDULED: <2021-08-10 Tue>
+go: Append SLICE2 to SLICE with {{c1::SLICE = append(SLICE, SLICE2...)}}
+
+*** Copy a Slice to Another
 :PROPERTIES:
-:ID:       bd64d40e-cdd8-4372-b650-f5eb77691c66
-:DRILL_LAST_INTERVAL: 122.0609
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.444
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-04-10 Sat 11:54]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518566977
 :END:
 
-go: Copy elements of SLICE2 to SLICE with <[copy(SLICE, SLICE2)]>
+**** Text
+
+go: Copy elements of SLICE2 to SLICE with {{c1::copy(SLICE, SLICE2)}}
 
 ** 4.3. Maps
-*** Accessing an Absent Key in a Map                                :drill:
-SCHEDULED: <2021-10-03 Sun>
+*** Accessing an Absent Key in a Map
 :PROPERTIES:
-:ID:       0152e17a-4518-4306-8184-fd42a95839be
-:DRILL_LAST_INTERVAL: 92.3564
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.181
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-07-03 Sat 20:21]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518567264
 :END:
 
-go: Accessing an absent key in a map yields <[its zero value]>
+**** Text
 
-*** Check That an Element is in a Map                               :drill:
-SCHEDULED: <2021-09-25 Sat>
+go: Accessing an absent key in a map yields {{c1::its zero value}}
+
+*** Check That an Element is in a Map
 :PROPERTIES:
-:ID:       370c813d-81da-4262-9808-e0b0a61822c1
-:DRILL_LAST_INTERVAL: 188.0274
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2021-03-21 Sun 10:50]
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1626518567360
 :END:
 
-go: Check that KEY is in MAP with <[_, ok := MAP[KEY]]>
+**** Text
+
+go: Check that KEY is in MAP with {{c1::_, ok := MAP[KEY]}}
 
 * How to Design Programs
 :LOGBOOK:
