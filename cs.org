@@ -3530,7 +3530,7 @@ vim: {{c1::Switch case of the current character}} with {{c2::~}}
 
 **** Text
 
-vim: {{c1::Append Commands to a Macro}} with {{c2::q{Uppercase letter}}}
+vim: {{c1::Append Commands to a Macro}} with {{c2:: q{Uppercase letter} }}
 
 ** Tip 70: Act Upon a Collection of Files
 
