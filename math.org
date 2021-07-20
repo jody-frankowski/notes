@@ -1261,7 +1261,7 @@ math: {{c1::Parallel}} lines have {{c2::the same slope::XXX slope}}
 
 **** Text
 
-math: {{c1::Perpendicular}} lines have {{c2::slopes that are the negative reciprocals of each other||slope}}
+math: {{c1::Perpendicular}} lines have {{c2::slopes that are the negative reciprocals of each other::slope}}
 
 ** 4.7 Graphs of Linear Inequalities
 *** Dashed Boundary Line
@@ -1419,7 +1419,7 @@ Solution: (8, -2)
 
 **** Text
 
-The degree of a Polynomial Term is {{c1::the sum of the exponents of its variables}}
+math: The degree of a Polynomial Term is {{c1::the sum of the exponents of its variables}}
 
 ** 6.4 Special Products
 *** Squared Binomial
@@ -2001,13 +2001,13 @@ Example:
 {{c1::
 \begin{gather*}
 \text{Multiplying the numerator by the reciprocal of the denominator} \\
-\frac{\frac{a}{b}}
-     {\frac{x}{y}} \\
+\frac{ \frac{a}{b} }
+     { \frac{x}{y} } \\
 \frac{a}{b} \cdot \frac{y}{x} \\
 \frac{ay}{bx} \\
 \text{Multiplying the numerator and denominator by the LCD of all the fractions} \\
-\frac{\frac{a}{b}}
-     {\frac{x}{y}} \\
+\frac{ \frac{a}{b} }
+     { \frac{x}{y} } \\
 \frac{\frac{a}{b} \cdot by}
      {\frac{x}{y} \cdot by} \\
 \frac{ay}{bx}
@@ -2027,8 +2027,8 @@ method
 {{c1::
 \begin{gather*}
 \text{Simplify the numerator and denominator} \\
-\frac{\frac{y + x}{xy}}
-     {\frac{x^2 - y^2}{xy}} \\
+\frac{ \frac{y + x}{xy} }
+     { \frac{x^2 - y^2}{xy} } \\
 \text{Multiply the numerator by the reciprocal of the denominator} \\
 \frac{(y + x)xy}{xy(x^2 - y^2)} \\
 \text{Simplify} \\
@@ -2048,8 +2048,8 @@ math: Simplify $\frac{\frac{1}{x} + \frac{1}{y}}{\frac{x}{y} - \frac{y}{x}}$ usi
 {{c1::
 \begin{gather*}
 \text{Mutiply the numerator and denominator by the LCD ($xy$):} \\
-\frac{{\color{red}xy} \cdot \frac{1}{x} + {\color{red}xy} \cdot \frac{1}{y}}
-     {{\color{red}xy} \cdot \frac{x}{y} - {\color{red}xy} \cdot \frac{y}{x}} \\
+\frac{ \color{red}{xy} \cdot \frac{1}{x} + \color{red}{xy} \cdot \frac{1}{y} }
+     { \color{red}{xy} \cdot \frac{x}{y} - \color{red}{xy} \cdot \frac{y}{x} } \\
 \text{Simplify} \\
 \frac{y + x}{x^2 - y^2} \\
 \frac{1}{x - y}
@@ -2227,11 +2227,11 @@ math: {{c1::sqrt(a/b)}} = {{c2::sqrt(a)/sqrt(b)}}
 math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 {{c1::
 \begin{gather*}
-\sqrt{\frac{11}{28}} \\
-\frac{\sqrt{11}}{2\sqrt{7}} \\
-\frac{\sqrt{11} \cdot {\color{red}\sqrt{7}}}{2\sqrt{7} \cdot {\color{red}\sqrt{7}}} \\
-\frac{\sqrt{77}}{2 \cdot 7} \\
-\frac{\sqrt{77}}{14}
+\sqrt{ \frac{11}{28} } \\
+\frac{ \sqrt{11} }{ 2\sqrt{7} } \\
+\frac{ \sqrt{11} \cdot \color{red}{ \sqrt{7} } }{ 2\sqrt{7} \cdot \color{red}{ \sqrt{7} } } \\
+\frac{ \sqrt{77} }{2 \cdot 7} \\
+\frac{ \sqrt{77} }{14}
 \end{gather*}
 }}
 
@@ -2246,8 +2246,8 @@ math: Simplify and rationalize $\sqrt{\frac{11}{28}}$
 math: Simplify $\frac{4}{4 + \sqrt{2}}$
 {{c1::
 \begin{gather*}
-\frac{4}{4 + \sqrt{2}} \\
-\frac{4{\color{red}(4 - \sqrt{2})}}{(4 + \sqrt{2}) {\color{red}(4 - \sqrt{2})}} \\
+\frac{4}{ 4 + \sqrt{2} } \\
+\frac{ 4\color{red}{(4 - \sqrt{2})} }{ (4 + \sqrt{2}) \color{red}{(4 - \sqrt{2})} } \\
 \frac{4(4 - \sqrt{2})}{16 - 2} \\
 \frac{4(4 - \sqrt{2})}{14} \\
 \frac{2(4 - \sqrt{2})}{7}
@@ -2440,7 +2440,7 @@ math: {{c1::$\sqrt[n]{a}$}} (root form) = {{c2::$a^\frac{1}{n}$}} (exponent form
 math: Simplify $16^{-\frac{3}{2}}$
 {{c1::
 \begin{gather*}
-\frac{1}{16^\frac{3}{2}} \\
+\frac{1}{ 16^\frac{3}{2} } \\
 \frac{1}{64}
 \end{gather*}
 }}
@@ -2575,7 +2575,7 @@ x = 4, x = -\frac{5}{2}
 math: The solution to $ax^2 + bx + c = 0, a \neq 0$ is
 {{c1::
 \begin{gather*}
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+x = \frac{ -b \pm \sqrt{b^2 - 4ac} }{2a}
 \end{gather*}
 }}
 
@@ -2599,10 +2599,10 @@ x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} = \frac{-c}{a} + \frac{b^2}{4a^2} \\
 (x + \frac{b}{2a})^2 = \frac{b^2 - 4ac}{4a^2} \\
 \\
 \text{Solve for x} \\
-x + \frac{b}{2a} = \pm \sqrt{\frac{b^2 - 4ac}{4a^2}} \\
-x + \frac{b}{2a} = \pm \frac{\sqrt{b^2 - 4ac}}{2a} \\
-x = - \frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} \\
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+x + \frac{b}{2a} = \pm \sqrt{ \frac{b^2 - 4ac}{4a^2} } \\
+x + \frac{b}{2a} = \pm \frac{ \sqrt{b^2 - 4ac} }{2a} \\
+x = - \frac{b}{2a} \pm \frac{ \sqrt{b^2 - 4ac} }{2a} \\
+x = \frac{ -b \pm \sqrt{b^2 - 4ac} }{2a}
 \end{gather*}
 }}
 
@@ -2621,13 +2621,13 @@ math: Solve $\frac{1}{2}u^2 + \frac{2}{3}u = \frac{1}{3}$ by using the Quadratic
 3u^2 + 4u - 2 = 0 \\
 \\
 \text{Use the quadratic formula} \\
-u = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
-u = \frac{-4 \pm \sqrt{16 + 24}}{6} \\
-u = \frac{-4 \pm \sqrt{40}}{6} \\
+u = \frac{ -b \pm \sqrt{b^2 - 4ac} }{2a} \\
+u = \frac{ -4 \pm \sqrt{16 + 24} }{6} \\
+u = \frac{ -4 \pm \sqrt{40} }{6} \\
 \\
 \text{Simplify} \\
-u = \frac{-4 \pm 2 \sqrt{10}}{6} \\
-u = \frac{-2 \pm \sqrt{10}}{3}
+u = \frac{ -4 \pm 2 \sqrt{10} }{6} \\
+u = \frac{ -2 \pm \sqrt{10} }{3}
 \end{gather*}
 }}
 
@@ -2653,6 +2653,12 @@ math: State the number of solutions of a Quadratic Equation based on its Discrim
 - If {{c1::$b^2 - 4ac > 0$, the equation has two solutions}}
 - If {{c1::$b^2 - 4ac = 0$, the equation has one solution}}
 - If {{c1::$b^2 - 4ac < 0$, the equation has no real solutions}}
+
+**** Extra
+
+The discrimant is the value in the square root in the Quadratic Formula. If it's positive the
+Formula has two real solutions. If it's equal to zero the Formula has only one solution. If it's
+negative the Formula has no real solutions.
 
 *** Identify the Most Appropriate Method to Solve a Quadratic Equation
 :PROPERTIES:

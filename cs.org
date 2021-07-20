@@ -2826,7 +2826,7 @@ cursor with =ga=.
 
 **** Text
 
-vim: {{c1::Insert a character literally}} with {{c2::<C-v>{char}}}
+vim: {{c1::Insert a character literally}} with {{c2:: <C-v>{char} }}
 
 ** Tip 18: Insert Unusual Characters by Digraph
 
@@ -3235,7 +3235,7 @@ vim: {{c1::Move a paragraph backward}} with {{c2::{}}
 
 **** Text
 
-vim: {{c1::Move a paragraph forward}} with {{c2::}}}
+vim: {{c1::Move a paragraph forward}} with {{c2:: } }}
 
 *** =as=
 :PROPERTIES:
@@ -3797,7 +3797,7 @@ Find and replace across multiple files like so:
 **** Text
 
 vim: {{c1::Execute an Ex Command on lines that match a pattern}} with
-{{c2:::g/{pattern}/{cmd}}}
+{{c2:: :g/{pattern}/{cmd} }}
 
 *** =:global!= and =:vglobal=
 :PROPERTIES:
@@ -3808,7 +3808,7 @@ vim: {{c1::Execute an Ex Command on lines that match a pattern}} with
 **** Text
 
 vim: {{c1::Execute an Ex Command on lines that don't match a pattern}} with
-{{c2:::g!/{pattern}/{cmd} OR :v/{pattern}/{cmd}}}
+{{c2:: :g!/{pattern}/{cmd} OR :v/{pattern}/{cmd} }}
 
 *** Reuse the Last Search Pattern in a Global Command
 :PROPERTIES:
@@ -4339,7 +4339,7 @@ type NAME struct {
 
 **** Text
 
-go: Initialize a variable as a struct with ~var struct := {{c1::STRUCT_NAME{FIELD, ...}}}~
+go: Initialize a variable as a struct with ~var struct := {{c1:: STRUCT_NAME{FIELD, ...} }}~
 
 *** Method Definition Syntax
 :PROPERTIES:
@@ -4413,7 +4413,7 @@ cs: According to *Kent Beck*, tests should be {{c1::Assertions of Truth}} not
 
 **** Text
 
-go: Alias a Type: {{c1::type ALIAS ORIGINAL_TYPE}}
+go: Alias a Type: {{c1:: ~type ALIAS ORIGINAL_TYPE~ }}
 
 ** Maps
 *** Map Definition Syntax
@@ -4424,7 +4424,7 @@ go: Alias a Type: {{c1::type ALIAS ORIGINAL_TYPE}}
 
 **** Text
 
-go: Define a Map: {{c1::NAME := map[KEY_TYPE]VALUE_TYPE{...}}}
+go: Define a Map: {{c1:: ~NAME := map[KEY_TYPE]VALUE_TYPE{...}~ }}
 
 *** Map Lookups Return Values
 :PROPERTIES:

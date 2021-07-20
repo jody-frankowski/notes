@@ -585,7 +585,7 @@ optimizations::X and X}}
 
 ****** Text
 
-c: The syntax of Function Attributes is {{c1::__attribute__((ATTRIBUTE))}}
+c: The syntax of Function Attributes is {{c1:: ~__attribute__((ATTRIBUTE))~ }}
 
 ***** Constructor/Deconstructor
 :PROPERTIES:
@@ -4281,8 +4281,7 @@ sh: [[: {{c1::= and ==::... and ...}} do {{c2::string comparisons}}
 
 ***** Text
 
-cmd: gnu: {{c1::dircolors}} is the command that generates the {{c2::LS_COLORS
-variable for ls}}
+cmd: gnu: {{c1::dircolors}} is the command that generates the {{c2:: ~LS_COLORS~ variable for ls }}
 
 **** shebang ~#!~
 
