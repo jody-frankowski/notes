@@ -2241,7 +2241,7 @@ Hello World
 
 ***** Text
 
-linking: The equivalent of {{c1::LD_PRELOAD}} on Linux is {{c2::DYLD_INSERT_LIBRARIES}} on macOS
+linking: The equivalent of {{c1:: ~LD_PRELOAD~ }} on Linux is {{c2:: ~DYLD_INSERT_LIBRARIES~ }} on macOS
 
 ** Linux
 *** Boot Process

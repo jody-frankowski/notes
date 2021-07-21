@@ -312,11 +312,13 @@ math: proof: (a/b)/c = a/bc
 
 math: proof: 1/ab = 1/a * 1/b
 {{c1::
+#+BEGIN_SRC
 1/ab is the inverse of ab, so
 ab * 1/ab must be equal to 1
 ab * (1/a * 1/b) = a * 1/a * b * 1/b
                  = 1 * 1
                  = 1
+#+END_SRC
 }}
 
 *** Proof of (a/b) * (c/d) = ab/cd
@@ -330,10 +332,12 @@ ab * (1/a * 1/b) = a * 1/a * b * 1/b
 
 math: proof: (a/b) * (c/d) = ac/bd
 {{c1::
+#+BEGIN_SRC
 (a/b) * (c/d) = a * 1/b * c * 1/d
               = a * c * 1/b * 1/d
               = a * c * 1/bd (multiplicative inverse is the product of multiplicative inverses)
               = ac/bd
+#+END_SRC
 }}
 
 * OpenStax - Prealgebra 2e
@@ -357,7 +361,7 @@ CLOCK: [2020-07-21 Tue 09:44]--[2020-07-21 Tue 13:44] =>  4:00
 
 **** Text
 
-math: {{c1::least_common_multiple(a,b)}} = {{c2::the smallest number that is divisible by both a and b}}
+math: {{c1:: ~least_common_multiple(a,b)~ }} = {{c2::the smallest number that is divisible by both a and b}}
 
 *** Least Common Multiple Example
 :PROPERTIES:
@@ -367,7 +371,7 @@ math: {{c1::least_common_multiple(a,b)}} = {{c2::the smallest number that is div
 
 **** Text
 
-math: least_common_multiple(4, 6) = {{c1::12}}
+math: ~least_common_multiple(4, 6)~ = {{c1::12}}
 
 *** Greatest Common Divisor
 :PROPERTIES:
@@ -377,7 +381,7 @@ math: least_common_multiple(4, 6) = {{c1::12}}
 
 **** Text
 
-math: {{c1::greatest_common_divisor(a,b)}} = {{c2::the greatest number that divides both a and b}}
+math: {{c1:: ~greatest_common_divisor(a,b)~ }} = {{c2::the greatest number that divides both a and b}}
 
 *** Greatest Common Divisor Example
 :PROPERTIES:
@@ -387,7 +391,7 @@ math: {{c1::greatest_common_divisor(a,b)}} = {{c2::the greatest number that divi
 
 **** Text
 
-math: greatest_common_divisor(8, 12) = {{c1::4}}
+math: ~greatest_common_divisor(8, 12)~ = {{c1::4}}
 
 *** Greatest Common Divisor Use
 :PROPERTIES:
@@ -1251,7 +1255,7 @@ he travel and still keep within his $200 budget?
 
 **** Text
 
-math: {{c1::Parallel}} lines have {{c2::the same slope::XXX slope}}
+math: {{c1::Parallel}} lines have {{c2::the same}} slope
 
 *** Perpendicular Lines
 :PROPERTIES:
