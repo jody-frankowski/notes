@@ -2789,8 +2789,8 @@ math: State the number of x-intercepts of a Parabola based on its Discriminant v
 **** Text
 
 math: The {{c1::y-coordinate of the vertex}} of the graph of a quadratic equation is the:
-- {{c1::minimum value of the equation if the parabola opens upward}}
-- {{c1::maximum value of the equation if the parabola opens downward}}
+- {{c2::minimum value of the equation if the parabola opens upward}}
+- {{c2::maximum value of the equation if the parabola opens downward}}
 
 *** Minimum or Maximum Example
 :PROPERTIES:
