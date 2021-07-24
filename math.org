@@ -2698,7 +2698,7 @@ math: For a Quadratic Equation $y = ax^2 + bx + c$ the parabola opens
 
 **** Text
 
-math: The {{c1::Vertex}} of a Parabola is {{c2::its highest or lowest point}}
+math: The {{c1::Vertex}} of a Parabola is {{c2::its highest or lowest}} point
 
 *** Parabola Vertex/Axis of Symmetry
 :PROPERTIES:

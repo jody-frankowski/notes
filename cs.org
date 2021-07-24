@@ -226,7 +226,7 @@ lisp: Lisp uses the {{c1::Applicative Order}} Evalution Strategy
 
 ****** Text
 
-lisp: *Lisp* uses the *Applicative Order* Evalution Strategy {{c1::because it avoids evaluating the
+lisp: *Lisp* uses the *Applicative Order* Evalution Strategy because {{c1::it avoids evaluating the
 same expressions multiple times}}
 
 **** 1.1.6 Conditional Expressions and Predicates
@@ -282,7 +282,7 @@ elisp: prototype: cond:
 {{c1::
 #+BEGIN_SRC emacs-lisp
 (cond (CONDITION THEN...)...
-      (t THEN))
+      (t THEN...))
 #+END_SRC
 }}
 
@@ -290,7 +290,7 @@ scheme: prototype: cond:
 {{c1::
 #+BEGIN_SRC emacs-lisp
 (cond (CONDITION THEN...)...
-      (else THEN))
+      (else THEN...))
 #+END_SRC
 }}
 
@@ -3172,6 +3172,7 @@ vim: best practice: Use the Search Command to Modify (after an operator)
 
 vim: An *Exclusive* Character Motion means that the motion will include
 {{c1::only the start position}}
+
 vim: An *Inclusive* Character Motion means that the motion will include
 {{c1::the start and end positions}}
 
@@ -4074,7 +4075,7 @@ cs: The TDD Cycle steps are:
 
 go: Test functions need to:
 - {{c1::Be called Test...()}}
-- {{c1::Be in a ..._test.go file}}
+- {{c1::Be in a ~..._test.go~ file}}
 
 *** Tests are Run With
 :PROPERTIES:
