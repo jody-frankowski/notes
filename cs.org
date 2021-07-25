@@ -4162,7 +4162,7 @@ go: Declare a slice with ~var slice {{c1::[]TYPE}}~
 
 **** Text
 
-go: function: {{c1::len()}} returns {{c1::the length of an array or slice}}
+go: function: {{c1::len()}} returns {{c2::the length of an array or slice}}
 
 *** cap()
 :PROPERTIES:
