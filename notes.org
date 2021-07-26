@@ -740,7 +740,7 @@ long
 
 ******* Text
 
-c: {{c1::intN_t}} is {{c2::an integer type that is N bits long}}
+c: {{c1:: ~intN_t~ }} is {{c2::an integer type that is N bits long}}
 
 ****** int_leastN_t
 :PROPERTIES:
@@ -750,7 +750,7 @@ c: {{c1::intN_t}} is {{c2::an integer type that is N bits long}}
 
 ******* Text
 
-c: {{c1::int_leastN_t}} is {{c2::the smallest possible integer type that is at least N
+c: {{c1:: ~int_leastN_t~ }} is {{c2::the smallest possible integer type that is at least N
 bits long}}
 
 ****** int_fastN_t
@@ -761,7 +761,7 @@ bits long}}
 
 ******* Text
 
-c: {{c1::int_fastN_t}} is {{c2::the fastest possible integer type that is at least N
+c: {{c1:: ~int_fastN_t~ }} is {{c2::the fastest possible integer type that is at least N
 bits long}}
 
 ****** intmax_t
@@ -772,7 +772,7 @@ bits long}}
 
 ******* Text
 
-c: {{c1::intmax_t}} is {{c2::the largest integer type}}
+c: {{c1:: ~intmax_t~ }} is {{c2::the largest integer type}}
 
 *** TODO FINISH Compounds Literals
 
@@ -3018,6 +3018,7 @@ doesn't change}} the outer reference
 
 ***** Text
 
+python:
 #+BEGIN_SRC python
 def reassign(list):
   list = [1, 2]
@@ -3036,6 +3037,7 @@ list == {{c1::[0]}}
 
 ***** Text
 
+python:
 #+BEGIN_SRC python
 def append(list):
   list.append(1)
@@ -3054,6 +3056,7 @@ list == {{c1::[0, 1]}}
 
 ***** Text
 
+python:
 #+BEGIN_SRC python
 def reassign(int):
   int = 1
