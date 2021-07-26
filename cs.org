@@ -4661,7 +4661,7 @@ go: Accessing an absent key in a map yields {{c1::its zero value}}
 
 **** Text
 
-go: Check that KEY is in MAP with {{c1::_, ok := MAP[KEY]}}
+go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
