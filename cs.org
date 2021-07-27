@@ -3286,7 +3286,7 @@ vim: {{c1::Select a "<" block}} with {{c2::a<}}
 
 **** Text
 
-vim: {{c1::Select a "(" block}} with {{c2::ab or a(::X OR Y}}
+vim: {{c1::Select a "(" block}} with {{c2::ab}} or {{c2::a(}}
 
 *** =a{= or =aB=
 :PROPERTIES:
@@ -3296,7 +3296,7 @@ vim: {{c1::Select a "(" block}} with {{c2::ab or a(::X OR Y}}
 
 **** Text
 
-vim: <{{c1::elect a "{" block}} with {{c2::aB or a{::X OR Y}}
+vim: {{c1::Select a "{" block}} with {{c2::aB}} or {{c2::a{}}
 
 *** =at=
 :PROPERTIES:
@@ -3393,7 +3393,7 @@ vim: {{c1::Go to the next newer change position}} with {{c2::g,}}
 
 **** Text
 
-vim: {{c1::Get back to insertion mode at the place of last insertion}} with {{c2::gi}}
+vim: {{c1::Get back to insertion mode at the last place of insertion}} with {{c2::gi}}
 
 ** Tip 58: Jump to the Filename Under the Cursor
 

@@ -412,7 +412,7 @@ math: To reduce a fraction {{c1::divide the numerator and denominator by their g
 
 **** Text
 
-math: a/b is an Irreducible Fraction if {{c1::gcd(a, b) = 1}}
+math: a/b is an Irreducible Fraction if {{c1::greatest_common_divisor(a, b) = 1}}
 
 *** Irreducible Fraction
 :PROPERTIES:
@@ -1189,7 +1189,8 @@ of all the fractions (you need to multiply by a number that is divisible by all 
 
 **** Text
 
-math: An {{c1::Interval Notation}} is written as {{c2::[X, Y] when X and Y are included or (X, Y) if not}}
+math: An {{c1::Interval Notation}} is written as {{c2::[X, Y] when X and Y are included or (X, Y)
+otherwise}}
 
 *** Dividing or Multiplying an Inequality by a Negative Number
 :PROPERTIES:
