@@ -2898,7 +2898,7 @@ Execute a Normal command on a range with =:[range]norm[al] {commands}=.
 
 **** Text
 
-vim: {{c1::Insert the content of a Register}} with {{c2::=<C-r>{register}=}}
+vim: {{c1::Insert the content of a Register}} with {{c2:: ~<C-r>{register}~ }}
 
 *** C-r{register} at the Command Line or in Insert Mode
 :PROPERTIES:
@@ -2908,7 +2908,7 @@ vim: {{c1::Insert the content of a Register}} with {{c2::=<C-r>{register}=}}
 
 **** Text
 
-vim: =<C-r>{register}= can be used from the {{c1::Command Line}} or in {{c1::Insert Mode}}
+vim: ~<C-r>{register}~ can be used from the {{c1::Command Line}} or in {{c1::Insert Mode}}
 
 ** Tip 28: Execute a Command on One or More Consecutive Lines
 
