@@ -4665,8 +4665,512 @@ go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
+CLOCK: [2021-07-28 Mon 15:00]--[2021-07-28 Mon 17:00] =>  2:00
+CLOCK: [2021-07-27 Mon 16:39]--[2021-07-27 Mon 18:39] =>  2:00
+CLOCK: [2021-07-27 Mon 13:39]--[2021-07-27 Mon 15:39] =>  2:00
+CLOCK: [2021-07-26 Mon 13:32]--[2021-07-26 Mon 15:32] =>  2:00
 CLOCK: [2020-11-15 Sun 13:06]--[2020-11-15 Sun 15:06] =>  2:00
 :END:
+
+The code blocks for this book depend on the following Emacs configuration:
+
+#+BEGIN_SRC emacs-lisp
+;; Racket mode
+(use-package racket-mode)
+
+;; Add support for Racket in org-babel
+(straight-use-package '(ob-racket :type git :repo "https://github.com/DEADB17/ob-racket"))
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((racket . t)))
+#+END_SRC
+
+
+** I Fixed-Size Data
+*** Exercise 1
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define x 3)
+(define y 4)
+
+(sqrt (+ (sqr x) (sqr y)))
+#+END_SRC
+
+#+RESULTS:
+: 5
+
+*** Exercise 2
+
+Exercise 2. Add the following two lines to the definitions area:
+
+#+BEGIN_SRC racket
+(define prefix "hello")
+(define suffix "world")
+#+END_SRC
+
+Then use string primitives to create an expression that concatenates prefix and suffix and adds "_"
+between them. When you run this program, you will see "hello_world" in the interactions area.
+
+See exercise 1 for how to create expressions using DrRacket.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define prefix "hello")
+(define suffix "world")
+(string-append prefix "_" suffix)
+#+END_SRC
+
+#+RESULTS:
+: hello_world
+
+*** Exercise 3
+
+Exercise 3. Add the following two lines to the definitions area:
+
+#+BEGIN_SRC racket
+(define str "helloworld")
+(define i 5)
+#+END_SRC
+
+Then create an expression using string primitives that adds "_" at position i. In general this means
+the resulting string is longer than the original one; here the expected result is "hello_world".
+
+Position means i characters from the left of the string, but programmers start counting at 0. Thus,
+the 5th letter in this example is "w", because the 0th letter is "h". Hint When you encounter such
+“counting problems” you may wish to add a string of digits below str to help with counting:
+
+#+BEGIN_SRC racket
+(define str "helloworld")
+(define ind "0123456789")
+(define i 5)
+#+END_SRC
+
+See exercise 1 for how to create expressions in DrRacket.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define str "helloworld")
+(define i 5)
+(string-append (substring str 0 i) "_" (substring str i))
+#+END_SRC
+
+#+RESULTS:
+: hello_world
+
+*** Exercise 4
+
+Exercise 4. Use the same setup as in exercise 3 to create an expression that deletes the ith
+position from str. Clearly this expression creates a shorter string than the given one. Which values
+for i are legitimate?
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define str "helloworld")
+(define i 5)
+(string-append (substring str 0 i) (substring str (+ i 1)))
+#+END_SRC
+
+#+RESULTS:
+: helloorld
+
+*** Exercise 5
+
+Exercise 5. Use the 2htdp/image library to create the image of a simple boat or tree. Make sure you
+can easily change the scale of the entire image.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define width 200)
+(define height 200)
+(place-images (list
+               (right-triangle (/ width 3) (/ height 3) "outline" "black")
+               (rectangle (/ width 20) (/ height 2) "solid" "black")
+               (rectangle (/ width 2) (/ height 5) "solid" "black")
+               (rectangle width (/ height 5) "solid" "blue"))
+              (list
+               (make-posn (* width (/ 4 6)) (* height (/ 3 7)))
+               (make-posn (/ width 2) (/ height 2))
+               (make-posn (/ width 2) (* height (/ 8 10)))
+               (make-posn (/ width 2) (* height (/ 9 10))))
+              (empty-scene width height))
+#+END_SRC
+
+*** Exercise 6
+
+Exercise 6. Add the following line to the definitions area:
+
+#+BEGIN_SRC racket
+(define cat IMAGE)
+#+END_SRC
+
+Create an expression that counts the number of pixels in the image.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define cat (rectangle 10 10 "solid" "black"))
+
+(* (image-width cat) (image-height cat))
+#+END_SRC
+
+#+RESULTS:
+: 100
+
+*** Exercise 7
+
+Exercise 7. Boolean expressions can express some everyday problems. Suppose you want to decide
+whether today is an appropriate day to go to the mall. You go to the mall either if it is not sunny
+or if today is Friday (because that is when stores post new sales items).
+
+Here is how you could go about it using your new knowledge about Booleans. First add these two lines
+to the definitions area of DrRacket:
+
+#+BEGIN_SRC racket
+(define sunny #true)
+(define friday #false)
+#+END_SRC
+
+Now create an expression that computes whether sunny is false or friday is true. So in this
+particular case, the answer is #false. (Why?)
+
+See exercise 1 for how to create expressions in DrRacket. How many combinations of Booleans can you
+associate with sunny and friday?
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define sunny #true)
+(define friday #false)
+(or (not sunny) friday)
+#+END_SRC
+
+#+RESULTS:
+: #false
+
+*** Exercise 8
+
+Exercise 8. Add the following line to the definitions area:
+
+#+BEGIN_SRC racket
+(define cat IMAGE)
+#+END_SRC
+
+Create a conditional expression that computes whether the image is tall or wide. An image should be
+labeled "tall" if its height is larger than or equal to its width; otherwise it is "wide". See
+exercise 1 for how to create such expressions in DrRacket; as you experiment, replace the cat with a
+rectangle of your choice to ensure that you know the expected answer.
+
+Now try the following modification. Create an expression that computes whether a picture is "tall",
+"wide", or "square".
+
+**** Solution
+
+#+BEGIN_SRC racket :results output
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define cat (rectangle 10 10 "solid" "black"))
+
+(if (>= (image-height cat) (image-width cat))
+    "tall"
+    "wide")
+
+(cond ((> (image-height cat) (image-width cat)) "tall")
+      ((= (image-height cat) (image-width cat)) "square")
+      (else "wide"))
+#+END_SRC
+
+#+RESULTS:
+: "tall"
+: "square"
+
+*** Exercise 9
+
+Exercise 9. Add the following line to the definitions area of DrRacket:
+
+#+BEGIN_SRC racket
+(define in ...)
+#+END_SRC
+
+Then create an expression that converts the value of in to a positive number. For a String, it
+determines how long the String is; for an Image, it uses the area; for a Number, it decrements the
+number by 1, unless it is already 0 or negative; for #true it uses 10 and for #false 20. Hint Check
+out cond from the Prologue: How to Program (again).
+
+See exercise 1 for how to create expressions in DrRacket.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define (convert in)
+  (cond ((string? in) (string-length in))
+        ((image? in) (* (image-width in) (image-height in)))
+        ((number? in) (if (<= in 0) in (- in 1)))
+        ((boolean? in) (if in 10 20))))
+
+(and (= (convert "abc") 3)
+     (= (convert (rectangle 10 10 "solid" "black")) 100)
+     (= (convert 1) 0)
+     (= (convert -2) -2)
+     (= (convert true) 10)
+     (= (convert false) 20))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 11
+
+Exercise 11. Define a function that consumes two numbers, x and y, and that computes the distance of
+point (x,y) to the origin.
+
+In exercise 1 you developed the right-hand side of this function for concrete values of x and y. Now
+add a header.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (distance x y)
+  (sqrt (+ (sqr x) (sqr y))))
+
+(and (= (distance 1 1) (sqrt 2))
+     (= (distance 0 1) 1))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 12
+
+Exercise 12. Define the function cvolume, which accepts the length of a side of an equilateral cube
+and computes its volume. If you have time, consider defining csurface, too.
+
+Hint An equilateral cube is a three-dimensional container bounded by six squares. You can determine
+the surface of a cube if you know that the square’s area is its length multiplied by itself. Its
+volume is the length multiplied with the area of one of its squares. (Why?)
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (cvolume length)
+  (* (sqr length) length))
+
+(define (csurface length)
+  (* (sqr length) 6))
+
+(and (= (cvolume 1) 1)
+     (= (cvolume 2) 8)
+     (= (csurface 1) 6)
+     (= (csurface 2) 24))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 13
+
+Exercise 13. Define the function string-first, which extracts the first 1String from a non-empty
+string.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (string-first string)
+  (if (= (string-length string) 0)
+      ""
+      (string-ith string 0)))
+
+(and (string=? (string-first "abc") "a")
+     (string=? (string-first "") ""))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 14
+
+Exercise 14. Define the function string-last, which extracts the last 1String from a non-empty
+string.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (string-last string)
+  (if (= (string-length string) 0)
+      ""
+      (string-ith string (- (string-length string) 1))))
+
+(and (string=? (string-last "abc") "c")
+     (string=? (string-last "") ""))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 15
+
+Exercise 15. Define ==>. The function consumes two Boolean values, call them sunny and friday. Its
+answer is #true if sunny is false or friday is true. Note Logicians call this Boolean operation
+implication, and they use the notation sunny => friday for this purpose.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (==> sunny friday)
+  (or (not sunny) friday))
+
+(and (eq? (==> true true) true)
+     (eq? (==> false true) true)
+     (eq? (==> true false) false)
+     (eq? (==> false false) true))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 16
+
+Exercise 16. Define the function image-area, which counts the number of pixels in a given image. See
+exercise 6 for ideas.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define (image-area image)
+  (* (image-width image) (image-height image)))
+
+(and (= (image-area (rectangle 10 10 "solid" "black")) 100)
+     (= (image-area (rectangle 20 20 "solid" "black")) 400))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 17
+
+Exercise 17. Define the function image-classify, which consumes an image and conditionally produces
+"tall" if the image is taller than wide, "wide" if it is wider than tall, or "square" if its width
+and height are the same. See exercise 8 for ideas.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define (image-classify image)
+  (cond ((> (image-height image) (image-width image)) "tall")
+        ((= (image-height image) (image-width image)) "square")
+        (else "wide")))
+
+(and (string=? (image-classify (rectangle 10 20 "solid" "black")) "tall")
+     (string=? (image-classify (rectangle 10 10 "solid" "black")) "square")
+     (string=? (image-classify (rectangle 20 10 "solid" "black")) "wide"))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 18
+
+Exercise 18. Define the function string-join, which consumes two strings and appends them with "_"
+in between. See exercise 2 for ideas.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (string-join string1 string2)
+  (string-append string1 "_" string2))
+
+(string=? (string-join "hello" "world") "hello_world")
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 19
+
+Exercise 19. Define the function string-insert, which consumes a string str plus a number i and
+inserts "_" at the ith position of str. Assume i is a number between 0 and the length of the given
+string (inclusive). See exercise 3 for ideas. Ponder how string-insert copes with "".
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (string-insert str i)
+  (string-append (substring str 0 i) "_" (substring str i)))
+
+(and (string=? (string-insert "helloworld" 5) "hello_world")
+     (string=? (string-insert "" 0) "_"))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+
+*** Exercise 20
+
+Exercise 20. Define the function string-delete, which consumes a string plus a number i and deletes
+the ith position from str. Assume i is a number between 0 (inclusive) and the length of the given
+string (exclusive). See exercise 4 for ideas. Can string-delete deal with empty strings?
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (string-delete str i)
+  (if (= (string-length str) 0)
+      ""
+      (string-append (substring str 0 i) (substring str (+ i 1)))))
+
+(and (string=? (string-delete "hello_world" 5) "helloworld")
+     (string=? (string-delete "" 0) ""))
+#+END_SRC
+
+#+RESULTS:
+: #true
 
 * Ruby Koans
 :LOGBOOK:
