@@ -3350,7 +3350,7 @@ Enable the /matchit/ plugin so that =%= can jump between more matching keywords
 
 **** Text
 
-vim: {{c1::Go to the *Matching* or *Surrounding* Brace::X or Y}} with {{c2::%}}
+vim: {{c1::Go to the *Matching*}} or {{c1::*Surrounding* Brace}} with {{c2::%}}
 
 ** Tip 56: Traverse the Jump List
 
@@ -4234,7 +4234,7 @@ go: The size of arrays {{c1::is fixed::is fixed or not}}
 
 **** Text
 
-go: A slice is {{c1::a pointer to an array segment with a length and a total capacity}}
+go: A slice is {{c1::a pointer to an array along with its length and total capacity}}
 
 *** Grow Slices
 :PROPERTIES:
