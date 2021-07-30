@@ -3350,7 +3350,7 @@ Enable the /matchit/ plugin so that =%= can jump between more matching keywords
 
 **** Text
 
-vim: {{c1::Go to the *Matching*}} or {{c1::*Surrounding* Brace}} with {{c2::%}}
+vim: {{c1::Go to the Matching}} or {{c1::Surrounding Brace}} with {{c2::%}}
 
 ** Tip 56: Traverse the Jump List
 

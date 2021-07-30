@@ -2602,7 +2602,7 @@ linux: fs: Files *ACLs* are implemented with the {{c1::Extended File Attributes}
 
 ***** Text
 
-linux: fs: Files *Capabilities* are implemented {{c1::through the use of Extended File Attributes}}
+linux: fs: Files *Capabilities* are implemented with the {{c1::Extended File Attributes}}
 
 **** File and Extended Attributes
 :PROPERTIES:
