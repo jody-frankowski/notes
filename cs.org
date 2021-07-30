@@ -4665,6 +4665,7 @@ go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
+CLOCK: [2021-07-30 Mon 13:00]--[2021-07-30 Mon 15:00] =>  2:00
 CLOCK: [2021-07-28 Mon 15:00]--[2021-07-28 Mon 17:00] =>  2:00
 CLOCK: [2021-07-27 Mon 16:39]--[2021-07-27 Mon 18:39] =>  2:00
 CLOCK: [2021-07-27 Mon 13:39]--[2021-07-27 Mon 15:39] =>  2:00
@@ -5171,6 +5172,247 @@ string (exclusive). See exercise 4 for ideas. Can string-delete deal with empty 
 
 #+RESULTS:
 : #true
+
+*** Exercise 21
+
+Exercise 21. Use DrRacket’s stepper to evaluate (ff (ff 1)) step-by-step. Also try (+ (ff 1) (ff
+1)). Does DrRacket’s stepper reuse the results of computations?
+
+**** Solution
+
+No.
+
+*** Exercise 23
+
+Exercise 23. The first 1String in "hello world" is "h". How does the following function compute this
+result?
+
+#+BEGIN_SRC racket
+(define (string-first s)
+  (substring s 0 1))
+#+END_SRC
+
+Use the stepper to confirm your ideas.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(string-first "hello")
+;; ==
+(substring "hello" 0 1)
+;; ==
+"h"
+#+END_SRC
+
+*** Exercise 24
+
+Exercise 24. Here is the definition of ==>: y
+
+#+BEGIN_SRC racket
+(define (==> x y)
+  (or (not x) y))
+#+END_SRC
+
+Use the stepper to determine the value of (==> #true #false).
+
+**** Solution
+
+~(==> #true #false)~ evaluates to ~#false~.
+
+*** Exercise 25
+
+Exercise 25. Take a look at this attempt to solve exercise 17:
+
+#+BEGIN_SRC racket
+(define (image-classify img)
+  (cond
+    [(>= (image-height img) (image-width img)) "tall"]
+    [(= (image-height img) (image-width img)) "square"]
+    [(<= (image-height img) (image-width img)) "wide"]))
+#+END_SRC
+
+Does stepping through an application suggest a fix?
+
+**** Solution
+
+Yes. The conditions should be ">", "=" and "<".
+
+*** Exercise 26
+
+Exercise 26. What do you expect as the value of this program:
+
+#+BEGIN_SRC racket
+(define (string-insert s i)
+  (string-append (substring s 0 i)
+                 "_"
+                 (substring s i)))
+
+(string-insert "helloworld" 6)
+#+END_SRC
+
+Confirm your expectation with DrRacket and its stepper.
+
+**** Solution
+
+The result will be "hellow_orld".
+
+*** Exercise 29
+
+Exercise 29. After studying the costs of a show, the owner discovered several ways of lowering the
+cost. As a result of these improvements, there is no longer a fixed cost; a variable cost of $1.50
+per attendee remains.
+
+Modify both programs to reflect this change. When the programs are modified, test them again with
+ticket prices of $3, $4, and $5 and compare the results.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (attendees ticket-price)
+  (- 120 (* (- ticket-price 5.0) (/ 15 0.1))))
+
+(define (revenue ticket-price)
+  (* ticket-price (attendees ticket-price)))
+
+(define (cost ticket-price)
+  (* 1.5 (attendees ticket-price)))
+
+(define (profit ticket-price)
+  (- (revenue ticket-price)
+    (cost ticket-price)))
+
+(profit 3)
+(profit 4)
+(profit 5)
+#+END_SRC
+
+#+RESULTS:
+: 630
+: 675
+: 420
+
+*** Exercise 30
+
+Exercise 30. Define constants for the price optimization program at the movie theater so that the
+price sensitivity of attendance (15 people for every 10 cents) becomes a computed constant.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define PRICE-SENSITIVITY (/ 15 0.1))
+#+END_SRC
+
+*** Exercise 34
+
+Exercise 34. Design the function string-first, which extracts the first character from a non-empty
+string. Don’t worry about empty strings.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; String -> String
+; Returns the first character of str.
+; given: "abc", expect: "a"
+(define (string-first str)
+  (string-ith str 0))
+
+(string-first "abc")
+#+END_SRC
+
+#+RESULTS:
+: a
+
+*** Exercise 35
+
+Exercise 35. Design the function string-last, which extracts the last character from a non-empty
+string.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; String -> String
+; Returns the last character of str.
+; given "abc", expect "c"
+(define (string-last str)
+ (string-ith str (- (string-length str) 1)))
+
+(string-last "abc")
+#+END_SRC
+
+#+RESULTS:
+: c
+
+*** Exercise 36
+
+Exercise 36. Design the function image-area, which counts the number of pixels in a given image.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+; Image -> Number
+; Returns the number of pixels in img.
+; given (rectangle 20 10), expect 200
+(define (image-area img)
+  (* (image-width img) (image-height img)))
+
+(image-area (rectangle 20 10 "solid" "black"))
+#+END_SRC
+
+#+RESULTS:
+: 200
+
+*** Exercise 37
+
+Exercise 37. Design the function string-rest, which produces a string like the given one with the
+first character removed.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; String -> String
+; Returns str with its first character removed
+; given "abc", expect "bc"
+(define (string-rest str)
+  (substring str 1))
+
+(string-rest "abc")
+#+END_SRC
+
+#+RESULTS:
+: bc
+
+*** Exercise 38
+
+Exercise 38. Design the function string-remove-last, which produces a string like the given one with
+the last character removed.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; String -> String
+; Returns str with last first character removed
+; given "abc", expect "ab"
+(define (string-remove-last str)
+  (substring str 0 (- (string-length str) 1)))
+
+(string-remove-last "abc")
+#+END_SRC
+
+#+RESULTS:
+: ab
 
 * Ruby Koans
 :LOGBOOK:
