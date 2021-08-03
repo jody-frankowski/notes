@@ -130,7 +130,7 @@ math: A {{c1::Mixed Number}} is {{c2::the sum of a non-zero integer and a proper
 
 **** Text
 
-math: A {{c1::Mixed Number}} is noted as {{c2::a b/c}}
+math: A {{c1::Mixed Number}} is noted as {{c2::$a\frac{b}{c}$}}
 
 ** Chapter VIII – Of the Properties of Fractions
 *** Multiplying the Numerator and Denominator
