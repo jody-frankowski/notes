@@ -124,7 +124,7 @@ OR shorter version:
 
 ****** Text
 
-lisp: prototype: Define a Lambda with {{c1:: ~(lambda (args...) expressions)~ }}
+lisp: prototype: Define a Lambda with {{c1:: ~(lambda (args...) expressions...)~ }}
 
 ****** Extra
 
@@ -4108,7 +4108,7 @@ go: Public Functions start with {{c1::an Uppercase Letter}}
 
 go: Example functions need to:
 - {{c1::Be called Example...()}}
-- {{c1::Be in a ..._test.go file}}
+- {{c1::Be in a ~..._test.go~ file}}
 
 ** Iteration
 *** Benchmark Functions
@@ -4121,7 +4121,7 @@ go: Example functions need to:
 
 go: Benchmark functions need to:
 - {{c1::Be called Benchmark...()}}
-- {{c1::Be in a ..._test.go file}}
+- {{c1::Be in a ~..._test.go~ file}}
 
 *** Benchmarks are Run With
 :PROPERTIES:
