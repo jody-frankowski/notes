@@ -2211,7 +2211,7 @@ time = 1000/rate = 1000/400 = 2.5
 
 **** Text
 
-math: {{c1::sqrt(ab)}} = {{c2::sqrt(a)*sqrt(b)}}
+math: {{c1::$\sqrt{ab}$}} = {{c2::$\sqrt{a}\sqrt{b}$}}
 
 *** Quotient Property of Square Roots
 :PROPERTIES:
@@ -2221,7 +2221,7 @@ math: {{c1::sqrt(ab)}} = {{c2::sqrt(a)*sqrt(b)}}
 
 **** Text
 
-math: {{c1::sqrt(a/b)}} = {{c2::sqrt(a)/sqrt(b)}}
+math: {{c1::$\sqrt{ \frac{a}{b} }$}} = {{c2::$\frac{ \sqrt{a} }{ \sqrt{b} }$}}
 
 ** 9.5 Divide Square Roots
 *** Simplify a Fraction with a Monomial

@@ -2753,7 +2753,7 @@ vim: {{c1::Increment the next number on the line}} with {{c2::<C-a>}}
 
 **** Text
 
-vim: {{c1::*Prefix* <C-x> or <C-a> with a *number*}} to {{c2::decrement or increment the
+vim: {{c1:: *Prefix* <C-x> or <C-a> with a *number* }} to {{c2::decrement or increment the
 next number on the line by that number}}
 
 ** Tip 11: Don’t Count If You Can Repeat
