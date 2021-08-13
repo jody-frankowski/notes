@@ -4098,7 +4098,7 @@ POSIX stands for {{c1::Portable Operating System Interface}}
 
 ****** Text
 
-POSIX is a {{c1::set of standards::not the goal)}}
+POSIX is a {{c1::set of standards::not the goal}}
 
 ***** Why
 :PROPERTIES:
