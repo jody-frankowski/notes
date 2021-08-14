@@ -400,7 +400,7 @@ For example it is used in the =string.h= header of libbsd as follows:
 
 ***** Text
 
-c: {{c1::#include_next}} can be used to include {{c2::customized headers}}, eg.
+c: {{c1:: ~#include_next~ }} can be used to include {{c2::customized headers}}, eg.
 stdlib.h
 
 *** Architectures
