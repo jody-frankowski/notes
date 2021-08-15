@@ -5455,6 +5455,11 @@ then higher when he needed to scale more.
 :Source: http://www.haskellforall.com/2020/10/why-i-prefer-functional-programming.html
 :Source+: https://news.ycombinator.com/item?id=24949882
 :END:
+*** DONE Software Engineering's Greatest Hits
+:PROPERTIES:
+:Source: https://youtu.be/HrVtA-ue-x0
+:Source+: https://news.ycombinator.com/item?id=28178257
+:END:
 ** Data Science
 *** DONE My Journey: From Psych Grad to VP of Data Science at Lazada
 :PROPERTIES:
@@ -5944,6 +5949,10 @@ A critique of the PhD from 1903!
 :PROPERTIES:
 :Source: https://forklog.media/after-10-years-in-tech-isolation-im-now-outsider-to-things-i-once-had-mastered/
 :Source+: https://news.ycombinator.com/item?id=23475594
+:END:
+*** DONE What Everyone in Tech Should Know About Teaching and Learning
+:PROPERTIES:
+:Source: https://youtu.be/ewXvFQByRqY
 :END:
 ** MOOCs
 *** Learning How to Learn
