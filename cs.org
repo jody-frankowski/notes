@@ -4665,6 +4665,9 @@ go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
+CLOCK: [2021-08-15 Sun 15:58]--[2021-08-15 Sun 17:58] =>  2:00
+CLOCK: [2021-08-14 Sat 16:39]--[2021-08-14 Sat 18:39] =>  2:00
+CLOCK: [2021-08-04 Wed 15:52]--[2021-08-04 Wed 17:52] =>  2:00
 CLOCK: [2021-07-30 Mon 13:00]--[2021-07-30 Mon 15:00] =>  2:00
 CLOCK: [2021-07-28 Mon 15:00]--[2021-07-28 Mon 17:00] =>  2:00
 CLOCK: [2021-07-27 Mon 16:39]--[2021-07-27 Mon 18:39] =>  2:00
@@ -5149,7 +5152,6 @@ string (inclusive). See exercise 3 for ideas. Ponder how string-insert copes wit
 #+RESULTS:
 : #true
 
-
 *** Exercise 20
 
 Exercise 20. Define the function string-delete, which consumes a string plus a number i and deletes
@@ -5413,6 +5415,859 @@ the last character removed.
 
 #+RESULTS:
 : ab
+
+*** Exercise 39
+
+Exercise 39. Good programmers ensure that an image such as CAR can be enlarged or reduced via a
+single change to a constant definition. We started the development of our car image with a single
+plain definition:
+
+#+BEGIN_SRC racket
+(define WHEEL-RADIUS 5)
+#+END_SRC
+
+The definition of WHEEL-DISTANCE is based on the wheel’s radius. Hence, changing WHEEL-RADIUS from 5
+to 10 doubles the size of the car image. This kind of program organization is dubbed single point of
+control, and good design employs this idea as much as possible.
+
+Develop your favorite image of an automobile so that WHEEL-RADIUS remains the single point of
+control.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define WHEEL-RADIUS 50)
+
+(define CAR-SCENE-WIDTH (* WHEEL-RADIUS 5))
+(define CAR-SCENE-HEIGHT (* WHEEL-RADIUS 4))
+
+(define CAR-SCENE
+  (rectangle CAR-SCENE-WIDTH CAR-SCENE-HEIGHT "solid" "white"))
+
+(define WHEEL
+  (circle WHEEL-RADIUS "solid" "black"))
+
+(define CAR-BODY
+  (rectangle
+   (* CAR-SCENE-WIDTH 3/4) (* CAR-SCENE-HEIGHT 1/2) "solid" "red"))
+
+(define CAR
+  (place-images
+   (list WHEEL
+         WHEEL
+         CAR-BODY)
+   (list (make-posn (* CAR-SCENE-WIDTH 1/4) (* CAR-SCENE-HEIGHT 3/4))
+         (make-posn (* CAR-SCENE-WIDTH 3/4) (* CAR-SCENE-HEIGHT 3/4))
+         (make-posn (/ CAR-SCENE-WIDTH 2) (/ CAR-SCENE-HEIGHT 2)))
+   CAR-SCENE))
+#+END_SRC
+
+*** Exercise 40
+
+Exercise 40. Formulate the examples as BSL tests, that is, using the check-expect form. Introduce a
+mistake. Re-run the tests.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; WorldState -> WorldState
+; moves the car by 3 pixels for every clock tick
+; examples:
+;   given: 20, expect 23
+;   given: 78, expect 81
+(define (tock cw)
+  (+ cw 3))
+
+(check-expect (tock 0) 3)
+(check-expect (tock 20) 23)
+(check-expect (tock 78) 81)
+#+END_SRC
+
+*** Exercise 41
+
+Exercise 41. Finish the sample problem and get the program to run. That is, assuming that you have
+solved exercise 39, define the constants BACKGROUND and Y-CAR. Then assemble all the function
+definitions, including their tests. When your program runs to your satisfaction, add a tree to the
+scenery. We used
+
+#+BEGIN_SRC racket
+(define tree
+  (underlay/xy (circle 10 "solid" "green")
+               9 15
+               (rectangle 2 20 "solid" "brown")))
+#+END_SRC
+
+to create a tree-like shape. Also add a clause to the big-bang expression that stops the animation
+when the car has disappeared on the right side.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define WHEEL-RADIUS 5)
+
+(define CAR-SCENE-WIDTH (* WHEEL-RADIUS 5))
+(define CAR-SCENE-HEIGHT (* WHEEL-RADIUS 4))
+
+(define CAR-SCENE
+  (rectangle CAR-SCENE-WIDTH CAR-SCENE-HEIGHT "solid" "white"))
+
+(define WHEEL
+  (circle WHEEL-RADIUS "solid" "black"))
+
+(define CAR-BODY
+  (rectangle
+   (* CAR-SCENE-WIDTH 3/4) (* CAR-SCENE-HEIGHT 1/2) "solid" "red"))
+
+(define CAR
+  (place-images
+   (list WHEEL
+         WHEEL
+         CAR-BODY)
+   (list (make-posn (* CAR-SCENE-WIDTH 1/4) (* CAR-SCENE-HEIGHT 3/4))
+         (make-posn (* CAR-SCENE-WIDTH 3/4) (* CAR-SCENE-HEIGHT 3/4))
+         (make-posn (/ CAR-SCENE-WIDTH 2) (/ CAR-SCENE-HEIGHT 2)))
+   CAR-SCENE))
+
+(define TREE
+  (underlay/xy (circle 10 "solid" "green")
+               9 15
+               (rectangle 2 20 "solid" "brown")))
+
+; WorldState -> Image
+; Places CAR on an empty scene as far right as cw
+(define (render cw)
+  (place-image CAR cw 15
+               (place-image
+                TREE
+                (* WHEEL-RADIUS 3)
+                15
+                (empty-scene 100 30))))
+
+; WorldState -> WorldState
+; moves the car by 3 pixels for every clock tick
+; examples:
+;   given: 20, expect 23
+;   given: 78, expect 81
+(define (tock cw)
+  (+ cw 3))
+
+; WorldState -> Boolean
+; Returns true when cw is superior or equal to 100
+(define (100? cw)
+  (>= cw 100))
+
+(big-bang 0
+  [to-draw render]
+  [on-tick tock]
+  [stop-when 100?])
+#+END_SRC
+
+*** Exercise 42
+
+Exercise 42. Modify the interpretation of the sample data definition so that a state denotes the
+x-coordinate of the right-most edge of the car.
+
+**** Solution
+
+#+BEGIN_SRC racket
+; WorldState -> Image
+; Places CAR on an empty scene as far right as cw
+(define (render cw)
+  (place-image CAR (- cw (/ CAR-SCENE-WIDTH 2)) 15
+               (place-image
+                TREE
+                (* WHEEL-RADIUS 3)
+                15
+                (empty-scene 100 30))))
+#+END_SRC
+
+*** Exercise 43
+
+Exercise 43. Let’s work through the same problem statement with a time-based data definition:
+
+#+BEGIN_SRC racket
+; An AnimationState is a Number.
+; interpretation the number of clock ticks
+; since the animation started
+#+END_SRC
+
+Like the original data definition, this one also equates the states of the world with the class of
+numbers. Its interpretation, however, explains that the number means something entirely different.
+
+Design the functions tock and render. Then develop a big-bang expression so that once again you get
+an animation of a car traveling from left to right across the world’s canvas.
+
+How do you think this program relates to animate from Prologue: How to Program?
+
+Use the data definition to design a program that moves the car according to a sine wave. (Don’t try
+to drive like that.)
+
+**** Solution
+
+#+BEGIN_SRC racket
+; WorldState -> Image
+; Places CAR on an empty scene as far right as cw
+(define (render cw)
+  (place-image CAR cw (+ (* (sin cw) 10) 15)
+               (place-image
+                TREE
+                (* WHEEL-RADIUS 3)
+                15
+                (empty-scene 100 30))))
+#+END_SRC
+
+*** Exercise 44
+
+Exercise 44. Formulate the examples as BSL tests. Click RUN and watch them fail.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(check-expect (hyper 21 10 20 "enter") 21)
+(check-expect (hyper 42 10 20 "button-down") 10)
+(check-expect (hyper 42 10 20 "move") 42)
+#+END_SRC
+
+*** Exercise 45
+
+Exercise 45. Design a “virtual cat” world program that continuously moves the cat from left to
+right. Let’s call it cat-prog and let’s assume it consumes the starting position of the cat.
+Furthermore, make the cat move three pixels per clock tick. Whenever the cat disappears on the
+right, it reappears on the left. You may wish to read up on the modulo function.
+
+**** Solution
+
+#+BEGIN_SRC racket
+; WorldState -> WorldState
+; Moves the cat by 3 pixels for every clock tick and wrap around when
+; at the end.
+; Examples:
+;   given: 20, expect 23
+;   given: 78, expect 81
+(define (tock cw)
+  (modulo (+ cw 3) CANVAS-WIDTH))
+
+(define (cat-prog start)
+  (big-bang start
+    [to-draw render]
+    [on-tick tock]
+    [on-mouse hyper]))
+
+(cat-prog 1)
+#+END_SRC
+
+*** Exercise 46
+
+Exercise 46. Improve the cat animation with a slightly different image:
+
+#+BEGIN_SRC racket
+(define cat2 CAT-IMAGE)
+#+END_SRC
+
+Adjust the rendering function from exercise 45 so that it uses one cat image or the other based on
+whether the x-coordinate is odd. Read up on odd? in the HelpDesk, and use a cond expression to
+select cat images.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define CANVAS-WIDTH 300)
+(define CANVAS-HEIGHT 200)
+
+(define cat1 CAT-IMAGE1)
+(define cat2 CAT-IMAGE2)
+
+; WorldState -> Image
+; Places a cat image on an empty scene as far right as cw
+(define (render cw)
+  (place-image
+   (if (odd? cw)
+       cat1
+       cat2)
+   cw
+   (/ CANVAS-HEIGHT 2)
+   (empty-scene CANVAS-WIDTH CANVAS-HEIGHT)))
+#+END_SRC
+
+*** Exercise 47
+
+Exercise 47. Design a world program that maintains and displays a “happiness gauge.” Let’s call it
+gauge-prog, and let’s agree that the program consumes the maximum level of happiness. The gauge
+display starts with the maximum score, and with each clock tick, happiness decreases by -0.1; it
+never falls below 0, the minimum happiness score. Every time the down arrow key is pressed,
+happiness decreases by 1/5; every time the up arrow is pressed, happiness jumps by 1/3.
+
+To show the level of happiness, we use a scene with a solid, red rectangle with a black frame. For a
+happiness level of 0, the red bar should be gone; for the maximum happiness level of 100, the bar
+should go all the way across the scene.
+
+Note When you know enough, we will explain how to combine the gauge program with the solution of
+exercise 45. Then we will be able to help the cat because as long as you ignore it, it becomes less
+happy. If you pet the cat, it becomes happier. If you feed the cat, it becomes much, much happier.
+So you can see why you want to know a lot more about designing world programs than these first three
+chapters can tell you.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define MIN-HAPPINESS 0)
+(define MAX-HAPPINESS 200)
+(define SCENE-WIDTH MAX-HAPPINESS)
+(define SCENE-HEIGHT (/ MAX-HAPPINESS 10))
+(define SCENE (empty-scene SCENE-WIDTH SCENE-HEIGHT))
+
+(define (draw-handler happiness)
+  (place-image (rectangle happiness (* SCENE-HEIGHT 3/4) "solid" "red")
+               (/ happiness 2)
+               (/ SCENE-HEIGHT 2)
+               SCENE))
+
+(define (tick-handler happiness)
+  (if (< (- happiness 0.1) MIN-HAPPINESS)
+      MIN-HAPPINESS
+      (- happiness 0.1)))
+
+(define (key-event-handler happiness key-event)
+  (cond [(key=? key-event "up")
+         (if (> (+ happiness 1/3) MAX-HAPPINESS)
+             MAX-HAPPINESS
+             (+ happiness 1/3))]
+        [(key=? key-event "down")
+         (if (< (- happiness 1/5) MIN-HAPPINESS)
+             MIN-HAPPINESS
+             (- happiness 1/5))]
+        [else happiness]))
+
+
+(define (gauge-prog max-happiness)
+  (big-bang max-happiness
+            [to-draw draw-handler]
+            [on-tick tick-handler]
+            [on-key key-event-handler]))
+
+(gauge-prog MAX-HAPPINESS)
+#+END_SRC
+
+*** Exercise 49
+
+Exercise 49. A cond expression is really just an expression and may therefore show up in the middle
+of another expression:
+
+#+BEGIN_SRC racket
+(- 200 (cond [(> y 200) 0] [else y]))
+#+END_SRC
+
+Use the stepper to evaluate the expression for y as 100 and 210.
+
+#+BEGIN_SRC racket
+(define WIDTH  100)
+(define HEIGHT  60)
+(define MTSCN  (empty-scene WIDTH HEIGHT))
+(define ROCKET )
+(define ROCKET-CENTER-TO-TOP
+  (- HEIGHT (/ (image-height ROCKET) 2)))
+
+(define (create-rocket-scene.v5 h)
+  (cond
+    [(<= h ROCKET-CENTER-TO-TOP)
+     (place-image ROCKET 50 h MTSCN)]
+    [(> h ROCKET-CENTER-TO-TOP)
+     (place-image ROCKET 50 ROCKET-CENTER-TO-TOP MTSCN)]))
+#+END_SRC
+
+    Figure 24: Recall from One Program, Many Definitions
+
+Nesting cond expressions can eliminate common expressions. Consider the function for launching a
+rocket, repeated in figure 24. Both branches of the cond expression have the same shape except as
+indicated with ...:
+
+#+BEGIN_SRC racket
+(place-image ROCKET X ... MTSCN)
+#+END_SRC
+
+Reformulate create-rocket-scene.v5 to use a nested expression; the resulting function mentions
+place-image only once.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define (create-rocket-scene.v5 h)
+  (place-image ROCKET
+               50
+               (cond [(<= h ROCKET-CENTER-TO-TOP) h]
+                     [else ROCKET-CENTER-TO-TOP])
+               MTSCN)
+#+END_SRC
+
+*** Exercise 51
+
+Exercise 51. Design a big-bang program that simulates a traffic light for a given duration. The
+program renders the state of a traffic light as a solid circle of the appropriate color, and it
+changes state on every clock tick. Hint Read the documentation for big-bang; there is a reason all
+these “words” are linked to their documentation. What is the most appropriate initial state? Ask
+your engineering friends.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define SCENE-WIDTH 40)
+
+(define (draw-handler light)
+  (place-image (circle (/ SCENE-WIDTH 2) "solid" light)
+               (/ SCENE-WIDTH 2)
+               (/ SCENE-WIDTH 2)
+               (empty-scene SCENE-WIDTH SCENE-WIDTH)))
+
+; TrafficLight -> TrafficLight
+; yields the next state given current state s
+(check-expect (traffic-light-next "red") "green")
+(check-expect (traffic-light-next "green") "yellow")
+(check-expect (traffic-light-next "yellow") "red")
+(define (traffic-light-next light)
+  (cond
+    [(string=? "red" light) "green"]
+    [(string=? "green" light) "yellow"]
+    [(string=? "yellow" light) "red"]))
+
+(define (tick-handler light)
+  (traffic-light-next light))
+
+(big-bang "red"
+          [to-draw draw-handler]
+          [on-tick tick-handler 1])
+
+#+END_SRC
+
+*** Exercise 52
+
+Exercise 52. Which integers are contained in the four intervals above?
+
+**** Solution
+
+[3,5] -> 3,4,5
+(3,5] -> 4,5
+[3,5) -> 3,4
+(3,5) -> 4
+
+*** Exercise 54
+
+Exercise 54. Why would it be incorrect to use (string=? "resting" x) as the first condition in show?
+Conversely, formulate a completely accurate condition, that is, a Boolean expression that evaluates
+to #true precisely when x belongs to the first sub-class of LRCD.
+
+**** Solution
+
+It would be incorrect because ~string=?~ expects strings as its arguments.
+
+#+BEGIN_SRC racket
+(and (string? x) (string=? "restring" x))
+#+END_SRC
+
+*** Exercise 55
+
+Exercise 55. Take another look at show. It contains three instances of an expression with the
+approximate shape:
+
+#+BEGIN_SRC racket
+(place-image ROCKET 10 (- ... CENTER) BACKG)
+#+END_SRC
+
+This expression appears three times in the function: twice to draw a resting rocket and once to draw
+a flying rocket. Define an auxiliary function that performs this work and thus shorten show. Why is
+this a good idea? You may wish to reread Prologue: How to Program.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define (rocket-image y-position)
+  (place-image ROCKET 10 y-position BACKG))
+#+END_SRC
+
+This is probably a good idea because it will make refactoring easier.
+
+*** Exercise 56
+
+Exercise 56. Define main2 so that you can launch the rocket and watch it lift off. Read up on the
+on-tick clause to determine the length of one tick and how to change it.
+
+If you watch the entire launch, you will notice that once the rocket reaches the top something
+curious happens. Explain. Add a stop-when clause to main2 so that the simulation of the liftoff
+stops gracefully when the rocket is out of sight.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define HEIGHT 300) ; distances in pixels
+(define WIDTH  100)
+(define YDELTA 3)
+
+(define BACKG  (empty-scene WIDTH HEIGHT))
+(define ROCKET (rectangle 5 30 "solid" "red"))
+
+(define CENTER (/ (image-height ROCKET) 2))
+
+; LRCD -> IMAGE
+; Draws the scene on each tick
+(define (show x)
+  (cond
+    [(string? x)
+     (place-image ROCKET 10 (- HEIGHT CENTER) BACKG)]
+    [(<= -3 x -1)
+     (place-image (text (number->string x) 20 "red")
+                  10 (* 3/4 WIDTH)
+                  (place-image ROCKET
+                               10 (- HEIGHT CENTER)
+                               BACKG))]
+    [(>= x 0)
+     (place-image ROCKET 10 (- x CENTER) BACKG)]))
+
+
+; LRCD -> LRCD
+; raises the rocket by YDELTA if it is moving already
+(check-expect (fly "resting") "resting")
+(check-expect (fly -3) -2)
+(check-expect (fly -2) -1)
+(check-expect (fly -1) HEIGHT)
+(check-expect (fly 10) (- 10 YDELTA))
+(check-expect (fly 22) (- 22 YDELTA))
+(define (fly x)
+  (cond
+    [(string? x) x]
+    [(<= -3 x -1) (if (= x -1) HEIGHT (+ x 1))]
+    [(>= x 0) (- x YDELTA)]))
+
+; LRCD, KEY EVENT -> LRCD
+; Launches the rocket when the space bar is pressed
+(check-expect (launch "resting" " ") -3)
+(check-expect (launch "resting" "a") "resting")
+(check-expect (launch -3 " ") -3)
+(check-expect (launch -1 " ") -1)
+(check-expect (launch 33 " ") 33)
+(check-expect (launch 33 "a") 33)
+(define (launch x ke)
+  (cond
+    [(string? x) (if (string=? " " ke) -3 x)]
+    [(<= -3 x -1) x]
+    [(>= x 0) x]))
+
+; LRCD -> LRCD
+(define (main2 s)
+  (big-bang s
+    [to-draw show]
+    [on-key launch]
+    [on-tick fly 1]
+    [stop-when zero?]))
+
+(main2 "resting")
+#+END_SRC
+
+When the rocket reaches the top, the world states reaches 0 and immediately after that -3, which
+triggers the countdown state in the other functions.
+
+*** Exercise 57
+
+Exercise 57. Recall that the word “height” forced us to choose one of two possible interpretations.
+Now that you have solved the exercises in this section, solve them again using the first
+interpretation of the word. Compare and contrast the solutions.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define HEIGHT 300) ; distances in pixels
+(define WIDTH  100)
+(define YDELTA 3)
+
+(define BACKG  (empty-scene WIDTH HEIGHT))
+(define ROCKET (rectangle 5 30 "solid" "red"))
+
+(define CENTER (/ (image-height ROCKET) 2))
+
+; LRCD -> IMAGE
+; Draws the scene on each tick
+(define (show x)
+  (cond
+    [(string? x)
+     (place-image ROCKET 10 (- HEIGHT CENTER) BACKG)]
+    [(<= -3 x -1)
+     (place-image (text (number->string x) 20 "red")
+                  10 (* 3/4 WIDTH)
+                  (place-image ROCKET
+                               10 (- HEIGHT CENTER)
+                               BACKG))]
+    [(>= x 0)
+     (place-image ROCKET 10 (- HEIGHT (+ x CENTER)) BACKG)]))
+
+
+; LRCD -> LRCD
+; raises the rocket by YDELTA if it is moving already
+(check-expect (fly "resting") "resting")
+(check-expect (fly -3) -2)
+(check-expect (fly -2) -1)
+(check-expect (fly -1) 0)
+(check-expect (fly 10) (+ 10 YDELTA))
+(check-expect (fly 22) (+ 22 YDELTA))
+(define (fly x)
+  (cond
+    [(string? x) x]
+    [(<= -3 x -1) (if (= x -1) 0 (+ x 1))]
+    [(>= x 0) (+ x YDELTA)]))
+
+; LRCD, KEY EVENT -> LRCD
+; Launches the rocket when the space bar is pressed
+(check-expect (launch "resting" " ") -3)
+(check-expect (launch "resting" "a") "resting")
+(check-expect (launch -3 " ") -3)
+(check-expect (launch -1 " ") -1)
+(check-expect (launch 33 " ") 33)
+(check-expect (launch 33 "a") 33)
+(define (launch x ke)
+  (cond
+    [(string? x) (if (string=? " " ke) -3 x)]
+    [(<= -3 x -1) x]
+    [(>= x 0) x]))
+
+; LRCD -> Boolean
+; Stops the simulation when the rocket is at the top of the canvas
+(define (eq-height x)
+  (and (number? x) (= x HEIGHT)))
+
+; LRCD -> LRCD
+(define (main s)
+  (big-bang s
+    [to-draw show]
+    [on-key launch]
+    [on-tick fly 0.1]
+    [stop-when eq-height]))
+
+(main "resting")
+#+END_SRC
+
+*** Exercise 58
+
+Exercise 58. Introduce constant definitions that separate the intervals for low prices and luxury
+prices from the others so that the legislators in Tax Land can easily raise the taxes even more.
+
+**** Solution
+
+#+BEGIN_SRC racket
+; A Price falls into one of three intervals:
+; — 0 through 1000
+; — 1000 through 10000
+; — 10000 and above.
+; interpretation the price of an item
+
+(define NO-TAX-CEILING 1000)
+(define LUXURY-ITEM-FLOOR 10000)
+
+; Price -> Number
+; computes the amount of tax charged for p
+(check-expect (sales-tax 537) 0)
+(check-expect (sales-tax 1000) (* 0.05 1000))
+(check-expect (sales-tax 12017) (* 0.08 12017))
+(define (sales-tax p)
+  (cond
+    [(and (<= 0 p) (< p NO-TAX-CEILING)) 0]
+    [(and (<= NO-TAX-CEILING p) (< p LUXURY-ITEM-FLOOR)) (* 0.05 p)]
+    [(>= p LUXURY-ITEM-FLOOR) (* 0.08 p)]))
+#+END_SRC
+
+*** Exercise 59
+
+Exercise 59. Finish the design of a world program that simulates the traffic light FSA. Here is the
+main function:
+
+#+BEGIN_SRC racket
+; TrafficLight -> TrafficLight
+; simulates a clock-based American traffic light
+(define (traffic-light-simulation initial-state)
+  (big-bang initial-state
+            [to-draw tl-render]
+            [on-tick tl-next 1]))
+#+END_SRC
+
+The function’s argument is the initial state for the big-bang expression, which tells DrRacket to
+redraw the state of the world with tl-render and to handle clock ticks with tl-next. Also note that
+it informs the computer that the clock should tick once per second.
+
+Complete the design of tl-render and tl-next. Start with copying TrafficLight, tl-next, and
+tl-render into DrRacket’s definitions area.
+
+Here are some test cases for the design of the latter:
+
+#+BEGIN_SRC racket
+(check-expect (tl-render "red") image)
+(check-expect (tl-render "yellow") image)
+#+END_SRC
+
+Your function may use these images directly. If you decide to create images with the functions from
+the 2htdp/image library, design an auxiliary function for creating the image of a one-color bulb.
+Then read up on the place-image function, which can place bulbs into a background scene.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+; A TrafficLight is one of the following Strings:
+; – "red"
+; – "green"
+; – "yellow"
+; interpretation the three strings represent the three
+; possible states that a traffic light may assume
+
+; TrafficLight -> TrafficLight
+; yields the next state, given current state cs
+(check-expect (tl-next "red") "green")
+(check-expect (tl-next "green") "yellow")
+(check-expect (tl-next "yellow") "red")
+(define (tl-next cs)
+  (cond [(string=? cs "red") "green"]
+        [(string=? cs "green") "yellow"]
+        [(string=? cs "yellow") "red"]))
+
+(define SCENE-WIDTH 300)
+(define SCENE-HEIGHT (* SCENE-WIDTH 1/3))
+(define SCENE-HEIGHT-CENTER (/ SCENE-HEIGHT 2))
+(define LIGHT-RADIUS (* SCENE-HEIGHT 2/5))
+
+; The spacing is calculated as follows:
+; SCENE-WIDTH = 4*SPACING + 6*LIGHT-RADIUS
+; Solving for SPACING gives the following constant
+(define SPACING (/ (- SCENE-WIDTH (* 6 LIGHT-RADIUS)) 4))
+
+(define RED-LIGHT-CENTER (+ SPACING LIGHT-RADIUS))
+(define YELLOW-LIGHT-CENTER (+ (* 2 SPACING) (* 3 LIGHT-RADIUS)))
+(define GREEN-LIGHT-CENTER (+ (* 3 SPACING) (* 5 LIGHT-RADIUS)))
+
+(define SCENE
+  (place-images
+   (list (circle LIGHT-RADIUS "outline" "red")
+         (circle LIGHT-RADIUS "outline" "yellow")
+         (circle LIGHT-RADIUS "outline" "green"))
+   (list (make-posn RED-LIGHT-CENTER SCENE-HEIGHT-CENTER)
+         (make-posn YELLOW-LIGHT-CENTER SCENE-HEIGHT-CENTER)
+         (make-posn GREEN-LIGHT-CENTER SCENE-HEIGHT-CENTER))
+   (empty-scene SCENE-WIDTH SCENE-HEIGHT)))
+
+; TrafficLight -> Image
+; renders the current state cs as an image
+(check-expect (tl-render "red")
+              (place-image
+               (circle LIGHT-RADIUS "solid" "red")
+               RED-LIGHT-CENTER
+               SCENE-HEIGHT-CENTER
+               SCENE))
+(define (tl-render cs)
+  (place-image
+   (circle LIGHT-RADIUS "solid" cs)
+   (cond [(string=? cs "red") RED-LIGHT-CENTER]
+         [(string=? cs "yellow") YELLOW-LIGHT-CENTER]
+         [(string=? cs "green") GREEN-LIGHT-CENTER])
+   SCENE-HEIGHT-CENTER
+   SCENE))
+
+; TrafficLight -> TrafficLight
+; simulates a clock-based American traffic light
+(define (traffic-light-simulation initial-state)
+  (big-bang initial-state
+            [to-draw tl-render]
+            [on-tick tl-next 1]))
+
+(traffic-light-simulation "red")
+#+END_SRC
+
+*** Exercise 60
+
+Exercise 60. An alternative data representation for a traffic light program may use numbers instead
+of strings:
+
+#+BEGIN_SRC racket
+; An N-TrafficLight is one of:
+; – 0 interpretation the traffic light shows red
+; – 1 interpretation the traffic light shows green
+; – 2 interpretation the traffic light shows yellow
+#+END_SRC
+
+It greatly simplifies the definition of tl-next:
+
+#+BEGIN_SRC racket
+; N-TrafficLight -> N-TrafficLight
+; yields the next state, given current state cs
+(define (tl-next-numeric cs) (modulo (+ cs 1) 3))
+#+END_SRC
+
+Reformulate tl-next’s tests for tl-next-numeric.
+
+Does the tl-next function convey its intention more clearly than the tl-next-numeric function? If
+so, why? If not, why not?
+
+**** Solution
+
+#+BEGIN_SRC racket
+(check-expect (tl-next 0) 1)
+(check-expect (tl-next 1) 2)
+(check-expect (tl-next 2) 0)
+#+END_SRC
+
+A potential problem is that we lose the direct visual representation of the state. 0 is "red" but
+it's not obvious until you check the definition.
+
+*** Exercise 61
+
+Exercise 61. As From Functions to Programs says, programs must define constants and use names
+instead of actual constants. In this spirit, a data definition for traffic lights must use
+constants, too:
+
+#+BEGIN_SRC racket
+(define RED 0)
+(define GREEN 1)
+(define YELLOW 2)
+
+; An S-TrafficLight is one of:
+; – RED
+; – GREEN
+; – YELLOW
+#+END_SRC
+
+If the names are chosen properly, the data definition does not need an interpretation statement.
+
+Figure 31 displays two different functions that switch the state of a traffic light in a simulation
+program. Which of the two is properly designed using the recipe for itemization? Which of the two
+continues to work if you change the constants to the following
+
+#+BEGIN_SRC racket
+(define RED "red")
+(define GREEN "green")
+(define YELLOW "yellow")
+#+END_SRC
+
+Does this help you answer the questions?
+
+Aside The equal? function in figure 31 compares two arbitrary values, regardless of what these
+values are. Equality is a complicated topic in the world of programming. End
+
+**** Solution
+
+The function on the right seems to be the more robust one. It cleary lists every states in its
+~cond~ clauses.
 
 * Ruby Koans
 :LOGBOOK:
