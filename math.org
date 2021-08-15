@@ -74,13 +74,13 @@ math: f is {{c1::Commutative}} if {{c2::f(a, b) = f(b, a)}}
 *** Numerator and Denominator
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1626525420558
+:ANKI_NOTE_ID: 1629032661663
 :END:
 
 **** Text
 
-math: In a/b, a is the {{c1::Numerator or Dividend::XXX or XXX}} and b is the
-{{c2::Denominator or Divisor::XXX or XXX}}
+math: In a/b, a is the {{c1::Numerator}} or {{c1::Dividend}} and b is the
+{{c1::Denominator}} or {{c1::Divisor}}
 
 *** Fraction Description
 :PROPERTIES:
