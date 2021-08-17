@@ -4665,6 +4665,11 @@ go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
+CLOCK: [2021-08-17 Tue 20:08]--[2021-08-17 Tue 22:08] =>  2:00
+CLOCK: [2021-08-17 Tue 16:00]--[2021-08-17 Tue 18:00] =>  2:00
+CLOCK: [2021-08-17 Tue 11:55]--[2021-08-17 Tue 13:55] =>  2:00
+CLOCK: [2021-08-16 Mon 16:34]--[2021-08-16 Mon 18:34] =>  2:00
+CLOCK: [2021-08-15 Sun 21:45]--[2021-08-15 Sun 23:45] =>  2:00
 CLOCK: [2021-08-15 Sun 15:58]--[2021-08-15 Sun 17:58] =>  2:00
 CLOCK: [2021-08-14 Sat 16:39]--[2021-08-14 Sat 18:39] =>  2:00
 CLOCK: [2021-08-04 Wed 15:52]--[2021-08-04 Wed 17:52] =>  2:00
@@ -5989,6 +5994,10 @@ interpretation of the word. Compare and contrast the solutions.
 **** Solution
 
 #+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
 (define HEIGHT 300) ; distances in pixels
 (define WIDTH  100)
 (define YDELTA 3)
@@ -6268,6 +6277,1176 @@ values are. Equality is a complicated topic in the world of programming. End
 
 The function on the right seems to be the more robust one. It cleary lists every states in its
 ~cond~ clauses.
+
+*** Exercise 64
+
+Exercise 64. The Manhattan distance of a point to the origin considers a path that follows the
+rectangular grid of streets found in Manhattan. Here are two examples:
+
+The left one shows a “direct” strategy, going as far left as needed, followed by as many upward
+steps as needed. In comparison, the right one shows a “random walk” strategy, going some blocks
+leftward, some upward, and so on until the destination—here, the origin—is reached.
+
+Stop! Does it matter which strategy you follow?
+
+Design the function manhattan-distance, which measures the Manhattan distance of the given posn to
+the origin.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define (manhattan-distance pos)
+  (+ (posn-x pos) (posn-y pos)))
+
+(and (= (manhattan-distance (make-posn 5 0)) 5)
+     (= (manhattan-distance (make-posn 0 5)) 5)
+     (= (manhattan-distance (make-posn 5 5)) 10))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 67
+
+Exercise 67. Here is another way to represent bouncing balls:
+
+#+BEGIN_SRC racket
+(define SPEED 3)
+(define-struct balld [location direction])
+(make-balld 10 "up")
+#+END_SRC
+
+Interpret this code fragment and create other instances of balld.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(make-balld 0 "down")
+#+END_SRC
+
+*** Exercise 68
+
+Exercise 68. An alternative to the nested data representation of balls uses four fields to keep
+track of the four properties:
+
+#+BEGIN_SRC racket
+(define-struct ballf [x y deltax deltay])
+#+END_SRC
+
+Programmers call this a flat representation. Create an instance of ballf that has the same
+interpretation as ball1.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(make ballf 30 40 -10 5)
+#+END_SRC
+
+*** Exercise 72
+
+Exercise 72. Formulate a data definition for the above phone structure type definition that
+accommodates the given examples.
+
+Next formulate a data definition for phone numbers using this structure type definition:
+
+#+BEGIN_SRC racket
+(define-struct phone# [area switch num])
+#+END_SRC
+
+Historically, the first three digits make up the area code, the next three the code for the phone
+switch (exchange) of your neighborhood, and the last four the phone with respect to the
+neighborhood. Describe the content of the three fields as precisely as possible with intervals.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define-struct phone [area number])
+; A Phone is a structure:
+;   (make-entry Number String)
+; interpretation a phone number's area and number
+
+(define-struct phone# [area switch num])
+; A Phone# is a structure:
+;   (make-entry Number Number Number)
+; interpretation a phone number's area, switch and line number
+; area: 200-999
+; switch: 200-999
+; switch: 0000-9999
+#+END_SRC
+
+*** Exercise 73
+
+Exercise 73. Design the function posn-up-x, which consumes a Posn p and a Number n. It produces a
+Posn like p with n in the x field.
+
+A neat observation is that we can define x+ using posn-up-x:
+
+#+BEGIN_SRC racket
+(define (x+ p)
+  (posn-up-x p (+ (posn-x p) 3)))
+#+END_SRC
+
+Note Functions such as posn-up-x are often called updaters or functional setters. They are extremely
+useful when you write large programs.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; Posn, Number -> Posn
+; Set p's x to n
+(define (posn-up-x p n)
+  (make-posn n (posn-y p)))
+
+(equal? (posn-up-x (make-posn 1 2) 3) (make-posn 3 2))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 77
+
+Exercise 77. Provide a structure type definition and a data definition for representing points in
+time since midnight. A point in time consists of three numbers: hours, minutes, and seconds.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define-struct time [hours minutes seconds])
+; A Time is a structure:
+;   (make-time Number Number Number)
+; interpretation (make-time h m s) is the time h hours, m minutes, s
+; seconds after midnight
+; Allowed values:
+; h: 00-23
+; m: 00-23
+; s: 00-59
+#+END_SRC
+
+*** Exercise 78
+
+Exercise 78. Provide a structure type and a data definition for representing three-letter words. A
+word consists of lowercase letters, represented with the 1Strings "a" through "z" plus #false. Note
+This exercise is a part of the design of a hangman game; see exercise 396.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define-struct word [l1 l2 l3])
+; A Word is a structure:
+;   (make-time 1String 1String 1String)
+; interpretation (make-word l1 l2 l3) is the word with the letters l1,
+; l2 and l3
+; Allowed values:
+; l1,l2,l3: "a"-"z", #false
+#+END_SRC
+
+*** Exercise 79
+
+Exercise 79. Create examples for the following data definitions:
+
+#+BEGIN_SRC racket
+; A Color is one of:
+; — "white"
+; — "yellow"
+; — "orange"
+; — "green"
+; — "red"
+; — "blue"
+; — "black"
+#+END_SRC
+
+Note DrRacket recognizes many more strings as colors. End
+
+#+BEGIN_SRC racket
+; H is a Number between 0 and 100.
+; interpretation represents a happiness value
+
+(define-struct person [fstname lstname male?])
+; A Person is a structure:
+;   (make-person String String Boolean)
+#+END_SRC
+
+Is it a good idea to use a field name that looks like the name of a predicate?
+
+#+BEGIN_SRC racket
+(define-struct dog [owner name age happiness])
+; A Dog is a structure:
+;   (make-dog Person String PositiveInteger H)
+#+END_SRC
+
+Add an interpretation to this data definition, too.
+
+#+BEGIN_SRC racket
+; A Weapon is one of:
+; — #false
+; — Posn
+; interpretation #false means the missile hasn't
+; been fired yet; a Posn means it is in flight
+#+END_SRC
+
+The last definition is an unusual itemization, combining built-in data with a structure type. The
+next chapter deals with such definitions in depth.
+
+**** Solution
+
+#+BEGIN_SRC racket
+; A Color is one of:
+; — "white"
+; — "yellow"
+; — "orange"
+; — "green"
+; — "red"
+; — "blue"
+; — "black"
+; Example: "blue"
+
+; H is a Number between 0 and 100.
+; interpretation represents a happiness value
+; Examples: 0, 50, 100
+
+(define-struct person [fstname lstname male?])
+; A Person is a structure:
+;   (make-person String String Boolean)
+; Example: (make-person "John" "Smith" #t)
+#+END_SRC
+
+For me ~male?~ immediately conveys the idea that the expected value is a Boolean.
+
+#+BEGIN_SRC racket
+(define-struct dog [owner name age happiness])
+; A Dog is a structure:
+;   (make-dog Person String PositiveInteger H)
+; Example: (make-dog (make-person String String Boolean) "Rooky" "1" 100)
+
+; A Weapon is one of:
+; — #false
+; — Posn
+; interpretation #false means the missile hasn't
+; been fired yet; a Posn means it is in flight
+; Examples: #false, (make-posn 10 10)
+#+END_SRC
+
+*** Exercise 80
+
+Exercise 80. Create templates for functions that consume instances of the following structure types:
+
+#+BEGIN_SRC racket
+(define-struct movie [title director year])
+
+(define-struct pet [name number])
+
+(define-struct CD [artist title price])
+
+(define-struct sweater [material size color])
+#+END_SRC
+
+No, you do not need data definitions for this task.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define (movie-SOMETHING movie)
+  ... (movie-title movie) ... (movie-director movie) ... (movie-year movie) ...)
+
+(define (pet-SOMETHING pet)
+  ... (pet-name pet) ... (pet-number pet) ... )
+
+(define (CD-SOMETHING CD)
+  ... (CD-artist CD) ... (CD-title CD) ... (CD-price CD) ...)
+
+(define (sweater-SOMETHING sweater)
+  ... (sweater-material sweater) ... (sweater-size sweater) ... (sweater-color sweater) ...)
+#+END_SRC
+
+*** Exercise 81
+
+Exercise 81. Design the function time->seconds, which consumes instances of time structures (see
+exercise 77) and produces the number of seconds that have passed since midnight. For example, if you
+are representing 12 hours, 30 minutes, and 2 seconds with one of these structures and if you then
+apply time->seconds to this instance, the correct result is 45002.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define-struct time [hours minutes seconds])
+; A Time is a structure:
+;   (make-time Number Number Number)
+; interpretation (make-time h m s) is the time h hours, m minutes, s
+; seconds after midnight
+; Allowed values:
+; h: 00-23
+; m: 00-23
+; s: 00-59
+
+; Time -> Number
+; Returns the number of seconds in t
+(define (time->seconds t)
+  (+ (* 3600 (time-hours t)) (* 60 (time-minutes t)) (time-seconds t)))
+
+(and (equal? (time->seconds (make-time 1 2 3)) 3723)
+     (equal? (time->seconds (make-time 12 30 2)) 45002))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 82
+
+Exercise 82. Design the function compare-word. The function consumes two three-letter words (see
+exercise 78). It produces a word that indicates where the given ones agree and disagree. The
+function retains the content of the structure fields if the two agree; otherwise it places #false in
+the field of the resulting word. Hint The exercises mentions two tasks: the comparison of words and
+the comparison of “letters.”
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+(define-struct word [l1 l2 l3])
+; A Word is a structure:
+;   (make-time 1String 1String 1String)
+; interpretation (make-word l1 l2 l3) is the word with the letters l1,
+; l2 and l3
+; Allowed values:
+; l1,l2,l3: "a"-"z", #false
+
+; 1String, 1String -> 1String/#false
+; Compares l1 and l2 and w2 and returns the letter if they match,
+; #false otherwise.
+(define (compare-letter l1 l2)
+  (if (equal? l1 l2)
+      l1
+      #false))
+
+; Word, Word -> Word
+; Compares w1 and w2 and produces a new word with the common letters
+; retained and the differing letters replaced by #false.
+(define (compare-word w1 w2)
+  (make-word (compare-letter (word-l1 w1) (word-l1 w2))
+             (compare-letter (word-l2 w1) (word-l2 w2))
+             (compare-letter (word-l3 w1) (word-l3 w2))))
+
+
+(equal? (compare-word (make-word "a" "b" "c")
+                      (make-word "a" "d" "c"))
+        (make-word "a" #false "c"))
+#+END_SRC
+
+#+RESULTS:
+: #true
+
+*** Exercise 83
+
+Exercise 83. Design the function render, which consumes an Editor and produces an image.
+
+The purpose of the function is to render the text within an empty scene of image pixels. For the
+cursor, use a image red rectangle and for the strings, black text of size 16.
+
+Develop the image for a sample string in DrRacket’s interactions area. We started with this
+expression:
+
+#+BEGIN_SRC racket
+(overlay/align "left" "center"
+                (text "hello world" 11 "black")
+                (empty-scene 200 20))
+#+END_SRC
+
+You may wish to read up on beside, above, and such functions. When you are happy with the looks of
+the image, use the expression as a test and as a guide to the design of render.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+
+(define-struct editor [pre post])
+; An Editor is a structure:
+;   (make-editor String String)
+; interpretation (make-editor s t) describes an editor
+; whose visible text is (string-append s t) with
+; the cursor displayed between s and t
+
+(define TEXT-SIZE 14)
+
+; Editor -> Image
+; Renders the editor into an image
+(define (render editor)
+  (overlay/align "left" "center"
+                 (beside (text (editor-pre editor) TEXT-SIZE "black")
+                         (rectangle 1 TEXT-SIZE "solid" "red")
+                         (text (editor-post editor) TEXT-SIZE "black"))
+                 (empty-scene 200 20)))
+#+END_SRC
+
+*** Exercise 84
+
+Exercise 84. Design edit. The function consumes two inputs, an editor ed and a KeyEvent ke, and it
+produces another editor. Its task is to add a single-character KeyEvent ke to the end of the pre
+field of ed, unless ke denotes the backspace ("\b") key. In that case, it deletes the character
+immediately to the left of the cursor (if there are any). The function ignores the tab key ("\t")
+and the return key ("\r").
+
+The function pays attention to only two KeyEvents longer than one letter: "left" and "right". The
+left arrow moves the cursor one character to the left (if any), and the right arrow moves it one
+character to the right (if any). All other such KeyEvents are ignored.
+
+Develop a goodly number of examples for edit, paying attention to special cases. When we solved this
+exercise, we created 20 examples and turned all of them into tests.
+
+Hint Think of this function as consuming KeyEvents, a collection that is specified as an
+enumeration. It uses auxiliary functions to deal with the Editor structure. Keep a wish list handy;
+you will need to design additional functions for most of these auxiliary functions, such as
+string-first, string-rest, string-last, and string-remove-last. If you haven’t done so, solve the
+exercises in Functions.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+
+; String -> String
+; Returns the first character of a string
+(check-expect (string-first "abc") "a")
+(check-expect (string-first "") "")
+(define (string-first str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 0 1)))
+
+; String -> String
+; Extract the last 1String from a string
+(check-expect (string-last "abc") "c")
+(check-expect (string-last "") "")
+(define (string-last str)
+  (if (= (string-length str) 0)
+      ""
+      (string-ith str (- (string-length str) 1))))
+
+; String -> String
+; Delete the last character of str, if any
+(check-expect (string-remove-last "abc") "ab")
+(check-expect (string-remove-last "") "")
+(define (string-remove-last str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 0 (- (string-length str) 1))))
+
+; String -> String
+; Returns str with its first character removed
+(check-expect (string-rest "abc") "bc")
+(check-expect (string-rest "") "")
+(define (string-rest str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 1)))
+
+(define-struct editor [pre post])
+; An Editor is a structure:
+;   (make-editor String String)
+; interpretation (make-editor s t) describes an editor
+; whose visible text is (string-append s t) with
+; the cursor displayed between s and t
+
+; Editor, KeyEvent -> Editor
+; Handle KeyEvents for the current Editor
+(check-expect (edit (make-editor "a" "b") "\t") (make-editor "a" "b"))
+(check-expect (edit (make-editor "a" "b") "\r") (make-editor "a" "b"))
+(check-expect (edit (make-editor "a" "b") "\b") (make-editor "" "b"))
+(check-expect (edit (make-editor "a" "b") "c") (make-editor "ac" "b"))
+(check-expect (edit (make-editor "a" "b") "left") (make-editor "" "ab"))
+(check-expect (edit (make-editor "a" "b") "right") (make-editor "ab" ""))
+(define (edit ed ke)
+  (cond [(or (equal? ke "\t") (equal? ke "\r"))
+         ed]
+        [(equal? ke "\b")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (editor-post ed))]
+        [(equal? ke "left")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (string-append (string-last (editor-pre ed))
+                                     (editor-post ed)))]
+        [(equal? ke "right")
+         (make-editor (string-append (editor-pre ed)
+                                     (string-first (editor-post ed)))
+                      (string-rest (editor-post ed)))]
+        [else (make-editor (string-append (editor-pre ed) ke)
+                           (editor-post ed))]))
+#+END_SRC
+
+*** Exercise 85
+
+Exercise 85. Define the function run. Given the pre field of an editor, it launches an interactive
+editor, using render and edit from the preceding two exercises for the to-draw and on-key clauses,
+respectively.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+; String -> String
+; Returns the first character of a string
+(check-expect (string-first "abc") "a")
+(check-expect (string-first "") "")
+(define (string-first str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 0 1)))
+
+; String -> String
+; Extract the last 1String from a string
+(check-expect (string-last "abc") "c")
+(check-expect (string-last "") "")
+(define (string-last str)
+  (if (= (string-length str) 0)
+      ""
+      (string-ith str (- (string-length str) 1))))
+
+; String -> String
+; Delete the last character of str, if any
+(check-expect (string-remove-last "abc") "ab")
+(check-expect (string-remove-last "") "")
+(define (string-remove-last str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 0 (- (string-length str) 1))))
+
+; String -> String
+; Returns str with its first character removed
+(check-expect (string-rest "abc") "bc")
+(check-expect (string-rest "") "")
+(define (string-rest str)
+  (if (= (string-length str) 0)
+      ""
+      (substring str 1)))
+
+(define-struct editor [pre post])
+; An Editor is a structure:
+;   (make-editor String String)
+; interpretation (make-editor s t) describes an editor
+; whose visible text is (string-append s t) with
+; the cursor displayed between s and t
+
+(define TEXT-SIZE 14)
+
+; Editor -> Image
+; Renders the editor into an image
+(define (render editor)
+  (overlay/align "left" "center"
+                 (beside (text (editor-pre editor) TEXT-SIZE "black")
+                         (rectangle 1 TEXT-SIZE "solid" "red")
+                         (text (editor-post editor) TEXT-SIZE "black"))
+                 (empty-scene 200 20)))
+
+; Editor, KeyEvent -> Editor
+; Handle KeyEvents for the current Editor
+(check-expect (edit (make-editor "a" "b") "\t") (make-editor "a" "b"))
+(check-expect (edit (make-editor "a" "b") "\r") (make-editor "a" "b"))
+(check-expect (edit (make-editor "a" "b") "\b") (make-editor "" "b"))
+(check-expect (edit (make-editor "" "") "\b") (make-editor "" ""))
+(check-expect (edit (make-editor "a" "b") "c") (make-editor "ac" "b"))
+(check-expect (edit (make-editor "" "ab") "left") (make-editor "" "ab"))
+(check-expect (edit (make-editor "a" "b") "left") (make-editor "" "ab"))
+(check-expect (edit (make-editor "a" "b") "right") (make-editor "ab" ""))
+(check-expect (edit (make-editor "ab" "") "right") (make-editor "ab" ""))
+(define (edit ed ke)
+  (cond [(or (equal? ke "\t") (equal? ke "\r"))
+         ed]
+        [(equal? ke "\b")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (editor-post ed))]
+        [(equal? ke "left")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (string-append (string-last (editor-pre ed))
+                                     (editor-post ed)))]
+        [(equal? ke "right")
+         (make-editor (string-append (editor-pre ed)
+                                     (string-first (editor-post ed)))
+                      (string-rest (editor-post ed)))]
+        [else (make-editor (string-append (editor-pre ed) ke)
+                           (editor-post ed))]))
+
+; Starts a text editor
+(define (run pre)
+  (big-bang (make-editor pre "")
+            [to-draw render]
+            [on-key edit]))
+
+(run "Hello")
+#+END_SRC
+
+*** Exercise 86
+
+Exercise 86. Notice that if you type a lot, your editor program does not display all of the text.
+Instead the text is cut off at the right margin. Modify your function edit from exercise 84 so that
+it ignores a keystroke if adding it to the end of the pre field would mean the rendered text is too
+wide for your canvas.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define TEXT-SIZE 14)
+(define SCENE-WIDTH 200)
+(define SCENE-HEIGHT 20)
+
+; Editor -> Image
+; Renders the editor text into an image
+(define (render-text editor)
+  (beside (text (editor-pre editor) TEXT-SIZE "black")
+          (rectangle 1 TEXT-SIZE "solid" "red")
+          (text (editor-post editor) TEXT-SIZE "black")))
+
+; Editor -> Image
+; Renders the editor into an image
+(define (render editor)
+  (overlay/align "left" "center"
+                 (render-text editor)
+                 (empty-scene SCENE-WIDTH SCENE-HEIGHT)))
+
+; Editor, KeyEvent -> Editor
+; Handle KeyEvents for the current Editor
+(define (edit ed ke)
+  (cond [(or (equal? ke "\t") (equal? ke "\r"))
+         ed]
+        [(equal? ke "\b")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (editor-post ed))]
+        [(equal? ke "left")
+         (make-editor (string-remove-last (editor-pre ed))
+                      (string-append (string-last (editor-pre ed))
+                                     (editor-post ed)))]
+        [(equal? ke "right")
+         (make-editor (string-append (editor-pre ed)
+                                     (string-first (editor-post ed)))
+                      (string-rest (editor-post ed)))]
+        [else (if (> (image-width
+                      (render-text
+                       (make-editor (string-append (editor-pre ed) ke)
+                                    (editor-post ed))))
+                     SCENE-WIDTH)
+                  ed
+                  (make-editor (string-append (editor-pre ed) ke)
+                           (editor-post ed)))]))
+#+END_SRC
+
+*** Exercise 87
+
+Exercise 87. Develop a data representation for an editor based on our first idea, using a string and
+an index. Then solve the preceding exercises again. Retrace the design recipe. Hint if you haven’t
+done so, solve the exercises in Functions.
+
+Note on Design Choices The exercise is a first study of making design choices. It shows that the
+very first design choice concerns the data representation. Making the right choice requires planning
+ahead and weighing the complexity of each. Of course, getting good at this is a question of gaining
+experience.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+; String -> String
+; Returns the substring at the right of index
+(check-expect (string-right "" 0) "")
+(check-expect (string-right "ab" 0) "ab")
+(check-expect (string-right "ab" 1) "b")
+(check-expect (string-right "ab" 2) "")
+(define (string-right str index)
+  (substring str index))
+
+; String -> String
+; Returns the substring at the left of index
+(check-expect (string-left "" 0) "")
+(check-expect (string-left "ab" 0) "")
+(check-expect (string-left "ab" 1) "a")
+(check-expect (string-left "ab" 2) "ab")
+(define (string-left str index)
+  (substring str 0 index))
+
+; String -> String
+; Delete the character at position i from str
+(check-expect (string-delete "" 0) "")
+(check-expect (string-delete "abc" 0) "bc")
+(check-expect (string-delete "abc" 1) "ac")
+(check-expect (string-delete "abc" 2) "ab")
+(define (string-delete str i)
+  (if (= (string-length str) 0)
+      ""
+      (string-append (substring str 0 i) (substring str (+ i 1)))))
+
+; String -> String
+; Inserts the string s2 at position i in s1
+(check-expect (string-insert "" "a" 0) "a")
+(check-expect (string-insert "ab" "c" 0) "cab")
+(check-expect (string-insert "ab" "c" 1) "acb")
+(check-expect (string-insert "ab" "c" 2) "abc")
+(define (string-insert s1 s2 i)
+  (string-append (substring s1 0 i) s2 (substring s1 i)))
+
+(define-struct editor [str index])
+; An Editor is a structure:
+;   (make-editor String Number)
+; interpretation (make-editor str index) describes an editor
+; whose visible text is str with the cursor displayed at position
+; index, starting from 0 (at the left of the first character)
+
+(define TEXT-SIZE 14)
+(define SCENE-WIDTH 200)
+(define SCENE-HEIGHT 20)
+
+; Editor -> Image
+; Renders the editor text into an image
+(define (render-text editor)
+  (beside (text (string-left (editor-str editor)
+                             (editor-index editor)) TEXT-SIZE "black")
+          (rectangle 1 TEXT-SIZE "solid" "red")
+          (text (string-right (editor-str editor)
+                              (editor-index editor)) TEXT-SIZE "black")))
+
+; Editor -> Image
+; Renders the editor into an image
+(define (render editor)
+  (overlay/align "left" "center"
+                 (render-text editor)
+                 (empty-scene SCENE-WIDTH SCENE-HEIGHT)))
+
+; Editor, KeyEvent -> Editor
+; Handle KeyEvents for the current Editor
+(check-expect (edit (make-editor "ab" 1) "\t") (make-editor "ab" 1))
+(check-expect (edit (make-editor "ab" 1) "\r") (make-editor "ab" 1))
+(check-expect (edit (make-editor "ab" 1) "\b") (make-editor "b" 0))
+(check-expect (edit (make-editor "" 0) "\b") (make-editor "" 0))
+(check-expect (edit (make-editor "ab" 1) "c") (make-editor "acb" 2))
+(check-expect (edit (make-editor "ab" 1) "left") (make-editor "ab" 0))
+(check-expect (edit (make-editor "ab" 0) "left") (make-editor "ab" 0))
+(check-expect (edit (make-editor "ab" 1) "right") (make-editor "ab" 2))
+(check-expect (edit (make-editor "ab" 2) "right") (make-editor "ab" 2))
+(define (edit ed ke)
+  (cond [(or (equal? ke "\t") (equal? ke "\r"))
+         ed]
+        [(equal? ke "\b")
+         (if (= (editor-index ed) 0)
+             ed
+             (make-editor
+              (string-delete (editor-str ed) (sub1 (editor-index ed)))
+              (sub1 (editor-index ed))))]
+        [(equal? ke "left")
+         (if (= (editor-index ed) 0)
+             ed
+             (make-editor (editor-str ed) (sub1 (editor-index ed))))]
+        [(equal? ke "right")
+         (if (= (editor-index ed) (string-length (editor-str ed)))
+             ed
+             (make-editor (editor-str ed) (add1 (editor-index ed))))]
+        [else (if (> (image-width
+                      (render-text
+                       (make-editor (string-append (editor-str ed) ke)
+                                    (editor-index ed))))
+                     SCENE-WIDTH)
+                  ed
+                  (make-editor (string-insert (editor-str ed)
+                                              ke
+                                              (editor-index ed))
+                               (add1 (editor-index ed))))]))
+
+; Starts a text editor
+(define (run pre)
+  (big-bang (make-editor pre (string-length pre))
+            [to-draw render]
+            [on-key edit]))
+
+(run "Hello")
+#+END_SRC
+
+*** Exercise 88
+
+Exercise 88. Define a structure type that keeps track of the cat’s x-coordinate and its happiness.
+Then formulate a data definition for cats, dubbed VCat, including an interpretation.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define-struct cat [x happiness])
+; A Cat is a structure:
+; (make-cat Number Number)
+; (make-cat x happiness) describes a cat at x-position x and with
+; happiness happiness.
+#+END_SRC
+
+*** Exercise 89
+
+Exercise 89. Design the happy-cat world program, which manages a walking cat and its happiness
+level. Let’s assume that the cat starts out with perfect happiness.
+
+Hints (1) Reuse the functions from the world programs in Virtual Pet Worlds. (2) Use structure type
+from the preceding exercise to represent the state of the world.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define-struct cat [x happiness])
+; A Cat is a structure:
+; (make-cat Number Number)
+; (make-cat x happiness) describes a cat at x-position x and with
+; happiness happiness.
+; x should be between 0 and SCENE-WIDTH
+; happiness should be between MIN-HAPPINESS and MAX-HAPPINESS
+
+(define MIN-HAPPINESS 0)
+(define MAX-HAPPINESS 100)
+(define SCENE-WIDTH 800)
+(define SCENE-HEIGHT (/ SCENE-WIDTH 10))
+(define SCENE (empty-scene SCENE-WIDTH SCENE-HEIGHT))
+
+(define HAPPINESS-BAR-HEIGHT-FRACTION 20)
+(define HAPPINESS-BAR-HEIGHT (/ SCENE-HEIGHT HAPPINESS-BAR-HEIGHT-FRACTION))
+(define HAPPINESS-BAR-Y (* (/ (- (* 2 HAPPINESS-BAR-HEIGHT-FRACTION) 1)
+                              (* 2 HAPPINESS-BAR-HEIGHT-FRACTION)) SCENE-HEIGHT))
+(define HAPPINESS-BAR-X-FACTOR (/ SCENE-WIDTH MAX-HAPPINESS))
+
+(define CAT (rectangle (/ SCENE-HEIGHT 2) (/ SCENE-HEIGHT 2) "solid" "black"))
+(define CAT-Y (/ SCENE-HEIGHT 2))
+
+; Number -> Number
+; Change happiness by amount, always ensuring the values are clamped
+; between MIN-HAPPINESS and MAX-HAPPINESS.
+(check-expect (change-happiness (+ MIN-HAPPINESS 3) -4) MIN-HAPPINESS)
+(check-expect (change-happiness (- MAX-HAPPINESS 3) +4) MAX-HAPPINESS)
+(check-expect (change-happiness MIN-HAPPINESS +1) (+ MIN-HAPPINESS 1))
+(define (change-happiness happiness amount)
+  (cond [(> (+ happiness amount) MAX-HAPPINESS) MAX-HAPPINESS]
+        [(< (+ happiness amount) MIN-HAPPINESS) MIN-HAPPINESS]
+        [else (+ happiness amount)]))
+
+; Number -> Number
+; Scale the happiness number to the scene width
+(check-expect (scale-happiness-bar MAX-HAPPINESS) SCENE-WIDTH)
+(check-expect (scale-happiness-bar (/ MAX-HAPPINESS 2)) (/ SCENE-WIDTH 2))
+(define (scale-happiness-bar happiness)
+  (* happiness HAPPINESS-BAR-X-FACTOR))
+
+; Cat -> Image
+; Draws the cat and the happiness bar
+(define (draw-handler cat)
+  (place-image
+   CAT
+   (cat-x cat)
+   CAT-Y
+   (place-image (rectangle (scale-happiness-bar (cat-happiness cat)) HAPPINESS-BAR-HEIGHT "solid" "red")
+                (/ (scale-happiness-bar (cat-happiness cat)) 2)
+                HAPPINESS-BAR-Y
+                SCENE)))
+
+; Cat -> Cat
+; Handles the tick event, moving the cat, and lowering the cat
+; happiness at each tick.
+(check-expect (tick-handler (make-cat 0 MAX-HAPPINESS))
+              (make-cat 3 (- MAX-HAPPINESS 0.1)))
+(check-expect (tick-handler (make-cat 0 MIN-HAPPINESS))
+              (make-cat 3 MIN-HAPPINESS))
+(define (tick-handler cat)
+  (make-cat (+ (cat-x cat) 3)
+            (change-happiness (cat-happiness cat) -0.1)))
+
+; Cat, KeyEvent -> Cat
+; Handles the key events
+(check-expect (key-event-handler (make-cat 0 MIN-HAPPINESS) "up")
+              (make-cat 0 (+ MIN-HAPPINESS 1/3)))
+(check-expect (key-event-handler (make-cat 0 MAX-HAPPINESS) "up")
+              (make-cat 0 MAX-HAPPINESS))
+(check-expect (key-event-handler (make-cat 0 MAX-HAPPINESS) "down")
+              (make-cat 0 (- MAX-HAPPINESS 1/5)))
+(check-expect (key-event-handler (make-cat 0 MIN-HAPPINESS) "down")
+              (make-cat 0 MIN-HAPPINESS))
+(define (key-event-handler cat key-event)
+  (make-cat (cat-x cat)
+            (cond [(key=? key-event "up")
+                   (change-happiness (cat-happiness cat) +1/3)]
+                  [(key=? key-event "down")
+                   (change-happiness (cat-happiness cat) -1/5)]
+                  [else (cat-happiness cat)])))
+
+; Starts a cat simulation
+(define (happy-cat cat)
+  (big-bang cat
+            [to-draw draw-handler]
+            [on-tick tick-handler]
+            [on-key key-event-handler]))
+
+(happy-cat (make-cat 0 MAX-HAPPINESS))
+#+END_SRC
+
+*** Exercise 90
+
+Exercise 90. Modify the happy-cat program from the preceding exercises so that it stops whenever the
+cat’s happiness falls to 0.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define (tick-handler cat)
+  (make-cat (cond [(= (cat-happiness cat) 0) (cat-x cat)]
+                  [else (+ (cat-x cat) 3)])
+            (change-happiness (cat-happiness cat) -0.1)))
+#+END_SRC
+
+*** Exercise 91
+
+Exercise 91. Extend your structure type definition and data definition from exercise 88 to include a
+direction field. Adjust your happy-cat program so that the cat moves in the specified direction. The
+program should move the cat in the current direction, and it should turn the cat around when it
+reaches either end of the scene.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define-struct cat [x direction happiness])
+; A Cat is a structure:
+; (make-cat Number Number Number)
+; (make-cat x direction happiness) describes a cat at x-position x,
+; with direction direction and with happiness happiness.
+; x should be between 0 and SCENE-WIDTH
+; direction should be 1 or -1
+; happiness should be between MIN-HAPPINESS and MAX-HAPPINESS
+
+(define MIN-HAPPINESS 0)
+(define MAX-HAPPINESS 100)
+(define SCENE-WIDTH 800)
+(define SCENE-HEIGHT (/ SCENE-WIDTH 10))
+(define SCENE (empty-scene SCENE-WIDTH SCENE-HEIGHT))
+
+(define HAPPINESS-BAR-HEIGHT-FRACTION 20)
+(define HAPPINESS-BAR-HEIGHT (/ SCENE-HEIGHT HAPPINESS-BAR-HEIGHT-FRACTION))
+(define HAPPINESS-BAR-Y (* (/ (- (* 2 HAPPINESS-BAR-HEIGHT-FRACTION) 1)
+                              (* 2 HAPPINESS-BAR-HEIGHT-FRACTION)) SCENE-HEIGHT))
+(define HAPPINESS-BAR-X-FACTOR (/ SCENE-WIDTH MAX-HAPPINESS))
+
+(define CAT (rectangle (/ SCENE-HEIGHT 2) (/ SCENE-HEIGHT 2) "solid" "black"))
+(define CAT-Y (/ SCENE-HEIGHT 2))
+
+; Number -> Number
+; Change happiness by amount, always ensuring the values are clamped
+; between MIN-HAPPINESS and MAX-HAPPINESS.
+(check-expect (change-happiness (+ MIN-HAPPINESS 3) -4) MIN-HAPPINESS)
+(check-expect (change-happiness (- MAX-HAPPINESS 3) +4) MAX-HAPPINESS)
+(check-expect (change-happiness MIN-HAPPINESS +1) (+ MIN-HAPPINESS 1))
+(define (change-happiness happiness amount)
+  (cond [(> (+ happiness amount) MAX-HAPPINESS) MAX-HAPPINESS]
+        [(< (+ happiness amount) MIN-HAPPINESS) MIN-HAPPINESS]
+        [else (+ happiness amount)]))
+
+; Number -> Number
+; Scale the happiness number to the scene width
+(check-expect (scale-happiness-bar MAX-HAPPINESS) SCENE-WIDTH)
+(check-expect (scale-happiness-bar (/ MAX-HAPPINESS 2)) (/ SCENE-WIDTH 2))
+(define (scale-happiness-bar happiness)
+  (* happiness HAPPINESS-BAR-X-FACTOR))
+
+; Cat -> Image
+; Draws the cat and the happiness bar
+(define (draw-handler cat)
+  (place-image
+   CAT
+   (cat-x cat)
+   CAT-Y
+   (place-image (rectangle (scale-happiness-bar (cat-happiness cat)) HAPPINESS-BAR-HEIGHT "solid" "red")
+                (/ (scale-happiness-bar (cat-happiness cat)) 2)
+                HAPPINESS-BAR-Y
+                SCENE)))
+
+; Cat -> Cat
+; Handles the tick event, moving the cat, and lowering the cat
+; happiness at each tick.
+(check-expect (tick-handler (make-cat 0 1 MAX-HAPPINESS))
+              (make-cat 3 1 (- MAX-HAPPINESS 0.1)))
+(check-expect (tick-handler (make-cat 0 1 MIN-HAPPINESS))
+              (make-cat 0 1 MIN-HAPPINESS))
+(check-expect (tick-handler (make-cat 0 -1 MAX-HAPPINESS))
+              (make-cat -3 1 (- MAX-HAPPINESS 0.1)))
+(check-expect (tick-handler (make-cat SCENE-WIDTH 1 MAX-HAPPINESS))
+              (make-cat (+ SCENE-WIDTH 3) -1 (- MAX-HAPPINESS 0.1)))
+(define (tick-handler cat)
+  (make-cat (cond [(= (cat-happiness cat) 0) (cat-x cat)]
+                  [else (+ (cat-x cat) (* (cat-direction cat) 3))])
+            (cond [(<= (cat-x cat) 0) 1]
+                  [(>= (cat-x cat) SCENE-WIDTH) -1]
+                  [else (cat-direction cat)])
+            (change-happiness (cat-happiness cat) -0.1)))
+
+; Cat, KeyEvent -> Cat
+; Handles the key events
+(check-expect (key-event-handler (make-cat 0 1 MIN-HAPPINESS) "up")
+              (make-cat 0 1 (+ MIN-HAPPINESS 1/3)))
+(check-expect (key-event-handler (make-cat 0 1 MAX-HAPPINESS) "up")
+              (make-cat 0 1 MAX-HAPPINESS))
+(check-expect (key-event-handler (make-cat 0 1 MAX-HAPPINESS) "down")
+              (make-cat 0 1 (- MAX-HAPPINESS 1/5)))
+(check-expect (key-event-handler (make-cat 0 1 MIN-HAPPINESS) "down")
+              (make-cat 0 1 MIN-HAPPINESS))
+(define (key-event-handler cat key-event)
+  (make-cat (cat-x cat)
+            (cat-direction cat)
+            (cond [(key=? key-event "up")
+                   (change-happiness (cat-happiness cat) +1/3)]
+                  [(key=? key-event "down")
+                   (change-happiness (cat-happiness cat) -1/5)]
+                  [else (cat-happiness cat)])))
+
+; Starts a cat simulation
+(define (happy-cat cat)
+  (big-bang cat
+            [to-draw draw-handler]
+            [on-tick tick-handler]
+            [on-key key-event-handler]))
+
+(happy-cat (make-cat 0 1 MAX-HAPPINESS))
+#+END_SRC
+
+*** Exercise 92
+
+Exercise 92. Design the cham program, which has the chameleon continuously walking across the canvas
+from left to right. When it reaches the right end of the canvas, it disappears and immediately
+reappears on the left. Like the cat, the chameleon gets hungry from all the walking, and, as time
+passes by, this hunger expresses itself as unhappiness.
+
+For managing the chameleon’s happiness gauge, you may reuse the happiness gauge from the virtual
+cat. To make the chameleon happy, you feed it (down arrow, two points only); petting isn’t allowed.
+Of course, like all chameleons, ours can change color, too: "r" turns it red, "b" blue, and "g"
+green. Add the chameleon world program to the virtual cat game and reuse functions from the latter
+when possible.
+
+Start with a data definition, VCham, for representing chameleons.
+
+**** Solution
+
+#+BEGIN_SRC racket
+#lang htdp/bsl
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define-struct cham [x happiness color])
+; A Cham is a structure:
+; (make-cham Number Number String)
+; (make-cham x happiness color) describes a chameleon at x-position x,
+; with direction direction, with happiness happiness and color color.
+; x should be between 0 and SCENE-WIDTH
+; happiness should be between MIN-HAPPINESS and MAX-HAPPINESS
+; color should be one of "red", "blue" and "green"
+
+(define MIN-HAPPINESS 0)
+(define MAX-HAPPINESS 100)
+(define SCENE-WIDTH 800)
+(define SCENE-HEIGHT (/ SCENE-WIDTH 10))
+(define SCENE (empty-scene SCENE-WIDTH SCENE-HEIGHT))
+
+(define HAPPINESS-BAR-HEIGHT-FRACTION 20)
+(define HAPPINESS-BAR-HEIGHT (/ SCENE-HEIGHT HAPPINESS-BAR-HEIGHT-FRACTION))
+(define HAPPINESS-BAR-Y (* (/ (- (* 2 HAPPINESS-BAR-HEIGHT-FRACTION) 1)
+                              (* 2 HAPPINESS-BAR-HEIGHT-FRACTION)) SCENE-HEIGHT))
+(define HAPPINESS-BAR-X-FACTOR (/ SCENE-WIDTH MAX-HAPPINESS))
+
+;; (define CHAM (rectangle (/ SCENE-HEIGHT 2) (/ SCENE-HEIGHT 2) "solid" "black"))
+(define CHAM-Y (/ SCENE-HEIGHT 2))
+
+; Number -> Number
+; Change happiness by amount, always ensuring the values are clamped
+; between MIN-HAPPINESS and MAX-HAPPINESS.
+(check-expect (change-happiness (+ MIN-HAPPINESS 3) -4) MIN-HAPPINESS)
+(check-expect (change-happiness (- MAX-HAPPINESS 3) +4) MAX-HAPPINESS)
+(check-expect (change-happiness MIN-HAPPINESS +1) (+ MIN-HAPPINESS 1))
+(define (change-happiness happiness amount)
+  (cond [(> (+ happiness amount) MAX-HAPPINESS) MAX-HAPPINESS]
+        [(< (+ happiness amount) MIN-HAPPINESS) MIN-HAPPINESS]
+        [else (+ happiness amount)]))
+
+; Number -> Number
+; Scale the happiness number to the scene width
+(check-expect (scale-happiness-bar MAX-HAPPINESS) SCENE-WIDTH)
+(check-expect (scale-happiness-bar (/ MAX-HAPPINESS 2)) (/ SCENE-WIDTH 2))
+(define (scale-happiness-bar happiness)
+  (* happiness HAPPINESS-BAR-X-FACTOR))
+
+; Cham -> Image
+; Draws a chameleon
+(define (draw-cham cham)
+  (rectangle (/ SCENE-HEIGHT 2) (/ SCENE-HEIGHT 2) "solid" (cham-color cham)))
+
+; Cham -> Image
+; Draws the cham and the happiness bar
+(define (draw-handler cham)
+  (place-image
+   (draw-cham cham)
+   (cham-x cham)
+   CHAM-Y
+   (place-image (rectangle (scale-happiness-bar (cham-happiness cham)) HAPPINESS-BAR-HEIGHT "solid" "red")
+                (/ (scale-happiness-bar (cham-happiness cham)) 2)
+                HAPPINESS-BAR-Y
+                SCENE)))
+
+; Cham -> Cham
+; Handles the tick event, moving the cham, and lowering the cham
+; happiness at each tick.
+(check-expect (tick-handler (make-cham 0 MAX-HAPPINESS "red"))
+              (make-cham 3 (- MAX-HAPPINESS 0.1) "red"))
+(check-expect (tick-handler (make-cham 0 MIN-HAPPINESS "red"))
+              (make-cham 0 MIN-HAPPINESS "red"))
+(check-expect (tick-handler (make-cham 0 MAX-HAPPINESS "red"))
+              (make-cham -3 (- MAX-HAPPINESS 0.1) "red"))
+(check-expect (tick-handler (make-cham SCENE-WIDTH MAX-HAPPINESS "red"))
+              (make-cham (+ SCENE-WIDTH 3) (- MAX-HAPPINESS 0.1) "red"))
+(define (tick-handler cham)
+  (make-cham (cond [(>= (cham-x cham) SCENE-WIDTH) 0]
+                   [else (cond [(= (cham-happiness cham) 0)
+                                (cham-x cham)]
+                               [else (+ (cham-x cham) 3)])])
+             (change-happiness (cham-happiness cham) -0.1)
+             (cham-color cham)))
+
+; Cham, KeyEvent -> Cham
+; Handles the key events
+(check-expect (key-event-handler (make-cham 0 MIN-HAPPINESS "red") "down")
+              (make-cham 0 (+ MIN-HAPPINESS 2) "red"))
+(check-expect (key-event-handler (make-cham 0 MAX-HAPPINESS "red") "down")
+              (make-cham 0 MAX-HAPPINESS "red"))
+(define (key-event-handler cham key-event)
+  (make-cham (cham-x cham)
+             (cond [(key=? key-event "down")
+                    (change-happiness (cham-happiness cham) +2)]
+                   [else (cham-happiness cham)])
+             (cond [(key=? key-event "r") "red"]
+                   [(key=? key-event "b") "blue"]
+                   [(key=? key-event "g") "green"]
+                   [else (cham-color cham)])))
+
+; Starts a cham simulation
+(define (happy-cham cham)
+  (big-bang cham
+            [to-draw draw-handler]
+            [on-tick tick-handler]
+            [on-key key-event-handler]))
+
+(happy-cham (make-cham 0 MAX-HAPPINESS "red"))
+#+END_SRC
 
 * Ruby Koans
 :LOGBOOK:
