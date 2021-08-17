@@ -412,7 +412,7 @@ math: To reduce a fraction {{c1::divide the numerator and denominator by their g
 
 **** Text
 
-math: a/b is an Irreducible Fraction if {{c1::greatest_common_divisor(a, b) = 1}}
+math: a/b is an Irreducible Fraction if {{c1:: ~greatest_common_divisor(a, b) = 1~ }}
 
 *** Irreducible Fraction
 :PROPERTIES:
