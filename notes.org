@@ -6802,6 +6802,11 @@ Interesting article on the benefits and opportunities of being a jack of all tra
 :PROPERTIES:
 :Source: https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life
 :END:
+*** DONE You don’t need to work on hard problems
+:PROPERTIES:
+:Source: https://www.benkuhn.net/hard/
+:Source+: https://news.ycombinator.com/item?id=28206991
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
