@@ -110,7 +110,7 @@ math: a/b is {{c1::an Improper}} fraction if {{c2::a >= b}}
 
 **** Text
 
-math: a/b is {{c1::a Proper}} fraction if {{c1::a < b}}
+math: a/b is {{c1::a Proper}} fraction if {{c2::a < b}}
 
 *** Mixed Number
 :PROPERTIES:
