@@ -4665,6 +4665,7 @@ go: Check that KEY is in MAP with {{c1:: ~_, ok := MAP[KEY]~ }}
 
 * How to Design Programs
 :LOGBOOK:
+CLOCK: [2021-08-18 Wed 15:42]--[2021-08-18 Wed 17:42] =>  2:00
 CLOCK: [2021-08-17 Tue 20:08]--[2021-08-17 Tue 22:08] =>  2:00
 CLOCK: [2021-08-17 Tue 16:00]--[2021-08-17 Tue 18:00] =>  2:00
 CLOCK: [2021-08-17 Tue 11:55]--[2021-08-17 Tue 13:55] =>  2:00
@@ -7446,6 +7447,174 @@ Start with a data definition, VCham, for representing chameleons.
             [on-key key-event-handler]))
 
 (happy-cham (make-cham 0 MAX-HAPPINESS "red"))
+#+END_SRC
+
+*** Exercise 97
+
+Exercise 97. Design the functions tank-render, ufo-render, and missile-render. Compare this
+expression:
+
+#+BEGIN_SRC racket
+(tank-render
+ (fired-tank s)
+ (ufo-render (fired-ufo s)
+             (missile-render (fired-missile s)
+                             BACKGROUND)))
+#+END_SRC
+
+with this one:
+
+#+BEGIN_SRC racket
+(ufo-render
+ (fired-ufo s)
+ (tank-render (fired-tank s)
+              (missile-render (fired-missile s)
+                              BACKGROUND)))
+#+END_SRC
+
+When do the two expressions produce the same result?
+
+**** Solution
+
+#+BEGIN_SRC racket
+; Tank Image -> Image
+; adds t to the given image im
+(define (tank-render t im)
+  (place-image TANK-IMAGE (tank-loc t) TANK-Y im))
+
+; UFO Image -> Image
+; adds u to the given image im
+(define (ufo-render u im)
+  (place-image UFO-IMAGE (posn-x u) (posn-y u) im))
+
+; Missile Image -> Image
+; adds m to the given image im
+(define (missile-render m im)
+  (place-image UFO-IMAGE (posn-x m) (posn-y m) im))
+#+END_SRC
+
+The two expressions should always be the same, except when the UFO and the Tank are at the same
+position, in that case one expression will put one over the other and vice versa.
+
+*** Exercise 98
+
+Exercise 98. Design the function si-game-over? for use as the stop-when handler. The game stops if
+the UFO lands or if the missile hits the UFO. For both conditions, we recommend that you check for
+proximity of one object to another.
+
+The stop-when clause allows for an optional second sub-expression, namely a function that renders
+the final state of the game. Design si-render-final and use it as the second part for your stop-when
+clause in the main function of exercise 100.
+
+**** Solution
+
+#+BEGIN_SRC racket
+; Posn Posn -> Number
+; Computes the distance between two points
+(check-expect (distance (make-posn 4 7) (make-posn 1 3)) 5)
+(check-expect (distance (make-posn 1 3) (make-posn 4 7)) 5)
+(define (distance a b)
+  (sqrt (+ (sqr (- (posn-x a) (posn-x b)))
+           (sqr (- (posn-y a) (posn-y b))))))
+
+(define DISTANCE-IS-CLOSE 5)
+
+; Posn Posn -> Boolean
+; Determines if two points are close
+(check-expect (is-close (make-posn 4 7) (make-posn 1 3)) #true)
+(check-expect (is-close (make-posn 5 8) (make-posn 1 3)) #false)
+(define (is-close a b)
+  (<= (distance a b) DISTANCE-IS-CLOSE))
+
+; Posn Posn -> Boolean
+; Determines if a point's y position is close to a point on the y axis
+(check-expect (is-close-y (make-posn 4 95) 100) #true)
+(check-expect (is-close-y (make-posn 5 94) 100) #false)
+(define (is-close-y a y)
+  (<= (abs (- (posn-y a) y)) DISTANCE-IS-CLOSE))
+
+; SIGS -> Boolean
+; Stops the game when the missile hits (is close) to the UFO or when
+; the UFO lands (is close to the ground).
+(define (si-game-over s)
+  (cond [(fired? s) (or (is-close (fired-missile s) (fired-ufo s))
+                        (is-close-y (fired-ufo s) GROUND-Y))]
+        [else (is-close-y (aim-ufo s) GROUND-Y)]))
+#+END_SRC
+
+*** Exercise 99
+
+Exercise 99. Design si-move. This function is called for every clock tick to determine to which
+position the objects move now. Accordingly, it consumes an element of SIGS and produces another one.
+
+Moving the tank and the missile (if any) is relatively straightforward. They move in straight lines
+at a constant speed. Moving the UFO calls for small random jumps to the left or the right. Since you
+have never dealt with functions that create random numbers, the rest of this exercise is a longish
+hint on how to deal with this issue.
+
+BSL comes with a function that creates random numbers. Introducing this function illustrates why the
+signatures and purpose statements play such an important role during the design. Here is the
+relevant material for the function you need:
+
+#+BEGIN_SRC racket
+; Number -> Number
+; produces a number in the interval [0,n),
+; possibly a different one each time it is called
+(define (random n) ...)
+#+END_SRC
+
+Since the signature and purpose statement precisely describe what a function computes, you can now
+experiment with random in DrRacket’s interactions area. Stop! Do so!
+
+If random produces different numbers (almost) every time it is called, testing functions that use
+random is difficult. To start with, separate si-move and its proper functionality into two parts:
+
+#+BEGIN_SRC racket
+(define (si-move w)
+  (si-move-proper w (random ...)))
+
+; SIGS Number -> SIGS
+; moves the space-invader objects predictably by delta
+(define (si-move-proper w delta)
+  w)
+#+END_SRC
+
+With this definition you separate the creation of a random number from the act of moving the game
+objects. While random may produce different results every time it is called, si-move-proper can be
+tested on specific numeric inputs and is thus guaranteed to return the same result when given the
+same inputs. In short, most of the code remains testable.
+
+Instead of calling random directly, you may wish to design a function that creates a random
+x-coordinate for the UFO. Consider using check-random from BSL’s testing framework to test such a
+function.
+
+**** Solution
+
+#+BEGIN_SRC racket
+(define-struct aim [ufo tank])
+(define-struct fired [ufo tank missile])
+
+; A UFO is a Posn.
+; interpretation (make-posn x y) is the UFO's location
+; (using the top-down, left-to-right convention)
+
+(define-struct tank [loc vel])
+; A Tank is a structure:
+;   (make-tank Number Number).
+; interpretation (make-tank x dx) specifies the position:
+; (x, HEIGHT) and the tank's speed: dx pixels/tick
+
+; A Missile is a Posn.
+; interpretation (make-posn x y) is the missile's place
+
+; SIGS Number -> SIGS
+; moves the space-invader objects predictably by delta
+(define (si-move-proper w delta)
+  (cond [(fired? w) (make-fired (move-ufo (fired-ufo w) delta)
+                                (move-tank (fired-tank w))
+                                (move-missile (fired-missile w)))]
+        [else (make-aim (move-ufo (aim-ufo w) delta)
+                        (move-tank (aim-tank w)))]))
 #+END_SRC
 
 * Ruby Koans
