@@ -117,7 +117,7 @@ can be {{c2::shifted away from its original position}}
 
 *** Text
 
-css: With {{c1:: ~position: relative~ }} the original space the object would take {{c2::is}}
+css: With {{c1:: ~relative~ }} positioning the original space the object would take {{c2::is}}
 preserved
 
 ** Absolute Positioning
@@ -139,7 +139,7 @@ can be {{c2::fixed to an absolute position relative to its parent container}}
 
 *** Text
 
-css: With {{c1:: ~position: absolute~ }} the original space the object would take {{c2::isn't}}
+css: With {{c1:: ~absolute~ }} positioning the original space the object would take {{c2::isn't}}
 preserved
 
 ** Absolute vs Fixed
