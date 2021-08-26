@@ -4,12 +4,38 @@
 
 * Responsive Web Design
 :LOGBOOK:
+CLOCK: [2021-08-26 Thu 12:02]--[2021-08-26 Thu 14:02] =>  2:00
+CLOCK: [2021-08-25 Wed 15:58]--[2021-08-25 Wed 17:58] =>  2:00
 CLOCK: [2021-08-23 Mon 16:14]--[2021-08-23 Mon 18:14] =>  2:00
 CLOCK: [2021-08-23 Mon 10:39]--[2021-08-23 Mon 12:39] =>  2:00
 :END:
 :PROPERTIES:
 :Source: https://www.freecodecamp.org/learn/responsive-web-design/
 :END:
+
+** Padding Values
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978616274
+:END:
+
+*** Text
+
+css:
+
+#+BEGIN_SRC css
+/* Applies to {{c1::all four sides}} */
+padding: 1em;
+
+/* Applies to {{c1::vertical, horizontal}} */
+padding: 5% 10%;
+
+/* Applies to {{c1::top, horizontal, bottom}} */
+padding: 1em 2em 2em;
+
+/* Applies to {{c1::top, right, bottom, left}} */
+padding: 5px 1em 0 2em;
+#+END_SRC
 
 ** Padding
 :PROPERTIES:
@@ -152,3 +178,159 @@ preserved
 
 css: The difference between Absolute and Fixed positioning is that Absolute {{c1::will scroll away
 with the window}}
+
+** z-index
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978617582
+:END:
+
+*** Text
+
+css: Change the z-order of overlapping elements with the {{c1::z-index}} property
+
+** margin: auto
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978617678
+:END:
+
+*** Text
+
+css: Set {{c1:: ~margin~ to ~auto~ }} to center a block element
+
+** linear-gradient()
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978617812
+:END:
+
+*** Text
+
+css: Set {{c1:: ~background~ to ~linear-gradient(DEGREES, COLOR1, COLOR2, ...)~ }} to create a
+linear gradient on an element
+
+** transform
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978618032
+:END:
+
+*** Text
+
+css: Use the {{c1::transform}} property to rotate, scale, skew, or translate an element
+
+** img's alt Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618150
+:END:
+
+*** Text
+
+html: best practice: Add an alt attribute to all non-decorative img tags (or set it to "")
+
+** main, header, footer, nav, article, and section Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618239
+:END:
+
+*** Text
+
+html: best practice: Use main, header, footer, nav, article, and section tags
+
+** figure and figcaption Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618524
+:END:
+
+*** Text
+
+html: best practice: Use the figure and figcaption tags
+
+** Form label "for" and input "name"
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978618673
+:END:
+
+*** Text
+
+html: In the following example "for" is linked to {{c1::id of the input}}.
+"name" controls the {{c1::name in the name/value pair of the submitted data}}.
+
+#+BEGIN_SRC html
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+#+END_SRC
+
+** fieldset Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618763
+:END:
+
+*** Text
+
+html: best practice: Wrap radio buttons inside a fieldset tag and add a legend tag
+
+** time Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618867
+:END:
+
+*** Text
+
+html: best practice: Use the time tag
+
+** Contrast Best Practice
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1629978618969
+:END:
+
+*** Text
+
+css: Have a contrast of at least 4.5:1 (as recommended by the WCAG)
+
+** Media Queries
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978619088
+:END:
+
+*** Text
+
+css: Use {{c1::Media Queries}} to apply different rules to different device sizes
+
+** Responsive Images
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978619272
+:END:
+
+*** Text
+
+css: Make images responsive with the following css
+
+{{c1::
+#+BEGIN_SRC css
+img {
+  max-width: 100%;
+  height: auto;
+}
+#+END_SRC
+}}
+
+** Responsive Typography
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629978619422
+:END:
+
+*** Text
+
+css: Make typography responsive by using one of the following units: {{c1::vw, vh, vmin or vmax}}
