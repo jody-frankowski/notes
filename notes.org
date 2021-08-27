@@ -1183,7 +1183,7 @@ c: Trigraph Sequences are replaced by {{c1::1}} character(s)
 
 ***** Text
 
-c: Trigraph Sequences are replaced {{c1::before any processing}}
+c: Trigraph Sequences are replaced {{c1::before any processing::when}}
 
 *** Type Qualifiers
 **** ~const~
@@ -2863,7 +2863,7 @@ floating point: The value 0 is expressed with:
 
 floating point: A subnormal number is expressed with:
 - {{c1::An empty exponent}}
-- {{c1::An non empty fraction}}
+- {{c1::A non empty fraction}}
 
 floating point: Infinity is expressed with:
 - {{c1::A full exponent}}
