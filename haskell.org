@@ -1,0 +1,117 @@
+#+TITLE: Haskell
+#+PROPERTY: ANKI_DECK CS
+
+* Learn You a Haskell for Great Good!
+:LOGBOOK:
+CLOCK: [2021-08-27 Fri 19:05]--[2021-08-27 Fri 21:05] =>  2:00
+CLOCK: [2021-08-26 Thu 17:05]--[2021-08-26 Thu 18:05] =>  1:00
+CLOCK: [2021-08-26 Thu 14:08]--[2021-08-26 Thu 15:08] =>  1:00
+:END:
+
+** Starting Out
+*** List Operations
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1629990405082
+:END:
+
+**** Text
+
+haskell:
+
+Concatenate two lists: {{c1:: ~LIST1 ++ LIST2~ }}
+
+Prepend an element to a list: {{c1:: ~ELEMENT:LIST~ }}
+
+Get an element from a list by index: {{c1:: ~LIST !! INDEX~ }}
+
+Get the first element of a list: {{c1:: ~head LIST~ }}
+
+Get all but the first element of a list: {{c1:: ~tail LIST~ }}
+
+Get the last element element of a list: {{c1:: ~last LIST~ }}
+
+Get all but the last element of a list: {{c1:: ~init LIST~ }}
+
+Get the length of a list: {{c1:: ~length LIST~ }}
+
+Check that a list is empty: {{c1:: ~null LIST~ }}
+
+Check that a list contains an element: {{c1:: ~ELEMENT `elem` LIST~ }}
+
+*** List Ranges
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569411
+:END:
+
+**** Text
+
+haskell: Get a list from a range of an enumerable: {{c1:: ~[FIRST..LAST]~ }}
+
+*** List Comprehension
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569542
+:END:
+
+**** Text
+
+haskell: Build a list comprehension:
+{{c1:: ~[OUTPUT_FUNCTION | INPUT_SET[, ...][, PREDICATE, ...]~ ]}}
+
+*** List Comprehension Example
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569654
+:END:
+
+**** Text
+
+haskell: Using list comprehensions, build a list of odd integers under 10:
+{{c1:: ~[x | x <- [1..10], odd x]~ ]}}
+
+*** fst and snd
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569772
+:END:
+
+**** Text
+
+haskell:
+
+Extract the first element of a pair tuple: {{c1:: ~fst TUPLE~ }}
+
+Extract the second element of a pair tuple: {{c1:: ~snd TUPLE~ }}
+
+*** zip
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569881
+:END:
+
+**** Text
+
+haskell: Create a list of tuples for each pair of elements in two lists: {{c1:: ~zip LIST1 LIST2~ }}
+
+** Types and Typeclasses
+*** :t in GHCI
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090569994
+:END:
+
+**** Text
+
+haskell: ghci: Show the type of an expression: {{c1:: ~:t EXPRESSION~ }}
+
+*** Polymorphic Functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630090570082
+:END:
+
+**** Text
+
+cs: A function that can be applied to values of different types is a {{c1::polymorphic function}}
