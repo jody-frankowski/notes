@@ -1957,7 +1957,7 @@ if(something)instruction,instruction;
 
 ***** Text
 
-golf: c: Use {{c1::a^b or a-b::... OR ...}} to {{c2::compare two integers for equality}}
+golf: c: Use {{c1:: ~a^b~ or ~a-b~ ::... OR ...}} to {{c2::compare two integers for equality}}
 
 **** Variable Initialized to 1
 :PROPERTIES:
