@@ -111,7 +111,7 @@ the callstack}}
 
 ***** Text
 
-asm: gas syntax: b suffix = {{c1::byte}} operand = {{c2::8}} bits long operand
+asm: gas syntax: {{c1::b}} suffix = {{c1::byte}} operand = {{c2::8}} bits long operand
 
 **** =w= suffix
 :PROPERTIES:
@@ -122,7 +122,7 @@ asm: gas syntax: b suffix = {{c1::byte}} operand = {{c2::8}} bits long operand
 
 ***** Text
 
-asm: gas syntax: w suffix = {{c1::word}} operand = {{c2::16}} bits long operand
+asm: gas syntax: {{c1::w}} suffix = {{c1::word}} operand = {{c2::16}} bits long operand
 
 **** =l= suffix
 :PROPERTIES:
@@ -133,7 +133,7 @@ asm: gas syntax: w suffix = {{c1::word}} operand = {{c2::16}} bits long operand
 
 ***** Text
 
-asm: gas syntax: l suffix = {{c1::long}} operand = {{c2::32}} bits long operand
+asm: gas syntax: {{c1::l}} suffix = {{c1::long}} operand = {{c2::32}} bits long operand
 
 **** =q= suffix
 :PROPERTIES:
@@ -144,7 +144,7 @@ asm: gas syntax: l suffix = {{c1::long}} operand = {{c2::32}} bits long operand
 
 ***** Text
 
-asm: gas syntax: q suffix = {{c1::quad}} operand = {{c2::64}} bits long operand
+asm: gas syntax: {{c1::q}} suffix = {{c1::quad}} operand = {{c2::64}} bits long operand
 
 *** NOP
 
