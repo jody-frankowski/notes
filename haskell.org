@@ -3,6 +3,8 @@
 
 * Learn You a Haskell for Great Good!
 :LOGBOOK:
+CLOCK: [2021-08-29 Sun 15:42]--[2021-08-29 Sun 17:42] =>  2:00
+CLOCK: [2021-08-29 Sun 10:19]--[2021-08-29 Sun 12:19] =>  2:00
 CLOCK: [2021-08-27 Fri 19:05]--[2021-08-27 Fri 21:05] =>  2:00
 CLOCK: [2021-08-26 Thu 17:05]--[2021-08-26 Thu 18:05] =>  1:00
 CLOCK: [2021-08-26 Thu 14:08]--[2021-08-26 Thu 15:08] =>  1:00
@@ -114,4 +116,120 @@ haskell: ghci: Show the type of an expression: {{c1:: ~:t EXPRESSION~ }}
 
 **** Text
 
-cs: A function that can be applied to values of different types is a {{c1::polymorphic function}}
+cs: {{c1::A function that can be applied to values of different types}} is a {{c2::polymorphic
+function}}
+
+*** =>
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250859771
+:END:
+
+**** Text
+
+haskell: {{c1::=>}} is called a {{c2::Class Constraint}}
+
+** Syntax in Functions
+*** Pattern Matching Example
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860043
+:END:
+
+**** Text
+
+haskell: Define the factorial function with Pattern Matching:
+
+{{c1::
+#+BEGIN_SRC haskell
+factorial :​: (Integral a) => a -> a
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+#+END_SRC
+}}
+
+*** Function Guards Example
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860174
+:END:
+
+**** Text
+
+haskell: Define the max function with Function Guards:
+
+{{c1::
+#+BEGIN_SRC haskell
+max' :​: (Ord a) => a -> a -> a
+max' a b
+  | a > b = a
+  | otherwise = b
+#+END_SRC
+}}
+
+*** where Clause in Function
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860290
+:END:
+
+**** Text
+
+haskell: Easily bind variables for functions bodies and guards with {{c1::where}}
+
+*** let Bindings
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860393
+:END:
+
+**** Text
+
+haskell: Define let bindings: {{c1:: ~let BINDINGS in EXPRESSION~ }}
+
+*** case Expression
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860526
+:END:
+
+**** Text
+
+haskell: Define a case expression:
+
+{{c1::
+#+BEGIN_SRC haskell
+case EXPRESSION of PATTERN -> RESULT
+                   PATTERN -> RESULT
+                   [...]
+#+END_SRC
+}}
+
+** Higher order functions
+*** Currying
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860661
+:END:
+
+**** Text
+
+cs: {{c1::Currying}} is {{c2::the technique of converting a function that takes multiple arguments
+into a sequence of functions that each takes a single argument}}
+
+*** Partially Apply Infix Functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630250860959
+:END:
+
+**** Text
+
+haskell: {{c1::Partially apply infix functions}} by {{c2::enclosing the function in parentheses
+with only one argument}}
+
+Example:
+
+#+BEGIN_SRC haskell
+divideByTen = {{c2::(/10)}}
+#+END_SRC
