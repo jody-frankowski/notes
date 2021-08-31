@@ -3,6 +3,9 @@
 
 * Learn You a Haskell for Great Good!
 :LOGBOOK:
+CLOCK: [2021-08-31 Tue 20:11]--[2021-08-31 Tue 22:11] =>  2:00
+CLOCK: [2021-08-31 Tue 14:47]--[2021-08-31 Tue 16:47] =>  2:00
+CLOCK: [2021-08-31 Tue 11:05]--[2021-08-31 Tue 13:05] =>  2:00
 CLOCK: [2021-08-29 Sun 15:42]--[2021-08-29 Sun 17:42] =>  2:00
 CLOCK: [2021-08-29 Sun 10:19]--[2021-08-29 Sun 12:19] =>  2:00
 CLOCK: [2021-08-27 Fri 19:05]--[2021-08-27 Fri 21:05] =>  2:00
@@ -233,3 +236,36 @@ Example:
 #+BEGIN_SRC haskell
 divideByTen = {{c2::(/10)}}
 #+END_SRC
+
+** Higher order functions
+*** Fold
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630440509351
+:END:
+
+**** Text
+
+cs: {{c1::A fold}} is {{c2::a function that processes a data-structure to build a return value}}
+
+*** foldl1 and foldr1
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630440509657
+:END:
+
+**** Text
+
+haskell: {{c1::Fold a list with the first or last element as the accumulator}} with {{c2::foldl1
+or foldr1}}
+
+*** scanl and scanr
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630440509782
+:END:
+
+**** Text
+
+haskell: {{c1::Fold a list while creating a new list with the accumulators}} with {{c2::scanl or
+scanr}}
