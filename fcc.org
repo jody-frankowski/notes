@@ -4,6 +4,12 @@
 
 * Responsive Web Design
 :LOGBOOK:
+CLOCK: [2021-09-01 Wed 16:52]--[2021-09-01 Wed 18:52] =>  2:00
+CLOCK: [2021-09-01 Wed 14:18]--[2021-09-01 Wed 16:18] =>  2:00
+CLOCK: [2021-09-01 Wed 09:16]--[2021-09-01 Wed 11:16] =>  2:00
+CLOCK: [2021-08-30 Mon 21:23]--[2021-08-30 Mon 22:23] =>  1:00
+CLOCK: [2021-08-28 Sat 21:18]--[2021-08-28 Sat 22:18] =>  1:00
+CLOCK: [2021-08-28 Sat 16:59]--[2021-08-28 Sat 17:59] =>  1:00
 CLOCK: [2021-08-26 Thu 12:02]--[2021-08-26 Thu 14:02] =>  2:00
 CLOCK: [2021-08-25 Wed 15:58]--[2021-08-25 Wed 17:58] =>  2:00
 CLOCK: [2021-08-23 Mon 16:14]--[2021-08-23 Mon 18:14] =>  2:00
@@ -89,7 +95,7 @@ priority
 
 *** Text
 
-css: If an element has an id and an inline style that style the same property, {{c1::the inline}}
+css: If an element has an id and an inline style that style the same property, the {{c1::inline}}
 style has the priority
 
 ** !important Priority
@@ -112,7 +118,7 @@ css: In a stylesheet, override all the possible styles by {{c1::suffixing the pr
 *** Text
 
 css: CSS Variables are defined by {{c1::prefixing the property with ~--~}} and are accessed by using
-{{c1:: ~var()~ }}
+{{c1::var()}}
 
 ** Pseudo-Classes
 :PROPERTIES:
@@ -132,8 +138,8 @@ css: ~:hover~ is called a {{c1::Pseudo-Class}}
 
 *** Text
 
-css: With {{c1:: ~position: relative~ and one of ~top~, ~right~, ~bottom~, and ~left~}} an element
-can be {{c2::shifted away from its original position}}
+css: With {{c1::relative positioning}} an element can be {{c2::shifted away from its original
+position}}
 
 ** Relative Positioning Space Left
 :PROPERTIES:
@@ -143,7 +149,7 @@ can be {{c2::shifted away from its original position}}
 
 *** Text
 
-css: With {{c1:: ~relative~ }} positioning the original space the object would take {{c2::is}}
+css: With {{c1::relative}} positioning the original space the object would take {{c2::is}}
 preserved
 
 ** Absolute Positioning
@@ -154,8 +160,8 @@ preserved
 
 *** Text
 
-css: With {{c1:: ~position: absolute~ and one of ~top~, ~right~, ~bottom~, and ~left~}} an element
-can be {{c2::fixed to an absolute position relative to its parent container}}
+css: With {{c1::absolute positioning}} an element can be {{c2::fixed to an absolute position
+relative to its parent container}}
 
 ** Absolute Positioning Space Left
 :PROPERTIES:
@@ -165,7 +171,7 @@ can be {{c2::fixed to an absolute position relative to its parent container}}
 
 *** Text
 
-css: With {{c1:: ~absolute~ }} positioning the original space the object would take {{c2::isn't}}
+css: With {{c1::absolute}} positioning the original space the object would take {{c2::isn't}}
 preserved
 
 ** Absolute vs Fixed
@@ -177,7 +183,7 @@ preserved
 *** Text
 
 css: The difference between Absolute and Fixed positioning is that Absolute {{c1::will scroll away
-with the window}}
+from the view}}
 
 ** z-index
 :PROPERTIES:
@@ -187,7 +193,7 @@ with the window}}
 
 *** Text
 
-css: Change the z-order of overlapping elements with the {{c1::z-index}} property
+css: {{c1::Change the z-order of overlapping elements}} with {{c2::z-index}}
 
 ** margin: auto
 :PROPERTIES:
@@ -197,7 +203,7 @@ css: Change the z-order of overlapping elements with the {{c1::z-index}} propert
 
 *** Text
 
-css: Set {{c1:: ~margin~ to ~auto~ }} to center a block element
+css: Set {{c1::margin to auto}} to center a block element
 
 ** linear-gradient()
 :PROPERTIES:
@@ -218,7 +224,7 @@ linear gradient on an element
 
 *** Text
 
-css: Use the {{c1::transform}} property to rotate, scale, skew, or translate an element
+css: {{c1::Rotate, scale, skew, or translate an element}} with {{c2::transform}}
 
 ** img's alt Best Practice
 :PROPERTIES:
@@ -304,7 +310,7 @@ css: Have a contrast of at least 4.5:1 (as recommended by the WCAG)
 
 *** Text
 
-css: Use {{c1::Media Queries}} to apply different rules to different device sizes
+css: {{c1::Apply different rules to different device sizes}} with {{c2::Media Queries}}
 
 ** Responsive Images
 :PROPERTIES:
@@ -314,7 +320,7 @@ css: Use {{c1::Media Queries}} to apply different rules to different device size
 
 *** Text
 
-css: Make images responsive with the following css
+css: Make images responsive with the following css:
 
 {{c1::
 #+BEGIN_SRC css
@@ -334,3 +340,124 @@ img {
 *** Text
 
 css: Make typography responsive by using one of the following units: {{c1::vw, vh, vmin or vmax}}
+
+** flex-direction
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399766942
+:END:
+
+*** Text
+
+css: flex: {{c1::Set the layout (row or column) of flex items}} with {{c2::flex-direction}}
+
+** flex-wrap
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767017
+:END:
+
+*** Text
+
+css: flex: {{c1::Allow items to wrap into a new row or column}} with {{c2::flex-wrap}}
+
+** flex-grow and flex-shrink
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767112
+:END:
+
+*** Text
+
+css: flex: {{c1::Increase or decrease the size of items in a container according to its size}} with
+{{c2::flex-grow}} or {{c2::flex-shrink}}
+
+** flex-basis
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767356
+:END:
+
+*** Text
+
+css: flex: {{c1::Set the initial size of an item}} with {{c2::flex-basis}}
+
+** order
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767431
+:END:
+
+*** Text
+
+css: flex: grid: {{c1::Set the order of the items}} with {{c2::order}}
+
+** grid-template-columns
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767496
+:END:
+
+*** Text
+
+css: grid: {{c1::Define a grid's columns sizes and numbers}} with {{c2::grid-template-columns}}
+
+** grid-template-rows
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767569
+:END:
+
+*** Text
+
+css: grid: {{c1::Define a grid's rows sizes and numbers}} with {{c2::grid-template-rows}}
+
+** grid-gap
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767648
+:END:
+
+*** Text
+
+css: grid: {{c1::Set a gap between the rows and columns}} with {{c2::grid-gap}}
+
+** grid-column
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767729
+:END:
+
+*** Text
+
+css: grid: {{c1::Control the number of columns an item takes}} with {{c2::grid-column}}
+
+** grid-row
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767795
+:END:
+
+*** Text
+
+css: grid: {{c1::Control the number of rows an item takes}} with {{c2::grid-row}}
+
+** grid-template-areas
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399767862
+:END:
+
+*** Text
+
+css: grid: {{c1::Define a grid area with named items}} with {{c2::grid-template-areas}}
+
+** grid-area
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630399768124
+:END:
+
+*** Text
+
+css: grid: {{c1::Specify which part of a grid area an item occupies}} with {{c2::grid-area}}
