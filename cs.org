@@ -194,8 +194,7 @@ arguments before applying the function}}
 
 ****** Extra
 
-*A* plicative order *A* pplies the *A* rguments first, and expands the function
-second.
+*A* plicative order *A* pplies the *A* rguments first, and then expands the function.
 
 ***** Normal Order
 :PROPERTIES:
