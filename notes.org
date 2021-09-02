@@ -6807,6 +6807,16 @@ Interesting article on the benefits and opportunities of being a jack of all tra
 :Source: https://www.benkuhn.net/hard/
 :Source+: https://news.ycombinator.com/item?id=28206991
 :END:
+*** DONE 50 Ideas That Changed My Life
+:PROPERTIES:
+:Source: https://perell.com/essay/50-ideas-that-changed-my-life/
+:Source+: https://news.ycombinator.com/item?id=23445944
+:END:
+*** DONE Invert, always, invert
+:PROPERTIES:
+:Source: https://www.anup.io/2020/07/20/invert-always-invert/
+:Source+: https://news.ycombinator.com/item?id=23905221
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
