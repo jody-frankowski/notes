@@ -228,13 +228,13 @@ into a sequence of functions that each takes a single argument}}
 
 **** Text
 
-haskell: {{c1::Partially apply infix functions}} by {{c2::enclosing the function in parentheses
-with only one argument}}
+haskell: {{c1::Partially apply infix functions}} by {{c2::enclosing the function in parentheses}}
 
-Example:
+Examples:
 
 #+BEGIN_SRC haskell
 divideByTen = {{c2::(/10)}}
+plus = {{c2::(+)}}
 #+END_SRC
 
 ** Higher order functions
