@@ -447,24 +447,13 @@ void test(int array[static 10])
 
 ***** Text
 
-c: You can tell the compiler that a function argument array {{c1::should have at
+c: You can tell the compiler that a function array argument {{c1::should have at
 least a specific size}}, by including the keyword {{c2::static}} in its
 declaration
 
 ***** Example
 
 void test(int array[static 10])
-
-**** Drill
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1626463252517
-:END:
-
-***** Text
-
-c: The following function declaration {{c1:: ~void test(int array[static X])~ }}
-tells the compiler that the {{c2::array must be at least X elements long}}
 
 *** Bit Fields
 **** Syntax
@@ -2580,7 +2569,7 @@ linux: cmd: {{c1::setfacl}} = set file acls
 
 ***** Text
 
-linux: cmd: {{c1::setfattr}} = {{c2::set file extended attributes}}
+linux: cmd: {{c1::setfattr}} = {{c2::set extended file attributes}}
 
 *** FS
 **** ACLs Through Extended Attributes
@@ -4379,7 +4368,7 @@ $ tic -x -o ~/.terminfo tmux-24bit.terminfo
 
 ****** Text
 
-cmd: unix: {{c1::infocmp}} shows {{c2::terminfos}}
+cmd: unix: {{c1::infocmp}} shows {{c2::the terminal terminfos}}
 
 ***** terminfo on Linux is termcap on BSDs
 :PROPERTIES:
