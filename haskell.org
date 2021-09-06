@@ -3,6 +3,8 @@
 
 * Learn You a Haskell for Great Good!
 :LOGBOOK:
+CLOCK: [2021-09-02 Thu 17:00]--[2021-09-02 Thu 18:00] =>  1:00
+CLOCK: [2021-09-02 Thu 12:15]--[2021-09-02 Thu 14:15] =>  2:00
 CLOCK: [2021-08-31 Tue 20:11]--[2021-08-31 Tue 22:11] =>  2:00
 CLOCK: [2021-08-31 Tue 14:47]--[2021-08-31 Tue 16:47] =>  2:00
 CLOCK: [2021-08-31 Tue 11:05]--[2021-08-31 Tue 13:05] =>  2:00
@@ -269,3 +271,13 @@ or foldr1}}
 
 haskell: {{c1::Fold a list while creating a new list with the accumulators}} with {{c2::scanl or
 scanr}}
+
+*** Function Composition
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1630931186682
+:END:
+
+**** Text
+
+haskell: {{c1::Compose two or more functions}} with {{c2::.}}
