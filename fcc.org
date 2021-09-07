@@ -400,7 +400,7 @@ css: flex: grid: {{c1::Set the order of the items}} with {{c2::order}}
 
 *** Text
 
-css: grid: {{c1::Define a grid's columns sizes and numbers}} with {{c2::grid-template-columns}}
+css: grid: {{c1::Define a grid's columns size and number}} with {{c2::grid-template-columns}}
 
 ** grid-template-rows
 :PROPERTIES:
@@ -410,7 +410,7 @@ css: grid: {{c1::Define a grid's columns sizes and numbers}} with {{c2::grid-tem
 
 *** Text
 
-css: grid: {{c1::Define a grid's rows sizes and numbers}} with {{c2::grid-template-rows}}
+css: grid: {{c1::Define a grid's rows size and number}} with {{c2::grid-template-rows}}
 
 ** grid-gap
 :PROPERTIES:
