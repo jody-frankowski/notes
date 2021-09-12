@@ -841,7 +841,7 @@ c: GCC does not inline functions when {{c1::optimizations are disabled}}
 ***** Text
 
 c: You can force GCC to inline a function even when there is no optimization
-with {{c2::__attribute__((always_inline))}}
+with {{c2:: ~__attribute__((always_inline))~ }}
 
 *** Lvalues and Rvalues
 :PROPERTIES:
