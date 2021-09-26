@@ -3469,7 +3469,7 @@ rfc: {{c1::2324}} aka {{c2::Hyper Text Coffee Pot Control Protocol}}
 
 ***** Text
 
-cs: {{c1::Preempting}} = {{c2::temporarily interrupting a task}}
+cs: {{c1::Preempting}} = {{c2::Temporarily interrupting a task}}
 
 *** SMP
 **** Acronym
