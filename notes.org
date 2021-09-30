@@ -4193,7 +4193,7 @@ $ echo $SHLVL
 
 ****** Text
 
-sh: The {{c1::SHLVL}} is {{c2::the depth of the current shell}}
+sh: The {{c1::SHLVL}} variable represents {{c2::the depth of the current shell}}
 
 **** Comparison Commands
 :PROPERTIES:
@@ -4222,7 +4222,7 @@ sh: {{c1::test}} is equivalent to {{c2:: ~[~ }}
 sh: ~[[~ supports these additional operators:
 - {{c1::&&}}
 - {{c1::||}}
-- {{c1::~~}}
+- {{c1::=~}}
 
 ***** [[
 ****** is Understood by
