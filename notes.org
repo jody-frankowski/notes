@@ -4557,7 +4557,7 @@ vim: {{c1::Format}} with {{c2::gq or gw::X or Y}}
 
 **** Text
 
-vim: The difference between ~gq~ and ~gw~ is that {{c1::~gw~ doesn't move the cursor}}
+vim: The difference between gq and gw is that {{c1::gw doesn't move the cursor}}
 
 *** Searching Forward the Whole Word Under of After the Cursor
 :PROPERTIES:
