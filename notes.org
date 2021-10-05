@@ -4303,7 +4303,7 @@ sh: Most shells will {{c1::execute text files}} even if {{c2::they don't have a 
 
 ****** Text
 
-sh: {{c1::${array:offset:length}}} is the syntax used to {{c2::access a subset of an array}}
+sh: {{c1:: ~${array:offset:length}~ }} is the syntax used to {{c2::access a subset of an array}}
 
 *** Terminal
 **** Capabilities
