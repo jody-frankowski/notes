@@ -6806,6 +6806,11 @@ Interesting article on the benefits and opportunities of being a jack of all tra
 :Source: https://www.anup.io/2020/07/20/invert-always-invert/
 :Source+: https://news.ycombinator.com/item?id=23905221
 :END:
+*** DONE 20 Things I’ve Learned in my 20 Years as a Software Engineer
+:PROPERTIES:
+:Source: https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/
+:Source+: https://news.ycombinator.com/item?id=28797485
+:END:
 *** Remote Work
 **** TODO https://doist.com/blog/remote-work-guides/
 ** Psychology
