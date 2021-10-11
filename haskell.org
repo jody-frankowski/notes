@@ -3,6 +3,11 @@
 
 * Learn You a Haskell for Great Good!
 :LOGBOOK:
+CLOCK: [2021-10-11 Mon 16:53]--[2021-10-11 Mon 18:53] =>  2:00
+CLOCK: [2021-10-11 Mon 13:29]--[2021-10-11 Mon 15:29] =>  2:00
+CLOCK: [2021-10-06 Wed 13:31]--[2021-10-06 Wed 15:31] =>  2:00
+CLOCK: [2021-10-04 Mon 17:02]--[2021-10-04 Mon 18:02] =>  1:00
+CLOCK: [2021-10-04 Mon 13:54]--[2021-10-04 Mon 15:54] =>  2:00
 CLOCK: [2021-09-02 Thu 17:00]--[2021-09-02 Thu 18:00] =>  1:00
 CLOCK: [2021-09-02 Thu 12:15]--[2021-09-02 Thu 14:15] =>  2:00
 CLOCK: [2021-08-31 Tue 20:11]--[2021-08-31 Tue 22:11] =>  2:00
@@ -172,6 +177,33 @@ max' a b
 #+END_SRC
 }}
 
+*** Defining Infix Functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972349640
+:END:
+
+**** Text
+
+haskell: {{c1::Define or call an infix function}} by {{c2::enclosing the function name in backticks}}
+
+Example:
+
+{{c2::
+#+BEGIN_SRC haskell
+myCompare :: (Ord a) => a -> a -> Ordering
+a `myCompare` b
+    | a > b     = GT
+    | a == b    = EQ
+    | otherwise = LT
+#+END_SRC
+
+#+BEGIN_SRC
+ghci> 3 `myCompare` 2
+GT
+#+END_SRC
+}}
+
 *** where Clause in Function
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
@@ -280,3 +312,75 @@ scanr}}
 **** Text
 
 haskell: {{c1::Compose two or more functions}} with {{c2::.}}
+
+** Making Our Own Types and Typeclasses
+*** Defining a Type
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972350631
+:END:
+
+**** Text
+
+haskell: Define the Bool type: {{c1:: ~data Bool = True | False~ }}
+
+*** Type Value Constructors
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972350803
+:END:
+
+**** Text
+
+haskell: In ~data Bool = True | False~, ~True~ and ~False~ are called {{c1::Value Constructors}}
+
+*** Defining a Type With Record Syntax
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972351110
+:END:
+
+**** Text
+
+haskell: Define a Person type with a first and last name and with record syntax:
+
+{{c1::
+#+BEGIN_SRC haskell
+data Person = Person { firstname :​: String
+                     , lastname :​: String
+                     } deriving (Show)
+#+END_SRC
+}}
+
+*** Type Constructors
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972351293
+:END:
+
+**** Text
+
+haskell: In ~data Maybe a = Nothing | Just a~, ~Maybe~ is called a {{c1::Type Constructor}}
+
+*** Type Alias
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972351444
+:END:
+
+**** Text
+
+haskell: Alias a type with {{c1:: ~type ALIAS = ORIGINAL_TYPE~ }}
+
+*** Either Type
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1633972351593
+:END:
+
+**** Text
+
+haskell: By convention, in the Either type, the errors use the {{c1::Left}} value constructor while
+the results use the {{c1::Right}} value constructor
+
+{{c1::Mnemonic: "right" also means "correct"}}
