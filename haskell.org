@@ -239,7 +239,6 @@ divideByTen = {{c2::(/10)}}
 plus = {{c2::(+)}}
 #+END_SRC
 
-** Higher order functions
 *** Fold
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
