@@ -185,11 +185,11 @@ max' a b
 
 **** Text
 
-haskell: {{c1::Define or call an infix function}} by {{c2::enclosing the function name in backticks}}
+haskell: Define or call an infix function by {{c1::enclosing the function name in backticks}}
 
 Example:
 
-{{c2::
+{{c1::
 #+BEGIN_SRC haskell
 myCompare :​: (Ord a) => a -> a -> Ordering
 a `myCompare` b
