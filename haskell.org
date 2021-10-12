@@ -191,7 +191,7 @@ Example:
 
 {{c2::
 #+BEGIN_SRC haskell
-myCompare :: (Ord a) => a -> a -> Ordering
+myCompare :​: (Ord a) => a -> a -> Ordering
 a `myCompare` b
     | a > b     = GT
     | a == b    = EQ
