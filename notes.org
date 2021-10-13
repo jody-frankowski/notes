@@ -4436,7 +4436,7 @@ unix: terminal: What does pressing the Control Key do?
 
 ****** Back
 
-It clears the 6th and 7th bits of the alphanumeric character pressed with.
+It clears the 6th and 7th bits of the character pressed with.
 
 ** Valgrind
 *** vgdb
