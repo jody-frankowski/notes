@@ -398,8 +398,8 @@ haskell: Define the Eq typeclass:
 {{c1::
 #+BEGIN_SRC haskell
 class Eq a where
-    (==) :: a -> a -> Bool
-    (/=) :: a -> a -> Bool
+    (==) :​: a -> a -> Bool
+    (/=) :​: a -> a -> Bool
     x == y = not (x /= y)
     x /= y = not (x == y)
 #+END_SRC
