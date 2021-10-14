@@ -384,3 +384,63 @@ haskell: By convention, in the Either type, the errors use the {{c1::Left}} valu
 the results use the {{c1::Right}} value constructor
 
 {{c1::Mnemonic: "right" also means "correct"}}
+
+*** Typeclass Example
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634204470620
+:END:
+
+**** Text
+
+haskell: Define the Eq typeclass:
+
+{{c1::
+#+BEGIN_SRC haskell
+class Eq a where
+    (==) :: a -> a -> Bool
+    (/=) :: a -> a -> Bool
+    x == y = not (x /= y)
+    x /= y = not (x == y)
+#+END_SRC
+}}
+
+*** Instance of Typeclass Example
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634204470750
+:END:
+
+**** Text
+
+haskell: Make ~data TrafficLight = Red | Yellow | Green~ an instance of the Eq typeclass:
+
+{{c1::
+#+BEGIN_SRC haskell
+instance Eq TrafficLight where
+    Red == Red = True
+    Green == Green = True
+    Yellow == Yellow = True
+    _ == _ = False
+#+END_SRC
+}}
+
+*** :i in GHCi
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634204470884
+:END:
+
+**** Text
+
+haskell: ghci: Get typeclasses functions and instances: {{c1:: ~:i TYPE|TYPECLASS~ }}
+
+*** :k in GHCi
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634204470984
+:END:
+
+**** Text
+
+haskell: ghci: Get the kind of a type: {{c1:: ~:k TYPE~ }}
