@@ -180,7 +180,7 @@ max' a b
 *** Defining Infix Functions
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1633972349640
+:ANKI_NOTE_ID: 1634124263624
 :END:
 
 **** Text
