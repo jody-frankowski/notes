@@ -433,7 +433,7 @@ instance Eq TrafficLight where
 
 **** Text
 
-haskell: ghci: Get typeclasses functions and instances: {{c1:: ~:i TYPE|TYPECLASS~ }}
+haskell: ghci: Get typeclasses' functions and instances: {{c1:: ~:i TYPE|TYPECLASS~ }}
 
 *** :k in GHCi
 :PROPERTIES:
