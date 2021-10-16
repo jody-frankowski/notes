@@ -779,7 +779,7 @@ math: x is the {{c1::identity element}} of f if {{c2::f(x, y) = y}}
 
 **** Text
 
-math: Two angles are {{c1::Supplementary}} if {{c2::their sum makes 180°}}
+math: Two angles are {{c1::Supplementary}} if {{c2::their sum is 180°}}
 
 *** Complementary Angles
 :PROPERTIES:
@@ -789,7 +789,7 @@ math: Two angles are {{c1::Supplementary}} if {{c2::their sum makes 180°}}
 
 **** Text
 
-math: Two angles are {{c1::Complementary}} if {{c2::their sum makes 90°}}
+math: Two angles are {{c1::Complementary}} if {{c2::their sum is 90°}}
 
 *** Similar Figures
 :PROPERTIES:
