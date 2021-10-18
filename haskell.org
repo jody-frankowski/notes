@@ -435,6 +435,27 @@ instance Eq TrafficLight where
 
 haskell: ghci: Get typeclasses' functions and instances: {{c1:: ~:i TYPE|TYPECLASS~ }}
 
+*** Functor in CS
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634566571508
+:END:
+
+**** Text
+
+cs: A Functor is a {{c1::type that can have a function applied to its value without changing the
+type}}
+
+*** Functor in Haskell
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634566571679
+:END:
+
+**** Text
+
+haskell: A Functor is a type that {{c1::implements the fmap method}}
+
 *** :k in GHCi
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
