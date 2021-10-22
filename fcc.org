@@ -402,26 +402,6 @@ css: flex: {{c1::Set the initial size of an item}} with {{c2::flex-basis}}
 
 css: flex: grid: {{c1::Set the order of the items}} with {{c2::order}}
 
-** grid-template-columns
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399767496
-:END:
-
-*** Text
-
-css: grid: {{c1::Define a grid's columns size and number}} with {{c2::grid-template-columns}}
-
-** grid-template-rows
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399767569
-:END:
-
-*** Text
-
-css: grid: {{c1::Define a grid's rows size and number}} with {{c2::grid-template-rows}}
-
 ** grid-gap
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
@@ -431,46 +411,6 @@ css: grid: {{c1::Define a grid's rows size and number}} with {{c2::grid-template
 *** Text
 
 css: grid: {{c1::Set a gap between the rows and columns}} with {{c2::grid-gap}}
-
-** grid-column
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399767729
-:END:
-
-*** Text
-
-css: grid: {{c1::Control the number of columns an item takes}} with {{c2::grid-column}}
-
-** grid-row
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399767795
-:END:
-
-*** Text
-
-css: grid: {{c1::Control the number of rows an item takes}} with {{c2::grid-row}}
-
-** grid-template-areas
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399767862
-:END:
-
-*** Text
-
-css: grid: {{c1::Define a grid area with named items}} with {{c2::grid-template-areas}}
-
-** grid-area
-:PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1630399768124
-:END:
-
-*** Text
-
-css: grid: {{c1::Specify which part of a grid area an item occupies}} with {{c2::grid-area}}
 
 * JavaScript Algorithms and Data Structures
 :LOGBOOK:
