@@ -494,3 +494,13 @@ Remove the last element of an array: {{c1::ARRAY.pop()}}
 Add an element at the beginning of an array: {{c1::ARRAY.unshift()}}
 
 Remove the first element of an array: {{c1::ARRAY.shift()}}
+
+** Delete Property From Object
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1634901879300
+:END:
+
+*** Text
+
+js: Remove a property from an object: {{c1::delete OBJECT.PROPERTY}}
