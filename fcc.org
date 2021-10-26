@@ -414,6 +414,8 @@ css: grid: {{c1::Set a gap between the rows and columns}} with {{c2::grid-gap}}
 
 * JavaScript Algorithms and Data Structures
 :LOGBOOK:
+CLOCK: [2021-10-25 Mon 17:39]--[2021-10-25 Mon 18:39] =>  1:00
+CLOCK: [2021-10-25 Mon 14:12]--[2021-10-25 Mon 16:12] =>  2:00
 CLOCK: [2021-10-21 Thu 14:07]--[2021-10-21 Thu 18:07] =>  4:00
 :END:
 
@@ -435,6 +437,10 @@ Add an element at the beginning of an array: {{c1::ARRAY.unshift()}}
 
 Remove the first element of an array: {{c1::ARRAY.shift()}}
 
+Concatenate two arrays: {{c1::ARRAY1.concat(ARRAY2)}}
+
+Convert an array to a list of arguments: {{c1::FUNC(...ARRAY)}}
+
 ** Delete Property From Object
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
@@ -444,3 +450,67 @@ Remove the first element of an array: {{c1::ARRAY.shift()}}
 *** Text
 
 js: Remove a property from an object: {{c1::delete OBJECT.PROPERTY}}
+
+** Best Practice: Use let or const
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1635245812696
+:END:
+
+*** Text
+
+js: best practice: Use ~let~ or ~const~ when possible
+
+** Object.freeze()
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1635245812811
+:END:
+
+*** Text
+
+js: Forbid any changes on an object: {{c1::Object.freeze(OBJECT)}}
+
+** Destructuring
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1635245812984
+:END:
+
+*** Text
+
+js:
+
+#+BEGIN_SRC javascript
+const person = { name: "Jody", age: 27}
+const user = { jody: { name: "Jody", age: 27 } }
+const array = [1, 2, 3, 4, 5]
+#+END_SRC
+
+Destructure ~person~ into two variables, ~name~ and ~age~: {{c1:: ~let { name, age } = person~ }}
+
+Destructure ~person~ into two variables, ~myName~ and ~myAge~: {{c1:: ~let { name: myName, age: myAge } = person~ }}
+
+Destructure ~user~ into two variables ~name~ and ~age~: {{c1:: ~let { jody: { name, age } } = user~ }}
+
+Destructure ~array~ into its first and second values and the rest: {{c1:: ~let [first, second, ...rest] = array~ }}
+
+** Export Functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1635245813122
+:END:
+
+*** Text
+
+js: Export functions: {{c1:: ~export { FUNC1, FUNC2 }~ }}
+
+** Import Functions
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1635245813230
+:END:
+
+*** Text
+
+js: Import functions: {{c1:: ~import * as myModule from './FILE.js'~ }}
