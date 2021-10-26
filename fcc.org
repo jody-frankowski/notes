@@ -453,8 +453,8 @@ js: Remove a property from an object: {{c1::delete OBJECT.PROPERTY}}
 
 ** Best Practice: Use let or const
 :PROPERTIES:
-:ANKI_NOTE_TYPE: Cloze
-:ANKI_NOTE_ID: 1635245812696
+:ANKI_NOTE_TYPE: Only Text
+:ANKI_NOTE_ID: 1635246277763
 :END:
 
 *** Text
