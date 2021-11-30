@@ -3365,7 +3365,7 @@ sh: Redirect both stdout and stderr to FILE with {{c1::'>FILE 2>&1' and not
 
 **** Text
 
-sh: The Tilde character {{c1::isn't}} expanded in double-quote strings
+sh: The Tilde character {{c1::isn't}} expanded in double-quoted strings
 
 ** Software Engineering
 *** EAFP  Acronym
