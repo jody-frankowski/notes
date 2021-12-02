@@ -441,7 +441,7 @@ Concatenate two arrays: {{c1::ARRAY1.concat(ARRAY2)}}
 
 Convert an array to a list of arguments: {{c1::FUNC(...ARRAY)}}
 
-** Delete Property From Object
+** Delete A Property From An Object
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
 :ANKI_NOTE_ID: 1634901879300
