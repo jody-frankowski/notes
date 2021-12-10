@@ -414,6 +414,9 @@ css: grid: {{c1::Set a gap between the rows and columns}} with {{c2::grid-gap}}
 
 * JavaScript Algorithms and Data Structures
 :LOGBOOK:
+CLOCK: [2021-12-03 Fri 14:17]--[2021-12-03 Fri 16:17] =>  2:00
+CLOCK: [2021-12-02 Thu 14:32]--[2021-12-02 Thu 16:32] =>  2:00
+CLOCK: [2021-12-01 Wed 16:58]--[2021-12-01 Wed 17:58] =>  1:00
 CLOCK: [2021-10-25 Mon 17:39]--[2021-10-25 Mon 18:39] =>  1:00
 CLOCK: [2021-10-25 Mon 14:12]--[2021-10-25 Mon 16:12] =>  2:00
 CLOCK: [2021-10-21 Thu 14:07]--[2021-10-21 Thu 18:07] =>  4:00
