@@ -482,7 +482,7 @@ js: Forbid any changes on an object: {{c1::Object.freeze(OBJECT)}}
 js:
 
 #+BEGIN_SRC javascript
-const person = { name: "Jody", age: 27}
+const person = { name: "Jody", age: 27 }
 const user = { jody: { name: "Jody", age: 27 } }
 const array = [1, 2, 3, 4, 5]
 #+END_SRC
