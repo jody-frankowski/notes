@@ -441,6 +441,19 @@ Concatenate two arrays: {{c1::ARRAY1.concat(ARRAY2)}}
 
 Convert an array to a list of arguments: {{c1::FUNC(...ARRAY)}}
 
+Get the index of an element: {{c1::ARRAY.indexOf(ELEMENT)}}
+
+** Access The Property Of An Object
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1639145363526
+:END:
+
+*** Text
+
+js: Access the property of an object with {{c1::OBJECT.PROPERTY}} or
+{{c1::OBJECT[PROPERTY]}}
+
 ** Delete A Property From An Object
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
@@ -514,3 +527,25 @@ js: Export functions: {{c1:: ~export { FUNC1, FUNC2 }~ }}
 *** Text
 
 js: Import functions: {{c1:: ~import * as myModule from './FILE.js'~ }}
+
+** Check That A Property Exists In An Object
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1639145363979
+:END:
+
+*** Text
+
+js: Check that a property exists in an object with {{c1::OBJECT.hasOwnProperty(PROPERTY)}} or
+{{c1::PROPERTY in OBJECT}}
+
+
+** Loop Through The Keys Of An Object
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1639145364030
+:END:
+
+*** Text
+
+js: Loop throught the keys of an object: {{c1:: ~for (let key in OBJECT) {...}~ }}
