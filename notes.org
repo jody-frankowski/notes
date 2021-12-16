@@ -5529,6 +5529,19 @@ The new JPEG XL format should be a universal format for pictures:
 - Legacy Friendly (lossless JPEG to JPEG XL conversion)
 - Responsive by Design
 
+** FP
+*** DONE Why Isn't Functional Programming the Norm? – Richard Feldman
+:PROPERTIES:
+:Source: https://youtu.be/QyJZzq0v7Z4
+:END:
+*** DONE What is a Monad? - Computerphile
+:PROPERTIES:
+:Source: https://youtu.be/t1e8gqXLbsU
+:END:
+*** DONE Functional Parsing - Computerphile
+:PROPERTIES:
+:Source: https://youtu.be/dDtZLm7HIJs
+:END:
 ** Fun
 *** DONE Coding Stories: Me vs. The VNC Guy
 :PROPERTIES:
