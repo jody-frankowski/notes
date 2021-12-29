@@ -469,7 +469,7 @@ type}}
 
 **** Text
 
-haskell: A Functor is a type that {{c1::implements the fmap method}}
+haskell: A Functor is a type that {{c1::implements the fmap function}}
 
 *** :k in GHCi
 :PROPERTIES:
