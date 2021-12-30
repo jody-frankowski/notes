@@ -2799,7 +2799,7 @@ Mode command and immediately returns to Insert Mode.
 
 **** Text
 
-vim: {{c1::*Center* the current line}} with {{c2::zz}}
+vim: {{c1::Center the current line}} with {{c2::zz}}
 
 ** Tip 15: Paste from a Register Without Leaving Insert Mode
 
