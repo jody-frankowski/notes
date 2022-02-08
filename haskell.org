@@ -490,3 +490,90 @@ haskell: A Functor is a type that {{c1::implements the fmap function}}
 **** Text
 
 haskell: ghci: Get the kind of a type: {{c1:: ~:k TYPE~ }}
+
+** Input and Output
+*** IO Actions in do Blocks
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249057
+:END:
+
+**** Text
+
+haskell: Read and print a string:
+
+{{c1::
+#+BEGIN_SRC haskell
+main = do
+  string <- getLine
+  putStrLn string
+#+END_SRC
+}}
+
+*** Result of a do Block
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249126
+:END:
+
+**** Text
+
+haskell: The result of a do block is the {{c1::result of the last action in the block}}
+
+*** Bind Monad To A Name
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249176
+:END:
+
+**** Text
+
+haskell: Bind a monad to a name: {{c1:: ~NAME <- IO_ACTION~ }}
+
+*** return
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249329
+:END:
+
+**** Text
+
+haskell: Inject a value in a monad: {{c1:: ~return VALUE~ }}
+
+*** let Bindings
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249399
+:END:
+
+**** Text
+
+haskell: Bind variables in ~do~ contexts:
+
+{{c1::
+#+BEGIN_SRC haskell
+main = do
+  let var1 = value
+      var2 = value
+#+END_SRC
+}}
+
+*** sequence
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249450
+:END:
+
+**** Text
+
+haskell: Transform a list of IO actions in a single IO action: {{c1::sequence [ACTION1, ACTION2]}}
+
+*** mapM
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1644232249530
+:END:
+
+**** Text
+
+haskell: Map a function over a list and sequence that list: {{c1::mapM FUNCTION LIST}}
