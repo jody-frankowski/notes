@@ -528,7 +528,7 @@ haskell: The result of a do block is the {{c1::result of the last action in the 
 
 **** Text
 
-haskell: Bind a monad to a name: {{c1:: ~NAME <- IO_ACTION~ }}
+haskell: Bind a monad to a name: {{c1:: ~NAME <- MONAD~ }}
 
 *** return
 :PROPERTIES:
