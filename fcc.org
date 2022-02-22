@@ -554,4 +554,4 @@ js: Check that a property exists in an object with {{c1::OBJECT.hasOwnProperty(P
 
 *** Text
 
-js: Loop throught the keys of an object: {{c1:: ~for (let key in OBJECT) {...}~ }}
+js: Loop through the keys of an object: {{c1:: ~for (let key in OBJECT) {...}~ }}
