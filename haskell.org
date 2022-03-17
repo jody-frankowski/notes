@@ -580,3 +580,68 @@ haskell: Transform a list of IO actions in a single IO action: {{c1::sequence [A
 **** Text
 
 haskell: Map a function over a list and sequence that list: {{c1::mapM FUNCTION LIST}}
+
+** Functors, Applicative Functors and Monoids
+*** Functor Laws
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557163666
+:END:
+
+**** Text
+
+haskell: The functor laws are:
+{{c1::
+- fmap id FUNCTOR = id FUNCTOR
+- fmap (f . g) FUNCTOR = fmap f (fmap g FUNCTOR)
+}}
+
+*** Applicative
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557163773
+:END:
+
+**** Text
+
+haskell: An applicative is a type that {{c1::implements pure and <*>}}
+
+*** <*>
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557163847
+:END:
+
+**** Text
+
+haskell: {{c1::Apply a function in an applicative to a value in an applicative}} = {{c2::<*>}}
+
+*** <$>
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557163926
+:END:
+
+**** Text
+
+haskell: {{c1::f <$> x}} = {{c2::fmap f x}}
+
+*** (,)
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557164196
+:END:
+
+**** Text
+
+haskell: {{c1::(,)}} = {{c2::\x y -> (x,y)}}
+
+*** liftA2
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:ANKI_NOTE_ID: 1647557165004
+:END:
+
+**** Text
+
+haskell: {{c1::liftA2 f x y}} = {{c2::(<*>) (fmap f x) y}}
