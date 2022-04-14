@@ -655,7 +655,7 @@ haskell: {{c1::liftA2 f x y}} = {{c2::(fmap f x) <*> y}}
 
 **** Text
 
-haskell: A moinoid is a type that implements {{c1::mempty, mappend and mconcat}}
+haskell: A monoid is a type that implements {{c1::mempty, mappend and mconcat}}
 
 *** Monoid Laws
 :PROPERTIES:
