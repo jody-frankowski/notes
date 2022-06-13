@@ -6869,6 +6869,19 @@ ones, new, quantum-computing safe primitives can be used by this time.
 **** DONE https://www.youtube.com/watch?v=oHf1vD5_b5I DEF CON 22 - Deviant Ollam & Howard Payne - Elevator Hacking - From the Pit to the Penthouse
 *** Reverse Engineering (RE)
 **** TODO https://safiire.github.io/blog/2017/08/19/solving-danish-defense-intelligence-puzzle/
+*** Social Engineering (SE)
+**** DONE DEF CON 24 SE Village - Chris Hadnagy - 7 Jedi Mind Tricks: Influence Your Target without a Word
+:PROPERTIES:
+:Source: https://youtu.be/VFnCRVWBISY
+:END:
+**** DONE DEFCON 17: Stealing Profits from Spammers or: How I learned to Stop Worrying and Love the Spam
+:PROPERTIES:
+:Source: https://youtu.be/ytDamqTjPwg
+:END:
+**** DONE DEF CON 24 SE Village - James Powell - You Are Being Manipulated
+:PROPERTIES:
+:Source: https://youtu.be/hL-6uRfoGvU
+:END:
 *** Steganography
 **** DONE https://web.archive.org/web/20190914104112/https://vimist.github.io/2019/01/30/Steganographic-Packets.html https://github.com/vimist/packet_differential_encoding
 
