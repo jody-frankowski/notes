@@ -6989,6 +6989,33 @@ ID spoofing is still a thing.
 :Source: https://blog.thinkst.com/p/if-nsa-has-been-hacking-everything-how.html
 :Source+: https://news.ycombinator.com/item?id=24139828
 :END:
+*** DONE Black Hat USA 2013 - OPSEC failures of spies
+:PROPERTIES:
+:Source: https://youtu.be/BwGsr3SzCZc
+:END:
+
+How simple cell towers data and a little more helped reveal a CIA operation and its operators.
+
+*** DONE When Cybercriminals with Good OpSec Attack
+:PROPERTIES:
+:Source: https://youtu.be/zXmZnU2GdVk
+:END:
+*** DONE Mobile Network Hacking, IP Edition
+:PROPERTIES:
+:Source: https://youtu.be/zXmZnU2GdVk
+:END:
+
+Proof of Concept attacks on RCS.
+
+*** DONE SMS phishing is way too easy
+:PROPERTIES:
+:Source: https://www.bejarano.io/sms-phishing/
+:Source+: https://news.ycombinator.com/item?id=31862994
+:END:
+
+The SMS' Sender ID can be set to an arbitrary value and should not be used to check if a message
+comes from an authentic source.
+
 ** Shell
 *** https://web.archive.org/web/20190914105521/https://dwheeler.com/essays/filenames-in-shell.html
 *** https://web.archive.org/web/20190914110211/http://mywiki.wooledge.org/BashFAQ/031 What is the difference between test, [ and [[ ?
