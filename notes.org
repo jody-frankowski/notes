@@ -7209,3 +7209,19 @@ Empathy is key.
 ** WebAssembly
 *** DONE https://www.youtube.com/watch?v=CMB6AlE1QuI Rust, WebAssembly, and the future of Serverless by Steve Klabnik
 *** DONE https://www.youtube.com/watch?v=fh9WXPu0hw8 Bringing WebAssembly outside the web with WASI by Lin Clark
+** Web
+*** DONE Body Margin 8px
+:PROPERTIES:
+:Source: https://www.miriamsuzanne.com/2022/07/04/body-margin-8px/
+:Source+: https://news.ycombinator.com/item?id=32012171
+:END:
+
+The user agent stylesheets in browsers (as recommended by the W3C) set the body's margin to 8px.
+The origin of this setting actually dates back to the default settings of the Mosaic browser. It
+most certainly comes from the fact that the web was at first designed to be used for sharing
+scientific articles.
+
+#+BEGIN_QUOTE
+The Mosaic browser’s allegedly “neutral” default stylesheet is a simple adaptation of the normative
+style for (printed) scientific writings in Europe.
+#+END_QUOTE
