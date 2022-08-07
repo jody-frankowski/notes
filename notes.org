@@ -6884,6 +6884,15 @@ ones, new, quantum-computing safe primitives can be used by this time.
 :END:
 *** Steganography
 **** DONE https://web.archive.org/web/20190914104112/https://vimist.github.io/2019/01/30/Steganographic-Packets.html https://github.com/vimist/packet_differential_encoding
+*** Vulnerabilities
+**** DONE IP leak affecting VPN providers with port forwarding
+:PROPERTIES:
+:Source: https://www.perfect-privacy.com/en/blog/ip-leak-vulnerability-affecting-vpn-providers-with-port-forwarding
+:Source+: https://web.archive.org/web/20220807153918/https://www.perfect-privacy.com/en/blog/ip-leak-vulnerability-affecting-vpn-providers-with-port-forwarding
+:END:
+
+A routing error allows an attacker that uses the same VPN as a victim to exploit the port forwarding
+system to reveal the victim's public IP address.
 
 *** https://github.com/lfit/itpol Useful IT Policies
 *** https://web.archive.org/web/20190914111513/https://techsolidarity.org/resources/basic_security.htm Basic security precautions for non-profits and journalists in the United States, early 2019.
