@@ -3,11 +3,9 @@
 
 * Checklists
 ** Project
-
-- [ ] Unit tests
-- [ ] Integration tests
-- [ ] Implementation rationales in docs/notes
-
+*** Unit tests
+*** Integration tests
+*** Implementation rationales in docs/notes
 * CS
 ** Android
 *** Bionic
