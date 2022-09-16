@@ -5342,6 +5342,8 @@ Seemingly innocent difference, like code layout, can actually have a big impact 
 
 *** This World of Ours https://www.usenix.org/publications/login-logout/january-2014-login-logout/mickens
 *** When Coding Style Survives Compilation: De-anonymizing Programmers from Executable Binaries https://arxiv.org/abs/1512.08546
+*** ETHERLED: Sending Covert Morse Signals from Air-Gapped Devices via Network Card (NIC) LEDs https://arxiv.org/abs/2208.09975
+*** SATAn: Air-Gap Exfiltration Attack via Radio Signals From SATA Cables https://arxiv.org/abs/2207.07413
 ** Crawling / Scraping
 *** DONE Crawling through HTML forms
 :PROPERTIES:
@@ -5447,6 +5449,15 @@ then higher when he needed to scale more.
 :Source: https://youtu.be/HrVtA-ue-x0
 :Source+: https://news.ycombinator.com/item?id=28178257
 :END:
+*** DONE Falsehoods programmers believe about “Falsehoods programmers believe about” lists
+:PROPERTIES:
+:Source: https://web.archive.org/web/20220916095827/https://beesbuzz.biz/blog/1520-Falsehoods-programmers-believe-about-Falsehoods-programmers-believe-about-lists
+:END:
+*** DONE The story of the first "computer bug"... is a pile of lies.
+:PROPERTIES:
+:Source: https://web.archive.org/web/20220916100055/https://lunduke.substack.com/p/the-story-of-the-first-computer-bug
+:Source+: https://web.archive.org/web/20220916100050/https://news.ycombinator.com/item?id=32517566
+:END:
 ** Data Science
 *** DONE My Journey: From Psych Grad to VP of Data Science at Lazada
 :PROPERTIES:
@@ -5458,6 +5469,11 @@ then higher when he needed to scale more.
 :PROPERTIES:
 :Source: https://cloud.google.com/blog/topics/inside-google-cloud/google-cloud-support-engineer-solves-a-tough-dns-case
 :Source+: https://news.ycombinator.com/item?id=23235995
+:END:
+** Email
+*** DONE Falsehoods programmers believe about email
+:PROPERTIES:
+:Source: https://web.archive.org/web/20220916095623/https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email
 :END:
 ** Engineering
 *** DONE I could do that in a weekend!
@@ -5789,6 +5805,14 @@ ROM. AES-only boot bit blown.
 :Source: https://medium.com/swlh/apples-m1-secret-coprocessor-6599492fc1e1
 :Source+: https://news.ycombinator.com/item?id=25801500
 :END:
+*** DONE Google is building custom silicon for YouTube video transcoding
+:PROPERTIES:
+:Source: https://web.archive.org/web/20220916095347/https://www.techspot.com/news/89468-google-building-custom-silicon-youtube-video-transcoding.html
+:END:
+*** DONE The end of Moore's law forced YouTube to make its own video chip
+:PROPERTIES:
+:Source: https://web.archive.org/web/20220916095951/https://www.techspot.com/news/95774-end-moore-law-forced-youtube-make-own-video.html
+:END:
 ** Historical
 *** DONE https://www.youtube.com/watch?v=H62hZJVqs2o "Uptime 15,364 days - The Computers of Voyager" by Aaron Cummings
 - Voyager 1 and 2 are still up and running
@@ -5839,6 +5863,11 @@ to avoid data exfiltration.
 **** https://utcc.utoronto.ca/~cks/space/blog/unix/NoSwapConsequence https://news.ycombinator.com/item?id=20641551
 **** https://web.archive.org/web/20190914110631/https://chrisdown.name/2018/01/02/in-defence-of-swap.html In defence of swap: common misconceptions
 *** https://twobithistory.org/2019/08/22/readline.html https://news.ycombinator.com/item?id=20772053 Things You Didn't Know About GNU Readline
+*** DONE What does it mean to listen on a port?
+:PROPERTIES:
+:Source: https://paulbutler.org/2022/what-does-it-mean-to-listen-on-a-port/
+:Source+: https://news.ycombinator.com/item?id=30323865
+:END:
 ** Math
 *** DONE https://www.youtube.com/watch?v=Dp-mQ3HxgDE https://news.ycombinator.com/item?id=21200721
 - We need to use software to help formalize and prove
@@ -6478,6 +6507,15 @@ Check your answers back to front to give your brain a fresh perspective.
 
 ** Performance/Optimization
 *** DONE https://www.facebook.com/notes/facebook-engineering/three-optimization-tips-for-c/10151361643253920/
+*** DONE How Discord Supercharges Network Disks for Extreme Low Latency
+:PROPERTIES:
+:Source: https://discord.com/blog/how-discord-supercharges-network-disks-for-extreme-low-latency
+:Source+: https://news.ycombinator.com/item?id=32474093
+:END:
+
+Discord uses Linux's md to setup faster disks as a non-highly-available cache to slower highly
+available and backuped disks.
+
 ** Personal Development
 *** TODO https://guzey.com/productivity/ https://news.ycombinator.com/item?id=20737304 Every productivity thought I've ever had, as concisely as possible
 *** TODO https://www.lesswrong.com/posts/P3zrurj5hHKFKDL3M/productivity-working-towards-a-summary-of-what-we-know
@@ -7027,6 +7065,15 @@ comes from an authentic source.
 *** https://web.archive.org/web/20190914105521/https://dwheeler.com/essays/filenames-in-shell.html
 *** https://web.archive.org/web/20190914110211/http://mywiki.wooledge.org/BashFAQ/031 What is the difference between test, [ and [[ ?
 *** https://web.archive.org/web/20190914110330/http://mywiki.wooledge.org/BashFAQ/105 Why doesn't set -e (or set -o errexit, or trap ERR) do what I expected?
+
+*** DONE GoGaRuCo 2010 - The Shell Hater's Handbook by: Ryan Tomayko
+:PROPERTIES:
+:Source: https://www.youtube.com/watch?v=olH-9b3VJfs
+:Source+: https://news.ycombinator.com/item?id=32521080
+:END:
+
+Good reminder of how the shell works and was primarily designed to execute commands, even though it
+sometimes mimics general-purpose programming languages.
 
 ** Social
 *** DONE Trying to sneak in a sketchy .so over the weekend
