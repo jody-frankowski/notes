@@ -2,6 +2,24 @@
 #+PROPERTY: ANKI_DECK Notes
 
 * Checklists
+** Archiving
+*** Links
+**** https://suchanek.name/texts/archiving/
+** Image
+*** Optimization
+**** Recommended image settings
+***** 300 ppi. For very important documents, 600 ppi can be used.
+***** Use PNG for maximum compatibility or WEBP better compression with reasonable support
+**** Losslessly convert PNG to WEBP with =cwebp -lossless PNG -o WEBP=
+**** Optimize JPG with =jpegtran -copy none -optimize -progressive -outfile OUTPUT FILE= https://github.com/mozilla/mozjpeg
+**** Optimize PNG with =pingo -sa -strip FILE= or =ect -9 --allfilters-b --pal_sort=120 -strip FILE= or zopflipng
+**** Optimize PDF with =pdfsizeopt --do-double-check-type1c-output=yes --use-image-optimizer=ECT --use-jbig2=true FILE= https://github.com/pts/pdfsizeopt
+**** Use https://trimage.org/ on Linux
+**** Use https://imageoptim.com/ on macOS
+**** If a JPG needs to be compressed further and has no need for instant access, use https://github.com/google/brunsli
+**** Links
+***** https://www.pixelz.com/blog/guetzli-mozjpeg-comparison/
+***** https://github.com/funbox/optimizt Interesting but the lossless mode isn't truely lossless
 ** Project
 *** Unit tests
 *** Integration tests
