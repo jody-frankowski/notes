@@ -5458,6 +5458,15 @@ then higher when he needed to scale more.
 :Source: https://web.archive.org/web/20220916100055/https://lunduke.substack.com/p/the-story-of-the-first-computer-bug
 :Source+: https://web.archive.org/web/20220916100050/https://news.ycombinator.com/item?id=32517566
 :END:
+*** DONE The Unix Koans of Master Foo
+:PROPERTIES:
+:Source: https://web.archive.org/web/20221024131654/http://www.catb.org/~esr/writings/unix-koans/index.html
+:END:
+*** DONE YAGNI exceptions
+:PROPERTIES:
+:Source: https://web.archive.org/web/20221023143658/https://lukeplant.me.uk/blog/posts/yagni-exceptions/
+:Source+: https://web.archive.org/web/20221024001358/https://news.ycombinator.com/item?id=33230216
+:END:
 ** Data Science
 *** DONE My Journey: From Psych Grad to VP of Data Science at Lazada
 :PROPERTIES:
@@ -5511,6 +5520,11 @@ career the raises are more likely to reflect real-world performance.
 :PROPERTIES:
 :Source: https://www.tbray.org/ongoing/When/202x/2020/07/05/Too-Efficient
 :Source+: https://news.ycombinator.com/item?id=23809291
+:END:
+*** DONE How much does employee turnover really cost?
+:PROPERTIES:
+:Source: https://medium.com/resources-for-humans/how-much-does-employee-turnover-really-cost-d61df5eed151
+:Source+: https://web.archive.org/web/20220928114550/https://medium.com/resources-for-humans/how-much-does-employee-turnover-really-cost-d61df5eed151
 :END:
 ** Erlang
 *** The Zen of Erlang
@@ -7060,6 +7074,15 @@ Proof of Concept attacks on RCS.
 
 The SMS' Sender ID can be set to an arbitrary value and should not be used to check if a message
 comes from an authentic source.
+
+*** DONE TrueCrypt's Plausible Deniability is Theoretically Useless
+:PROPERTIES:
+:Source: https://defuse.ca/truecrypt-plausible-deniability-useless-by-game-theory.htm
+:Source+: https://web.archive.org/web/20221009185450/https://defuse.ca/truecrypt-plausible-deniability-useless-by-game-theory.htm
+:END:
+
+Analysis of how a plausible deniability system could be useless in some cases, particularly when
+facing an unscrupulous actor.
 
 ** Shell
 *** https://web.archive.org/web/20190914105521/https://dwheeler.com/essays/filenames-in-shell.html
