@@ -7187,6 +7187,11 @@ TDD can sometimes lead to bad design decisions.
 :Source: https://danuker.go.ro/the-grand-unified-theory-of-software-architecture.html
 :Source+: https://news.ycombinator.com/item?id=24915497
 :END:
+*** DONE Always use [closed, open) intervals
+:PROPERTIES:
+:Source: https://fhur.me/posts/always-use-closed-open-intervals
+:Source+: https://web.archive.org/web/20221122161606/https://fhur.me/posts/always-use-closed-open-intervals
+:END:
 ** Supercomputing
 *** DONE https://builtin.com/hardware/supercomputers
 
