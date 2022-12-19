@@ -4251,7 +4251,7 @@ sh: ~[[~ supports these additional operators:
 
 sh: [[ is understood by {{c1::Bash}}, {{c1::Ksh}} and {{c1::Zsh}}
 
-****** does Regex Matching
+****** does Pattern Matching
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
 :ANKI_NOTE_ID: 1626463284242
@@ -4259,7 +4259,16 @@ sh: [[ is understood by {{c1::Bash}}, {{c1::Ksh}} and {{c1::Zsh}}
 
 ******* Text
 
-sh: [[: {{c1::=~}} does {{c2::regex matching}}
+sh: [[: {{c1::==}} does {{c2::pattern matching}}
+
+****** does Extended Regex Matching
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Cloze
+:END:
+
+******* Text
+
+sh: [[: {{c1::=~}} does {{c2::extended regex matching}}
 
 ****** -eq
 :PROPERTIES:
