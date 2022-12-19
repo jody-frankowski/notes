@@ -24,6 +24,17 @@
 *** Unit tests
 *** Integration tests
 *** Implementation rationales in docs/notes
+** Computer/Server
+*** Performance
+**** Enable noatime or at least relatime to improve filesystem performance
+*** Privacy
+**** Use dnscrypt-proxy :performance:
+
+Set with at least two providers (for redundancy) with DNSSEC and DNS-over-HTTPS. With two servers
+and caching, it should handle most cases of DNS servers failure. Make sure that
+chrome/chromium/firefox use the system resolver (dnscrypt-proxy). If not, they may cache dns answers
+themselves (on top of dnscrypt-proxy).
+
 * CS
 ** Android
 *** Bionic
