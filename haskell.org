@@ -206,7 +206,7 @@ max' a b
 #+END_SRC
 }}
 
-*** Defining Infix Functions
+*** Using Prefix Functions with Infix Notation
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
 :ANKI_NOTE_ID: 1634124263624
@@ -214,11 +214,12 @@ max' a b
 
 **** Text
 
-haskell: Define or call an infix function by {{c1::enclosing the function name in backticks}}
+haskell: {{c1::Define or use prefix functions with infix notation}} by {{c2::enclosing the function
+in backticks}}
 
-Example:
+Examples:
 
-{{c1::
+{{c2::
 #+BEGIN_SRC haskell
 myCompare :​: (Ord a) => a -> a -> Ordering
 a `myCompare` b
@@ -283,7 +284,7 @@ case EXPRESSION of PATTERN -> RESULT
 cs: {{c1::Currying}} is {{c2::the technique of converting a function that takes multiple arguments
 into a sequence of functions that each takes a single argument}}
 
-*** Partially Apply Infix Functions
+*** Using Infix Functions with Prefix Notation
 :PROPERTIES:
 :ANKI_NOTE_TYPE: Cloze
 :ANKI_NOTE_ID: 1630250860959
@@ -291,7 +292,8 @@ into a sequence of functions that each takes a single argument}}
 
 **** Text
 
-haskell: {{c1::Partially apply infix functions}} by {{c2::enclosing the function in parentheses}}
+haskell: {{c1::Partially apply or use infix functions with prefix notation}} by {{c2::enclosing the
+function in parentheses}}
 
 Examples:
 
