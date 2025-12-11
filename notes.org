@@ -5,27 +5,50 @@
 ** Archiving
 *** Links
 **** https://suchanek.name/texts/archiving/
-** Image
-*** Optimization
-**** Recommended image settings
-***** 300 ppi. For very important documents, 600 ppi can be used.
-***** Use PNG for maximum compatibility or WEBP better compression with reasonable support
-**** Losslessly convert PNG to WEBP with =cwebp -lossless PNG -o WEBP=
-**** Optimize JPG with =jpegtran -copy none -optimize -progressive -outfile OUTPUT FILE= https://github.com/mozilla/mozjpeg
-**** Optimize PNG with =pingo -sa -strip FILE= or =ect -9 --allfilters-b --pal_sort=120 -strip FILE= or zopflipng
-**** Optimize PDF with =pdfsizeopt --do-double-check-type1c-output=yes --use-image-optimizer=ECT --use-jbig2=true FILE= https://github.com/pts/pdfsizeopt
-**** Use https://trimage.org/ on Linux
-**** Use https://imageoptim.com/ on macOS
-**** If a JPG needs to be compressed further and has no need for instant access, use https://github.com/google/brunsli
-**** Links
-***** https://www.pixelz.com/blog/guetzli-mozjpeg-comparison/
-***** https://github.com/funbox/optimizt Interesting but the lossless mode isn't truely lossless
+**** https://github.com/fhanau/efficient-compression-tool
+*** Compression
+**** Image
+***** Links
+****** https://jpegxl.info/resources/battle-of-codecs.html
+****** https://www.pixelz.com/blog/guetzli-mozjpeg-comparison/
+****** https://github.com/funbox/optimizt Interesting but the lossless mode isn't truely lossless
+***** Optimization
+****** Recommended image settings
+******* 300 ppi. For very important documents, 600 ppi can be used.
+******* Use PNG for maximum compatibility or WEBP better compression with reasonable support
+****** Losslessly convert PNG to WEBP with =cwebp -lossless PNG -o WEBP=
+****** Optimize JPG with =jpegtran -copy none -optimize -progressive -outfile OUTPUT FILE= https://github.com/mozilla/mozjpeg
+****** Optimize PNG with =pingo -sa -strip FILE= or =ect -9 --allfilters-b --pal_sort=120 -strip FILE= or zopflipng
+****** Optimize PDF with =pdfsizeopt --do-double-check-type1c-output=yes --use-image-optimizer=ECT --use-jbig2=true FILE= https://github.com/pts/pdfsizeopt
+****** Use https://trimage.org/ on Linux
+****** Use https://imageoptim.com/ on macOS
+****** If a JPG needs to be compressed further and has no need for instant access, use https://github.com/google/brunsli
+**** Multiple Files Archives
+***** For very large support and optimised compression: zip + zopfli
+***** For large support and better compression: 7z
+***** If large support is not required: zpaq
+****** Deduplication
+****** Incremental updates that only appends data at the end of the archive (7z modifies the file header)
+**** Text Files: zstd
+***** Large support
+***** Very fast compression and even faster decompression
+***** Perfect for text
 ** Project
 *** Unit tests
 *** Integration tests
 *** Implementation rationales in docs/notes
+*** Formatter & Linter Configuration
+**** pre-commit hook
+*** Static Analysis Tools
+**** https://github.com/analysis-tools-dev/static-analysis
+*** Dev
+**** TS
+***** Set https://www.typescriptlang.org/tsconfig/#strict (Enabled by default with =deno=)
+***** Set https://www.typescriptlang.org/tsconfig/#noImplicitOverride (Not enabled by default in =strict= mode)
+***** Use https://typescript-eslint.io/rules/explicit-member-accessibility/ ?
 ** Computer/Server
 *** Performance
+**** Enable http/3 with the HTTPS DNS resource record
 **** Enable noatime or at least relatime to improve filesystem performance
 *** Privacy
 **** Use dnscrypt-proxy :performance:
@@ -35,6 +58,9 @@ and caching, it should handle most cases of DNS servers failure. Make sure that
 chrome/chromium/firefox use the system resolver (dnscrypt-proxy). If not, they may cache dns answers
 themselves (on top of dnscrypt-proxy).
 
+*** Security
+**** Tools
+***** https://github.com/crowdsecurity/crowdsec
 * CS
 ** Android
 *** Bionic
@@ -4340,6 +4366,30 @@ sh: Most shells will {{c1::execute text files}} even if {{c2::they don't have a 
 ****** Text
 
 sh: {{c1:: ~${array:offset:length}~ }} is the syntax used to {{c2::access a subset of an array}}
+
+**** Bash vs Zsh
+***** Redirect stdout to a file and stderr to the pipe
+
+With Zsh, this will redirect stdout to the file and to the pipe because of
+https://zsh.sourceforge.io/Doc/Release/Redirection.html#Multios:
+#+BEGIN_SRC shell
+cmd 2>&1 >file | cmd
+#+END_SRC
+
+Instead use:
+#+BEGIN_SRC shell
+cmd 2>&1 >&- >file | cmd
+#+END_SRC
+
+The following will also work, but you won't be able to pipe this without also duplicating stdout:
+#+BEGIN_SRC shell
+cmd 2> >(cmd) >/dev/null
+#+END_SRC
+
+Example:
+#+BEGIN_SRC shell
+(echo stdout; echo stderr >&2) 2>&1 >&- >/dev/null | rg -v stderr
+#+END_SRC
 
 *** Terminal
 **** Capabilities
